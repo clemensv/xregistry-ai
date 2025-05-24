@@ -1,0 +1,10 @@
+[
+  {
+    "id": "contoso.com/reimbursement",
+    "xid": "contoso.com/reimbursement",
+    "provider": "contoso.com",
+    "resource": "reimbursement",
+    "name": "Reimbursement Agent",
+    "description": "Reimbursement Agent. Handles employee expense reimbursement processing."
+  }
+]

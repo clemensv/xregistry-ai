@@ -1,0 +1,119 @@
+{
+  "groups": {
+    "codeassistanceproviders": {
+      "plural": "codeassistanceproviders",
+      "singular": "codeassistanceprovider",
+      "description": "Code Assistance Protocol (CAP) provider organizations",
+      "resources": {
+        "assistants": {
+          "plural": "assistants",
+          "singular": "assistant",
+          "description": "Code assistance implementations",
+          "maxversions": 0,
+          "hasdocument": true,
+          "attributes": {
+            "name": {
+              "name": "name",
+              "type": "string",
+              "required": true,
+              "description": "Name of the code assistant"
+            },
+            "description": {
+              "name": "description", 
+              "type": "string",
+              "description": "Description of the assistant's capabilities"
+            },
+            "version": {
+              "name": "version",
+              "type": "string",
+              "required": true,
+              "description": "Version of the assistant"
+            },
+            "languages": {
+              "name": "languages",
+              "type": "array",
+              "description": "Supported programming languages",
+              "item": {
+                "type": "string"
+              }
+            },
+            "capabilities": {
+              "name": "capabilities",
+              "type": "array",
+              "description": "Assistant capabilities",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "name": {
+                    "name": "name",
+                    "type": "string",
+                    "required": true,
+                    "description": "Capability name"
+                  },
+                  "description": {
+                    "name": "description",
+                    "type": "string",
+                    "description": "Capability description"
+                  },
+                  "enabled": {
+                    "name": "enabled",
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Whether capability is enabled"
+                  }
+                }
+              }
+            },
+            "configuration": {
+              "name": "configuration",
+              "type": "object",
+              "description": "Configuration parameters",
+              "attributes": {
+                "api_endpoint": {
+                  "name": "api_endpoint",
+                  "type": "url",
+                  "description": "API endpoint URL"
+                },
+                "model": {
+                  "name": "model",
+                  "type": "string",
+                  "description": "AI model identifier"
+                },
+                "max_tokens": {
+                  "name": "max_tokens",
+                  "type": "integer",
+                  "description": "Maximum tokens for responses"
+                }
+              }
+            },
+            "repo_ref": {
+              "name": "repo_ref",
+              "type": "string",
+              "description": "Repository reference for the assistant"
+            },
+            "remotes": {
+              "name": "remotes",
+              "type": "array",
+              "description": "Source code hosting locations",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "transporttype": {
+                    "name": "transporttype",
+                    "type": "string",
+                    "description": "Transport type of the remote"
+                  },
+                  "url": {
+                    "name": "url",
+                    "type": "url",
+                    "description": "URL of the remote"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 

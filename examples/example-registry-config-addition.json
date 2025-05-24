@@ -1,0 +1,15 @@
+{
+  "comment": "Add this entry to the 'models' section of xreg/registry-config.json",
+  "code-assistance": {
+    "name": "Code Assistance Protocol (CAP)",
+    "description": "Protocol for code assistance and AI-powered development tools",
+    "groupSingular": "codeassistanceprovider",
+    "groupPlural": "codeassistanceproviders",
+    "resourceSingular": "assistant",
+    "resourcePlural": "assistants",
+    "manifestFile": "cap-assistant.json",
+    "hasDocument": true,
+    "issueTitle": "Registry submission for Code Assistance Protocol",
+    "issueAbout": "File this issue when you want to add a new Code Assistant to the registry"
+  }
+} 
