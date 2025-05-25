@@ -79,12 +79,16 @@ console.log("✅ Octokit initialized");
       process.exit(1);
     }
 
+    console.log("🔍 Fetching issue details...");
     const { data: issue } = await octokit.rest.issues.get({
       owner,
       repo,
       issue_number,
     });
+    console.log("✅ Issue fetched successfully");
+    
     const issueAuthor = issue.user.login;
+    console.log("✅ Issue author:", issueAuthor);
 
     const extractYamlBlock = (text) => {
       if (!text) return null;
@@ -100,17 +104,26 @@ console.log("✅ Octokit initialized");
       return null;
     };
 
+    console.log("🔍 Extracting YAML from issue body...");
     let yamlSource = extractYamlBlock(issue.body);
+    console.log("✅ YAML extraction result:", yamlSource ? "Found" : "Not found");
+    
     if (!yamlSource) {
+      console.log("🔍 Checking comments for YAML...");
       const comments = await octokit.paginate(octokit.rest.issues.listComments, {
         owner,
         repo,
         issue_number,
       });
+      console.log("✅ Comments fetched, count:", comments.length);
+      
       for (const comment of comments) {
         if (comment.user.login === issueAuthor) {
           yamlSource = extractYamlBlock(comment.body);
-          if (yamlSource) break;
+          if (yamlSource) {
+            console.log("✅ YAML found in comment");
+            break;
+          }
         }
       }
     }
