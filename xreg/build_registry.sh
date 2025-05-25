@@ -172,16 +172,35 @@ else
 fi
 cd "$REPO_ROOT"
 
-# Build the Angular app
-echo "Building the Angular app..."
-BUILD_OUTPUT="dist/xregistry-viewer"
-cd "$SITE_DIR"
-if [ -f "package.json" ]; then
-  npm install 
-  npm run build-prod -- --base-href="$GITHUB_PAGES_URL"
-fi
+# Skip Angular app build for now - deploy registry data directly
+echo "Preparing static registry site..."
+BUILD_OUTPUT="public/registry"
 
-# Stage the build output into the 'static-site' branch
+# Create a simple root index.html that redirects to the registry
+mkdir -p "$SITE_DIR/public"
+cat > "$SITE_DIR/public/index.html" << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xRegistry AI</title>
+    <meta http-equiv="refresh" content="0;url=./registry/">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>xRegistry AI</h1>
+    <p>Redirecting to <a href="./registry/">registry</a>...</p>
+    <script>window.location.href = './registry/';</script>
+</body>
+</html>
+EOF
+
+# Stage the registry content into the 'static-site' branch
 echo "Staging build output into 'static-site' branch..."
 
 # Save the current branch name (default to main if not found)
@@ -218,10 +237,12 @@ fi
 
 # Clean the branch and copy in the build output from the main repo
 find "$TMP_DIR" -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
-if [ -d "$SITE_DIR/$BUILD_OUTPUT" ]; then
-  cp -r $SITE_DIR/$BUILD_OUTPUT/* "$TMP_DIR"
+if [ -d "$SITE_DIR/public" ]; then
+  # Copy the entire public directory content to the root of static-site
+  cp -r $SITE_DIR/public/* "$TMP_DIR"
+  echo "Deployed static registry site from $SITE_DIR/public"
 else
-  echo "Warning: Angular build output not found at $SITE_DIR/$BUILD_OUTPUT"
+  echo "Warning: Static site content not found at $SITE_DIR/public"
   echo "Creating minimal index.html..."
   echo '<!DOCTYPE html><html><body><h1>Static site build in progress...</h1></body></html>' > "$TMP_DIR/index.html"
 fi
@@ -229,7 +250,7 @@ fi
 touch .nojekyll
 
 git add .
-git commit -m "Deploy Angular app to static-site" || echo "Nothing to commit"
+git commit -m "Deploy static registry site to static-site" || echo "Nothing to commit"
 
 echo "Build output staged in static-site branch in temporary dir: $TMP_DIR"
 
