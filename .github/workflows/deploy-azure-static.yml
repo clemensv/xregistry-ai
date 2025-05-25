@@ -18,7 +18,7 @@ on:
   # Run after static site build completes
   workflow_run:
     workflows: ["Build static content into static-site branch"]
-    types:
+    types:  
       - completed
 
 permissions:
@@ -116,8 +116,40 @@ jobs:
           # Verify Azure config structure
           echo "Azure configuration files:"
           find public -name "staticwebapp.config.json" -exec echo "Found: {}" \;
+          
+          # List registry content to debug
+          echo "Registry content in public/registry:"
+          ls -la public/registry/ || echo "No registry directory found"
 
-      # 6. Deploy to Azure Static Web Apps
+      # 6. Build Angular app and copy registry files
+      - name: Build Angular app and prepare static content
+        run: |
+          # Build the Angular application
+          npm run build-prod
+          
+          # Ensure the registry directory exists in the output
+          mkdir -p dist/xregistry-viewer/registry
+          
+          # Copy registry files to the output directory
+          if [ -d "public/registry" ]; then
+            cp -r public/registry/* dist/xregistry-viewer/registry/
+            echo "Copied registry files to output directory"
+            
+            # List the contents to verify
+            echo "Contents of dist/xregistry-viewer/registry:"
+            ls -la dist/xregistry-viewer/registry/
+            
+            # Verify specific files
+            if [ -f "dist/xregistry-viewer/registry/index.json" ]; then
+              echo "✅ Registry index.json found in output"
+            else
+              echo "❌ Registry index.json NOT found in output"
+            fi
+          else
+            echo "❌ Source registry directory not found at public/registry"
+          fi
+
+      # 7. Deploy to Azure Static Web Apps
       - name: Build and Deploy to Azure
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -126,9 +158,9 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets[inputs.azure_token_secret || 'AZURE_STATIC_WEB_APPS_API_TOKEN'] }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"
-          app_build_command: "npm run build-prod"
-          output_location: "dist/xregistry-viewer"
+          app_location: "dist/xregistry-viewer"
+          skip_app_build: true
+          output_location: ""
           
       - name: Deployment Summary
         if: success()
