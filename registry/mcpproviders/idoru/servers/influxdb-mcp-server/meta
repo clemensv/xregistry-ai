@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:33:07.132193297Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/idoru/servers/influxdb-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:33:07.132193297Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/idoru/servers/influxdb-mcp-server/meta",
+  "serverid": "influxdb-mcp-server",
+  "xid": "/mcpproviders/idoru/servers/influxdb-mcp-server/meta"
+}

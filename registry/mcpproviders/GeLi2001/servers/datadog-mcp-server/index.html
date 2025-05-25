@@ -1,0 +1,91 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-25T20:32:38.936516982Z",
+  "description": "A Model Context Protocol (MCP) server for interacting with the Datadog API.",
+  "epoch": 1,
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server/meta",
+  "modifiedat": "2025-05-25T20:32:38.936516982Z",
+  "name": "io.github.GeLi2001/datadog-mcp-server",
+  "prompts": [],
+  "registries": [
+    {
+      "command_arguments": {
+        "environment_variables": [
+          {
+            "description": "Datadog API key",
+            "name": "DD_API_KEY",
+            "required": true
+          },
+          {
+            "description": "Datadog Application key",
+            "name": "DD_APP_KEY",
+            "required": true
+          },
+          {
+            "description": "Datadog site domain",
+            "name": "DD_SITE",
+            "required": false
+          },
+          {
+            "description": "Datadog logs site domain",
+            "name": "DD_LOGS_SITE",
+            "required": false
+          },
+          {
+            "description": "Datadog metrics site domain",
+            "name": "DD_METRICS_SITE",
+            "required": false
+          }
+        ],
+        "positional_arguments": [],
+        "sub_commands": []
+      },
+      "license": "",
+      "name": "npm",
+      "package_name": "datadog-mcp-server"
+    }
+  ],
+  "remotes": [],
+  "repo_ref": "GeLi2001/datadog-mcp-server",
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server",
+  "serverid": "datadog-mcp-server",
+  "tools": [
+    {
+      "description": "Fetch monitors with optional filtering",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-monitors"
+    },
+    {
+      "description": "Get details of a specific monitor by ID",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-monitor"
+    },
+    {
+      "description": "List all dashboards",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-dashboards"
+    },
+    {
+      "description": "Get a specific dashboard by ID",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-dashboard"
+    }
+  ],
+  "version_detail": {
+    "version": "0.0.0"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server/versions",
+  "xid": "/mcpproviders/GeLi2001/servers/datadog-mcp-server"
+}

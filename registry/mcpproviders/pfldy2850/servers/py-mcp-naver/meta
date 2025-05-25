@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:33:02.532684451Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pfldy2850/servers/py-mcp-naver/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:33:02.532684451Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pfldy2850/servers/py-mcp-naver/meta",
+  "serverid": "py-mcp-naver",
+  "xid": "/mcpproviders/pfldy2850/servers/py-mcp-naver/meta"
+}

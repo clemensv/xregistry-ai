@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:33.785402314Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anshumax/servers/world_bank_mcp_server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:33.785402314Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anshumax/servers/world_bank_mcp_server/meta",
+  "serverid": "world_bank_mcp_server",
+  "xid": "/mcpproviders/anshumax/servers/world_bank_mcp_server/meta"
+}

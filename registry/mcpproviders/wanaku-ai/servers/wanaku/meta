@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:43.679273434Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wanaku-ai/servers/wanaku/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:43.679273434Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wanaku-ai/servers/wanaku/meta",
+  "serverid": "wanaku",
+  "xid": "/mcpproviders/wanaku-ai/servers/wanaku/meta"
+}

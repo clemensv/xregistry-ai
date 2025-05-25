@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:40.275906761Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/gannonh/servers/firebase-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:40.275906761Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/gannonh/servers/firebase-mcp/meta",
+  "serverid": "firebase-mcp",
+  "xid": "/mcpproviders/gannonh/servers/firebase-mcp/meta"
+}

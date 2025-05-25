@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:31.960045125Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/SimonB97/servers/win-cli-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:31.960045125Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/SimonB97/servers/win-cli-mcp-server/meta",
+  "serverid": "win-cli-mcp-server",
+  "xid": "/mcpproviders/SimonB97/servers/win-cli-mcp-server/meta"
+}

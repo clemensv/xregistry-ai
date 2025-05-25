@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:45.511826097Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isdaniel/servers/mcp_weather_server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:45.511826097Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isdaniel/servers/mcp_weather_server/meta",
+  "serverid": "mcp_weather_server",
+  "xid": "/mcpproviders/isdaniel/servers/mcp_weather_server/meta"
+}

@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:53.401862351Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/peakmojo/servers/mcp-hubspot/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:53.401862351Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/peakmojo/servers/mcp-hubspot/meta",
+  "serverid": "mcp-hubspot",
+  "xid": "/mcpproviders/peakmojo/servers/mcp-hubspot/meta"
+}

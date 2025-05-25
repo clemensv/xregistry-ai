@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:36.475687465Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Vortiago/servers/mcp-azure-devops/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:36.475687465Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Vortiago/servers/mcp-azure-devops/meta",
+  "serverid": "mcp-azure-devops",
+  "xid": "/mcpproviders/Vortiago/servers/mcp-azure-devops/meta"
+}

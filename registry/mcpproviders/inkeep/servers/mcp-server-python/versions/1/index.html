@@ -1,0 +1,73 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-25T20:32:43.137963042Z",
+  "description": "Inkeep MCP Server powered by your docs and product content.",
+  "epoch": 1,
+  "isdefault": true,
+  "modifiedat": "2025-05-25T20:32:43.137963042Z",
+  "name": "io.github.inkeep/mcp-server-python",
+  "prompts": [],
+  "registries": [
+    {
+      "command_arguments": {
+        "environment_variables": [
+          {
+            "description": "Base URL for Inkeep API",
+            "name": "INKEEP_API_BASE_URL",
+            "required": true
+          },
+          {
+            "description": "API key for authentication",
+            "name": "INKEEP_API_KEY",
+            "required": true
+          },
+          {
+            "description": "Model to use",
+            "name": "INKEEP_API_MODEL",
+            "required": true
+          },
+          {
+            "description": "Name of the MCP tool",
+            "name": "INKEEP_MCP_TOOL_NAME",
+            "required": true
+          },
+          {
+            "description": "Description of the MCP tool",
+            "name": "INKEEP_MCP_TOOL_DESCRIPTION",
+            "required": true
+          }
+        ],
+        "positional_arguments": [
+          "--directory",
+          "\u003cYOUR_INKEEP_MCP_SERVER_ABSOLUTE_PATH\u003e",
+          "run",
+          "-m",
+          "inkeep_mcp_server"
+        ],
+        "sub_commands": []
+      },
+      "license": "",
+      "name": "python",
+      "package_name": "inkeep-mcp-server"
+    }
+  ],
+  "remotes": [],
+  "repo_ref": "inkeep/mcp-server-python",
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/inkeep/servers/mcp-server-python/versions/1",
+  "serverid": "mcp-server-python",
+  "tools": [
+    {
+      "description": "Retrieves product documentation about Inkeep. The query should be framed as a conversational question about Inkeep.",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "search-product-content"
+    }
+  ],
+  "version_detail": {
+    "version": "0.0.0"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/inkeep/servers/mcp-server-python/versions/1"
+}

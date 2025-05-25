@@ -1,0 +1,81 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-25T20:32:46.415485646Z",
+  "description": "Implementation of the Model Context Protocol (MCP) server for the EduBase platform. It allows MCP clients and LLMs to interact with EduBase account and perform tasks.",
+  "epoch": 1,
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/EduBase/servers/MCP/meta",
+  "modifiedat": "2025-05-25T20:32:46.415485646Z",
+  "name": "io.github.EduBase/MCP",
+  "prompts": [],
+  "registries": [
+    {
+      "command_arguments": {
+        "environment_variables": [
+          {
+            "description": "URL of the EduBase API",
+            "name": "EDUBASE_API_URL",
+            "required": true
+          },
+          {
+            "description": "EduBase API application identifier",
+            "name": "EDUBASE_API_APP",
+            "required": true
+          },
+          {
+            "description": "EduBase API key",
+            "name": "EDUBASE_API_KEY",
+            "required": true
+          },
+          {
+            "description": "Optional rate limit per second",
+            "name": "EDUBASE_API_MAXRATE",
+            "required": false
+          },
+          {
+            "description": "Optional rate limit per minute",
+            "name": "EDUBASE_API_MAXRATE60",
+            "required": false
+          }
+        ],
+        "positional_arguments": [
+          "/path/to/dist/index.js"
+        ],
+        "sub_commands": []
+      },
+      "license": "",
+      "name": "npm",
+      "package_name": "@EduBase/MCP"
+    }
+  ],
+  "remotes": [],
+  "repo_ref": "EduBase/MCP",
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/EduBase/servers/MCP",
+  "serverid": "MCP",
+  "tools": [
+    {
+      "description": "Tool for the GET /user endpoint",
+      "name": "edubase_get_user"
+    },
+    {
+      "description": "Tools named edubase_\u003cmethod\u003e_\u003cendpoint\u003e for each documented API endpoint",
+      "name": "edubase_get_"
+    },
+    {
+      "description": "Tools named edubase_\u003cmethod\u003e_\u003cendpoint\u003e for each documented API endpoint",
+      "name": "edubase_post_"
+    },
+    {
+      "description": "Tools named edubase_\u003cmethod\u003e_\u003cendpoint\u003e for each documented API endpoint",
+      "name": "edubase_delete_"
+    }
+  ],
+  "version_detail": {
+    "version": "1.0.10"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/EduBase/servers/MCP/versions",
+  "xid": "/mcpproviders/EduBase/servers/MCP"
+}

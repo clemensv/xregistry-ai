@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:33:07.809339817Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chroma-core/servers/chroma-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:33:07.809339817Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chroma-core/servers/chroma-mcp/meta",
+  "serverid": "chroma-mcp",
+  "xid": "/mcpproviders/chroma-core/servers/chroma-mcp/meta"
+}

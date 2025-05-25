@@ -1,0 +1,11 @@
+{
+  "agentcardid": "reimbursement",
+  "ancestor": "1",
+  "createdat": "2025-05-25T20:32:27.108064199Z",
+  "epoch": 1,
+  "isdefault": true,
+  "modifiedat": "2025-05-25T20:32:27.108064199Z",
+  "self": "https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/contoso.com/agentcards/reimbursement/versions/1",
+  "versionid": "1",
+  "xid": "/agentcardproviders/contoso.com/agentcards/reimbursement/versions/1"
+}

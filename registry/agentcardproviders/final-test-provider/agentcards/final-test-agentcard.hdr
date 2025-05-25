@@ -1,0 +1,16 @@
+content-disposition:final-test-agentcard
+content-length:899
+content-location:https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1
+content-type:text/plain; charset=utf-8
+xregistry-agentcardid:final-test-agentcard
+xregistry-ancestor:1
+xregistry-createdat:2025-05-25T20:32:27.15605774Z
+xregistry-epoch:1
+xregistry-isdefault:true
+xregistry-metaurl:https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/meta
+xregistry-modifiedat:2025-05-25T20:32:27.15605774Z
+xregistry-self:https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard
+xregistry-versionid:1
+xregistry-versionscount:1
+xregistry-versionsurl:https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions
+xregistry-xid:/agentcardproviders/final-test-provider/agentcards/final-test-agentcard

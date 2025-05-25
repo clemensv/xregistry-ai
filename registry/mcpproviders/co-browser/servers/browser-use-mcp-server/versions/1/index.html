@@ -1,0 +1,52 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-25T20:32:42.767385288Z",
+  "description": "An MCP server that enables AI agents to control web browsers using browser-use.",
+  "epoch": 1,
+  "isdefault": true,
+  "modifiedat": "2025-05-25T20:32:42.767385288Z",
+  "name": "io.github.co-browser/browser-use-mcp-server",
+  "prompts": [],
+  "registries": [
+    {
+      "command_arguments": {
+        "environment_variables": [
+          {
+            "description": "API key for OpenAI",
+            "name": "OPENAI_API_KEY",
+            "required": true
+          }
+        ],
+        "positional_arguments": [
+          "run",
+          "server",
+          "--port",
+          "8000",
+          "--stdio",
+          "--proxy-port",
+          "9000"
+        ],
+        "sub_commands": []
+      },
+      "license": "",
+      "name": "python",
+      "package_name": "browser-use-mcp-server"
+    }
+  ],
+  "remotes": [
+    {
+      "transporttype": "http",
+      "url": "http://localhost:8000/sse"
+    }
+  ],
+  "repo_ref": "co-browser/browser-use-mcp-server",
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/co-browser/servers/browser-use-mcp-server/versions/1",
+  "serverid": "browser-use-mcp-server",
+  "tools": [],
+  "version_detail": {
+    "version": "0.0.0"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/co-browser/servers/browser-use-mcp-server/versions/1"
+}

@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-25T20:32:36.167950628Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/clemensv/servers/gh1/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-25T20:32:36.167950628Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/clemensv/servers/gh1/meta",
+  "serverid": "gh1",
+  "xid": "/mcpproviders/clemensv/servers/gh1/meta"
+}

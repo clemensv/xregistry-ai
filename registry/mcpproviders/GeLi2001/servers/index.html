@@ -1,0 +1,496 @@
+{
+  "datadog-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-25T20:32:38.936516982Z",
+    "description": "A Model Context Protocol (MCP) server for interacting with the Datadog API.",
+    "epoch": 1,
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server/meta",
+    "modifiedat": "2025-05-25T20:32:38.936516982Z",
+    "name": "io.github.GeLi2001/datadog-mcp-server",
+    "prompts": [],
+    "registries": [
+      {
+        "command_arguments": {
+          "environment_variables": [
+            {
+              "description": "Datadog API key",
+              "name": "DD_API_KEY",
+              "required": true
+            },
+            {
+              "description": "Datadog Application key",
+              "name": "DD_APP_KEY",
+              "required": true
+            },
+            {
+              "description": "Datadog site domain",
+              "name": "DD_SITE",
+              "required": false
+            },
+            {
+              "description": "Datadog logs site domain",
+              "name": "DD_LOGS_SITE",
+              "required": false
+            },
+            {
+              "description": "Datadog metrics site domain",
+              "name": "DD_METRICS_SITE",
+              "required": false
+            }
+          ],
+          "positional_arguments": [],
+          "sub_commands": []
+        },
+        "license": "",
+        "name": "npm",
+        "package_name": "datadog-mcp-server"
+      }
+    ],
+    "remotes": [],
+    "repo_ref": "GeLi2001/datadog-mcp-server",
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server",
+    "serverid": "datadog-mcp-server",
+    "tools": [
+      {
+        "description": "Fetch monitors with optional filtering",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get-monitors"
+      },
+      {
+        "description": "Get details of a specific monitor by ID",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get-monitor"
+      },
+      {
+        "description": "List all dashboards",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get-dashboards"
+      },
+      {
+        "description": "Get a specific dashboard by ID",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get-dashboard"
+      }
+    ],
+    "version_detail": {
+      "version": "0.0.0"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server/versions",
+    "xid": "/mcpproviders/GeLi2001/servers/datadog-mcp-server"
+  },
+  "shopify-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-25T20:32:38.794045182Z",
+    "description": "MCP Server for Shopify API, enabling interaction with store data through GraphQL API",
+    "epoch": 1,
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp/meta",
+    "modifiedat": "2025-05-25T20:32:38.794045182Z",
+    "name": "io.github.GeLi2001/shopify-mcp",
+    "prompts": [],
+    "registries": [
+      {
+        "command_arguments": {
+          "environment_variables": [
+            {
+              "description": "Shopify API access token",
+              "name": "SHOPIFY_ACCESS_TOKEN",
+              "required": true
+            },
+            {
+              "description": "Shopify store domain",
+              "name": "MYSHOPIFY_DOMAIN",
+              "required": true
+            }
+          ],
+          "positional_arguments": [
+            "shopify-mcp",
+            "--accessToken",
+            "\u003cYOUR_ACCESS_TOKEN\u003e",
+            "--domain",
+            "\u003cYOUR_SHOP\u003e.myshopify.com"
+          ],
+          "sub_commands": []
+        },
+        "license": "",
+        "name": "npm",
+        "package_name": "shopify-mcp-server"
+      }
+    ],
+    "remotes": [],
+    "repo_ref": "GeLi2001/shopify-mcp",
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp",
+    "serverid": "shopify-mcp",
+    "tools": [
+      {
+        "description": "Get all products or search by title",
+        "inputschema": {
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "searchTitle": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limit"
+          ],
+          "type": "object"
+        },
+        "name": "get-products"
+      },
+      {
+        "description": "Get a specific product by ID",
+        "inputschema": {
+          "properties": {
+            "productId": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "productId"
+          ],
+          "type": "object"
+        },
+        "name": "get-product-by-id"
+      },
+      {
+        "description": "Get customers or search by name/email",
+        "inputschema": {
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "searchQuery": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "name": "get-customers"
+      },
+      {
+        "description": "Advanced order querying and filtering",
+        "inputschema": {
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "status": {
+              "enum": [
+                "any",
+                "open",
+                "closed",
+                "cancelled"
+              ],
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "name": "get-orders"
+      },
+      {
+        "description": "Get order by ID",
+        "inputschema": {
+          "properties": {
+            "orderId": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "orderId"
+          ],
+          "type": "object"
+        },
+        "name": "get-order-by-id"
+      },
+      {
+        "description": "Update an order",
+        "inputschema": {
+          "properties": {
+            "customAttributes": {
+              "items": {
+                "properties": {
+                  "key": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "email": {
+              "format": "email",
+              "type": "string"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metafields": {
+              "items": {
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "key": {
+                    "type": "string"
+                  },
+                  "namespace": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "note": {
+              "type": "string"
+            },
+            "shippingAddress": {
+              "properties": {
+                "address1": {
+                  "type": "string"
+                },
+                "address2": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "company": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "phone": {
+                  "type": "string"
+                },
+                "province": {
+                  "type": "string"
+                },
+                "zip": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "tags": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "id"
+          ],
+          "type": "object"
+        },
+        "name": "update-order"
+      },
+      {
+        "description": "Get orders for a specific customer",
+        "inputschema": {
+          "properties": {
+            "customerId": {
+              "pattern": "^\\d+$",
+              "type": "string"
+            },
+            "limit": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "customerId"
+          ],
+          "type": "object"
+        },
+        "name": "get-customer-orders"
+      },
+      {
+        "description": "Update a customer's information",
+        "inputschema": {
+          "properties": {
+            "email": {
+              "format": "email",
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "id": {
+              "pattern": "^\\d+$",
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "metafields": {
+              "items": {
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "key": {
+                    "type": "string"
+                  },
+                  "namespace": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "note": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string"
+            },
+            "tags": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "taxExempt": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id"
+          ],
+          "type": "object"
+        },
+        "name": "update-customer"
+      }
+    ],
+    "version_detail": {
+      "version": "1.0.0"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp/versions",
+    "xid": "/mcpproviders/GeLi2001/servers/shopify-mcp"
+  },
+  "tft-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-25T20:32:38.707685452Z",
+    "description": "Model Context Protocol (MCP) server for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.",
+    "epoch": 1,
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server/meta",
+    "modifiedat": "2025-05-25T20:32:38.707685452Z",
+    "name": "io.github.GeLi2001/tft-mcp-server",
+    "prompts": [],
+    "registries": [
+      {
+        "command_arguments": {
+          "environment_variables": [],
+          "positional_arguments": [
+            "mcp-server-tft",
+            "--apiKey",
+            "\u003cYOUR_RIOT_API_KEY\u003e",
+            "--gameName",
+            "\u003cYOUR_GAME_NAME\u003e",
+            "--tagLine",
+            "\u003cYOUR_TAG_LINE\u003e"
+          ],
+          "sub_commands": []
+        },
+        "license": "",
+        "name": "npm",
+        "package_name": "mcp-server-tft"
+      }
+    ],
+    "remotes": [],
+    "repo_ref": "GeLi2001/tft-mcp-server",
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server",
+    "serverid": "tft-mcp-server",
+    "tools": [
+      {
+        "description": "Get TFT match history for the current player.",
+        "inputschema": {
+          "properties": {
+            "count": {
+              "description": "Number of matches to retrieve.",
+              "type": "integer"
+            },
+            "start": {
+              "description": "Start index for pagination.",
+              "type": "integer"
+            }
+          },
+          "required": [],
+          "type": "object"
+        },
+        "name": "tft_match_history"
+      },
+      {
+        "description": "Get detailed information about a specific TFT match.",
+        "inputschema": {
+          "properties": {
+            "matchId": {
+              "description": "The match ID to get details for.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "matchId"
+          ],
+          "type": "object"
+        },
+        "name": "tft_match_details"
+      }
+    ],
+    "version_detail": {
+      "version": "0.1.0"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server/versions",
+    "xid": "/mcpproviders/GeLi2001/servers/tft-mcp-server"
+  }
+}
