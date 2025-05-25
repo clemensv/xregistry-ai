@@ -5,7 +5,7 @@ on:
     branches: ["main", "master"]
 
   workflow_run:
-    workflows: ["Process A2A Registry Submission", "Process MCP Registry Submission"]
+    workflows: ["Ingest Agent-to-Agent (A2A) from remote repo via issue", "Ingest Model Context Protocol (MCP) from remote repo via issue"]
     types:
       - completed
   
