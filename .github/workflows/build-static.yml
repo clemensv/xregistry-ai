@@ -32,4 +32,6 @@ jobs:
           echo "https://${{ secrets.GITHUB_TOKEN }}@github.com" > ~/.git-credentials
             
       - name: Build and deploy Registry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bash $GITHUB_WORKSPACE/xreg/build_registry.sh 

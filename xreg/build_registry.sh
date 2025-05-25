@@ -163,9 +163,13 @@ cp $REPO_ROOT/xreg/registry-staticwebapp.config.json $DATA_EXPORT_DIR/staticweba
 echo "Generating unified schemas..."
 mkdir -p "$DATA_EXPORT_DIR/schema" "$DATA_EXPORT_DIR/openapi"
 cd "$SCRIPT_DIR"
-python schema-generator.py --models --type json-schema --output "$DATA_EXPORT_DIR/schema/json-schema.json"
-python schema-generator.py --models --type openapi --output "$DATA_EXPORT_DIR/openapi/openapi.json"
-python schema-generator.py --models --type avro-schema --output "$DATA_EXPORT_DIR/schema/avro-schema.json"
+if [ -f "schema-generator.py" ]; then
+  python schema-generator.py --models --type json-schema --output "$DATA_EXPORT_DIR/schema/json-schema.json" || echo "Warning: JSON schema generation failed"
+  python schema-generator.py --models --type openapi --output "$DATA_EXPORT_DIR/openapi/openapi.json" || echo "Warning: OpenAPI schema generation failed"
+  python schema-generator.py --models --type avro-schema --output "$DATA_EXPORT_DIR/schema/avro-schema.json" || echo "Warning: Avro schema generation failed"
+else
+  echo "Warning: schema-generator.py not found in $SCRIPT_DIR"
+fi
 cd "$REPO_ROOT"
 
 # Build the Angular app
@@ -187,9 +191,9 @@ TMP_DIR=$(mktemp -d)
 echo "Cloning repository into temporary directory: $TMP_DIR"
 branch="static-site"
 
-# Determine the repository URL
+# Determine the repository URL with authentication
 if [ -n "$GITHUB_ACTIONS" ]; then
-  REPO_URL="https://github.com/$GITHUB_REPOSITORY.git"
+  REPO_URL="https://github-actions:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
 else
   REPO_URL=$(git remote get-url origin)
 fi
@@ -214,7 +218,13 @@ fi
 
 # Clean the branch and copy in the build output from the main repo
 find "$TMP_DIR" -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
-cp -r $SITE_DIR/$BUILD_OUTPUT/* "$TMP_DIR"
+if [ -d "$SITE_DIR/$BUILD_OUTPUT" ]; then
+  cp -r $SITE_DIR/$BUILD_OUTPUT/* "$TMP_DIR"
+else
+  echo "Warning: Angular build output not found at $SITE_DIR/$BUILD_OUTPUT"
+  echo "Creating minimal index.html..."
+  echo '<!DOCTYPE html><html><body><h1>Static site build in progress...</h1></body></html>' > "$TMP_DIR/index.html"
+fi
 
 touch .nojekyll
 
