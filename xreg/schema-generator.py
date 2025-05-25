@@ -725,11 +725,26 @@ def main():
             print(json.dumps(openapi, indent=2))
     elif (args.type == 'xregistry-model'):
         # For xregistry-model, output the combined model definition itself
+        # Remove internal $source fields before output
+        def clean_model(obj):
+            if isinstance(obj, dict):
+                cleaned = {}
+                for k, v in obj.items():
+                    if k != "$source":  # Skip $source fields
+                        cleaned[k] = clean_model(v)
+                return cleaned
+            elif isinstance(obj, list):
+                return [clean_model(item) for item in obj]
+            else:
+                return obj
+        
+        cleaned_model = clean_model(model_definition)
+        
         if args.output:
             with open(args.output, 'w') as of:
-                json.dump(model_definition, of, indent=2)
+                json.dump(cleaned_model, of, indent=2)
         else:
-            print(json.dumps(model_definition, indent=2))
+            print(json.dumps(cleaned_model, indent=2))
 
 if __name__ == '__main__':
     main() 

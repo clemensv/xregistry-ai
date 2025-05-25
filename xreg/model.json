@@ -33,8 +33,7 @@
             }
           }
         }
-      },
-      "$source": "C:\\git\\ai\\xregistry-ai\\xreg\\..\\models\\a2a\\model.json"
+      }
     },
     "mcpproviders": {
       "plural": "mcpproviders",
@@ -277,8 +276,7 @@
             }
           }
         }
-      },
-      "$source": "C:\\git\\ai\\xregistry-ai\\xreg\\..\\models\\mcp\\model.json"
+      }
     }
   }
 }
