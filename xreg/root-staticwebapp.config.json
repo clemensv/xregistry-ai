@@ -9,6 +9,38 @@
       "rewrite": "/registry/index.json"
     },
     {
+      "route": "/registry/mcpproviders",
+      "rewrite": "/registry/mcpproviders/index.json"
+    },
+    {
+      "route": "/registry/mcpproviders/",
+      "rewrite": "/registry/mcpproviders/index.json"
+    },
+    {
+      "route": "/registry/agentcardproviders",
+      "rewrite": "/registry/agentcardproviders/index.json"
+    },
+    {
+      "route": "/registry/agentcardproviders/",
+      "rewrite": "/registry/agentcardproviders/index.json"
+    },
+    {
+      "route": "/registry/mcpproviders/*/servers",
+      "rewrite": "/registry/mcpproviders/{provider}/servers/index.json"
+    },
+    {
+      "route": "/registry/mcpproviders/*/servers/",
+      "rewrite": "/registry/mcpproviders/{provider}/servers/index.json"
+    },
+    {
+      "route": "/registry/agentcardproviders/*/agentcards",
+      "rewrite": "/registry/agentcardproviders/{provider}/agentcards/index.json"
+    },
+    {
+      "route": "/registry/agentcardproviders/*/agentcards/",
+      "rewrite": "/registry/agentcardproviders/{provider}/agentcards/index.json"
+    },
+    {
       "route": "/*",
       "headers": {
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains"

@@ -1,6 +1,42 @@
 {
   "routes": [
     {
+      "route": "/",
+      "rewrite": "/index.json"
+    },
+    {
+      "route": "/mcpproviders",
+      "rewrite": "/mcpproviders/index.json"
+    },
+    {
+      "route": "/mcpproviders/",
+      "rewrite": "/mcpproviders/index.json"
+    },
+    {
+      "route": "/agentcardproviders",
+      "rewrite": "/agentcardproviders/index.json"
+    },
+    {
+      "route": "/agentcardproviders/",
+      "rewrite": "/agentcardproviders/index.json"
+    },
+    {
+      "route": "/mcpproviders/*/servers",
+      "rewrite": "/mcpproviders/{provider}/servers/index.json"
+    },
+    {
+      "route": "/mcpproviders/*/servers/",
+      "rewrite": "/mcpproviders/{provider}/servers/index.json"
+    },
+    {
+      "route": "/agentcardproviders/*/agentcards",
+      "rewrite": "/agentcardproviders/{provider}/agentcards/index.json"
+    },
+    {
+      "route": "/agentcardproviders/*/agentcards/",
+      "rewrite": "/agentcardproviders/{provider}/agentcards/index.json"
+    },
+    {
       "route": "/*",
       "headers": {
         "Cache-Control": "public, max-age=300",
