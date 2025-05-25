@@ -138,10 +138,13 @@ console.log("✅ Octokit initialized");
       process.exit(0);
     }
 
+    console.log("🔍 Parsing YAML...");
     let config;
     try {
       config = yaml.load(yamlSource);
+      console.log("✅ YAML parsed successfully:", JSON.stringify(config));
     } catch (err) {
+      console.log("❌ YAML parsing failed:", err.message);
       await octokit.rest.issues.createComment({
         owner,
         repo,
@@ -151,6 +154,7 @@ console.log("✅ Octokit initialized");
       process.exit(0);
     }
 
+    console.log("🔍 Extracting config values...");
     const {
       repo: repoUrl,
       path = "",
@@ -159,6 +163,14 @@ console.log("✅ Octokit initialized");
 
     const groupName = config[groupSingular] || "";
     const resourceName = config[resourceSingular] || "";
+
+    console.log("✅ Config values extracted:", {
+      repoUrl,
+      path,
+      externalBranch,
+      groupName,
+      resourceName
+    });
 
     // RFC3986 unreserved + "@" validation
     const VALID_NAME_REGEX = /^[A-Za-z0-9_][A-Za-z0-9._~@-]{0,127}$/;
