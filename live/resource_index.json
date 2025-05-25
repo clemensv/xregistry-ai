@@ -1,0 +1,2432 @@
+[
+    {
+        "id": "abel9851/mcp-server-mariadb/schema list",
+        "provider": "abel9851",
+        "server": "mcp-server-mariadb",
+        "type": "resource",
+        "name": "schema list",
+        "description": "Expose schema list in database",
+        "uritemplate": null,
+        "mimetype": null
+    },
+    {
+        "id": "aliyun/alibabacloud-hologres-mcp-server/All Schemas",
+        "provider": "aliyun",
+        "server": "alibabacloud-hologres-mcp-server",
+        "type": "resource",
+        "name": "All Schemas",
+        "description": "Hologres is a PostgreSQL-compatible OLAP product. List all schemas in Hologres database",
+        "uritemplate": "hologres:///schemas",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "aliyun/alibabacloud-hologres-mcp-server/Schema Tables",
+        "provider": "aliyun",
+        "server": "alibabacloud-hologres-mcp-server",
+        "type": "resource",
+        "name": "Schema Tables",
+        "description": "List all tables in a specific schema",
+        "uritemplate": "hologres:///{schema}/tables",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "aliyun/alibabacloud-hologres-mcp-server/Table DDL",
+        "provider": "aliyun",
+        "server": "alibabacloud-hologres-mcp-server",
+        "type": "resource",
+        "name": "Table DDL",
+        "description": "Get the DDL script of a table in a specific schema",
+        "uritemplate": "hologres:///{schema}/{table}/ddl",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "aliyun/alibabacloud-hologres-mcp-server/Table Statistics",
+        "provider": "aliyun",
+        "server": "alibabacloud-hologres-mcp-server",
+        "type": "resource",
+        "name": "Table Statistics",
+        "description": "Get statistics information of a table",
+        "uritemplate": "hologres:///{schema}/{table}/statistic",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "aliyun/alibabacloud-hologres-mcp-server/Table Statistics",
+        "provider": "aliyun",
+        "server": "alibabacloud-hologres-mcp-server",
+        "type": "resource",
+        "name": "Table Statistics",
+        "description": "List all partitions of a partitioned table",
+        "uritemplate": "hologres:///{schema}/{table}/partitions",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "aliyun/alibabacloud-hologres-mcp-server/System internal Information",
+        "provider": "aliyun",
+        "server": "alibabacloud-hologres-mcp-server",
+        "type": "resource",
+        "name": "System internal Information",
+        "description": "System information in Hologres, following are some common system_paths:\n\n'missing_stats_tables'    Shows the tables that are missing statistics.\n'stat_activity'    Shows the information of current running queries.\n'query_log/latest/<row_limits>'    Get recent query log history with specified number of rows.\n'query_log/user/<user_name>/<row_limits>'    Get query log history for a specific user with row limits.\n'query_log/application/<application_name>/<row_limits>'    Get query log history for a specific application with row limits.\n'query_log/failed/<interval>/<row_limits>' - Get failed query log history with interval and specified number of rows.\n",
+        "uritemplate": "system:///{+system_path}",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "amornpan/py-mcp-line/LINE Bot messages",
+        "provider": "amornpan",
+        "server": "py-mcp-line",
+        "type": "resource",
+        "name": "LINE Bot messages",
+        "description": "Lists available message types from the LINE Bot and provides access to messages such as text, sticker, and image messages in JSON format.",
+        "uritemplate": "line://{message_type}/data",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "amornpan/py-mcp-mssql/tables",
+        "provider": "amornpan",
+        "server": "py-mcp-mssql",
+        "type": "resource",
+        "name": "tables",
+        "description": "Lists all available tables in the database with URIs in the format mssql://<table_name>/data; includes table descriptions and MIME types.",
+        "uritemplate": "mssql://{table_name}/data",
+        "mimetype": "text/csv"
+    },
+    {
+        "id": "anshumax/world_bank_mcp_server/Countries list",
+        "provider": "anshumax",
+        "server": "world_bank_mcp_server",
+        "type": "resource",
+        "name": "Countries list",
+        "description": "List of countries in the World Bank database",
+        "uritemplate": "https://api.worldbank.org/v2/country?format=json&per_page=1000",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "anshumax/world_bank_mcp_server/Indicators list",
+        "provider": "anshumax",
+        "server": "world_bank_mcp_server",
+        "type": "resource",
+        "name": "Indicators list",
+        "description": "List of indicators in the World Bank database",
+        "uritemplate": "https://api.worldbank.org/v2/indicator?format=json&per_page=50000",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "atharvagupta2003/mcp-stripe/audit_logs",
+        "provider": "atharvagupta2003",
+        "server": "mcp-stripe",
+        "type": "resource",
+        "name": "audit_logs",
+        "description": "Stores audit logs of customer, payment, and refund operations; supports structured logging for better traceability; uses MCP resource endpoints to retrieve audit data",
+        "uritemplate": "/audit/logs",
+        "mimetype": null
+    },
+    {
+        "id": "aws-samples/sample-mcp-server-s3/PDF Documents",
+        "provider": "aws-samples",
+        "server": "sample-mcp-server-s3",
+        "type": "resource",
+        "name": "PDF Documents",
+        "description": "Expose AWS S3 Data through Resources. Currently only PDF documents supported and limited to 1000 objects.",
+        "uritemplate": "s3://{bucket}/{object_key}",
+        "mimetype": "application/pdf"
+    },
+    {
+        "id": "awslabs/mcp/KnowledgeBases",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "KnowledgeBases",
+        "description": "List all available Amazon Bedrock Knowledge Bases and their data sources.",
+        "uritemplate": "resource://knowledgebases",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/CDK Nag Rules",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "CDK Nag Rules",
+        "description": "Get all CDK Nag rules for a given rule pack.",
+        "uritemplate": "cdk-nag://rules/{rule_pack}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/CDK Nag Warnings",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "CDK Nag Warnings",
+        "description": "Get CDK Nag warnings for a given rule pack.",
+        "uritemplate": "cdk-nag://warnings/{rule_pack}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/CDK Nag Errors",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "CDK Nag Errors",
+        "description": "Get CDK Nag errors for a given rule pack.",
+        "uritemplate": "cdk-nag://errors/{rule_pack}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/Lambda Powertools Topic",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "Lambda Powertools Topic",
+        "description": "Get Lambda Powertools guidance for a specific topic.",
+        "uritemplate": "lambda-powertools://{topic}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/Lambda Powertools Index",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "Lambda Powertools Index",
+        "description": "Get Lambda Powertools index.",
+        "uritemplate": "lambda-powertools://",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/AWS Solutions Constructs Pattern",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "AWS Solutions Constructs Pattern",
+        "description": "Get AWS Solutions Construct pattern resource.",
+        "uritemplate": "aws-solutions-constructs://{pattern_name}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/GenAI CDK Construct Section",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "GenAI CDK Construct Section",
+        "description": "Get a section of a GenAI CDK construct.",
+        "uritemplate": "genai-cdk-constructs://{construct_type}/{construct_name}/{section}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/GenAI CDK Construct Nested Section",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "GenAI CDK Construct Nested Section",
+        "description": "Get a nested section of a GenAI CDK construct.",
+        "uritemplate": "genai-cdk-constructs://{construct_type}/{construct_name}/{parent}/{child}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/GenAI CDK Construct Available Sections",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "GenAI CDK Construct Available Sections",
+        "description": "Get available sections of a GenAI CDK construct.",
+        "uritemplate": "genai-cdk-constructs://{construct_type}/{construct_name}/sections",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/GenAI CDK Construct",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "GenAI CDK Construct",
+        "description": "Get a GenAI CDK construct.",
+        "uritemplate": "genai-cdk-constructs://{construct_type}/{construct_name}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/GenAI CDK Construct Overview",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "GenAI CDK Construct Overview",
+        "description": "Get overview of GenAI CDK constructs.",
+        "uritemplate": "genai-cdk-constructs://{construct_type}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "awslabs/mcp/terraform_development_workflow",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "terraform_development_workflow",
+        "description": "Terraform Development Workflow Guide with integrated validation and security scanning",
+        "uritemplate": "terraform://development_workflow",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "awslabs/mcp/terraform_aws_provider_resources_listing",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "terraform_aws_provider_resources_listing",
+        "description": "Comprehensive listing of AWS provider resources and data sources by service category",
+        "uritemplate": "terraform://aws_provider_resources_listing",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "awslabs/mcp/terraform_awscc_provider_resources_listing",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "terraform_awscc_provider_resources_listing",
+        "description": "Comprehensive listing of AWSCC provider resources and data sources by service category",
+        "uritemplate": "terraform://awscc_provider_resources_listing",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "awslabs/mcp/terraform_aws_best_practices",
+        "provider": "awslabs",
+        "server": "mcp",
+        "type": "resource",
+        "name": "terraform_aws_best_practices",
+        "description": "AWS Terraform Provider Best Practices from AWS Prescriptive Guidance",
+        "uritemplate": "terraform://aws_best_practices",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "baryhuang/mcp-server-aws-resources-python/aws://query_resources",
+        "provider": "baryhuang",
+        "server": "mcp-server-aws-resources-python",
+        "type": "resource",
+        "name": "aws://query_resources",
+        "description": "A dynamic resource that provides access to AWS resources through boto3 queries",
+        "uritemplate": null,
+        "mimetype": null
+    },
+    {
+        "id": "benborla/mcp-server-mysql/database schema",
+        "provider": "benborla",
+        "server": "mcp-server-mysql",
+        "type": "resource",
+        "name": "database schema",
+        "description": "Database and table name with schema suffix",
+        "uritemplate": "{database}/{table}/schema",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "bigcodegen/mcp-neovim-server/Current neovim text editor session",
+        "provider": "bigcodegen",
+        "server": "mcp-neovim-server",
+        "type": "resource",
+        "name": "Current neovim text editor session",
+        "description": "Current neovim text editor session",
+        "uritemplate": "nvim://session",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "bigcodegen/mcp-neovim-server/Open Neovim buffers",
+        "provider": "bigcodegen",
+        "server": "mcp-neovim-server",
+        "type": "resource",
+        "name": "Open Neovim buffers",
+        "description": "List of all open buffers in the current Neovim session",
+        "uritemplate": "nvim://buffers",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "browserbase/mcp-server-browserbase/Screenshot",
+        "provider": "browserbase",
+        "server": "mcp-server-browserbase",
+        "type": "resource",
+        "name": "Screenshot",
+        "description": "Screenshot resources identified by name",
+        "uritemplate": "screenshot://{name}",
+        "mimetype": "image/png"
+    },
+    {
+        "id": "burningion/video-editing-mcp/videos",
+        "provider": "burningion",
+        "server": "video-editing-mcp",
+        "type": "resource",
+        "name": "videos",
+        "description": "Access individual videos and projects via custom vj:// URI scheme.",
+        "uritemplate": "vj://{video_or_project_id}",
+        "mimetype": null
+    },
+    {
+        "id": "bytebase/dbhub/schemas",
+        "provider": "bytebase",
+        "server": "dbhub",
+        "type": "resource",
+        "name": "schemas",
+        "description": "Database schemas resource",
+        "uritemplate": "db://schemas",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "bytebase/dbhub/tables_in_schema",
+        "provider": "bytebase",
+        "server": "dbhub",
+        "type": "resource",
+        "name": "tables_in_schema",
+        "description": "Tables in a given schema",
+        "uritemplate": "db://schemas/{schemaName}/tables",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "bytebase/dbhub/table_structure_in_schema",
+        "provider": "bytebase",
+        "server": "dbhub",
+        "type": "resource",
+        "name": "table_structure_in_schema",
+        "description": "Structure of a table in a schema",
+        "uritemplate": "db://schemas/{schemaName}/tables/{tableName}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "bytebase/dbhub/indexes_in_table",
+        "provider": "bytebase",
+        "server": "dbhub",
+        "type": "resource",
+        "name": "indexes_in_table",
+        "description": "Indexes in a table",
+        "uritemplate": "db://schemas/{schemaName}/tables/{tableName}/indexes",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "bytebase/dbhub/procedures_in_schema",
+        "provider": "bytebase",
+        "server": "dbhub",
+        "type": "resource",
+        "name": "procedures_in_schema",
+        "description": "Stored procedures in a schema",
+        "uritemplate": "db://schemas/{schemaName}/procedures",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "bytebase/dbhub/procedure_details_in_schema",
+        "provider": "bytebase",
+        "server": "dbhub",
+        "type": "resource",
+        "name": "procedure_details_in_schema",
+        "description": "Details of a stored procedure",
+        "uritemplate": "db://schemas/{schemaName}/procedures/{procedureName}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "ChronulusAI/chronulus-mcp/Scorecard React Template",
+        "provider": "ChronulusAI",
+        "server": "chronulus-mcp",
+        "type": "resource",
+        "name": "Scorecard React Template",
+        "description": "Get scorecard.tsx",
+        "uritemplate": "chronulus-react://Scorecard.jsx",
+        "mimetype": "text/javascript"
+    },
+    {
+        "id": "ChronulusAI/chronulus-mcp/Beta Plot",
+        "provider": "ChronulusAI",
+        "server": "chronulus-mcp",
+        "type": "resource",
+        "name": "Beta Plot",
+        "description": "Get BetaPlot.jsx",
+        "uritemplate": "chronulus-react://BetaPlot.jsx",
+        "mimetype": "text/javascript"
+    },
+    {
+        "id": "ckreiling/mcp-server-docker/Logs for container",
+        "provider": "ckreiling",
+        "server": "mcp-server-docker",
+        "type": "resource",
+        "name": "Logs for container",
+        "description": "Live logs for container {container.name}",
+        "uritemplate": "docker://containers/{id}/logs",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "ckreiling/mcp-server-docker/Stats for container",
+        "provider": "ckreiling",
+        "server": "mcp-server-docker",
+        "type": "resource",
+        "name": "Stats for container",
+        "description": "Live resource usage stats for container {container.name}",
+        "uritemplate": "docker://containers/{id}/stats",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_tests",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_tests",
+        "description": "Retrieve tests from Unity's Test Runner",
+        "uritemplate": "unity://tests/{testMode}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_gameobject",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_gameobject",
+        "description": "Retrieve a GameObject by ID or path",
+        "uritemplate": "unity://gameobject/{id}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_menuitems",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_menuitems",
+        "description": "Retrieve Unity menu items",
+        "uritemplate": "unity://menuitems",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_consolelogs",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_consolelogs",
+        "description": "Retrieve Unity console logs",
+        "uritemplate": "unity://consolelogs",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_hierarchy",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_hierarchy",
+        "description": "Retrieve Unity scene hierarchy",
+        "uritemplate": "unity://hierarchy",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_packages",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_packages",
+        "description": "Retrieve Unity project packages",
+        "uritemplate": "unity://packages",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "CoderGamester/mcp-unity/get_assets",
+        "provider": "CoderGamester",
+        "server": "mcp-unity",
+        "type": "resource",
+        "name": "get_assets",
+        "description": "Retrieve Unity project assets",
+        "uritemplate": "unity://assets",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "daobataotie/mssql-mcp/业务洞察备忘录",
+        "provider": "daobataotie",
+        "server": "mssql-mcp",
+        "type": "resource",
+        "name": "业务洞察备忘录",
+        "description": "一个实时更新的业务洞察文档",
+        "uritemplate": "memo://insights",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "designcomputer/mysql_mcp_server/Table",
+        "provider": "designcomputer",
+        "server": "mysql_mcp_server",
+        "type": "resource",
+        "name": "Table",
+        "description": "Data in table: {table}",
+        "uritemplate": "mysql://{table}/data",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "dinghuazhou/sample-mcp-server-tos/bucket",
+        "provider": "dinghuazhou",
+        "server": "sample-mcp-server-tos",
+        "type": "resource",
+        "name": "bucket",
+        "description": "Buckets resource for TOS",
+        "uritemplate": "/buckets/{bucket}",
+        "mimetype": null
+    },
+    {
+        "id": "dinghuazhou/sample-mcp-server-tos/object",
+        "provider": "dinghuazhou",
+        "server": "sample-mcp-server-tos",
+        "type": "resource",
+        "name": "object",
+        "description": "Objects resource for TOS",
+        "uritemplate": "/buckets/{bucket}/objects/{key}",
+        "mimetype": null
+    },
+    {
+        "id": "DMontgomery40/deepseek-mcp-server/models",
+        "provider": "DMontgomery40",
+        "server": "deepseek-mcp-server",
+        "type": "resource",
+        "name": "models",
+        "description": "Resource exposing available models with their capabilities.",
+        "uritemplate": "models://{modelId}",
+        "mimetype": null
+    },
+    {
+        "id": "DMontgomery40/deepseek-mcp-server/model-config",
+        "provider": "DMontgomery40",
+        "server": "deepseek-mcp-server",
+        "type": "resource",
+        "name": "model-config",
+        "description": "Resource exposing configuration options for models.",
+        "uritemplate": "config://{modelId}",
+        "mimetype": null
+    },
+    {
+        "id": "dogukanakkaya/pulumi-mcp-server/Pulumi Stacks",
+        "provider": "dogukanakkaya",
+        "server": "pulumi-mcp-server",
+        "type": "resource",
+        "name": "Pulumi Stacks",
+        "description": null,
+        "uritemplate": "pulumi://{organization}",
+        "mimetype": null
+    },
+    {
+        "id": "domdomegg/airtable-mcp-server/Airtable Table Schema",
+        "provider": "domdomegg",
+        "server": "airtable-mcp-server",
+        "type": "resource",
+        "name": "Airtable Table Schema",
+        "description": "Schema of a specific table in an Airtable base",
+        "uritemplate": "airtable://{baseId}/{tableId}/schema",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "evalstate/mcp-hfspace/available-files",
+        "provider": "evalstate",
+        "server": "mcp-hfspace",
+        "type": "resource",
+        "name": "available-files",
+        "description": "List of available files and resources in the working directory.",
+        "uritemplate": "resource://mcp-hfspace/available-files",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "executeautomation/mcp-playwright/Browser console logs",
+        "provider": "executeautomation",
+        "server": "mcp-playwright",
+        "type": "resource",
+        "name": "Browser console logs",
+        "description": "Browser console logs resource",
+        "uritemplate": "console://logs",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "executeautomation/mcp-playwright/Screenshot resource",
+        "provider": "executeautomation",
+        "server": "mcp-playwright",
+        "type": "resource",
+        "name": "Screenshot resource",
+        "description": "Screenshots of the browser pages",
+        "uritemplate": "screenshot://{name}",
+        "mimetype": "image/png"
+    },
+    {
+        "id": "fatwang2/search1api-mcp/Search1API Information",
+        "provider": "fatwang2",
+        "server": "search1api-mcp",
+        "type": "resource",
+        "name": "Search1API Information",
+        "description": "Basic information about Search1API capabilities",
+        "uritemplate": "search1api://info",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Flux159/mcp-server-kubernetes/Kubernetes Pods",
+        "provider": "Flux159",
+        "server": "mcp-server-kubernetes",
+        "type": "resource",
+        "name": "Kubernetes Pods",
+        "description": "List of pods in the default namespace",
+        "uritemplate": "k8s://default/pods",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Flux159/mcp-server-kubernetes/Kubernetes Deployments",
+        "provider": "Flux159",
+        "server": "mcp-server-kubernetes",
+        "type": "resource",
+        "name": "Kubernetes Deployments",
+        "description": "List of deployments in the default namespace",
+        "uritemplate": "k8s://default/deployments",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Flux159/mcp-server-kubernetes/Kubernetes Services",
+        "provider": "Flux159",
+        "server": "mcp-server-kubernetes",
+        "type": "resource",
+        "name": "Kubernetes Services",
+        "description": "List of services in the default namespace",
+        "uritemplate": "k8s://default/services",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Flux159/mcp-server-kubernetes/Kubernetes Namespaces",
+        "provider": "Flux159",
+        "server": "mcp-server-kubernetes",
+        "type": "resource",
+        "name": "Kubernetes Namespaces",
+        "description": "List of all namespaces",
+        "uritemplate": "k8s://namespaces",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Flux159/mcp-server-kubernetes/Kubernetes Nodes",
+        "provider": "Flux159",
+        "server": "mcp-server-kubernetes",
+        "type": "resource",
+        "name": "Kubernetes Nodes",
+        "description": "List of all nodes in the cluster",
+        "uritemplate": "k8s://nodes",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "furey/mongodb-lens/databases",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "databases",
+        "description": "List of all accessible MongoDB databases",
+        "uritemplate": "mongodb://databases",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/database-users",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "database-users",
+        "description": "MongoDB database users and roles",
+        "uritemplate": "mongodb://database/users",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/database-triggers",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "database-triggers",
+        "description": "Database change streams and event triggers configuration",
+        "uritemplate": "mongodb://database/triggers",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/stored-functions",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "stored-functions",
+        "description": "MongoDB stored JavaScript functions",
+        "uritemplate": "mongodb://database/functions",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/collections",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "collections",
+        "description": "List of collections in the current database",
+        "uritemplate": "mongodb://collections",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/collection-indexes",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "collection-indexes",
+        "description": "Index information for a MongoDB collection",
+        "uritemplate": "mongodb://collection/{name}/indexes",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/collection-schema",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "collection-schema",
+        "description": "Schema information for a MongoDB collection",
+        "uritemplate": "mongodb://collection/{name}/schema",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/collection-stats",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "collection-stats",
+        "description": "Performance statistics for a MongoDB collection",
+        "uritemplate": "mongodb://collection/{name}/stats",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/collection-validation",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "collection-validation",
+        "description": "Validation rules for a MongoDB collection",
+        "uritemplate": "mongodb://collection/{name}/validation",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/server-status",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "server-status",
+        "description": "MongoDB server status information",
+        "uritemplate": "mongodb://server/status",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/replica-status",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "replica-status",
+        "description": "MongoDB replica set status and configuration",
+        "uritemplate": "mongodb://server/replica",
+        "mimetype": null
+    },
+    {
+        "id": "furey/mongodb-lens/performance-metrics",
+        "provider": "furey",
+        "server": "mongodb-lens",
+        "type": "resource",
+        "name": "performance-metrics",
+        "description": "Real-time MongoDB performance metrics and profiling data",
+        "uritemplate": "mongodb://server/metrics",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Conversations list",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Conversations list",
+        "description": "Returns list of conversation resources.",
+        "uritemplate": "conversations://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Conversation",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Conversation",
+        "description": "Returns LLM conversation messages. Accepts conversation resource URI, i.e. conversations://{id}, where 'id' is a conversation identifier.",
+        "uritemplate": "conversations://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Feeds",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Feeds",
+        "description": "Returns list of feed resources.",
+        "uritemplate": "feeds://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Feed",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Feed",
+        "description": "Returns feed metadata. Accepts content resource URI, i.e. feeds://{id}, where 'id' is a feed identifier.",
+        "uritemplate": "feeds://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Collections",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Collections",
+        "description": "Returns list of collection resources.",
+        "uritemplate": "collections://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Collection",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Collection",
+        "description": "Returns collection metadata and list of content resources. Accepts collection resource URI, i.e. collections://{id}, where 'id' is a collection identifier.",
+        "uritemplate": "collections://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Contents list",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Contents list",
+        "description": "Returns list of content resources.",
+        "uritemplate": "contents://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Content",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Content",
+        "description": "Returns content metadata and complete Markdown text. Accepts content resource URI, i.e. contents://{id}, where 'id' is a content identifier.",
+        "uritemplate": "contents://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Workflows",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Workflows",
+        "description": "Returns list of workflow resources.",
+        "uritemplate": "workflows://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Workflow",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Workflow",
+        "description": "Returns workflow metadata. Accepts workflow resource URI, i.e. workflows://{id}, where 'id' is a workflow identifier.",
+        "uritemplate": "workflows://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Specifications",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Specifications",
+        "description": "Returns list of specification resources.",
+        "uritemplate": "specifications://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Specification",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Specification",
+        "description": "Returns specification metadata. Accepts specification resource URI, i.e. specifications://{id}, where 'id' is a specification identifier.",
+        "uritemplate": "specifications://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Projects",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Projects",
+        "description": "Returns list of project resources.",
+        "uritemplate": "projects://",
+        "mimetype": null
+    },
+    {
+        "id": "graphlit/graphlit-mcp-server/Project",
+        "provider": "graphlit",
+        "server": "graphlit-mcp-server",
+        "type": "resource",
+        "name": "Project",
+        "description": "Returns project metadata including credits used, available quota, and default content workflow. Accepts project resource URI, i.e. projects://{id}, where 'id' is a project identifier.",
+        "uritemplate": "projects://{id}",
+        "mimetype": null
+    },
+    {
+        "id": "GreptimeTeam/greptimedb-mcp-server/Table",
+        "provider": "GreptimeTeam",
+        "server": "greptimedb-mcp-server",
+        "type": "resource",
+        "name": "Table",
+        "description": "Data in table: {table}",
+        "uritemplate": "greptime://{table}/data",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "hyperbrowserai/mcp/Hyperbrowser Documentation Resource",
+        "provider": "hyperbrowserai",
+        "server": "mcp",
+        "type": "resource",
+        "name": "Hyperbrowser Documentation Resource",
+        "description": "Documentation resources accessible via hyperbrowser:// URI scheme",
+        "uritemplate": "hyperbrowser://{pathname}",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "idoru/influxdb-mcp-server/orgs",
+        "provider": "idoru",
+        "server": "influxdb-mcp-server",
+        "type": "resource",
+        "name": "orgs",
+        "description": "Displays all organizations in the InfluxDB instance",
+        "uritemplate": "influxdb://orgs",
+        "mimetype": null
+    },
+    {
+        "id": "idoru/influxdb-mcp-server/buckets",
+        "provider": "idoru",
+        "server": "influxdb-mcp-server",
+        "type": "resource",
+        "name": "buckets",
+        "description": "Shows all buckets with their metadata",
+        "uritemplate": "influxdb://buckets",
+        "mimetype": null
+    },
+    {
+        "id": "idoru/influxdb-mcp-server/bucket-measurements",
+        "provider": "idoru",
+        "server": "influxdb-mcp-server",
+        "type": "resource",
+        "name": "bucket-measurements",
+        "description": "Lists all measurements within a specified bucket",
+        "uritemplate": "influxdb://bucket/{bucketName}/measurements",
+        "mimetype": null
+    },
+    {
+        "id": "idoru/influxdb-mcp-server/query",
+        "provider": "idoru",
+        "server": "influxdb-mcp-server",
+        "type": "resource",
+        "name": "query",
+        "description": "Executes a Flux query and returns results as a resource",
+        "uritemplate": "influxdb://query/{orgName}/{fluxQuery}",
+        "mimetype": null
+    },
+    {
+        "id": "isaacwasserman/mcp-snowflake-server/Data Insights Memo",
+        "provider": "isaacwasserman",
+        "server": "mcp-snowflake-server",
+        "type": "resource",
+        "name": "Data Insights Memo",
+        "description": "A living document of discovered data insights",
+        "uritemplate": "memo://insights",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "isaacwasserman/mcp-snowflake-server/{table_name} table",
+        "provider": "isaacwasserman",
+        "server": "mcp-snowflake-server",
+        "type": "resource",
+        "name": "{table_name} table",
+        "description": "Description of the {table_name} table",
+        "uritemplate": "context://table/{table_name}",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "its-dart/dart-mcp-server/Dart config",
+        "provider": "its-dart",
+        "server": "dart-mcp-server",
+        "type": "resource",
+        "name": "Dart config",
+        "description": "Information about the authenticated user associated with the API key, including their role, teams, and settings.",
+        "uritemplate": "dart-config:",
+        "mimetype": null
+    },
+    {
+        "id": "its-dart/dart-mcp-server/Dart task",
+        "provider": "its-dart",
+        "server": "dart-mcp-server",
+        "type": "resource",
+        "name": "Dart task",
+        "description": "A Dart task with its title, description, status, priority, dates, and more. Use this to fetch detailed information about a specific task.",
+        "uritemplate": "dart-task:///{taskId}",
+        "mimetype": null
+    },
+    {
+        "id": "its-dart/dart-mcp-server/Dart doc",
+        "provider": "its-dart",
+        "server": "dart-mcp-server",
+        "type": "resource",
+        "name": "Dart doc",
+        "description": "A Dart doc with its title, text content, and folder. Use this to fetch detailed information about a specific doc.",
+        "uritemplate": "dart-doc:///{docId}",
+        "mimetype": null
+    },
+    {
+        "id": "jerhadf/linear-mcp-server/Linear Issue",
+        "provider": "jerhadf",
+        "server": "linear-mcp-server",
+        "type": "resource",
+        "name": "Linear Issue",
+        "description": "A Linear issue with its details, comments, and metadata. Use this to fetch detailed information about a specific issue.",
+        "uritemplate": "linear-issue:///{issueId}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "jerhadf/linear-mcp-server/Current User",
+        "provider": "jerhadf",
+        "server": "linear-mcp-server",
+        "type": "resource",
+        "name": "Current User",
+        "description": "Information about the authenticated user associated with the API key, including their role, teams, and settings.",
+        "uritemplate": "linear-viewer:",
+        "mimetype": null
+    },
+    {
+        "id": "jerhadf/linear-mcp-server/Current Organization",
+        "provider": "jerhadf",
+        "server": "linear-mcp-server",
+        "type": "resource",
+        "name": "Current Organization",
+        "description": "Details about the Linear organization associated with the API key, including settings, teams, and members.",
+        "uritemplate": "linear-organization:",
+        "mimetype": null
+    },
+    {
+        "id": "jerhadf/linear-mcp-server/Team Issues",
+        "provider": "jerhadf",
+        "server": "linear-mcp-server",
+        "type": "resource",
+        "name": "Team Issues",
+        "description": "All active issues belonging to a specific Linear team, including their status, priority, and assignees.",
+        "uritemplate": "linear-team:///{teamId}/issues",
+        "mimetype": null
+    },
+    {
+        "id": "jerhadf/linear-mcp-server/User Assigned Issues",
+        "provider": "jerhadf",
+        "server": "linear-mcp-server",
+        "type": "resource",
+        "name": "User Assigned Issues",
+        "description": "Active issues assigned to a specific Linear user. Returns issues sorted by update date.",
+        "uritemplate": "linear-user:///{userId}/assigned",
+        "mimetype": null
+    },
+    {
+        "id": "JexinSam/mssql_mcp_server/Table",
+        "provider": "JexinSam",
+        "server": "mssql_mcp_server",
+        "type": "resource",
+        "name": "Table",
+        "description": "Data in table: {table}",
+        "uritemplate": "mssql://{table}/data",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "kiliczsh/mcp-mongo-server/collections",
+        "provider": "kiliczsh",
+        "server": "mcp-mongo-server",
+        "type": "resource",
+        "name": "collections",
+        "description": "MongoDB collections exposed as resources",
+        "uritemplate": "/collections/{collectionName}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "kukapay/crypto-feargreed-mcp/current",
+        "provider": "kukapay",
+        "server": "crypto-feargreed-mcp",
+        "type": "resource",
+        "name": "current",
+        "description": "Current crypto Fear & Greed Index.",
+        "uritemplate": "fng://current",
+        "mimetype": null
+    },
+    {
+        "id": "kukapay/crypto-feargreed-mcp/history",
+        "provider": "kukapay",
+        "server": "crypto-feargreed-mcp",
+        "type": "resource",
+        "name": "history",
+        "description": "Historical Data of Crypto Fear & Greed Index for specified number of days.",
+        "uritemplate": "fng://history/{days}",
+        "mimetype": null
+    },
+    {
+        "id": "kukapay/whale-tracker-mcp/whale://transactions/{blockchain}",
+        "provider": "kukapay",
+        "server": "whale-tracker-mcp",
+        "type": "resource",
+        "name": "whale://transactions/{blockchain}",
+        "description": "Expose recent transactions for a specified blockchain as contextual data.",
+        "uritemplate": "whale://transactions/{blockchain}",
+        "mimetype": null
+    },
+    {
+        "id": "Laksh-star/mcp-server-tmdb/Movies",
+        "provider": "Laksh-star",
+        "server": "mcp-server-tmdb",
+        "type": "resource",
+        "name": "Movies",
+        "description": "Comprehensive movie details including title, release date, rating, overview, genres, poster URL, cast information (top 5 actors), director, and selected reviews.",
+        "uritemplate": "tmdb:///movie/{movie_id}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "lamaalrajih/kicad-mcp/circuit_patterns",
+        "provider": "lamaalrajih",
+        "server": "kicad-mcp",
+        "type": "resource",
+        "name": "circuit_patterns",
+        "description": "Get a formatted report of identified circuit patterns in a KiCad schematic file.",
+        "uritemplate": "kicad://patterns/{schematic_path}",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "lamaalrajih/kicad-mcp/project_circuit_patterns",
+        "provider": "lamaalrajih",
+        "server": "kicad-mcp",
+        "type": "resource",
+        "name": "project_circuit_patterns",
+        "description": "Get a formatted report of identified circuit patterns in a KiCad project.",
+        "uritemplate": "kicad://patterns/project/{project_path}",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Games endpoint schema",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Games endpoint schema",
+        "description": "Get game information with scores, teams and metadata",
+        "uritemplate": "schema://games",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Team records endpoint schema",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Team records endpoint schema",
+        "description": "Get team season records",
+        "uritemplate": "schema://records",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Plays endpoint",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Plays endpoint",
+        "description": "Schema for the /plays endpoint",
+        "uritemplate": "schema://plays",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Drives endpoint",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Drives endpoint",
+        "description": "Schema for the /drives endpoint",
+        "uritemplate": "schema://drives",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Play/stats endpoint",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Play/stats endpoint",
+        "description": "Schema for the /play/stats endpoint",
+        "uritemplate": "schema://play/stats",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Rankings endpoint",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Rankings endpoint",
+        "description": "Schema for the /rankings endpoint",
+        "uritemplate": "schema://rankings",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Metrics/wp/pregame endpoint",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Metrics/wp/pregame endpoint",
+        "description": "Schema for the pregame win probability endpoint",
+        "uritemplate": "schema://metrics/wp/pregame",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "lenwood/cfbd-mcp-server/Advanced box score endpoint",
+        "provider": "lenwood",
+        "server": "cfbd-mcp-server",
+        "type": "resource",
+        "name": "Advanced box score endpoint",
+        "description": "Schema for the advanced box score endpoint",
+        "uritemplate": "schema://game/box/advanced",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "leonardsellem/n8n-mcp-server/workflows",
+        "provider": "leonardsellem",
+        "server": "n8n-mcp-server",
+        "type": "resource",
+        "name": "workflows",
+        "description": "Static resource representing all workflows.",
+        "uritemplate": "/resources/workflows",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "leonardsellem/n8n-mcp-server/execution_stats",
+        "provider": "leonardsellem",
+        "server": "n8n-mcp-server",
+        "type": "resource",
+        "name": "execution_stats",
+        "description": "Static resource representing execution statistics.",
+        "uritemplate": "/resources/execution-stats",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "leonardsellem/n8n-mcp-server/workflow",
+        "provider": "leonardsellem",
+        "server": "n8n-mcp-server",
+        "type": "resource",
+        "name": "workflow",
+        "description": "Dynamic resource for a specific workflow identified by ID.",
+        "uritemplate": "/resources/workflows/{workflowId}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "leonardsellem/n8n-mcp-server/execution",
+        "provider": "leonardsellem",
+        "server": "n8n-mcp-server",
+        "type": "resource",
+        "name": "execution",
+        "description": "Dynamic resource for a specific execution identified by ID.",
+        "uritemplate": "/resources/executions/{executionId}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "mamertofabian/elevenlabs-mcp-server/Voiceover Job History",
+        "provider": "mamertofabian",
+        "server": "elevenlabs-mcp-server",
+        "type": "resource",
+        "name": "Voiceover Job History",
+        "description": "Access voiceover job history. Provide job_id for specific job or omit for all jobs.",
+        "uritemplate": "voiceover://history/{job_id}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "mamertofabian/elevenlabs-mcp-server/Available Voices",
+        "provider": "mamertofabian",
+        "server": "elevenlabs-mcp-server",
+        "type": "resource",
+        "name": "Available Voices",
+        "description": "Access list of available ElevenLabs voices with metadata",
+        "uritemplate": "voiceover://voices",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "mark3labs/mcp-filesystem-server/file://system",
+        "provider": "mark3labs",
+        "server": "mcp-filesystem-server",
+        "type": "resource",
+        "name": "file://system",
+        "description": "File system operations interface",
+        "uritemplate": "file://system",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/chain_info_by_network",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "chain_info_by_network",
+        "description": null,
+        "uritemplate": "evm://{network}/chain",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/ethereum_chain_info",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "ethereum_chain_info",
+        "description": null,
+        "uritemplate": "evm://chain",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/evm_block_by_number",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "evm_block_by_number",
+        "description": null,
+        "uritemplate": "evm://{network}/block/{blockNumber}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/block_by_hash",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "block_by_hash",
+        "description": null,
+        "uritemplate": "evm://{network}/block/hash/{blockHash}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/evm_latest_block",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "evm_latest_block",
+        "description": null,
+        "uritemplate": "evm://{network}/block/latest",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/default_latest_block",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "default_latest_block",
+        "description": null,
+        "uritemplate": "evm://block/latest",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/evm_address_native_balance",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "evm_address_native_balance",
+        "description": null,
+        "uritemplate": "evm://{network}/address/{address}/balance",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/default_eth_balance",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "default_eth_balance",
+        "description": null,
+        "uritemplate": "evm://address/{address}/eth-balance",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc20_balance",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc20_balance",
+        "description": null,
+        "uritemplate": "evm://{network}/address/{address}/token/{tokenAddress}/balance",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/default_erc20_balance",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "default_erc20_balance",
+        "description": null,
+        "uritemplate": "evm://address/{address}/token/{tokenAddress}/balance",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/evm_transaction_details",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "evm_transaction_details",
+        "description": null,
+        "uritemplate": "evm://{network}/tx/{txHash}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/default_transaction_by_hash",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "default_transaction_by_hash",
+        "description": null,
+        "uritemplate": "evm://tx/{txHash}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/supported_networks",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "supported_networks",
+        "description": null,
+        "uritemplate": "evm://networks",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc20_token_details",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc20_token_details",
+        "description": null,
+        "uritemplate": "evm://{network}/token/{tokenAddress}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc20_token_address_balance",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc20_token_address_balance",
+        "description": null,
+        "uritemplate": "evm://{network}/token/{tokenAddress}/balanceOf/{address}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc721_nft_token_details",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc721_nft_token_details",
+        "description": null,
+        "uritemplate": "evm://{network}/nft/{tokenAddress}/{tokenId}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc721_nft_ownership_check",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc721_nft_ownership_check",
+        "description": null,
+        "uritemplate": "evm://{network}/nft/{tokenAddress}/{tokenId}/isOwnedBy/{address}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc1155_token_metadata_uri",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc1155_token_metadata_uri",
+        "description": null,
+        "uritemplate": "evm://{network}/erc1155/{tokenAddress}/{tokenId}/uri",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/evm-mcp-server/erc1155_token_address_balance",
+        "provider": "mcpdotdirect",
+        "server": "evm-mcp-server",
+        "type": "resource",
+        "name": "erc1155_token_address_balance",
+        "description": null,
+        "uritemplate": "evm://{network}/erc1155/{tokenAddress}/{tokenId}/balanceOf/{address}",
+        "mimetype": null
+    },
+    {
+        "id": "mcpdotdirect/template-mcp-server/Example Resource",
+        "provider": "mcpdotdirect",
+        "server": "template-mcp-server",
+        "type": "resource",
+        "name": "Example Resource",
+        "description": "Resource ID",
+        "uritemplate": "example://{id}",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "mfukushim/map-traveler-mcp/custom_prompt_samples",
+        "provider": "mfukushim",
+        "server": "map-traveler-mcp",
+        "type": "resource",
+        "name": "custom_prompt_samples",
+        "description": "Has five custom prompt samples. When you import a prompt with Claude Desktop, Claude will act as a travel",
+        "uritemplate": "/prompts/custom_samples",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/user",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "user",
+        "description": "User resource identified by user_id.",
+        "uritemplate": "user://{user_id}",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/member",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "member",
+        "description": "Member resource identified by member_id.",
+        "uritemplate": "member://{member_id}",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/tier",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "tier",
+        "description": "Tier resource identified by tier_id.",
+        "uritemplate": "tier://{tier_id}",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/offer",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "offer",
+        "description": "Offer resource identified by offer_id.",
+        "uritemplate": "offer://{offer_id}",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/newsletter",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "newsletter",
+        "description": "Newsletter resource identified by newsletter_id.",
+        "uritemplate": "newsletter://{newsletter_id}",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/post",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "post",
+        "description": "Post resource identified by post_id.",
+        "uritemplate": "post://{post_id}",
+        "mimetype": null
+    },
+    {
+        "id": "MFYDev/ghost-mcp/blog-info",
+        "provider": "MFYDev",
+        "server": "ghost-mcp",
+        "type": "resource",
+        "name": "blog-info",
+        "description": "Blog information resource.",
+        "uritemplate": "blog://info",
+        "mimetype": null
+    },
+    {
+        "id": "neondatabase-labs/mcp-server-neon/NEON_RESOURCES",
+        "provider": "neondatabase-labs",
+        "server": "mcp-server-neon",
+        "type": "resource",
+        "name": "NEON_RESOURCES",
+        "description": "Resources exposed by Neon MCP server.",
+        "uritemplate": "/resources/{id}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "oatpp/oatpp-mcp/File",
+        "provider": "oatpp",
+        "server": "oatpp-mcp",
+        "type": "resource",
+        "name": "File",
+        "description": null,
+        "uritemplate": null,
+        "mimetype": null
+    },
+    {
+        "id": "oceanbase/mcp-oceanbase/Table",
+        "provider": "oceanbase",
+        "server": "mcp-oceanbase",
+        "type": "resource",
+        "name": "Table",
+        "description": "Data in table: {table}",
+        "uritemplate": "oceanbase://{table}/data",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "Omar-V2/mcp-ical/calendars://list",
+        "provider": "Omar-V2",
+        "server": "mcp-ical",
+        "type": "resource",
+        "name": "calendars://list",
+        "description": "List all available calendars that can be used with calendar operations.",
+        "uritemplate": "calendars://list",
+        "mimetype": null
+    },
+    {
+        "id": "open-strategy-partners/osp_marketing_tools/osp://marketing-tools",
+        "provider": "open-strategy-partners",
+        "server": "osp_marketing_tools",
+        "type": "resource",
+        "name": "osp://marketing-tools",
+        "description": "Resource namespace for OSP marketing tools.",
+        "uritemplate": "osp://marketing-tools",
+        "mimetype": null
+    },
+    {
+        "id": "osomai/servicenow-mcp/catalog_items",
+        "provider": "osomai",
+        "server": "servicenow-mcp",
+        "type": "resource",
+        "name": "catalog_items",
+        "description": "Resource representing catalog items.",
+        "uritemplate": "catalog://items",
+        "mimetype": null
+    },
+    {
+        "id": "osomai/servicenow-mcp/catalog_categories",
+        "provider": "osomai",
+        "server": "servicenow-mcp",
+        "type": "resource",
+        "name": "catalog_categories",
+        "description": "Resource representing catalog categories.",
+        "uritemplate": "catalog://categories",
+        "mimetype": null
+    },
+    {
+        "id": "osomai/servicenow-mcp/catalog_item",
+        "provider": "osomai",
+        "server": "servicenow-mcp",
+        "type": "resource",
+        "name": "catalog_item",
+        "description": "Resource representing a specific catalog item by ID.",
+        "uritemplate": "catalog://{item_id}",
+        "mimetype": null
+    },
+    {
+        "id": "pab1it0/adx-mcp-server/tables",
+        "provider": "pab1it0",
+        "server": "adx-mcp-server",
+        "type": "resource",
+        "name": "tables",
+        "description": "Tables in the configured Azure Data Explorer database.",
+        "uritemplate": "/tables/{tableName}",
+        "mimetype": null
+    },
+    {
+        "id": "pab1it0/adx-mcp-server/schemas",
+        "provider": "pab1it0",
+        "server": "adx-mcp-server",
+        "type": "resource",
+        "name": "schemas",
+        "description": "Schemas of tables in the database.",
+        "uritemplate": "/schemas/{tableName}",
+        "mimetype": null
+    },
+    {
+        "id": "pab1it0/adx-mcp-server/samples",
+        "provider": "pab1it0",
+        "server": "adx-mcp-server",
+        "type": "resource",
+        "name": "samples",
+        "description": "Sample data from tables.",
+        "uritemplate": "/samples/{tableName}",
+        "mimetype": null
+    },
+    {
+        "id": "pab1it0/adx-mcp-server/statistics",
+        "provider": "pab1it0",
+        "server": "adx-mcp-server",
+        "type": "resource",
+        "name": "statistics",
+        "description": "Statistics and details of tables.",
+        "uritemplate": "/statistics/{tableName}",
+        "mimetype": null
+    },
+    {
+        "id": "prajwalnayak7/mcp-server-redis/status",
+        "provider": "prajwalnayak7",
+        "server": "mcp-server-redis",
+        "type": "resource",
+        "name": "status",
+        "description": "Current connection status",
+        "uritemplate": "redis://status",
+        "mimetype": null
+    },
+    {
+        "id": "prajwalnayak7/mcp-server-redis/info",
+        "provider": "prajwalnayak7",
+        "server": "mcp-server-redis",
+        "type": "resource",
+        "name": "info",
+        "description": "Redis server information",
+        "uritemplate": "redis://info",
+        "mimetype": null
+    },
+    {
+        "id": "prajwalnayak7/mcp-server-redis/keys",
+        "provider": "prajwalnayak7",
+        "server": "mcp-server-redis",
+        "type": "resource",
+        "name": "keys",
+        "description": "List keys matching a pattern",
+        "uritemplate": "redis://keys/{pattern}",
+        "mimetype": null
+    },
+    {
+        "id": "privetin/chroma/documents",
+        "provider": "privetin",
+        "server": "chroma",
+        "type": "resource",
+        "name": "documents",
+        "description": "Stores documents with content and metadata",
+        "uritemplate": "/documents/{document_id}",
+        "mimetype": null
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/nasa-apod-image",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "nasa-apod-image",
+        "description": "NASA Astronomy Picture of the Day",
+        "uritemplate": "nasa://apod/image?date={date}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/nasa-epic-image",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "nasa-epic-image",
+        "description": "NASA EPIC Earth observation image",
+        "uritemplate": "nasa://epic/image?date={date}&collection={collection}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/mars-rover-photo",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "mars-rover-photo",
+        "description": "NASA Mars Rover photograph",
+        "uritemplate": "nasa://mars-rover/photo?rover={rover}&id={id}",
+        "mimetype": "image/jpeg"
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/nasa-image",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "nasa-image",
+        "description": "NASA Image and Video Library item",
+        "uritemplate": "nasa://images/item?nasa_id={nasa_id}",
+        "mimetype": "image/jpeg"
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/nasa-gibs-imagery",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "nasa-gibs-imagery",
+        "description": "NASA Global Imagery Browse Services (GIBS) satellite image",
+        "uritemplate": "nasa://gibs/imagery?layer={layer}&date={date}",
+        "mimetype": "image/jpeg"
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/jpl-asteroid-data",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "jpl-asteroid-data",
+        "description": "JPL Small-Body Database entry",
+        "uritemplate": "jpl://sbdb?object={object}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "ProgramComputer/NASA-MCP-server/nasa-earth-imagery",
+        "provider": "ProgramComputer",
+        "server": "NASA-MCP-server",
+        "type": "resource",
+        "name": "nasa-earth-imagery",
+        "description": "NASA Earth Landsat satellite imagery",
+        "uritemplate": "nasa://earth/imagery?lon={lon}&lat={lat}&date={date}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "punkpeye/fastmcp/Application Logs",
+        "provider": "punkpeye",
+        "server": "fastmcp",
+        "type": "resource",
+        "name": "Application Logs",
+        "description": null,
+        "uritemplate": "file:///logs/{name}.log",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "quarkiverse/quarkus-mcp-server/alpha",
+        "provider": "quarkiverse",
+        "server": "quarkus-mcp-server",
+        "type": "resource",
+        "name": "alpha",
+        "description": null,
+        "uritemplate": "file:///project/alpha",
+        "mimetype": null
+    },
+    {
+        "id": "reading-plus-ai/mcp-server-data-exploration/Data Exploration Notes",
+        "provider": "reading-plus-ai",
+        "server": "mcp-server-data-exploration",
+        "type": "resource",
+        "name": "Data Exploration Notes",
+        "description": "Notes generated by the data exploration server",
+        "uritemplate": "data-exploration://notes",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/players",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "players",
+        "description": "Get a formatted list of all players with comprehensive statistics",
+        "uritemplate": "fpl://static/players",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/player_by_name",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "player_by_name",
+        "description": "Get player information by searching for their name",
+        "uritemplate": "fpl://static/players/{name}",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/teams",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "teams",
+        "description": "Get a formatted list of all Premier League teams with strength ratings",
+        "uritemplate": "fpl://static/teams",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/team_by_name",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "team_by_name",
+        "description": "Get team information by searching for their name",
+        "uritemplate": "fpl://static/teams/{name}",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/current_gameweek",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "current_gameweek",
+        "description": "Get information about the current gameweek",
+        "uritemplate": "fpl://gameweeks/current",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/all_gameweeks",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "all_gameweeks",
+        "description": "Get information about all gameweeks",
+        "uritemplate": "fpl://gameweeks/all",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/fixtures",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "fixtures",
+        "description": "Get all fixtures for the current Premier League season",
+        "uritemplate": "fpl://fixtures",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/gameweek_fixtures",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "gameweek_fixtures",
+        "description": "Get fixtures for a specific gameweek",
+        "uritemplate": "fpl://fixtures/gameweek/{gameweek_id}",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/team_fixtures",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "team_fixtures",
+        "description": "Get fixtures for a specific team",
+        "uritemplate": "fpl://fixtures/team/{team_name}",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/player_fixtures",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "player_fixtures",
+        "description": "Get upcoming fixtures for a specific player",
+        "uritemplate": "fpl://players/{player_name}/fixtures",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/blank_gameweeks",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "blank_gameweeks",
+        "description": "Get information about upcoming blank gameweeks",
+        "uritemplate": "fpl://gameweeks/blank",
+        "mimetype": null
+    },
+    {
+        "id": "rishijatia/fantasy-pl-mcp/double_gameweeks",
+        "provider": "rishijatia",
+        "server": "fantasy-pl-mcp",
+        "type": "resource",
+        "name": "double_gameweeks",
+        "description": "Get information about upcoming double gameweeks",
+        "uritemplate": "fpl://gameweeks/double",
+        "mimetype": null
+    },
+    {
+        "id": "rishikavikondala/mcp-server-aws/aws-operations",
+        "provider": "rishikavikondala",
+        "server": "mcp-server-aws",
+        "type": "resource",
+        "name": "aws-operations",
+        "description": "Access to automatically logged AWS operations.",
+        "uritemplate": "audit://aws-operations",
+        "mimetype": null
+    },
+    {
+        "id": "scorzeth/anki-mcp-server/Current Deck",
+        "provider": "scorzeth",
+        "server": "anki-mcp-server",
+        "type": "resource",
+        "name": "Current Deck",
+        "description": "Returns all cards from current deck",
+        "uritemplate": "anki://search/deckcurrent",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "scorzeth/anki-mcp-server/Due cards",
+        "provider": "scorzeth",
+        "server": "anki-mcp-server",
+        "type": "resource",
+        "name": "Due cards",
+        "description": "Returns cards in review and learning waiting to be studied",
+        "uritemplate": "anki://search/isdue",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "scorzeth/anki-mcp-server/New cards",
+        "provider": "scorzeth",
+        "server": "anki-mcp-server",
+        "type": "resource",
+        "name": "New cards",
+        "description": "Returns all unseen cards",
+        "uritemplate": "anki://search/isnew",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "sergehuber/inoyu-mcp-unomi-server/Unomi Profiles",
+        "provider": "sergehuber",
+        "server": "inoyu-mcp-unomi-server",
+        "type": "resource",
+        "name": "Unomi Profiles",
+        "description": "List of available Apache Unomi profiles",
+        "uritemplate": "unomi://profiles/list",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "SimonB97/win-cli-mcp-server/SSH Connection",
+        "provider": "SimonB97",
+        "server": "win-cli-mcp-server",
+        "type": "resource",
+        "name": "SSH Connection",
+        "description": "SSH connection to {id} with host, port, and username",
+        "uritemplate": "ssh://{id}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "SimonB97/win-cli-mcp-server/Current Working Directory",
+        "provider": "SimonB97",
+        "server": "win-cli-mcp-server",
+        "type": "resource",
+        "name": "Current Working Directory",
+        "description": "The current working directory of the CLI server",
+        "uritemplate": "cli://currentdir",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "SimonB97/win-cli-mcp-server/SSH Configuration",
+        "provider": "SimonB97",
+        "server": "win-cli-mcp-server",
+        "type": "resource",
+        "name": "SSH Configuration",
+        "description": "All SSH connection configurations",
+        "uritemplate": "ssh://config",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "SimonB97/win-cli-mcp-server/CLI Server Configuration",
+        "provider": "SimonB97",
+        "server": "win-cli-mcp-server",
+        "type": "resource",
+        "name": "CLI Server Configuration",
+        "description": "Main CLI server configuration (excluding sensitive data)",
+        "uritemplate": "cli://config",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "sirmews/mcp-pinecone/Pinecone Vector",
+        "provider": "sirmews",
+        "server": "mcp-pinecone",
+        "type": "resource",
+        "name": "Pinecone Vector",
+        "description": "Vector resource identified by vector ID in Pinecone index",
+        "uritemplate": "pinecone://vectors/{id}",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "skydeckai/mcp-server-rememberizer/Documents",
+        "provider": "skydeckai",
+        "server": "mcp-server-rememberizer",
+        "type": "resource",
+        "name": "Documents",
+        "description": "Documents resource accessible by document ID.",
+        "uritemplate": "document/{id}",
+        "mimetype": "text/json"
+    },
+    {
+        "id": "skydeckai/mcp-server-rememberizer/Slack discussions",
+        "provider": "skydeckai",
+        "server": "mcp-server-rememberizer",
+        "type": "resource",
+        "name": "Slack discussions",
+        "description": "Slack discussions resource accessible by Slack discussion ID.",
+        "uritemplate": "slack/{id}",
+        "mimetype": "text/json"
+    },
+    {
+        "id": "StarRocks/mcp-server-starrocks/All Databases",
+        "provider": "StarRocks",
+        "server": "mcp-server-starrocks",
+        "type": "resource",
+        "name": "All Databases",
+        "description": "List all databases in StarRocks",
+        "uritemplate": "starrocks:///databases",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "StarRocks/mcp-server-starrocks/Table Schema",
+        "provider": "StarRocks",
+        "server": "mcp-server-starrocks",
+        "type": "resource",
+        "name": "Table Schema",
+        "description": "Get the schema of a table using SHOW CREATE TABLE",
+        "uritemplate": "starrocks:///{db}/{table}/schema",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "StarRocks/mcp-server-starrocks/Database Tables",
+        "provider": "StarRocks",
+        "server": "mcp-server-starrocks",
+        "type": "resource",
+        "name": "Database Tables",
+        "description": "List all tables in a specific database",
+        "uritemplate": "starrocks:///{db}/tables",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "StarRocks/mcp-server-starrocks/System internal information",
+        "provider": "StarRocks",
+        "server": "mcp-server-starrocks",
+        "type": "resource",
+        "name": "System internal information",
+        "description": "Internal information exposed by StarRocks similar to linux /proc, following are some common paths:\n\n'/frontends' Shows the information of FE nodes.\n'/backends' Shows the information of BE nodes if this SR is non cloud native deployment.\n'/compute_nodes' Shows the information of CN nodes if this SR is cloud native deployment.\n'/dbs' Shows the information of databases.\n'/dbs/<DB_ID>' Shows the information of a database by database ID.\n'/dbs/<DB_ID>/<TABLE_ID>' Shows the information of tables by database ID.\n'/dbs/<DB_ID>/<TABLE_ID>/partitions' Shows the information of partitions by database ID and table ID.\n'/transactions' Shows the information of transactions by database.\n'/transactions/<DB_ID>' Show the information of transactions by database ID.\n'/transactions/<DB_ID>/running' Show the information of running transactions by database ID.\n'/transactions/<DB_ID>/finished' Show the information of finished transactions by database ID.\n'/jobs' Shows the information of jobs.\n'/statistic' Shows the statistics of each database.\n'/tasks' Shows the total number of all generic tasks and the failed tasks.\n'/cluster_balance' Shows the load balance information.\n'/routine_loads' Shows the information of Routine Load.\n'/colocation_group' Shows the information of Colocate Join groups.\n'/catalog' Shows the information of catalogs.",
+        "uritemplate": "proc:///{+path}",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "suhail-ak-s/mcp-typesense-server/Collection Schemas",
+        "provider": "suhail-ak-s",
+        "server": "mcp-typesense-server",
+        "type": "resource",
+        "name": "Collection Schemas",
+        "description": "JSON schema information for each collection including field names and data types and sample documents",
+        "uritemplate": "typesense://collections/{collection}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "tinybirdco/mcp-tinybird/Insights from Tinybird",
+        "provider": "tinybirdco",
+        "server": "mcp-tinybird",
+        "type": "resource",
+        "name": "Insights from Tinybird",
+        "description": "A living document of discovered insights",
+        "uritemplate": "tinybird://insights",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "tinybirdco/mcp-tinybird/Context for datasource definition",
+        "provider": "tinybirdco",
+        "server": "mcp-tinybird",
+        "type": "resource",
+        "name": "Context for datasource definition",
+        "description": "Syntax and context to build .datasource datafiles",
+        "uritemplate": "tinybird://datasource-definition-context",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "translated/lara-mcp/Translation Memories",
+        "provider": "translated",
+        "server": "lara-mcp",
+        "type": "resource",
+        "name": "Translation Memories",
+        "description": "List of translation memories in your Lara Translate account.",
+        "uritemplate": "memories://list",
+        "mimetype": null
+    },
+    {
+        "id": "translated/lara-mcp/Supported Languages",
+        "provider": "translated",
+        "server": "lara-mcp",
+        "type": "resource",
+        "name": "Supported Languages",
+        "description": "List of Lara Translate supported languages.",
+        "uritemplate": "languages://list",
+        "mimetype": null
+    },
+    {
+        "id": "Vortiago/mcp-azure-devops/work_items",
+        "provider": "Vortiago",
+        "server": "mcp-azure-devops",
+        "type": "resource",
+        "name": "work_items",
+        "description": "Work item resources accessible by ID.",
+        "uritemplate": "/workitems/{id}",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Vortiago/mcp-azure-devops/projects",
+        "provider": "Vortiago",
+        "server": "mcp-azure-devops",
+        "type": "resource",
+        "name": "projects",
+        "description": "List of accessible projects in the organization.",
+        "uritemplate": "/projects",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "Vortiago/mcp-azure-devops/teams",
+        "provider": "Vortiago",
+        "server": "mcp-azure-devops",
+        "type": "resource",
+        "name": "teams",
+        "description": "List of teams within the organization.",
+        "uritemplate": "/teams",
+        "mimetype": "application/json"
+    },
+    {
+        "id": "voska/hass-mcp/entity",
+        "provider": "voska",
+        "server": "hass-mcp",
+        "type": "resource",
+        "name": "entity",
+        "description": "Get the state of a Home Assistant entity as a resource",
+        "uritemplate": "hass://entities/{entity_id}",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "voska/hass-mcp/entities",
+        "provider": "voska",
+        "server": "hass-mcp",
+        "type": "resource",
+        "name": "entities",
+        "description": "Get a list of all Home Assistant entities as a resource",
+        "uritemplate": "hass://entities",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "voska/hass-mcp/search_entities",
+        "provider": "voska",
+        "server": "hass-mcp",
+        "type": "resource",
+        "name": "search_entities",
+        "description": "Search for entities matching a query string with a specified result limit",
+        "uritemplate": "hass://search/{query}/{limit}",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "voska/hass-mcp/entity_detailed",
+        "provider": "voska",
+        "server": "hass-mcp",
+        "type": "resource",
+        "name": "entity_detailed",
+        "description": "Get detailed information about a Home Assistant entity as a resource",
+        "uritemplate": "hass://entities/{entity_id}/detailed",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "voska/hass-mcp/entities_by_domain",
+        "provider": "voska",
+        "server": "hass-mcp",
+        "type": "resource",
+        "name": "entities_by_domain",
+        "description": "Get a list of entities for a specific domain as a resource",
+        "uritemplate": "hass://entities/domain/{domain}",
+        "mimetype": "text/markdown"
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/DAG Management",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "DAG Management",
+        "description": "Endpoints for managing DAGs in Apache Airflow.",
+        "uritemplate": "/api/v1/dags",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/DAG Runs",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "DAG Runs",
+        "description": "Endpoints for managing DAG runs.",
+        "uritemplate": "/api/v1/dags/{dag_id}/dagRuns",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/Tasks",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "Tasks",
+        "description": "Endpoints for managing tasks within DAGs.",
+        "uritemplate": "/api/v1/dags/{dag_id}/tasks",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/Variables",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "Variables",
+        "description": "Endpoints for managing Airflow variables.",
+        "uritemplate": "/api/v1/variables",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/Connections",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "Connections",
+        "description": "Endpoints for managing Airflow connections.",
+        "uritemplate": "/api/v1/connections",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/Pools",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "Pools",
+        "description": "Endpoints for managing Airflow pools.",
+        "uritemplate": "/api/v1/pools",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/XComs",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "XComs",
+        "description": "Endpoints for managing XCom entries.",
+        "uritemplate": "/api/v1/dags/{dag_id}/dagRuns/{dag_run_id}/taskInstances/{task_id}/xcomEntries",
+        "mimetype": null
+    },
+    {
+        "id": "yangkyeongmo/mcp-server-apache-airflow/Datasets",
+        "provider": "yangkyeongmo",
+        "server": "mcp-server-apache-airflow",
+        "type": "resource",
+        "name": "Datasets",
+        "description": "Endpoints for managing datasets.",
+        "uritemplate": "/api/v1/datasets",
+        "mimetype": null
+    },
+    {
+        "id": "yuanoOo/oceanbase_mcp_server/Table",
+        "provider": "yuanoOo",
+        "server": "oceanbase_mcp_server",
+        "type": "resource",
+        "name": "Table",
+        "description": "Data in table: {table}",
+        "uritemplate": "oceanbase://{table}/data",
+        "mimetype": "text/plain"
+    },
+    {
+        "id": "zcaceres/easy-mcp/simpleResource",
+        "provider": "zcaceres",
+        "server": "easy-mcp",
+        "type": "resource",
+        "name": "simpleResource",
+        "description": "",
+        "uritemplate": "simple-resource",
+        "mimetype": ""
+    },
+    {
+        "id": "zcaceres/easy-mcp/myResourceTemplate",
+        "provider": "zcaceres",
+        "server": "easy-mcp",
+        "type": "resource",
+        "name": "myResourceTemplate",
+        "description": "",
+        "uritemplate": "greeting/{name}",
+        "mimetype": ""
+    },
+    {
+        "id": "zcaceres/easy-mcp/simpleResource",
+        "provider": "zcaceres",
+        "server": "easy-mcp",
+        "type": "resource",
+        "name": "simpleResource",
+        "description": "",
+        "uritemplate": "test://simple-resource",
+        "mimetype": ""
+    },
+    {
+        "id": "zcaceres/easy-mcp/resourceWithParam",
+        "provider": "zcaceres",
+        "server": "easy-mcp",
+        "type": "resource",
+        "name": "resourceWithParam",
+        "description": "",
+        "uritemplate": "test://resource/{param}",
+        "mimetype": ""
+    },
+    {
+        "id": "zcaceres/gtasks-mcp/Tasks",
+        "provider": "zcaceres",
+        "server": "gtasks-mcp",
+        "type": "resource",
+        "name": "Tasks",
+        "description": "Represents individual tasks in Google Tasks. Supports reading task details including title, status, due date, notes, and other metadata. Can be listed, read, created, updated, and deleted using the provided tools.",
+        "uritemplate": "gtasks:///{task_id}",
+        "mimetype": "text/plain"
+    }
+]

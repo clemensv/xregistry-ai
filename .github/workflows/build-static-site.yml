@@ -222,6 +222,21 @@ jobs:
           echo "Creating registry entries..."
           docker exec "${CONTAINER_ID}" /bin/sh -c '
             REGISTRY_DIR=/workspace/registry
+            
+            # Ensure required index files exist
+            if [ ! -f "$REGISTRY_DIR/index.json" ]; then
+              echo "Error: Missing registry/index.json"
+              exit 1
+            fi
+            if [ ! -f "$REGISTRY_DIR/mcpproviders/index.json" ]; then
+              echo "Error: Missing registry/mcpproviders/index.json"
+              exit 1
+            fi
+            if [ ! -f "$REGISTRY_DIR/agentcardproviders/index.json" ]; then
+              echo "Error: Missing registry/agentcardproviders/index.json"
+              exit 1
+            fi
+            
             find $REGISTRY_DIR -type f -name index.json | while read file; do
               path=${file#"$REGISTRY_DIR"/}
               path=${path%/index.json}
@@ -229,6 +244,7 @@ jobs:
               /xr create "$path" -d "@$file" -s localhost:8080
               if [ $? -ne 0 ]; then
                 echo "Error processing file: $file"
+                exit 1
               else
                 echo "Successfully processed file: $file"
               fi 
