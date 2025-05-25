@@ -139,6 +139,90 @@ function Invoke-BashTest {
     }
 }
 
+# Function to check if a workflow run is for our specific issue
+function Check-OurWorkflow {
+    param([string]$IssueNumber)
+    
+    Write-Host "🔍 Looking for workflow runs triggered by issue #$IssueNumber..." -ForegroundColor Cyan
+    
+    # Get recent workflow runs for issues-mcp.yml
+    try {
+        $workflowRuns = gh run list --repo "$RepoOwner/$RepoName" --workflow="issues-mcp.yml" --limit=5 --json databaseId,status,conclusion,event,createdAt | ConvertFrom-Json
+        
+        if (-not $workflowRuns -or $workflowRuns.Count -eq 0) {
+            Write-Host "ℹ️  No workflow runs found for issues-mcp.yml" -ForegroundColor Yellow
+            return 1
+        }
+        
+        foreach ($run in $workflowRuns) {
+            if ($run.databaseId) {
+                # Get detailed run info
+                try {
+                    $runInfo = gh run view $run.databaseId --repo "$RepoOwner/$RepoName" --json event,status,conclusion,createdAt | ConvertFrom-Json
+                    
+                    if ($runInfo.event -eq "issues") {
+                        # Check if this run is recent (within last 10 minutes)
+                        $runTime = [DateTime]::Parse($runInfo.createdAt)
+                        $currentTime = Get-Date
+                        $timeDiff = ($currentTime - $runTime).TotalSeconds
+                        
+                        if ($timeDiff -lt 600) {
+                            Write-Host "🎯 Found recent issues-triggered workflow run #$($run.databaseId) ($([math]::Round($timeDiff))s ago)" -ForegroundColor Green
+                            Write-Host "   Status: $($runInfo.status), Conclusion: $($runInfo.conclusion)" -ForegroundColor Gray
+                            
+                            switch ($runInfo.status) {
+                                { $_ -in @("in_progress", "queued") } {
+                                    Write-Host "⏳ Our workflow is currently $($runInfo.status)" -ForegroundColor Yellow
+                                    return 0
+                                }
+                                "completed" {
+                                    switch ($runInfo.conclusion) {
+                                        "success" {
+                                            Write-Host "✅ Our workflow completed successfully!" -ForegroundColor Green
+                                            return 0
+                                        }
+                                        { $_ -in @("failure", "cancelled", "timed_out") } {
+                                            Write-Host "❌ Our workflow failed with: $($runInfo.conclusion)" -ForegroundColor Red
+                                            
+                                            # Get failure details
+                                            Write-Host ""
+                                            Write-Host "📋 Workflow failure details:" -ForegroundColor Red
+                                            try {
+                                                $details = gh run view $run.databaseId --repo "$RepoOwner/$RepoName"
+                                                $details[0..14] | ForEach-Object { Write-Host $_ }
+                                                
+                                                Write-Host ""
+                                                Write-Host "📝 Recent logs:" -ForegroundColor Red
+                                                $logs = gh run view $run.databaseId --repo "$RepoOwner/$RepoName" --log
+                                                $logs[-30..-1] | ForEach-Object { Write-Host $_ }
+                                            } catch {
+                                                Write-Host "Could not retrieve failure details" -ForegroundColor Yellow
+                                            }
+                                            
+                                            return 2
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            Write-Host "ℹ️  Found older issues-triggered run #$($run.databaseId) ($([math]::Round($timeDiff))s ago) - likely not ours" -ForegroundColor Gray
+                        }
+                    }
+                } catch {
+                    Write-Host "⚠️  Could not get details for run #$($run.databaseId)" -ForegroundColor Yellow
+                }
+            }
+        }
+        
+        Write-Host "ℹ️  No recent workflow runs found for our issue" -ForegroundColor Yellow
+        return 1
+        
+    } catch {
+        Write-Host "❌ Error checking workflow runs: $_" -ForegroundColor Red
+        return 1
+    }
+}
+
 # Main execution
 if ($Help) {
     Show-Help

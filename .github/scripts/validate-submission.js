@@ -111,9 +111,10 @@ const octokit = new Octokit({ auth: process.env.GH_TOKEN });
     repo: repoUrl,
     path = "",
     branch: externalBranch = "main",
-    groupName = "",
-    resourceName: resourceName = "",
   } = config;
+
+  const groupName = config[groupSingular] || "";
+  const resourceName = config[resourceSingular] || "";
 
   // RFC3986 unreserved + "@" validation
   const VALID_NAME_REGEX = /^[A-Za-z0-9_][A-Za-z0-9._~@-]{0,127}$/;

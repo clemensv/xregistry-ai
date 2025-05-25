@@ -189,4 +189,59 @@ If you modify this test:
 2. Update this README if needed
 3. Ensure the test cleans up properly
 4. Consider adding additional test cases
-5. Run the verification script to ensure setup is correct 
+5. Run the verification script to ensure setup is correct
+
+## Enhanced Workflow Monitoring
+
+### Issue-Specific Tracking
+
+The test scripts now include enhanced monitoring that can specifically tell if a workflow run is processing our particular issue:
+
+#### How It Works
+
+1. **Issue Creation Tracking**: When we create an issue, we capture the issue number
+2. **Workflow Event Filtering**: We query GitHub for workflow runs triggered by "issues" events
+3. **Timestamp Correlation**: We check if workflow runs were created recently (within 10 minutes of our issue)
+4. **Event Type Verification**: We verify the workflow was triggered by an issues event, not push/PR/etc.
+
+#### What You'll See
+
+```bash
+🔍 Looking for workflow runs triggered by issue #123...
+🎯 Found recent issues-triggered workflow run #456789 (45s ago)
+   Status: in_progress, Conclusion: null
+⏳ Our workflow is currently in_progress
+```
+
+Or if there's a failure:
+```bash
+🔍 Looking for workflow runs triggered by issue #123...
+🎯 Found recent issues-triggered workflow run #456789 (120s ago)
+   Status: completed, Conclusion: failure
+❌ Our workflow failed with: failure
+
+📋 Workflow failure details:
+[Detailed workflow information]
+
+📝 Recent logs:
+[Last 30 lines of workflow logs]
+```
+
+#### Benefits
+
+- **Precise Tracking**: Know exactly if YOUR issue is being processed
+- **Immediate Failure Detection**: Stop waiting as soon as YOUR workflow fails
+- **Relevant Debugging**: Get logs and details for YOUR specific run
+- **Avoid False Positives**: Don't get confused by other workflows running
+
+#### Functions Added
+
+- `find_issue_workflow_runs()` - Searches for workflow runs triggered by our specific issue
+- `check_our_workflow()` - Enhanced monitoring with issue correlation
+- `Check-OurWorkflow` - PowerShell equivalent
+
+#### Fallback Behavior
+
+If we can't definitively identify our specific workflow run, the scripts fall back to general workflow monitoring to ensure we don't miss anything.
+
+## Scripts Overview 
