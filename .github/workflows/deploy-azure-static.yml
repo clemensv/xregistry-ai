@@ -130,12 +130,13 @@ jobs:
           # Build the Angular application
           npm run build-prod
           
-          # Ensure the registry directory exists in the output
-          mkdir -p dist/xregistry-viewer/registry
-          
           # Copy registry files to the output directory
           if [ -d "public/registry" ]; then
-            cp -r public/registry/* dist/xregistry-viewer/registry/
+            # Remove any existing registry directory in output
+            rm -rf dist/xregistry-viewer/registry
+            
+            # Copy the entire registry directory structure
+            cp -r public/registry dist/xregistry-viewer/
             echo "Copied registry files to output directory"
             
             # List the contents to verify
@@ -147,6 +148,19 @@ jobs:
               echo "✅ Registry index.json found in output"
             else
               echo "❌ Registry index.json NOT found in output"
+            fi
+            
+            # Verify subdirectories
+            if [ -f "dist/xregistry-viewer/registry/mcpproviders/index.json" ]; then
+              echo "✅ MCP providers index.json found in output"
+            else
+              echo "❌ MCP providers index.json NOT found in output"
+            fi
+            
+            if [ -f "dist/xregistry-viewer/registry/agentcardproviders/index.json" ]; then
+              echo "✅ Agent card providers index.json found in output"
+            else
+              echo "❌ Agent card providers index.json NOT found in output"
             fi
           else
             echo "❌ Source registry directory not found at public/registry"
