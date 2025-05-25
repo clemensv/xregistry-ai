@@ -5,10 +5,6 @@
       "rewrite": "/registry/index.json"
     },
     {
-      "route": "/registry/",
-      "rewrite": "/registry/index.json"
-    },
-    {
       "route": "/registry/mcpproviders",
       "rewrite": "/registry/mcpproviders/index.json"
     },
