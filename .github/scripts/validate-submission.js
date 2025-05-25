@@ -14,39 +14,12 @@ const args = require("minimist")(process.argv.slice(2), {
   boolean: ['d']
 });
 
-// Debug: Log the received arguments
-console.log("🔍 DEBUG: Received arguments:", JSON.stringify(args));
-console.log("🔍 DEBUG: process.argv:", JSON.stringify(process.argv));
-
 const groupSingular = args.gs;
 const groupPlural = args.gp;
 const resourceSingular = args.rs;
 const resourcePlural = args.rp;
 const fileName = args.f;
 const hasDocument = args.d || false;
-
-// Debug: Log the extracted values
-console.log("🔍 DEBUG: Extracted values:", {
-  groupSingular,
-  groupPlural, 
-  resourceSingular,
-  resourcePlural,
-  fileName,
-  hasDocument
-});
-
-if (
-  !groupSingular ||
-  !groupPlural ||
-  !resourceSingular ||
-  !resourcePlural ||
-  !fileName
-) {
-  console.error(
-    "❌ Missing required arguments. Please provide -gs, -gp, -rs, -rp, and -f."
-  );
-  process.exit(1);
-}
 
 const octokit = new Octokit({ auth: process.env.GH_TOKEN });
 
