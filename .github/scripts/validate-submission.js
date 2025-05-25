@@ -200,48 +200,70 @@ const octokit = new Octokit({ auth: process.env.GH_TOKEN });
     let absFilePath;
 
     try {
-      let fileUrl;
-      if (isGitHub) {
-        fileUrl =
-          normalizedRepoUrl.replace(
-            /^https:\/\/github\.com/,
-            "https://raw.githubusercontent.com"
-          ) + `/${externalBranch}/${filePath}`;
-        try {
-          const res = await axios.get(fileUrl, { timeout: 5000 });
-          const dest = pathModule.join(sourceDir, fileName);
-          fs.writeFileSync(dest, res.data, { encoding: "utf-8" });
-          absFilePath = dest;
-        } catch {
-          fileUrl = null;
-        }
-      }
+      // Check if we're referencing the same repository
+      const isSameRepo = (
+        (normalizedRepoUrl === `https://github.com/${ghOwner}/${ghRepo}`) ||
+        (repoUrl === `${ghOwner}/${ghRepo}`)
+      );
 
-      if (!absFilePath) {
-        try {
-          execSync(
-            `git clone --depth 1 --branch ${externalBranch} ${normalizedRepoUrl} ${sourceDir}`,
-            { stdio: "ignore" }
-          );
-        } catch (err) {
+      if (isSameRepo) {
+        // Read file directly from local filesystem
+        const localFilePath = pathModule.join(process.cwd(), filePath);
+        if (!fs.existsSync(localFilePath)) {
           await octokit.rest.issues.createComment({
             owner,
             repo,
             issue_number,
-            body: `❌ Failed to clone repo: \`${normalizedRepoUrl}@${externalBranch}\`\n\`\`\`\n${err.message}\n\`\`\``,
+            body: `❌ \`${fileName}\` not found in current repo at path: \`${filePath}\``,
           });
           process.exit(1);
         }
+        absFilePath = localFilePath;
+      } else {
+        // External repository - try HTTP fetch first, then git clone
+        let fileUrl;
+        if (isGitHub) {
+          fileUrl =
+            normalizedRepoUrl.replace(
+              /^https:\/\/github\.com/,
+              "https://raw.githubusercontent.com"
+            ) + `/${externalBranch}/${filePath}`;
+          try {
+            const res = await axios.get(fileUrl, { timeout: 5000 });
+            const dest = pathModule.join(sourceDir, fileName);
+            fs.writeFileSync(dest, res.data, { encoding: "utf-8" });
+            absFilePath = dest;
+          } catch {
+            fileUrl = null;
+          }
+        }
 
-        absFilePath = pathModule.join(sourceDir, filePath);
-        if (!fs.existsSync(absFilePath)) {
-          await octokit.rest.issues.createComment({
-            owner,
-            repo,
-            issue_number,
-            body: `❌ \`${fileName}\` not found in cloned repo at path: \`${filePath}\``,
-          });
-          process.exit(1);
+        if (!absFilePath) {
+          try {
+            execSync(
+              `git clone --depth 1 --branch ${externalBranch} ${normalizedRepoUrl} ${sourceDir}`,
+              { stdio: "ignore" }
+            );
+          } catch (err) {
+            await octokit.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: `❌ Failed to clone repo: \`${normalizedRepoUrl}@${externalBranch}\`\n\`\`\`\n${err.message}\n\`\`\``,
+            });
+            process.exit(1);
+          }
+
+          absFilePath = pathModule.join(sourceDir, filePath);
+          if (!fs.existsSync(absFilePath)) {
+            await octokit.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: `❌ \`${fileName}\` not found in cloned repo at path: \`${filePath}\``,
+            });
+            process.exit(1);
+          }
         }
       }
 
