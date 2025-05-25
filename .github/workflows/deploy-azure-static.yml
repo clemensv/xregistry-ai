@@ -124,6 +124,9 @@ jobs:
       # 6. Build Angular app and copy registry files
       - name: Build Angular app and prepare static content
         run: |
+          # Install Node.js dependencies first
+          npm install
+          
           # Build the Angular application
           npm run build-prod
           
