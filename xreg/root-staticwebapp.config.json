@@ -9,13 +9,6 @@
       "rewrite": "/registry/index.json"
     },
     {
-      "route": "/registry/*",
-      "headers": {
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=300"
-      }
-    },
-    {
       "route": "/*",
       "headers": {
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
@@ -34,6 +27,5 @@
   "mimeTypes": {
     ".json": "application/json",
     ".html": "text/html"
-  },
-  "defaultDocuments": ["index.json", "index.html"]
+  }
 } 
