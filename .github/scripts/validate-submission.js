@@ -9,7 +9,10 @@ const fs = require("fs");
 const os = require("os");
 const pathModule = require("path");
 const { execSync, rmSync } = require("child_process");
-const args = require("minimist")(process.argv.slice(2));
+const args = require("minimist")(process.argv.slice(2), {
+  string: ['gs', 'gp', 'rs', 'rp', 'f'],
+  boolean: ['d']
+});
 
 // Debug: Log the received arguments
 console.log("🔍 DEBUG: Received arguments:", JSON.stringify(args));
