@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T20:32:29.567925379Z",
+  "createdat": "2025-05-25T21:33:39.730737998Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T20:32:29.567925379Z",
+  "modifiedat": "2025-05-25T21:33:39.730737998Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp/meta",
   "serverid": "rijksmuseum-mcp",

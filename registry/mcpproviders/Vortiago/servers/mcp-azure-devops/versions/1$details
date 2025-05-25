@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:36.475687465Z",
+  "createdat": "2025-05-25T21:33:46.572790485Z",
   "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services. This server provides a bridge between natural language interactions and the Azure DevOps REST API, supporting work item management, project management, and team management features.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:36.475687465Z",
+  "modifiedat": "2025-05-25T21:33:46.572790485Z",
   "name": "io.github.Vortiago/mcp-azure-devops",
   "prompts": [],
   "registries": [

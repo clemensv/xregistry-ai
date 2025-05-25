@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:51.115436473Z",
+  "createdat": "2025-05-25T21:34:00.432466772Z",
   "description": "A Model Context Protocol server enabling Claude to maintain user context through Apache Unomi profile management.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server/meta",
-  "modifiedat": "2025-05-25T20:32:51.115436473Z",
+  "modifiedat": "2025-05-25T21:34:00.432466772Z",
   "name": "io.github.sergehuber/inoyu-mcp-unomi-server",
   "prompts": [],
   "registries": [

@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:57.171279407Z",
+  "createdat": "2025-05-25T21:34:07.323559241Z",
   "description": "Provide the latest cryptocurrency news to AI agents, powered by CryptoPanic.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:57.171279407Z",
+  "modifiedat": "2025-05-25T21:34:07.323559241Z",
   "name": "io.github.kukapay/cryptopanic-mcp-server",
   "prompts": [],
   "registries": [

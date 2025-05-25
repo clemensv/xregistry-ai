@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T20:32:43.487117775Z",
+  "createdat": "2025-05-25T21:33:53.517688194Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/basicmachines-co/servers/basic-memory/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T20:32:43.487117775Z",
+  "modifiedat": "2025-05-25T21:33:53.517688194Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/basicmachines-co/servers/basic-memory/meta",
   "serverid": "basic-memory",

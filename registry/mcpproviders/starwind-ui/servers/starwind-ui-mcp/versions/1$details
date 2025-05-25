@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:58.008844349Z",
+  "createdat": "2025-05-25T21:34:08.160199697Z",
   "description": "A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI, providing tools to help developers work with Starwind UI components.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:58.008844349Z",
+  "modifiedat": "2025-05-25T21:34:08.160199697Z",
   "name": "io.github.starwind-ui/starwind-ui-mcp",
   "prompts": [],
   "registries": [

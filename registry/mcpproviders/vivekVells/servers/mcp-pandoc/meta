@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T20:32:32.45711354Z",
+  "createdat": "2025-05-25T21:33:42.59036781Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vivekVells/servers/mcp-pandoc/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T20:32:32.45711354Z",
+  "modifiedat": "2025-05-25T21:33:42.59036781Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vivekVells/servers/mcp-pandoc/meta",
   "serverid": "mcp-pandoc",

@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:54.502181547Z",
+  "createdat": "2025-05-25T21:34:04.684756788Z",
   "description": "An MCP server for ClickHouse.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:54.502181547Z",
+  "modifiedat": "2025-05-25T21:34:04.684756788Z",
   "name": "io.github.ClickHouse/mcp-clickhouse",
   "prompts": [],
   "registries": [

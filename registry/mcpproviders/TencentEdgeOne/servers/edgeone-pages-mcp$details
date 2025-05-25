@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:55.807265044Z",
+  "createdat": "2025-05-25T21:34:05.995527096Z",
   "description": "An MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/TencentEdgeOne/servers/edgeone-pages-mcp/meta",
-  "modifiedat": "2025-05-25T20:32:55.807265044Z",
+  "modifiedat": "2025-05-25T21:34:05.995527096Z",
   "name": "io.github.TencentEdgeOne/edgeone-pages-mcp",
   "prompts": [],
   "registries": [

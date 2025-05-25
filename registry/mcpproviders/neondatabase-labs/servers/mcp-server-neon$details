@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:28.360646979Z",
+  "createdat": "2025-05-25T21:33:38.526311303Z",
   "description": "Neon MCP Server is an open-source tool that lets you interact with your Neon Postgres databases in natural language. It acts as a bridge between natural language requests and the Neon API, built upon the Model Context Protocol (MCP), enabling management of projects, branches, queries, and migrations via conversational commands.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/neondatabase-labs/servers/mcp-server-neon/meta",
-  "modifiedat": "2025-05-25T20:32:28.360646979Z",
+  "modifiedat": "2025-05-25T21:33:38.526311303Z",
   "name": "io.github.neondatabase-labs/mcp-server-neon",
   "prompts": [],
   "registries": [

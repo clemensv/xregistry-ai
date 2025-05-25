@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T20:32:44.200465486Z",
+  "createdat": "2025-05-25T21:33:54.236324444Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mcpdotdirect/servers/template-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T20:32:44.200465486Z",
+  "modifiedat": "2025-05-25T21:33:54.236324444Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mcpdotdirect/servers/template-mcp-server/meta",
   "serverid": "template-mcp-server",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:45.384896989Z",
+  "createdat": "2025-05-25T21:33:55.427448357Z",
   "description": "A Model Context Protocol (MCP) server implementation that provides Elasticsearch and OpenSearch interaction. This server enables searching documents, analyzing indices, and managing cluster through a set of tools.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cr7258/servers/elasticsearch-mcp-server/meta",
-  "modifiedat": "2025-05-25T20:32:45.384896989Z",
+  "modifiedat": "2025-05-25T21:33:55.427448357Z",
   "name": "io.github.cr7258/elasticsearch-mcp-server",
   "prompts": [],
   "registries": [

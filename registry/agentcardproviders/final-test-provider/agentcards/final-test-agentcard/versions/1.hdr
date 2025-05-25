@@ -4,10 +4,10 @@ content-location:https://clemensv.github.io/xregistry-ai//registry/agentcardprov
 content-type:text/plain; charset=utf-8
 xregistry-agentcardid:final-test-agentcard
 xregistry-ancestor:1
-xregistry-createdat:2025-05-25T20:32:27.15605774Z
+xregistry-createdat:2025-05-25T21:33:37.316572622Z
 xregistry-epoch:1
 xregistry-isdefault:true
-xregistry-modifiedat:2025-05-25T20:32:27.15605774Z
+xregistry-modifiedat:2025-05-25T21:33:37.316572622Z
 xregistry-self:https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1
 xregistry-versionid:1
 xregistry-xid:/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1

@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:33:06.021719601Z",
+  "createdat": "2025-05-25T21:34:16.195355603Z",
   "description": "The MCP server that keeps you caffeinated and informed by sending ntfy notifications whenever your AI assistant completes a task.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:33:06.021719601Z",
+  "modifiedat": "2025-05-25T21:34:16.195355603Z",
   "name": "io.github.teddyzxcv/ntfy-mcp",
   "prompts": [],
   "registries": [

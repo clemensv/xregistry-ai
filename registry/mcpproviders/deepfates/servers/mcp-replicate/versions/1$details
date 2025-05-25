@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:45.879047818Z",
+  "createdat": "2025-05-25T21:33:55.928002333Z",
   "description": "A Model Context Protocol server implementation for Replicate. Run Replicate models through a simple tool-based interface.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:45.879047818Z",
+  "modifiedat": "2025-05-25T21:33:55.928002333Z",
   "name": "io.github.deepfates/mcp-replicate",
   "prompts": [],
   "registries": [

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:30.372306105Z",
+  "createdat": "2025-05-25T21:33:40.523680955Z",
   "description": "MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/bitrise-io/servers/bitrise-mcp/meta",
-  "modifiedat": "2025-05-25T20:32:30.372306105Z",
+  "modifiedat": "2025-05-25T21:33:40.523680955Z",
   "name": "io.github.bitrise-io/bitrise-mcp",
   "prompts": [],
   "registries": [

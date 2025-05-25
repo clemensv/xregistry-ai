@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:38.936516982Z",
+  "createdat": "2025-05-25T21:33:48.991237475Z",
   "description": "A Model Context Protocol (MCP) server for interacting with the Datadog API.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/datadog-mcp-server/meta",
-  "modifiedat": "2025-05-25T20:32:38.936516982Z",
+  "modifiedat": "2025-05-25T21:33:48.991237475Z",
   "name": "io.github.GeLi2001/datadog-mcp-server",
   "prompts": [],
   "registries": [

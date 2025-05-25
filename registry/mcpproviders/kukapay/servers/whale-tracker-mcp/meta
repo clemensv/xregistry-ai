@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T20:32:57.28743967Z",
+  "createdat": "2025-05-25T21:34:07.441707842Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/whale-tracker-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T20:32:57.28743967Z",
+  "modifiedat": "2025-05-25T21:34:07.441707842Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/whale-tracker-mcp/meta",
   "serverid": "whale-tracker-mcp",

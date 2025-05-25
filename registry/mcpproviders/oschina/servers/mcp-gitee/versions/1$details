@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:30.994538196Z",
+  "createdat": "2025-05-25T21:33:41.134959948Z",
   "description": "Gitee MCP Server is a Model Context Protocol (MCP) server implementation for Gitee. It provides a set of tools for interacting with Gitee's API, allowing AI assistants to manage repositories, issues, pull requests, and more.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:30.994538196Z",
+  "modifiedat": "2025-05-25T21:33:41.134959948Z",
   "name": "io.github.oschina/mcp-gitee",
   "prompts": [],
   "registries": [

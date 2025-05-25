@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:38.794045182Z",
+  "createdat": "2025-05-25T21:33:48.847255854Z",
   "description": "MCP Server for Shopify API, enabling interaction with store data through GraphQL API",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp/meta",
-  "modifiedat": "2025-05-25T20:32:38.794045182Z",
+  "modifiedat": "2025-05-25T21:33:48.847255854Z",
   "name": "io.github.GeLi2001/shopify-mcp",
   "prompts": [],
   "registries": [

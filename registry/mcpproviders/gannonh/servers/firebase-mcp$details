@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:40.275906761Z",
+  "createdat": "2025-05-25T21:33:50.286899209Z",
   "description": "Firebase MCP enables AI assistants to work directly with Firebase services, including Firestore, Storage, and Authentication, through a standardized Model Context Protocol interface.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/gannonh/servers/firebase-mcp/meta",
-  "modifiedat": "2025-05-25T20:32:40.275906761Z",
+  "modifiedat": "2025-05-25T21:33:50.286899209Z",
   "name": "io.github.gannonh/firebase-mcp",
   "prompts": [],
   "registries": [

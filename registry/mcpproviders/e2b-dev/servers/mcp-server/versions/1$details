@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:46.09787807Z",
+  "createdat": "2025-05-25T21:33:56.14340619Z",
   "description": "The E2B MCP server allows you to add code interpreting capabilities to your Claude Desktop app via the E2B Sandbox.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:46.09787807Z",
+  "modifiedat": "2025-05-25T21:33:56.14340619Z",
   "name": "io.github.e2b-dev/mcp-server",
   "prompts": [],
   "registries": [

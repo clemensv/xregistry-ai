@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T20:32:52.170048393Z",
+  "createdat": "2025-05-25T21:34:01.48032742Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/its-dart/servers/dart-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T20:32:52.170048393Z",
+  "modifiedat": "2025-05-25T21:34:01.48032742Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/its-dart/servers/dart-mcp-server/meta",
   "serverid": "dart-mcp-server",

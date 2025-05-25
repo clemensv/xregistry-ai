@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T20:32:52.837243919Z",
+  "createdat": "2025-05-25T21:34:02.332795748Z",
   "description": "An MCP server implementation for retrieving data from mariadb",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T20:32:52.837243919Z",
+  "modifiedat": "2025-05-25T21:34:02.332795748Z",
   "name": "io.github.abel9851/mcp-server-mariadb",
   "prompts": [],
   "registries": [
