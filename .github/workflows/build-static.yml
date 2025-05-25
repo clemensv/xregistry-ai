@@ -1,0 +1,35 @@
+name: Build static site to gh-pages branch
+
+on:
+  push:
+    branches: ["main", "master"]
+
+  workflow_run:
+    workflows: ["Process A2A Registry Submission", "Process MCP Registry Submission"]
+    types:
+      - completed
+  
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git config --global credential.helper store
+          echo "https://${{ secrets.GITHUB_TOKEN }}@github.com" > ~/.git-credentials
+            
+      - name: Build and deploy Registry
+        run: bash $GITHUB_WORKSPACE/xreg/build_registry.sh 

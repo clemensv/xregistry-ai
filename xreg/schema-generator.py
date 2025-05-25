@@ -634,7 +634,7 @@ def resolve_imports(basedir, node):
 
 def main():
     parser = argparse.ArgumentParser(description='Generate JSON schema from model definition')
-    parser.add_argument('--type', type=str, help='type of document to generate', choices=['json-schema', 'avro-schema', 'openapi'], default='json-schema')
+    parser.add_argument('--type', type=str, help='type of document to generate', choices=['json-schema', 'avro-schema', 'openapi', 'xregistry-model'], default='json-schema')
     parser.add_argument('--output', type=str, help='Path for output file', default='', required=False)
     parser.add_argument('--list', action='store_true', help='List all available models')
     parser.add_argument('--models', type=str, nargs='*', help='Specific models to include (default: all)', default=None)
@@ -723,6 +723,13 @@ def main():
                 json.dump(openapi, of, indent=2)
         else:
             print(json.dumps(openapi, indent=2))
+    elif (args.type == 'xregistry-model'):
+        # For xregistry-model, output the combined model definition itself
+        if args.output:
+            with open(args.output, 'w') as of:
+                json.dump(model_definition, of, indent=2)
+        else:
+            print(json.dumps(model_definition, indent=2))
 
 if __name__ == '__main__':
     main() 
