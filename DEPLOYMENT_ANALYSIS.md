@@ -135,12 +135,6 @@ live/
 
 ## **DEPLOYMENT TARGETS**
 
-### **✅ GitHub Pages**
-- Workflow: `.github/workflows/deploy-github-pages.yml`
-- Status: Ready for deployment with HTML interface
-- URL Pattern: `https://{org}.github.io/{repo}/`
-- **Browsing**: Users can browse registry via HTML or access JSON API
-
 ### **✅ Azure Static Web Apps**
 - Workflow: `.github/workflows/deploy-azure-static.yml`
 - Configuration: Serves HTML by default, JSON via direct links
@@ -221,7 +215,6 @@ powershell -ExecutionPolicy Bypass -File scripts/simple-deploy.ps1
 ### **GitHub Actions**
 ```bash
 # Trigger manual deployment
-gh workflow run "Deploy to GitHub Pages"
 gh workflow run "Deploy to Azure Static Web Apps"
 ```
 

@@ -177,15 +177,15 @@ if [ -f "package.json" ]; then
   npm run build-prod -- --base-href="$GITHUB_PAGES_URL"
 fi
 
-# Stage the build output into the 'gh-pages' branch
-echo "Staging build output into 'gh-pages' branch..."
+# Stage the build output into the 'static-site' branch
+echo "Staging build output into 'static-site' branch..."
 
 # Save the current branch name (default to main if not found)
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "main")
 
 TMP_DIR=$(mktemp -d)
 echo "Cloning repository into temporary directory: $TMP_DIR"
-branch="gh-pages"
+branch="static-site"
 
 # Determine the repository URL
 if [ -n "$GITHUB_ACTIONS" ]; then
@@ -203,12 +203,12 @@ fi
 
 cd "$TMP_DIR"
 
-# Create an orphan gh-pages branch (or reset it if it already exists)
-if git show-ref --quiet refs/heads/gh-pages; then
-  git checkout gh-pages
+# Create an orphan static-site branch (or reset it if it already exists)
+if git show-ref --quiet refs/heads/static-site; then
+  git checkout static-site
   git rm -rf . > /dev/null 2>&1 || true
 else
-  git checkout --orphan gh-pages
+  git checkout --orphan static-site
   git reset --hard
 fi
 
@@ -219,13 +219,12 @@ cp -r $SITE_DIR/$BUILD_OUTPUT/* "$TMP_DIR"
 touch .nojekyll
 
 git add .
-git commit -m "Deploy Angular app to gh-pages" || echo "Nothing to commit"
+git commit -m "Deploy Angular app to static-site" || echo "Nothing to commit"
 
-echo "Build output staged in gh-pages branch in temporary dir: $TMP_DIR"
-echo "Please push the 'gh-pages' branch from this directory to deploy on GitHub Pages."
+echo "Build output staged in static-site branch in temporary dir: $TMP_DIR"
 
-# Push the changes to the gh-pages branch
-git push origin gh-pages
+# Push the changes to the static-site branch
+git push origin static-site
 cd "$REPO_ROOT"
 git checkout "$CURRENT_BRANCH"
 
