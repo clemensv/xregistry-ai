@@ -2,23 +2,23 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/index.json"
+      "rewrite": "/index.html"
     },
     {
       "route": "/mcpproviders",
-      "rewrite": "/mcpproviders/index.json"
+      "rewrite": "/mcpproviders/index.html"
     },
     {
       "route": "/mcpproviders/",
-      "rewrite": "/mcpproviders/index.json"
+      "rewrite": "/mcpproviders/index.html"
     },
     {
       "route": "/agentcardproviders",
-      "rewrite": "/agentcardproviders/index.json"
+      "rewrite": "/agentcardproviders/index.html"
     },
     {
       "route": "/agentcardproviders/",
-      "rewrite": "/agentcardproviders/index.json"
+      "rewrite": "/agentcardproviders/index.html"
     },
     {
       "route": "/*",

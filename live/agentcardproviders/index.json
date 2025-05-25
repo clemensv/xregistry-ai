@@ -1,7 +1,0 @@
-{
-  "specversion": "0.5",
-  "id": "agentcardproviders", 
-  "name": "Agent Card Providers",
-  "description": "Organizations providing agent cards for the Agent-to-Agent protocol",
-  "agentcardproviders": {}
-} 

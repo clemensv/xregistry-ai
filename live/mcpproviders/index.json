@@ -1,7 +1,0 @@
-{
-  "specversion": "0.5",
-  "id": "mcpproviders",
-  "name": "MCP Providers",
-  "description": "Organizations providing Model Context Protocol servers",
-  "mcpproviders": {}
-} 

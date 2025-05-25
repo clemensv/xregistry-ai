@@ -219,7 +219,7 @@ jobs:
           # Export live data specifically for Azure Web Sites API
           docker exec "${CONTAINER_ID}" /bin/sh -c "
             mkdir -p /tmp/live
-            /xr download -s localhost:8080 /tmp/live -u $AZURE_URL/api/registry
+            /xr download -s localhost:8080 /tmp/live -u $AZURE_URL/api/registry --index index.html
           "
           
           # Copy exported data to host
