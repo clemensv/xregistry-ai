@@ -252,7 +252,7 @@
         },
         "remotes": {
           "type": "array",
-          "description": "Source\u00e2\u20ac\u2018code hosting locations.",
+          "description": "Source\u2011code hosting locations.",
           "items": {
             "type": "object",
             "properties": {
