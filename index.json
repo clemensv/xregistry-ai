@@ -1,0 +1,15 @@
+{
+  "registryName": "xRegistry AI",
+  "description": "A registry for AI agents, MCP servers, and other AI resources",
+  "version": "1.0.0",
+  "lastUpdated": "2025-05-25T08:30:00Z",
+  "endpoints": {
+    "mcpproviders": "/registry/mcpproviders/",
+    "agentcardproviders": "/registry/agentcardproviders/"
+  },
+  "stats": {
+    "totalProviders": "100+",
+    "totalResources": "500+",
+    "categories": ["MCP Servers", "Agent Cards", "AI Tools"]
+  }
+} 
