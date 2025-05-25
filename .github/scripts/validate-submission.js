@@ -329,6 +329,10 @@ const octokit = new Octokit({ auth: process.env.GH_TOKEN });
         { cwd: workspaceDir }
       );
       execSync(
+        `git config --local credential.helper "!f() { echo username=x-access-token; echo password=${process.env.GH_TOKEN}; }; f"`,
+        { cwd: workspaceDir }
+      );
+      execSync(
         `git remote add origin https://github.com/${ghOwner}/${ghRepo}.git`,
         { cwd: workspaceDir }
       );
@@ -339,10 +343,6 @@ const octokit = new Octokit({ auth: process.env.GH_TOKEN });
       execSync(`git add "${indexRelPath}"`, { cwd: workspaceDir });
       execSync(
         `git commit -m "Add index.json for ${groupName}/${resourceName}"`,
-        { cwd: workspaceDir }
-      );
-      execSync(
-        `git config --local credential.helper "!f() { echo username=x-access-token; echo password=${process.env.GH_TOKEN}; }; f"`,
         { cwd: workspaceDir }
       );
       execSync(`git push origin ${localBranch}`, {
