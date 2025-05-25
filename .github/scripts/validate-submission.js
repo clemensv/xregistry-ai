@@ -3,8 +3,6 @@
  * Requires env: GH_TOKEN
  */
 
-console.log("🔍 Starting validation script...");
-
 const { Octokit } = require("@octokit/rest");
 const axios = require("axios");
 const yaml = require("js-yaml");
@@ -13,14 +11,10 @@ const os = require("os");
 const pathModule = require("path");
 const { execSync, rmSync } = require("child_process");
 
-console.log("✅ All modules loaded successfully");
-
 const args = require("minimist")(process.argv.slice(2), {
   string: ['gs', 'gp', 'rs', 'rp', 'f'],
   boolean: ['d']
 });
-
-console.log("✅ Arguments parsed:", JSON.stringify(args));
 
 const groupSingular = args.gs;
 const groupPlural = args.gp;
@@ -28,15 +22,6 @@ const resourceSingular = args.rs;
 const resourcePlural = args.rp;
 const fileName = args.f;
 const hasDocument = args.d || false;
-
-console.log("✅ Extracted values:", {
-  groupSingular,
-  groupPlural,
-  resourceSingular,
-  resourcePlural,
-  fileName,
-  hasDocument
-});
 
 if (
   !groupSingular ||
@@ -51,44 +36,31 @@ if (
   process.exit(1);
 }
 
-console.log("✅ All required arguments present");
-
 const octokit = new Octokit({ auth: process.env.GH_TOKEN });
-
-console.log("✅ Octokit initialized");
 
 (async () => {
   try {
-    console.log("🔍 Starting main execution...");
-    
     const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
     const ghOwner = owner;
     const ghRepo = repo;
-
-    console.log("✅ Repository info:", { owner, repo });
 
     const event = JSON.parse(
       fs.readFileSync(process.env.GITHUB_EVENT_PATH, "utf8")
     );
     const issue_number = event.issue?.number;
 
-    console.log("✅ Event parsed, issue number:", issue_number);
-
     if (!issue_number) {
       console.error("❌ Could not determine issue number.");
       process.exit(1);
     }
 
-    console.log("🔍 Fetching issue details...");
     const { data: issue } = await octokit.rest.issues.get({
       owner,
       repo,
       issue_number,
     });
-    console.log("✅ Issue fetched successfully");
     
     const issueAuthor = issue.user.login;
-    console.log("✅ Issue author:", issueAuthor);
 
     const extractYamlBlock = (text) => {
       if (!text) return null;
@@ -104,24 +76,19 @@ console.log("✅ Octokit initialized");
       return null;
     };
 
-    console.log("🔍 Extracting YAML from issue body...");
     let yamlSource = extractYamlBlock(issue.body);
-    console.log("✅ YAML extraction result:", yamlSource ? "Found" : "Not found");
     
     if (!yamlSource) {
-      console.log("🔍 Checking comments for YAML...");
       const comments = await octokit.paginate(octokit.rest.issues.listComments, {
         owner,
         repo,
         issue_number,
       });
-      console.log("✅ Comments fetched, count:", comments.length);
       
       for (const comment of comments) {
         if (comment.user.login === issueAuthor) {
           yamlSource = extractYamlBlock(comment.body);
           if (yamlSource) {
-            console.log("✅ YAML found in comment");
             break;
           }
         }
@@ -138,13 +105,10 @@ console.log("✅ Octokit initialized");
       process.exit(0);
     }
 
-    console.log("🔍 Parsing YAML...");
     let config;
     try {
       config = yaml.load(yamlSource);
-      console.log("✅ YAML parsed successfully:", JSON.stringify(config));
     } catch (err) {
-      console.log("❌ YAML parsing failed:", err.message);
       await octokit.rest.issues.createComment({
         owner,
         repo,
@@ -154,7 +118,6 @@ console.log("✅ Octokit initialized");
       process.exit(0);
     }
 
-    console.log("🔍 Extracting config values...");
     const {
       repo: repoUrl,
       path = "",
@@ -164,15 +127,6 @@ console.log("✅ Octokit initialized");
     const groupName = config[groupSingular] || "";
     const resourceName = config[resourceSingular] || "";
 
-    console.log("✅ Config values extracted:", {
-      repoUrl,
-      path,
-      externalBranch,
-      groupName,
-      resourceName
-    });
-
-    // RFC3986 unreserved + "@" validation
     const VALID_NAME_REGEX = /^[A-Za-z0-9_][A-Za-z0-9._~@-]{0,127}$/;
 
     if (!repoUrl || !groupName || !resourceName) {
@@ -205,11 +159,9 @@ console.log("✅ Octokit initialized");
       process.exit(0);
     }
 
-    // Determine default branch of the current repo
     const { data: repoData } = await octokit.rest.repos.get({ owner, repo });
     const localBranch = repoData.default_branch;
 
-    // Normalize external repo URL
     let normalizedRepoUrl = repoUrl;
     let isGitHub = false;
     if (!repoUrl.startsWith("http")) {
@@ -248,7 +200,6 @@ console.log("✅ Octokit initialized");
     let absFilePath;
 
     try {
-      // Attempt raw HTTP fetch if GitHub
       let fileUrl;
       if (isGitHub) {
         fileUrl =
@@ -266,7 +217,6 @@ console.log("✅ Octokit initialized");
         }
       }
 
-      // Fallback to git clone
       if (!absFilePath) {
         try {
           execSync(
@@ -295,7 +245,6 @@ console.log("✅ Octokit initialized");
         }
       }
 
-      // Check if index.json already exists
       if (fs.existsSync(absIndexPath)) {
         await octokit.rest.issues.createComment({
           owner,
@@ -307,7 +256,6 @@ console.log("✅ Octokit initialized");
       }
 
       if (hasDocument) {
-        // Assume resourceId is provided in the YAML config (e.g., config.resourceId)
         const resourceId = config.resourceId;
         const fileContent = fs.readFileSync(absFilePath, "utf8");
         let isJson = false;
@@ -319,7 +267,6 @@ console.log("✅ Octokit initialized");
           isJson = false;
         }
         if (isJson) {
-          // Create composite JSON with the parsed document under the resource key and add resourceid.
           const composite = {};
           composite[resourceSingular] = parsed;
           composite[`${resourceSingular}id`] = resourceId;
@@ -330,13 +277,11 @@ console.log("✅ Octokit initialized");
             "utf8"
           );
         } else {
-          // Copy the original file into the same directory under its original name.
           const docTarget = pathModule.join(
             pathModule.dirname(absIndexPath),
             fileName
           );
           fs.copyFileSync(absFilePath, docTarget);
-          // Build the URL by taking the directory portion of indexRelPath and appending fileName.
           const indexDir = pathModule.dirname(indexRelPath);
           const composite = {};
           composite[`${resourceSingular}id`] = resourceId;
@@ -349,12 +294,10 @@ console.log("✅ Octokit initialized");
           );
         }
       } else {
-        // Default logic: simply copy the file.
         fs.mkdirSync(pathModule.dirname(absIndexPath), { recursive: true });
         fs.copyFileSync(absFilePath, absIndexPath);
       }
 
-      // Commit and push
       execSync(`git init`, { cwd: workspaceDir });
       execSync(`git config user.name "github-actions[bot]"`, {
         cwd: workspaceDir,
