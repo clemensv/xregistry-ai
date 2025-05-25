@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:33:52.043581935Z",
+  "createdat": "2025-05-25T21:35:07.964069436Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/VectorInstitute/servers/mcp-goodnews/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:33:52.043581935Z",
+  "modifiedat": "2025-05-25T21:35:07.964069436Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/VectorInstitute/servers/mcp-goodnews/meta",
   "serverid": "mcp-goodnews",

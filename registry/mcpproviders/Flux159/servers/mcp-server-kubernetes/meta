@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:33:57.914363154Z",
+  "createdat": "2025-05-25T21:35:13.735869002Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Flux159/servers/mcp-server-kubernetes/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:33:57.914363154Z",
+  "modifiedat": "2025-05-25T21:35:13.735869002Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Flux159/servers/mcp-server-kubernetes/meta",
   "serverid": "mcp-server-kubernetes",

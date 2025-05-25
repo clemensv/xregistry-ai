@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:42.934910742Z",
+  "createdat": "2025-05-25T21:34:58.918937571Z",
   "description": "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot. This MCP server is specifically designed for use with Cursor. It simplifies and translates Figma API responses to provide only the most relevant layout and styling information to the model, improving AI accuracy and relevance.",
   "documentation": "https://www.framelink.ai/docs/quickstart?utm_source=github\u0026utm_medium=referral\u0026utm_campaign=readme",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:33:42.934910742Z",
+  "modifiedat": "2025-05-25T21:34:58.918937571Z",
   "name": "io.github.GLips/Figma-Context-MCP",
   "prompts": [],
   "registries": [

@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:40.450267575Z",
+  "createdat": "2025-05-25T21:34:56.425174727Z",
   "description": "A Model Context Protocol server implementation in Python that provides access to LINE Bot messages. This server enables Language Models to read and analyze LINE conversations through a standardized interface.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:33:40.450267575Z",
+  "modifiedat": "2025-05-25T21:34:56.425174727Z",
   "name": "io.github.amornpan/py-mcp-line",
   "prompts": [],
   "registries": [

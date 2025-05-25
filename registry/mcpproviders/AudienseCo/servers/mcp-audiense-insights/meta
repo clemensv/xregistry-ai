@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:33:41.367335699Z",
+  "createdat": "2025-05-25T21:34:57.346488138Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AudienseCo/servers/mcp-audiense-insights/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:33:41.367335699Z",
+  "modifiedat": "2025-05-25T21:34:57.346488138Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AudienseCo/servers/mcp-audiense-insights/meta",
   "serverid": "mcp-audiense-insights",

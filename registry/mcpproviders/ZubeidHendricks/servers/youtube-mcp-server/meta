@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:12.5904726Z",
+  "createdat": "2025-05-25T21:35:28.309075179Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ZubeidHendricks/servers/youtube-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:12.5904726Z",
+  "modifiedat": "2025-05-25T21:35:28.309075179Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ZubeidHendricks/servers/youtube-mcp-server/meta",
   "serverid": "youtube-mcp-server",

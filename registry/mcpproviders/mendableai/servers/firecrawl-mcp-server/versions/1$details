@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:34:08.538361496Z",
+  "createdat": "2025-05-25T21:35:24.283220537Z",
   "description": "A Model Context Protocol (MCP) server implementation that integrates with Firecrawl for web scraping capabilities.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:34:08.538361496Z",
+  "modifiedat": "2025-05-25T21:35:24.283220537Z",
   "name": "io.github.mendableai/firecrawl-mcp-server",
   "prompts": [],
   "registries": [

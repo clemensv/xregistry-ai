@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:34:08.048969135Z",
+  "createdat": "2025-05-25T21:35:23.798838649Z",
   "description": "A Model Context Protocol (MCP) server that connects to Heurist Mesh APIs, providing Claude with access to various blockchain and web3 tools.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:34:08.048969135Z",
+  "modifiedat": "2025-05-25T21:35:23.798838649Z",
   "name": "io.github.heurist-network/heurist-mesh-mcp-server",
   "prompts": [],
   "registries": [

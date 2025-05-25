@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:40.378802336Z",
+  "createdat": "2025-05-25T21:34:56.353138077Z",
   "description": "A Model Context Protocol server implementation in Python that provides access to Microsoft SQL Server databases. This server enables Language Models to inspect table schemas and execute SQL queries through a standardized interface.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:33:40.378802336Z",
+  "modifiedat": "2025-05-25T21:34:56.353138077Z",
   "name": "io.github.amornpan/py-mcp-mssql",
   "prompts": [],
   "registries": [

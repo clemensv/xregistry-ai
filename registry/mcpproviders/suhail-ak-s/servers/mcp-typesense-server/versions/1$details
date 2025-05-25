@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:34:13.172636142Z",
+  "createdat": "2025-05-25T21:35:28.888387103Z",
   "description": "A Model Context Protocol (MCP) server implementation that provides AI models with access to Typesense search capabilities. This server enables LLMs to discover, search, and analyze data stored in Typesense collections.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:34:13.172636142Z",
+  "modifiedat": "2025-05-25T21:35:28.888387103Z",
   "name": "io.github.suhail-ak-s/mcp-typesense-server",
   "prompts": [
     {

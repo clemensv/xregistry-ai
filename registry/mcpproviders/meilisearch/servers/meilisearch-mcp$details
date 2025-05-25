@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:59.709137418Z",
+  "createdat": "2025-05-25T21:35:15.510256265Z",
   "description": "A Model Context Protocol (MCP) server for interacting with Meilisearch through LLM interfaces like Claude.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/meilisearch/servers/meilisearch-mcp/meta",
-  "modifiedat": "2025-05-25T21:33:59.709137418Z",
+  "modifiedat": "2025-05-25T21:35:15.510256265Z",
   "name": "io.github.meilisearch/meilisearch-mcp",
   "prompts": [],
   "registries": [

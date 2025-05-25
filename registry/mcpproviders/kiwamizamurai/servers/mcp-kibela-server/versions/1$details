@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:43.346533374Z",
+  "createdat": "2025-05-25T21:34:59.32956044Z",
   "description": "MCP server implementation for Kibela API integration, enabling LLMs to interact with Kibela content.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:33:43.346533374Z",
+  "modifiedat": "2025-05-25T21:34:59.32956044Z",
   "name": "io.github.kiwamizamurai/mcp-kibela-server",
   "prompts": [],
   "registries": [

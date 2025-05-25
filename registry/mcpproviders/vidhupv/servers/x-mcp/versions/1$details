@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:46.737931395Z",
+  "createdat": "2025-05-25T21:35:02.70372823Z",
   "description": "An MCP server to create, manage and publish X/Twitter posts directly through Claude chat.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:33:46.737931395Z",
+  "modifiedat": "2025-05-25T21:35:02.70372823Z",
   "name": "io.github.vidhupv/x-mcp",
   "prompts": [],
   "registries": [

@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:34:00.210232761Z",
+  "createdat": "2025-05-25T21:35:16.013528588Z",
   "description": "A MCP(Model Context Protocol) server that accesses to Holaspirit API. This server provides MCP-compatible access to Holaspirit's API, allowing AI assistants to interact with your Holaspirit data through a standardized interface.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:34:00.210232761Z",
+  "modifiedat": "2025-05-25T21:35:16.013528588Z",
   "name": "io.github.syucream/holaspirit-mcp-server",
   "prompts": [],
   "registries": [

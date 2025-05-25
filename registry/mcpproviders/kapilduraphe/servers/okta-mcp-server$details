@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:43.094086312Z",
+  "createdat": "2025-05-25T21:34:59.075686029Z",
   "description": "This MCP server enables Claude to interact with Okta's user management system, providing user and group management capabilities.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/meta",
-  "modifiedat": "2025-05-25T21:33:43.094086312Z",
+  "modifiedat": "2025-05-25T21:34:59.075686029Z",
   "name": "io.github.kapilduraphe/okta-mcp-server",
   "prompts": [],
   "registries": [

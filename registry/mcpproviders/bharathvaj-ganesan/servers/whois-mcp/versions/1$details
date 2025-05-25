@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:33:40.845944159Z",
+  "createdat": "2025-05-25T21:34:56.824828054Z",
   "description": "Model Context Protocol server for whois lookups allowing AI agents to perform WHOIS lookups and retrieve domain details.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:33:40.845944159Z",
+  "modifiedat": "2025-05-25T21:34:56.824828054Z",
   "name": "io.github.bharathvaj-ganesan/whois-mcp",
   "prompts": [],
   "registries": [

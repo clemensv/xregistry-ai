@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:33:54.122453572Z",
+  "createdat": "2025-05-25T21:35:09.991265436Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/scorzeth/servers/anki-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:33:54.122453572Z",
+  "modifiedat": "2025-05-25T21:35:09.991265436Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/scorzeth/servers/anki-mcp-server/meta",
   "serverid": "anki-mcp-server",

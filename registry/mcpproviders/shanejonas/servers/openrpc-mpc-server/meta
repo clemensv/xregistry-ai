@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:02.82814184Z",
+  "createdat": "2025-05-25T21:35:18.277210638Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/shanejonas/servers/openrpc-mpc-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:02.82814184Z",
+  "modifiedat": "2025-05-25T21:35:18.277210638Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/shanejonas/servers/openrpc-mpc-server/meta",
   "serverid": "openrpc-mpc-server",

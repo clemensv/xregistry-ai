@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:15.902366427Z",
+  "createdat": "2025-05-25T21:35:31.579491805Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/run-llama/servers/mcp-server-llamacloud/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:15.902366427Z",
+  "modifiedat": "2025-05-25T21:35:31.579491805Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/run-llama/servers/mcp-server-llamacloud/meta",
   "serverid": "mcp-server-llamacloud",

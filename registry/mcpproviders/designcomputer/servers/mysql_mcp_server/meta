@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:33:51.560457425Z",
+  "createdat": "2025-05-25T21:35:07.478993153Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/designcomputer/servers/mysql_mcp_server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:33:51.560457425Z",
+  "modifiedat": "2025-05-25T21:35:07.478993153Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/designcomputer/servers/mysql_mcp_server/meta",
   "serverid": "mysql_mcp_server",

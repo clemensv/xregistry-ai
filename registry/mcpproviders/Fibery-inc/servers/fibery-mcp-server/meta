@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:14.317812854Z",
+  "createdat": "2025-05-25T21:35:30.008466725Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Fibery-inc/servers/fibery-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:14.317812854Z",
+  "modifiedat": "2025-05-25T21:35:30.008466725Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Fibery-inc/servers/fibery-mcp-server/meta",
   "serverid": "fibery-mcp-server",
