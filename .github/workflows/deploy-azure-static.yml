@@ -64,8 +64,22 @@ jobs:
         with:
           repository: ${{ github.repository }}
           ref: static-site
-          path: public/registry
+          path: temp-static-site
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2b. Extract only the registry files
+      - name: Extract registry files from static site
+        run: |
+          mkdir -p public
+          if [ -d "temp-static-site/registry" ]; then
+            cp -r temp-static-site/registry public/
+            echo "Registry directory copied from static-site branch"
+            ls -la public/registry/
+          else
+            echo "Registry directory not found in static-site branch"
+            exit 1
+          fi
+          rm -rf temp-static-site
 
       # 3. Checkout main repo for configuration files
       - name: Checkout main repository for config
