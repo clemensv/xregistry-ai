@@ -268,12 +268,16 @@
                     "properties": {
                       "type": "object",
                       "description": "Additional properties or metadata for this argument",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     },
                     "variables": {
                       "type": "object",
                       "description": "Variable substitutions available for this argument",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     },
                     "type": {
                       "type": "string",
@@ -338,12 +342,16 @@
                     "properties": {
                       "type": "object",
                       "description": "Additional properties or metadata for this package argument",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     },
                     "variables": {
                       "type": "object",
                       "description": "Variable substitutions available for this package argument",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     },
                     "type": {
                       "type": "string",
@@ -408,12 +416,16 @@
                     "properties": {
                       "type": "object",
                       "description": "Additional properties or metadata for this environment variable",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     },
                     "variables": {
                       "type": "object",
                       "description": "Variable substitutions available for this environment variable",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     },
                     "type": {
                       "type": "string",
@@ -495,7 +507,9 @@
                     "properties": {
                       "type": "object",
                       "description": "Additional properties or metadata for this header",
-                      "properties": {}
+                      "additionalProperties": {
+                        "type": "object"
+                      }
                     }
                   }
                 }
@@ -588,6 +602,756 @@
       },
       "required": []
     },
+    "PackagesType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The canonical name of the Python package."
+        },
+        "epoch": {
+          "type": "integer",
+          "description": "Epoch time of the object creation"
+        },
+        "self": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the object"
+        },
+        "xid": {
+          "type": "string",
+          "format": "xid",
+          "description": "Relative URL of the object"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the object"
+        },
+        "documentation": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the documentation of the object"
+        },
+        "labels": {
+          "type": "object",
+          "description": "Labels for the object"
+        },
+        "createdat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object creation"
+        },
+        "modifiedat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object modification"
+        },
+        "packagesid": {
+          "type": "string",
+          "description": "ID of the packages object"
+        },
+        "summary": {
+          "type": "string",
+          "description": "A short summary or tagline describing the package."
+        },
+        "license": {
+          "type": "string",
+          "description": "The license under which the package is distributed."
+        },
+        "author": {
+          "type": "string",
+          "description": "The author or maintainer of the package."
+        },
+        "author_email": {
+          "type": "string",
+          "description": "The email of the package author."
+        },
+        "maintainer": {
+          "type": "string",
+          "description": "The maintainer of the package."
+        },
+        "maintainer_email": {
+          "type": "string",
+          "description": "The email of the package maintainer."
+        },
+        "home_page": {
+          "type": "string",
+          "description": "The main homepage URL for the package."
+        },
+        "project_url": {
+          "type": "string",
+          "description": "The main project URL or repository for the package."
+        },
+        "project_urls": {
+          "type": "object",
+          "description": "Dictionary of additional project URLs."
+        },
+        "description_content_type": {
+          "type": "string",
+          "description": "The content type of the description (e.g., text/markdown)."
+        },
+        "requires_dist": {
+          "type": "array",
+          "description": "A list of package dependencies required for installation with cross-references.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "specifier": {
+                "type": "string",
+                "description": "Original dependency specifier string following PEP 508 format."
+              },
+              "package": {
+                "type": "string",
+                "format": "uri",
+                "description": "XID reference to the package in this registry."
+              }
+            }
+          }
+        },
+        "requires_python": {
+          "type": "string",
+          "description": "The Python version requirement for this package."
+        },
+        "classifiers": {
+          "type": "array",
+          "description": "List of classifiers categorizing the package.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "provides_extra": {
+          "type": "array",
+          "description": "List of optional feature names provided by this package.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "platform": {
+          "type": "string",
+          "description": "Platform compatibility information."
+        },
+        "dynamic": {
+          "type": "array",
+          "description": "List of fields that were dynamically computed at build time.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "yanked": {
+          "type": "boolean",
+          "description": "Whether this version has been yanked."
+        },
+        "yanked_reason": {
+          "type": "string",
+          "description": "Reason for yanking this version, if applicable."
+        },
+        "urls": {
+          "type": "array",
+          "description": "A list of downloadable distribution files and their metadata for the package version.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "filename": {
+                "type": "string"
+              },
+              "packagetype": {
+                "type": "string"
+              },
+              "python_version": {
+                "type": "string"
+              },
+              "size": {
+                "type": "string"
+              },
+              "upload_time": {
+                "type": "string"
+              },
+              "upload_time_iso_8601": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "digests": {
+                "type": "object",
+                "properties": {
+                  "blake2b_256": {
+                    "type": "string"
+                  },
+                  "md5": {
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "vulnerabilities": {
+          "type": "array",
+          "description": "List of known security vulnerabilities for this package.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "aliases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "details": {
+                "type": "string"
+              },
+              "summary": {
+                "type": "string"
+              },
+              "fixed_in": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "id": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "withdrawn": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "package": {
+          "type": "string",
+          "format": "uri",
+          "description": "Cross-reference to another package resource when applicable."
+        }
+      },
+      "required": []
+    },
+    "NoderegistryType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the object"
+        },
+        "epoch": {
+          "type": "integer",
+          "description": "Epoch time of the object creation"
+        },
+        "self": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the object"
+        },
+        "xid": {
+          "type": "string",
+          "format": "xid",
+          "description": "Relative URL of the object"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the object"
+        },
+        "documentation": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the documentation of the object"
+        },
+        "labels": {
+          "type": "object",
+          "description": "Labels for the object"
+        },
+        "createdat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object creation"
+        },
+        "modifiedat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object modification"
+        },
+        "noderegistryid": {
+          "type": "string",
+          "description": "ID of the noderegistry object"
+        },
+        "packages": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/PackageType"
+          }
+        }
+      },
+      "required": []
+    },
+    "ImagesType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The canonical name of the container image."
+        },
+        "epoch": {
+          "type": "integer",
+          "description": "Epoch time of the object creation"
+        },
+        "self": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the object"
+        },
+        "xid": {
+          "type": "string",
+          "format": "xid",
+          "description": "Relative URL of the object"
+        },
+        "description": {
+          "type": "string",
+          "description": "A short description of the container image."
+        },
+        "documentation": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the documentation of the object"
+        },
+        "labels": {
+          "type": "object",
+          "description": "Labels for the object"
+        },
+        "createdat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object creation"
+        },
+        "modifiedat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object modification"
+        },
+        "imagesid": {
+          "type": "string",
+          "description": "ID of the images object"
+        },
+        "registry": {
+          "type": "string",
+          "description": "The registry URL where this image is hosted."
+        },
+        "namespace": {
+          "type": "string",
+          "description": "The namespace or organization under which the image is published."
+        },
+        "repository": {
+          "type": "string",
+          "description": "The repository name of the container image."
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Comprehensive metadata about the container image.",
+          "properties": {
+            "digest": {
+              "type": "string",
+              "description": "The content digest of the image manifest."
+            },
+            "manifest_mediatype": {
+              "type": "string",
+              "description": "The media type of the image manifest.",
+              "enum": [
+                "application/vnd.docker.distribution.manifest.v1+json",
+                "application/vnd.docker.distribution.manifest.v2+json",
+                "application/vnd.docker.distribution.manifest.list.v2+json",
+                "application/vnd.oci.image.manifest.v1+json",
+                "application/vnd.oci.image.index.v1+json"
+              ]
+            },
+            "schema_version": {
+              "type": "string",
+              "description": "The schema version of the manifest."
+            },
+            "layers_count": {
+              "type": "string",
+              "description": "The number of layers in the image."
+            },
+            "architecture": {
+              "type": "string",
+              "description": "The target architecture for the container image.",
+              "enum": [
+                "amd64",
+                "arm64",
+                "arm",
+                "386",
+                "ppc64le",
+                "s390x",
+                "mips64le",
+                "riscv64"
+              ]
+            },
+            "os": {
+              "type": "string",
+              "description": "The target operating system for the container image.",
+              "enum": [
+                "linux",
+                "windows",
+                "darwin",
+                "freebsd",
+                "netbsd",
+                "openbsd",
+                "dragonfly",
+                "solaris"
+              ]
+            },
+            "size_bytes": {
+              "type": "string",
+              "description": "The total size of the container image in bytes."
+            },
+            "is_multi_platform": {
+              "type": "boolean",
+              "description": "Whether this is a multi-platform image (manifest list)."
+            },
+            "available_platforms": {
+              "type": "array",
+              "description": "Available platforms for multi-platform images.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "architecture": {
+                    "type": "string",
+                    "description": "Platform architecture."
+                  },
+                  "os": {
+                    "type": "string",
+                    "description": "Platform operating system."
+                  },
+                  "variant": {
+                    "type": "string",
+                    "description": "Platform variant (optional)."
+                  },
+                  "digest": {
+                    "type": "string",
+                    "description": "Platform-specific manifest digest."
+                  },
+                  "size": {
+                    "type": "string",
+                    "description": "Platform-specific size in bytes."
+                  },
+                  "mediaType": {
+                    "type": "string",
+                    "description": "Platform-specific media type."
+                  }
+                }
+              }
+            },
+            "oci_labels": {
+              "type": "object",
+              "description": "Standard OCI image labels.",
+              "properties": {
+                "version": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.version"
+                },
+                "revision": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.revision"
+                },
+                "source": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.source"
+                },
+                "documentation": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.documentation"
+                },
+                "licenses": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.licenses"
+                },
+                "vendor": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.vendor"
+                },
+                "authors": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.authors"
+                },
+                "url": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.url"
+                },
+                "title": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.title"
+                },
+                "created": {
+                  "type": "string",
+                  "description": "org.opencontainers.image.created"
+                }
+              }
+            },
+            "environment": {
+              "type": "array",
+              "description": "Environment variables defined in the image.",
+              "items": {
+                "type": "string"
+              }
+            },
+            "working_dir": {
+              "type": "string",
+              "description": "Default working directory for the container."
+            },
+            "entrypoint": {
+              "type": "array",
+              "description": "Container entrypoint command.",
+              "items": {
+                "type": "string"
+              }
+            },
+            "cmd": {
+              "type": "array",
+              "description": "Default command arguments.",
+              "items": {
+                "type": "string"
+              }
+            },
+            "user": {
+              "type": "string",
+              "description": "Default user for running the container."
+            },
+            "exposed_ports": {
+              "type": "array",
+              "description": "Ports exposed by the container.",
+              "items": {
+                "type": "string"
+              }
+            },
+            "volumes": {
+              "type": "array",
+              "description": "Volume mount points defined in the image.",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "layers": {
+          "type": "array",
+          "description": "Information about the layers that make up the image.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "digest": {
+                "type": "string",
+                "description": "The digest of the layer."
+              },
+              "size": {
+                "type": "string",
+                "description": "The size of the layer in bytes."
+              },
+              "mediaType": {
+                "type": "string",
+                "description": "The media type of the layer."
+              }
+            }
+          }
+        },
+        "build_history": {
+          "type": "array",
+          "description": "Build history and layer creation commands.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "step": {
+                "type": "string",
+                "description": "Build step number."
+              },
+              "created": {
+                "type": "string",
+                "description": "When this step was created."
+              },
+              "created_by": {
+                "type": "string",
+                "description": "The command that created this layer."
+              },
+              "empty_layer": {
+                "type": "boolean",
+                "description": "Whether this step created an empty layer."
+              },
+              "comment": {
+                "type": "string",
+                "description": "Comment for this build step."
+              }
+            }
+          }
+        },
+        "urls": {
+          "type": "object",
+          "description": "Related URLs for the container image.",
+          "properties": {
+            "pull": {
+              "type": "string",
+              "format": "uri",
+              "description": "The URL for pulling this image."
+            },
+            "manifest": {
+              "type": "string",
+              "format": "uri",
+              "description": "The URL for accessing the image manifest."
+            },
+            "config": {
+              "type": "string",
+              "format": "uri",
+              "description": "The URL for accessing the image configuration."
+            }
+          }
+        },
+        "annotations": {
+          "type": "object",
+          "description": "OCI annotations applied to the image."
+        },
+        "vulnerabilities": {
+          "type": "object",
+          "description": "Security vulnerability information if available."
+        },
+        "pushed": {
+          "type": "string",
+          "description": "The timestamp when the image was pushed to the registry."
+        },
+        "pulled": {
+          "type": "string",
+          "description": "Number of times this image has been pulled."
+        },
+        "starred": {
+          "type": "string",
+          "description": "Number of stars/favorites for this image."
+        },
+        "deprecated": {
+          "type": "string",
+          "description": "Deprecation notice if the image is deprecated."
+        }
+      },
+      "required": []
+    },
+    "ContainerregistryType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the object"
+        },
+        "epoch": {
+          "type": "integer",
+          "description": "Epoch time of the object creation"
+        },
+        "self": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the object"
+        },
+        "xid": {
+          "type": "string",
+          "format": "xid",
+          "description": "Relative URL of the object"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the object"
+        },
+        "documentation": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the documentation of the object"
+        },
+        "labels": {
+          "type": "object",
+          "description": "Labels for the object"
+        },
+        "createdat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object creation"
+        },
+        "modifiedat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object modification"
+        },
+        "containerregistryid": {
+          "type": "string",
+          "description": "ID of the containerregistry object"
+        },
+        "images": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/ImageType"
+          }
+        }
+      },
+      "required": []
+    },
+    "PythonregistryType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the object"
+        },
+        "epoch": {
+          "type": "integer",
+          "description": "Epoch time of the object creation"
+        },
+        "self": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the object"
+        },
+        "xid": {
+          "type": "string",
+          "format": "xid",
+          "description": "Relative URL of the object"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the object"
+        },
+        "documentation": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the documentation of the object"
+        },
+        "labels": {
+          "type": "object",
+          "description": "Labels for the object"
+        },
+        "createdat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object creation"
+        },
+        "modifiedat": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Time of the object modification"
+        },
+        "pythonregistryid": {
+          "type": "string",
+          "description": "ID of the pythonregistry object"
+        },
+        "packages": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/PackageType"
+          }
+        }
+      },
+      "required": []
+    },
     "document": {
       "type": "object",
       "properties": {
@@ -642,6 +1406,24 @@
           "type": "object",
           "additionalProperties": {
             "$ref": "#/$defs/McpproviderType"
+          }
+        },
+        "noderegistries": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/NoderegistryType"
+          }
+        },
+        "containerregistries": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/ContainerregistryType"
+          }
+        },
+        "pythonregistries": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/PythonregistryType"
           }
         }
       },

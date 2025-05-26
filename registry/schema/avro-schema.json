@@ -602,6 +602,956 @@
           ]
         }
       }
+    },
+    {
+      "name": "noderegistries",
+      "type": {
+        "type": "map",
+        "values": {
+          "type": "record",
+          "name": "NoderegistryType",
+          "fields": [
+            {
+              "name": "noderegistryid",
+              "type": "string",
+              "description": "ID of the noderegistry object"
+            },
+            {
+              "name": "name",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "Name of the object"
+            },
+            {
+              "name": "epoch",
+              "type": [
+                "int",
+                "null"
+              ],
+              "doc": "Epoch time of the object creation"
+            },
+            {
+              "name": "self",
+              "type": "string",
+              "doc": "URL of the object"
+            },
+            {
+              "name": "xid",
+              "type": "string",
+              "doc": "XID of the object"
+            },
+            {
+              "name": "description",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "Description of the object"
+            },
+            {
+              "name": "documentation",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "URI of the documentation of the object"
+            },
+            {
+              "name": "labels",
+              "type": {
+                "type": "map",
+                "values": [
+                  "string",
+                  "null"
+                ]
+              },
+              "doc": "Labels for the object"
+            },
+            {
+              "name": "createdat",
+              "type": [
+                {
+                  "type": "int",
+                  "logicalType": "time-millis"
+                },
+                "null"
+              ],
+              "doc": "Time of the object creation"
+            },
+            {
+              "name": "modifiedat",
+              "type": [
+                {
+                  "type": "int",
+                  "logicalType": "time-millis"
+                },
+                "null"
+              ],
+              "doc": "Time of the object modification"
+            },
+            {
+              "name": "packages",
+              "type": {
+                "type": "map",
+                "values": {
+                  "type": "record",
+                  "name": "PackagesType",
+                  "fields": [
+                    {
+                      "name": "packagesid",
+                      "type": "string",
+                      "description": "ID of the packages object"
+                    },
+                    {
+                      "name": "name",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "Name of the object"
+                    },
+                    {
+                      "name": "epoch",
+                      "type": [
+                        "int",
+                        "null"
+                      ],
+                      "doc": "Epoch time of the object creation"
+                    },
+                    {
+                      "name": "self",
+                      "type": "string",
+                      "doc": "URL of the object"
+                    },
+                    {
+                      "name": "xid",
+                      "type": "string",
+                      "doc": "XID of the object"
+                    },
+                    {
+                      "name": "description",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "Description of the object"
+                    },
+                    {
+                      "name": "documentation",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "URI of the documentation of the object"
+                    },
+                    {
+                      "name": "labels",
+                      "type": {
+                        "type": "map",
+                        "values": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "doc": "Labels for the object"
+                    },
+                    {
+                      "name": "createdat",
+                      "type": [
+                        {
+                          "type": "int",
+                          "logicalType": "time-millis"
+                        },
+                        "null"
+                      ],
+                      "doc": "Time of the object creation"
+                    },
+                    {
+                      "name": "modifiedat",
+                      "type": [
+                        {
+                          "type": "int",
+                          "logicalType": "time-millis"
+                        },
+                        "null"
+                      ],
+                      "doc": "Time of the object modification"
+                    },
+                    {
+                      "name": "name",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The canonical name of the Node.js package."
+                    },
+                    {
+                      "name": "description",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "A short description of the package."
+                    },
+                    {
+                      "name": "license",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The license under which the package is distributed."
+                    },
+                    {
+                      "name": "author",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The author or maintainer of the package."
+                    },
+                    {
+                      "name": "homepage",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The main homepage URL for the package."
+                    },
+                    {
+                      "name": "repository",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "The repository information for the package."
+                    },
+                    {
+                      "name": "dependencies",
+                      "type": {
+                        "type": "array",
+                        "items": "DependenciesItem"
+                      },
+                      "doc": "The dependencies required by the package."
+                    },
+                    {
+                      "name": "keywords",
+                      "type": {
+                        "type": "array",
+                        "items": "string"
+                      },
+                      "doc": "Keywords that describe the package."
+                    },
+                    {
+                      "name": "maintainers",
+                      "type": {
+                        "type": "array",
+                        "items": "MaintainersItem"
+                      },
+                      "doc": "A list of maintainers for the package."
+                    },
+                    {
+                      "name": "version",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Current version of the package."
+                    },
+                    {
+                      "name": "dist-tags",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "Distribution tags for the package (latest, next, etc)."
+                    },
+                    {
+                      "name": "bugs",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "Bug tracking information for the package."
+                    },
+                    {
+                      "name": "contributors",
+                      "type": {
+                        "type": "array",
+                        "items": "ContributorsItem"
+                      },
+                      "doc": "List of contributors to the package."
+                    },
+                    {
+                      "name": "engines",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "Node.js engine requirements."
+                    },
+                    {
+                      "name": "deprecated",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Deprecation notice if the package is deprecated."
+                    },
+                    {
+                      "name": "devDependencies",
+                      "type": {
+                        "type": "array",
+                        "items": "DevDependenciesItem"
+                      },
+                      "doc": "Development dependencies for the package."
+                    },
+                    {
+                      "name": "peerDependencies",
+                      "type": {
+                        "type": "array",
+                        "items": "PeerDependenciesItem"
+                      },
+                      "doc": "Peer dependencies for the package."
+                    },
+                    {
+                      "name": "optionalDependencies",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "Optional dependencies for the package."
+                    },
+                    {
+                      "name": "package",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Cross-reference to another package resource when applicable."
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "containerregistries",
+      "type": {
+        "type": "map",
+        "values": {
+          "type": "record",
+          "name": "ContainerregistryType",
+          "fields": [
+            {
+              "name": "containerregistryid",
+              "type": "string",
+              "description": "ID of the containerregistry object"
+            },
+            {
+              "name": "name",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "Name of the object"
+            },
+            {
+              "name": "epoch",
+              "type": [
+                "int",
+                "null"
+              ],
+              "doc": "Epoch time of the object creation"
+            },
+            {
+              "name": "self",
+              "type": "string",
+              "doc": "URL of the object"
+            },
+            {
+              "name": "xid",
+              "type": "string",
+              "doc": "XID of the object"
+            },
+            {
+              "name": "description",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "Description of the object"
+            },
+            {
+              "name": "documentation",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "URI of the documentation of the object"
+            },
+            {
+              "name": "labels",
+              "type": {
+                "type": "map",
+                "values": [
+                  "string",
+                  "null"
+                ]
+              },
+              "doc": "Labels for the object"
+            },
+            {
+              "name": "createdat",
+              "type": [
+                {
+                  "type": "int",
+                  "logicalType": "time-millis"
+                },
+                "null"
+              ],
+              "doc": "Time of the object creation"
+            },
+            {
+              "name": "modifiedat",
+              "type": [
+                {
+                  "type": "int",
+                  "logicalType": "time-millis"
+                },
+                "null"
+              ],
+              "doc": "Time of the object modification"
+            },
+            {
+              "name": "images",
+              "type": {
+                "type": "map",
+                "values": {
+                  "type": "record",
+                  "name": "ImagesType",
+                  "fields": [
+                    {
+                      "name": "imagesid",
+                      "type": "string",
+                      "description": "ID of the images object"
+                    },
+                    {
+                      "name": "name",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "Name of the object"
+                    },
+                    {
+                      "name": "epoch",
+                      "type": [
+                        "int",
+                        "null"
+                      ],
+                      "doc": "Epoch time of the object creation"
+                    },
+                    {
+                      "name": "self",
+                      "type": "string",
+                      "doc": "URL of the object"
+                    },
+                    {
+                      "name": "xid",
+                      "type": "string",
+                      "doc": "XID of the object"
+                    },
+                    {
+                      "name": "description",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "Description of the object"
+                    },
+                    {
+                      "name": "documentation",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "URI of the documentation of the object"
+                    },
+                    {
+                      "name": "labels",
+                      "type": {
+                        "type": "map",
+                        "values": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "doc": "Labels for the object"
+                    },
+                    {
+                      "name": "createdat",
+                      "type": [
+                        {
+                          "type": "int",
+                          "logicalType": "time-millis"
+                        },
+                        "null"
+                      ],
+                      "doc": "Time of the object creation"
+                    },
+                    {
+                      "name": "modifiedat",
+                      "type": [
+                        {
+                          "type": "int",
+                          "logicalType": "time-millis"
+                        },
+                        "null"
+                      ],
+                      "doc": "Time of the object modification"
+                    },
+                    {
+                      "name": "name",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The canonical name of the container image."
+                    },
+                    {
+                      "name": "description",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "A short description of the container image."
+                    },
+                    {
+                      "name": "registry",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The registry URL where this image is hosted."
+                    },
+                    {
+                      "name": "namespace",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The namespace or organization under which the image is published."
+                    },
+                    {
+                      "name": "repository",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The repository name of the container image."
+                    },
+                    {
+                      "name": "metadata",
+                      "type": "Metadata",
+                      "doc": "Comprehensive metadata about the container image."
+                    },
+                    {
+                      "name": "layers",
+                      "type": {
+                        "type": "array",
+                        "items": "LayersItem"
+                      },
+                      "doc": "Information about the layers that make up the image."
+                    },
+                    {
+                      "name": "build_history",
+                      "type": {
+                        "type": "array",
+                        "items": "BuildHistoryItem"
+                      },
+                      "doc": "Build history and layer creation commands."
+                    },
+                    {
+                      "name": "urls",
+                      "type": "Urls",
+                      "doc": "Related URLs for the container image."
+                    },
+                    {
+                      "name": "annotations",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "OCI annotations applied to the image."
+                    },
+                    {
+                      "name": "vulnerabilities",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "Security vulnerability information if available."
+                    },
+                    {
+                      "name": "pushed",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The timestamp when the image was pushed to the registry."
+                    },
+                    {
+                      "name": "pulled",
+                      "type": "string",
+                      "doc": "Number of times this image has been pulled."
+                    },
+                    {
+                      "name": "starred",
+                      "type": "string",
+                      "doc": "Number of stars/favorites for this image."
+                    },
+                    {
+                      "name": "deprecated",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Deprecation notice if the image is deprecated."
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "pythonregistries",
+      "type": {
+        "type": "map",
+        "values": {
+          "type": "record",
+          "name": "PythonregistryType",
+          "fields": [
+            {
+              "name": "pythonregistryid",
+              "type": "string",
+              "description": "ID of the pythonregistry object"
+            },
+            {
+              "name": "name",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "Name of the object"
+            },
+            {
+              "name": "epoch",
+              "type": [
+                "int",
+                "null"
+              ],
+              "doc": "Epoch time of the object creation"
+            },
+            {
+              "name": "self",
+              "type": "string",
+              "doc": "URL of the object"
+            },
+            {
+              "name": "xid",
+              "type": "string",
+              "doc": "XID of the object"
+            },
+            {
+              "name": "description",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "Description of the object"
+            },
+            {
+              "name": "documentation",
+              "type": [
+                "string",
+                "null"
+              ],
+              "doc": "URI of the documentation of the object"
+            },
+            {
+              "name": "labels",
+              "type": {
+                "type": "map",
+                "values": [
+                  "string",
+                  "null"
+                ]
+              },
+              "doc": "Labels for the object"
+            },
+            {
+              "name": "createdat",
+              "type": [
+                {
+                  "type": "int",
+                  "logicalType": "time-millis"
+                },
+                "null"
+              ],
+              "doc": "Time of the object creation"
+            },
+            {
+              "name": "modifiedat",
+              "type": [
+                {
+                  "type": "int",
+                  "logicalType": "time-millis"
+                },
+                "null"
+              ],
+              "doc": "Time of the object modification"
+            },
+            {
+              "name": "packages",
+              "type": {
+                "type": "map",
+                "values": {
+                  "type": "record",
+                  "name": "PackagesType",
+                  "fields": [
+                    {
+                      "name": "packagesid",
+                      "type": "string",
+                      "description": "ID of the packages object"
+                    },
+                    {
+                      "name": "name",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "Name of the object"
+                    },
+                    {
+                      "name": "epoch",
+                      "type": [
+                        "int",
+                        "null"
+                      ],
+                      "doc": "Epoch time of the object creation"
+                    },
+                    {
+                      "name": "self",
+                      "type": "string",
+                      "doc": "URL of the object"
+                    },
+                    {
+                      "name": "xid",
+                      "type": "string",
+                      "doc": "XID of the object"
+                    },
+                    {
+                      "name": "description",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "Description of the object"
+                    },
+                    {
+                      "name": "documentation",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "doc": "URI of the documentation of the object"
+                    },
+                    {
+                      "name": "labels",
+                      "type": {
+                        "type": "map",
+                        "values": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "doc": "Labels for the object"
+                    },
+                    {
+                      "name": "createdat",
+                      "type": [
+                        {
+                          "type": "int",
+                          "logicalType": "time-millis"
+                        },
+                        "null"
+                      ],
+                      "doc": "Time of the object creation"
+                    },
+                    {
+                      "name": "modifiedat",
+                      "type": [
+                        {
+                          "type": "int",
+                          "logicalType": "time-millis"
+                        },
+                        "null"
+                      ],
+                      "doc": "Time of the object modification"
+                    },
+                    {
+                      "name": "name",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The canonical name of the Python package."
+                    },
+                    {
+                      "name": "summary",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "A short summary or tagline describing the package."
+                    },
+                    {
+                      "name": "license",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The license under which the package is distributed."
+                    },
+                    {
+                      "name": "author",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The author or maintainer of the package."
+                    },
+                    {
+                      "name": "author_email",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The email of the package author."
+                    },
+                    {
+                      "name": "maintainer",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The maintainer of the package."
+                    },
+                    {
+                      "name": "maintainer_email",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The email of the package maintainer."
+                    },
+                    {
+                      "name": "home_page",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The main homepage URL for the package."
+                    },
+                    {
+                      "name": "project_url",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The main project URL or repository for the package."
+                    },
+                    {
+                      "name": "project_urls",
+                      "type": {
+                        "type": "record"
+                      },
+                      "doc": "Dictionary of additional project URLs."
+                    },
+                    {
+                      "name": "description_content_type",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The content type of the description (e.g., text/markdown)."
+                    },
+                    {
+                      "name": "requires_dist",
+                      "type": {
+                        "type": "array",
+                        "items": "RequiresDistItem"
+                      },
+                      "doc": "A list of package dependencies required for installation with cross-references."
+                    },
+                    {
+                      "name": "requires_python",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "The Python version requirement for this package."
+                    },
+                    {
+                      "name": "classifiers",
+                      "type": {
+                        "type": "array",
+                        "items": "string"
+                      },
+                      "doc": "List of classifiers categorizing the package."
+                    },
+                    {
+                      "name": "provides_extra",
+                      "type": {
+                        "type": "array",
+                        "items": "string"
+                      },
+                      "doc": "List of optional feature names provided by this package."
+                    },
+                    {
+                      "name": "platform",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Platform compatibility information."
+                    },
+                    {
+                      "name": "dynamic",
+                      "type": {
+                        "type": "array",
+                        "items": "string"
+                      },
+                      "doc": "List of fields that were dynamically computed at build time."
+                    },
+                    {
+                      "name": "yanked",
+                      "type": {
+                        "type": "boolean"
+                      },
+                      "doc": "Whether this version has been yanked."
+                    },
+                    {
+                      "name": "yanked_reason",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Reason for yanking this version, if applicable."
+                    },
+                    {
+                      "name": "urls",
+                      "type": {
+                        "type": "array",
+                        "items": "UrlsItem"
+                      },
+                      "doc": "A list of downloadable distribution files and their metadata for the package version."
+                    },
+                    {
+                      "name": "vulnerabilities",
+                      "type": {
+                        "type": "array",
+                        "items": "VulnerabilitiesItem"
+                      },
+                      "doc": "List of known security vulnerabilities for this package."
+                    },
+                    {
+                      "name": "package",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Cross-reference to another package resource when applicable."
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
     }
   ]
 }
