@@ -3,9 +3,9 @@
   "registryid": "xRegistry",
   "self": "#/",
   "xid": "/",
-  "epoch": 3,
-  "createdat": "2025-05-26T09:31:08.802067501Z",
-  "modifiedat": "2025-05-26T09:31:11.634877076Z",
+  "epoch": 5,
+  "createdat": "2025-05-26T10:14:38.783641662Z",
+  "modifiedat": "2025-05-26T10:14:44.084052782Z",
 
   "capabilities": {
     "apis": [
@@ -679,8 +679,7 @@
               },
               "name": {
                 "name": "name",
-                "type": "string",
-                "description": "Unique reverse-DNS identifier of the repository."
+                "type": "string"
               },
               "isdefault": {
                 "name": "isdefault",
@@ -691,8 +690,7 @@
               },
               "description": {
                 "name": "description",
-                "type": "string",
-                "description": "Repository or server overview."
+                "type": "string"
               },
               "documentation": {
                 "name": "documentation",
@@ -724,131 +722,300 @@
                 "name": "contenttype",
                 "type": "string"
               },
-              "prompts": {
-                "name": "prompts",
+              "id": {
+                "name": "id",
+                "type": "string"
+              },
+              "packages": {
+                "name": "packages",
                 "type": "array",
-                "description": "Static prompt templates bundled with this server.",
                 "item": {
                   "type": "object",
                   "attributes": {
-                    "arguments": {
-                      "name": "arguments",
+                    "environment_variables": {
+                      "name": "environment_variables",
                       "type": "array",
                       "item": {
                         "type": "object",
                         "attributes": {
+                          "choices": {
+                            "name": "choices",
+                            "type": "array",
+                            "item": {
+                              "type": "string"
+                            }
+                          },
+                          "default": {
+                            "name": "default",
+                            "type": "string"
+                          },
                           "description": {
                             "name": "description",
                             "type": "string"
+                          },
+                          "format": {
+                            "name": "format",
+                            "type": "string"
+                          },
+                          "is_repeated": {
+                            "name": "is_repeated",
+                            "type": "boolean"
+                          },
+                          "is_required": {
+                            "name": "is_required",
+                            "type": "boolean"
+                          },
+                          "is_secret": {
+                            "name": "is_secret",
+                            "type": "boolean"
                           },
                           "name": {
                             "name": "name",
                             "type": "string"
                           },
-                          "required": {
-                            "name": "required",
-                            "type": "boolean"
+                          "properties": {
+                            "name": "properties",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "template": {
+                            "name": "template",
+                            "type": "string"
+                          },
+                          "type": {
+                            "name": "type",
+                            "type": "string"
+                          },
+                          "value": {
+                            "name": "value",
+                            "type": "string"
+                          },
+                          "value_hint": {
+                            "name": "value_hint",
+                            "type": "string"
+                          },
+                          "variables": {
+                            "name": "variables",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "*": {
+                            "name": "*",
+                            "type": "any"
                           }
                         }
                       }
                     },
-                    "description": {
-                      "name": "description",
-                      "type": "string"
-                    },
                     "name": {
                       "name": "name",
                       "type": "string"
+                    },
+                    "package_arguments": {
+                      "name": "package_arguments",
+                      "type": "array",
+                      "item": {
+                        "type": "object",
+                        "attributes": {
+                          "choices": {
+                            "name": "choices",
+                            "type": "array",
+                            "item": {
+                              "type": "string"
+                            }
+                          },
+                          "default": {
+                            "name": "default",
+                            "type": "string"
+                          },
+                          "description": {
+                            "name": "description",
+                            "type": "string"
+                          },
+                          "format": {
+                            "name": "format",
+                            "type": "string"
+                          },
+                          "is_repeated": {
+                            "name": "is_repeated",
+                            "type": "boolean"
+                          },
+                          "is_required": {
+                            "name": "is_required",
+                            "type": "boolean"
+                          },
+                          "is_secret": {
+                            "name": "is_secret",
+                            "type": "boolean"
+                          },
+                          "name": {
+                            "name": "name",
+                            "type": "string"
+                          },
+                          "properties": {
+                            "name": "properties",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "template": {
+                            "name": "template",
+                            "type": "string"
+                          },
+                          "type": {
+                            "name": "type",
+                            "type": "string"
+                          },
+                          "value": {
+                            "name": "value",
+                            "type": "string"
+                          },
+                          "value_hint": {
+                            "name": "value_hint",
+                            "type": "string"
+                          },
+                          "variables": {
+                            "name": "variables",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "*": {
+                            "name": "*",
+                            "type": "any"
+                          }
+                        }
+                      }
+                    },
+                    "registry_name": {
+                      "name": "registry_name",
+                      "type": "string"
+                    },
+                    "runtime_arguments": {
+                      "name": "runtime_arguments",
+                      "type": "array",
+                      "item": {
+                        "type": "object",
+                        "attributes": {
+                          "choices": {
+                            "name": "choices",
+                            "type": "array",
+                            "item": {
+                              "type": "string"
+                            }
+                          },
+                          "default": {
+                            "name": "default",
+                            "type": "string"
+                          },
+                          "description": {
+                            "name": "description",
+                            "type": "string"
+                          },
+                          "format": {
+                            "name": "format",
+                            "type": "string"
+                          },
+                          "is_repeated": {
+                            "name": "is_repeated",
+                            "type": "boolean"
+                          },
+                          "is_required": {
+                            "name": "is_required",
+                            "type": "boolean"
+                          },
+                          "is_secret": {
+                            "name": "is_secret",
+                            "type": "boolean"
+                          },
+                          "name": {
+                            "name": "name",
+                            "type": "string"
+                          },
+                          "properties": {
+                            "name": "properties",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "template": {
+                            "name": "template",
+                            "type": "string"
+                          },
+                          "type": {
+                            "name": "type",
+                            "type": "string"
+                          },
+                          "value": {
+                            "name": "value",
+                            "type": "string"
+                          },
+                          "value_hint": {
+                            "name": "value_hint",
+                            "type": "string"
+                          },
+                          "variables": {
+                            "name": "variables",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "*": {
+                            "name": "*",
+                            "type": "any"
+                          }
+                        }
+                      }
+                    },
+                    "runtime_hint": {
+                      "name": "runtime_hint",
+                      "type": "string"
+                    },
+                    "version": {
+                      "name": "version",
+                      "type": "string"
+                    },
+                    "*": {
+                      "name": "*",
+                      "type": "any"
                     }
                   }
                 }
               },
-              "registries": {
-                "name": "registries",
+              "prompts": {
+                "name": "prompts",
                 "type": "array",
-                "description": "Package registry metadata blocks.",
                 "item": {
                   "type": "object",
                   "attributes": {
-                    "command_arguments": {
-                      "name": "command_arguments",
-                      "type": "object",
-                      "attributes": {
-                        "environment_variables": {
-                          "name": "environment_variables",
-                          "type": "array",
-                          "item": {
-                            "type": "object",
-                            "attributes": {
-                              "description": {
-                                "name": "description",
-                                "type": "string"
-                              },
-                              "name": {
-                                "name": "name",
-                                "type": "string"
-                              },
-                              "required": {
-                                "name": "required",
-                                "type": "boolean"
-                              }
-                            }
-                          }
-                        },
-                        "named_arguments": {
-                          "name": "named_arguments",
-                          "type": "array",
-                          "item": {
-                            "type": "string"
-                          }
-                        },
-                        "positional_arguments": {
-                          "name": "positional_arguments",
-                          "type": "array",
-                          "item": {
-                            "type": "string"
-                          }
-                        },
-                        "sub_commands": {
-                          "name": "sub_commands",
-                          "type": "array",
-                          "item": {
-                            "type": "object",
-                            "attributes": {
-                              "description": {
-                                "name": "description",
-                                "type": "string"
-                              },
-                              "name": {
-                                "name": "name",
-                                "type": "string"
-                              },
-                              "named_arguments": {
-                                "name": "named_arguments",
-                                "type": "array",
-                                "item": {
-                                  "type": "string"
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "license": {
-                      "name": "license",
-                      "type": "string",
-                      "description": "License of the package."
-                    },
-                    "name": {
-                      "name": "name",
-                      "type": "string",
-                      "description": "Name of the registry."
-                    },
-                    "package_name": {
-                      "name": "package_name",
-                      "type": "string",
-                      "description": "Name of the package."
+                    "*": {
+                      "name": "*",
+                      "type": "any"
                     }
                   }
                 }
@@ -856,50 +1023,113 @@
               "remotes": {
                 "name": "remotes",
                 "type": "array",
-                "description": "Source‑code hosting locations.",
                 "item": {
                   "type": "object",
                   "attributes": {
-                    "transporttype": {
-                      "name": "transporttype",
-                      "type": "string",
-                      "description": "Transport type of the remote."
+                    "headers": {
+                      "name": "headers",
+                      "type": "array",
+                      "item": {
+                        "type": "object",
+                        "attributes": {
+                          "choices": {
+                            "name": "choices",
+                            "type": "array",
+                            "item": {
+                              "type": "string"
+                            }
+                          },
+                          "default": {
+                            "name": "default",
+                            "type": "string"
+                          },
+                          "description": {
+                            "name": "description",
+                            "type": "string"
+                          },
+                          "format": {
+                            "name": "format",
+                            "type": "string"
+                          },
+                          "is_required": {
+                            "name": "is_required",
+                            "type": "boolean"
+                          },
+                          "is_secret": {
+                            "name": "is_secret",
+                            "type": "boolean"
+                          },
+                          "properties": {
+                            "name": "properties",
+                            "type": "object",
+                            "attributes": {
+                              "*": {
+                                "name": "*",
+                                "type": "any"
+                              }
+                            }
+                          },
+                          "template": {
+                            "name": "template",
+                            "type": "string"
+                          },
+                          "value": {
+                            "name": "value",
+                            "type": "string"
+                          },
+                          "*": {
+                            "name": "*",
+                            "type": "any"
+                          }
+                        }
+                      }
+                    },
+                    "transport_type": {
+                      "name": "transport_type",
+                      "type": "string"
                     },
                     "url": {
                       "name": "url",
-                      "type": "url",
-                      "description": "URL of the remote."
+                      "type": "string"
+                    },
+                    "*": {
+                      "name": "*",
+                      "type": "any"
                     }
                   }
                 }
               },
-              "repo_ref": {
-                "name": "repo_ref",
-                "type": "string",
-                "description": "Repository reference for the server."
+              "repository": {
+                "name": "repository",
+                "type": "object",
+                "attributes": {
+                  "id": {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  "source": {
+                    "name": "source",
+                    "type": "string"
+                  },
+                  "url": {
+                    "name": "url",
+                    "type": "string"
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any"
+                  }
+                }
               },
               "resources": {
                 "name": "resources",
                 "type": "array",
-                "description": "Data resources the server can expose or subscribe to.",
                 "item": {
                   "type": "object",
                   "attributes": {
-                    "description": {
-                      "name": "description",
-                      "type": "string"
-                    },
-                    "mimetype": {
-                      "name": "mimetype",
-                      "type": "string"
-                    },
-                    "name": {
-                      "name": "name",
-                      "type": "string"
-                    },
-                    "uritemplate": {
-                      "name": "uritemplate",
-                      "type": "uritemplate"
+                    "*": {
+                      "name": "*",
+                      "type": "any"
                     }
                   }
                 }
@@ -907,21 +1137,12 @@
               "tools": {
                 "name": "tools",
                 "type": "array",
-                "description": "Tool definitions invocable via the MCP runtime.",
                 "item": {
                   "type": "object",
                   "attributes": {
-                    "description": {
-                      "name": "description",
-                      "type": "string"
-                    },
-                    "inputschema": {
-                      "name": "inputschema",
+                    "*": {
+                      "name": "*",
                       "type": "any"
-                    },
-                    "name": {
-                      "name": "name",
-                      "type": "string"
                     }
                   }
                 }
@@ -929,14 +1150,28 @@
               "version_detail": {
                 "name": "version_detail",
                 "type": "object",
-                "description": "Version detail for the server.",
                 "attributes": {
+                  "is_latest": {
+                    "name": "is_latest",
+                    "type": "boolean"
+                  },
+                  "release_date": {
+                    "name": "release_date",
+                    "type": "string"
+                  },
                   "version": {
                     "name": "version",
-                    "type": "string",
-                    "description": "Semantic version number detail."
+                    "type": "string"
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any"
                   }
                 }
+              },
+              "*": {
+                "name": "*",
+                "type": "any"
               },
               "metaurl": {
                 "name": "metaurl",
@@ -1112,8 +1347,8 @@
       "self": "#/agentcardproviders/contoso.com",
       "xid": "/agentcardproviders/contoso.com",
       "epoch": 1,
-      "createdat": "2025-05-26T09:31:11.513114745Z",
-      "modifiedat": "2025-05-26T09:31:11.513114745Z",
+      "createdat": "2025-05-26T10:14:43.486785741Z",
+      "modifiedat": "2025-05-26T10:14:43.486785741Z",
 
       "agentcardsurl": "#/agentcardproviders/contoso.com/agentcards",
       "agentcards": {
@@ -1128,8 +1363,8 @@
             "self": "#/agentcardproviders/contoso.com/agentcards/reimbursement/meta",
             "xid": "/agentcardproviders/contoso.com/agentcards/reimbursement/meta",
             "epoch": 1,
-            "createdat": "2025-05-26T09:31:11.513114745Z",
-            "modifiedat": "2025-05-26T09:31:11.513114745Z",
+            "createdat": "2025-05-26T10:14:43.486785741Z",
+            "modifiedat": "2025-05-26T10:14:43.486785741Z",
             "readonly": false,
             "compatibility": "none",
             "validation": false,
@@ -1147,8 +1382,8 @@
               "xid": "/agentcardproviders/contoso.com/agentcards/reimbursement/versions/1",
               "epoch": 1,
               "isdefault": true,
-              "createdat": "2025-05-26T09:31:11.513114745Z",
-              "modifiedat": "2025-05-26T09:31:11.513114745Z",
+              "createdat": "2025-05-26T10:14:43.486785741Z",
+              "modifiedat": "2025-05-26T10:14:43.486785741Z",
               "ancestor": "1",
               "agentcardbase64": "ew0KICAgICJhZ2VudGNhcmRpZCI6ICJyZWltYnVyc2VtZW50IiwNCiAgICAiZGVzY3JpcHRpb24iOiAiUmVpbWJ1cnNlbWVudCBBZ2VudC4gSGFuZGxlcyBlbXBsb3llZSBleHBlbnNlIHJlaW1idXJzZW1lbnQgcHJvY2Vzc2luZy4iLA0KICAgICJuYW1lIjogIlJlaW1idXJzZW1lbnQgQWdlbnQiLA0KICAgICJhZ2VudGNhcmQiOiB7DQogICAgICAgICJuYW1lIjogIlJlaW1idXJzZW1lbnQgQWdlbnQiLA0KICAgICAgICAiZGVzY3JpcHRpb24iOiAiSGFuZGxlcyBlbXBsb3llZSBleHBlbnNlIHJlaW1idXJzZW1lbnQgcHJvY2Vzc2luZy4iLA0KICAgICAgICAidXJsIjogImh0dHBzOi8vcmVpbWJ1cnNlbWVudC5leGFtcGxlLmNvbS9hMmEiLA0KICAgICAgICAidmVyc2lvbiI6ICIxLjAuMCIsDQogICAgICAgICJjYXBhYmlsaXRpZXMiOiB7DQogICAgICAgICAgICAic3RyZWFtaW5nIjogdHJ1ZSwNCiAgICAgICAgICAgICJwdXNoTm90aWZpY2F0aW9ucyI6IGZhbHNlLA0KICAgICAgICAgICAgInN0YXRlVHJhbnNpdGlvbkhpc3RvcnkiOiB0cnVlDQogICAgICAgIH0sDQogICAgICAgICJhdXRoZW50aWNhdGlvbiI6IHsNCiAgICAgICAgICAgICJzY2hlbWVzIjogWw0KICAgICAgICAgICAgICAgICJhcGlLZXkiDQogICAgICAgICAgICBdDQogICAgICAgIH0sDQogICAgICAgICJkZWZhdWx0SW5wdXRNb2RlcyI6IFsNCiAgICAgICAgICAgICJ0ZXh0Ig0KICAgICAgICBdLA0KICAgICAgICAiZGVmYXVsdE91dHB1dE1vZGVzIjogWw0KICAgICAgICAgICAgInRleHQiDQogICAgICAgIF0sDQogICAgICAgICJza2lsbHMiOiBbDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgICAgImlkIjogInByb2Nlc3NfcmVpbWJ1cnNlbWVudCIsDQogICAgICAgICAgICAgICAgIm5hbWUiOiAiUHJvY2VzcyBSZWltYnVyc2VtZW50IiwNCiAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiUHJvY2Vzc2VzIGV4cGVuc2UgcmVpbWJ1cnNlbWVudCByZXF1ZXN0cyBiYXNlZCBvbiBwcm92aWRlZCBkZXRhaWxzLiIsDQogICAgICAgICAgICAgICAgImlucHV0TW9kZXMiOiBbDQogICAgICAgICAgICAgICAgICAgICJ0ZXh0Ig0KICAgICAgICAgICAgICAgIF0sDQogICAgICAgICAgICAgICAgIm91dHB1dE1vZGVzIjogWw0KICAgICAgICAgICAgICAgICAgICAidGV4dCINCiAgICAgICAgICAgICAgICBdLA0KICAgICAgICAgICAgICAgICJleGFtcGxlcyI6IFsNCiAgICAgICAgICAgICAgICAgICAgIlJlaW1idXJzZSDigqwyMCBmb3IgY2xpZW50IGx1bmNoIG9uIDIwMjUtMDUtMTAuIiwNCiAgICAgICAgICAgICAgICAgICAgIlN1Ym1pdCBleHBlbnNlIGZvciDigqw1MCB0YXhpIGZhcmUgZnJvbSAyMDI1LTA1LTEyLiINCiAgICAgICAgICAgICAgICBdDQogICAgICAgICAgICB9DQogICAgICAgIF0NCiAgICB9DQp9"
             }
@@ -1163,8 +1398,8 @@
       "self": "#/agentcardproviders/final-test-provider",
       "xid": "/agentcardproviders/final-test-provider",
       "epoch": 1,
-      "createdat": "2025-05-26T09:31:11.634877076Z",
-      "modifiedat": "2025-05-26T09:31:11.634877076Z",
+      "createdat": "2025-05-26T10:14:43.599904043Z",
+      "modifiedat": "2025-05-26T10:14:43.599904043Z",
 
       "agentcardsurl": "#/agentcardproviders/final-test-provider/agentcards",
       "agentcards": {
@@ -1179,8 +1414,8 @@
             "self": "#/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/meta",
             "xid": "/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/meta",
             "epoch": 1,
-            "createdat": "2025-05-26T09:31:11.634877076Z",
-            "modifiedat": "2025-05-26T09:31:11.634877076Z",
+            "createdat": "2025-05-26T10:14:43.599904043Z",
+            "modifiedat": "2025-05-26T10:14:43.599904043Z",
             "readonly": false,
             "compatibility": "none",
             "validation": false,
@@ -1198,8 +1433,8 @@
               "xid": "/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1",
               "epoch": 1,
               "isdefault": true,
-              "createdat": "2025-05-26T09:31:11.634877076Z",
-              "modifiedat": "2025-05-26T09:31:11.634877076Z",
+              "createdat": "2025-05-26T10:14:43.599904043Z",
+              "modifiedat": "2025-05-26T10:14:43.599904043Z",
               "ancestor": "1",
               "agentcardbase64": "ew0KICAiYWdlbnRjYXJkIjogew0KICAgICJuYW1lIjogIlRlc3QgQTJBIEFnZW50IiwNCiAgICAiZGVzY3JpcHRpb24iOiAiQSB0ZXN0IGFnZW50IGZvciB2YWxpZGF0aW5nIHRoZSB4cmVnaXN0cnktYWkgQTJBIGlzc3VlIHdvcmtmbG93IiwNCiAgICAidXJsIjogImh0dHBzOi8vdGVzdC1hZ2VudC5leGFtcGxlLmNvbS9hMmEiLA0KICAgICJ2ZXJzaW9uIjogIjEuMC4wIiwNCiAgICAiY2FwYWJpbGl0aWVzIjogew0KICAgICAgInN0cmVhbWluZyI6IHRydWUsDQogICAgICAicHVzaE5vdGlmaWNhdGlvbnMiOiBmYWxzZSwNCiAgICAgICJzdGF0ZVRyYW5zaXRpb25IaXN0b3J5IjogdHJ1ZQ0KICAgIH0sDQogICAgImF1dGhlbnRpY2F0aW9uIjogew0KICAgICAgInNjaGVtZXMiOiBbDQogICAgICAgICJhcGlLZXkiDQogICAgICBdDQogICAgfSwNCiAgICAiZGVmYXVsdElucHV0TW9kZXMiOiBbDQogICAgICAidGV4dCINCiAgICBdLA0KICAgICJkZWZhdWx0T3V0cHV0TW9kZXMiOiBbDQogICAgICAidGV4dCINCiAgICBdLA0KICAgICJza2lsbHMiOiBbDQogICAgICB7DQogICAgICAgICJpZCI6ICJ0ZXN0X2VjaG8iLA0KICAgICAgICAibmFtZSI6ICJUZXN0IEVjaG8iLA0KICAgICAgICAiZGVzY3JpcHRpb24iOiAiRWNobyBiYWNrIGEgdGVzdCBtZXNzYWdlIGZvciB2YWxpZGF0aW9uIHB1cnBvc2VzIiwNCiAgICAgICAgImlucHV0TW9kZXMiOiBbDQogICAgICAgICAgInRleHQiDQogICAgICAgIF0sDQogICAgICAgICJvdXRwdXRNb2RlcyI6IFsNCiAgICAgICAgICAidGV4dCINCiAgICAgICAgXSwNCiAgICAgICAgImV4YW1wbGVzIjogWw0KICAgICAgICAgICJFY2hvIGJhY2s6IEhlbGxvIFdvcmxkIiwNCiAgICAgICAgICAiUmVwZWF0IHRoaXMgbWVzc2FnZTogVGVzdCBzdWNjZXNzZnVsIg0KICAgICAgICBdDQogICAgICB9DQogICAgXQ0KICB9DQp9"
             }
@@ -1212,6 +1447,217 @@
   },
   "agentcardproviderscount": 2,
   "mcpprovidersurl": "#/mcpproviders",
-  "mcpproviders": {},
-  "mcpproviderscount": 0
+  "mcpproviders": {
+    "13rac1": {
+      "mcpproviderid": "13rac1",
+      "self": "#/mcpproviders/13rac1",
+      "xid": "/mcpproviders/13rac1",
+      "epoch": 1,
+      "createdat": "2025-05-26T10:14:43.837345478Z",
+      "modifiedat": "2025-05-26T10:14:43.837345478Z",
+
+      "serversurl": "#/mcpproviders/13rac1/servers",
+      "servers": {
+        "videocapture-mcp": {
+          "serverid": "videocapture-mcp",
+          "self": "#/mcpproviders/13rac1/servers/videocapture-mcp",
+          "xid": "/mcpproviders/13rac1/servers/videocapture-mcp",
+
+          "metaurl": "#/mcpproviders/13rac1/servers/videocapture-mcp/meta",
+          "meta": {
+            "serverid": "videocapture-mcp",
+            "self": "#/mcpproviders/13rac1/servers/videocapture-mcp/meta",
+            "xid": "/mcpproviders/13rac1/servers/videocapture-mcp/meta",
+            "epoch": 1,
+            "createdat": "2025-05-26T10:14:43.837345478Z",
+            "modifiedat": "2025-05-26T10:14:43.837345478Z",
+            "readonly": false,
+            "compatibility": "none",
+
+            "defaultversionid": "1",
+            "defaultversionurl": "#/mcpproviders/13rac1/servers/videocapture-mcp/versions/1",
+            "defaultversionsticky": false
+          },
+          "versionsurl": "#/mcpproviders/13rac1/servers/videocapture-mcp/versions",
+          "versions": {
+            "1": {
+              "serverid": "videocapture-mcp",
+              "versionid": "1",
+              "self": "#/mcpproviders/13rac1/servers/videocapture-mcp/versions/1",
+              "xid": "/mcpproviders/13rac1/servers/videocapture-mcp/versions/1",
+              "epoch": 1,
+              "name": "io.github.13rac1/videocapture-mcp",
+              "isdefault": true,
+              "description": "Model Context Protocol (MCP) server to capture images from an OpenCV-compatible webcam or video source",
+              "createdat": "2025-05-26T10:14:43.837345478Z",
+              "modifiedat": "2025-05-26T10:14:43.837345478Z",
+              "ancestor": "1",
+              "id": "cbc3c68c-82c8-4a9f-86b9-78e3893df494",
+              "packages": [
+                {
+                  "name": "videocapture-mcp",
+                  "package_arguments": [
+                    {
+                      "default": "--with mcp[cli]",
+                      "description": "Use extra requirements with package",
+                      "format": "string",
+                      "is_required": true,
+                      "name": "--with mcp[cli]",
+                      "type": "named",
+                      "value": "--with mcp[cli]",
+                      "value_hint": "mcp[cli]"
+                    },
+                    {
+                      "default": "--with numpy",
+                      "description": "Use extra requirements with package",
+                      "format": "string",
+                      "is_required": true,
+                      "name": "--with numpy",
+                      "type": "named",
+                      "value": "--with numpy",
+                      "value_hint": "numpy"
+                    },
+                    {
+                      "default": "--with opencv-python",
+                      "description": "Use extra requirements with package",
+                      "format": "string",
+                      "is_required": true,
+                      "name": "--with opencv-python",
+                      "type": "named",
+                      "value": "--with opencv-python",
+                      "value_hint": "opencv-python"
+                    },
+                    {
+                      "default": "mcp",
+                      "description": "MCP run command",
+                      "format": "string",
+                      "is_required": true,
+                      "type": "positional",
+                      "value": "mcp",
+                      "value_hint": "mcp"
+                    },
+                    {
+                      "default": "C:\\ABSOLUTE_PATH\\videocapture-mcp\\videocapture_mcp.py",
+                      "description": "Path to script",
+                      "format": "string",
+                      "is_required": true,
+                      "type": "positional",
+                      "value": "C:\\ABSOLUTE_PATH\\videocapture-mcp\\videocapture_mcp.py",
+                      "value_hint": "C:\\ABSOLUTE_PATH\\videocapture-mcp\\videocapture_mcp.py"
+                    }
+                  ],
+                  "registry_name": "pypi",
+                  "version": "0.1.0"
+                }
+              ],
+              "repository": {
+                "id": "956274853",
+                "source": "github",
+                "url": "https://github.com/13rac1/videocapture-mcp"
+              },
+              "version_detail": {
+                "is_latest": true,
+                "release_date": "2025-05-16T19:15:30Z",
+                "version": "0.0.1-seed"
+              }
+            }
+          },
+          "versionscount": 1
+        }
+      },
+      "serverscount": 1
+    },
+    "21st-dev": {
+      "mcpproviderid": "21st-dev",
+      "self": "#/mcpproviders/21st-dev",
+      "xid": "/mcpproviders/21st-dev",
+      "epoch": 1,
+      "createdat": "2025-05-26T10:14:44.084052782Z",
+      "modifiedat": "2025-05-26T10:14:44.084052782Z",
+
+      "serversurl": "#/mcpproviders/21st-dev/servers",
+      "servers": {
+        "magic-mcp": {
+          "serverid": "magic-mcp",
+          "self": "#/mcpproviders/21st-dev/servers/magic-mcp",
+          "xid": "/mcpproviders/21st-dev/servers/magic-mcp",
+
+          "metaurl": "#/mcpproviders/21st-dev/servers/magic-mcp/meta",
+          "meta": {
+            "serverid": "magic-mcp",
+            "self": "#/mcpproviders/21st-dev/servers/magic-mcp/meta",
+            "xid": "/mcpproviders/21st-dev/servers/magic-mcp/meta",
+            "epoch": 1,
+            "createdat": "2025-05-26T10:14:44.084052782Z",
+            "modifiedat": "2025-05-26T10:14:44.084052782Z",
+            "readonly": false,
+            "compatibility": "none",
+
+            "defaultversionid": "1",
+            "defaultversionurl": "#/mcpproviders/21st-dev/servers/magic-mcp/versions/1",
+            "defaultversionsticky": false
+          },
+          "versionsurl": "#/mcpproviders/21st-dev/servers/magic-mcp/versions",
+          "versions": {
+            "1": {
+              "serverid": "magic-mcp",
+              "versionid": "1",
+              "self": "#/mcpproviders/21st-dev/servers/magic-mcp/versions/1",
+              "xid": "/mcpproviders/21st-dev/servers/magic-mcp/versions/1",
+              "epoch": 1,
+              "name": "io.github.21st-dev/magic-mcp",
+              "isdefault": true,
+              "description": "It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic",
+              "createdat": "2025-05-26T10:14:44.084052782Z",
+              "modifiedat": "2025-05-26T10:14:44.084052782Z",
+              "ancestor": "1",
+              "id": "4e9cf4cf-71f6-4aca-bae8-2d10a29ca2e0",
+              "packages": [
+                {
+                  "environment_variables": [
+                    {
+                      "description": "${input:apiKey}",
+                      "name": "API_KEY"
+                    }
+                  ],
+                  "name": "@21st-dev/magic",
+                  "registry_name": "npm",
+                  "version": "0.0.46"
+                }
+              ],
+              "prompts": [],
+              "repository": {
+                "id": "935450522",
+                "source": "github",
+                "url": "https://github.com/21st-dev/magic-mcp"
+              },
+              "resources": [],
+              "tools": [
+                {
+                  "name": "CreateUiTool"
+                },
+                {
+                  "name": "LogoSearchTool"
+                },
+                {
+                  "name": "FetchUiTool"
+                },
+                {
+                  "name": "RefineUiTool"
+                }
+              ],
+              "version_detail": {
+                "is_latest": true,
+                "release_date": "2025-05-16T18:56:49Z",
+                "version": "0.0.1-seed"
+              }
+            }
+          },
+          "versionscount": 1
+        }
+      },
+      "serverscount": 1
+    }
+  },
+  "mcpproviderscount": 2
 }

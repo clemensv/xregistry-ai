@@ -634,8 +634,7 @@
             },
             "name": {
               "name": "name",
-              "type": "string",
-              "description": "Unique reverse-DNS identifier of the repository."
+              "type": "string"
             },
             "isdefault": {
               "name": "isdefault",
@@ -646,8 +645,7 @@
             },
             "description": {
               "name": "description",
-              "type": "string",
-              "description": "Repository or server overview."
+              "type": "string"
             },
             "documentation": {
               "name": "documentation",
@@ -679,131 +677,300 @@
               "name": "contenttype",
               "type": "string"
             },
-            "prompts": {
-              "name": "prompts",
+            "id": {
+              "name": "id",
+              "type": "string"
+            },
+            "packages": {
+              "name": "packages",
               "type": "array",
-              "description": "Static prompt templates bundled with this server.",
               "item": {
                 "type": "object",
                 "attributes": {
-                  "arguments": {
-                    "name": "arguments",
+                  "environment_variables": {
+                    "name": "environment_variables",
                     "type": "array",
                     "item": {
                       "type": "object",
                       "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string"
+                        },
                         "description": {
                           "name": "description",
                           "type": "string"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean"
                         },
                         "name": {
                           "name": "name",
                           "type": "string"
                         },
-                        "required": {
-                          "name": "required",
-                          "type": "boolean"
+                        "properties": {
+                          "name": "properties",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string"
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string"
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any"
                         }
                       }
                     }
                   },
-                  "description": {
-                    "name": "description",
-                    "type": "string"
-                  },
                   "name": {
                     "name": "name",
                     "type": "string"
+                  },
+                  "package_arguments": {
+                    "name": "package_arguments",
+                    "type": "array",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string"
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string"
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any"
+                        }
+                      }
+                    }
+                  },
+                  "registry_name": {
+                    "name": "registry_name",
+                    "type": "string"
+                  },
+                  "runtime_arguments": {
+                    "name": "runtime_arguments",
+                    "type": "array",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string"
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string"
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any"
+                        }
+                      }
+                    }
+                  },
+                  "runtime_hint": {
+                    "name": "runtime_hint",
+                    "type": "string"
+                  },
+                  "version": {
+                    "name": "version",
+                    "type": "string"
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any"
                   }
                 }
               }
             },
-            "registries": {
-              "name": "registries",
+            "prompts": {
+              "name": "prompts",
               "type": "array",
-              "description": "Package registry metadata blocks.",
               "item": {
                 "type": "object",
                 "attributes": {
-                  "command_arguments": {
-                    "name": "command_arguments",
-                    "type": "object",
-                    "attributes": {
-                      "environment_variables": {
-                        "name": "environment_variables",
-                        "type": "array",
-                        "item": {
-                          "type": "object",
-                          "attributes": {
-                            "description": {
-                              "name": "description",
-                              "type": "string"
-                            },
-                            "name": {
-                              "name": "name",
-                              "type": "string"
-                            },
-                            "required": {
-                              "name": "required",
-                              "type": "boolean"
-                            }
-                          }
-                        }
-                      },
-                      "named_arguments": {
-                        "name": "named_arguments",
-                        "type": "array",
-                        "item": {
-                          "type": "string"
-                        }
-                      },
-                      "positional_arguments": {
-                        "name": "positional_arguments",
-                        "type": "array",
-                        "item": {
-                          "type": "string"
-                        }
-                      },
-                      "sub_commands": {
-                        "name": "sub_commands",
-                        "type": "array",
-                        "item": {
-                          "type": "object",
-                          "attributes": {
-                            "description": {
-                              "name": "description",
-                              "type": "string"
-                            },
-                            "name": {
-                              "name": "name",
-                              "type": "string"
-                            },
-                            "named_arguments": {
-                              "name": "named_arguments",
-                              "type": "array",
-                              "item": {
-                                "type": "string"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "license": {
-                    "name": "license",
-                    "type": "string",
-                    "description": "License of the package."
-                  },
-                  "name": {
-                    "name": "name",
-                    "type": "string",
-                    "description": "Name of the registry."
-                  },
-                  "package_name": {
-                    "name": "package_name",
-                    "type": "string",
-                    "description": "Name of the package."
+                  "*": {
+                    "name": "*",
+                    "type": "any"
                   }
                 }
               }
@@ -811,50 +978,113 @@
             "remotes": {
               "name": "remotes",
               "type": "array",
-              "description": "Source‑code hosting locations.",
               "item": {
                 "type": "object",
                 "attributes": {
-                  "transporttype": {
-                    "name": "transporttype",
-                    "type": "string",
-                    "description": "Transport type of the remote."
+                  "headers": {
+                    "name": "headers",
+                    "type": "array",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "object",
+                          "attributes": {
+                            "*": {
+                              "name": "*",
+                              "type": "any"
+                            }
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string"
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any"
+                        }
+                      }
+                    }
+                  },
+                  "transport_type": {
+                    "name": "transport_type",
+                    "type": "string"
                   },
                   "url": {
                     "name": "url",
-                    "type": "url",
-                    "description": "URL of the remote."
+                    "type": "string"
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any"
                   }
                 }
               }
             },
-            "repo_ref": {
-              "name": "repo_ref",
-              "type": "string",
-              "description": "Repository reference for the server."
+            "repository": {
+              "name": "repository",
+              "type": "object",
+              "attributes": {
+                "id": {
+                  "name": "id",
+                  "type": "string"
+                },
+                "source": {
+                  "name": "source",
+                  "type": "string"
+                },
+                "url": {
+                  "name": "url",
+                  "type": "string"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any"
+                }
+              }
             },
             "resources": {
               "name": "resources",
               "type": "array",
-              "description": "Data resources the server can expose or subscribe to.",
               "item": {
                 "type": "object",
                 "attributes": {
-                  "description": {
-                    "name": "description",
-                    "type": "string"
-                  },
-                  "mimetype": {
-                    "name": "mimetype",
-                    "type": "string"
-                  },
-                  "name": {
-                    "name": "name",
-                    "type": "string"
-                  },
-                  "uritemplate": {
-                    "name": "uritemplate",
-                    "type": "uritemplate"
+                  "*": {
+                    "name": "*",
+                    "type": "any"
                   }
                 }
               }
@@ -862,21 +1092,12 @@
             "tools": {
               "name": "tools",
               "type": "array",
-              "description": "Tool definitions invocable via the MCP runtime.",
               "item": {
                 "type": "object",
                 "attributes": {
-                  "description": {
-                    "name": "description",
-                    "type": "string"
-                  },
-                  "inputschema": {
-                    "name": "inputschema",
+                  "*": {
+                    "name": "*",
                     "type": "any"
-                  },
-                  "name": {
-                    "name": "name",
-                    "type": "string"
                   }
                 }
               }
@@ -884,14 +1105,28 @@
             "version_detail": {
               "name": "version_detail",
               "type": "object",
-              "description": "Version detail for the server.",
               "attributes": {
+                "is_latest": {
+                  "name": "is_latest",
+                  "type": "boolean"
+                },
+                "release_date": {
+                  "name": "release_date",
+                  "type": "string"
+                },
                 "version": {
                   "name": "version",
-                  "type": "string",
-                  "description": "Semantic version number detail."
+                  "type": "string"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any"
                 }
               }
+            },
+            "*": {
+              "name": "*",
+              "type": "any"
             },
             "metaurl": {
               "name": "metaurl",

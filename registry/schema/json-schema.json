@@ -117,8 +117,7 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string",
-          "description": "Unique reverse-DNS identifier of the repository."
+          "type": "string"
         },
         "epoch": {
           "type": "integer",
@@ -135,8 +134,7 @@
           "description": "Relative URL of the object"
         },
         "description": {
-          "type": "string",
-          "description": "Repository or server overview."
+          "type": "string"
         },
         "documentation": {
           "type": "string",
@@ -161,83 +159,214 @@
           "type": "string",
           "description": "ID of the servers object"
         },
-        "version_detail": {
+        "id": {
+          "type": "string"
+        },
+        "repository": {
           "type": "object",
-          "description": "Version detail for the server.",
           "properties": {
-            "version": {
-              "type": "string",
-              "description": "Semantic version number detail."
+            "url": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
             }
           }
         },
-        "registries": {
+        "version_detail": {
+          "type": "object",
+          "properties": {
+            "version": {
+              "type": "string"
+            },
+            "release_date": {
+              "type": "string"
+            },
+            "is_latest": {
+              "type": "boolean"
+            }
+          }
+        },
+        "packages": {
           "type": "array",
-          "description": "Package registry metadata blocks.",
           "items": {
             "type": "object",
             "properties": {
+              "registry_name": {
+                "type": "string"
+              },
               "name": {
-                "type": "string",
-                "description": "Name of the registry."
+                "type": "string"
               },
-              "package_name": {
-                "type": "string",
-                "description": "Name of the package."
+              "version": {
+                "type": "string"
               },
-              "license": {
-                "type": "string",
-                "description": "License of the package."
+              "runtime_hint": {
+                "type": "string"
               },
-              "command_arguments": {
-                "type": "object",
-                "properties": {
-                  "sub_commands": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "name": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string"
-                        },
-                        "named_arguments": {
-                          "type": "array",
-                          "items": {
-                            "type": "string"
-                          }
-                        }
+              "runtime_arguments": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "is_required": {
+                      "type": "boolean"
+                    },
+                    "format": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "is_secret": {
+                      "type": "boolean"
+                    },
+                    "default": {
+                      "type": "string"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
                       }
-                    }
-                  },
-                  "positional_arguments": {
-                    "type": "array",
-                    "items": {
+                    },
+                    "template": {
+                      "type": "string"
+                    },
+                    "properties": {
+                      "type": "object",
+                      "properties": {}
+                    },
+                    "variables": {
+                      "type": "object",
+                      "properties": {}
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "is_repeated": {
+                      "type": "boolean"
+                    },
+                    "value_hint": {
                       "type": "string"
                     }
-                  },
-                  "environment_variables": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "name": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string"
-                        },
-                        "required": {
-                          "type": "boolean"
-                        }
+                  }
+                }
+              },
+              "package_arguments": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "is_required": {
+                      "type": "boolean"
+                    },
+                    "format": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "is_secret": {
+                      "type": "boolean"
+                    },
+                    "default": {
+                      "type": "string"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
                       }
+                    },
+                    "template": {
+                      "type": "string"
+                    },
+                    "properties": {
+                      "type": "object",
+                      "properties": {}
+                    },
+                    "variables": {
+                      "type": "object",
+                      "properties": {}
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "is_repeated": {
+                      "type": "boolean"
+                    },
+                    "value_hint": {
+                      "type": "string"
                     }
-                  },
-                  "named_arguments": {
-                    "type": "array",
-                    "items": {
+                  }
+                }
+              },
+              "environment_variables": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "is_required": {
+                      "type": "boolean"
+                    },
+                    "format": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "is_secret": {
+                      "type": "boolean"
+                    },
+                    "default": {
+                      "type": "string"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "template": {
+                      "type": "string"
+                    },
+                    "properties": {
+                      "type": "object",
+                      "properties": {}
+                    },
+                    "variables": {
+                      "type": "object",
+                      "properties": {}
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "is_repeated": {
+                      "type": "boolean"
+                    },
+                    "value_hint": {
                       "type": "string"
                     }
                   }
@@ -246,102 +375,83 @@
             }
           }
         },
-        "repo_ref": {
-          "type": "string",
-          "description": "Repository reference for the server."
-        },
         "remotes": {
           "type": "array",
-          "description": "Source\u2011code hosting locations.",
           "items": {
             "type": "object",
             "properties": {
-              "transporttype": {
-                "type": "string",
-                "description": "Transport type of the remote."
+              "transport_type": {
+                "type": "string"
               },
               "url": {
-                "type": "string",
-                "format": "uri",
-                "description": "URL of the remote."
+                "type": "string"
+              },
+              "headers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "is_required": {
+                      "type": "boolean"
+                    },
+                    "format": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "is_secret": {
+                      "type": "boolean"
+                    },
+                    "default": {
+                      "type": "string"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "template": {
+                      "type": "string"
+                    },
+                    "properties": {
+                      "type": "object",
+                      "properties": {}
+                    }
+                  }
+                }
               }
             }
           }
         },
         "prompts": {
           "type": "array",
-          "description": "Static prompt templates bundled with this server.",
           "items": {
             "type": "object",
-            "properties": {
-              "name": {
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              },
-              "arguments": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "name": {
-                      "type": "string"
-                    },
-                    "description": {
-                      "type": "string"
-                    },
-                    "required": {
-                      "type": "boolean"
-                    }
-                  }
-                }
-              }
-            }
+            "properties": {}
           }
         },
         "tools": {
           "type": "array",
-          "description": "Tool definitions invocable via the MCP runtime.",
           "items": {
             "type": "object",
-            "properties": {
-              "name": {
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              },
-              "inputschema": {
-                "type": "object"
-              }
-            }
+            "properties": {}
           }
         },
         "resources": {
           "type": "array",
-          "description": "Data resources the server can expose or subscribe to.",
           "items": {
             "type": "object",
-            "properties": {
-              "uritemplate": {
-                "type": "string",
-                "format": "uri-template"
-              },
-              "name": {
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              },
-              "mimetype": {
-                "type": "string"
-              }
-            }
+            "properties": {}
           }
         }
       },
-      "required": []
+      "required": [],
+      "additionalProperties": true
     },
     "McpproviderType": {
       "type": "object",

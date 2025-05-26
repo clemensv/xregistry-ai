@@ -1,37 +1,32 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:25.239630364Z",
-  "description": "Magic Component Platform (MCP) is a powerful AI-driven tool that helps developers create beautiful, modern UI components instantly through natural language descriptions. It integrates seamlessly with popular IDEs and provides a streamlined workflow for UI development.",
+  "createdat": "2025-05-26T10:14:44.084052782Z",
+  "description": "It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic",
   "epoch": 1,
+  "id": "4e9cf4cf-71f6-4aca-bae8-2d10a29ca2e0",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/21st-dev/servers/magic-mcp/meta",
-  "modifiedat": "2025-05-26T08:16:25.239630364Z",
+  "modifiedat": "2025-05-26T10:14:44.084052782Z",
   "name": "io.github.21st-dev/magic-mcp",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for authentication",
-            "name": "API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@21st-dev/magic@latest",
-          "API_KEY=\"your-api-key\""
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@21st-dev/magic"
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ],
+      "name": "@21st-dev/magic",
+      "registry_name": "npm",
+      "version": "0.0.46"
     }
   ],
-  "remotes": [],
-  "repo_ref": "21st-dev/magic-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "935450522",
+    "source": "github",
+    "url": "https://github.com/21st-dev/magic-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/21st-dev/servers/magic-mcp",
   "serverid": "magic-mcp",
@@ -50,7 +45,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.46"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:56:49Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,
