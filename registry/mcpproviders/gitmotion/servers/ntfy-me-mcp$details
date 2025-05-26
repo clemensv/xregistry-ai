@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:26.047264142Z",
+  "createdat": "2025-05-26T13:58:33.323995247Z",
   "description": "An ntfy MCP server for sending/fetching ntfy notifications to any/self-hosted ntfy.sh server from AI Agents 📤 (supports secure token auth \u0026 more - use with npx or docker!)",
   "epoch": 1,
   "id": "ba368d1c-d64d-4ecd-9bde-72304d69c4d1",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/gitmotion/servers/ntfy-me-mcp/meta",
-  "modifiedat": "2025-05-26T12:59:26.047264142Z",
+  "modifiedat": "2025-05-26T13:58:33.323995247Z",
   "name": "io.github.gitmotion/ntfy-me-mcp",
   "packages": [
     {

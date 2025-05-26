@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:23.180090766Z",
+  "createdat": "2025-05-26T13:58:30.480339223Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/fireproof-storage/servers/mcp-database-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:23.180090766Z",
+  "modifiedat": "2025-05-26T13:58:30.480339223Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/fireproof-storage/servers/mcp-database-server/meta",
   "serverid": "mcp-database-server",

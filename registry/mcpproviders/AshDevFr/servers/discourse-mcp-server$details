@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:28.79293941Z",
+  "createdat": "2025-05-26T13:58:36.024445502Z",
   "description": "",
   "epoch": 1,
   "id": "dedc68af-03ef-49ce-a331-e4717b96f693",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AshDevFr/servers/discourse-mcp-server/meta",
-  "modifiedat": "2025-05-26T12:59:28.79293941Z",
+  "modifiedat": "2025-05-26T13:58:36.024445502Z",
   "name": "io.github.ashdevfr/discourse-mcp-server",
   "packages": [
     {

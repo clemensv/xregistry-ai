@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:41.765334348Z",
+  "createdat": "2025-05-26T13:58:48.863716905Z",
   "description": "",
   "epoch": 1,
   "id": "98b8992b-77cc-43a5-825e-d14270fd9ca5",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ahujasid/servers/ableton-mcp/meta",
-  "modifiedat": "2025-05-26T12:59:41.765334348Z",
+  "modifiedat": "2025-05-26T13:58:48.863716905Z",
   "name": "io.github.ahujasid/ableton-mcp",
   "packages": [
     {

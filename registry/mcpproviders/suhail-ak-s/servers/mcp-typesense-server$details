@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:25.180806857Z",
+  "createdat": "2025-05-26T13:59:32.510525863Z",
   "description": "",
   "epoch": 1,
   "id": "a038d159-c51e-49ef-aa02-c794e8a5cb94",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/suhail-ak-s/servers/mcp-typesense-server/meta",
-  "modifiedat": "2025-05-26T13:00:25.180806857Z",
+  "modifiedat": "2025-05-26T13:59:32.510525863Z",
   "name": "io.github.suhail-ak-s/mcp-typesense-server",
   "packages": [
     {

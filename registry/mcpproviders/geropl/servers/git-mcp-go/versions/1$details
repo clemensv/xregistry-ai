@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:28.127273351Z",
+  "createdat": "2025-05-26T13:59:35.345881067Z",
   "description": "Git MCP based on mcp-go",
   "epoch": 1,
   "id": "6026be39-cc97-4ace-b557-a97aeddbbd60",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:28.127273351Z",
+  "modifiedat": "2025-05-26T13:59:35.345881067Z",
   "name": "io.github.geropl/git-mcp-go",
   "packages": [
     {

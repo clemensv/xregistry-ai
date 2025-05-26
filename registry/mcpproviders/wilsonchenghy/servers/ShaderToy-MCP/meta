@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:53.675918169Z",
+  "createdat": "2025-05-26T13:59:01.47522848Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wilsonchenghy/servers/ShaderToy-MCP/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:53.675918169Z",
+  "modifiedat": "2025-05-26T13:59:01.47522848Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wilsonchenghy/servers/ShaderToy-MCP/meta",
   "serverid": "ShaderToy-MCP",

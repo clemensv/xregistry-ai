@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:28.916898744Z",
+  "createdat": "2025-05-26T13:58:36.147431809Z",
   "description": "A MCP server implementation for hyperbrowser",
   "epoch": 1,
   "id": "feb2b365-5fab-461e-a8d3-89e9349ee743",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:28.916898744Z",
+  "modifiedat": "2025-05-26T13:58:36.147431809Z",
   "name": "io.github.hyperbrowserai/mcp",
   "packages": [
     {

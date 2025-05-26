@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:07.031299636Z",
+  "createdat": "2025-05-26T13:59:14.711397962Z",
   "description": "Go server implementing Model Context Protocol (MCP) for filesystem operations.",
   "epoch": 1,
   "id": "93c84b33-4392-41b2-85be-764e5f39da74",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mark3labs/servers/mcp-filesystem-server/meta",
-  "modifiedat": "2025-05-26T13:00:07.031299636Z",
+  "modifiedat": "2025-05-26T13:59:14.711397962Z",
   "name": "io.github.mark3labs/mcp-filesystem-server",
   "packages": [
     {

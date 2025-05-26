@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:39.337315326Z",
+  "createdat": "2025-05-26T13:58:46.452225236Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:39.337315326Z",
+  "modifiedat": "2025-05-26T13:58:46.452225236Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/meta",
   "serverid": "scrapling-fetch-mcp",

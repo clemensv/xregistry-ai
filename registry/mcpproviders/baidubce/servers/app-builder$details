@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:19.400958912Z",
+  "createdat": "2025-05-26T13:59:26.961266914Z",
   "description": "appbuilder-sdk, 千帆AppBuilder-SDK帮助开发者灵活、快速的搭建AI原生应用",
   "epoch": 1,
   "id": "b7e8b7c6-548b-49a7-9001-2bf1733ca539",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baidubce/servers/app-builder/meta",
-  "modifiedat": "2025-05-26T13:00:19.400958912Z",
+  "modifiedat": "2025-05-26T13:59:26.961266914Z",
   "name": "io.github.baidubce/app-builder",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:33.627555937Z",
+  "createdat": "2025-05-26T13:59:40.656699902Z",
   "description": "mcp-neo4j-server",
   "epoch": 1,
   "id": "b4c38c39-7381-49fa-b7b4-75e2604ed93d",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:33.627555937Z",
+  "modifiedat": "2025-05-26T13:59:40.656699902Z",
   "name": "io.github.da-okazaki/mcp-neo4j-server",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:31.775298706Z",
+  "createdat": "2025-05-26T13:58:38.977524665Z",
   "description": "An MCP server enabling CFBD API queries within Claude Desktop.",
   "epoch": 1,
   "id": "9fcb3e74-e8af-4b55-9bfc-808fa2560148",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lenwood/servers/cfbd-mcp-server/meta",
-  "modifiedat": "2025-05-26T12:59:31.775298706Z",
+  "modifiedat": "2025-05-26T13:58:38.977524665Z",
   "name": "io.github.lenwood/cfbd-mcp-server",
   "packages": [
     {

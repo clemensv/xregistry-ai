@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:00:20.637738148Z",
+  "createdat": "2025-05-26T13:59:28.113469126Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:00:20.637738148Z",
+  "modifiedat": "2025-05-26T13:59:28.113469126Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/meta",
   "serverid": "alibabacloud-adb-mysql-mcp-server",

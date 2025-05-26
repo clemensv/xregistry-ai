@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:36.176098062Z",
+  "createdat": "2025-05-26T13:58:43.346495999Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cloudflare/servers/mcp-server-cloudflare/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:36.176098062Z",
+  "modifiedat": "2025-05-26T13:58:43.346495999Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cloudflare/servers/mcp-server-cloudflare/meta",
   "serverid": "mcp-server-cloudflare",

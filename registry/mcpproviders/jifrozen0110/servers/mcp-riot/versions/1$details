@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:25.734494541Z",
+  "createdat": "2025-05-26T13:59:33.047124672Z",
   "description": "League of Legends MCP Server",
   "epoch": 1,
   "id": "87e2c1e7-4fdb-436f-b52c-af683f63fb1b",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:25.734494541Z",
+  "modifiedat": "2025-05-26T13:59:33.047124672Z",
   "name": "io.github.jifrozen0110/mcp-riot",
   "packages": [
     {

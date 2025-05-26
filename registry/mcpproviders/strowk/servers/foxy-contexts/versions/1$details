@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:18.28395625Z",
+  "createdat": "2025-05-26T13:58:25.667262271Z",
   "description": "Foxy contexts is a library for building context servers supporting Model Context Protocol",
   "epoch": 1,
   "id": "499f5fa7-c91e-4dac-bf51-9f075eaa2769",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:18.28395625Z",
+  "modifiedat": "2025-05-26T13:58:25.667262271Z",
   "name": "io.github.strowk/foxy-contexts",
   "packages": [
     {

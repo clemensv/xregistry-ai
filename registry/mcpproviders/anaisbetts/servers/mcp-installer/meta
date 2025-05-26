@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:22.638131622Z",
+  "createdat": "2025-05-26T13:58:29.940548954Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anaisbetts/servers/mcp-installer/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:22.638131622Z",
+  "modifiedat": "2025-05-26T13:58:29.940548954Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anaisbetts/servers/mcp-installer/meta",
   "serverid": "mcp-installer",

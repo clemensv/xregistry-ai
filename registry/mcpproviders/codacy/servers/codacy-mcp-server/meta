@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:46.848596405Z",
+  "createdat": "2025-05-26T13:58:54.75497057Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/codacy/servers/codacy-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:46.848596405Z",
+  "modifiedat": "2025-05-26T13:58:54.75497057Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/codacy/servers/codacy-mcp-server/meta",
   "serverid": "codacy-mcp-server",

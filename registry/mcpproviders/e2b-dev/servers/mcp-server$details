@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:49.346151136Z",
+  "createdat": "2025-05-26T13:58:57.209008826Z",
   "description": "Giving Claude ability to run code with E2B via MCP (Model Context Protocol)",
   "epoch": 1,
   "id": "1f25c28f-9afe-4f34-9e29-d18aab507255",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/e2b-dev/servers/mcp-server/meta",
-  "modifiedat": "2025-05-26T12:59:49.346151136Z",
+  "modifiedat": "2025-05-26T13:58:57.209008826Z",
   "name": "io.github.e2b-dev/mcp-server",
   "packages": [
     {

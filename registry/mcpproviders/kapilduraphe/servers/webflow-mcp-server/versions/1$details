@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:24.73912004Z",
+  "createdat": "2025-05-26T13:58:32.016627867Z",
   "description": "Webflow MCP server",
   "epoch": 1,
   "id": "c7876b07-1fe3-4006-a104-93ef9f9e1669",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:24.73912004Z",
+  "modifiedat": "2025-05-26T13:58:32.016627867Z",
   "name": "io.github.kapilduraphe/webflow-mcp-server",
   "packages": [
     {

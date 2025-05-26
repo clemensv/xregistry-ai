@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:31.628164333Z",
+  "createdat": "2025-05-26T13:58:38.83444753Z",
   "description": "MCP Server for ServiceNow",
   "epoch": 1,
   "id": "3f9a95e0-3a22-4ff8-8c92-60d89d847f5c",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:31.628164333Z",
+  "modifiedat": "2025-05-26T13:58:38.83444753Z",
   "name": "io.github.osomai/servicenow-mcp",
   "packages": [
     {

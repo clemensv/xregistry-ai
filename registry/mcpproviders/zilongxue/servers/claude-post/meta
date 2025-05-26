@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:22.056176205Z",
+  "createdat": "2025-05-26T13:58:29.366305199Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilongxue/servers/claude-post/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:22.056176205Z",
+  "modifiedat": "2025-05-26T13:58:29.366305199Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilongxue/servers/claude-post/meta",
   "serverid": "claude-post",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:01.669911055Z",
+  "createdat": "2025-05-26T13:59:09.448547211Z",
   "description": "A Model Context Protocol (MCP) server that provides JSON-RPC functionality through OpenRPC.",
   "epoch": 1,
   "id": "9c804dd3-4283-4a5b-a34e-6f1c7065b671",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:01.669911055Z",
+  "modifiedat": "2025-05-26T13:59:09.448547211Z",
   "name": "io.github.shanejonas/openrpc-mpc-server",
   "packages": [
     {

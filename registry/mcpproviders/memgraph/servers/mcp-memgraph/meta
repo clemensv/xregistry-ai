@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:00:10.125292272Z",
+  "createdat": "2025-05-26T13:59:17.809145949Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/memgraph/servers/mcp-memgraph/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:00:10.125292272Z",
+  "modifiedat": "2025-05-26T13:59:17.809145949Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/memgraph/servers/mcp-memgraph/meta",
   "serverid": "mcp-memgraph",

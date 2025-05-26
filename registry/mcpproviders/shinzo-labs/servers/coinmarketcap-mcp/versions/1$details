@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:16.527547977Z",
+  "createdat": "2025-05-26T13:58:24.003402621Z",
   "description": "MCP Implementation for CoinMarketCap",
   "epoch": 1,
   "id": "7e3a17ce-fbbd-48cb-b29f-34a4b8c6ca55",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:16.527547977Z",
+  "modifiedat": "2025-05-26T13:58:24.003402621Z",
   "name": "io.github.shinzo-labs/coinmarketcap-mcp",
   "packages": [
     {

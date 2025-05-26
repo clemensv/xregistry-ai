@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:34.375523827Z",
+  "createdat": "2025-05-26T13:59:41.383801711Z",
   "description": "A model context protocol server to work with JetBrains IDEs: IntelliJ, PyCharm, WebStorm, etc. Also, works with Android Studio",
   "epoch": 1,
   "id": "a51c6dec-56ed-403e-831b-fa5f155f8696",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:34.375523827Z",
+  "modifiedat": "2025-05-26T13:59:41.383801711Z",
   "name": "io.github.jetbrains/mcp-jetbrains",
   "packages": [
     {

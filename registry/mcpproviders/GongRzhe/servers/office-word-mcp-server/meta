@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:17.534012096Z",
+  "createdat": "2025-05-26T13:58:24.964741672Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/office-word-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:17.534012096Z",
+  "modifiedat": "2025-05-26T13:58:24.964741672Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/office-word-mcp-server/meta",
   "serverid": "office-word-mcp-server",

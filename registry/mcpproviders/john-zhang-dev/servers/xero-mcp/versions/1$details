@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:36.433618808Z",
+  "createdat": "2025-05-26T13:58:43.610264881Z",
   "description": "A Model Context Protocol server allows Clients to interact with Xero",
   "epoch": 1,
   "id": "aeca0d6b-ed78-4634-a29a-6d08f71de2b6",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:36.433618808Z",
+  "modifiedat": "2025-05-26T13:58:43.610264881Z",
   "name": "io.github.john-zhang-dev/xero-mcp",
   "packages": [
     {

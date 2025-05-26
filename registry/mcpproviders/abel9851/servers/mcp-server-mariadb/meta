@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:00:00.698551578Z",
+  "createdat": "2025-05-26T13:59:08.483942352Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/abel9851/servers/mcp-server-mariadb/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:00:00.698551578Z",
+  "modifiedat": "2025-05-26T13:59:08.483942352Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/abel9851/servers/mcp-server-mariadb/meta",
   "serverid": "mcp-server-mariadb",

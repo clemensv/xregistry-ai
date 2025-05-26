@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:22.465095822Z",
+  "createdat": "2025-05-26T13:58:29.762521417Z",
   "description": " A nomad MCP Server (modelcontextprotocol) ",
   "epoch": 1,
   "id": "6ebc1c16-ea8d-44eb-958c-74f3f0531058",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:22.465095822Z",
+  "modifiedat": "2025-05-26T13:58:29.762521417Z",
   "name": "io.github.kocierik/mcp-nomad",
   "packages": [
     {

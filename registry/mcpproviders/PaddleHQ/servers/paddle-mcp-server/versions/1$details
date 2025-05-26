@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:36.019104235Z",
+  "createdat": "2025-05-26T13:58:43.188374892Z",
   "description": "Interact with the Paddle API using AI assistants like Claude, or in AI-powered IDEs like Cursor. Manage product catalog, billing and subscriptions, and reports.",
   "epoch": 1,
   "id": "be79836b-8a99-4e4e-9487-c81c02833f4a",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:36.019104235Z",
+  "modifiedat": "2025-05-26T13:58:43.188374892Z",
   "name": "io.github.paddlehq/paddle-mcp-server",
   "packages": [
     {

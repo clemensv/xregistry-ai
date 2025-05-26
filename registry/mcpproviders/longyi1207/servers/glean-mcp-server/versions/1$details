@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:22.241515219Z",
+  "createdat": "2025-05-26T13:59:29.658516592Z",
   "description": "",
   "epoch": 1,
   "id": "39d0e161-edcd-4ad5-bdc6-9c3d29908ed4",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:22.241515219Z",
+  "modifiedat": "2025-05-26T13:59:29.658516592Z",
   "name": "io.github.longyi1207/glean-mcp-server",
   "packages": [
     {

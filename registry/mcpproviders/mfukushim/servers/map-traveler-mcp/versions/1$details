@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:32.774187277Z",
+  "createdat": "2025-05-26T13:59:39.84333117Z",
   "description": "Virtual traveler library for MCP",
   "epoch": 1,
   "id": "8b5bb45d-a025-4e7b-a185-dbb5e349af32",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:32.774187277Z",
+  "modifiedat": "2025-05-26T13:59:39.84333117Z",
   "name": "io.github.mfukushim/map-traveler-mcp",
   "packages": [
     {

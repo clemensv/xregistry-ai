@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:36.598547236Z",
+  "createdat": "2025-05-26T13:58:43.77121822Z",
   "description": "",
   "epoch": 1,
   "id": "add3f73d-394b-4b99-b255-8d9d89db84c2",
   "isdefault": true,
-  "modifiedat": "2025-05-26T12:59:36.598547236Z",
+  "modifiedat": "2025-05-26T13:58:43.77121822Z",
   "name": "io.github.rishabkoul/iterm-mcp-server",
   "packages": [
     {

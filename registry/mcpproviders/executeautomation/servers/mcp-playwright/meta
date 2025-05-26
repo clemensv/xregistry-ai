@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:15.334499515Z",
+  "createdat": "2025-05-26T13:58:22.866823204Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/executeautomation/servers/mcp-playwright/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:15.334499515Z",
+  "modifiedat": "2025-05-26T13:58:22.866823204Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/executeautomation/servers/mcp-playwright/meta",
   "serverid": "mcp-playwright",

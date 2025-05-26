@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:21.001494002Z",
+  "createdat": "2025-05-26T13:58:28.341122749Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Verodat/servers/verodat-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:21.001494002Z",
+  "modifiedat": "2025-05-26T13:58:28.341122749Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Verodat/servers/verodat-mcp-server/meta",
   "serverid": "verodat-mcp-server",

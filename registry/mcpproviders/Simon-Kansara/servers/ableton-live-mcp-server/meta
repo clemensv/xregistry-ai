@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:00:13.269153309Z",
+  "createdat": "2025-05-26T13:59:20.919558715Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:00:13.269153309Z",
+  "modifiedat": "2025-05-26T13:59:20.919558715Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/meta",
   "serverid": "ableton-live-mcp-server",

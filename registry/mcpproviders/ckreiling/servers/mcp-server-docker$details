@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T12:59:22.155729736Z",
+  "createdat": "2025-05-26T13:58:29.464958963Z",
   "description": "MCP server for Docker",
   "epoch": 1,
   "id": "d2aacd5b-0642-4832-8629-58272a922e4b",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ckreiling/servers/mcp-server-docker/meta",
-  "modifiedat": "2025-05-26T12:59:22.155729736Z",
+  "modifiedat": "2025-05-26T13:58:29.464958963Z",
   "name": "io.github.ckreiling/mcp-server-docker",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:00:14.1782463Z",
+  "createdat": "2025-05-26T13:59:21.792062554Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/azure/servers/azure-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:00:14.1782463Z",
+  "modifiedat": "2025-05-26T13:59:21.792062554Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/azure/servers/azure-mcp/meta",
   "serverid": "azure-mcp",

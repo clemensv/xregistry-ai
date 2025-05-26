@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:00:16.888276632Z",
+  "createdat": "2025-05-26T13:59:24.454264625Z",
   "description": "✨ JMeter Meets AI Workflows: Introducing the JMeter MCP Server! 🤯 ",
   "epoch": 1,
   "id": "d0f30dc9-bc11-43f8-9b61-034e2bec78d5",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:00:16.888276632Z",
+  "modifiedat": "2025-05-26T13:59:24.454264625Z",
   "name": "io.github.qainsights/jmeter-mcp-server",
   "packages": [
     {

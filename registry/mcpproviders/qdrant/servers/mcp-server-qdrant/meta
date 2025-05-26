@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:39.996295731Z",
+  "createdat": "2025-05-26T13:58:47.112465762Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/qdrant/servers/mcp-server-qdrant/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:39.996295731Z",
+  "modifiedat": "2025-05-26T13:58:47.112465762Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/qdrant/servers/mcp-server-qdrant/meta",
   "serverid": "mcp-server-qdrant",

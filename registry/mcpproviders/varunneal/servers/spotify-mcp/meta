@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:00:24.188173109Z",
+  "createdat": "2025-05-26T13:59:31.538800169Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/varunneal/servers/spotify-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:00:24.188173109Z",
+  "modifiedat": "2025-05-26T13:59:31.538800169Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/varunneal/servers/spotify-mcp/meta",
   "serverid": "spotify-mcp",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T12:59:43.606369246Z",
+  "createdat": "2025-05-26T13:58:51.035880895Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GreptimeTeam/servers/greptimedb/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T12:59:43.606369246Z",
+  "modifiedat": "2025-05-26T13:58:51.035880895Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GreptimeTeam/servers/greptimedb/meta",
   "serverid": "greptimedb",
