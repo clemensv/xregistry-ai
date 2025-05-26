@@ -1,0 +1,22 @@
+{
+  "id": "b9bf1c69-4a64-47ec-a781-fb81d1922695",
+  "name": "io.github.agree-able/room-mcp",
+  "description": "Allow MCP clients like claude-desktop to use rooms to coordinate with other agents",
+  "repository": {
+    "url": "https://github.com/agree-able/room-mcp",
+    "source": "github",
+    "id": "939073414"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:03Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@agree-able/room-mcp",
+      "version": "1.0.3"
+    }
+  ]
+}

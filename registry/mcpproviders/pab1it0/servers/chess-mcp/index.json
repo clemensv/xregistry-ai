@@ -1,43 +1,45 @@
 {
-  "repo_ref": "pab1it0/chess-mcp",
+  "id": "12ca72e6-3bbf-4c79-94d5-91016543f8ca",
   "name": "io.github.pab1it0/chess-mcp",
-  "description": "A Model Context Protocol (MCP) server for Chess.com's Published Data API providing access to player data, game records, and other public information through standardized MCP interfaces.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A Model Context Protocol server for Chess.com's Published Data API.  This provides access to Chess.com player data, game records, and other public information through standardized MCP interfaces, allowing AI assistants to search and analyze chess information.",
+  "repository": {
+    "url": "https://github.com/pab1it0/chess-mcp",
+    "source": "github",
+    "id": "956967521"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:22Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "pab1it0/chess-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "--rm",
-          "-i",
-          "pab1it0/chess-mcp"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "uv",
-      "package_name": "chess-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "chess_mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "The directory to use for the operation",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory <full path to chess-mcp directory>",
+          "default": "--directory <full path to chess-mcp directory>",
+          "type": "named",
+          "name": "--directory <full path to chess-mcp directory>",
+          "value_hint": "<full path to chess-mcp directory>"
+        },
+        {
+          "description": "Script to run with python",
+          "is_required": true,
+          "format": "string",
+          "value": "run src/chess_mcp/main.py",
+          "default": "run src/chess_mcp/main.py",
+          "type": "positional",
+          "value_hint": "run src/chess_mcp/main.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_player_profile",
@@ -110,5 +112,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

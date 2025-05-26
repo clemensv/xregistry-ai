@@ -1,49 +1,72 @@
 {
-  "repo_ref": "aarora79/aws-cost-explorer-mcp-server",
+  "id": "9ddac40e-d776-4232-a00f-7e698eb2dca8",
   "name": "io.github.aarora79/aws-cost-explorer-mcp-server",
-  "description": "An MCP server for getting AWS spend data via Cost Explorer and Amazon Bedrock usage data via Model invocation logs in Amazon Cloud Watch through Anthropic's MCP (Model Control Protocol). It exposes AWS Cost Explorer API functionality to Claude Desktop, allowing natural language queries about AWS spend.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for understanding AWS spend",
+  "repository": {
+    "url": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
+    "source": "github",
+    "id": "945535318"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:28Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "https://<your-mcp-server-host>",
-      "transporttype": "https"
+      "registry_name": "pypi",
+      "name": "aws-cost-explorer-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Path to the directory.",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/aws-cost-explorer-mcp-server",
+          "default": "--directory /path/to/aws-cost-explorer-mcp-server",
+          "type": "named",
+          "name": "--directory /path/to/aws-cost-explorer-mcp-server",
+          "value_hint": "/path/to/aws-cost-explorer-mcp-server"
+        },
+        {
+          "description": "Python script to run.",
+          "is_required": true,
+          "format": "string",
+          "value": "server.py",
+          "default": "server.py",
+          "type": "positional",
+          "value_hint": "server.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_ACCESS_KEY_ID",
+          "name": "AWS_ACCESS_KEY_ID"
+        },
+        {
+          "description": "YOUR_SECRET_ACCESS_KEY",
+          "name": "AWS_SECRET_ACCESS_KEY"
+        },
+        {
+          "description": "us-east-1",
+          "name": "AWS_REGION"
+        },
+        {
+          "description": "YOUR_CLOUDWATCH_BEDROCK_MODEL_INVOCATION_LOG_GROUP_NAME",
+          "name": "BEDROCK_LOG_GROUP_NAME"
+        },
+        {
+          "description": "ROLE_NAME_FOR_THE_ROLE_TO_ASSUME_IN_OTHER_ACCOUNTS",
+          "name": "CROSS_ACCOUNT_ROLE_NAME"
+        },
+        {
+          "description": "stdio",
+          "name": "MCP_TRANSPORT"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "python",
-      "package_name": "aws-cost-explorer-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "venv",
-          "--python",
-          "3.12",
-          "&&",
-          "source",
-          ".venv/bin/activate",
-          "&&",
-          "uv",
-          "pip",
-          "install",
-          "--requirement",
-          "pyproject.toml"
-        ],
-        "environment_variables": [
-          {
-            "name": "AWS_CREDENTIALS",
-            "description": "AWS credentials with Cost Explorer access",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

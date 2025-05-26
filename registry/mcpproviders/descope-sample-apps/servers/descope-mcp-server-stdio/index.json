@@ -1,17 +1,21 @@
 {
-  "repo_ref": "descope-sample-apps/descope-mcp-server-stdio",
+  "id": "io.github.descope-sample-apps/descope-mcp-server-stdio",
   "name": "io.github.descope-sample-apps/descope-mcp-server-stdio",
   "description": "The Descope Model Context Protocol (MCP) server provides an interface to interact with Descope's Management APIs, enabling the search and retrieval of project-related information.",
+  "repository": {
+    "url": "descope-sample-apps/descope-mcp-server-stdio",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "1.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@descope-sample-apps/descope-mcp-server",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "@descope-sample-apps/descope-mcp-server",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "/path/to/descope-mcp-server/build/index.js"
@@ -29,9 +33,23 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "DESCOPE_PROJECT_ID",
+          "description": "Your Descope Project ID",
+          "required": true
+        },
+        {
+          "name": "DESCOPE_MANAGEMENT_KEY",
+          "description": "Your Descope Management Key",
+          "required": true
+        }
+      ],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

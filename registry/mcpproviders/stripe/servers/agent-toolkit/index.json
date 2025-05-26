@@ -1,13 +1,25 @@
 {
-  "repo_ref": "stripe/agent-toolkit",
+  "id": "5200c733-db46-48ba-a870-c1de02cf3e07",
   "name": "io.github.stripe/agent-toolkit",
-  "description": "Enables integration with Stripe APIs through function calling, supporting multiple agent frameworks including Model Context Protocol (MCP).",
-  "version_detail": {
-    "version": "0.4.0"
+  "description": "Python and TypeScript library for integrating the Stripe API into agentic workflows",
+  "repository": {
+    "url": "https://github.com/stripe/agent-toolkit",
+    "source": "github",
+    "id": "886826524"
   },
-  "remotes": [],
-  "registries": [],
-  "prompts": [],
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:00Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "stripe/agent-toolkit",
+      "version": ""
+    }
+  ],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,33 +1,41 @@
 {
-  "repo_ref": "screenshotone/mcp",
+  "id": "87c7dec1-1b0c-414b-9f7b-7a113e67989d",
   "name": "io.github.screenshotone/mcp",
-  "description": "An official implementation of an MCP (Model Context Protocol) server for ScreenshotOne that provides a tool to render a screenshot of a website and returns it as an image.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A simple implementation of an MCP server for the ScreenshotOne API",
+  "repository": {
+    "url": "https://github.com/screenshotone/mcp",
+    "source": "github",
+    "id": "934098377"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:51Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "screenshotone-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "SCREENSHOTONE_API_KEY",
-            "description": "API key for ScreenshotOne service",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "screenshotone-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Positional argument for 'path/to/screenshotone/mcp/build/index.js'",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/screenshotone/mcp/build/index.js",
+          "default": "path/to/screenshotone/mcp/build/index.js",
+          "type": "positional",
+          "value_hint": "path/to/screenshotone/mcp/build/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<your api key>",
+          "name": "SCREENSHOTONE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "render-website-screenshot",
@@ -38,5 +46,5 @@
     }
   ],
   "resources": [],
-  "documentation": "https://screenshotone.com/blog/mcp-server/"
+  "prompts": []
 }

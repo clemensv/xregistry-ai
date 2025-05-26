@@ -1,43 +1,38 @@
 {
-  "repo_ref": "langfuse/mcp-server-langfuse",
+  "id": "f88b50da-f452-452b-9f22-1c7da7542b36",
   "name": "io.github.langfuse/mcp-server-langfuse",
-  "description": "Model Context Protocol (MCP) Server for Langfuse Prompt Management. This server allows access and management of Langfuse prompts through the MCP protocol, implementing the MCP Prompts specification for prompt discovery and retrieval.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Model Context Protocol (MCP) Server for Langfuse Prompt Management. This server allows you to access and manage your Langfuse prompts through the Model Context Protocol.",
+  "repository": {
+    "url": "https://github.com/langfuse/mcp-server-langfuse",
+    "source": "github",
+    "id": "933201974"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:09Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "langfuse/mcp-server-langfuse",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "LANGFUSE_PUBLIC_KEY",
-            "description": "Your Langfuse public API key",
-            "required": true
-          },
-          {
-            "name": "LANGFUSE_SECRET_KEY",
-            "description": "Your Langfuse secret API key",
-            "required": true
-          },
-          {
-            "name": "LANGFUSE_BASEURL",
-            "description": "Base URL for Langfuse API",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-langfuse",
+      "version": "0.0.1",
+      "environment_variables": [
+        {
+          "description": "your-public-key",
+          "name": "LANGFUSE_PUBLIC_KEY"
+        },
+        {
+          "description": "your-secret-key",
+          "name": "LANGFUSE_SECRET_KEY"
+        },
+        {
+          "description": "https://cloud.langfuse.com",
+          "name": "LANGFUSE_BASEURL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-prompts",
@@ -79,5 +74,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

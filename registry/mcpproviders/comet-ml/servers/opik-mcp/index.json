@@ -1,40 +1,80 @@
 {
-  "repo_ref": "comet-ml/opik-mcp",
+  "id": "61b3cbd8-8eee-4bef-a0ef-5fcaf6449201",
   "name": "io.github.comet-ml/opik-mcp",
-  "description": "A Model Context Protocol (MCP) implementation for the Opik platform. It provides a unified interface for interacting with Opik's capabilities, supporting multiple transport mechanisms for flexible integration into various environments.",
-  "version_detail": {
-    "version": "0.0.1"
+  "description": "Model Context Protocol (MCP) implementation for Opik enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics. ",
+  "repository": {
+    "url": "https://github.com/comet-ml/opik-mcp",
+    "source": "github",
+    "id": "946763772"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:3001",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "test-opik-mcp",
+      "version": "0.0.1",
+      "package_arguments": [
+        {
+          "description": "API URL for the opik MCP server",
+          "is_required": true,
+          "format": "string",
+          "value": "--apiUrl https://www.comet.com/opik/api",
+          "default": "--apiUrl https://www.comet.com/opik/api",
+          "type": "named",
+          "name": "--apiUrl https://www.comet.com/opik/api",
+          "value_hint": "https://www.comet.com/opik/api"
+        },
+        {
+          "description": "API Key for authentication",
+          "is_required": true,
+          "format": "string",
+          "value": "--apiKey YOUR_API_KEY",
+          "default": "--apiKey YOUR_API_KEY",
+          "type": "named",
+          "name": "--apiKey YOUR_API_KEY",
+          "value_hint": "YOUR_API_KEY"
+        },
+        {
+          "description": "Workspace name",
+          "is_required": true,
+          "format": "string",
+          "value": "--workspace default",
+          "default": "--workspace default",
+          "type": "named",
+          "name": "--workspace default",
+          "value_hint": "default"
+        },
+        {
+          "description": "Enable debug mode",
+          "is_required": true,
+          "format": "string",
+          "value": "--debug true",
+          "default": "--debug true",
+          "type": "named",
+          "name": "--debug true",
+          "value_hint": "true"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "https://www.comet.com/opik/api",
+          "name": "OPIK_API_BASE_URL"
+        },
+        {
+          "description": "YOUR_API_KEY",
+          "name": "OPIK_API_KEY"
+        },
+        {
+          "description": "default",
+          "name": "OPIK_WORKSPACE_NAME"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "npm",
-      "package_name": "@comet-ml/opik-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "build/index.js",
-          "--debug",
-          "true"
-        ],
-        "environment_variables": [
-          {
-            "name": ".env",
-            "description": "Environment variables from .env file",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_server_info",
@@ -65,5 +105,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

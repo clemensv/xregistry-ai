@@ -1,38 +1,31 @@
 {
-  "repo_ref": "JetBrains/mcp-jetbrains",
-  "name": "io.github.JetBrains/mcp-jetbrains",
-  "description": "You can interact with an JetBrains IntelliJ IDE and its features through this MCP (Model Context Protocol) server. The server provides access to various IDE tools and functionalities. All requests should be formatted as JSON objects according to the Model Context Protocol specification.",
-  "version_detail": {
-    "version": "0.1.0"
+  "id": "a51c6dec-56ed-403e-831b-fa5f155f8696",
+  "name": "io.github.jetbrains/mcp-jetbrains",
+  "description": "A model context protocol server to work with JetBrains IDEs: IntelliJ, PyCharm, WebStorm, etc. Also, works with Android Studio",
+  "repository": {
+    "url": "https://github.com/JetBrains/mcp-jetbrains",
+    "source": "github",
+    "id": "900744587"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:50Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@jetbrains/mcp-proxy",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@jetbrains/mcp-proxy"
-        ],
-        "environment_variables": [
-          {
-            "name": "IDE_PORT"
-          },
-          {
-            "name": "HOST"
-          },
-          {
-            "name": "LOG_ENABLED"
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@jetbrains/mcp-proxy",
+      "version": "1.8.0",
+      "environment_variables": [
+        {
+          "description": "true",
+          "name": "LOG_ENABLED"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

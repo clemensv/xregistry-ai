@@ -1,31 +1,30 @@
 {
-  "repo_ref": "skydeckai/mcp-server-rememberizer",
+  "id": "b5ee338d-655b-4067-9e17-f1bfc442a1eb",
   "name": "io.github.skydeckai/mcp-server-rememberizer",
-  "description": "A Model Context Protocol server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "An MCP Server to enable global access to Rememberizer",
+  "repository": {
+    "url": "https://github.com/skydeckai/mcp-server-rememberizer",
+    "source": "github",
+    "id": "901090359"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:26Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-server-rememberizer",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "REMEMBERIZER_API_TOKEN",
-            "description": "API token for Rememberizer.ai",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-rememberizer",
+      "version": "0.1.5",
+      "environment_variables": [
+        {
+          "description": "your_rememberizer_api_token",
+          "name": "REMEMBERIZER_API_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "rememberizer_account_information",
@@ -154,5 +153,6 @@
       "description": "Slack discussions resource accessible by Slack discussion ID.",
       "mimetype": "text/json"
     }
-  ]
+  ],
+  "prompts": []
 }

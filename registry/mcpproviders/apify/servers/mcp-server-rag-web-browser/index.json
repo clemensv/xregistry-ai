@@ -1,0 +1,22 @@
+{
+  "id": "abcd869f-0159-408c-8965-9dbcc8c2d001",
+  "name": "io.github.apify/mcp-server-rag-web-browser",
+  "description": "A MCP Server for the RAG Web Browser Actor",
+  "repository": {
+    "url": "https://github.com/apify/mcp-server-rag-web-browser",
+    "source": "github",
+    "id": "899577906"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:14Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@apify/mcp-server-rag-web-browser",
+      "version": "0.1.3"
+    }
+  ]
+}

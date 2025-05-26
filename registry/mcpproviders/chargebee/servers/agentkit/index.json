@@ -1,25 +1,25 @@
 {
-  "repo_ref": "chargebee/agentkit",
+  "id": "59a97c76-20ff-48a2-8c1d-89cc66b57697",
   "name": "io.github.chargebee/agentkit",
-  "description": "MCP server for interacting with Chargebee",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Seamlessly integrate AI agents with Chargebee using AgentKit for smarter billing and subscription workflows.",
+  "repository": {
+    "url": "https://github.com/chargebee/agentkit",
+    "source": "github",
+    "id": "946416125"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:50Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "chargebee-agentkit",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@chargebee/agentkit-repo",
+      "version": "0.0.0"
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

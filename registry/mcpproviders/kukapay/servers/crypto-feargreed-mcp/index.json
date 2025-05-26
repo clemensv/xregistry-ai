@@ -1,40 +1,22 @@
 {
-  "repo_ref": "kukapay/crypto-feargreed-mcp",
+  "id": "45ee52ba-1e4c-48a5-9eef-de7a234997db",
   "name": "io.github.kukapay/crypto-feargreed-mcp",
-  "description": "A mcp server that provides real-time and historical Crypto Fear & Greed Index data, powered by the Alternative.me.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Providing real-time and historical Crypto Fear & Greed Index data",
+  "repository": {
+    "url": "https://github.com/kukapay/crypto-feargreed-mcp",
+    "source": "github",
+    "id": "948974664"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "crypto-feargreed-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "install",
-          "main.py",
-          "--name",
-          "CryptoFearGreed"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "interpret_fng",
-      "description": "Index Data Interpretation.",
-      "arguments": [
-        {
-          "name": "value",
-          "description": "Crypto Fear & Greed Index value to interpret",
-          "required": true
-        }
-      ]
+      "registry_name": "unknown",
+      "name": "crypto-feargreed-mcp",
+      "version": "0.1.0"
     }
   ],
   "tools": [
@@ -86,6 +68,19 @@
       "uritemplate": "fng://history/{days}",
       "name": "history",
       "description": "Historical Data of Crypto Fear & Greed Index for specified number of days."
+    }
+  ],
+  "prompts": [
+    {
+      "name": "interpret_fng",
+      "description": "Index Data Interpretation.",
+      "arguments": [
+        {
+          "name": "value",
+          "description": "Crypto Fear & Greed Index value to interpret",
+          "required": true
+        }
+      ]
     }
   ]
 }

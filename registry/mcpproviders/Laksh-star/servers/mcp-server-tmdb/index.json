@@ -1,31 +1,30 @@
 {
-  "repo_ref": "Laksh-star/mcp-server-tmdb",
-  "name": "io.github.Laksh-star/mcp-server-tmdb",
-  "description": "This MCP server integrates with The Movie Database (TMDB) API to provide movie information, search capabilities, and recommendations.",
-  "version_detail": {
-    "version": "0.1.0"
+  "id": "ff2b0e88-9426-4aa1-bfb1-165cc810344f",
+  "name": "io.github.laksh-star/mcp-server-tmdb",
+  "description": "MCP Server with TMDB",
+  "repository": {
+    "url": "https://github.com/Laksh-star/mcp-server-tmdb",
+    "source": "github",
+    "id": "901420381"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:27Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@Laksh-star/mcp-server-tmdb",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "TMDB_API_KEY",
-            "description": "API key for TMDB access",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-tmdb",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "TMDB_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_movies",
@@ -87,5 +86,6 @@
       "description": "Comprehensive movie details including title, release date, rating, overview, genres, poster URL, cast information (top 5 actors), director, and selected reviews.",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

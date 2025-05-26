@@ -1,53 +1,30 @@
 {
-  "repo_ref": "raoulbia-ai/mcp-server-for-intercom",
+  "id": "1967f4e6-f229-4d5f-a648-9bdc67d39da8",
   "name": "io.github.raoulbia-ai/mcp-server-for-intercom",
-  "description": "An MCP-compliant server that enables AI assistants to access and analyze customer support data from Intercom.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/raoulbia-ai/mcp-server-for-intercom",
+    "source": "github",
+    "id": "945565923"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:28Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:8080",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "mcp-server-for-intercom",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your_intercom_api_token",
+          "name": "INTERCOM_ACCESS_TOKEN"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "container",
-      "package_name": "mcp-intercom:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "INTERCOM_ACCESS_TOKEN",
-            "description": "Your Intercom API token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "mcp-server-for-intercom",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "INTERCOM_ACCESS_TOKEN",
-            "description": "Your Intercom API token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_conversations_by_customer",
@@ -163,5 +140,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

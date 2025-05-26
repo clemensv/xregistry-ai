@@ -1,0 +1,22 @@
+{
+  "id": "de52e791-0131-40d1-be41-ba7b14f3c134",
+  "name": "io.github.ai-agent-hub/mcp-marketplace",
+  "description": "OpenSource MCP Marketplace and Html Plugin to Integrate with your AI Application",
+  "repository": {
+    "url": "https://github.com/AI-Agent-Hub/mcp-marketplace",
+    "source": "github",
+    "id": "978816723"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:48Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "AI-Agent-Hub/mcp-marketplace",
+      "version": ""
+    }
+  ]
+}

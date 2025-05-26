@@ -1,44 +1,38 @@
 {
-  "repo_ref": "momentohq/mcp-momento",
+  "id": "b99e5603-6346-4b2c-bae8-876c9b71e18b",
   "name": "io.github.momentohq/mcp-momento",
-  "description": "A simple Model Context Protocol (MCP) server implementation for Momento Cache.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A model context protocol server for Momento",
+  "repository": {
+    "url": "https://github.com/momentohq/mcp-momento",
+    "source": "github",
+    "id": "960008375"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:31Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@gomomento/mcp-momento",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@gomomento/mcp-momento"
-        ],
-        "environment_variables": [
-          {
-            "name": "MOMENTO_API_KEY",
-            "description": "API key for Momento Cache",
-            "required": true
-          },
-          {
-            "name": "MOMENTO_CACHE_NAME",
-            "description": "Name of the cache to use",
-            "required": false
-          },
-          {
-            "name": "DEFAULT_TTL_SECONDS",
-            "description": "Default TTL for cache entries in seconds",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@gomomento/mcp-momento",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "MOMENTO_API_KEY"
+        },
+        {
+          "description": "your-cache-name",
+          "name": "MOMENTO_CACHE_NAME"
+        },
+        {
+          "description": "60",
+          "name": "DEFAULT_TTL_SECONDS"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get",
@@ -155,5 +149,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

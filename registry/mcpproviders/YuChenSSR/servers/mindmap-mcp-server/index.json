@@ -1,47 +1,46 @@
 {
-  "repo_ref": "YuChenSSR/mindmap-mcp-server",
-  "name": "io.github.YuChenSSR/mindmap-mcp-server",
-  "description": "A Model Context Protocol (MCP) server for converting Markdown content to interactive mindmaps.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "7f9416dd-34cf-4f0d-bcfb-c87cbee3abf6",
+  "name": "io.github.yuchenssr/mindmap-mcp-server",
+  "description": "mindmap, mcp server, artifact",
+  "repository": {
+    "url": "https://github.com/YuChenSSR/mindmap-mcp-server",
+    "source": "github",
+    "id": "951261036"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:31Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "ychen94/mindmap-converter-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "--rm",
-          "-i",
-          "-v",
-          "/path/to/output/folder:/output",
-          "ychen94/mindmap-converter-mcp:latest"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "mindmap-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mindmap-mcp-server",
-          "--return-type",
-          "filePath"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mindmap-mcp-server",
+      "version": "0.1.1",
+      "package_arguments": [
+        {
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "-v /path/to/output/folder:/output",
+          "is_required": true,
+          "format": "string",
+          "value": "-v /path/to/output/folder:/output",
+          "default": "-v /path/to/output/folder:/output",
+          "type": "named",
+          "name": "-v /path/to/output/folder:/output",
+          "value_hint": "/path/to/output/folder:/output"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

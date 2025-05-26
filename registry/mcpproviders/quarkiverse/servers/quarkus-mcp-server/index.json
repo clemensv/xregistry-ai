@@ -1,26 +1,22 @@
 {
-  "repo_ref": "quarkiverse/quarkus-mcp-server",
+  "id": "b846b02f-1f0e-4c62-a3e9-e62cf3ccbf1a",
   "name": "io.github.quarkiverse/quarkus-mcp-server",
-  "description": "This extension provides declarative and programmatic APIs that enable developers to implement the MCP server features easily.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "This extension enables developers to implement the MCP server features easily.",
+  "repository": {
+    "url": "https://github.com/quarkiverse/quarkus-mcp-server",
+    "source": "github",
+    "id": "901850977"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:31Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "unspecified",
-      "transporttype": "http"
-    }
-  ],
-  "registries": [],
-  "prompts": [
-    {
-      "name": "code_assist",
-      "arguments": [
-        {
-          "name": "lang",
-          "required": false
-        }
-      ]
+      "registry_name": "unknown",
+      "name": "quarkiverse/quarkus-mcp-server",
+      "version": ""
     }
   ],
   "tools": [
@@ -35,5 +31,15 @@
       "name": "alpha"
     }
   ],
-  "documentation": "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mcp-server/dev/index.html"
+  "prompts": [
+    {
+      "name": "code_assist",
+      "arguments": [
+        {
+          "name": "lang",
+          "required": false
+        }
+      ]
+    }
+  ]
 }

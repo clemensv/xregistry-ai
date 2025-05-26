@@ -1,34 +1,30 @@
 {
-  "repo_ref": "kenjihikmatullah/productboard-mcp",
+  "id": "00613acb-73e2-4f93-8b96-296df17316c8",
   "name": "io.github.kenjihikmatullah/productboard-mcp",
   "description": "Integrate the Productboard API into agentic workflows via MCP",
-  "version_detail": {
-    "version": "1.0.0"
+  "repository": {
+    "url": "https://github.com/kenjihikmatullah/productboard-mcp",
+    "source": "github",
+    "id": "939104710"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:44Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "productboard-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "productboard-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "PRODUCTBOARD_ACCESS_TOKEN",
-            "description": "Access token for Productboard API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "productboard-mcp",
+      "version": "1.0.1",
+      "environment_variables": [
+        {
+          "description": "<YOUR_TOKEN>",
+          "name": "PRODUCTBOARD_ACCESS_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "getProductsTool",
@@ -108,5 +104,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

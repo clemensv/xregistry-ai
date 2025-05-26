@@ -1,39 +1,34 @@
 {
-  "repo_ref": "syucream/holaspirit-mcp-server",
+  "id": "fffcda50-ddc1-4357-a9bf-b7022f86c582",
   "name": "io.github.syucream/holaspirit-mcp-server",
-  "description": "A MCP(Model Context Protocol) server that accesses to Holaspirit API. This server provides MCP-compatible access to Holaspirit's API, allowing AI assistants to interact with your Holaspirit data through a standardized interface.",
-  "version_detail": {
-    "version": "0.0.1"
+  "description": "A MCP server that accesses to Holaspirit",
+  "repository": {
+    "url": "https://github.com/syucream/holaspirit-mcp-server",
+    "source": "github",
+    "id": "915876793"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "holaspirit-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "holaspirit-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "HOLASPIRIT_API_TOKEN",
-            "description": "Your Holaspirit API token",
-            "required": true
-          },
-          {
-            "name": "HOLASPIRIT_ORGANIZATION_ID",
-            "description": "Your Holaspirit organization ID",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "holaspirit-mcp-server",
+      "version": "0.2.0",
+      "environment_variables": [
+        {
+          "description": "<your token>",
+          "name": "HOLASPIRIT_API_TOKEN"
+        },
+        {
+          "description": "<your org id>",
+          "name": "HOLASPIRIT_ORGANIZATION_ID"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "holaspirit_list_tasks",
@@ -127,5 +122,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

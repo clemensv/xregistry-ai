@@ -1,56 +1,70 @@
 {
-  "repo_ref": "dinghuazhou/sample-mcp-server-tos",
+  "id": "5f14d558-f478-43b5-8dde-20c9997f196a",
   "name": "io.github.dinghuazhou/sample-mcp-server-tos",
-  "description": "An MCP server implementation for retrieving data from TOS.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/dinghuazhou/sample-mcp-server-tos",
+    "source": "github",
+    "id": "947289080"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:36Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "unspecified",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "VOLC_ACCESSKEY",
-            "description": "The access key for the VolcEngine.",
-            "required": true
-          },
-          {
-            "name": "VOLC_SECRETKEY",
-            "description": "The secret key for the VolcEngine.",
-            "required": true
-          },
-          {
-            "name": "REGION",
-            "description": "The region for the TOS service.",
-            "required": true
-          },
-          {
-            "name": "TOS_ENDPOINT",
-            "description": "The endpoint for the TOS service.",
-            "required": true
-          },
-          {
-            "name": "SECURITY_TOKEN",
-            "description": "The security token for the credential.",
-            "required": false
-          },
-          {
-            "name": "TOS_BUCKETS",
-            "description": "If you want to use a specific bucket, you need to set this.",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-tos",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Git repository URL with subdirectory parameter",
+          "is_required": true,
+          "format": "string",
+          "value": "git+https://github.com/volcengine/ai-app-lab#subdirectory=mcp/server/mcp_server_tos",
+          "default": "git+https://github.com/volcengine/ai-app-lab#subdirectory=mcp/server/mcp_server_tos",
+          "type": "positional",
+          "value_hint": "git+https://github.com/volcengine/ai-app-lab#subdirectory=mcp/server/mcp_server_tos"
+        },
+        {
+          "description": "Server entry point",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-server-tos",
+          "default": "mcp-server-tos",
+          "type": "positional",
+          "value_hint": "mcp-server-tos"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your ak",
+          "name": "VOLC_ACCESSKEY"
+        },
+        {
+          "description": "your sk",
+          "name": "VOLC_SECRETKEY"
+        },
+        {
+          "description": "tos region",
+          "name": "REGION"
+        },
+        {
+          "description": "tos endpoint",
+          "name": "TOS_ENDPOINT"
+        },
+        {
+          "description": "your security token",
+          "name": "SECURITY_TOKEN"
+        },
+        {
+          "description": "your specific bucket",
+          "name": "TOS_BUCKET"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_buckets",
@@ -125,5 +139,6 @@
       "description": "Objects resource for TOS",
       "uritemplate": "/buckets/{bucket}/objects/{key}"
     }
-  ]
+  ],
+  "prompts": []
 }

@@ -1,25 +1,44 @@
 {
-  "repo_ref": "singlestore-labs/mcp-server-singlestore",
+  "id": "901e1b1c-7414-4240-89b8-1def9aca4708",
   "name": "io.github.singlestore-labs/mcp-server-singlestore",
-  "description": "MCP server for SingleStore enabling integration with LLM clients like Claude Desktop and Cursor to perform operations using natural language.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for interacting with SingleStore Management API and services",
+  "repository": {
+    "url": "https://github.com/singlestore-labs/mcp-server-singlestore",
+    "source": "github",
+    "id": "941979361"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "singlestore-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "singlestore_mcp_server",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Start the single store MCP server",
+          "is_required": true,
+          "format": "string",
+          "value": "start",
+          "default": "start",
+          "type": "positional",
+          "value_hint": "start"
+        },
+        {
+          "description": "SingleStore API Key",
+          "is_required": true,
+          "format": "string",
+          "value": "<SINGLESTORE_API_KEY>",
+          "default": "<SINGLESTORE_API_KEY>",
+          "type": "positional",
+          "value_hint": "<SINGLESTORE_API_KEY>"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "workspace_groups_info",
@@ -117,5 +136,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

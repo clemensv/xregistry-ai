@@ -1,32 +1,57 @@
 {
-  "repo_ref": "ergut/mcp-bigquery-server",
+  "id": "e3053bd5-1a4d-473c-a41b-f83ab1a46174",
   "name": "io.github.ergut/mcp-bigquery-server",
-  "description": "This is a server that lets your LLMs (like Claude) talk directly to your BigQuery data! Think of it as a friendly translator that sits between your AI assistant and your database, making sure they can chat securely and efficiently.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A Model Context Protocol (MCP) server that provides secure, read-only access to BigQuery datasets. Enables Large Language Models (LLMs) to safely query and analyze data through a standardized interface.",
+  "repository": {
+    "url": "https://github.com/ergut/mcp-bigquery-server",
+    "source": "github",
+    "id": "898108083"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:54Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@ergut/mcp-bigquery-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@ergut/mcp-bigquery-server",
-          "--project-id",
-          "your-project-id",
-          "--location",
-          "us-central1"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@ergut/mcp-bigquery-server",
+      "version": "1.0.3",
+      "package_arguments": [
+        {
+          "description": "--project-id your-project-id",
+          "is_required": true,
+          "format": "string",
+          "value": "--project-id your-project-id",
+          "default": "--project-id your-project-id",
+          "type": "named",
+          "name": "--project-id your-project-id",
+          "value_hint": "your-project-id"
+        },
+        {
+          "description": "--location us-central1",
+          "is_required": true,
+          "format": "string",
+          "value": "--location us-central1",
+          "default": "--location us-central1",
+          "type": "named",
+          "name": "--location us-central1",
+          "value_hint": "us-central1"
+        },
+        {
+          "description": "--key-file /path/to/service-account-key.json",
+          "is_required": true,
+          "format": "string",
+          "value": "--key-file /path/to/service-account-key.json",
+          "default": "--key-file /path/to/service-account-key.json",
+          "type": "named",
+          "name": "--key-file /path/to/service-account-key.json",
+          "value_hint": "/path/to/service-account-key.json"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

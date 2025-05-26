@@ -1,44 +1,37 @@
 {
-  "repo_ref": "punkpeye/fastmcp",
+  "id": "c978017d-b94a-4d0c-a46e-5395cb94a67e",
   "name": "io.github.punkpeye/fastmcp",
-  "description": "A TypeScript framework for building MCP servers capable of handling client sessions.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "A TypeScript framework for building MCP servers.",
+  "repository": {
+    "url": "https://github.com/punkpeye/fastmcp",
+    "source": "github",
+    "id": "908799323"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:25Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "fastmcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "git-commit",
-      "description": "Generate a Git commit message",
-      "arguments": [
+      "registry_name": "npm",
+      "name": "fastmcp",
+      "version": "1.0.0",
+      "package_arguments": [
         {
-          "name": "changes",
-          "description": "Git diff or description of changes",
-          "required": true
+          "description": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "is_required": true,
+          "format": "string",
+          "value": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "default": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "type": "positional",
+          "value_hint": "/PATH/TO/YOUR_PROJECT/src/index.ts"
         }
-      ]
-    },
-    {
-      "name": "countryPoem",
-      "description": "Writes a poem about a country",
-      "arguments": [
+      ],
+      "environment_variables": [
         {
-          "name": "name",
-          "description": "Name of the country",
-          "required": true
+          "description": "value",
+          "name": "YOUR_ENV_VAR"
         }
       ]
     }
@@ -102,6 +95,30 @@
       "name": "Application Logs",
       "mimetype": "text/plain",
       "uritemplate": "file:///logs/{name}.log"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "git-commit",
+      "description": "Generate a Git commit message",
+      "arguments": [
+        {
+          "name": "changes",
+          "description": "Git diff or description of changes",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "countryPoem",
+      "description": "Writes a poem about a country",
+      "arguments": [
+        {
+          "name": "name",
+          "description": "Name of the country",
+          "required": true
+        }
+      ]
     }
   ]
 }

@@ -1,44 +1,38 @@
 {
-  "repo_ref": "MFYDev/ghost-mcp",
-  "name": "io.github.MFYDev/ghost-mcp",
-  "description": "A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude. This server provides secure and comprehensive access to your Ghost blog, leveraging JWT authentication and a rich set of MCP tools for managing posts, users, members, tiers, offers, and newsletters.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "e4927319-b643-498e-935f-51bad4e30381",
+  "name": "io.github.mfydev/ghost-mcp",
+  "description": "A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude. Allow you to control your Ghost blog by simply asking Claude etc.",
+  "repository": {
+    "url": "https://github.com/MFYDev/ghost-mcp",
+    "source": "github",
+    "id": "930747221"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@fanyangmeng/ghost-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@fanyangmeng/ghost-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "GHOST_API_URL",
-            "description": "URL of your Ghost blog",
-            "required": true
-          },
-          {
-            "name": "GHOST_ADMIN_API_KEY",
-            "description": "Admin API key for Ghost",
-            "required": true
-          },
-          {
-            "name": "GHOST_API_VERSION",
-            "description": "Ghost API version, e.g. v5.0",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@fanyangmeng/ghost-mcp",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "https://yourblog.com",
+          "name": "GHOST_API_URL"
+        },
+        {
+          "description": "your_admin_api_key",
+          "name": "GHOST_ADMIN_API_KEY"
+        },
+        {
+          "description": "v5.0",
+          "name": "GHOST_API_VERSION"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "invites_browse",
@@ -976,5 +970,6 @@
       "uritemplate": "blog://info",
       "description": "Blog information resource."
     }
-  ]
+  ],
+  "prompts": []
 }

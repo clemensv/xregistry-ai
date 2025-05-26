@@ -1,28 +1,35 @@
 {
-  "repo_ref": "apeyroux/mcp-xmind",
+  "id": "cd63d589-6f0e-4d2d-8c9c-b6857f48cc62",
   "name": "io.github.apeyroux/mcp-xmind",
-  "description": "A Model Context Protocol server for analyzing and querying XMind mind maps. This tool provides powerful capabilities for searching, extracting, and analyzing content from XMind files.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/apeyroux/mcp-xmind",
+    "source": "github",
+    "id": "902421970"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:10Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@41px/mcp-xmind",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "dist/index.js",
-          "<allowed-directory>"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@41px/mcp-xmind",
+      "version": "1.1.1",
+      "package_arguments": [
+        {
+          "description": "/Users/alex/XMind",
+          "is_required": true,
+          "format": "string",
+          "value": "/Users/alex/XMind",
+          "default": "/Users/alex/XMind",
+          "type": "positional",
+          "value_hint": "/Users/alex/XMind"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "read_xmind",
@@ -81,5 +88,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

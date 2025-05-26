@@ -1,63 +1,22 @@
 {
-  "repo_ref": "vishalmysore/choturobo",
+  "id": "466926d1-72a6-42be-b2c1-ef94d44e5a67",
   "name": "io.github.vishalmysore/choturobo",
-  "description": "Arduino-based robotics server integrating AI using the MCP (Model Context Protocol) framework from Claude AI by Anthropic. Controls hardware components like LEDs, motors, servos, fans, sensors via MCP tools and prompts.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Integrate Arduino-based robotics (using the NodeMCU ESP32 or Arduino Nano 368 board) with AI using the MCP (Model Context Protocol) framework from Claude Anthropic",
+  "repository": {
+    "url": "https://github.com/vishalmysore/choturobo",
+    "source": "github",
+    "id": "947567270"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "server.js"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "move-chotu",
-      "arguments": [
-        {
-          "name": "steps"
-        }
-      ],
-      "description": "Prompt to move Chotu a specified number of steps."
-    },
-    {
-      "name": "start-chotu",
-      "arguments": [],
-      "description": "Prompt to initialize Chotu and prepare for operation."
-    },
-    {
-      "name": "stop-chotu",
-      "arguments": [],
-      "description": "Prompt to stop Chotu safely and shut down operations."
-    },
-    {
-      "name": "turn-chotu",
-      "arguments": [
-        {
-          "name": "direction"
-        }
-      ],
-      "description": "Prompt to turn Chotu left or right."
-    },
-    {
-      "name": "set-chotu-speed",
-      "arguments": [
-        {
-          "name": "speed"
-        }
-      ],
-      "description": "Prompt to set Chotu's speed."
+      "registry_name": "unknown",
+      "name": "choturoboserver",
+      "version": "0.1.0"
     }
   ],
   "tools": [
@@ -230,5 +189,44 @@
       "description": "Make Chotu sing a given message."
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": [
+    {
+      "name": "move-chotu",
+      "arguments": [
+        {
+          "name": "steps"
+        }
+      ],
+      "description": "Prompt to move Chotu a specified number of steps."
+    },
+    {
+      "name": "start-chotu",
+      "arguments": [],
+      "description": "Prompt to initialize Chotu and prepare for operation."
+    },
+    {
+      "name": "stop-chotu",
+      "arguments": [],
+      "description": "Prompt to stop Chotu safely and shut down operations."
+    },
+    {
+      "name": "turn-chotu",
+      "arguments": [
+        {
+          "name": "direction"
+        }
+      ],
+      "description": "Prompt to turn Chotu left or right."
+    },
+    {
+      "name": "set-chotu-speed",
+      "arguments": [
+        {
+          "name": "speed"
+        }
+      ],
+      "description": "Prompt to set Chotu's speed."
+    }
+  ]
 }

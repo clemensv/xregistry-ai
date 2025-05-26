@@ -1,33 +1,41 @@
 {
-  "repo_ref": "kapilduraphe/webflow-mcp-server",
+  "id": "c7876b07-1fe3-4006-a104-93ef9f9e1669",
   "name": "io.github.kapilduraphe/webflow-mcp-server",
-  "description": "This MCP server enables Claude to interact with Webflow's APIs.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Webflow MCP server",
+  "repository": {
+    "url": "https://github.com/kapilduraphe/webflow-mcp-server",
+    "source": "github",
+    "id": "935070409"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:40Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@kapilduraphe/webflow-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "WEBFLOW_API_TOKEN",
-            "description": "Webflow API token environment variable",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "webflow-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Path to the entry point script",
+          "is_required": true,
+          "format": "string",
+          "value": "/ABSOLUTE/PATH/TO/YOUR/build/index.js",
+          "default": "/ABSOLUTE/PATH/TO/YOUR/build/index.js",
+          "type": "positional",
+          "value_hint": "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-api-token",
+          "name": "WEBFLOW_API_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_site",
@@ -55,5 +63,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

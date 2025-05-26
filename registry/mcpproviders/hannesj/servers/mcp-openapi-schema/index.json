@@ -1,28 +1,35 @@
 {
-  "repo_ref": "hannesj/mcp-openapi-schema",
+  "id": "7d68a487-bc40-4783-a2eb-1c9107fc26a4",
   "name": "io.github.hannesj/mcp-openapi-schema",
-  "description": "A Model Context Protocol (MCP) server that exposes OpenAPI schema information to Large Language Models (LLMs) like Claude. This server allows an LLM to explore and understand OpenAPI specifications through a set of specialized tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "OpenAPI Schema Model Context Protocol Server",
+  "repository": {
+    "url": "https://github.com/hannesj/mcp-openapi-schema",
+    "source": "github",
+    "id": "947937745"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:00Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-openapi-schema",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "mcp-openapi-schema"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "mcp-openapi-schema",
+      "version": "0.0.1",
+      "package_arguments": [
+        {
+          "description": "The OpenAPI specification file to be used",
+          "is_required": true,
+          "format": "string",
+          "value": "/ABSOLUTE/PATH/TO/openapi.yaml",
+          "default": "/ABSOLUTE/PATH/TO/openapi.yaml",
+          "type": "positional",
+          "value_hint": "/ABSOLUTE/PATH/TO/openapi.yaml"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list-endpoints",
@@ -95,5 +102,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

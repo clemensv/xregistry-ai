@@ -1,38 +1,55 @@
 {
-  "repo_ref": "strowk/mcp-k8s-go",
+  "id": "a59a162f-d811-4344-bf53-606a74bb50c6",
   "name": "io.github.strowk/mcp-k8s-go",
-  "description": "Golang-based MCP server connecting to Kubernetes. Provides listing and retrieval of Kubernetes contexts, namespaces, resources, nodes, pods, events, pod logs, and running commands in pods.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server connecting to Kubernetes",
+  "repository": {
+    "url": "https://github.com/strowk/mcp-k8s-go",
+    "source": "github",
+    "id": "896738164"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:50Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "unspecified",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "@strowk/mcp-k8s",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "@strowk/mcp-k8s"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "strowk/mcp-k8s-go",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Mounts ~/.kube/config into container",
+          "is_required": true,
+          "format": "string",
+          "value": "-v ~/.kube/config:/home/nonroot/.kube/config",
+          "default": "-v ~/.kube/config:/home/nonroot/.kube/config",
+          "type": "named",
+          "name": "-v ~/.kube/config:/home/nonroot/.kube/config",
+          "value_hint": "~/.kube/config:/home/nonroot/.kube/config"
+        },
+        {
+          "description": "Removes container after exit",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "Docker image to run",
+          "is_required": true,
+          "format": "string",
+          "value": "mcpk8s/server:latest",
+          "default": "mcpk8s/server:latest",
+          "type": "positional",
+          "value_hint": "mcpk8s/server:latest"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

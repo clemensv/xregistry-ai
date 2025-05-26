@@ -1,0 +1,22 @@
+{
+  "id": "de2d7f51-ca20-4fac-abdb-85a912d26375",
+  "name": "io.github.arize-ai/phoenix",
+  "description": "AI Observability & Evaluation",
+  "repository": {
+    "url": "https://github.com/Arize-ai/phoenix",
+    "source": "github",
+    "id": "564072810"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:20Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "arize-phoenix",
+      "version": ""
+    }
+  ]
+}

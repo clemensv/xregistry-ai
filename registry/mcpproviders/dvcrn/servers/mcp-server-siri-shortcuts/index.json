@@ -1,27 +1,24 @@
 {
-  "repo_ref": "dvcrn/mcp-server-siri-shortcuts",
+  "id": "fbef362d-ba4b-4708-8579-332d2a57582d",
   "name": "io.github.dvcrn/mcp-server-siri-shortcuts",
-  "description": "This MCP server provides access to Siri shortcuts functionality via the Model Context Protocol (MCP). It allows listing, opening, and running shortcuts from the macOS Shortcuts app.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP for calling Siri Shorcuts from LLMs",
+  "repository": {
+    "url": "https://github.com/dvcrn/mcp-server-siri-shortcuts",
+    "source": "github",
+    "id": "938652536"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:57Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-server-siri-shortcuts",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-server-siri-shortcuts"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "mcp-server-siri-shortcuts",
+      "version": "1.0.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_shortcuts",
@@ -66,5 +63,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

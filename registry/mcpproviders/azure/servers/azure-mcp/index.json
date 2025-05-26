@@ -1,0 +1,28 @@
+{
+  "id": "a5f21d1d-1267-4a62-9deb-1bb961dc5b13",
+  "name": "io.github.azure/azure-mcp",
+  "description": "The Azure MCP Server, bringing the power of Azure to your agents.",
+  "repository": {
+    "url": "https://github.com/Azure/azure-mcp",
+    "source": "github",
+    "id": "967503541"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:35Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "Azure/azure-mcp",
+      "version": ""
+    }
+  ],
+  "remotes": [
+    {
+      "transport_type": "sse",
+      "url": "http://localhost:5008/sse"
+    }
+  ]
+}

@@ -1,30 +1,45 @@
 {
-  "repo_ref": "nkapila6/mcp-local-rag",
+  "id": "93be69a3-6dbf-4e3c-aa47-a4d5a15f0588",
   "name": "io.github.nkapila6/mcp-local-rag",
   "description": "\"primitive\" RAG-like web search model context protocol (MCP) server that runs locally. ✨ no APIs ✨",
-  "version_detail": {
-    "version": "0.0.0"
+  "repository": {
+    "url": "https://github.com/nkapila6/mcp-local-rag",
+    "source": "github",
+    "id": "947802631"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:54Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "mcp-local-rag",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--python=3.10",
-          "--from",
-          "git+https://github.com/nkapila6/mcp-local-rag",
-          "mcp-local-rag"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "mcp-local-rag",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "A named argument for directory.",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory <path where this folder is located>/mcp-local-rag/",
+          "default": "--directory <path where this folder is located>/mcp-local-rag/",
+          "type": "named",
+          "name": "--directory <path where this folder is located>/mcp-local-rag/",
+          "value_hint": "<path where this folder is located>/mcp-local-rag/"
+        },
+        {
+          "description": "A positional argument for the Python script.",
+          "is_required": true,
+          "format": "string",
+          "value": "src/mcp_local_rag/main.py",
+          "default": "src/mcp_local_rag/main.py",
+          "type": "positional",
+          "value_hint": "src/mcp_local_rag/main.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "rag_search",
@@ -51,5 +66,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

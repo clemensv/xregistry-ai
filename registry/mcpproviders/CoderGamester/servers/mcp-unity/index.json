@@ -1,27 +1,24 @@
 {
-  "repo_ref": "CoderGamester/mcp-unity",
-  "name": "io.github.CoderGamester/mcp-unity",
-  "description": "MCP Unity is an implementation of the Model Context Protocol for Unity Editor, allowing AI assistants to interact with your Unity projects. This package provides a bridge between Unity and a Node.js server that implements the MCP protocol, enabling AI agents like Claude, Windsurf, and Cursor to execute operations within the Unity Editor.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "3cccaee3-1b35-4a97-bc23-d1a8603aa366",
+  "name": "io.github.codergamester/mcp-unity",
+  "description": "MCP Server to integrate Unity Editor game engine with different AI Model clients (e.g. Claude Desktop, Windsurf, Cursor)",
+  "repository": {
+    "url": "https://github.com/CoderGamester/mcp-unity",
+    "source": "github",
+    "id": "948148972"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:18Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@coderGamester/mcp-unity",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "main.js"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "com.gamelovers.mcp-unity",
+      "version": "1.0.2"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "menuItemTool",
@@ -116,5 +113,6 @@
       "description": "Retrieve Unity project assets",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

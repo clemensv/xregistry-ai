@@ -1,51 +1,76 @@
 {
-  "repo_ref": "GeLi2001/datadog-mcp-server",
-  "name": "io.github.GeLi2001/datadog-mcp-server",
-  "description": "A Model Context Protocol (MCP) server for interacting with the Datadog API.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "24f2d280-583d-4511-af0c-47910fc52c4d",
+  "name": "io.github.geli2001/datadog-mcp-server",
+  "description": "MCP server interacts with the official Datadog API",
+  "repository": {
+    "url": "https://github.com/GeLi2001/datadog-mcp-server",
+    "source": "github",
+    "id": "960104719"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "datadog-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "DD_API_KEY",
-            "description": "Datadog API key",
-            "required": true
-          },
-          {
-            "name": "DD_APP_KEY",
-            "description": "Datadog Application key",
-            "required": true
-          },
-          {
-            "name": "DD_SITE",
-            "description": "Datadog site domain",
-            "required": false
-          },
-          {
-            "name": "DD_LOGS_SITE",
-            "description": "Datadog logs site domain",
-            "required": false
-          },
-          {
-            "name": "DD_METRICS_SITE",
-            "description": "Datadog metrics site domain",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "datadog-mcp-server",
+      "version": "1.0.8",
+      "package_arguments": [
+        {
+          "description": "<YOUR_API_KEY>",
+          "is_required": true,
+          "format": "string",
+          "value": "--apiKey <YOUR_API_KEY>",
+          "default": "--apiKey <YOUR_API_KEY>",
+          "type": "named",
+          "name": "--apiKey <YOUR_API_KEY>",
+          "value_hint": "<YOUR_API_KEY>"
+        },
+        {
+          "description": "<YOUR_APP_KEY>",
+          "is_required": true,
+          "format": "string",
+          "value": "--appKey <YOUR_APP_KEY>",
+          "default": "--appKey <YOUR_APP_KEY>",
+          "type": "named",
+          "name": "--appKey <YOUR_APP_KEY>",
+          "value_hint": "<YOUR_APP_KEY>"
+        },
+        {
+          "description": "<YOUR_DD_SITE>",
+          "is_required": true,
+          "format": "string",
+          "value": "--site <YOUR_DD_SITE>",
+          "default": "--site <YOUR_DD_SITE>",
+          "type": "named",
+          "name": "--site <YOUR_DD_SITE>",
+          "value_hint": "<YOUR_DD_SITE>"
+        },
+        {
+          "description": "<YOUR_LOGS_SITE>",
+          "is_required": true,
+          "format": "string",
+          "value": "--logsSite <YOUR_LOGS_SITE>",
+          "default": "--logsSite <YOUR_LOGS_SITE>",
+          "type": "named",
+          "name": "--logsSite <YOUR_LOGS_SITE>",
+          "value_hint": "<YOUR_LOGS_SITE>"
+        },
+        {
+          "description": "<YOUR_METRICS_SITE>",
+          "is_required": true,
+          "format": "string",
+          "value": "--metricsSite <YOUR_METRICS_SITE>",
+          "default": "--metricsSite <YOUR_METRICS_SITE>",
+          "type": "named",
+          "name": "--metricsSite <YOUR_METRICS_SITE>",
+          "value_hint": "<YOUR_METRICS_SITE>"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-monitors",
@@ -76,5 +101,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

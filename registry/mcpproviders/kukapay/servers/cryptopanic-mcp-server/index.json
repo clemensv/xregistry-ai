@@ -1,36 +1,24 @@
 {
-  "repo_ref": "kukapay/cryptopanic-mcp-server",
+  "id": "91f75500-0051-4d05-a5b2-9a87aa52ec3a",
   "name": "io.github.kukapay/cryptopanic-mcp-server",
-  "description": "Provide the latest cryptocurrency news to AI agents, powered by CryptoPanic.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Provide latest cryptocurrency news to AI agents.",
+  "repository": {
+    "url": "https://github.com/kukapay/cryptopanic-mcp-server",
+    "source": "github",
+    "id": "946301386"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:05Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "unspecified",
-      "package_name": "unspecified",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/your/path/to/cryptopanic-mcp-server",
-          "run",
-          "main.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "CRYPTOPANIC_API_KEY",
-            "description": "CryptoPanic API key",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "cryptopanic-mcp-server",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_crypto_news",
@@ -51,5 +39,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

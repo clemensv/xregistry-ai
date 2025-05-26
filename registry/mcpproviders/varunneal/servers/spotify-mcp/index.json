@@ -1,30 +1,59 @@
 {
-  "repo_ref": "varunneal/spotify-mcp",
+  "id": "20c38c50-831e-478a-9f52-064d3ad8a6ce",
   "name": "io.github.varunneal/spotify-mcp",
-  "description": "MCP project to connect Claude with Spotify. Built on top of spotipy-dev's API. Supports playback control, search, info retrieval, and queue management.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP to connect your LLM with Spotify.",
+  "repository": {
+    "url": "https://github.com/varunneal/spotify-mcp",
+    "source": "github",
+    "id": "896675928"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:13Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "@modelcontextprotocol/inspector",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/path/to/spotify_mcp",
-          "run",
-          "spotify-mcp"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "spotify-mcp",
+      "version": "0.2.0",
+      "package_arguments": [
+        {
+          "description": "Set the working directory",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/spotify_mcp",
+          "default": "--directory /path/to/spotify_mcp",
+          "type": "named",
+          "name": "--directory /path/to/spotify_mcp",
+          "value_hint": "/path/to/spotify_mcp"
+        },
+        {
+          "description": "Program to run",
+          "is_required": true,
+          "format": "string",
+          "value": "spotify-mcp",
+          "default": "spotify-mcp",
+          "type": "positional",
+          "value_hint": "spotify-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_CLIENT_ID",
+          "name": "SPOTIFY_CLIENT_ID"
+        },
+        {
+          "description": "YOUR_CLIENT_SECRET",
+          "name": "SPOTIFY_CLIENT_SECRET"
+        },
+        {
+          "description": "http://127.0.0.1:8080/callback",
+          "name": "SPOTIFY_REDIRECT_URI"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "SpotifyPlayback",
@@ -120,5 +149,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

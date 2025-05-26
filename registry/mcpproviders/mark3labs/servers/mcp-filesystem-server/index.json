@@ -1,25 +1,44 @@
 {
-  "repo_ref": "mark3labs/mcp-filesystem-server",
+  "id": "93c84b33-4392-41b2-85be-764e5f39da74",
   "name": "io.github.mark3labs/mcp-filesystem-server",
   "description": "Go server implementing Model Context Protocol (MCP) for filesystem operations.",
-  "version_detail": {
-    "version": "0.0.0"
+  "repository": {
+    "url": "https://github.com/mark3labs/mcp-filesystem-server",
+    "source": "github",
+    "id": "895547074"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:25Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "go",
-      "package_name": "github.com/mark3labs/mcp-filesystem-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mark3labs/mcp-filesystem-server",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Run container image",
+          "is_required": true,
+          "format": "string",
+          "value": "ghcr.io/mark3labs/mcp-filesystem-server:latest",
+          "default": "ghcr.io/mark3labs/mcp-filesystem-server:latest",
+          "type": "positional",
+          "value_hint": "ghcr.io/mark3labs/mcp-filesystem-server:latest"
+        },
+        {
+          "description": "Allowed directory path",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/allowed/directory",
+          "default": "/path/to/allowed/directory",
+          "type": "positional",
+          "value_hint": "/path/to/allowed/directory"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "read_file",
@@ -172,5 +191,6 @@
       "uritemplate": "file://system",
       "description": "File system operations interface"
     }
-  ]
+  ],
+  "prompts": []
 }

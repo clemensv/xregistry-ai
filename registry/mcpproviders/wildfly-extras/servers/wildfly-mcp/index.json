@@ -1,10 +1,25 @@
 {
-  "repo_ref": "wildfly-extras/wildfly-mcp",
+  "id": "598ea4ee-6e94-49b7-abce-c53b6b2b22f7",
   "name": "io.github.wildfly-extras/wildfly-mcp",
-  "description": "A WildFly MCP server to integrate with your AI chatbot in order to interact with WildFly server using natural language.",
-  "remotes": [],
-  "registries": [],
-  "prompts": [],
+  "description": "WildFly MCP server and other tooling to integrate WildFly in AI space",
+  "repository": {
+    "url": "https://github.com/wildfly-extras/wildfly-mcp",
+    "source": "github",
+    "id": "919946635"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:51Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "wildfly-extras/wildfly-mcp",
+      "version": ""
+    }
+  ],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

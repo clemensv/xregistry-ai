@@ -1,15 +1,21 @@
 {
+  "id": "io.github.clemensv/mcp-servers",
   "name": "io.github.clemensv/mcp-servers",
   "description": "GitHub integration MCP server providing tooling and resource discovery via GitHub APIs",
+  "repository": {
+    "url": "",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "1.0.2"
   },
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-github-server",
-      "license": "MIT",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "mcp-github-server",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [
           {
             "name": "start",
@@ -31,12 +37,25 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "PORT",
+          "description": "Port to run the server on",
+          "required": false
+        },
+        {
+          "name": "GITHUB_TOKEN",
+          "description": "Personal access token or GitHub App token for API access",
+          "required": true
+        }
+      ],
+      "license": "MIT"
     }
   ],
   "remotes": [
     {
-      "transporttype": "http",
+      "transport_type": "http",
       "url": "https://api.github.com"
     }
   ]

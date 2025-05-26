@@ -1,44 +1,49 @@
 {
-  "repo_ref": "ChristophEnglisch/keycloak-model-context-protocol",
-  "name": "io.github.ChristophEnglisch/keycloak-model-context-protocol",
-  "description": "A Model Context Protocol server for Keycloak administration, providing tools to manage users and realms.",
-  "version_detail": {
-    "version": "0.0.1"
+  "id": "ac8e4d2b-da97-4a40-934b-1c516b4250fe",
+  "name": "io.github.christophenglisch/keycloak-model-context-protocol",
+  "description": "MCP server implementation for Keycloak user management. Enables AI-powered administration of Keycloak users and realms through the Model Context Protocol (MCP). Seamlessly integrates with Claude Desktop and other MCP clients for automated user operations.",
+  "repository": {
+    "url": "https://github.com/ChristophEnglisch/keycloak-model-context-protocol",
+    "source": "github",
+    "id": "912825504"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:50Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "keycloak-model-context-protocol",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "keycloak-model-context-protocol"
-        ],
-        "environment_variables": [
-          {
-            "name": "KEYCLOAK_URL",
-            "description": "URL of the Keycloak server",
-            "required": false
-          },
-          {
-            "name": "KEYCLOAK_ADMIN",
-            "description": "Keycloak admin username",
-            "required": false
-          },
-          {
-            "name": "KEYCLOAK_ADMIN_PASSWORD",
-            "description": "Keycloak admin password",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "keycloak-model-context-protocol",
+      "version": "0.0.2",
+      "package_arguments": [
+        {
+          "description": "Second positional argument to the command",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/dist/index.js",
+          "default": "path/to/dist/index.js",
+          "type": "positional",
+          "value_hint": "path/to/dist/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "http://localhost:8080",
+          "name": "KEYCLOAK_URL"
+        },
+        {
+          "description": "admin",
+          "name": "KEYCLOAK_ADMIN"
+        },
+        {
+          "description": "admin",
+          "name": "KEYCLOAK_ADMIN_PASSWORD"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "create-user",
@@ -116,5 +121,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

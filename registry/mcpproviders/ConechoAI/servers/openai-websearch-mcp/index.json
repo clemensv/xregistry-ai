@@ -1,32 +1,42 @@
 {
-  "repo_ref": "ConechoAI/openai-websearch-mcp",
-  "name": "io.github.ConechoAI/openai-websearch-mcp",
-  "description": "This MCP server provides access to OpenAI's websearch functionality through the Model Context Protocol. It allows AI assistants to search the web during conversations with users, providing up-to-date information that may not be available in the assistant's training data.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "531956a8-df6a-4edd-bb72-36c284c1d7c8",
+  "name": "io.github.conechoai/openai-websearch-mcp",
+  "description": "openai websearch tool as mcp server",
+  "repository": {
+    "url": "https://github.com/ConechoAI/openai-websearch-mcp",
+    "source": "github",
+    "id": "947082641"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:51Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uvx",
-      "package_name": "openai-websearch-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "openai-websearch-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "OPENAI_API_KEY",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "openai-websearch-mcp",
+      "version": "0.4.0",
+      "package_arguments": [
+        {
+          "description": "Run Python module openai_websearch_mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "-m openai_websearch_mcp",
+          "default": "-m openai_websearch_mcp",
+          "type": "named",
+          "name": "-m openai_websearch_mcp",
+          "value_hint": "openai_websearch_mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-api-key-here",
+          "name": "OPENAI_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "web_search",
@@ -87,5 +97,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

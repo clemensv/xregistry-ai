@@ -1,26 +1,33 @@
 {
-  "repo_ref": "awslabs/mcp",
+  "id": "io.github.awslabs/mcp",
   "name": "io.github.awslabs/mcp",
   "description": "A suite of specialized MCP servers that help you get the most out of AWS, wherever you use MCP.",
+  "repository": {
+    "url": "awslabs/mcp",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "python",
-      "package_name": "awslabs/mcp",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "python",
+      "name": "awslabs/mcp",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "server.py"
         ],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

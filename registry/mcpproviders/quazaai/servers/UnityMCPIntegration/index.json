@@ -1,33 +1,30 @@
 {
-  "repo_ref": "quazaai/UnityMCPIntegration",
-  "name": "io.github.quazaai/UnityMCPIntegration",
-  "description": "MCP server providing integration between Model Context Protocol and Unity Editor, enabling AI assistants to interact with Unity projects in real-time, including scene hierarchy, project settings, code execution, logs, and play mode control.",
-  "version_detail": {
-    "version": "0.2.0"
+  "id": "162d7f33-0f96-47d7-980b-361fb0ddc381",
+  "name": "io.github.quazaai/unitymcpintegration",
+  "description": "Enable AI Agents to Control Unity",
+  "repository": {
+    "url": "https://github.com/quazaai/UnityMCPIntegration",
+    "source": "github",
+    "id": "950083186"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@quazaai/unitymcpintegration",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "path-to-project>\\Library\\PackageCache\\com.quaza.unitymcp@d2b8f1260bca\\mcpServer\\mcpServer\\build\\index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "MCP_WEBSOCKET_PORT",
-            "description": "Port for WebSocket server",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "com.quaza.unitymcp",
+      "version": "0.0.1",
+      "environment_variables": [
+        {
+          "description": "5010",
+          "name": "MCP_WEBSOCKET_PORT"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_current_scene_info",
@@ -379,5 +376,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

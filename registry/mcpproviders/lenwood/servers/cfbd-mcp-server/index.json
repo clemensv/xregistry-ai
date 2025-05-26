@@ -1,125 +1,40 @@
 {
-  "repo_ref": "lenwood/cfbd-mcp-server",
+  "id": "9fcb3e74-e8af-4b55-9bfc-808fa2560148",
   "name": "io.github.lenwood/cfbd-mcp-server",
-  "description": "An MCP server implementation providing access to college football statistics sourced from the College Football Data API within Claude Desktop. Enables AI assistants and applications to query comprehensive college football statistics and data including game results, team records, player statistics, play-by-play data, rankings, and win probability metrics using natural language.",
-  "version_detail": {
-    "version": "0.4.0"
+  "description": "An MCP server enabling CFBD API queries within Claude Desktop.",
+  "repository": {
+    "url": "https://github.com/lenwood/cfbd-mcp-server",
+    "source": "github",
+    "id": "906271992"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@smithery/cfbd",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@smithery/cli",
-          "install",
-          "cfbd",
-          "--client",
-          "claude"
-        ],
-        "environment_variables": [
-          {
-            "name": "CFB_API_KEY",
-            "description": "API key for College Football Data API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "analyze-game",
-      "description": "Get detailed analysis of a specific game",
-      "arguments": [
+      "registry_name": "pypi",
+      "name": "cfbd-mcp-server",
+      "version": "0.5.0",
+      "package_arguments": [
         {
-          "name": "game_id",
-          "description": "Game ID to analyze",
-          "required": true
-        },
-        {
-          "name": "include_advanced_stats",
-          "description": "Whether to include advanced statistics (true/false)",
-          "required": false
+          "is_required": true,
+          "format": "string",
+          "value": "cfbd-mcp-server",
+          "default": "cfbd-mcp-server",
+          "type": "positional",
+          "value_hint": "cfbd-mcp-server"
         }
-      ]
-    },
-    {
-      "name": "analyze-team",
-      "description": "Analyze a team's performance for a given season",
-      "arguments": [
+      ],
+      "environment_variables": [
         {
-          "name": "team",
-          "description": "Team name (e.g. Alabama)",
-          "required": true
+          "description": "xxx",
+          "name": "CFB_API_KEY"
         },
         {
-          "name": "year",
-          "description": "Season year",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "analyze-trends",
-      "description": "Analyze trends over a season",
-      "arguments": [
-        {
-          "name": "year",
-          "description": "Season year",
-          "required": true
-        },
-        {
-          "name": "metric",
-          "description": "Metric to analyze (scoring, attendance, upsets)",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "compare-teams",
-      "description": "Compare the performance of two teams",
-      "arguments": [
-        {
-          "name": "team1",
-          "description": "First team name",
-          "required": true
-        },
-        {
-          "name": "team2",
-          "description": "Second team name",
-          "required": true
-        },
-        {
-          "name": "year",
-          "description": "Season year",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "analyze-rivalry",
-      "description": "Analyze historical rivalry matchups",
-      "arguments": [
-        {
-          "name": "team1",
-          "description": "First team name",
-          "required": true
-        },
-        {
-          "name": "team2",
-          "description": "Second team name",
-          "required": true
-        },
-        {
-          "name": "start_year",
-          "description": "Starting year for analysis",
-          "required": false
+          "description": "/full/path/to/python",
+          "name": "PATH"
         }
       ]
     }
@@ -255,6 +170,98 @@
       "name": "Advanced box score endpoint",
       "description": "Schema for the advanced box score endpoint",
       "mimetype": "text/plain"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "analyze-game",
+      "description": "Get detailed analysis of a specific game",
+      "arguments": [
+        {
+          "name": "game_id",
+          "description": "Game ID to analyze",
+          "required": true
+        },
+        {
+          "name": "include_advanced_stats",
+          "description": "Whether to include advanced statistics (true/false)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "analyze-team",
+      "description": "Analyze a team's performance for a given season",
+      "arguments": [
+        {
+          "name": "team",
+          "description": "Team name (e.g. Alabama)",
+          "required": true
+        },
+        {
+          "name": "year",
+          "description": "Season year",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "analyze-trends",
+      "description": "Analyze trends over a season",
+      "arguments": [
+        {
+          "name": "year",
+          "description": "Season year",
+          "required": true
+        },
+        {
+          "name": "metric",
+          "description": "Metric to analyze (scoring, attendance, upsets)",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "compare-teams",
+      "description": "Compare the performance of two teams",
+      "arguments": [
+        {
+          "name": "team1",
+          "description": "First team name",
+          "required": true
+        },
+        {
+          "name": "team2",
+          "description": "Second team name",
+          "required": true
+        },
+        {
+          "name": "year",
+          "description": "Season year",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "analyze-rivalry",
+      "description": "Analyze historical rivalry matchups",
+      "arguments": [
+        {
+          "name": "team1",
+          "description": "First team name",
+          "required": true
+        },
+        {
+          "name": "team2",
+          "description": "Second team name",
+          "required": true
+        },
+        {
+          "name": "start_year",
+          "description": "Starting year for analysis",
+          "required": false
+        }
+      ]
     }
   ]
 }

@@ -1,36 +1,24 @@
 {
-  "repo_ref": "Vortiago/mcp-azure-devops",
-  "name": "io.github.Vortiago/mcp-azure-devops",
-  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services. This server provides a bridge between natural language interactions and the Azure DevOps REST API, supporting work item management, project management, and team management features.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "4502246b-f419-4879-a179-149c6d87a871",
+  "name": "io.github.vortiago/mcp-azure-devops",
+  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services via Python SDK.",
+  "repository": {
+    "url": "https://github.com/Vortiago/mcp-azure-devops",
+    "source": "github",
+    "id": "948085438"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:42Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-azure-devops",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "AZURE_DEVOPS_PAT",
-            "description": "Personal Access Token for Azure DevOps API access",
-            "required": true
-          },
-          {
-            "name": "AZURE_DEVOPS_ORGANIZATION_URL",
-            "description": "Full URL to the Azure DevOps organization",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-azure-devops",
+      "version": "0.6.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "query_work_items",
@@ -72,5 +60,6 @@
       "description": "List of teams within the organization.",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

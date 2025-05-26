@@ -1,25 +1,24 @@
 {
-  "repo_ref": "lingodotdev/lingo.dev",
-  "name": "io.github.lingodotdev/lingo",
-  "description": "Lingo.dev MCP Server providing AI-powered localization tools via Model Context Protocol.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "1e2d718a-95b0-460b-8e57-86feec5356ce",
+  "name": "io.github.lingodotdev/lingo.dev",
+  "description": "⚡️ Open-source AI-powered CLI for web & mobile localization. Bring your own LLM or use Lingo.dev-managed localization engine.",
+  "repository": {
+    "url": "https://github.com/lingodotdev/lingo.dev",
+    "source": "github",
+    "id": "771479895"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:10Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@lingo.dev/cli",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@lingo.dev",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "translate",
@@ -42,5 +41,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

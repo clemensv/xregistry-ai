@@ -1,34 +1,86 @@
 {
-  "repo_ref": "ProgramComputer/NASA-MCP-server",
-  "name": "io.github.ProgramComputer/NASA-MCP-server",
-  "description": "Model Context Protocol server for NASA APIs",
-  "version_detail": {
-    "version": "1.0.11"
+  "id": "6a44b030-46c7-4390-adf2-2a75652dee27",
+  "name": "io.github.programcomputer/nasa-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for NASA APIs, providing a standardized interface for AI models to interact with NASA's vast array of data sources.",
+  "repository": {
+    "url": "https://github.com/ProgramComputer/NASA-MCP-server",
+    "source": "github",
+    "id": "943596518"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:01Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@programcomputer/nasa-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@programcomputer/nasa-mcp-server@latest"
-        ],
-        "environment_variables": [
-          {
-            "name": "NASA_API_KEY",
-            "description": "Your NASA API key (get at api.nasa.gov)",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@programcomputer/nasa-mcp-server",
+      "version": "1.0.12",
+      "package_arguments": [
+        {
+          "description": "Comma-separated list",
+          "is_required": true,
+          "format": "string",
+          "value": "T2M,PRECTOTCORR,WS10M",
+          "default": "T2M,PRECTOTCORR,WS10M",
+          "type": "named",
+          "name": "T2M,PRECTOTCORR,WS10M",
+          "value_hint": "T2M,PRECTOTCORR,WS10M"
+        },
+        {
+          "description": "Community identifier",
+          "is_required": true,
+          "format": "string",
+          "value": "re",
+          "default": "re",
+          "type": "named",
+          "name": "re",
+          "value_hint": "re"
+        },
+        {
+          "description": "Latitude",
+          "is_required": true,
+          "format": "string",
+          "value": "40.7128",
+          "default": "40.7128",
+          "type": "named",
+          "name": "40.7128",
+          "value_hint": "40.7128"
+        },
+        {
+          "description": "Longitude",
+          "is_required": true,
+          "format": "string",
+          "value": "-74.0060",
+          "default": "-74.0060",
+          "type": "named",
+          "name": "-74.0060",
+          "value_hint": "-74.0060"
+        },
+        {
+          "description": "Start date (YYYYMMDD)",
+          "is_required": true,
+          "format": "string",
+          "value": "20220101",
+          "default": "20220101",
+          "type": "named",
+          "name": "20220101",
+          "value_hint": "20220101"
+        },
+        {
+          "description": "End date (YYYYMMDD)",
+          "is_required": true,
+          "format": "string",
+          "value": "20220107",
+          "default": "20220107",
+          "type": "named",
+          "name": "20220107",
+          "value_hint": "20220107"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "nasa_apod",
@@ -900,5 +952,6 @@
       "description": "NASA Earth Landsat satellite imagery",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

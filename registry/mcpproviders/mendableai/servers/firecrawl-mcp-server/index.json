@@ -1,45 +1,24 @@
 {
-  "repo_ref": "mendableai/firecrawl-mcp-server",
+  "id": "13b91785-9041-468d-a136-e6c9e9dd7be9",
   "name": "io.github.mendableai/firecrawl-mcp-server",
-  "description": "A Model Context Protocol (MCP) server implementation that integrates with Firecrawl for web scraping capabilities.",
-  "version_detail": {
-    "version": "1.7.0"
+  "description": "Official Firecrawl MCP Server - Adds powerful web scraping to Cursor, Claude and any other LLM clients.",
+  "repository": {
+    "url": "https://github.com/mendableai/firecrawl-mcp-server",
+    "source": "github",
+    "id": "899407931"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "mendableai/firecrawl-mcp:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "firecrawl-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "firecrawl-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "FIRECRAWL_API_KEY",
-            "description": "API key for Firecrawl",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "firecrawl-mcp",
+      "version": "1.9.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "firecrawl_scrape",
@@ -552,5 +531,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

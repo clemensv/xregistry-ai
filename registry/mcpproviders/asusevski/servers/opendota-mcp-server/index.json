@@ -1,34 +1,54 @@
 {
-  "repo_ref": "asusevski/opendota-mcp-server",
+  "id": "a81b1d9e-c1a5-4848-a3f5-350ea2872ae3",
   "name": "io.github.asusevski/opendota-mcp-server",
-  "description": "A Model Context Protocol (MCP) server implementation for accessing OpenDota API data. This server enables LLMs and AI assistants to retrieve real-time Dota 2 statistics, match data, player information, and more through a standard interface.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/asusevski/opendota-mcp-server",
+    "source": "github",
+    "id": "941719334"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:06Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "opendota-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-m",
-          "src.opendota_server.server"
-        ],
-        "environment_variables": [
-          {
-            "name": "OPENDOTA_API_KEY",
-            "description": "OpenDota API key",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "opendota-mcp-server",
+      "version": "0.1.1",
+      "package_arguments": [
+        {
+          "description": "bash",
+          "is_required": true,
+          "format": "string",
+          "value": "bash",
+          "default": "bash",
+          "type": "positional",
+          "value_hint": "bash"
+        },
+        {
+          "description": "-c",
+          "is_required": true,
+          "format": "string",
+          "value": "-c",
+          "default": "-c",
+          "type": "named",
+          "name": "-c",
+          "value_hint": "-c"
+        },
+        {
+          "description": "cd ~/opendota-mcp-server && source .venv/bin/activate && python src/opendota_server/server.py",
+          "is_required": true,
+          "format": "string",
+          "value": "cd ~/opendota-mcp-server && source .venv/bin/activate && python src/opendota_server/server.py",
+          "default": "cd ~/opendota-mcp-server && source .venv/bin/activate && python src/opendota_server/server.py",
+          "type": "positional",
+          "value_hint": "cd ~/opendota-mcp-server && source .venv/bin/activate && python src/opendota_server/server.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_player_by_id",
@@ -99,5 +119,6 @@
       "description": "Get heroes played in a specific match"
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,45 +1,24 @@
 {
-  "repo_ref": "longyi1207/glean-mcp-server",
+  "id": "39d0e161-edcd-4ad5-bdc6-9c3d29908ed4",
   "name": "io.github.longyi1207/glean-mcp-server",
-  "description": "An MCP server implementation that integrates the Glean API, providing the Search and Chat functions.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/longyi1207/glean-mcp-server",
+    "source": "github",
+    "id": "913663339"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:09Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "glean-server:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "-i",
-          "--rm",
-          "-e",
-          "GLEAN_API_KEY",
-          "-e",
-          "GLEAN_DOMAIN",
-          "glean-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "GLEAN_API_KEY",
-            "description": "API key for Glean",
-            "required": true
-          },
-          {
-            "name": "GLEAN_DOMAIN",
-            "description": "Domain for Glean API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@modelcontextprotocol/glean",
+      "version": "0.6.2"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search",
@@ -74,5 +53,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

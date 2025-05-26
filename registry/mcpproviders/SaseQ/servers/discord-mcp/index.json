@@ -1,34 +1,41 @@
 {
-  "repo_ref": "SaseQ/discord-mcp",
-  "name": "io.github.SaseQ/discord-mcp",
-  "description": "A Model Context Protocol (MCP) server for the Discord API (JDA), allowing seamless integration of Discord Bot with MCP-compatible applications like Claude Desktop.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "ae4c8106-9947-4577-924e-c7106256dd69",
+  "name": "io.github.saseq/discord-mcp",
+  "description": "A MCP server for the Discord integration. Enable your AI assistants to seamlessly interact with Discord. Enhance your Discord experience with powerful automation capabilities.",
+  "repository": {
+    "url": "https://github.com/SaseQ/discord-mcp",
+    "source": "github",
+    "id": "948723723"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:56Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "java",
-      "package_name": "@SaseQ/discord-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-jar",
-          "/absolute/path/to/discord-mcp-0.0.1-SNAPSHOT.jar"
-        ],
-        "environment_variables": [
-          {
-            "name": "DISCORD_TOKEN",
-            "description": "Discord bot token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "SaseQ/discord-mcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Second positional argument",
+          "is_required": true,
+          "format": "string",
+          "value": "https://gitmcp.io/SaseQ/discord-mcp",
+          "default": "https://gitmcp.io/SaseQ/discord-mcp",
+          "type": "positional",
+          "value_hint": "https://gitmcp.io/SaseQ/discord-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_DISCORD_BOT_TOKEN",
+          "name": "DISCORD_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_server_info",
@@ -185,5 +192,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

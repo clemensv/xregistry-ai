@@ -1,0 +1,32 @@
+{
+  "id": "5bf6d045-dc83-4b51-858f-eb9c3403087f",
+  "name": "io.github.gongrzhe/image-generation-mcp-server",
+  "description": "This MCP server provides image generation capabilities using the Replicate Flux model.",
+  "repository": {
+    "url": "https://github.com/GongRzhe/Image-Generation-MCP-Server",
+    "source": "github",
+    "id": "937552153"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:22Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@gongrzhe/image-gen-server",
+      "version": "1.0.1",
+      "environment_variables": [
+        {
+          "description": "your-replicate-api-token",
+          "name": "REPLICATE_API_TOKEN"
+        },
+        {
+          "description": "alternative-model-name",
+          "name": "MODEL"
+        }
+      ]
+    }
+  ]
+}

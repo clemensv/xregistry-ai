@@ -1,44 +1,40 @@
 {
-  "repo_ref": "RamXX/mcp-tavily",
-  "name": "io.github.RamXX/mcp-tavily",
-  "description": "A Model Context Protocol server that provides AI-powered web search capabilities using Tavily's search API. This server enables LLMs to perform sophisticated web searches, get direct answers to questions, and search recent news articles with AI-extracted relevant content.",
-  "version_detail": {
-    "version": "0.1.4"
+  "id": "bdeb1cca-49ce-476a-87a2-f27c30b086bd",
+  "name": "io.github.ramxx/mcp-tavily",
+  "description": "An MCP server for Tavily's search API",
+  "repository": {
+    "url": "https://github.com/RamXX/mcp-tavily",
+    "source": "github",
+    "id": "896967375"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:30Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-tavily",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-tavily"
-        ],
-        "environment_variables": [
-          {
-            "name": "TAVILY_API_KEY",
-            "description": "API key for Tavily service",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "tavily_web_search",
-      "description": "Search the web using Tavily's AI-powered search engine"
-    },
-    {
-      "name": "tavily_answer_search",
-      "description": "Search the web and get an AI-generated answer with supporting evidence"
-    },
-    {
-      "name": "tavily_news_search",
-      "description": "Search recent news articles with Tavily's news search"
+      "registry_name": "unknown",
+      "name": "mcp_tavily",
+      "version": "0.1.8",
+      "package_arguments": [
+        {
+          "description": "Python module execution: -m mcp_server_tavily",
+          "is_required": true,
+          "format": "string",
+          "value": "-m mcp_server_tavily",
+          "default": "-m mcp_server_tavily",
+          "type": "named",
+          "name": "-m mcp_server_tavily",
+          "value_hint": "mcp_server_tavily"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "TAVILY_API_KEY"
+        }
+      ]
     }
   ],
   "tools": [
@@ -184,5 +180,19 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": [
+    {
+      "name": "tavily_web_search",
+      "description": "Search the web using Tavily's AI-powered search engine"
+    },
+    {
+      "name": "tavily_answer_search",
+      "description": "Search the web and get an AI-generated answer with supporting evidence"
+    },
+    {
+      "name": "tavily_news_search",
+      "description": "Search recent news articles with Tavily's news search"
+    }
+  ]
 }

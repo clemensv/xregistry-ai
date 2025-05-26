@@ -1,25 +1,31 @@
 {
-  "repo_ref": "InditexTech/mcp-teams-server",
-  "name": "io.github.InditexTech/mcp-teams-server",
+  "id": "71120aef-743c-47ee-bb7d-3b215c7f22a7",
+  "name": "io.github.inditextech/mcp-teams-server",
   "description": "An MCP (Model Context Protocol) server implementation for Microsoft Teams integration, providing capabilities to read messages, create messages, reply to messages, mention members.",
-  "version_detail": {
-    "version": "0.0.0"
+  "repository": {
+    "url": "https://github.com/InditexTech/mcp-teams-server",
+    "source": "github",
+    "id": "950628723"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:23Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "ghcr.io/inditextech/mcp-teams-server:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "mcp-teams-server",
+      "version": "1.0.4",
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

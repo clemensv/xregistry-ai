@@ -1,13 +1,36 @@
 {
-  "repo_ref": "stefanoamorelli/nasdaq-data-link-mcp",
+  "id": "9326c18e-b2fb-4012-a170-cdd5753f0b1e",
   "name": "io.github.stefanoamorelli/nasdaq-data-link-mcp",
-  "description": "A community developed and maintained Model Context Protocol (MCP) server that provides access to Nasdaq Data Link financial and economic datasets through natural language interfaces and large language models.",
-  "version_detail": {
-    "version": "0.1.2"
+  "description": "A Nasdaq Data Link MCP (Model Context Protocol) Server",
+  "repository": {
+    "url": "https://github.com/stefanoamorelli/nasdaq-data-link-mcp",
+    "source": "github",
+    "id": "957599131"
   },
-  "remotes": [],
-  "registries": [],
-  "prompts": [],
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:03Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "nasdaq-data-link-mcp-os",
+      "version": "0.1.3",
+      "package_arguments": [
+        {
+          "description": "investment_company_type argument",
+          "is_required": true,
+          "format": "string",
+          "value": "investment_company_type N-1A",
+          "default": "investment_company_type N-1A",
+          "type": "named",
+          "name": "investment_company_type N-1A",
+          "value_hint": "N-1A"
+        }
+      ]
+    }
+  ],
   "tools": [
     {
       "name": "get_indicator_value",
@@ -300,5 +323,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,25 +1,24 @@
 {
-  "repo_ref": "scorzeth/anki-mcp-server",
+  "id": "1cc26407-7ab5-44dd-b5a2-99efd6fcb757",
   "name": "io.github.scorzeth/anki-mcp-server",
-  "description": "An MCP server implementation that connects to a locally running Anki, providing card review and creation.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "An MCP server for Anki",
+  "repository": {
+    "url": "https://github.com/scorzeth/anki-mcp-server",
+    "source": "github",
+    "id": "901609361"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:53Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "anki-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@scorzeth/anki-mcp-server",
+      "version": "1.0.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "update_cards",
@@ -119,5 +118,6 @@
       "description": "Returns all unseen cards",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

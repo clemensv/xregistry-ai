@@ -1,0 +1,54 @@
+{
+  "id": "b3dbb84c-3e48-4cbc-a581-bb9ebe133cb4",
+  "name": "io.github.ariadng/metatrader-mcp-server",
+  "description": "Model Context Protocol (MCP) to enable AI LLMs to trade using MetaTrader platform",
+  "repository": {
+    "url": "https://github.com/ariadng/metatrader-mcp-server",
+    "source": "github",
+    "id": "963828488"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:09Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "metatrader-mcp-server",
+      "version": "0.2.8",
+      "package_arguments": [
+        {
+          "description": "<YOUR_MT5_LOGIN>",
+          "is_required": true,
+          "format": "string",
+          "value": "--login <YOUR_MT5_LOGIN>",
+          "default": "--login <YOUR_MT5_LOGIN>",
+          "type": "named",
+          "name": "--login <YOUR_MT5_LOGIN>",
+          "value_hint": "<YOUR_MT5_LOGIN>"
+        },
+        {
+          "description": "<YOUR_MT5_PASSWORD>",
+          "is_required": true,
+          "format": "string",
+          "value": "--password <YOUR_MT5_PASSWORD>",
+          "default": "--password <YOUR_MT5_PASSWORD>",
+          "type": "named",
+          "name": "--password <YOUR_MT5_PASSWORD>",
+          "value_hint": "<YOUR_MT5_PASSWORD>"
+        },
+        {
+          "description": "<YOUR_MT5_SERVER>",
+          "is_required": true,
+          "format": "string",
+          "value": "--server <YOUR_MT5_SERVER>",
+          "default": "--server <YOUR_MT5_SERVER>",
+          "type": "named",
+          "name": "--server <YOUR_MT5_SERVER>",
+          "value_hint": "<YOUR_MT5_SERVER>"
+        }
+      ]
+    }
+  ]
+}

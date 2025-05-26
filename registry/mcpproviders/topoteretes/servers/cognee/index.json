@@ -1,31 +1,24 @@
 {
-  "repo_ref": "topoteretes/cognee",
+  "id": "ae9ce022-800d-4a10-a452-5bc396d25430",
   "name": "io.github.topoteretes/cognee",
-  "description": "Build dynamic Agent memory using scalable, modular ECL (Extract, Cognify, Load) pipelines.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "Memory for AI Agents in 5 lines of code",
+  "repository": {
+    "url": "https://github.com/topoteretes/cognee",
+    "source": "github",
+    "id": "679343504"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:43Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "cognee",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "LLM_API_KEY",
-            "description": "API key for LLM provider",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "cognee",
+      "version": "0.1.40"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "cognify",
@@ -95,5 +88,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

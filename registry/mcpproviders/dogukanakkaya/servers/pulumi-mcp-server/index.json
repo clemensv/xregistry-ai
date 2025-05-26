@@ -1,31 +1,81 @@
 {
-  "repo_ref": "dogukanakkaya/pulumi-mcp-server",
+  "id": "4f9043b6-e17a-494e-89d4-52c3f39999ac",
   "name": "io.github.dogukanakkaya/pulumi-mcp-server",
-  "description": "MCP server exposing Pulumi stacks and tooling via Model Context Protocol",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/dogukanakkaya/pulumi-mcp-server",
+    "source": "github",
+    "id": "951615631"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "PULUMI_ACCESS_TOKEN",
-            "description": "Pulumi access token environment variable",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "pulumi-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "--name pulumi-mcp-server",
+          "is_required": true,
+          "format": "string",
+          "value": "--name pulumi-mcp-server",
+          "default": "--name pulumi-mcp-server",
+          "type": "named",
+          "name": "--name pulumi-mcp-server",
+          "value_hint": "pulumi-mcp-server"
+        },
+        {
+          "description": "-e PULUMI_ACCESS_TOKEN",
+          "is_required": true,
+          "format": "string",
+          "value": "-e PULUMI_ACCESS_TOKEN",
+          "default": "-e PULUMI_ACCESS_TOKEN",
+          "type": "named",
+          "name": "-e PULUMI_ACCESS_TOKEN",
+          "value_hint": "PULUMI_ACCESS_TOKEN"
+        },
+        {
+          "description": "dogukanakkaya/pulumi-mcp-server",
+          "is_required": true,
+          "format": "string",
+          "value": "dogukanakkaya/pulumi-mcp-server",
+          "default": "dogukanakkaya/pulumi-mcp-server",
+          "type": "positional",
+          "value_hint": "dogukanakkaya/pulumi-mcp-server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "${YOUR_TOKEN}",
+          "name": "PULUMI_ACCESS_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "create_pulumi_stack",
@@ -59,5 +109,6 @@
       "name": "Pulumi Stacks",
       "uritemplate": "pulumi://{organization}"
     }
-  ]
+  ],
+  "prompts": []
 }

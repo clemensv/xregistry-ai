@@ -1,44 +1,71 @@
 {
-  "repo_ref": "co-browser/browser-use-mcp-server",
+  "id": "27b05d20-fd9c-437d-a86c-923629491ff5",
   "name": "io.github.co-browser/browser-use-mcp-server",
-  "description": "An MCP server that enables AI agents to control web browsers using browser-use.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Browse the web, directly from Cursor etc.",
+  "repository": {
+    "url": "https://github.com/co-browser/browser-use-mcp-server",
+    "source": "github",
+    "id": "943806192"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:07Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:8000/sse",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "browser-use-mcp-server",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "server",
+          "is_required": true,
+          "format": "string",
+          "value": "server",
+          "default": "server",
+          "type": "positional",
+          "value_hint": "server"
+        },
+        {
+          "description": "--port 8000",
+          "is_required": true,
+          "format": "string",
+          "value": "--port 8000",
+          "default": "--port 8000",
+          "type": "named",
+          "name": "--port 8000",
+          "value_hint": "8000"
+        },
+        {
+          "description": "--stdio",
+          "is_required": true,
+          "format": "string",
+          "value": "--stdio",
+          "default": "--stdio",
+          "type": "named",
+          "name": "--stdio"
+        },
+        {
+          "description": "--proxy-port 9000",
+          "is_required": true,
+          "format": "string",
+          "value": "--proxy-port 9000",
+          "default": "--proxy-port 9000",
+          "type": "named",
+          "name": "--proxy-port 9000",
+          "value_hint": "9000"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "OPENAI_API_KEY"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "python",
-      "package_name": "browser-use-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "server",
-          "--port",
-          "8000",
-          "--stdio",
-          "--proxy-port",
-          "9000"
-        ],
-        "environment_variables": [
-          {
-            "name": "OPENAI_API_KEY",
-            "description": "API key for OpenAI",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

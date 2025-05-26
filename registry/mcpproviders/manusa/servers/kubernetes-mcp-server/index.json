@@ -1,28 +1,25 @@
 {
-  "repo_ref": "manusa/kubernetes-mcp-server",
+  "id": "4a097d31-ea39-43aa-9af5-6f19a7676901",
   "name": "io.github.manusa/kubernetes-mcp-server",
-  "description": "A powerful and flexible Kubernetes Model Context Protocol (MCP) server implementation with support for Kubernetes and OpenShift.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+  "repository": {
+    "url": "https://github.com/manusa/kubernetes-mcp-server",
+    "source": "github",
+    "id": "930678258"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:03Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "kubernetes-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "kubernetes-mcp-server@latest"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "manusa/kubernetes-mcp-server",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

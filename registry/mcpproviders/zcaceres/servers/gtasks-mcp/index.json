@@ -1,27 +1,24 @@
 {
-  "repo_ref": "zcaceres/gtasks-mcp",
+  "id": "5486801a-8243-44ae-8d59-2e9a02c13a8e",
   "name": "io.github.zcaceres/gtasks-mcp",
-  "description": "This MCP server integrates with Google Tasks to allow listing, reading, searching, creating, updating, and deleting tasks.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A Google Tasks Model Context Protocol Server for Claude",
+  "repository": {
+    "url": "https://github.com/zcaceres/gtasks-mcp",
+    "source": "github",
+    "id": "904953715"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:42Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@zcaceres/gtasks",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "dist/index.js"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@modelcontextprotocol/server-gtasks",
+      "version": "0.0.1"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search",
@@ -170,5 +167,6 @@
       "description": "Represents individual tasks in Google Tasks. Supports reading task details including title, status, due date, notes, and other metadata. Can be listed, read, created, updated, and deleted using the provided tools.",
       "mimetype": "text/plain"
     }
-  ]
+  ],
+  "prompts": []
 }

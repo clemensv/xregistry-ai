@@ -1,42 +1,46 @@
 {
-  "repo_ref": "GeLi2001/shopify-mcp",
-  "name": "io.github.GeLi2001/shopify-mcp",
-  "description": "MCP Server for Shopify API, enabling interaction with store data through GraphQL API",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "fcde90d4-5b99-4262-8101-7a507bf05915",
+  "name": "io.github.geli2001/shopify-mcp",
+  "description": "MCP server for Shopify api, usable on mcp clients such as Anthropic's Claude and Cursor IDE",
+  "repository": {
+    "url": "https://github.com/GeLi2001/shopify-mcp",
+    "source": "github",
+    "id": "958329576"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "shopify-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "shopify-mcp",
-          "--accessToken",
-          "<YOUR_ACCESS_TOKEN>",
-          "--domain",
-          "<YOUR_SHOP>.myshopify.com"
-        ],
-        "environment_variables": [
-          {
-            "name": "SHOPIFY_ACCESS_TOKEN",
-            "description": "Shopify API access token",
-            "required": true
-          },
-          {
-            "name": "MYSHOPIFY_DOMAIN",
-            "description": "Shopify store domain",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "shopify-mcp",
+      "version": "1.0.5",
+      "package_arguments": [
+        {
+          "description": "--accessToken <YOUR_ACCESS_TOKEN>",
+          "is_required": true,
+          "format": "string",
+          "value": "--accessToken <YOUR_ACCESS_TOKEN>",
+          "default": "--accessToken <YOUR_ACCESS_TOKEN>",
+          "type": "named",
+          "name": "--accessToken <YOUR_ACCESS_TOKEN>",
+          "value_hint": "<YOUR_ACCESS_TOKEN>"
+        },
+        {
+          "description": "--domain <YOUR_SHOP>.myshopify.com",
+          "is_required": true,
+          "format": "string",
+          "value": "--domain <YOUR_SHOP>.myshopify.com",
+          "default": "--domain <YOUR_SHOP>.myshopify.com",
+          "type": "named",
+          "name": "--domain <YOUR_SHOP>.myshopify.com",
+          "value_hint": "<YOUR_SHOP>.myshopify.com"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-products",
@@ -309,5 +313,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

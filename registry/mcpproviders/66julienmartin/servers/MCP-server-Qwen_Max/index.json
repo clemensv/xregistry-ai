@@ -1,33 +1,30 @@
 {
-  "repo_ref": "66julienmartin/MCP-server-Qwen_Max",
-  "name": "io.github.66julienmartin/MCP-server-Qwen_Max",
-  "description": "A Model Context Protocol (MCP) server implementation for the Qwen Max language model.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "92c66a82-172a-45e6-92a4-ee6a053e95e6",
+  "name": "io.github.66julienmartin/mcp-server-qwen_max",
+  "description": "MCP server for Qwen Max model",
+  "repository": {
+    "url": "https://github.com/66julienmartin/MCP-server-Qwen_Max",
+    "source": "github",
+    "id": "927217229"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:07Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@66julienmartin/mcp-server-qwen_max",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/path/to/Qwen_Max/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "DASHSCOPE_API_KEY",
-            "description": "API key for Dashscope",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "qwen_max",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your-api-key-here",
+          "name": "DASHSCOPE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "qwen_max",
@@ -58,5 +55,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

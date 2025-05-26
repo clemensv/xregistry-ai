@@ -1,36 +1,36 @@
 {
-  "repo_ref": "atharvagupta2003/mcp-stripe",
+  "id": "e532ff07-269a-47fb-98ad-6315d7081ccb",
   "name": "io.github.atharvagupta2003/mcp-stripe",
-  "description": "A Model Context Protocol (MCP) server implementation that integrates with Stripe for handling payments, customers, and refunds. This server provides a structured API to manage financial transactions securely.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/atharvagupta2003/mcp-stripe",
+    "source": "github",
+    "id": "928410809"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "@atharvagupta2003/mcp-stripe",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/ABSOLUTE/PATH/TO/PARENT/FOLDER/src",
-          "run",
-          "server.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "STRIPE_API_KEY",
-            "description": "Stripe secret API key",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-stripe",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "charge_id argument",
+          "is_required": true,
+          "format": "string",
+          "value": "charge_id ch_abc123",
+          "default": "charge_id ch_abc123",
+          "type": "named",
+          "name": "charge_id ch_abc123",
+          "value_hint": "ch_abc123"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "customer_create",
@@ -129,5 +129,6 @@
       "description": "Stores audit logs of customer, payment, and refund operations; supports structured logging for better traceability; uses MCP resource endpoints to retrieve audit data",
       "uritemplate": "/audit/logs"
     }
-  ]
+  ],
+  "prompts": []
 }

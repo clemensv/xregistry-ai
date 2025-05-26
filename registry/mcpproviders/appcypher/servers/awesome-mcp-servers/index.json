@@ -1,0 +1,22 @@
+{
+  "id": "0007544a-3948-4934-866b-b4a96fe53b55",
+  "name": "io.github.appcypher/awesome-mcp-servers",
+  "description": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
+  "repository": {
+    "url": "https://github.com/appcypher/awesome-mcp-servers",
+    "source": "github",
+    "id": "895801050"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:40Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "appcypher/awesome-mcp-servers",
+      "version": ""
+    }
+  ]
+}

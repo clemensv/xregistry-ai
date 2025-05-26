@@ -1,27 +1,24 @@
 {
-  "repo_ref": "Flux159/mcp-server-kubernetes",
-  "name": "io.github.Flux159/mcp-server-kubernetes",
-  "description": "MCP Server that can connect to a Kubernetes cluster and manage it.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "6a4d324e-7d12-495c-b72c-fe5803363af1",
+  "name": "io.github.flux159/mcp-server-kubernetes",
+  "description": "MCP Server for kubernetes management commands",
+  "repository": {
+    "url": "https://github.com/Flux159/mcp-server-kubernetes",
+    "source": "github",
+    "id": "900130551"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:01Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "bun",
-      "package_name": "mcp-server-kubernetes",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-server-kubernetes"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-kubernetes",
+      "version": "1.6.2"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "cleanup",
@@ -1007,5 +1004,6 @@
       "description": "List of all nodes in the cluster",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

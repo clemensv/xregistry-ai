@@ -1,48 +1,24 @@
 {
-  "repo_ref": "v-3/google-calendar",
+  "id": "165ef95f-bfb3-4b08-b523-d17748fdfe31",
   "name": "io.github.v-3/google-calendar",
-  "description": "This MCP server allows Claude to interact with your Google Calendar, enabling capabilities like listing events, creating meetings, and finding free time slots.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/v-3/google-calendar",
+    "source": "github",
+    "id": "906921955"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:31Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/google-calendar-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "GOOGLE_CLIENT_ID",
-            "description": "Google OAuth client ID",
-            "required": true
-          },
-          {
-            "name": "GOOGLE_CLIENT_SECRET",
-            "description": "Google OAuth client secret",
-            "required": true
-          },
-          {
-            "name": "GOOGLE_REDIRECT_URI",
-            "description": "OAuth redirect URI",
-            "required": true
-          },
-          {
-            "name": "GOOGLE_REFRESH_TOKEN",
-            "description": "OAuth refresh token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "googlecalendar",
+      "version": "1.0.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_events",
@@ -177,5 +153,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

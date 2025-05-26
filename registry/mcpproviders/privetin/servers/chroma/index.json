@@ -1,30 +1,45 @@
 {
-  "repo_ref": "privetin/chroma",
+  "id": "4b637a92-c1af-463d-afc1-e0ce65d7c057",
   "name": "io.github.privetin/chroma",
-  "description": "A Model Context Protocol (MCP) server implementation that provides vector database capabilities through Chroma. This server enables semantic document search, metadata filtering, and document management with persistent storage.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for Chroma",
+  "repository": {
+    "url": "https://github.com/privetin/chroma",
+    "source": "github",
+    "id": "909977348"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:24Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "uv",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "C:/MCP/server/community/chroma",
-          "run",
-          "chroma"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "chroma",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Named argument",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory C:/MCP/server/community/chroma",
+          "default": "--directory C:/MCP/server/community/chroma",
+          "type": "named",
+          "name": "--directory C:/MCP/server/community/chroma",
+          "value_hint": "C:/MCP/server/community/chroma"
+        },
+        {
+          "description": "Positional argument",
+          "is_required": true,
+          "format": "string",
+          "value": "chroma",
+          "default": "chroma",
+          "type": "positional",
+          "value_hint": "chroma"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "create_document",
@@ -146,5 +161,6 @@
       "description": "Stores documents with content and metadata",
       "uritemplate": "/documents/{document_id}"
     }
-  ]
+  ],
+  "prompts": []
 }

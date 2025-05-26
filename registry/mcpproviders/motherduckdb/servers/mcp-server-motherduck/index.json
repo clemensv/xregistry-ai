@@ -1,33 +1,63 @@
 {
-  "repo_ref": "motherduckdb/mcp-server-motherduck",
+  "id": "b3fa3fa4-901d-4584-82cf-d027dbdf290b",
   "name": "io.github.motherduckdb/mcp-server-motherduck",
-  "description": "An MCP server implementation that interacts with DuckDB and MotherDuck databases, providing SQL analytics capabilities to AI Assistants and IDEs.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for DuckDB and MotherDuck",
+  "repository": {
+    "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+    "source": "github",
+    "id": "902619224"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:38Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "unknown",
-      "package_name": "unknown",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--db-path",
-          "md:",
-          "--motherduck-token",
-          "<YOUR_MOTHERDUCK_TOKEN_HERE>"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "duckdb-motherduck-initial-prompt",
-      "description": "A prompt to initialize a connection to DuckDB or MotherDuck and start working with it"
+      "registry_name": "pypi",
+      "name": "mcp-server-motherduck",
+      "version": "0.4.2",
+      "package_arguments": [
+        {
+          "description": "--directory /path/to/your/local/mcp-server-motherduck",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/your/local/mcp-server-motherduck",
+          "default": "--directory /path/to/your/local/mcp-server-motherduck",
+          "type": "named",
+          "name": "--directory /path/to/your/local/mcp-server-motherduck",
+          "value_hint": "/path/to/your/local/mcp-server-motherduck"
+        },
+        {
+          "description": "mcp-server-motherduck",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-server-motherduck",
+          "default": "mcp-server-motherduck",
+          "type": "positional",
+          "value_hint": "mcp-server-motherduck"
+        },
+        {
+          "description": "--db-path md:",
+          "is_required": true,
+          "format": "string",
+          "value": "--db-path md:",
+          "default": "--db-path md:",
+          "type": "named",
+          "name": "--db-path md:",
+          "value_hint": "md:"
+        },
+        {
+          "description": "--motherduck-token <YOUR_MOTHERDUCK_TOKEN_HERE>",
+          "is_required": true,
+          "format": "string",
+          "value": "--motherduck-token <YOUR_MOTHERDUCK_TOKEN_HERE>",
+          "default": "--motherduck-token <YOUR_MOTHERDUCK_TOKEN_HERE>",
+          "type": "named",
+          "name": "--motherduck-token <YOUR_MOTHERDUCK_TOKEN_HERE>",
+          "value_hint": "<YOUR_MOTHERDUCK_TOKEN_HERE>"
+        }
+      ]
     }
   ],
   "tools": [
@@ -47,5 +77,11 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": [
+    {
+      "name": "duckdb-motherduck-initial-prompt",
+      "description": "A prompt to initialize a connection to DuckDB or MotherDuck and start working with it"
+    }
+  ]
 }

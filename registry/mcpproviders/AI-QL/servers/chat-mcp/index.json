@@ -1,25 +1,36 @@
 {
-  "repo_ref": "AI-QL/chat-mcp",
-  "name": "io.github.AI-QL/chat-mcp",
-  "description": "A Cross-Platform Interface for LLMs utilizing the MCP (Model Context Protocol) to connect and interact with various Large Language Models (LLMs).",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "16fc441d-0d72-4b14-afd7-d5c9dd25c909",
+  "name": "io.github.ai-ql/chat-mcp",
+  "description": "A Desktop Chat App that leverages MCP(Model Context Protocol) to interface with other LLMs.",
+  "repository": {
+    "url": "https://github.com/AI-QL/chat-mcp",
+    "source": "github",
+    "id": "896905855"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:17Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "unspecified",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "aiql-desktop",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Path to the working directory",
+          "is_required": true,
+          "format": "string",
+          "value": "D:/Github/mcp-test",
+          "default": "D:/Github/mcp-test",
+          "type": "positional",
+          "value_hint": "D:/Github/mcp-test"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

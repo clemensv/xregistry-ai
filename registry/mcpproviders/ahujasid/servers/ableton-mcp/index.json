@@ -1,0 +1,22 @@
+{
+  "id": "98b8992b-77cc-43a5-825e-d14270fd9ca5",
+  "name": "io.github.ahujasid/ableton-mcp",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/ahujasid/ableton-mcp",
+    "source": "github",
+    "id": "951429064"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:32Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "ableton-mcp",
+      "version": "1.0.0"
+    }
+  ]
+}

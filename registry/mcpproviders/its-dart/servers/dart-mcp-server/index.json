@@ -1,98 +1,65 @@
 {
-  "repo_ref": "its-dart/dart-mcp-server",
+  "id": "9c2d91f0-76c4-4292-a19f-e81e962954b5",
   "name": "io.github.its-dart/dart-mcp-server",
-  "description": "The official AI Model Context Protocol (MCP) server for Dart, providing task and document management via prompts, resources, and tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Dart AI Model Context Protocol (MCP) server",
+  "repository": {
+    "url": "https://github.com/its-dart/dart-mcp-server",
+    "source": "github",
+    "id": "936960342"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:23Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "dart-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "DART_TOKEN",
-            "description": "API token for Dart",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "Create task",
-      "description": "Create a new task in Dart",
-      "arguments": [
+      "registry_name": "docker",
+      "name": "dart-mcp-server",
+      "version": "0.1.13",
+      "package_arguments": [
         {
-          "name": "title",
-          "description": "Title of the task",
-          "required": true
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "positional",
+          "value_hint": "-i"
         },
         {
-          "name": "description",
-          "description": "Description of the task",
-          "required": false
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "positional",
+          "value_hint": "--rm"
         },
         {
-          "name": "status",
-          "description": "Status of the task",
-          "required": false
+          "description": "-e",
+          "is_required": true,
+          "format": "string",
+          "value": "-e DART_TOKEN",
+          "default": "-e DART_TOKEN",
+          "type": "named",
+          "name": "-e DART_TOKEN",
+          "value_hint": "DART_TOKEN"
         },
         {
-          "name": "priority",
-          "description": "Priority of the task",
-          "required": false
-        },
-        {
-          "name": "assignee",
-          "description": "Email of the assignee",
-          "required": false
+          "description": "mcp/dart",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp/dart",
+          "default": "mcp/dart",
+          "type": "positional",
+          "value_hint": "mcp/dart"
         }
-      ]
-    },
-    {
-      "name": "Create doc",
-      "description": "Create a new document in Dart",
-      "arguments": [
+      ],
+      "environment_variables": [
         {
-          "name": "title",
-          "description": "Title of the document",
-          "required": true
-        },
-        {
-          "name": "text",
-          "description": "Content of the document",
-          "required": false
-        },
-        {
-          "name": "folder",
-          "description": "Folder to place the document in",
-          "required": false
-        }
-      ]
-    },
-    {
-      "name": "Summarize tasks",
-      "description": "Get a summary of tasks with optional filtering",
-      "arguments": [
-        {
-          "name": "status",
-          "description": "Filter by status (e.g., 'In Progress', 'Done')",
-          "required": false
-        },
-        {
-          "name": "assignee",
-          "description": "Filter by assignee email",
-          "required": false
+          "description": "dsa_...",
+          "name": "DART_TOKEN"
         }
       ]
     }
@@ -529,6 +496,76 @@
       "uritemplate": "dart-doc:///{docId}",
       "name": "Dart doc",
       "description": "A Dart doc with its title, text content, and folder. Use this to fetch detailed information about a specific doc."
+    }
+  ],
+  "prompts": [
+    {
+      "name": "Create task",
+      "description": "Create a new task in Dart",
+      "arguments": [
+        {
+          "name": "title",
+          "description": "Title of the task",
+          "required": true
+        },
+        {
+          "name": "description",
+          "description": "Description of the task",
+          "required": false
+        },
+        {
+          "name": "status",
+          "description": "Status of the task",
+          "required": false
+        },
+        {
+          "name": "priority",
+          "description": "Priority of the task",
+          "required": false
+        },
+        {
+          "name": "assignee",
+          "description": "Email of the assignee",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Create doc",
+      "description": "Create a new document in Dart",
+      "arguments": [
+        {
+          "name": "title",
+          "description": "Title of the document",
+          "required": true
+        },
+        {
+          "name": "text",
+          "description": "Content of the document",
+          "required": false
+        },
+        {
+          "name": "folder",
+          "description": "Folder to place the document in",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Summarize tasks",
+      "description": "Get a summary of tasks with optional filtering",
+      "arguments": [
+        {
+          "name": "status",
+          "description": "Filter by status (e.g., 'In Progress', 'Done')",
+          "required": false
+        },
+        {
+          "name": "assignee",
+          "description": "Filter by assignee email",
+          "required": false
+        }
+      ]
     }
   ]
 }

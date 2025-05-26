@@ -1,31 +1,99 @@
 {
-  "repo_ref": "alexarevalo9/ticktick-mcp-server",
+  "id": "5c1709d9-3f57-4dbd-a727-5ce383a59c32",
   "name": "io.github.alexarevalo9/ticktick-mcp-server",
-  "description": "MCP Server for the TickTick API, enabling task management, project organization, habit tracking, and more.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "A Model Context Protocol (MCP) server designed to integrate with the TickTick task management platform, enabling intelligent context-aware task operations and automation.",
+  "repository": {
+    "url": "https://github.com/alexarevalo9/ticktick-mcp-server",
+    "source": "github",
+    "id": "957668156"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:54Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@alexarevalo9/ticktick-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "DOTENV_CONFIG_PATH",
-            "description": "Path to dotenv config file",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "@alexarevalo.ai/mcp-server-ticktick",
+      "version": "1.1.9",
+      "package_arguments": [
+        {
+          "description": "Run container in interactive mode",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "Automatically remove the container when it exits",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "Set the TICKTICK_CLIENT_ID environment variable in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e TICKTICK_CLIENT_ID",
+          "default": "-e TICKTICK_CLIENT_ID",
+          "type": "named",
+          "name": "-e TICKTICK_CLIENT_ID",
+          "value_hint": "TICKTICK_CLIENT_ID"
+        },
+        {
+          "description": "Set the TICKTICK_CLIENT_SECRET environment variable in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e TICKTICK_CLIENT_SECRET",
+          "default": "-e TICKTICK_CLIENT_SECRET",
+          "type": "named",
+          "name": "-e TICKTICK_CLIENT_SECRET",
+          "value_hint": "TICKTICK_CLIENT_SECRET"
+        },
+        {
+          "description": "Set the TICKTICK_ACCESS_TOKEN environment variable in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e TICKTICK_ACCESS_TOKEN",
+          "default": "-e TICKTICK_ACCESS_TOKEN",
+          "type": "named",
+          "name": "-e TICKTICK_ACCESS_TOKEN",
+          "value_hint": "TICKTICK_ACCESS_TOKEN"
+        },
+        {
+          "description": "Docker image name",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp/ticktick",
+          "default": "mcp/ticktick",
+          "type": "positional",
+          "value_hint": "mcp/ticktick"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<YOUR_CLIENT_ID>",
+          "name": "TICKTICK_CLIENT_ID"
+        },
+        {
+          "description": "<YOUR_CLIENT_SECRET>",
+          "name": "TICKTICK_CLIENT_SECRET"
+        },
+        {
+          "description": "<YOUR_ACCESS_TOKEN>",
+          "name": "TICKTICK_ACCESS_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_user_projects",
@@ -359,5 +427,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

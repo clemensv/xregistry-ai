@@ -1,247 +1,544 @@
 {
-    "groups": {
-        "mcpproviders": {
-            "plural": "mcpproviders",
-            "singular": "mcpprovider",
-            "description": "Registry of Model Context Protocol (MCP) servers and their capabilities, organized by provider.",
-            "resources": {
-                "servers": {
-                    "plural": "servers",
-                    "singular": "server",
-                    "maxversions": 0,
-                    "setversionid": false,
-                    "setdefaultversionsticky": false,
-                    "hasdocument": false,
-                    "singleversionroot": true,
-                    "labels": {},
-                    "attributes": {
-                        "name": {
-                            "name": "name",
-                            "type": "string",
-                            "description": "Unique reverse-DNS identifier of the repository."
-                        },
-                        "description": {
-                            "name": "description",
-                            "type": "string",
-                            "description": "Repository or server overview."
-                        },
-                        "version_detail": {
-                            "name": "version_detail",
-                            "type": "object",
-                            "description": "Version detail for the server.",
-                            "attributes": {
-                                "version": {
-                                    "name": "version",
-                                    "type": "string",
-                                    "description": "Semantic version number detail."
-                                }
-                            }
-                        },
-                        "registries": {
-                            "name": "registries",
-                            "type": "array",
-                            "description": "Package registry metadata blocks.",
-                            "item": {
-                                "type": "object",
-                                "attributes": {
-                                    "name": {
-                                        "name": "name",
-                                        "type": "string",
-                                        "description": "Name of the registry."
-                                    },
-                                    "package_name": {
-                                        "name": "package_name",
-                                        "type": "string",
-                                        "description": "Name of the package."
-                                    },
-                                    "license": {
-                                        "name": "license",
-                                        "type": "string",
-                                        "description": "License of the package."
-                                    },
-                                    "command_arguments": {
-                                        "name": "command_arguments",
-                                        "type": "object",
-                                        "attributes": {
-                                            "sub_commands": {
-                                                "name": "sub_commands",
-                                                "type": "array",
-                                                "item": {
-                                                    "type": "object",
-                                                    "attributes": {
-                                                        "name": {
-                                                            "name": "name",
-                                                            "type": "string"
-                                                        },
-                                                        "description": {
-                                                            "name": "description",
-                                                            "type": "string"
-                                                        },
-                                                        "named_arguments": {
-                                                            "name": "named_arguments",
-                                                            "type": "array",
-                                                            "item": {
-                                                                "type": "string"
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            },
-                                            "positional_arguments": {
-                                                "name": "positional_arguments",
-                                                "type": "array",
-                                                "item": {
-                                                    "type": "string"
-                                                }
-                                            },
-                                            "environment_variables": {
-                                                "name": "environment_variables",
-                                                "type": "array",
-                                                "item": {
-                                                    "type": "object",
-                                                    "attributes": {
-                                                        "name": {
-                                                            "name": "name",
-                                                            "type": "string"
-                                                        },
-                                                        "description": {
-                                                            "name": "description",
-                                                            "type": "string"
-                                                        },
-                                                        "required": {
-                                                            "name": "required",
-                                                            "type": "boolean"
-                                                        }
-                                                    }
-                                                }
-                                            },
-                                            "named_arguments": {
-                                                "name": "named_arguments",
-                                                "type": "array",
-                                                "item": {
-                                                    "type": "string"
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "repo_ref": {
-                            "name": "repo_ref",
-                            "type": "string",
-                            "description": "Repository reference for the server."
-                        },
-                        "remotes": {
-                            "name": "remotes",
-                            "type": "array",
-                            "description": "Source‑code hosting locations.",
-                            "item": {
-                                "type": "object",
-                                "attributes": {
-                                    "transporttype": {
-                                        "name": "transporttype",
-                                        "type": "string",
-                                        "description": "Transport type of the remote."
-                                    },
-                                    "url": {
-                                        "name": "url",
-                                        "type": "url",
-                                        "description": "URL of the remote."
-                                    }
-                                }
-                            }
-                        },
-                        "prompts": {
-                            "name": "prompts",
-                            "type": "array",
-                            "description": "Static prompt templates bundled with this server.",
-                            "item": {
-                                "type": "object",
-                                "attributes": {
-                                    "name": {
-                                        "name": "name",
-                                        "type": "string"
-                                    },
-                                    "description": {
-                                        "name": "description",
-                                        "type": "string"
-                                    },
-                                    "arguments": {
-                                        "name": "arguments",
-                                        "type": "array",
-                                        "item": {
-                                            "type": "object",
-                                            "attributes": {
-                                                "name": {
-                                                    "name": "name",
-                                                    "type": "string"
-                                                },
-                                                "description": {
-                                                    "name": "description",
-                                                    "type": "string"
-                                                },
-                                                "required": {
-                                                    "name": "required",
-                                                    "type": "boolean"
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "tools": {
-                            "name": "tools",
-                            "type": "array",
-                            "description": "Tool definitions invocable via the MCP runtime.",
-                            "item": {
-                                "type": "object",
-                                "attributes": {
-                                    "name": {
-                                        "name": "name",
-                                        "type": "string"
-                                    },
-                                    "description": {
-                                        "name": "description",
-                                        "type": "string"
-                                    },
-                                    "inputschema": {
-                                        "name": "inputschema",
-                                        "type": "any"
-                                    }
-                                }
-                            }
-                        },
-                        "resources": {
-                            "name": "resources",
-                            "type": "array",
-                            "description": "Data resources the server can expose or subscribe to.",
-                            "item": {
-                                "type": "object",
-                                "attributes": {
-                                    "uritemplate": {
-                                        "name": "uritemplate",
-                                        "type": "uritemplate"
-                                    },
-                                    "name": {
-                                        "name": "name",
-                                        "type": "string"
-                                    },
-                                    "description": {
-                                        "name": "description",
-                                        "type": "string"
-                                    },
-                                    "mimetype": {
-                                        "name": "mimetype",
-                                        "type": "string"
-                                    }
-                                }
-                            }
-                        }
-                    }
+  "groups": {
+    "mcpproviders": {
+      "plural": "mcpproviders",
+      "singular": "mcpprovider",
+      "description": "Registry of Model Context Protocol (MCP) servers and their capabilities, organized by provider.",
+      "resources": {
+        "servers": {
+          "plural": "servers",
+          "singular": "server",
+          "maxversions": 0,
+          "setversionid": false,
+          "setdefaultversionsticky": false,
+          "hasdocument": false,
+          "singleversionroot": true,
+          "attributes": {
+            "id": {
+              "name": "id",
+              "type": "string",
+              "description": "Unique identifier for the MCP server"
+            },
+            "name": {
+              "name": "name",
+              "type": "string",
+              "description": "Human-readable name of the MCP server"
+            },
+            "repository": {
+              "name": "repository",
+              "type": "object",
+              "description": "Source code repository information for the MCP server",
+              "attributes": {
+                "url": {
+                  "name": "url",
+                  "type": "string",
+                  "description": "URL of the source code repository"
+                },
+                "source": {
+                  "name": "source",
+                  "type": "string",
+                  "description": "Repository hosting platform (e.g., github, gitlab)"
+                },
+                "id": {
+                  "name": "id",
+                  "type": "string",
+                  "description": "Repository identifier or path within the hosting platform"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any",
+                  "description": "Additional repository metadata"
                 }
+              }
+            },
+            "version_detail": {
+              "name": "version_detail",
+              "type": "object",
+              "description": "Version information for the current server release",
+              "attributes": {
+                "version": {
+                  "name": "version",
+                  "type": "string",
+                  "description": "Semantic version number of the server"
+                },
+                "release_date": {
+                  "name": "release_date",
+                  "type": "string",
+                  "description": "ISO 8601 date when this version was released"
+                },
+                "is_latest": {
+                  "name": "is_latest",
+                  "type": "boolean",
+                  "description": "Whether this is the latest available version"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any",
+                  "description": "Additional version metadata"
+                }
+              }
+            },
+            "packages": {
+              "name": "packages",
+              "type": "array",
+              "description": "Available package distributions for installing and running the server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "registry_name": {
+                    "name": "registry_name",
+                    "type": "string",
+                    "description": "Name of the package registry (e.g., npm, pypi, cargo)"
+                  },
+                  "name": {
+                    "name": "name",
+                    "type": "string",
+                    "description": "Package name within the registry"
+                  },
+                  "version": {
+                    "name": "version",
+                    "type": "string",
+                    "description": "Package version identifier"
+                  },
+                  "runtime_hint": {
+                    "name": "runtime_hint",
+                    "type": "string",
+                    "description": "Suggested runtime environment (e.g., node, python, cargo)"
+                  },
+                  "runtime_arguments": {
+                    "name": "runtime_arguments",
+                    "type": "array",
+                    "description": "Command-line arguments required when executing the server runtime",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this argument"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this argument is mandatory for server execution"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the argument value"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this argument"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this argument contains sensitive information"
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when argument is not provided"
+                        },
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this argument",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating argument values"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "map",
+                          "description": "Variable substitutions available for this argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string",
+                          "description": "Data type of the argument (string, number, boolean, etc.)"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string",
+                          "description": "Name or identifier for this argument"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean",
+                          "description": "Whether this argument can be specified multiple times"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string",
+                          "description": "Hint or example for what kind of value to provide"
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional argument metadata"
+                        }
+                      }
+                    }
+                  },
+                  "package_arguments": {
+                    "name": "package_arguments",
+                    "type": "array",
+                    "description": "Arguments specific to package installation or configuration",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this package argument"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this argument is mandatory for package installation"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the argument value"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this package argument"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this argument contains sensitive information"
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when argument is not provided"
+                        },
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this package argument",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating package argument values"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this package argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "map",
+                          "description": "Variable substitutions available for this package argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string",
+                          "description": "Data type of the package argument"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string",
+                          "description": "Name or identifier for this package argument"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean",
+                          "description": "Whether this package argument can be specified multiple times"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string",
+                          "description": "Hint or example for what kind of value to provide"
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional package argument metadata"
+                        }
+                      }
+                    }
+                  },
+                  "environment_variables": {
+                    "name": "environment_variables",
+                    "type": "array",
+                    "description": "Environment variables required or used by the server",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this environment variable"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this environment variable is mandatory"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the variable value"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this environment variable"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this environment variable contains sensitive information"
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when environment variable is not set"
+                        },
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this environment variable",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating environment variable values"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this environment variable",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "map",
+                          "description": "Variable substitutions available for this environment variable",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string",
+                          "description": "Data type of the environment variable"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string",
+                          "description": "Name of the environment variable"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean",
+                          "description": "Whether this environment variable can have multiple values"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string",
+                          "description": "Hint or example for what kind of value to provide"
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional environment variable metadata"
+                        }
+                      }
+                    }
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Additional package metadata"
+                  }
+                }
+              }
+            },
+            "remotes": {
+              "name": "remotes",
+              "type": "array",
+              "description": "Remote server endpoints that can be connected to via network protocols",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "transport_type": {
+                    "name": "transport_type",
+                    "type": "string",
+                    "description": "Network transport protocol (e.g., http, websocket, tcp)"
+                  },
+                  "url": {
+                    "name": "url",
+                    "type": "string",
+                    "description": "URL endpoint for connecting to the remote server"
+                  },
+                  "headers": {
+                    "name": "headers",
+                    "type": "array",
+                    "description": "HTTP headers required for connecting to the remote server",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this header"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this header is mandatory for connection"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the header value"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this header"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this header contains sensitive information"
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when header is not provided"
+                        },
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this header",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating header values"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this header",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional header metadata"
+                        }
+                      }
+                    }
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Additional remote server configuration"
+                  }
+                }
+              }
+            },
+            "prompts": {
+              "name": "prompts",
+              "type": "array",
+              "description": "Pre-defined prompt templates available through this server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Prompt definition attributes including name, description, and arguments"
+                  }
+                }
+              }
+            },
+            "tools": {
+              "name": "tools",
+              "type": "array",
+              "description": "Tools and functions exposed by this MCP server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Tool definition attributes including name, description, input schema, and output schema"
+                  }
+                }
+              }
+            },
+            "resources": {
+              "name": "resources",
+              "type": "array",
+              "description": "Resources that can be accessed through this MCP server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Resource definition attributes including URI, name, description, and mime type"
+                  }
+                }
+              }
+            },
+            "*": {
+              "name": "*",
+              "type": "any",
+              "description": "Additional server metadata and custom attributes"
             }
+          }
         }
+      }
     }
-} 
+  }
+}

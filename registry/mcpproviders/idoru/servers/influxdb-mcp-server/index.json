@@ -1,50 +1,36 @@
 {
-  "repo_ref": "idoru/influxdb-mcp-server",
+  "id": "d78df157-559d-4e87-af1f-0dcbfe703a23",
   "name": "io.github.idoru/influxdb-mcp-server",
-  "description": "A Model Context Protocol (MCP) server that exposes access to an InfluxDB instance using the InfluxDB OSS API v2.",
-  "version_detail": {
-    "version": "0.1.1"
+  "description": "An MCP Server for querying InfluxDB",
+  "repository": {
+    "url": "https://github.com/idoru/influxdb-mcp-server",
+    "source": "github",
+    "id": "946415795"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:24Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "influxdb-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "INFLUXDB_TOKEN",
-            "description": "Authentication token for the InfluxDB API",
-            "required": true
-          },
-          {
-            "name": "INFLUXDB_URL",
-            "description": "URL of the InfluxDB instance (defaults to http://localhost:8086)",
-            "required": false
-          },
-          {
-            "name": "INFLUXDB_ORG",
-            "description": "Default organization name for certain operations",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "flux-query-examples",
-      "description": "Common Flux query examples",
-      "arguments": []
-    },
-    {
-      "name": "line-protocol-guide",
-      "description": "Guide to InfluxDB line protocol format",
-      "arguments": []
+      "registry_name": "unknown",
+      "name": "influxdb-mcp-server",
+      "version": "0.1.1",
+      "environment_variables": [
+        {
+          "description": "your_token",
+          "name": "INFLUXDB_TOKEN"
+        },
+        {
+          "description": "http://localhost:8086",
+          "name": "INFLUXDB_URL"
+        },
+        {
+          "description": "your_org",
+          "name": "INFLUXDB_ORG"
+        }
+      ]
     }
   ],
   "tools": [
@@ -171,6 +157,18 @@
       "name": "query",
       "uritemplate": "influxdb://query/{orgName}/{fluxQuery}",
       "description": "Executes a Flux query and returns results as a resource"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "flux-query-examples",
+      "description": "Common Flux query examples",
+      "arguments": []
+    },
+    {
+      "name": "line-protocol-guide",
+      "description": "Guide to InfluxDB line protocol format",
+      "arguments": []
     }
   ]
 }

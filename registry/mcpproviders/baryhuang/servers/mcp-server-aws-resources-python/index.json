@@ -1,25 +1,73 @@
 {
-  "repo_ref": "baryhuang/mcp-server-aws-resources-python",
+  "id": "6dd26dd7-d5c3-4aa8-bb9a-3aba328790ad",
   "name": "io.github.baryhuang/mcp-server-aws-resources-python",
-  "description": "A Model Context Protocol (MCP) server implementation that provides running generated python code to query any AWS resources through boto3.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A Python-based MCP server that lets Claude run boto3 code to query and manage AWS resources. Execute powerful AWS operations directly through Claude with proper sandboxing and containerization. No need for complex setups - just pass your AWS credentials and start interacting with all AWS services.",
+  "repository": {
+    "url": "https://github.com/baryhuang/mcp-server-aws-resources-python",
+    "source": "github",
+    "id": "916512524"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:32Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "buryhuang/mcp-server-aws-resources",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mcp-server-aws-resources",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Keep STDIN open even if not attached",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "Automatically remove the container when it exits",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "Set environment variables in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e AWS_PROFILE=default",
+          "default": "-e AWS_PROFILE=default",
+          "type": "named",
+          "name": "-e AWS_PROFILE=default",
+          "value_hint": "AWS_PROFILE=default"
+        },
+        {
+          "description": "Bind mount a volume",
+          "is_required": true,
+          "format": "string",
+          "value": "-v ~/.aws:/root/.aws",
+          "default": "-v ~/.aws:/root/.aws",
+          "type": "named",
+          "name": "-v ~/.aws:/root/.aws",
+          "value_hint": "~/.aws:/root/.aws"
+        },
+        {
+          "description": "Docker image name with tag",
+          "is_required": true,
+          "format": "string",
+          "value": "buryhuang/mcp-server-aws-resources:latest",
+          "default": "buryhuang/mcp-server-aws-resources:latest",
+          "type": "positional",
+          "value_hint": "buryhuang/mcp-server-aws-resources:latest"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "aws_resources_query_or_modify",
@@ -43,5 +91,6 @@
       "name": "aws://query_resources",
       "description": "A dynamic resource that provides access to AWS resources through boto3 queries"
     }
-  ]
+  ],
+  "prompts": []
 }

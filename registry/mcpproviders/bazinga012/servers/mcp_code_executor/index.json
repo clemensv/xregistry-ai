@@ -1,38 +1,36 @@
 {
-  "repo_ref": "bazinga012/mcp_code_executor",
+  "id": "0cdfed38-6495-42a3-a837-3788f35aadd3",
   "name": "io.github.bazinga012/mcp_code_executor",
-  "description": "The MCP Code Executor is an MCP server that allows LLMs to execute Python code within a specified Conda environment. This enables LLMs to run code with access to libraries and dependencies defined in the Conda environment.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "The MCP Code Executor is an MCP server that allows LLMs to execute Python code within a specified Conda environment.",
+  "repository": {
+    "url": "https://github.com/bazinga012/mcp_code_executor",
+    "source": "github",
+    "id": "928420039"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:37Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp_code_executor",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/path/to/mcp_code_executor/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "CODE_STORAGE_DIR",
-            "description": "Directory where generated code is stored",
-            "required": true
-          },
-          {
-            "name": "CONDA_ENV_NAME",
-            "description": "Name of the Conda environment to run code in",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "code_execution_server",
+      "version": "0.2.0",
+      "package_arguments": [
+        {
+          "description": "file_path positional argument for the code file to be read",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/code/storage/my_script_abc123.py",
+          "default": "/path/to/code/storage/my_script_abc123.py",
+          "type": "positional",
+          "value_hint": "/path/to/code/storage/my_script_abc123.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

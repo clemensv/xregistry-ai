@@ -1,17 +1,21 @@
 {
-  "repo_ref": "zcaceres/markdownify-mcp",
+  "id": "io.github.zcaceres/markdownify-mcp",
   "name": "io.github.zcaceres/markdownify-mcp",
   "description": "Markdownify is a Model Context Protocol (MCP) server that converts various file types and web content to Markdown format. It provides a set of tools to transform PDFs, images, audio files, web pages, and more into easily readable and shareable Markdown text.",
+  "repository": {
+    "url": "zcaceres/markdownify-mcp",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.1.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/mcp-markdownify-server",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "@modelcontextprotocol/mcp-markdownify-server",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "dist/index.js"
@@ -24,9 +28,18 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "UV_PATH",
+          "description": "By default, the server will use the default install location of `uv`",
+          "required": false
+        }
+      ],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

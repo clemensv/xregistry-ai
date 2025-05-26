@@ -1,25 +1,55 @@
 {
-  "repo_ref": "kagisearch/kagimcp",
+  "id": "77963df5-3dc8-4961-ae0c-03e448b8713c",
   "name": "io.github.kagisearch/kagimcp",
-  "description": "An MCP server implementation providing tools for web search and summarization using the Kagi Search and Summarizer APIs.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A Model Context Protocol (MCP) server for Kagi search & other tools.",
+  "repository": {
+    "url": "https://github.com/kagisearch/kagimcp",
+    "source": "github",
+    "id": "902662933"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:54Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "kagimcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "kagimcp",
+      "version": "0.1.3",
+      "package_arguments": [
+        {
+          "description": "Specifies the working directory",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /ABSOLUTE/PATH/TO/PARENT/FOLDER/kagimcp",
+          "default": "--directory /ABSOLUTE/PATH/TO/PARENT/FOLDER/kagimcp",
+          "type": "named",
+          "name": "--directory /ABSOLUTE/PATH/TO/PARENT/FOLDER/kagimcp",
+          "value_hint": "/ABSOLUTE/PATH/TO/PARENT/FOLDER/kagimcp"
+        },
+        {
+          "description": "Name of the package or executable to run",
+          "is_required": true,
+          "format": "string",
+          "value": "kagimcp",
+          "default": "kagimcp",
+          "type": "positional",
+          "value_hint": "kagimcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_API_KEY_HERE",
+          "name": "KAGI_API_KEY"
+        },
+        {
+          "description": "YOUR_ENGINE_CHOICE_HERE",
+          "name": "KAGI_SUMMARIZER_ENGINE"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "kagi_search_fetch",
@@ -72,5 +102,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

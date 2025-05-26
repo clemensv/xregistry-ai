@@ -1,24 +1,31 @@
 {
-  "repo_ref": "ChronulusAI/chronulus-mcp",
+  "id": "io.github.ChronulusAI/chronulus-mcp",
   "name": "io.github.ChronulusAI/chronulus-mcp",
   "description": "Chronulus MCP provides access to the Chronulus AI platform of forecasting and prediction agents.",
+  "repository": {
+    "url": "ChronulusAI/chronulus-mcp",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "python",
-      "package_name": "chronulus-mcp",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "python",
+      "name": "chronulus-mcp",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

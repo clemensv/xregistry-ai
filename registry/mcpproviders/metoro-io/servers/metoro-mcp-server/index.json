@@ -1,34 +1,35 @@
 {
-  "repo_ref": "metoro-io/metoro-mcp-server",
+  "id": "95047d21-596b-4c32-b206-2ebd171733aa",
   "name": "io.github.metoro-io/metoro-mcp-server",
-  "description": "The Metoro MCP (Model Context Protocol) Server allows interaction with Kubernetes clusters via the Claude Desktop App by exposing Metoro's APIs to an LLM.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Metoro MCP Server",
+  "repository": {
+    "url": "https://github.com/metoro-io/metoro-mcp-server",
+    "source": "github",
+    "id": "900333594"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:25Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "go",
-      "package_name": "github.com/metoro-io/metoro-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "METORO_AUTH_TOKEN",
-            "required": true
-          },
-          {
-            "name": "METORO_API_URL",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "metoro-io/metoro-mcp-server",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjoiOThlZDU1M2QtYzY4ZC00MDRhLWFhZjItNDM2ODllNWJiMGUzIiwiZW1haWwiOiJ0ZXN0QGNocmlzYmF0dGFyYmVlLmNvbSIsImV4cCI6MTgyMTI0NzIzN30.7G6alDpcZh_OThYj293Jce5rjeOBqAhOlANR_Fl5auw",
+          "name": "METORO_AUTH_TOKEN"
+        },
+        {
+          "description": "https://demo.us-east.metoro.io",
+          "name": "METORO_API_URL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

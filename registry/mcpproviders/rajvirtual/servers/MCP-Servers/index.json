@@ -1,60 +1,22 @@
 {
-  "repo_ref": "rajvirtual/MCP-Servers",
-  "name": "io.github.rajvirtual/MCP-Servers",
-  "description": "MCP server providing tools to read and create Microsoft OneNote content via Microsoft Graph API.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "a2e44c59-4a60-47a6-8588-22b90cebe345",
+  "name": "io.github.rajvirtual/mcp-servers",
+  "description": "A Model Context Protocol (MCP) server that provides AI assistants with access to Microsoft OneNote. This server enables AI models to read from and write to OneNote notebooks, sections, and pages.",
+  "repository": {
+    "url": "https://github.com/rajvirtual/MCP-Servers",
+    "source": "github",
+    "id": "947565134"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:48Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "CLIENT_ID",
-            "description": "Azure AD client ID for authentication",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "Get all notebooks",
-      "description": "List all available OneNote notebooks"
-    },
-    {
-      "name": "Get sections in a notebook",
-      "description": "List all sections in a specific notebook"
-    },
-    {
-      "name": "Get pages in a section",
-      "description": "List all pages in a specific section"
-    },
-    {
-      "name": "Get a specific page",
-      "description": "Get content from a specific page"
-    },
-    {
-      "name": "Create a new notebook",
-      "description": "Create a brand new notebook"
-    },
-    {
-      "name": "Create a section in a notebook",
-      "description": "Create a new section in a specific notebook"
-    },
-    {
-      "name": "Create a page in a section",
-      "description": "Create a new page in a specific section"
+      "registry_name": "unknown",
+      "name": "rajvirtual/MCP-Servers",
+      "version": ""
     }
   ],
   "tools": [
@@ -132,5 +94,35 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": [
+    {
+      "name": "Get all notebooks",
+      "description": "List all available OneNote notebooks"
+    },
+    {
+      "name": "Get sections in a notebook",
+      "description": "List all sections in a specific notebook"
+    },
+    {
+      "name": "Get pages in a section",
+      "description": "List all pages in a specific section"
+    },
+    {
+      "name": "Get a specific page",
+      "description": "Get content from a specific page"
+    },
+    {
+      "name": "Create a new notebook",
+      "description": "Create a brand new notebook"
+    },
+    {
+      "name": "Create a section in a notebook",
+      "description": "Create a new section in a specific notebook"
+    },
+    {
+      "name": "Create a page in a section",
+      "description": "Create a new page in a specific section"
+    }
+  ]
 }

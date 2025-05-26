@@ -1,36 +1,24 @@
 {
-  "repo_ref": "pfldy2850/py-mcp-naver",
+  "id": "f10c234b-cf64-4dc2-9e38-5f57e53aeecb",
   "name": "io.github.pfldy2850/py-mcp-naver",
-  "description": "A server implementation for Naver OpenAPI using the Model Context Protocol (MCP). This project provides tools to interact with various Naver services, such as searching blogs, news, books, and more.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "python MCP NAVER",
+  "repository": {
+    "url": "https://github.com/pfldy2850/py-mcp-naver",
+    "source": "github",
+    "id": "951863489"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:07Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-naver",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "NAVER_CLIENT_ID",
-            "description": "Your Naver client ID",
-            "required": true
-          },
-          {
-            "name": "NAVER_CLIENT_SECRET",
-            "description": "Your Naver client secret",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-naver",
+      "version": "0.1.5"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_blog",
@@ -276,5 +264,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

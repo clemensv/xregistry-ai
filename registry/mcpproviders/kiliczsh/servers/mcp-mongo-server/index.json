@@ -1,47 +1,31 @@
 {
-  "repo_ref": "kiliczsh/mcp-mongo-server",
+  "id": "b61a2d2e-db6c-47b4-9437-7edc8525d063",
   "name": "io.github.kiliczsh/mcp-mongo-server",
-  "description": "A Model Context Protocol server that enables LLMs to interact with MongoDB databases. This server provides capabilities for inspecting collection schemas and executing MongoDB operations through a standardized interface.",
-  "version_detail": {
-    "version": "1.2.0"
+  "description": "A Model Context Protocol Server for MongoDB",
+  "repository": {
+    "url": "https://github.com/kiliczsh/mcp-mongo-server",
+    "source": "github",
+    "id": "898654014"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:38Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-mongo-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "mcp-mongo-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "MCP_MONGODB_URI",
-            "description": "MongoDB connection URI",
-            "required": true
-          },
-          {
-            "name": "MCP_MONGODB_READONLY",
-            "description": "Enable read-only mode",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "analyze_collection",
-      "description": "Analyze a MongoDB collection structure and contents",
-      "arguments": [
+      "registry_name": "npm",
+      "name": "mcp-mongo-server",
+      "version": "1.3.0",
+      "package_arguments": [
         {
-          "name": "collection",
-          "description": "Name of the collection to analyze",
-          "required": true
+          "description": "MongoDB connection string",
+          "is_required": true,
+          "format": "string",
+          "value": "mongodb://muhammed:kilic@localhost:27017/database",
+          "default": "mongodb://muhammed:kilic@localhost:27017/database",
+          "type": "positional",
+          "value_hint": "mongodb://muhammed:kilic@localhost:27017/database"
         }
       ]
     }
@@ -404,6 +388,19 @@
       "description": "MongoDB collections exposed as resources",
       "uritemplate": "/collections/{collectionName}",
       "mimetype": "application/json"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "analyze_collection",
+      "description": "Analyze a MongoDB collection structure and contents",
+      "arguments": [
+        {
+          "name": "collection",
+          "description": "Name of the collection to analyze",
+          "required": true
+        }
+      ]
     }
   ]
 }

@@ -1,38 +1,45 @@
 {
-  "repo_ref": "Spathodea-Network/opencti-mcp",
-  "name": "io.github.Spathodea-Network/opencti-mcp",
-  "description": "OpenCTI MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with OpenCTI (Open Cyber Threat Intelligence) platform. It enables querying and retrieving threat intelligence data through a standardized interface.",
-  "version_detail": {
-    "version": "0.1.0"
+  "id": "c01d9a66-7a37-4f66-870d-38829c0047ea",
+  "name": "io.github.spathodea-network/opencti-mcp",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/Spathodea-Network/opencti-mcp",
+    "source": "github",
+    "id": "909539706"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:02Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "opencti-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "path/to/opencti-server/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "OPENCTI_URL",
-            "description": "Your OpenCTI instance URL",
-            "required": true
-          },
-          {
-            "name": "OPENCTI_TOKEN",
-            "description": "Your OpenCTI API token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "opencti-server",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Positional argument for package execution",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/opencti-server/build/index.js",
+          "default": "path/to/opencti-server/build/index.js",
+          "type": "positional",
+          "value_hint": "path/to/opencti-server/build/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "${OPENCTI_URL}",
+          "name": "OPENCTI_URL"
+        },
+        {
+          "description": "${OPENCTI_TOKEN}",
+          "name": "OPENCTI_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_latest_reports",
@@ -252,5 +259,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

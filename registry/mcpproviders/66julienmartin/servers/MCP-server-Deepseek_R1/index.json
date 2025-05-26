@@ -1,33 +1,30 @@
 {
-  "repo_ref": "66julienmartin/MCP-server-Deepseek_R1",
-  "name": "io.github.66julienmartin/MCP-server-Deepseek_R1",
-  "description": "A Model Context Protocol (MCP) server implementation for the Deepseek R1 language model. Deepseek R1 is a powerful language model optimized for reasoning tasks with a context window of 8192 tokens.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "a2015046-780d-421a-999f-c52c808236fa",
+  "name": "io.github.66julienmartin/mcp-server-deepseek_r1",
+  "description": "A Model Context Protocol (MCP) server implementation connecting Claude Desktop with DeepSeek's language models (R1/V3)",
+  "repository": {
+    "url": "https://github.com/66julienmartin/MCP-server-Deepseek_R1",
+    "source": "github",
+    "id": "927737184"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:36Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/path/to/deepseek-r1-mcp/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "DEEPSEEK_API_KEY",
-            "description": "API key for Deepseek R1 model",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "deepseek_r1",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "DEEPSEEK_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "deepseek_r1",
@@ -58,5 +55,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

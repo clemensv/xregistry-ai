@@ -1,39 +1,30 @@
 {
-  "repo_ref": "OctagonAI/octagon-mcp-server",
-  "name": "io.github.OctagonAI/octagon-mcp-server",
-  "description": "The Octagon MCP server provides specialized AI-powered financial research and analysis by integrating with the Octagon Market Intelligence API, enabling users to easily analyze and extract detailed insights from public filings, earnings call transcripts, financial metrics, stock market data, and extensive private market transactions within Claude Desktop and other popular MCP clients.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "2d53cc39-27e0-446f-96b5-1324bab9eb21",
+  "name": "io.github.octagonai/octagon-mcp-server",
+  "description": "A free MCP server to analyze and extract insights from public filings, earnings transcripts, financial metrics, stock market data, private market transactions, and deep web-based research within Claude Desktop and other popular MCP clients.",
+  "repository": {
+    "url": "https://github.com/OctagonAI/octagon-mcp-server",
+    "source": "github",
+    "id": "947569884"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:49Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@OctagonAI/octagon-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@OctagonAI/octagon-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "OCTAGON_API_KEY",
-            "description": "Your Octagon API key",
-            "required": true
-          },
-          {
-            "name": "OCTAGON_API_BASE_URL",
-            "description": "Base URL for Octagon API",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "octagon-mcp",
+      "version": "1.0.18",
+      "environment_variables": [
+        {
+          "description": "YOUR_API_KEY_HERE",
+          "name": "OCTAGON_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "octagon-sec-agent",
@@ -229,5 +220,5 @@
     }
   ],
   "resources": [],
-  "documentation": "https://docs.octagonagents.com"
+  "prompts": []
 }

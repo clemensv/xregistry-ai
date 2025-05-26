@@ -1,33 +1,60 @@
 {
-  "repo_ref": "burningion/video-editing-mcp",
+  "id": "6b136dc5-ffcf-41b0-bf5f-e5dff5d47981",
   "name": "io.github.burningion/video-editing-mcp",
-  "description": "Server to upload, edit, search, and generate videos using Video Jungle and LLM integration with custom vj:// URI scheme and video editing tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP Interface for Video Jungle",
+  "repository": {
+    "url": "https://github.com/burningion/video-editing-mcp",
+    "source": "github",
+    "id": "898031405"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:26Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uvicorn",
-      "package_name": "video-editor-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "YOURAPIKEY"
-        ],
-        "environment_variables": [
-          {
-            "name": "LOAD_PHOTOS_DB",
-            "description": "Enable searching local Photos app videos on MacOS",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "video-editor-mcp",
+      "version": "0.1.25",
+      "package_arguments": [
+        {
+          "description": "Directory to use",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /Users/<PATH_TO>/video-jungle-mcp",
+          "default": "--directory /Users/<PATH_TO>/video-jungle-mcp",
+          "type": "named",
+          "name": "--directory /Users/<PATH_TO>/video-jungle-mcp",
+          "value_hint": "/Users/<PATH_TO>/video-jungle-mcp"
+        },
+        {
+          "description": "Script or module name",
+          "is_required": true,
+          "format": "string",
+          "value": "video-editor-mcp",
+          "default": "video-editor-mcp",
+          "type": "positional",
+          "value_hint": "video-editor-mcp"
+        },
+        {
+          "description": "API Key input",
+          "is_required": true,
+          "format": "string",
+          "value": "<YOURAPIKEY>",
+          "default": "<YOURAPIKEY>",
+          "type": "positional",
+          "value_hint": "<YOURAPIKEY>"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "1",
+          "name": "LOAD_PHOTOS_DB"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "add-video",
@@ -64,5 +91,6 @@
       "description": "Access individual videos and projects via custom vj:// URI scheme.",
       "uritemplate": "vj://{video_or_project_id}"
     }
-  ]
+  ],
+  "prompts": []
 }

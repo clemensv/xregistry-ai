@@ -1,66 +1,73 @@
 {
-  "repo_ref": "ClickHouse/mcp-clickhouse",
-  "name": "io.github.ClickHouse/mcp-clickhouse",
-  "description": "An MCP server for ClickHouse.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "98259539-3c6f-4462-b2b6-9a2567ff0545",
+  "name": "io.github.clickhouse/mcp-clickhouse",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/ClickHouse/mcp-clickhouse",
+    "source": "github",
+    "id": "908231244"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:02Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-clickhouse",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "CLICKHOUSE_HOST",
-            "description": "The hostname of your ClickHouse server",
-            "required": true
-          },
-          {
-            "name": "CLICKHOUSE_USER",
-            "description": "The username for authentication",
-            "required": true
-          },
-          {
-            "name": "CLICKHOUSE_PASSWORD",
-            "description": "The password for authentication",
-            "required": true
-          },
-          {
-            "name": "CLICKHOUSE_PORT",
-            "description": "The port of the ClickHouse server",
-            "required": false
-          },
-          {
-            "name": "CLICKHOUSE_SECURE",
-            "description": "Use secure connection",
-            "required": false
-          },
-          {
-            "name": "CLICKHOUSE_VERIFY",
-            "description": "Verify SSL certificates",
-            "required": false
-          },
-          {
-            "name": "CLICKHOUSE_CONNECT_TIMEOUT",
-            "description": "Connection timeout in seconds",
-            "required": false
-          },
-          {
-            "name": "CLICKHOUSE_SEND_RECEIVE_TIMEOUT",
-            "description": "Send/receive timeout in seconds",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "mcp-clickhouse",
+      "version": "0.1.7",
+      "package_arguments": [
+        {
+          "description": "Use the specified runtime feature",
+          "is_required": true,
+          "format": "string",
+          "value": "--with mcp-clickhouse",
+          "default": "--with mcp-clickhouse",
+          "type": "named",
+          "name": "--with mcp-clickhouse",
+          "value_hint": "mcp-clickhouse"
+        },
+        {
+          "description": "Specify Python version",
+          "is_required": true,
+          "format": "string",
+          "value": "--python 3.13",
+          "default": "--python 3.13",
+          "type": "named",
+          "name": "--python 3.13",
+          "value_hint": "3.13"
+        },
+        {
+          "description": "Positional argument to run (script or module)",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-clickhouse",
+          "default": "mcp-clickhouse",
+          "type": "positional",
+          "value_hint": "mcp-clickhouse"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<clickhouse-host>",
+          "name": "CLICKHOUSE_HOST"
+        },
+        {
+          "description": "<clickhouse-user>",
+          "name": "CLICKHOUSE_USER"
+        },
+        {
+          "description": "<clickhouse-password>",
+          "name": "CLICKHOUSE_PASSWORD"
+        },
+        {
+          "description": "<optional-database>",
+          "name": "CLICKHOUSE_DATABASE"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "run_select_query",
@@ -108,5 +115,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

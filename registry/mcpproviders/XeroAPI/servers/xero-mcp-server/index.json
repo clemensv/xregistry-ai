@@ -1,44 +1,46 @@
 {
-  "repo_ref": "XeroAPI/xero-mcp-server",
-  "name": "io.github.XeroAPI/xero-mcp-server",
-  "description": "This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "4bc3b6d3-666e-4bb7-8ad7-6b38bc9c5ab8",
+  "name": "io.github.xeroapi/xero-mcp-server",
+  "description": "An MCP server that integrates with the MCP protocol. https://modelcontextprotocol.io/introduction",
+  "repository": {
+    "url": "https://github.com/XeroAPI/xero-mcp-server",
+    "source": "github",
+    "id": "949710667"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:25Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@xeroapi/xero-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@xeroapi/xero-mcp-server@latest"
-        ],
-        "environment_variables": [
-          {
-            "name": "XERO_CLIENT_ID",
-            "description": "Client ID for Xero OAuth2 authentication",
-            "required": false
-          },
-          {
-            "name": "XERO_CLIENT_SECRET",
-            "description": "Client secret for Xero OAuth2 authentication",
-            "required": false
-          },
-          {
-            "name": "XERO_CLIENT_BEARER_TOKEN",
-            "description": "Bearer token for authentication, takes precedence over client ID/secret",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@xeroapi/xero-mcp-server",
+      "version": "0.0.12",
+      "package_arguments": [
+        {
+          "description": "Path to MCP server entry file",
+          "is_required": true,
+          "format": "string",
+          "value": "insert-your-file-path-here/xero-mcp-server/dist/index.js",
+          "default": "insert-your-file-path-here/xero-mcp-server/dist/index.js",
+          "type": "positional",
+          "value_hint": "insert-your-file-path-here/xero-mcp-server/dist/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_client_id_here",
+          "name": "XERO_CLIENT_ID"
+        },
+        {
+          "description": "your_client_secret_here",
+          "name": "XERO_CLIENT_SECRET"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,33 +1,56 @@
 {
-  "repo_ref": "GeLi2001/tft-mcp-server",
-  "name": "io.github.GeLi2001/tft-mcp-server",
-  "description": "Model Context Protocol (MCP) server for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.",
-  "version_detail": {
-    "version": "0.1.0"
+  "id": "1aa1e801-80d9-4ea1-80c2-e7d037ce98e3",
+  "name": "io.github.geli2001/tft-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/GeLi2001/tft-mcp-server",
+    "source": "github",
+    "id": "957763921"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:41Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-server-tft",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-server-tft",
-          "--apiKey",
-          "<YOUR_RIOT_API_KEY>",
-          "--gameName",
-          "<YOUR_GAME_NAME>",
-          "--tagLine",
-          "<YOUR_TAG_LINE>"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "mcp-server-tft",
+      "version": "0.1.3",
+      "package_arguments": [
+        {
+          "description": "<YOUR_RIOT_API_KEY>",
+          "is_required": true,
+          "format": "string",
+          "value": "--apiKey <YOUR_RIOT_API_KEY>",
+          "default": "--apiKey <YOUR_RIOT_API_KEY>",
+          "type": "named",
+          "name": "--apiKey <YOUR_RIOT_API_KEY>",
+          "value_hint": "<YOUR_RIOT_API_KEY>"
+        },
+        {
+          "description": "<YOUR_GAME_NAME>",
+          "is_required": true,
+          "format": "string",
+          "value": "--gameName <YOUR_GAME_NAME>",
+          "default": "--gameName <YOUR_GAME_NAME>",
+          "type": "named",
+          "name": "--gameName <YOUR_GAME_NAME>",
+          "value_hint": "<YOUR_GAME_NAME>"
+        },
+        {
+          "description": "<YOUR_TAG_LINE>",
+          "is_required": true,
+          "format": "string",
+          "value": "--tagLine <YOUR_TAG_LINE>",
+          "default": "--tagLine <YOUR_TAG_LINE>",
+          "type": "named",
+          "name": "--tagLine <YOUR_TAG_LINE>",
+          "value_hint": "<YOUR_TAG_LINE>"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "tft_match_history",
@@ -64,5 +87,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

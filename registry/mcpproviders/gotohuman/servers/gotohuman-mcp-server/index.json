@@ -1,32 +1,30 @@
 {
-  "repo_ref": "gotohuman/gotohuman-mcp-server",
+  "id": "0f970fc6-418a-45c7-a665-00e725e8338d",
   "name": "io.github.gotohuman/gotohuman-mcp-server",
-  "description": "gotoHuman makes it easy to add human approvals to AI agents and agentic workflows. A fully-managed async human-in-the-loop workflow with a customizable approval UI. Enjoy built-in auth, webhooks, notifications, team features, and an evolving training dataset.",
-  "version_detail": {
-    "version": "0.1.2"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/gotohuman/gotohuman-mcp-server",
+    "source": "github",
+    "id": "952612861"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:13Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@gotohuman/mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/<absolute-path>/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "GOTOHUMAN_API_KEY",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@gotohuman/mcp-server",
+      "version": "0.1.2",
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "GOTOHUMAN_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list-forms",
@@ -90,5 +88,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

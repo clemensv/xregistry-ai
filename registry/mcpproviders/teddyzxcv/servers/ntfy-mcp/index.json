@@ -1,33 +1,42 @@
 {
-  "repo_ref": "teddyzxcv/ntfy-mcp",
+  "id": "dd3f5299-5869-43ec-89a8-77e25e6a157e",
   "name": "io.github.teddyzxcv/ntfy-mcp",
-  "description": "The MCP server that keeps you caffeinated and informed by sending ntfy notifications whenever your AI assistant completes a task.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/teddyzxcv/ntfy-mcp",
+    "source": "github",
+    "id": "950853704"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:27Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/path/to/ntfy-mcp/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "NTFY_TOPIC",
-            "description": "Topic name for ntfy notifications",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "ntfy-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Path to the main entry point for ntfy-mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/ntfy-mcp/build/index.js",
+          "default": "/path/to/ntfy-mcp/build/index.js",
+          "type": "positional",
+          "value_hint": "/path/to/ntfy-mcp/build/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<your topic name>",
+          "name": "NTFY_TOPIC"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,0 +1,22 @@
+{
+  "id": "a9d37e55-2034-40aa-8956-4c05c52b40c7",
+  "name": "io.github.badkk/awesome-crypto-mcp-servers",
+  "description": "A collection of crypto MCP servers.",
+  "repository": {
+    "url": "https://github.com/badkk/awesome-crypto-mcp-servers",
+    "source": "github",
+    "id": "911501074"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:38Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "badkk/awesome-crypto-mcp-servers",
+      "version": ""
+    }
+  ]
+}

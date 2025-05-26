@@ -1,46 +1,24 @@
 {
-  "repo_ref": "rishikavikondala/mcp-server-aws",
+  "id": "e9799403-3917-4c38-9638-c69aebf1ac08",
   "name": "io.github.rishikavikondala/mcp-server-aws",
-  "description": "A Model Context Protocol server implementation for AWS operations that currently supports S3 and DynamoDB services. All operations are automatically logged and can be accessed through the audit://aws-operations resource endpoint.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A Model Context Protocol server implementation for operations on AWS resources",
+  "repository": {
+    "url": "https://github.com/rishikavikondala/mcp-server-aws",
+    "source": "github",
+    "id": "898207013"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-server-aws",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/path/to/repo/mcp-server-aws",
-          "run",
-          "mcp-server-aws"
-        ],
-        "environment_variables": [
-          {
-            "name": "AWS_ACCESS_KEY_ID",
-            "description": "AWS access key ID",
-            "required": false
-          },
-          {
-            "name": "AWS_SECRET_ACCESS_KEY",
-            "description": "AWS secret access key",
-            "required": false
-          },
-          {
-            "name": "AWS_REGION",
-            "description": "AWS region, defaults to us-east-1",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-aws",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "s3_bucket_create",
@@ -203,5 +181,6 @@
       "uritemplate": "audit://aws-operations",
       "description": "Access to automatically logged AWS operations."
     }
-  ]
+  ],
+  "prompts": []
 }

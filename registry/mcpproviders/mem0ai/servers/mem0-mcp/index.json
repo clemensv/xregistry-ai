@@ -1,39 +1,24 @@
 {
-  "repo_ref": "mem0ai/mem0-mcp",
+  "id": "4f189cdd-04a5-47f6-b87b-7d38cc82e625",
   "name": "io.github.mem0ai/mem0-mcp",
-  "description": "This demonstrates a structured approach for using an MCP server with mem0 to manage coding preferences efficiently. The server provides tools for storing, retrieving, and searching coding preferences and exposes an SSE endpoint for MCP clients.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/mem0ai/mem0-mcp",
+    "source": "github",
+    "id": "934683195"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:02Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://0.0.0.0:8080/sse",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "mem0-mcp",
+      "version": "0.1.0"
     }
   ],
-  "registries": [
-    {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "main.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "MEM0_API_KEY",
-            "description": "API key for mem0 client",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "add-memory",
@@ -78,5 +63,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

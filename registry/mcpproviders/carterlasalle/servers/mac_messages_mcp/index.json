@@ -1,27 +1,25 @@
 {
-  "repo_ref": "carterlasalle/mac_messages_mcp",
+  "id": "e7e51609-0d23-4d96-8063-d136bd993c93",
   "name": "io.github.carterlasalle/mac_messages_mcp",
-  "description": "A Python bridge for interacting with the macOS Messages app using MCP (Multiple Context Protocol).",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "An MCP server that securely interfaces with your iMessage database via the Model Context Protocol (MCP), allowing LLMs to query and analyze iMessage conversations. It includes robust phone number validation, attachment processing, contact management, group chat handling, and full support for sending and receiving messages.",
+  "repository": {
+    "url": "https://github.com/carterlasalle/mac_messages_mcp",
+    "source": "github",
+    "id": "947677712"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:34Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "mac-messages-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mac-messages-mcp"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mac-messages-mcp",
+      "version": "0.6.6"
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

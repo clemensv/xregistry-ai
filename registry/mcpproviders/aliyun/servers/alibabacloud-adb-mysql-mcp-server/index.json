@@ -1,0 +1,65 @@
+{
+  "id": "7f6e6610-4df3-490e-95e3-03ec954eb2ab",
+  "name": "io.github.aliyun/alibabacloud-adb-mysql-mcp-server",
+  "description": "AnalyticDB for MySQL MCP Server",
+  "repository": {
+    "url": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server",
+    "source": "github",
+    "id": "956503834"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:04Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "adb-mysql-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "With flag and value",
+          "is_required": true,
+          "format": "string",
+          "value": "--with adb-mysql-mcp-server",
+          "default": "--with adb-mysql-mcp-server",
+          "type": "named",
+          "name": "--with adb-mysql-mcp-server",
+          "value_hint": "adb-mysql-mcp-server"
+        },
+        {
+          "description": "Script/module to run",
+          "is_required": true,
+          "format": "string",
+          "value": "adb-mysql-mcp-server",
+          "default": "adb-mysql-mcp-server",
+          "type": "positional",
+          "value_hint": "adb-mysql-mcp-server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "host",
+          "name": "ADB_MYSQL_HOST"
+        },
+        {
+          "description": "port",
+          "name": "ADB_MYSQL_PORT"
+        },
+        {
+          "description": "database_user",
+          "name": "ADB_MYSQL_USER"
+        },
+        {
+          "description": "database_password",
+          "name": "ADB_MYSQL_PASSWORD"
+        },
+        {
+          "description": "database",
+          "name": "ADB_MYSQL_DATABASE"
+        }
+      ]
+    }
+  ]
+}

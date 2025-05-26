@@ -1,0 +1,22 @@
+{
+  "id": "94872987-6992-4fec-ab4b-9ef5311b3108",
+  "name": "io.github.allen-munsch/mcp-prefect",
+  "description": "https://pypi.org/project/mcp-prefect/0.1.0/",
+  "repository": {
+    "url": "https://github.com/allen-munsch/mcp-prefect",
+    "source": "github",
+    "id": "956317848"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:42Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-prefect",
+      "version": "0.1.1"
+    }
+  ]
+}

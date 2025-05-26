@@ -1,31 +1,46 @@
 {
-  "repo_ref": "pydantic/logfire-mcp",
+  "id": "6e66e04c-86cc-43ec-90ed-1a91a0e4eb76",
   "name": "io.github.pydantic/logfire-mcp",
-  "description": "This repository contains a Model Context Protocol (MCP) server with tools that can access the OpenTelemetry traces and metrics you've sent to Logfire. This MCP server enables LLMs to retrieve your application's telemetry data, analyze distributed traces, and make use of the results of arbitrary SQL queries executed using the Logfire APIs.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "The Logfire MCP Server is here! :tada:",
+  "repository": {
+    "url": "https://github.com/pydantic/logfire-mcp",
+    "source": "github",
+    "id": "943883428"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:06Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "logfire-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "LOGFIRE_READ_TOKEN",
-            "description": "Logfire read token for API access",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "logfire-mcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "SELECT trace_id, message, created_at, attributes->>'service.name' as service FROM records WHERE severity_text = 'ERROR' ORDER BY created_at DESC LIMIT 10",
+          "is_required": true,
+          "format": "string",
+          "value": "SELECT trace_id, message, created_at, attributes->>'service.name' as service FROM records WHERE severity_text = 'ERROR' ORDER BY created_at DESC LIMIT 10",
+          "default": "SELECT trace_id, message, created_at, attributes->>'service.name' as service FROM records WHERE severity_text = 'ERROR' ORDER BY created_at DESC LIMIT 10",
+          "type": "named",
+          "name": "SELECT trace_id, message, created_at, attributes->>'service.name' as service FROM records WHERE severity_text = 'ERROR' ORDER BY created_at DESC LIMIT 10",
+          "value_hint": "SELECT trace_id, message, created_at, attributes->>'service.name' as service FROM records WHERE severity_text = 'ERROR' ORDER BY created_at DESC LIMIT 10"
+        },
+        {
+          "description": "1440",
+          "is_required": true,
+          "format": "string",
+          "value": "1440",
+          "default": "1440",
+          "type": "named",
+          "name": "1440",
+          "value_hint": "1440"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "find_exceptions",
@@ -95,5 +110,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,102 +1,81 @@
 {
-  "repo_ref": "voska/hass-mcp",
+  "id": "67c71178-8632-4d67-abad-c28f6e58c87f",
   "name": "io.github.voska/hass-mcp",
-  "description": "A Model Context Protocol (MCP) server for Home Assistant integration with Claude and other LLMs. Enables AI assistants to query device states, control entities, get summaries, troubleshoot automations, search entities, and create guided conversations.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Home Assistant MCP Server",
+  "repository": {
+    "url": "https://github.com/voska/hass-mcp",
+    "source": "github",
+    "id": "949564493"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:01Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "voska/hass-mcp:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "-i",
-          "--rm",
-          "-e",
-          "HA_URL",
-          "-e",
-          "HA_TOKEN",
-          "voska/hass-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "HA_URL",
-            "description": "URL of the Home Assistant instance",
-            "required": true
-          },
-          {
-            "name": "HA_TOKEN",
-            "description": "Home Assistant Long-Lived Access Token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "create_automation",
-      "description": "Guide a user through creating a Home Assistant automation",
-      "arguments": [
+      "registry_name": "docker",
+      "name": "hass-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
         {
-          "name": "trigger_type",
-          "description": "The type of trigger for the automation",
-          "required": true
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
         },
         {
-          "name": "entity_id",
-          "description": "Optional entity to use as the trigger source",
-          "required": false
-        }
-      ]
-    },
-    {
-      "name": "debug_automation",
-      "description": "Help a user troubleshoot an automation that isn't working",
-      "arguments": [
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
         {
-          "name": "automation_id",
-          "description": "The entity ID of the automation to troubleshoot",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "troubleshoot_entity",
-      "description": "Guide a user through troubleshooting issues with an entity",
-      "arguments": [
+          "description": "-e HA_URL",
+          "is_required": true,
+          "format": "string",
+          "value": "-e HA_URL",
+          "default": "-e HA_URL",
+          "type": "named",
+          "name": "-e HA_URL",
+          "value_hint": "HA_URL"
+        },
         {
-          "name": "entity_id",
-          "description": "The entity ID having issues",
-          "required": true
+          "description": "-e HA_TOKEN",
+          "is_required": true,
+          "format": "string",
+          "value": "-e HA_TOKEN",
+          "default": "-e HA_TOKEN",
+          "type": "named",
+          "name": "-e HA_TOKEN",
+          "value_hint": "HA_TOKEN"
+        },
+        {
+          "description": "voska/hass-mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "voska/hass-mcp",
+          "default": "voska/hass-mcp",
+          "type": "positional",
+          "value_hint": "voska/hass-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "http://homeassistant.local:8123",
+          "name": "HA_URL"
+        },
+        {
+          "description": "YOUR_LONG_LIVED_TOKEN",
+          "name": "HA_TOKEN"
         }
       ]
-    },
-    {
-      "name": "routine_optimizer",
-      "description": "Analyze usage patterns and suggest optimized routines based on actual behavior",
-      "arguments": []
-    },
-    {
-      "name": "automation_health_check",
-      "description": "Review all automations, find conflicts, redundancies, or improvement opportunities",
-      "arguments": []
-    },
-    {
-      "name": "entity_naming_consistency",
-      "description": "Audit entity names and suggest standardization improvements",
-      "arguments": []
-    },
-    {
-      "name": "dashboard_layout_generator",
-      "description": "Create optimized dashboards based on user preferences and usage patterns",
-      "arguments": []
     }
   ],
   "tools": [
@@ -345,6 +324,66 @@
       "name": "entities_by_domain",
       "description": "Get a list of entities for a specific domain as a resource",
       "mimetype": "text/markdown"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "create_automation",
+      "description": "Guide a user through creating a Home Assistant automation",
+      "arguments": [
+        {
+          "name": "trigger_type",
+          "description": "The type of trigger for the automation",
+          "required": true
+        },
+        {
+          "name": "entity_id",
+          "description": "Optional entity to use as the trigger source",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "debug_automation",
+      "description": "Help a user troubleshoot an automation that isn't working",
+      "arguments": [
+        {
+          "name": "automation_id",
+          "description": "The entity ID of the automation to troubleshoot",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "troubleshoot_entity",
+      "description": "Guide a user through troubleshooting issues with an entity",
+      "arguments": [
+        {
+          "name": "entity_id",
+          "description": "The entity ID having issues",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "routine_optimizer",
+      "description": "Analyze usage patterns and suggest optimized routines based on actual behavior",
+      "arguments": []
+    },
+    {
+      "name": "automation_health_check",
+      "description": "Review all automations, find conflicts, redundancies, or improvement opportunities",
+      "arguments": []
+    },
+    {
+      "name": "entity_naming_consistency",
+      "description": "Audit entity names and suggest standardization improvements",
+      "arguments": []
+    },
+    {
+      "name": "dashboard_layout_generator",
+      "description": "Create optimized dashboards based on user preferences and usage patterns",
+      "arguments": []
     }
   ]
 }

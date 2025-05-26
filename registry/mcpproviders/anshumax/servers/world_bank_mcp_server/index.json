@@ -1,30 +1,45 @@
 {
-  "repo_ref": "anshumax/world_bank_mcp_server",
+  "id": "4e6fc5a4-eecb-46e4-a3ce-4310cbb8c3f4",
   "name": "io.github.anshumax/world_bank_mcp_server",
-  "description": "A Model Context Protocol (MCP) server that enables interaction with the open World Bank data API. This server allows AI assistants to list indicators and analyse those indicators for the countries that are available with the World Bank.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "An implementation of the Model Context Protocol for the World Bank open data API",
+  "repository": {
+    "url": "https://github.com/anshumax/world_bank_mcp_server",
+    "source": "github",
+    "id": "911984754"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:56Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@anshumax/world_bank_mcp_server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "path/to/world_bank_mcp_server",
-          "run",
-          "world_bank_mcp_server"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "world_bank_mcp_server",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "The directory to use",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory path/to/world_bank_mcp_server",
+          "default": "--directory path/to/world_bank_mcp_server",
+          "type": "named",
+          "name": "--directory path/to/world_bank_mcp_server",
+          "value_hint": "path/to/world_bank_mcp_server"
+        },
+        {
+          "description": "The server script/module to execute",
+          "is_required": true,
+          "format": "string",
+          "value": "world_bank_mcp_server",
+          "default": "world_bank_mcp_server",
+          "type": "positional",
+          "value_hint": "world_bank_mcp_server"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_indicator_for_country",
@@ -61,5 +76,6 @@
       "description": "List of indicators in the World Bank database",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

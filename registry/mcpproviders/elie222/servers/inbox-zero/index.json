@@ -1,38 +1,24 @@
 {
-  "repo_ref": "elie222/inbox-zero",
+  "id": "afd9f984-ea69-4a8c-86ac-fdb58f3ab37c",
   "name": "io.github.elie222/inbox-zero",
-  "description": "AI email assistant MCP server providing email management tools such as reply tracking and follow-up reminders.",
-  "version_detail": {
-    "version": "0.0.1"
+  "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
+  "repository": {
+    "url": "https://github.com/elie222/inbox-zero",
+    "source": "github",
+    "id": "665613753"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:41Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "server.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "API_BASE",
-            "description": "Base URL for Inbox Zero API",
-            "required": false
-          },
-          {
-            "name": "API_KEY",
-            "description": "API key for Inbox Zero API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "inbox-zero",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-emails-needing-reply",
@@ -79,5 +65,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

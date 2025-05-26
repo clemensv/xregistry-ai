@@ -1,25 +1,24 @@
 {
-  "repo_ref": "Automata-Labs-team/code-sandbox-mcp",
-  "name": "io.github.Automata-Labs-team/code-sandbox-mcp",
-  "description": "A secure sandbox environment for executing code within Docker containers. This MCP server provides AI applications with a safe and isolated environment for running code while maintaining security through containerization.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "7e1d97cc-ef73-480a-a9f3-c9d94c05a481",
+  "name": "io.github.automata-labs-team/code-sandbox-mcp",
+  "description": "An MCP server to create secure code sandbox environment for executing code within Docker containers. This MCP server provides AI applications with a safe and isolated environment for running code while maintaining security through containerization.",
+  "repository": {
+    "url": "https://github.com/Automata-Labs-team/code-sandbox-mcp",
+    "source": "github",
+    "id": "922445184"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:40Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "docker",
-      "package_name": "code-sandbox-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "Automata-Labs-team/code-sandbox-mcp",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "sandbox_initialize",
@@ -142,5 +141,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

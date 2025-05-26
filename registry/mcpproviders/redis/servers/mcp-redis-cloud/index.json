@@ -1,39 +1,67 @@
 {
-  "repo_ref": "redis/mcp-redis-cloud",
+  "id": "b8c0e12b-0c04-486d-95a7-caa33b9eefeb",
   "name": "io.github.redis/mcp-redis-cloud",
-  "description": "Model Context Protocol (MCP) server for managing Redis Cloud resources via natural language commands.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/redis/mcp-redis-cloud",
+    "source": "github",
+    "id": "956477944"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:13Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--experimental-fetch",
-          "<absolute_path_to_project_root>/dist/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "API_KEY",
-            "description": "Redis Cloud API key",
-            "required": true
-          },
-          {
-            "name": "SECRET_KEY",
-            "description": "Redis Cloud API secret key",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mcp-redis-cloud",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "-e API_KEY=<your_redis_cloud_api_key>",
+          "is_required": true,
+          "format": "string",
+          "value": "-e API_KEY=<your_redis_cloud_api_key>",
+          "default": "-e API_KEY=<your_redis_cloud_api_key>",
+          "type": "named",
+          "name": "-e API_KEY=<your_redis_cloud_api_key>",
+          "value_hint": "API_KEY=<your_redis_cloud_api_key>"
+        },
+        {
+          "description": "-e SECRET_KEY=<your_redis_cloud_api_secret_key>",
+          "is_required": true,
+          "format": "string",
+          "value": "-e SECRET_KEY=<your_redis_cloud_api_secret_key>",
+          "default": "-e SECRET_KEY=<your_redis_cloud_api_secret_key>",
+          "type": "named",
+          "name": "-e SECRET_KEY=<your_redis_cloud_api_secret_key>",
+          "value_hint": "SECRET_KEY=<your_redis_cloud_api_secret_key>"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

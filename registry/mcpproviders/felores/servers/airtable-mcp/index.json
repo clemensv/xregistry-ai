@@ -1,33 +1,41 @@
 {
-  "repo_ref": "felores/airtable-mcp",
+  "id": "04216a87-0760-4f25-b809-42ffbfbb8962",
   "name": "io.github.felores/airtable-mcp",
-  "description": "A Model Context Protocol server that provides tools for interacting with Airtable's API. This server enables programmatic management of Airtable bases, tables, fields, and records through Claude Desktop or other MCP clients.",
-  "version_detail": {
-    "version": "0.2.0"
+  "description": "Search, create and update Airtable bases, tables, fields, and records using Claude Desktop and MCP (Model Context Protocol) clients",
+  "repository": {
+    "url": "https://github.com/felores/airtable-mcp",
+    "source": "github",
+    "id": "904238387"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:48Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@felores/airtable-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "@felores/airtable-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "AIRTABLE_API_KEY",
-            "description": "Airtable API key for authentication",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@felores/airtable-mcp-server",
+      "version": "0.3.0",
+      "package_arguments": [
+        {
+          "description": "Positional argument for the package entry point",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/airtable-mcp/build/index.js",
+          "default": "path/to/airtable-mcp/build/index.js",
+          "type": "positional",
+          "value_hint": "path/to/airtable-mcp/build/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "AIRTABLE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_bases",
@@ -394,5 +402,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

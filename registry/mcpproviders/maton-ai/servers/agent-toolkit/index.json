@@ -1,37 +1,25 @@
 {
-  "repo_ref": "maton-ai/agent-toolkit",
+  "id": "a7cfde04-fae7-4b2c-bcef-c752525a057e",
   "name": "io.github.maton-ai/agent-toolkit",
-  "description": "The Maton Agent Toolkit enables popular agent frameworks including Model Context Protocol (MCP) to integrate with Maton APIs through function calling. The library is not exhaustive of the entire Maton API. It includes support for Typescript.",
-  "version_detail": {
-    "version": "0.0.1"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/maton-ai/agent-toolkit",
+    "source": "github",
+    "id": "950334178"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:41Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npx",
-      "package_name": "@maton/mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@maton/mcp",
-          "hubspot",
-          "--actions=all",
-          "--api-key=YOUR_MATON_API_KEY"
-        ],
-        "environment_variables": [
-          {
-            "name": "MATON_API_KEY",
-            "description": "API key for Maton API",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "maton-ai/agent-toolkit",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

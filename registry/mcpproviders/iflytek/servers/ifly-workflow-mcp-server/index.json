@@ -1,34 +1,51 @@
 {
-  "repo_ref": "iflytek/ifly-workflow-mcp-server",
+  "id": "6a9b532e-61df-4d4d-a898-25d66aa60315",
   "name": "io.github.iflytek/ifly-workflow-mcp-server",
-  "description": "The fastest way to build workflows with an AI agent platform! This is a simple implementation of an MCP server using iFlytek. It enables calling iFlytek workflows through MCP tools. Supports 14 types of workflow nodes, advanced orchestration modes, multi-model support, and streaming output via hook mechanism.",
-  "version_detail": {
-    "version": "0.0.1"
+  "description": "This a simple implementation of an MCP server using iFlytek. It enables calling iFlytek workflows through MCP tools.",
+  "repository": {
+    "url": "https://github.com/iflytek/ifly-workflow-mcp-server",
+    "source": "github",
+    "id": "953998052"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "ifly-workflow-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-m",
-          "mcp_server.main"
-        ],
-        "environment_variables": [
-          {
-            "name": "CONFIG_PATH",
-            "description": "Path to configuration file",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "ifly-workflow-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "--from git+https://github.com/iflytek/ifly-workflow-mcp-server",
+          "is_required": true,
+          "format": "string",
+          "value": "--from git+https://github.com/iflytek/ifly-workflow-mcp-server",
+          "default": "--from git+https://github.com/iflytek/ifly-workflow-mcp-server",
+          "type": "named",
+          "name": "--from git+https://github.com/iflytek/ifly-workflow-mcp-server",
+          "value_hint": "git+https://github.com/iflytek/ifly-workflow-mcp-server"
+        },
+        {
+          "description": "ifly_workflow_mcp_server",
+          "is_required": true,
+          "format": "string",
+          "value": "ifly_workflow_mcp_server",
+          "default": "ifly_workflow_mcp_server",
+          "type": "positional",
+          "value_hint": "ifly_workflow_mcp_server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "/Users/hygao1024/Projects/config.yaml",
+          "name": "CONFIG_PATH"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "SYS_UPLOAD_FILE",
@@ -76,5 +93,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

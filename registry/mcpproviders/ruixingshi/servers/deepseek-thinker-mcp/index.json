@@ -1,44 +1,34 @@
 {
-  "repo_ref": "ruixingshi/deepseek-thinker-mcp",
+  "id": "883a7c72-e6ca-41cb-91e9-e65436a58729",
   "name": "io.github.ruixingshi/deepseek-thinker-mcp",
-  "description": "A MCP (Model Context Protocol) provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's thought processes from the Deepseek API service or from a local Ollama server.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "A MCP provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's CoT from the Deepseek API service or a local Ollama server.",
+  "repository": {
+    "url": "https://github.com/ruixingshi/deepseek-thinker-mcp",
+    "source": "github",
+    "id": "931883120"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:38Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "deepseek-thinker-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "deepseek-thinker-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "API_KEY",
-            "description": "Your OpenAI API Key",
-            "required": false
-          },
-          {
-            "name": "BASE_URL",
-            "description": "API Base URL",
-            "required": false
-          },
-          {
-            "name": "USE_OLLAMA",
-            "description": "Set to true to use Ollama mode",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "deepseek-thinker-mcp",
+      "version": "1.0.2",
+      "environment_variables": [
+        {
+          "description": "<Your API Key>",
+          "name": "API_KEY"
+        },
+        {
+          "description": "<Your Base URL>",
+          "name": "BASE_URL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-deepseek-thinker",
@@ -57,5 +47,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

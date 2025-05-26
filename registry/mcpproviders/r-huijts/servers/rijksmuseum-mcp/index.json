@@ -1,34 +1,30 @@
 {
-  "repo_ref": "r-huijts/rijksmuseum-mcp",
+  "id": "6a64a548-c36c-400f-b43c-4d977aa1e482",
   "name": "io.github.r-huijts/rijksmuseum-mcp",
-  "description": "A Model Context Protocol (MCP) server that provides access to the Rijksmuseum's collection through natural language interactions. This server enables AI models to explore, analyze, and interact with artworks and collections from the Rijksmuseum.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "Rijksmuseum MCP integration for artwork exploration and analysis",
+  "repository": {
+    "url": "https://github.com/r-huijts/rijksmuseum-mcp",
+    "source": "github",
+    "id": "907496920"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:32Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-server-rijksmuseum",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "mcp-server-rijksmuseum"
-        ],
-        "environment_variables": [
-          {
-            "name": "RIJKSMUSEUM_API_KEY",
-            "description": "API key for accessing Rijksmuseum data",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-rijksmuseum",
+      "version": "1.0.4",
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "RIJKSMUSEUM_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_artwork",
@@ -273,5 +269,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

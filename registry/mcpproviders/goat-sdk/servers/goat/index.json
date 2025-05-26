@@ -1,38 +1,24 @@
 {
-  "repo_ref": "goat-sdk/goat",
+  "id": "6e61849a-2312-4c76-a9d0-0a4b84a7795e",
   "name": "io.github.goat-sdk/goat",
-  "description": "GOAT MCP Server providing on-chain tools for EVM wallets including ETH transfers and ERC20 tokens like USDC.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "The leading agentic finance toolkit for AI agents",
+  "repository": {
+    "url": "https://github.com/goat-sdk/goat",
+    "source": "github",
+    "id": "894659403"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@goat-sdk/goat",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "server.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "WALLET_PRIVATE_KEY",
-            "description": "Private key for wallet authentication",
-            "required": true
-          },
-          {
-            "name": "RPC_PROVIDER_URL",
-            "description": "RPC URL for blockchain access",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "goat-repo",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "sendETH",
@@ -49,5 +35,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

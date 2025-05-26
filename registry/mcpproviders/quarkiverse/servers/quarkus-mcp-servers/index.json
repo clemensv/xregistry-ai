@@ -1,25 +1,25 @@
 {
-  "repo_ref": "quarkiverse/quarkus-mcp-servers",
+  "id": "24044cb1-3333-400d-966b-3394d9f39261",
   "name": "io.github.quarkiverse/quarkus-mcp-servers",
-  "description": "Model Context Protocol servers implemented in Java using the Quarkus MCP server framework, enabling extension of MCP enabled LLM AI applications.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol Servers in Quarkus",
+  "repository": {
+    "url": "https://github.com/quarkiverse/quarkus-mcp-servers",
+    "source": "github",
+    "id": "920668324"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:36Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "jbang",
-      "package_name": "quarkiverse/quarkus-mcp-servers",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "quarkiverse/quarkus-mcp-servers",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

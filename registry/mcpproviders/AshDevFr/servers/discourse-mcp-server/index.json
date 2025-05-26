@@ -1,62 +1,38 @@
 {
-  "repo_ref": "AshDevFr/discourse-mcp-server",
-  "name": "io.github.AshDevFr/discourse-mcp-server",
-  "description": "Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "dedc68af-03ef-49ce-a331-e4717b96f693",
+  "name": "io.github.ashdevfr/discourse-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/AshDevFr/discourse-mcp-server",
+    "source": "github",
+    "id": "946264788"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "ashdev/discourse-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "-i",
-          "--rm",
-          "-e",
-          "DISCOURSE_API_URL=https://try.discourse.org",
-          "-e",
-          "DISCOURSE_API_KEY=1234",
-          "-e",
-          "DISCOURSE_API_USERNAME=ash"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "@ashdev/discourse-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@ashdev/discourse-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "DISCOURSE_API_URL",
-            "required": true
-          },
-          {
-            "name": "DISCOURSE_API_KEY",
-            "required": false
-          },
-          {
-            "name": "DISCOURSE_API_USERNAME",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@ashdev/discourse-mcp-server",
+      "version": "1.0.2",
+      "environment_variables": [
+        {
+          "description": "https://try.discourse.org",
+          "name": "DISCOURSE_API_URL"
+        },
+        {
+          "description": "1234",
+          "name": "DISCOURSE_API_KEY"
+        },
+        {
+          "description": "ash",
+          "name": "DISCOURSE_API_USERNAME"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_posts",
@@ -76,5 +52,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

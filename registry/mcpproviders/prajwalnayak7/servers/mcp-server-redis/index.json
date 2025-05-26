@@ -1,38 +1,24 @@
 {
-  "repo_ref": "prajwalnayak7/mcp-server-redis",
+  "id": "8f234bf9-d65f-4406-bed6-f8217adee4c9",
   "name": "io.github.prajwalnayak7/mcp-server-redis",
-  "description": "This implementation provides a solid foundation for Redis integration through MCP. You can extend it further by adding more Redis commands as needed for your specific use case.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server to interact with Redis Server, AWS Memory DB, etc for caching or other use-cases where in-memory and key-value based storage is appropriate",
+  "repository": {
+    "url": "https://github.com/prajwalnayak7/mcp-server-redis",
+    "source": "github",
+    "id": "925879641"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:24Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-server-redis",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "src/server.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "REDIS_HOST",
-            "description": "Redis server hostname",
-            "required": true
-          },
-          {
-            "name": "REDIS_PORT",
-            "description": "Redis server port",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-redis",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_value",
@@ -260,5 +246,6 @@
       "name": "keys",
       "description": "List keys matching a pattern"
     }
-  ]
+  ],
+  "prompts": []
 }

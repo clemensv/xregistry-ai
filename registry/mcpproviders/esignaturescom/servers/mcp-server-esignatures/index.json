@@ -1,33 +1,24 @@
 {
-  "repo_ref": "esignaturescom/mcp-server-esignatures",
+  "id": "d689b152-64e8-4f5d-a937-91331fa3a771",
   "name": "io.github.esignaturescom/mcp-server-esignatures",
   "description": "MCP server for eSignatures (https://esignatures.com)",
-  "version_detail": {
-    "version": "0.1.0"
+  "repository": {
+    "url": "https://github.com/esignaturescom/mcp-server-esignatures",
+    "source": "github",
+    "id": "922105354"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:39Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-server-esignatures",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-server-esignatures"
-        ],
-        "environment_variables": [
-          {
-            "name": "ESIGNATURES_SECRET_TOKEN",
-            "description": "Your eSignatures API secret token",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-esignatures",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "create_contract",
@@ -121,5 +112,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

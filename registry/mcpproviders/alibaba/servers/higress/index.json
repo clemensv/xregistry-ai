@@ -1,25 +1,25 @@
 {
-  "repo_ref": "alibaba/higress",
+  "id": "121af804-12e1-4ac3-add1-3f8e2da4a8fe",
   "name": "io.github.alibaba/higress",
-  "description": "Higress is a cloud-native API gateway based on Istio and Envoy, which supports hosting MCP (Model Context Protocol) Servers through its plugin mechanism, enabling AI Agents to easily call various tools and services.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "🤖 AI Gateway | AI Native API Gateway",
+  "repository": {
+    "url": "https://github.com/alibaba/higress",
+    "source": "github",
+    "id": "558188628"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:29Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "higress-registry.cn-hangzhou.cr.aliyuncs.com/higress/all-in-one:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "alibaba/higress",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

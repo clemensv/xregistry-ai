@@ -1,25 +1,36 @@
 {
-  "repo_ref": "open-strategy-partners/osp_marketing_tools",
+  "id": "0d8b287c-6023-4809-a5ba-963c5612efa2",
   "name": "io.github.open-strategy-partners/osp_marketing_tools",
-  "description": "A comprehensive suite of tools for technical marketing content creation, optimization, and product positioning based on Open Strategy Partners' proven methodologies. This software is based on the Model Context Protocol (MCP) and is usable by any LLM client that supports MCP.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A Model Context Protocol (MCP) server that empowers LLMs to use some of Open Srategy Partners' core writing and product marketing techniques.",
+  "repository": {
+    "url": "https://github.com/open-strategy-partners/osp_marketing_tools",
+    "source": "github",
+    "id": "917730483"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "osp-marketing-tools",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "osp-marketing-tools",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Specifies the source repository",
+          "is_required": true,
+          "format": "string",
+          "value": "--from git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+          "default": "--from git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+          "type": "named",
+          "name": "--from git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+          "value_hint": "git+https://github.com/open-strategy-partners/osp_marketing_tools@main"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "health_check",
@@ -70,5 +81,6 @@
       "uritemplate": "osp://marketing-tools",
       "description": "Resource namespace for OSP marketing tools."
     }
-  ]
+  ],
+  "prompts": []
 }

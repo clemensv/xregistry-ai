@@ -1,38 +1,34 @@
 {
-  "repo_ref": "Kong/mcp-konnect",
-  "name": "io.github.Kong/mcp-konnect",
-  "description": "Tools for managing and analyzing Kong Konnect API Gateway configurations and traffic",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "86a12728-3ab9-4a69-a447-bcb67957a5f7",
+  "name": "io.github.kong/mcp-konnect",
+  "description": "A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.",
+  "repository": {
+    "url": "https://github.com/Kong/mcp-konnect",
+    "source": "github",
+    "id": "944084760"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "dist/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "KONNECT_ACCESS_TOKEN",
-            "description": "Your Kong Konnect API key",
-            "required": true
-          },
-          {
-            "name": "KONNECT_REGION",
-            "description": "The API region to use (defaults to US)",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "kong-konnect-mcp",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "kpat_api_key_here",
+          "name": "KONNECT_ACCESS_TOKEN"
+        },
+        {
+          "description": "us",
+          "name": "KONNECT_REGION"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "query_api_requests",
@@ -282,5 +278,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

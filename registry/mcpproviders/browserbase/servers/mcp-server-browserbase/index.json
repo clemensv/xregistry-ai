@@ -1,38 +1,24 @@
 {
-  "repo_ref": "browserbase/mcp-server-browserbase",
+  "id": "84dcab53-bfa3-4375-b69e-d519eb00af0f",
   "name": "io.github.browserbase/mcp-server-browserbase",
-  "description": "This server provides cloud browser automation capabilities using Browserbase, Puppeteer, and Stagehand. It enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "Allow LLMs to control a browser with Browserbase and Stagehand",
+  "repository": {
+    "url": "https://github.com/browserbase/mcp-server-browserbase",
+    "source": "github",
+    "id": "899184149"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:48Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@browserbasehq/mcp-browserbase",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "server.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "BROWSERBASE_API_KEY",
-            "description": "API key for Browserbase",
-            "required": true
-          },
-          {
-            "name": "BROWSERBASE_PROJECT_ID",
-            "description": "Project ID for Browserbase",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "browserbase/mcp-server-browserbase",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "browserbase_create_session",
@@ -120,5 +106,6 @@
       "description": "Screenshot resources identified by name",
       "mimetype": "image/png"
     }
-  ]
+  ],
+  "prompts": []
 }

@@ -1,0 +1,22 @@
+{
+  "id": "9f5885d3-fe18-483d-b7b2-f507b2f37ccb",
+  "name": "io.github.anaisbetts/mcp-installer",
+  "description": "An MCP server that installs other MCP servers for you",
+  "repository": {
+    "url": "https://github.com/anaisbetts/mcp-installer",
+    "source": "github",
+    "id": "894640711"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:47Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@anaisbetts/mcp-installer",
+      "version": "0.5.0"
+    }
+  ]
+}

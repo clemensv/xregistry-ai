@@ -1,36 +1,127 @@
 {
-  "repo_ref": "pab1it0/adx-mcp-server",
+  "id": "bb734a22-a274-48ee-9740-d4a6a9a0a367",
   "name": "io.github.pab1it0/adx-mcp-server",
-  "description": "A Model Context Protocol (MCP) server for Azure Data Explorer/Eventhouse in Microsoft Fabric. Provides access to Azure Data Explorer/Eventhouse clusters and databases through standardized MCP interfaces, allowing AI assistants to execute KQL queries and explore data.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Azure Data Explorer databases through standardized interfaces.",
+  "repository": {
+    "url": "https://github.com/pab1it0/adx-mcp-server",
+    "source": "github",
+    "id": "945904536"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:40Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "adx-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "ADX_CLUSTER_URL",
-            "description": "URL of the Azure Data Explorer cluster",
-            "required": true
-          },
-          {
-            "name": "ADX_DATABASE",
-            "description": "Name of the Azure Data Explorer database",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "adx_mcp_server",
+      "version": "1.0.9",
+      "package_arguments": [
+        {
+          "description": "Remove container after exit",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "Keep STDIN open even if not attached",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "Set environment variable in container: ADX_CLUSTER_URL",
+          "is_required": true,
+          "format": "string",
+          "value": "-e ADX_CLUSTER_URL",
+          "default": "-e ADX_CLUSTER_URL",
+          "type": "named",
+          "name": "-e ADX_CLUSTER_URL",
+          "value_hint": "ADX_CLUSTER_URL"
+        },
+        {
+          "description": "Set environment variable in container: ADX_DATABASE",
+          "is_required": true,
+          "format": "string",
+          "value": "-e ADX_DATABASE",
+          "default": "-e ADX_DATABASE",
+          "type": "named",
+          "name": "-e ADX_DATABASE",
+          "value_hint": "ADX_DATABASE"
+        },
+        {
+          "description": "Set environment variable in container: AZURE_TENANT_ID",
+          "is_required": true,
+          "format": "string",
+          "value": "-e AZURE_TENANT_ID",
+          "default": "-e AZURE_TENANT_ID",
+          "type": "named",
+          "name": "-e AZURE_TENANT_ID",
+          "value_hint": "AZURE_TENANT_ID"
+        },
+        {
+          "description": "Set environment variable in container: AZURE_CLIENT_ID",
+          "is_required": true,
+          "format": "string",
+          "value": "-e AZURE_CLIENT_ID",
+          "default": "-e AZURE_CLIENT_ID",
+          "type": "named",
+          "name": "-e AZURE_CLIENT_ID",
+          "value_hint": "AZURE_CLIENT_ID"
+        },
+        {
+          "description": "Set environment variable in container: ADX_TOKEN_FILE_PATH",
+          "is_required": true,
+          "format": "string",
+          "value": "-e ADX_TOKEN_FILE_PATH",
+          "default": "-e ADX_TOKEN_FILE_PATH",
+          "type": "named",
+          "name": "-e ADX_TOKEN_FILE_PATH",
+          "value_hint": "ADX_TOKEN_FILE_PATH"
+        },
+        {
+          "description": "Container image to run",
+          "is_required": true,
+          "format": "string",
+          "value": "adx-mcp-server",
+          "default": "adx-mcp-server",
+          "type": "positional",
+          "value_hint": "adx-mcp-server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "https://yourcluster.region.kusto.windows.net",
+          "name": "ADX_CLUSTER_URL"
+        },
+        {
+          "description": "your_database",
+          "name": "ADX_DATABASE"
+        },
+        {
+          "description": "your_tenant_id",
+          "name": "AZURE_TENANT_ID"
+        },
+        {
+          "description": "your_client_id",
+          "name": "AZURE_CLIENT_ID"
+        },
+        {
+          "description": "/var/run/secrets/azure/tokens/azure-identity-token",
+          "name": "ADX_TOKEN_FILE_PATH"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "execute_kql_query",
@@ -74,5 +165,6 @@
       "description": "Statistics and details of tables.",
       "uritemplate": "/statistics/{tableName}"
     }
-  ]
+  ],
+  "prompts": []
 }

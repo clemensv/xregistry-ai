@@ -1,33 +1,62 @@
 {
-  "repo_ref": "ihor-sokoliuk/mcp-searxng",
+  "id": "02cdb980-1dcd-4345-a8d1-d3f3f522d04b",
   "name": "io.github.ihor-sokoliuk/mcp-searxng",
-  "description": "An MCP server implementation that integrates the SearXNG API, providing web search capabilities.",
-  "version_detail": {
-    "version": "0.4.6"
+  "description": "MCP Server for SearXNG",
+  "repository": {
+    "url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+    "source": "github",
+    "id": "907172461"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:48Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-searxng",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y"
-        ],
-        "environment_variables": [
-          {
-            "name": "SEARXNG_URL",
-            "description": "URL of the SearXNG instance",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mcp-searxng",
+      "version": "0.4.6",
+      "package_arguments": [
+        {
+          "description": "Run an image",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "Remove container after run",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "Set environment variable in container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e SEARXNG_URL",
+          "default": "-e SEARXNG_URL",
+          "type": "named",
+          "name": "-e SEARXNG_URL",
+          "value_hint": "SEARXNG_URL"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_SEARXNG_INSTANCE_URL",
+          "name": "SEARXNG_URL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "searxng_web_search",
@@ -92,5 +121,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

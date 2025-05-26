@@ -1,30 +1,56 @@
 {
-  "repo_ref": "zilliztech/mcp-server-milvus",
+  "id": "e458676a-2727-4daf-84c5-d607932fa000",
   "name": "io.github.zilliztech/mcp-server-milvus",
-  "description": "This MCP server provides access to Milvus vector database functionality, enabling integration between LLM applications and external data sources via the Model Context Protocol.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol Servers for Milvus",
+  "repository": {
+    "url": "https://github.com/zilliztech/mcp-server-milvus",
+    "source": "github",
+    "id": "943619628"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:28Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-server-milvus",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "src/mcp_server_milvus/server.py",
-          "--milvus-uri",
-          "http://localhost:19530"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-milvus",
+      "version": "0.1.1",
+      "package_arguments": [
+        {
+          "description": "Directory argument",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/mcp-server-milvus/src/mcp_server_milvus",
+          "default": "--directory /path/to/mcp-server-milvus/src/mcp_server_milvus",
+          "type": "named",
+          "name": "--directory /path/to/mcp-server-milvus/src/mcp_server_milvus",
+          "value_hint": "/path/to/mcp-server-milvus/src/mcp_server_milvus"
+        },
+        {
+          "description": "Python server entry file",
+          "is_required": true,
+          "format": "string",
+          "value": "server.py",
+          "default": "server.py",
+          "type": "positional",
+          "value_hint": "server.py"
+        },
+        {
+          "description": "Milvus URI",
+          "is_required": true,
+          "format": "string",
+          "value": "--milvus-uri http://127.0.0.1:19530",
+          "default": "--milvus-uri http://127.0.0.1:19530",
+          "type": "named",
+          "name": "--milvus-uri http://127.0.0.1:19530",
+          "value_hint": "http://127.0.0.1:19530"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

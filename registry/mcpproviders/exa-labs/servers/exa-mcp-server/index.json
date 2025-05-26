@@ -1,33 +1,42 @@
 {
-  "repo_ref": "exa-labs/exa-mcp-server",
+  "id": "2a2aa283-57c8-474f-8a27-27954214cb6b",
   "name": "io.github.exa-labs/exa-mcp-server",
-  "description": "The Exa MCP server enables AI assistants to perform real-time web searches using Exa's powerful search API, providing structured search results including titles, URLs, and content snippets, caching recent searches as resources, handling rate limiting and errors gracefully, and supporting real-time web crawling for fresh content.",
-  "version_detail": {
-    "version": "0.3.6"
+  "description": "Claude can perform Web Search | Exa with MCP (Model Context Protocol)",
+  "repository": {
+    "url": "https://github.com/exa-labs/exa-mcp-server",
+    "source": "github",
+    "id": "895291604"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:43Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "exa-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/path/to/exa-mcp-server/build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "EXA_API_KEY",
-            "description": "API key for Exa search API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "exa-mcp-server",
+      "version": "0.3.10",
+      "package_arguments": [
+        {
+          "description": "Comma-separated list of tools",
+          "is_required": true,
+          "format": "string",
+          "value": "--tools=web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search",
+          "default": "--tools=web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search",
+          "type": "named",
+          "name": "--tools=web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search",
+          "value_hint": "web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-api-key-here",
+          "name": "EXA_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "web_search",
@@ -65,5 +74,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

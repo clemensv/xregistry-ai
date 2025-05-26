@@ -1,0 +1,22 @@
+{
+  "id": "abcce212-b3e1-4741-a8b3-86c95c276fb1",
+  "name": "io.github.yuchenssr/multi-ai-advisor-mcp",
+  "description": "council of models for decision",
+  "repository": {
+    "url": "https://github.com/YuChenSSR/multi-ai-advisor-mcp",
+    "source": "github",
+    "id": "954021177"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:47Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "multi-model-advisor",
+      "version": "1.0.0"
+    }
+  ]
+}

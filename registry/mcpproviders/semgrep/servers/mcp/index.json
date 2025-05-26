@@ -1,28 +1,25 @@
 {
-  "repo_ref": "semgrep/mcp",
+  "id": "d012ea8c-2f32-43e4-9583-7418d750193e",
   "name": "io.github.semgrep/mcp",
-  "description": "A Model Context Protocol (MCP) server for using Semgrep to scan code for security vulnerabilities. Secure your vibe coding! Semgrep is a fast, deterministic static analysis tool that semantically understands many languages and comes with over 5,000 rules.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A MCP server for using Semgrep to scan code for security vulnerabilities.",
+  "repository": {
+    "url": "https://github.com/semgrep/mcp",
+    "source": "github",
+    "id": "950213855"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:53Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "ghcr.io/semgrep/mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-t",
-          "stdio"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "semgrep-mcp",
+      "version": "0.2.0"
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

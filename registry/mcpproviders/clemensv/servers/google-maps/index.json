@@ -1,15 +1,21 @@
 {
+  "id": "io.github.clemensv/mcp-servers/google-maps",
   "name": "io.github.clemensv/mcp-servers/google-maps",
   "description": "Google Maps integration MCP server providing geospatial tooling and data access using the Google Maps Platform APIs",
+  "repository": {
+    "url": "",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "1.0.2"
   },
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-google-maps-server",
-      "license": "MIT",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "mcp-google-maps-server",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [
           {
             "name": "start",
@@ -31,12 +37,25 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "PORT",
+          "description": "Port to run the server on",
+          "required": false
+        },
+        {
+          "name": "GOOGLE_MAPS_API_KEY",
+          "description": "API key for accessing Google Maps Platform services",
+          "required": true
+        }
+      ],
+      "license": "MIT"
     }
   ],
   "remotes": [
     {
-      "transporttype": "http",
+      "transport_type": "http",
       "url": "https://maps.googleapis.com"
     }
   ]

@@ -1,63 +1,75 @@
 {
-  "repo_ref": "mamertofabian/elevenlabs-mcp-server",
+  "id": "1d89482a-a7de-4d3b-a7cb-1b7be49939ec",
   "name": "io.github.mamertofabian/elevenlabs-mcp-server",
-  "description": "A Model Context Protocol (MCP) server that integrates with ElevenLabs text-to-speech API, featuring both a server component and a sample web-based MCP Client (SvelteKit) for managing voice generation tasks.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/mamertofabian/elevenlabs-mcp-server",
+    "source": "github",
+    "id": "906473152"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@smithery/elevenlabs-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "elevenlabs-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "ELEVENLABS_API_KEY",
-            "description": "API key for ElevenLabs",
-            "required": true
-          },
-          {
-            "name": "ELEVENLABS_VOICE_ID",
-            "description": "Default voice ID to use",
-            "required": false
-          },
-          {
-            "name": "ELEVENLABS_MODEL_ID",
-            "description": "Model ID for voice generation",
-            "required": false
-          },
-          {
-            "name": "ELEVENLABS_STABILITY",
-            "description": "Stability parameter for voice synthesis",
-            "required": false
-          },
-          {
-            "name": "ELEVENLABS_SIMILARITY_BOOST",
-            "description": "Similarity boost parameter",
-            "required": false
-          },
-          {
-            "name": "ELEVENLABS_STYLE",
-            "description": "Style parameter for voice",
-            "required": false
-          },
-          {
-            "name": "ELEVENLABS_OUTPUT_DIR",
-            "description": "Output directory for audio files",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "elevenlabs-mcp-server",
+      "version": "0.1.1",
+      "package_arguments": [
+        {
+          "description": "Flag to specify a directory for the server",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory path/to/elevenlabs-mcp-server",
+          "default": "--directory path/to/elevenlabs-mcp-server",
+          "type": "named",
+          "name": "--directory path/to/elevenlabs-mcp-server",
+          "value_hint": "path/to/elevenlabs-mcp-server"
+        },
+        {
+          "description": "Positional argument specifying the target server to run",
+          "is_required": true,
+          "format": "string",
+          "value": "elevenlabs-mcp-server",
+          "default": "elevenlabs-mcp-server",
+          "type": "positional",
+          "value_hint": "elevenlabs-mcp-server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "ELEVENLABS_API_KEY"
+        },
+        {
+          "description": "your-voice-id",
+          "name": "ELEVENLABS_VOICE_ID"
+        },
+        {
+          "description": "eleven_flash_v2",
+          "name": "ELEVENLABS_MODEL_ID"
+        },
+        {
+          "description": "0.5",
+          "name": "ELEVENLABS_STABILITY"
+        },
+        {
+          "description": "0.75",
+          "name": "ELEVENLABS_SIMILARITY_BOOST"
+        },
+        {
+          "description": "0.1",
+          "name": "ELEVENLABS_STYLE"
+        },
+        {
+          "description": "output",
+          "name": "ELEVENLABS_OUTPUT_DIR"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "generate_audio_simple",
@@ -164,5 +176,6 @@
       "description": "Access list of available ElevenLabs voices with metadata",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

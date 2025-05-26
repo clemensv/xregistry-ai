@@ -1,37 +1,35 @@
 {
-  "repo_ref": "magnetai/mcp-free-usdc-transfer",
+  "id": "c3123664-33b3-4f29-bc08-40b88300f57c",
   "name": "io.github.magnetai/mcp-free-usdc-transfer",
-  "description": "An MCP server implementation enabling free USDC transfers on Base with Coinbase CDP MPC Wallet integration.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP (Model Context Protocol) server - free usdc transfer powered by Coinbase CDP",
+  "repository": {
+    "url": "https://github.com/magnetai/mcp-free-usdc-transfer",
+    "source": "github",
+    "id": "914708046"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:46Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@magnetai/free-usdc-transfer",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@magnetai/free-usdc-transfer"
-        ],
-        "environment_variables": [
-          {
-            "name": "COINBASE_CDP_API_KEY_NAME",
-            "required": true
-          },
-          {
-            "name": "COINBASE_CDP_PRIVATE_KEY",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@magnetai/free-usdc-transfer",
+      "version": "0.1.5",
+      "environment_variables": [
+        {
+          "description": "YOUR_COINBASE_CDP_API_KEY_NAME",
+          "name": "COINBASE_CDP_API_KEY_NAME"
+        },
+        {
+          "description": "YOUR_COINBASE_CDP_PRIVATE_KEY",
+          "name": "COINBASE_CDP_PRIVATE_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

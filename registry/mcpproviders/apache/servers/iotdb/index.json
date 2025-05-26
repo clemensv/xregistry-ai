@@ -1,0 +1,22 @@
+{
+  "id": "330047d1-f8c2-4931-9347-d133f1717de3",
+  "name": "io.github.apache/iotdb",
+  "description": "Apache IoTDB",
+  "repository": {
+    "url": "https://github.com/apache/iotdb",
+    "source": "github",
+    "id": "158975124"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:12Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "apache/iotdb",
+      "version": ""
+    }
+  ]
+}

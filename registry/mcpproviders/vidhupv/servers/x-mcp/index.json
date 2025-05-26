@@ -1,51 +1,52 @@
 {
-  "repo_ref": "vidhupv/x-mcp",
+  "id": "a24e506b-b16b-412d-b806-fcf7e39b4549",
   "name": "io.github.vidhupv/x-mcp",
-  "description": "An MCP server to create, manage and publish X/Twitter posts directly through Claude chat.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/vidhupv/x-mcp",
+    "source": "github",
+    "id": "898698501"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:02Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "x-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/path/to/x-mcp",
-          "run",
-          "x-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "TWITTER_API_KEY",
-            "description": "Twitter API key",
-            "required": true
-          },
-          {
-            "name": "TWITTER_API_SECRET",
-            "description": "Twitter API secret",
-            "required": true
-          },
-          {
-            "name": "TWITTER_ACCESS_TOKEN",
-            "description": "Twitter access token",
-            "required": true
-          },
-          {
-            "name": "TWITTER_ACCESS_TOKEN_SECRET",
-            "description": "Twitter access token secret",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "x-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "x-mcp",
+          "default": "x-mcp",
+          "type": "positional",
+          "value_hint": "x-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key",
+          "name": "TWITTER_API_KEY"
+        },
+        {
+          "description": "your_api_secret",
+          "name": "TWITTER_API_SECRET"
+        },
+        {
+          "description": "your_access_token",
+          "name": "TWITTER_ACCESS_TOKEN"
+        },
+        {
+          "description": "your_access_token_secret",
+          "name": "TWITTER_ACCESS_TOKEN_SECRET"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "create_draft_tweet",
@@ -124,5 +125,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

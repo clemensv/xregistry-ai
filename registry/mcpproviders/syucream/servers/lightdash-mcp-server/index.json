@@ -1,39 +1,34 @@
 {
-  "repo_ref": "syucream/lightdash-mcp-server",
+  "id": "17c2c7f2-20f2-424f-8466-b164ed19ddef",
   "name": "io.github.syucream/lightdash-mcp-server",
-  "description": "A MCP(Model Context Protocol) server that accesses to Lightdash. This server provides MCP-compatible access to Lightdash's API, allowing AI assistants to interact with your Lightdash data through a standardized interface.",
-  "version_detail": {
-    "version": "0.0.1"
+  "description": "A MCP(Model Context Protocol) server that accesses to Lightdash",
+  "repository": {
+    "url": "https://github.com/syucream/lightdash-mcp-server",
+    "source": "github",
+    "id": "910751536"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:10Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "lightdash-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "lightdash-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "LIGHTDASH_API_KEY",
-            "description": "Your Lightdash PAT",
-            "required": true
-          },
-          {
-            "name": "LIGHTDASH_API_URL",
-            "description": "The API base URL",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "lightdash-mcp-server",
+      "version": "0.0.11",
+      "environment_variables": [
+        {
+          "description": "<your PAT>",
+          "name": "LIGHTDASH_API_KEY"
+        },
+        {
+          "description": "https://<your base url>",
+          "name": "LIGHTDASH_API_URL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "lightdash_list_projects",
@@ -127,5 +122,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

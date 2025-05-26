@@ -1,25 +1,44 @@
 {
-  "repo_ref": "StevenStavrakis/obsidian-mcp",
-  "name": "io.github.StevenStavrakis/obsidian-mcp",
-  "description": "An MCP (Model Context Protocol) server that enables AI assistants to interact with Obsidian vaults, providing tools for reading, creating, editing and managing notes and tags.",
-  "version_detail": {
-    "version": "1.0.6"
+  "id": "752ef535-2865-4d95-bcc5-647a7be83f74",
+  "name": "io.github.stevenstavrakis/obsidian-mcp",
+  "description": "A simple MCP server for Obsidian",
+  "repository": {
+    "url": "https://github.com/StevenStavrakis/obsidian-mcp",
+    "source": "github",
+    "id": "906827503"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:35Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "obsidian-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "obsidian-mcp",
+      "version": "1.0.6",
+      "package_arguments": [
+        {
+          "description": "/path/to/your/vault",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/your/vault",
+          "default": "/path/to/your/vault",
+          "type": "positional",
+          "value_hint": "/path/to/your/vault"
+        },
+        {
+          "description": "/path/to/your/vault2",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/your/vault2",
+          "default": "/path/to/your/vault2",
+          "type": "positional",
+          "value_hint": "/path/to/your/vault2"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "read-note",
@@ -106,5 +125,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

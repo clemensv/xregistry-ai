@@ -1,53 +1,24 @@
 {
-  "repo_ref": "CodeLogicIncEngineering/codelogic-mcp-server",
-  "name": "io.github.CodeLogicIncEngineering/codelogic-mcp-server",
+  "id": "6e6e3083-47bf-47da-9d0f-14805de093a9",
+  "name": "io.github.codelogicincengineering/codelogic-mcp-server",
   "description": "An MCP Server to utilize Codelogic's rich software dependency data in your AI programming assistant.",
-  "version_detail": {
-    "version": "0.0.0"
+  "repository": {
+    "url": "https://github.com/CodeLogicIncEngineering/codelogic-mcp-server",
+    "source": "github",
+    "id": "959229901"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:09Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "astral-uv",
-      "package_name": "codelogic-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "codelogic-mcp-server@latest"
-        ],
-        "environment_variables": [
-          {
-            "name": "CODELOGIC_SERVER_HOST",
-            "description": "URL of the CodeLogic server",
-            "required": true
-          },
-          {
-            "name": "CODELOGIC_USERNAME",
-            "description": "Username for authentication",
-            "required": true
-          },
-          {
-            "name": "CODELOGIC_PASSWORD",
-            "description": "Password for authentication",
-            "required": true
-          },
-          {
-            "name": "CODELOGIC_WORKSPACE_NAME",
-            "description": "Workspace name in CodeLogic",
-            "required": true
-          },
-          {
-            "name": "CODELOGIC_DEBUG_MODE",
-            "description": "Enable debug mode",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "codelogic-mcp-server",
+      "version": "1.0.2"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "codelogic-method-impact",
@@ -101,5 +72,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

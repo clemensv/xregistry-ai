@@ -1,36 +1,30 @@
 {
-  "repo_ref": "baidubce/app-builder",
+  "id": "b7e8b7c6-548b-49a7-9001-2bf1733ca539",
   "name": "io.github.baidubce/app-builder",
-  "description": "This server provides MCP (Model Context Protocol) tools for interacting with Baidu AppBuilder applications. It supports both stdio and SSE (Server-Sent Events) protocols.",
-  "version_detail": {
-    "version": "1.0.5"
+  "description": "appbuilder-sdk, 千帆AppBuilder-SDK帮助开发者灵活、快速的搭建AI原生应用",
+  "repository": {
+    "url": "https://github.com/baidubce/app-builder",
+    "source": "github",
+    "id": "727502310"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:44Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://appbuilder.baidu.com/v2/ai_search/mcp/sse",
-      "transporttype": "http"
+      "registry_name": "npm",
+      "name": "baidubce/app-builder",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "python",
-      "package_name": "appbuilder-sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "APPBUILDER_TOKEN",
-            "description": "AppBuilder API token for authentication",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_apps",
@@ -84,5 +78,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

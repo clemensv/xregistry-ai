@@ -1,25 +1,34 @@
 {
-  "repo_ref": "box-community/mcp-server-box",
+  "id": "46bcb36f-ede9-412e-8181-7c7ece41fa04",
   "name": "io.github.box-community/mcp-server-box",
-  "description": "MCP Server Box is a Python project that integrates with the Box API to perform various operations such as file search, text extraction, AI-based querying, and data extraction. It leverages the box-sdk-gen library and provides a set of tools to interact with Box files and folders. The Model Context Protocol (MCP) is used to facilitate seamless integration with the Box API, enabling efficient and scalable operations on Box files and folders.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "An MCP server capable of interacting with the Box API",
+  "repository": {
+    "url": "https://github.com/box-community/mcp-server-box",
+    "source": "github",
+    "id": "938387717"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:46Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-server-box",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "mcp-server-box",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "src/mcp_server_box.py",
+          "default": "src/mcp_server_box.py",
+          "type": "positional",
+          "value_hint": "src/mcp_server_box.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "box_who_am_i",
@@ -251,5 +260,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

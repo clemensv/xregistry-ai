@@ -1,25 +1,24 @@
 {
-  "repo_ref": "atlanhq/agent-toolkit",
+  "id": "c4888f33-5e27-449c-ba93-edf383b91686",
   "name": "io.github.atlanhq/agent-toolkit",
-  "description": "A protocol server that enables interaction with Atlan services through function calling. Provides tools for asset search, and retrieval using pyatlan.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Atlan AI Agent Toolkit",
+  "repository": {
+    "url": "https://github.com/atlanhq/agent-toolkit",
+    "source": "github",
+    "id": "959799376"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:24Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "atlan-agent-toolkit",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "atlanhq/agent-toolkit",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_assets_tool",
@@ -199,5 +198,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

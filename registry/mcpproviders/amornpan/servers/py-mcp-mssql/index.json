@@ -1,58 +1,57 @@
 {
-  "repo_ref": "amornpan/py-mcp-mssql",
+  "id": "0c9a70a7-7523-42b7-a951-b4c4b8077710",
   "name": "io.github.amornpan/py-mcp-mssql",
-  "description": "A Model Context Protocol server implementation in Python that provides access to Microsoft SQL Server databases. This server enables Language Models to inspect table schemas and execute SQL queries through a standardized interface.",
-  "version_detail": {
-    "version": "1.0.1"
+  "description": "py-mcp-mssql",
+  "repository": {
+    "url": "https://github.com/amornpan/py-mcp-mssql",
+    "source": "github",
+    "id": "922607489"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:17Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:8000",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "amornpan/py-mcp-mssql",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "script to run",
+          "is_required": true,
+          "format": "string",
+          "value": "server.py",
+          "default": "server.py",
+          "type": "positional",
+          "value_hint": "server.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_server",
+          "name": "MSSQL_SERVER"
+        },
+        {
+          "description": "your_database",
+          "name": "MSSQL_DATABASE"
+        },
+        {
+          "description": "your_username",
+          "name": "MSSQL_USER"
+        },
+        {
+          "description": "your_password",
+          "name": "MSSQL_PASSWORD"
+        },
+        {
+          "description": "{ODBC Driver 17 for SQL Server}",
+          "name": "MSSQL_DRIVER"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "python",
-      "package_name": "py-mcp-mssql",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "server.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "MSSQL_SERVER",
-            "description": "SQL Server hostname or IP",
-            "required": true
-          },
-          {
-            "name": "MSSQL_DATABASE",
-            "description": "Database name",
-            "required": true
-          },
-          {
-            "name": "MSSQL_USER",
-            "description": "Username for authentication",
-            "required": true
-          },
-          {
-            "name": "MSSQL_PASSWORD",
-            "description": "Password for authentication",
-            "required": true
-          },
-          {
-            "name": "MSSQL_DRIVER",
-            "description": "ODBC Driver 17 for SQL Server",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "call_tool",
@@ -80,5 +79,6 @@
       "description": "Lists all available tables in the database with URIs in the format mssql://<table_name>/data; includes table descriptions and MIME types.",
       "mimetype": "text/csv"
     }
-  ]
+  ],
+  "prompts": []
 }

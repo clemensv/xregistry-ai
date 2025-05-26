@@ -1,35 +1,34 @@
 {
-  "repo_ref": "AI-Agent-Hub/ai-agent-marketplace-index-mcp",
-  "name": "io.github.AI-Agent-Hub/ai-agent-marketplace-index-mcp",
-  "description": "MCP Server for AI Agent Marketplace Index from DeepNLP, allowing AI assistants to search available AI agents by keywords or category, including tools for searching AI agents and listing AI agents to the marketplace.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "ffe051ab-1088-4040-9bbb-8a1bf3fd2a7b",
+  "name": "io.github.ai-agent-hub/ai-agent-marketplace-index-mcp",
+  "description": "MCP Server for AI Agent Marketplace Index from DeepNLP",
+  "repository": {
+    "url": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp",
+    "source": "github",
+    "id": "958905017"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:37Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "ai-agent-marketplace-index-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "-m",
-          "ai-agent-marketplace-index-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "BING_SEARCH_API_KEY",
-            "description": "Microsoft Bing Search API key",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "ai-agent-marketplace-index-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "server.py",
+          "default": "server.py",
+          "type": "positional",
+          "value_hint": "server.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_ai_agent",
@@ -57,5 +56,5 @@
     }
   ],
   "resources": [],
-  "serverid": "ai-agent-marketplace-index-mcp"
+  "prompts": []
 }

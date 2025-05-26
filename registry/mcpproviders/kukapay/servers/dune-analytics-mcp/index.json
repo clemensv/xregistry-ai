@@ -1,31 +1,24 @@
 {
-  "repo_ref": "kukapay/dune-analytics-mcp",
+  "id": "2d851046-40f2-4088-95df-d6c0f93c2f0a",
   "name": "io.github.kukapay/dune-analytics-mcp",
-  "description": "Dune Analytics tools",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A mcp server that bridges Dune Analytics data to AI agents.",
+  "repository": {
+    "url": "https://github.com/kukapay/dune-analytics-mcp",
+    "source": "github",
+    "id": "949262442"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:07Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "dune-analytics-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "DUNE_API_KEY",
-            "description": "API key for Dune Analytics",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "dune-analytics-mcp",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_latest_result",
@@ -58,5 +51,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

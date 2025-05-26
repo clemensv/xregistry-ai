@@ -1,51 +1,53 @@
 {
-  "repo_ref": "osomai/servicenow-mcp",
+  "id": "3f9a95e0-3a22-4ff8-8c92-60d89d847f5c",
   "name": "io.github.osomai/servicenow-mcp",
-  "description": "A Model Completion Protocol (MCP) server implementation for ServiceNow, allowing Claude to interact with ServiceNow instances.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP Server for ServiceNow",
+  "repository": {
+    "url": "https://github.com/osomai/servicenow-mcp",
+    "source": "github",
+    "id": "941149907"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:53Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://0.0.0.0:8080",
-      "transporttype": "http"
+      "registry_name": "pypi",
+      "name": "servicenow-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Python module execution flag and module name",
+          "is_required": true,
+          "format": "string",
+          "value": "-m servicenow_mcp.cli",
+          "default": "-m servicenow_mcp.cli",
+          "type": "positional",
+          "value_hint": "servicenow_mcp.cli"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "https://your-instance.service-now.com",
+          "name": "SERVICENOW_INSTANCE_URL"
+        },
+        {
+          "description": "your-username",
+          "name": "SERVICENOW_USERNAME"
+        },
+        {
+          "description": "your-password",
+          "name": "SERVICENOW_PASSWORD"
+        },
+        {
+          "description": "basic",
+          "name": "SERVICENOW_AUTH_TYPE"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "python",
-      "package_name": "servicenow-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "SERVICENOW_INSTANCE_URL",
-            "description": "URL of the ServiceNow instance",
-            "required": true
-          },
-          {
-            "name": "SERVICENOW_USERNAME",
-            "description": "Username for authentication",
-            "required": true
-          },
-          {
-            "name": "SERVICENOW_PASSWORD",
-            "description": "Password for authentication",
-            "required": true
-          },
-          {
-            "name": "SERVICENOW_AUTH_TYPE",
-            "description": "Authentication type (basic, oauth, api_key)",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_catalog_items",
@@ -85,5 +87,6 @@
       "name": "catalog_item",
       "description": "Resource representing a specific catalog item by ID."
     }
-  ]
+  ],
+  "prompts": []
 }

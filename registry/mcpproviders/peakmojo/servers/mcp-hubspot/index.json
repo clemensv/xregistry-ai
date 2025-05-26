@@ -1,17 +1,21 @@
 {
-  "repo_ref": "peakmojo/mcp-hubspot",
+  "id": "io.github.peakmojo/mcp-hubspot",
   "name": "io.github.peakmojo/mcp-hubspot",
   "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with HubSpot CRM data. This server bridges AI models with your HubSpot account, providing direct access to contacts, companies, and engagement data. Built-in vector storage and caching mechanisms help overcome HubSpot API limitations while improving response times.",
+  "repository": {
+    "url": "peakmojo/mcp-hubspot",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "container",
-      "package_name": "buryhuang/mcp-hubspot:latest",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "container",
+      "name": "buryhuang/mcp-hubspot:latest",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [],
         "environment_variables": [
@@ -22,13 +26,21 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "HUBSPOT_ACCESS_TOKEN",
+          "description": "HubSpot access token with required scopes",
+          "required": true
+        }
+      ],
+      "license": ""
     },
     {
-      "name": "npm",
-      "package_name": "@smithery/cli",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "@smithery/cli",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "-y",
@@ -46,9 +58,18 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "HUBSPOT_ACCESS_TOKEN",
+          "description": "HubSpot access token with required scopes",
+          "required": true
+        }
+      ],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

@@ -1,25 +1,56 @@
 {
-  "repo_ref": "oxylabs/oxylabs-mcp",
+  "id": "4632fbcb-d313-4e26-ad1d-aea8f57524f7",
   "name": "io.github.oxylabs/oxylabs-mcp",
-  "description": "The Oxylabs MCP server provides a bridge between AI models and the web. It enables them to scrape any URL, render JavaScript-heavy pages, extract and format content for AI use, bypass anti-scraping measures, and access geo-restricted web data from 195+ countries. This implementation leverages the Model Context Protocol (MCP) to create a secure, standardized way for AI assistants to interact with web content.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Official Oxylabs MCP integration",
+  "repository": {
+    "url": "https://github.com/oxylabs/oxylabs-mcp",
+    "source": "github",
+    "id": "918221533"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "oxylabs-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "oxylabs-mcp",
+      "version": "0.2.0",
+      "package_arguments": [
+        {
+          "description": "Set the working directory",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /<Absolute-path-to-folder>/oxylabs-mcp",
+          "default": "--directory /<Absolute-path-to-folder>/oxylabs-mcp",
+          "type": "named",
+          "name": "--directory /<Absolute-path-to-folder>/oxylabs-mcp",
+          "value_hint": "/<Absolute-path-to-folder>/oxylabs-mcp"
+        },
+        {
+          "description": "Python application/module to run",
+          "is_required": true,
+          "format": "string",
+          "value": "oxylabs-mcp",
+          "default": "oxylabs-mcp",
+          "type": "positional",
+          "value_hint": "oxylabs-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "OXYLABS_USERNAME",
+          "name": "OXYLABS_USERNAME"
+        },
+        {
+          "description": "OXYLABS_PASSWORD",
+          "name": "OXYLABS_PASSWORD"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

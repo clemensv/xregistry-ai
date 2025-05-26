@@ -1,61 +1,67 @@
 {
-  "repo_ref": "JexinSam/mssql_mcp_server",
-  "name": "io.github.JexinSam/mssql_mcp_server",
-  "description": "MSSQL MCP Server is a Model Context Protocol (MCP) server that enables secure and structured interaction with Microsoft SQL Server (MSSQL) databases. It allows AI assistants to list available tables, read table contents, and execute SQL queries with controlled access, ensuring safer database exploration, strict permission enforcement, and logging of database interactions.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "53290776-f4aa-488d-a10f-135a17645b02",
+  "name": "io.github.jexinsam/mssql_mcp_server",
+  "description": "A Model Context Protocol (MCP) server facilitating secure interactions with MSSQL databases.",
+  "repository": {
+    "url": "https://github.com/JexinSam/mssql_mcp_server",
+    "source": "github",
+    "id": "924542723"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:15Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mssql-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "MSSQL_DRIVER",
-            "description": "MSSQL driver environment variable",
-            "required": true
-          },
-          {
-            "name": "MSSQL_HOST",
-            "description": "MSSQL host environment variable",
-            "required": true
-          },
-          {
-            "name": "MSSQL_USER",
-            "description": "MSSQL user environment variable",
-            "required": true
-          },
-          {
-            "name": "MSSQL_PASSWORD",
-            "description": "MSSQL password environment variable",
-            "required": true
-          },
-          {
-            "name": "MSSQL_DATABASE",
-            "description": "MSSQL database environment variable",
-            "required": true
-          },
-          {
-            "name": "TrustServerCertificate",
-            "description": "Optional TrustServerCertificate environment variable",
-            "required": false
-          },
-          {
-            "name": "Trusted_Connection",
-            "description": "Optional Trusted_Connection environment variable",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "mssql_mcp_server",
+      "version": "0.1.2",
+      "package_arguments": [
+        {
+          "description": "Directory path for the MCP server",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory path/to/mssql_mcp_server",
+          "default": "--directory path/to/mssql_mcp_server",
+          "type": "named",
+          "name": "--directory path/to/mssql_mcp_server",
+          "value_hint": "path/to/mssql_mcp_server"
+        },
+        {
+          "description": "MCP server module name to run",
+          "is_required": true,
+          "format": "string",
+          "value": "mssql_mcp_server",
+          "default": "mssql_mcp_server",
+          "type": "positional",
+          "value_hint": "mssql_mcp_server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "mssql_driver",
+          "name": "MSSQL_DRIVER"
+        },
+        {
+          "description": "localhost",
+          "name": "MSSQL_HOST"
+        },
+        {
+          "description": "your_username",
+          "name": "MSSQL_USER"
+        },
+        {
+          "description": "your_password",
+          "name": "MSSQL_PASSWORD"
+        },
+        {
+          "description": "your_database",
+          "name": "MSSQL_DATABASE"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "execute_sql",
@@ -81,5 +87,6 @@
       "description": "Data in table: {table}",
       "mimetype": "text/plain"
     }
-  ]
+  ],
+  "prompts": []
 }

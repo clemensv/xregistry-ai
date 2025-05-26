@@ -1,36 +1,74 @@
 {
-  "repo_ref": "translated/lara-mcp",
+  "id": "5026f1b0-0426-4ea2-8ec2-fab1fabb0a7e",
   "name": "io.github.translated/lara-mcp",
-  "description": "A Model Context Protocol (MCP) Server for Lara Translate API, enabling powerful translation capabilities with support for language detection, context-aware translations and translation memories.",
-  "version_detail": {
-    "version": "0.0.10"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/translated/lara-mcp",
+    "source": "github",
+    "id": "957768661"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:04Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@translated/lara-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "LARA_ACCESS_KEY_ID",
-            "description": "Access key ID for Lara Translate API",
-            "required": true
-          },
-          {
-            "name": "LARA_ACCESS_KEY_SECRET",
-            "description": "Access key secret for Lara Translate API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "@translated/lara-mcp",
+      "version": "0.0.10",
+      "package_arguments": [
+        {
+          "description": "Run the docker container in interactive mode",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "Automatically remove the container when it exits",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "Set environment variable LARA_ACCESS_KEY_ID in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e LARA_ACCESS_KEY_ID",
+          "default": "-e LARA_ACCESS_KEY_ID",
+          "type": "named",
+          "name": "-e LARA_ACCESS_KEY_ID",
+          "value_hint": "LARA_ACCESS_KEY_ID"
+        },
+        {
+          "description": "Set environment variable LARA_ACCESS_KEY_SECRET in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e LARA_ACCESS_KEY_SECRET",
+          "default": "-e LARA_ACCESS_KEY_SECRET",
+          "type": "named",
+          "name": "-e LARA_ACCESS_KEY_SECRET",
+          "value_hint": "LARA_ACCESS_KEY_SECRET"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<YOUR_ACCESS_KEY_ID>",
+          "name": "LARA_ACCESS_KEY_ID"
+        },
+        {
+          "description": "<YOUR_ACCESS_KEY_SECRET>",
+          "name": "LARA_ACCESS_KEY_SECRET"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "translate",
@@ -114,5 +152,6 @@
       "description": "List of Lara Translate supported languages.",
       "uritemplate": "languages://list"
     }
-  ]
+  ],
+  "prompts": []
 }

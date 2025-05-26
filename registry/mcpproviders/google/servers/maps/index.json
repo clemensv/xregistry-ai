@@ -1,21 +1,21 @@
 {
+  "id": "Google Maps",
   "name": "Google Maps",
   "description": "Google Maps API integration for geocoding, directions, and more.",
+  "repository": {
+    "url": "https://developers.google.com/maps/documentation",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "1.0.0"
   },
-  "remotes": [
+  "packages": [
     {
-      "url": "https://maps.googleapis.com/maps/api/mcp",
-      "transporttype": "https"
-    }
-  ],
-  "registries": [
-    {
-      "name": "container",
-      "package_name": "mcp/google-maps",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "container",
+      "name": "mcp/google-maps",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "run",
@@ -30,13 +30,21 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "GOOGLE_MAPS_API_KEY",
+          "description": "Google Maps API key",
+          "required": true
+        }
+      ],
+      "license": ""
     },
     {
-      "name": "npx",
-      "package_name": "@modelcontextprotocol/server-google-maps",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npx",
+      "name": "@modelcontextprotocol/server-google-maps",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "-y",
@@ -50,7 +58,21 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "GOOGLE_MAPS_API_KEY",
+          "description": "Google Maps API key",
+          "required": true
+        }
+      ],
+      "license": ""
+    }
+  ],
+  "remotes": [
+    {
+      "transport_type": "https",
+      "url": "https://maps.googleapis.com/maps/api/mcp"
     }
   ],
   "prompts": [],
@@ -245,6 +267,5 @@
       }
     }
   ],
-  "resources": [],
-  "documentation": "https://developers.google.com/maps/documentation"
+  "resources": []
 }

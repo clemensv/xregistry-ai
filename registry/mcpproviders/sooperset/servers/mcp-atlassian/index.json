@@ -1,25 +1,31 @@
 {
-  "repo_ref": "sooperset/mcp-atlassian",
+  "id": "4df1406c-1bb1-4495-96e8-8c25de454b5d",
   "name": "io.github.sooperset/mcp-atlassian",
-  "description": "Model Context Protocol (MCP) server for Atlassian products (Confluence and Jira). This integration supports both Confluence & Jira Cloud and Server/Data Center deployments.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for Atlassian tools (Confluence, Jira)",
+  "repository": {
+    "url": "https://github.com/sooperset/mcp-atlassian",
+    "source": "github",
+    "id": "897809208"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:16Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "ghcr.io/sooperset/mcp-atlassian:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-atlassian",
+      "version": "0.10.6"
     }
   ],
-  "prompts": [],
+  "remotes": [
+    {
+      "transport_type": "sse",
+      "url": "http://localhost:9000/sse"
+    }
+  ],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

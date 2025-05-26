@@ -1,28 +1,24 @@
 {
-  "repo_ref": "SimonB97/win-cli-mcp-server",
-  "name": "io.github.SimonB97/win-cli-mcp-server",
-  "description": "MCP server for secure command-line interactions on Windows systems, enabling controlled access to PowerShell, CMD, Git Bash shells, and remote systems via SSH. It allows MCP clients to perform operations on your system, similar to Open Interpreter.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "a8a08cbd-074f-49ba-8f98-3ef8583cc93b",
+  "name": "io.github.simonb97/win-cli-mcp-server",
+  "description": "Model Context Protocol server for secure command-line interactions on Windows systems",
+  "repository": {
+    "url": "https://github.com/SimonB97/win-cli-mcp-server",
+    "source": "github",
+    "id": "898475770"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:52Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@simonb97/server-win-cli",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@simonb97/server-win-cli"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@simonb97/server-win-cli",
+      "version": "0.2.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "execute_command",
@@ -248,5 +244,6 @@
       "description": "Main CLI server configuration (excluding sensitive data)",
       "mimetype": "application/json"
     }
-  ]
+  ],
+  "prompts": []
 }

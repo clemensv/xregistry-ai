@@ -1,39 +1,30 @@
 {
-  "repo_ref": "hyperbrowserai/mcp",
+  "id": "feb2b365-5fab-461e-a8d3-89e9349ee743",
   "name": "io.github.hyperbrowserai/mcp",
-  "description": "Hyperbrowser's Model Context Protocol (MCP) Server providing tools to scrape, extract structured data, and crawl webpages, with access to general purpose browser agents.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A MCP server implementation for hyperbrowser",
+  "repository": {
+    "url": "https://github.com/hyperbrowserai/mcp",
+    "source": "github",
+    "id": "938957096"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:35Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:3001/sse",
-      "transporttype": "http"
+      "registry_name": "npm",
+      "name": "hyperbrowser-mcp",
+      "version": "1.0.25",
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "HYPERBROWSER_API_KEY"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "npm",
-      "package_name": "hyperbrowser-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "hyperbrowser-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "HYPERBROWSER_API_KEY",
-            "description": "API key for Hyperbrowser MCP Server",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "scrape_webpage",
@@ -113,5 +104,6 @@
       "description": "Documentation resources accessible via hyperbrowser:// URI scheme",
       "mimetype": "text/markdown"
     }
-  ]
+  ],
+  "prompts": []
 }

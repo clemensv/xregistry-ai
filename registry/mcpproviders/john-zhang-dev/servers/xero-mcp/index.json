@@ -1,38 +1,38 @@
 {
-  "repo_ref": "john-zhang-dev/xero-mcp",
+  "id": "aeca0d6b-ed78-4634-a29a-6d08f71de2b6",
   "name": "io.github.john-zhang-dev/xero-mcp",
-  "description": "This MCP server allows Clients to interact with Xero Accounting Software.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "A Model Context Protocol server allows Clients to interact with Xero",
+  "repository": {
+    "url": "https://github.com/john-zhang-dev/xero-mcp",
+    "source": "github",
+    "id": "950380608"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:06Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "xero-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "xero-mcp@latest"
-        ],
-        "environment_variables": [
-          {
-            "name": "XERO_CLIENT_ID"
-          },
-          {
-            "name": "XERO_CLIENT_SECRET"
-          },
-          {
-            "name": "XERO_REDIRECT_URI"
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "xero-mcp",
+      "version": "1.3.0",
+      "environment_variables": [
+        {
+          "description": "YOUR_CLIENT_ID",
+          "name": "XERO_CLIENT_ID"
+        },
+        {
+          "description": "YOUR_CLIENT_SECRET",
+          "name": "XERO_CLIENT_SECRET"
+        },
+        {
+          "description": "http://localhost:5000/callback",
+          "name": "XERO_REDIRECT_URI"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "authenticate",
@@ -119,5 +119,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

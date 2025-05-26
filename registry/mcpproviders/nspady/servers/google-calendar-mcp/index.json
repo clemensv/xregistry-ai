@@ -1,27 +1,25 @@
 {
-  "repo_ref": "nspady/google-calendar-mcp",
+  "id": "6543c44a-7ad6-4f9e-bf7e-9f8f969934bf",
   "name": "io.github.nspady/google-calendar-mcp",
-  "description": "This is a Model Context Protocol (MCP) server that provides integration with Google Calendar. It allows LLMs to read, create, update and search for calendar events through a standardized interface.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "MCP integration for Google Calendar to manage events.",
+  "repository": {
+    "url": "https://github.com/nspady/google-calendar-mcp",
+    "source": "github",
+    "id": "903584784"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:33Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/google-calendar-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "build/index.js"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "google-calendar-mcp",
+      "version": "1.1.0"
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

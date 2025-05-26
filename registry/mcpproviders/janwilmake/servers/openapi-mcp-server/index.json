@@ -1,24 +1,31 @@
 {
-  "repo_ref": "janwilmake/openapi-mcp-server",
+  "id": "io.github.janwilmake/openapi-mcp-server",
   "name": "io.github.janwilmake/openapi-mcp-server",
   "description": "A Model Context Protocol (MCP) server for Claude/Cursor that enables searching and exploring OpenAPI specifications through oapis.org.",
+  "repository": {
+    "url": "janwilmake/openapi-mcp-server",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "openapi-mcp-server",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "openapi-mcp-server",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [],
   "resources": []

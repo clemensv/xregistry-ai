@@ -1,47 +1,22 @@
 {
-  "repo_ref": "lamaalrajih/kicad-mcp",
+  "id": "e80eb5ed-497b-4bcf-8cc3-f7f2c5eed889",
   "name": "io.github.lamaalrajih/kicad-mcp",
-  "description": "A Model Context Protocol (MCP) server for KiCad providing resources, tools, and prompts to interact with KiCad projects, schematics, BOMs, DRC checks, netlists, and circuit pattern recognition.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol server for KiCad on Mac, Windows, and Linux",
+  "repository": {
+    "url": "https://github.com/lamaalrajih/kicad-mcp",
+    "source": "github",
+    "id": "951687178"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:47Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "kicad-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "main.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "KICAD_SEARCH_PATHS",
-            "description": "Comma-separated list of paths to search for KiCad projects.",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "create_new_component",
-      "description": "Prompt for creating a new KiCad component. Provides step-by-step instructions on creating schematic symbols, footprints, and adding components to designs.",
-      "arguments": []
-    },
-    {
-      "name": "debug_pcb_issues",
-      "description": "Prompt for debugging common PCB issues including DRC errors, ERC errors, footprint mismatches, and routing challenges.",
-      "arguments": []
-    },
-    {
-      "name": "pcb_manufacturing_checklist",
-      "description": "Prompt for a comprehensive checklist to prepare a KiCad PCB design for manufacturing, covering design rules, layers, output files, and component placement.",
-      "arguments": []
+      "registry_name": "pypi",
+      "name": "lamaalrajih/kicad-mcp",
+      "version": ""
     }
   ],
   "tools": [
@@ -264,6 +239,23 @@
       "name": "project_circuit_patterns",
       "description": "Get a formatted report of identified circuit patterns in a KiCad project.",
       "mimetype": "text/markdown"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "create_new_component",
+      "description": "Prompt for creating a new KiCad component. Provides step-by-step instructions on creating schematic symbols, footprints, and adding components to designs.",
+      "arguments": []
+    },
+    {
+      "name": "debug_pcb_issues",
+      "description": "Prompt for debugging common PCB issues including DRC errors, ERC errors, footprint mismatches, and routing challenges.",
+      "arguments": []
+    },
+    {
+      "name": "pcb_manufacturing_checklist",
+      "description": "Prompt for a comprehensive checklist to prepare a KiCad PCB design for manufacturing, covering design rules, layers, output files, and component placement.",
+      "arguments": []
     }
   ]
 }

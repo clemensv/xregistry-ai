@@ -1,41 +1,25 @@
 {
-  "repo_ref": "Omedia/mcp-server-drupal",
-  "name": "io.github.Omedia/mcp-server-drupal",
-  "description": "A typescript based companion Model Context Protocol (MCP) server for the Drupal MCP module that works with the STDIO transport.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "7902d399-3080-4926-afb8-4f98c3a7d870",
+  "name": "io.github.omedia/mcp-server-drupal",
+  "description": "TS based companion MCP server for the Drupal MCP module that works with the STDIO transport.",
+  "repository": {
+    "url": "https://github.com/Omedia/mcp-server-drupal",
+    "source": "github",
+    "id": "900629184"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:05Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "ghcr.io/omedia/mcp-server-drupal",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--drupal-url=__DRUPAL_BASE_URL__"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "deno",
-      "package_name": "jsr:@omedia/mcp-server-drupal",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--drupal-url",
-          "__DRUPAL_BASE_URL__"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "Omedia/mcp-server-drupal",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

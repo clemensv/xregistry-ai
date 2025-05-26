@@ -1,25 +1,24 @@
 {
-  "repo_ref": "GongRzhe/JSON-MCP-Server",
-  "name": "io.github.GongRzhe/JSON-MCP-Server",
-  "description": "A JSON Model Context Protocol (MCP) server implementation for querying and manipulating JSON data. This server enables LLMs to interact with JSON data through a set of standardized tools.",
-  "version_detail": {
-    "version": "1.0.3"
+  "id": "7e73a81a-e914-4cf7-aff2-482d0047e8dd",
+  "name": "io.github.gongrzhe/json-mcp-server",
+  "description": "JSON handling and processing mcp server",
+  "repository": {
+    "url": "https://github.com/GongRzhe/JSON-MCP-Server",
+    "source": "github",
+    "id": "907849216"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:41Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@gongrzhe/server-json-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@gongrzhe/server-json-mcp",
+      "version": "1.0.3"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "query",
@@ -64,5 +63,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

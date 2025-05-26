@@ -1,41 +1,24 @@
 {
-  "repo_ref": "JordiNeil/mcp-databricks-server",
-  "name": "io.github.JordiNeil/mcp-databricks-server",
-  "description": "A Model Context Protocol (MCP) server that connects to Databricks API, allowing LLMs to run SQL queries, list jobs, and get job status.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "5061131f-b74a-4997-a349-99e7789b0eb3",
+  "name": "io.github.jordineil/mcp-databricks-server",
+  "description": "MCP Server for Databricks",
+  "repository": {
+    "url": "https://github.com/JordiNeil/mcp-databricks-server",
+    "source": "github",
+    "id": "952279762"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:10Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/databricks-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "DATABRICKS_HOST",
-            "description": "Databricks instance URL",
-            "required": true
-          },
-          {
-            "name": "DATABRICKS_TOKEN",
-            "description": "Personal access token for Databricks",
-            "required": true
-          },
-          {
-            "name": "DATABRICKS_HTTP_PATH",
-            "description": "HTTP path for Databricks SQL warehouse",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "JordiNeil/mcp-databricks-server",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "run_sql_query",
@@ -92,5 +75,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

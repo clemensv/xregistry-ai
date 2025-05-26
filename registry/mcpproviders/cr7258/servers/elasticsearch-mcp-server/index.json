@@ -1,17 +1,21 @@
 {
-  "repo_ref": "cr7258/elasticsearch-mcp-server",
+  "id": "io.github.cr7258/elasticsearch-mcp-server",
   "name": "io.github.cr7258/elasticsearch-mcp-server",
   "description": "A Model Context Protocol (MCP) server implementation that provides Elasticsearch and OpenSearch interaction. This server enables searching documents, analyzing indices, and managing cluster through a set of tools.",
+  "repository": {
+    "url": "cr7258/elasticsearch-mcp-server",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "elasticsearch-mcp-server",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "elasticsearch-mcp-server",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "@smithery/cli",
@@ -38,9 +42,28 @@
           }
         ],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [
+        {
+          "name": "ELASTICSEARCH_HOSTS",
+          "description": "Elasticsearch hosts URL",
+          "required": true
+        },
+        {
+          "name": "ELASTICSEARCH_USERNAME",
+          "description": "Elasticsearch username",
+          "required": true
+        },
+        {
+          "name": "ELASTICSEARCH_PASSWORD",
+          "description": "Elasticsearch password",
+          "required": true
+        }
+      ],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

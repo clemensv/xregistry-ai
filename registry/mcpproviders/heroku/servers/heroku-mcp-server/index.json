@@ -1,28 +1,24 @@
 {
-  "repo_ref": "heroku/heroku-mcp-server",
+  "id": "cb1a844b-0145-433b-9a6f-f8ef19b2b3f4",
   "name": "io.github.heroku/heroku-mcp-server",
-  "description": "The Heroku Platform MCP Server is a specialized Model Context Protocol (MCP) implementation designed to facilitate seamless interaction between large language models (LLMs) and the Heroku Platform. This server provides a robust set of tools and capabilities that enable LLMs to read, manage, and operate Heroku Platform resources.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Heroku Platform MCP Server using the Heroku CLI",
+  "repository": {
+    "url": "https://github.com/heroku/heroku-mcp-server",
+    "source": "github",
+    "id": "955359601"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:29Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@heroku/mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@heroku/mcp-server"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@heroku/mcp-server",
+      "version": "1.0.4"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_apps",
@@ -396,5 +392,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

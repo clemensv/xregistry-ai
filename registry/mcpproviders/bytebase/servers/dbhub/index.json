@@ -1,17 +1,21 @@
 {
-  "repo_ref": "bytebase/dbhub",
+  "id": "io.github.bytebase/dbhub",
   "name": "io.github.bytebase/dbhub",
   "description": "DBHub is a universal database gateway implementing the Model Context Protocol (MCP) server interface. This gateway allows MCP-compatible clients to connect to and explore different databases.",
+  "repository": {
+    "url": "bytebase/dbhub",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "container",
-      "package_name": "bytebase/dbhub",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "container",
+      "name": "bytebase/dbhub",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "--transport",
@@ -23,9 +27,12 @@
         ],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [
     {
       "name": "generate_sql",

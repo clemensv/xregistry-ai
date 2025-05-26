@@ -1,49 +1,67 @@
 {
-  "repo_ref": "abel9851/mcp-server-mariadb",
+  "id": "8197c60c-08c6-4d90-9d63-e64bf48ab6e4",
   "name": "io.github.abel9851/mcp-server-mariadb",
-  "description": "An MCP server implementation for retrieving data from mariadb",
-  "remotes": [],
-  "registries": [
+  "description": "An mcp server that provides read-only access to MariaDB.",
+  "repository": {
+    "url": "https://github.com/abel9851/mcp-server-mariadb",
+    "source": "github",
+    "id": "934896960"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:39Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "",
-      "package_name": "",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--host",
-          "${DB_HOST}",
-          "--port",
-          "${DB_PORT}",
-          "--user",
-          "${DB_USER}",
-          "--password",
-          "${DB_PASSWORD}",
-          "--database",
-          "${DB_NAME}"
-        ],
-        "environment_variables": [
-          {
-            "name": "MARIADB_HOST"
-          },
-          {
-            "name": "MARIADB_USER"
-          },
-          {
-            "name": "MARIADB_PASSWORD"
-          },
-          {
-            "name": "MARIADB_DATABASE"
-          },
-          {
-            "name": "MARIADB_PORT"
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-mariadb",
+      "version": "0.1.2",
+      "package_arguments": [
+        {
+          "description": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+          "default": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+          "type": "named",
+          "name": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+          "value_hint": "/YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb"
+        },
+        {
+          "description": "server.py",
+          "is_required": true,
+          "format": "string",
+          "value": "server.py",
+          "default": "server.py",
+          "type": "positional",
+          "value_hint": "server.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "127.0.0.1",
+          "name": "MARIADB_HOST"
+        },
+        {
+          "description": "USER",
+          "name": "MARIADB_USER"
+        },
+        {
+          "description": "PASSWORD",
+          "name": "MARIADB_PASSWORD"
+        },
+        {
+          "description": "DATABASE",
+          "name": "MARIADB_DATABASE"
+        },
+        {
+          "description": "3306",
+          "name": "MARIADB_PORT"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "query_database",
@@ -58,5 +76,6 @@
       "name": "schema list",
       "description": "Expose schema list in database"
     }
-  ]
+  ],
+  "prompts": []
 }

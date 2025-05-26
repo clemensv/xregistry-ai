@@ -1,13 +1,42 @@
 {
-  "repo_ref": "mfukushim/map-traveler-mcp",
+  "id": "8b5bb45d-a025-4e7b-a185-dbb5e349af32",
   "name": "io.github.mfukushim/map-traveler-mcp",
-  "description": "This is an MCP server that creates an environment for an avatar to virtually travel on Google Maps. From an MCP client such as Claude Desktop, you can give instructions to the avatar and report on the progress of its journey with photos.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Virtual traveler library for MCP",
+  "repository": {
+    "url": "https://github.com/mfukushim/map-traveler-mcp",
+    "source": "github",
+    "id": "911417007"
   },
-  "remotes": [],
-  "registries": [],
-  "prompts": [],
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:32Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@mfukushim/map-traveler-mcp",
+      "version": "0.0.77",
+      "environment_variables": [
+        {
+          "description": "http://192.168.1.100:8188",
+          "name": "comfy_url"
+        },
+        {
+          "description": "C:\\Documents\\t2itest.json",
+          "name": "comfy_workflow_t2i"
+        },
+        {
+          "description": "C:\\Documents\\i2itest.json",
+          "name": "comfy_workflow_i2i"
+        },
+        {
+          "description": "ckpt_name='animagineXL40_v40.safetensors',denoise=0.65",
+          "name": "comfy_params"
+        }
+      ]
+    }
+  ],
   "tools": [
     {
       "name": "get_traveler_view_info",
@@ -240,5 +269,6 @@
       "description": "Has five custom prompt samples. When you import a prompt with Claude Desktop, Claude will act as a travel",
       "uritemplate": "/prompts/custom_samples"
     }
-  ]
+  ],
+  "prompts": []
 }

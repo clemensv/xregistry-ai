@@ -1,39 +1,25 @@
 {
-  "repo_ref": "smn2gnt/MCP-Salesforce",
-  "name": "io.github.smn2gnt/MCP-Salesforce",
-  "description": "A Model Context Protocol (MCP) server implementation for Salesforce integration, allowing LLMs to interact with Salesforce data through SOQL queries and SOSL searches.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "0e45cb5a-5b45-47f3-8b5e-12bdf88d176a",
+  "name": "io.github.smn2gnt/mcp-salesforce",
+  "description": "MCP Salesforce connector",
+  "repository": {
+    "url": "https://github.com/smn2gnt/MCP-Salesforce",
+    "source": "github",
+    "id": "904538810"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:41Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "unknown",
-      "package_name": "mcp-salesforce-connector",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--from",
-          "mcp-salesforce-connector",
-          "salesforce"
-        ],
-        "environment_variables": [
-          {
-            "name": "SALESFORCE_USERNAME"
-          },
-          {
-            "name": "SALESFORCE_PASSWORD"
-          },
-          {
-            "name": "SALESFORCE_SECURITY_TOKEN"
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-salesforce-connector",
+      "version": "0.1.3"
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

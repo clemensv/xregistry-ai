@@ -1,31 +1,42 @@
 {
-  "repo_ref": "longmans/coin_api_mcp",
+  "id": "28fc08e1-1afc-42cb-8eca-0b500e23c73e",
   "name": "io.github.longmans/coin_api_mcp",
   "description": "A Model Context Protocol server that provides access to CoinMarketCap's cryptocurrency data. This server enables AI-powered applications to retrieve cryptocurrency listings, quotes, and detailed information about various coins.",
-  "version_detail": {
-    "version": "0.1.0"
+  "repository": {
+    "url": "https://github.com/longmans/coin_api_mcp",
+    "source": "github",
+    "id": "903449956"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:46Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "coin_api_mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "COINMARKETCAP_API_KEY",
-            "description": "API key for CoinMarketCap",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "coin-api-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "-m coin_api_mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "-m coin_api_mcp",
+          "default": "-m coin_api_mcp",
+          "type": "named",
+          "name": "-m coin_api_mcp",
+          "value_hint": "coin_api_mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "COINMARKETCAP_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "listing-coins",
@@ -235,5 +246,5 @@
     }
   ],
   "resources": [],
-  "serverid": "coin-api"
+  "prompts": []
 }

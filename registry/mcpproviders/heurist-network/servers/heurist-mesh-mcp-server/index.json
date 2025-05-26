@@ -1,25 +1,25 @@
 {
-  "repo_ref": "heurist-network/heurist-mesh-mcp-server",
+  "id": "97174daf-db12-40ac-bab2-1c4255ce1741",
   "name": "io.github.heurist-network/heurist-mesh-mcp-server",
-  "description": "A Model Context Protocol (MCP) server that connects to Heurist Mesh APIs, providing Claude with access to various blockchain and web3 tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/heurist-network/heurist-mesh-mcp-server",
+    "source": "github",
+    "id": "948277357"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:51Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "mesh-tool-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mesh-mcp-server",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,33 +1,24 @@
 {
-  "repo_ref": "felores/placid-mcp-server",
+  "id": "cfe44c73-8b61-48c9-9d7f-b28e98d23b5b",
   "name": "io.github.felores/placid-mcp-server",
-  "description": "An MCP server implementation for integrating with Placid.app's API. This server provides tools for listing templates and generating images and videos through the Model Context Protocol.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Generate image and video creatives using Placid.app templates in MCP compatible hosts",
+  "repository": {
+    "url": "https://github.com/felores/placid-mcp-server",
+    "source": "github",
+    "id": "915853970"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:34Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@felores/placid-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "@felores/placid-mcp-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "PLACID_API_TOKEN",
-            "description": "API token for Placid.app",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@felores/placid-mcp-server",
+      "version": "1.7.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "placid_list_templates",
@@ -44,5 +35,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

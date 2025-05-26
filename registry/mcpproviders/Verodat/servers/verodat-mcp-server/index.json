@@ -1,38 +1,45 @@
 {
-  "repo_ref": "Verodat/verodat-mcp-server",
-  "name": "io.github.Verodat/verodat-mcp-server",
-  "description": "A Model Context Protocol (MCP) server implementation for Verodat, allowing AI models to interact with Verodat's data management capabilities through well-defined tools.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "c0c30db1-cc08-426e-886f-0bdbcd31d101",
+  "name": "io.github.verodat/verodat-mcp-server",
+  "description": "Verodat MCP Server Implementation",
+  "repository": {
+    "url": "https://github.com/Verodat/verodat-mcp-server",
+    "source": "github",
+    "id": "924683561"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@Verodat/verodat-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "path/to/verodat-mcp-server/build/src/consume.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "VERODAT_AI_API_KEY",
-            "description": "API key for authentication",
-            "required": true
-          },
-          {
-            "name": "VERODAT_API_BASE_URL",
-            "description": "Base URL for Verodat API",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "verodat-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Path to script file to run",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/verodat-mcp-server/build/src/consume.js",
+          "default": "path/to/verodat-mcp-server/build/src/consume.js",
+          "type": "positional",
+          "value_hint": "path/to/verodat-mcp-server/build/src/consume.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "VERODAT_AI_API_KEY"
+        },
+        {
+          "description": "https://verodat.io/api/v3",
+          "name": "VERODAT_API_BASE_URL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-accounts",
@@ -125,5 +132,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

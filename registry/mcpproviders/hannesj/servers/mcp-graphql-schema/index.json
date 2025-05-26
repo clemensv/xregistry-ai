@@ -1,28 +1,35 @@
 {
-  "repo_ref": "hannesj/mcp-graphql-schema",
+  "id": "7461c9c2-108f-46c1-8f35-6206ec509267",
   "name": "io.github.hannesj/mcp-graphql-schema",
-  "description": "A Model Context Protocol (MCP) server that exposes GraphQL schema information to Large Language Models (LLMs) like Claude. This server allows an LLM to explore and understand GraphQL schemas through a set of specialized tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "GraphQL Schema Model Context Protocol Server",
+  "repository": {
+    "url": "https://github.com/hannesj/mcp-graphql-schema",
+    "source": "github",
+    "id": "947826694"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:46Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-graphql-schema",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "mcp-graphql-schema"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "mcp-graphql-schema",
+      "version": "0.0.1",
+      "package_arguments": [
+        {
+          "description": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "is_required": true,
+          "format": "string",
+          "value": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "default": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "type": "positional",
+          "value_hint": "/ABSOLUTE/PATH/TO/schema.graphqls"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list-query-fields",
@@ -95,5 +102,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,49 +1,42 @@
 {
-  "repo_ref": "EnesCinr/twitter-mcp",
-  "name": "io.github.EnesCinr/twitter-mcp",
-  "description": "This MCP server allows Clients to interact with Twitter, enabling posting tweets and searching Twitter.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "ccb9aa0c-bbf5-46e6-a5f0-a5b4c11d519a",
+  "name": "io.github.enescinr/twitter-mcp",
+  "description": "A Model Context Protocol server allows to interact with Twitter, enabling posting tweets and searching Twitter.",
+  "repository": {
+    "url": "https://github.com/EnesCinr/twitter-mcp",
+    "source": "github",
+    "id": "901627660"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:58Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@enescinar/twitter-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@enescinar/twitter-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "API_KEY",
-            "description": "Twitter API key",
-            "required": true
-          },
-          {
-            "name": "API_SECRET_KEY",
-            "description": "Twitter API secret key",
-            "required": true
-          },
-          {
-            "name": "ACCESS_TOKEN",
-            "description": "Twitter access token",
-            "required": true
-          },
-          {
-            "name": "ACCESS_TOKEN_SECRET",
-            "description": "Twitter access token secret",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@enescinar/twitter-mcp",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "API_KEY"
+        },
+        {
+          "description": "your_api_secret_key_here",
+          "name": "API_SECRET_KEY"
+        },
+        {
+          "description": "your_access_token_here",
+          "name": "ACCESS_TOKEN"
+        },
+        {
+          "description": "your_access_token_secret_here",
+          "name": "ACCESS_TOKEN_SECRET"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "post_tweet",
@@ -86,5 +79,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,7 +1,17 @@
 {
-  "specversion": "0.5",
   "id": "mcpproviders",
   "name": "MCP Providers",
   "description": "Organizations providing Model Context Protocol servers",
-  "mcpproviders": {}
-} 
+  "repository": {
+    "url": "",
+    "source": "",
+    "id": ""
+  },
+  "version_detail": {
+    "version": "",
+    "release_date": "",
+    "is_latest": true
+  },
+  "packages": [],
+  "remotes": []
+}

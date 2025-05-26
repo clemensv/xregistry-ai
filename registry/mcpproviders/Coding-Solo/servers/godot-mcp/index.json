@@ -1,38 +1,30 @@
 {
-  "repo_ref": "Coding-Solo/godot-mcp",
-  "name": "io.github.Coding-Solo/godot-mcp",
-  "description": "A Model Context Protocol (MCP) server for interacting with the Godot game engine. It enables AI assistants to launch the Godot editor, run Godot projects, capture debug output, and control project execution.",
-  "version_detail": {
-    "version": "0.1.0"
+  "id": "8663db3e-ad80-4805-8032-11a3f303b5fc",
+  "name": "io.github.coding-solo/godot-mcp",
+  "description": "MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.",
+  "repository": {
+    "url": "https://github.com/Coding-Solo/godot-mcp",
+    "source": "github",
+    "id": "939648665"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:22Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/godot-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "DEBUG",
-            "description": "Enable debug mode (set to 'true' to enable)",
-            "required": false
-          },
-          {
-            "name": "GODOT_PATH",
-            "description": "Path to the Godot executable",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "godot-mcp",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "true",
+          "name": "DEBUG"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "launch_editor",
@@ -326,5 +318,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

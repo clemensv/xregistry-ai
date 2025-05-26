@@ -1,35 +1,44 @@
 {
-  "repo_ref": "chigwell/telegram-mcp",
+  "id": "io.github.chigwell/telegram-mcp",
   "name": "io.github.chigwell/telegram-mcp",
   "description": "A full-featured Telegram integration for Claude, Cursor, and any MCP-compatible client, powered by Telethon and the Model Context Protocol (MCP). This project lets you interact with your Telegram account programmatically, automating everything from messaging to group management.",
+  "repository": {
+    "url": "chigwell/telegram-mcp",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "0.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "container",
-      "package_name": "unknown",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "container",
+      "name": "unknown",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     },
     {
+      "registry_name": "unknown",
       "name": "unknown",
-      "package_name": "unknown",
-      "license": "",
-      "command_arguments": {
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

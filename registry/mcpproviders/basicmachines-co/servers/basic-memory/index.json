@@ -1,27 +1,34 @@
 {
-  "repo_ref": "basicmachines-co/basic-memory",
+  "id": "377dba9b-63cc-4ca9-bb39-97f5e12497b4",
   "name": "io.github.basicmachines-co/basic-memory",
-  "description": "Basic Memory lets you build persistent knowledge through natural conversations with Large Language Models (LLMs) like Claude, while keeping everything in simple Markdown files on your computer. It uses the Model Context Protocol (MCP) to enable any compatible LLM to read and write to your local knowledge base.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Basic Memory is a knowledge management system that allows you to build a persistent semantic graph from conversations with AI assistants, stored in standard Markdown files on your computer. Integrates directly with Obsidan.md",
+  "repository": {
+    "url": "https://github.com/basicmachines-co/basic-memory",
+    "source": "github",
+    "id": "897595329"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:49Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "basic-memory",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "basic-memory",
+      "version": "0.12.3",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "mcp",
+          "default": "mcp",
+          "type": "positional",
+          "value_hint": "mcp"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "recent_activity",
@@ -55,5 +62,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

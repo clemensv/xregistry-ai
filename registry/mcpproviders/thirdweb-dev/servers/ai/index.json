@@ -1,31 +1,24 @@
 {
-  "repo_ref": "thirdweb-dev/ai",
+  "id": "f5349be9-5e04-4e93-bf2f-2dae8db4a9e9",
   "name": "io.github.thirdweb-dev/ai",
-  "description": "MCP server providing blockchain tools via the MCP protocol, enabling compatible LLM clients to interact with blockchain data and AI agents.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/thirdweb-dev/ai",
+    "source": "github",
+    "id": "947697435"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:05Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "thirdweb-ai",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "THIRDWEB_SECRET_KEY",
-            "description": "API key for thirdweb services",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "thirdweb-dev/ai",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "Insight Tools",
@@ -42,5 +35,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

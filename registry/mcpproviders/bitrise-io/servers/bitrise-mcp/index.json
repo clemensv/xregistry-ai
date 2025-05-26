@@ -1,35 +1,62 @@
 {
-  "repo_ref": "bitrise-io/bitrise-mcp",
+  "id": "9e07df79-22e2-464d-a842-06f08b875196",
   "name": "io.github.bitrise-io/bitrise-mcp",
   "description": "MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.",
-  "version_detail": {
-    "version": "0.0.0"
+  "repository": {
+    "url": "https://github.com/bitrise-io/bitrise-mcp",
+    "source": "github",
+    "id": "958502546"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:44Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "bitrise-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--from",
-          "git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
-          "bitrise-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "BITRISE_TOKEN",
-            "description": "Bitrise API token for authentication",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "bitrise-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "source package location",
+          "is_required": true,
+          "format": "string",
+          "value": "--from git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
+          "default": "--from git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
+          "type": "named",
+          "name": "--from git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
+          "value_hint": "git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0"
+        },
+        {
+          "description": "local entrypoint command",
+          "is_required": true,
+          "format": "string",
+          "value": "bitrise-mcp",
+          "default": "bitrise-mcp",
+          "type": "positional",
+          "value_hint": "bitrise-mcp"
+        },
+        {
+          "description": "list of enabled API groups",
+          "is_required": true,
+          "format": "string",
+          "value": "--enabled-api-groups cache-items,pipelines",
+          "default": "--enabled-api-groups cache-items,pipelines",
+          "type": "named",
+          "name": "--enabled-api-groups cache-items,pipelines",
+          "value_hint": "cache-items,pipelines"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<YOUR_PAT>",
+          "name": "BITRISE_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

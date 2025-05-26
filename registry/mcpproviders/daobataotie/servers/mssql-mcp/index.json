@@ -1,37 +1,22 @@
 {
-  "repo_ref": "daobataotie/mssql-mcp",
+  "id": "aaf985be-8d3d-41db-b69f-437cd09d85c6",
   "name": "io.github.daobataotie/mssql-mcp",
-  "description": "MSSQL MCP Server provides database interaction and business intelligence capabilities, enabling running SQL queries, analyzing business data, and automatically generating business insight memos.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "mssql mcp server",
+  "repository": {
+    "url": "https://github.com/daobataotie/mssql-mcp",
+    "source": "github",
+    "id": "947666059"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:19Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "src/server.py"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "mcp-demo",
-      "description": "一个用于在 MSSQL 数据库中创建初始数据并演示 MSSQL MCP 服务器功能的提示",
-      "arguments": [
-        {
-          "name": "topic",
-          "description": "用于生成初始数据的主题",
-          "required": true
-        }
-      ]
+      "registry_name": "unknown",
+      "name": "daobataotie/mssql-mcp",
+      "version": ""
     }
   ],
   "tools": [
@@ -130,6 +115,19 @@
       "description": "一个实时更新的业务洞察文档",
       "mimetype": "text/plain",
       "uritemplate": "memo://insights"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "mcp-demo",
+      "description": "一个用于在 MSSQL 数据库中创建初始数据并演示 MSSQL MCP 服务器功能的提示",
+      "arguments": [
+        {
+          "name": "topic",
+          "description": "用于生成初始数据的主题",
+          "required": true
+        }
+      ]
     }
   ]
 }

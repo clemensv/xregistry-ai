@@ -1,0 +1,73 @@
+{
+  "id": "5e32ec37-7a46-4e84-9f19-845cd6b151f4",
+  "name": "io.github.baryhuang/mcp-remote-macos-use",
+  "description": "The only general AI agent that does NOT requires extra API key, giving you full control on your local and remote MacOs from Claude Desktop App",
+  "repository": {
+    "url": "https://github.com/baryhuang/mcp-remote-macos-use",
+    "source": "github",
+    "id": "952732612"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:52Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "docker",
+      "name": "mcp_remote_macos_use",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Pass environment variable MACOS_USERNAME",
+          "is_required": true,
+          "format": "string",
+          "value": "-e MACOS_USERNAME=your_macos_username",
+          "default": "-e MACOS_USERNAME=your_macos_username",
+          "type": "named",
+          "name": "-e MACOS_USERNAME=your_macos_username",
+          "value_hint": "MACOS_USERNAME=your_macos_username"
+        },
+        {
+          "description": "Pass environment variable MACOS_PASSWORD",
+          "is_required": true,
+          "format": "string",
+          "value": "-e MACOS_PASSWORD=your_macos_password",
+          "default": "-e MACOS_PASSWORD=your_macos_password",
+          "type": "named",
+          "name": "-e MACOS_PASSWORD=your_macos_password",
+          "value_hint": "MACOS_PASSWORD=your_macos_password"
+        },
+        {
+          "description": "Pass environment variable MACOS_HOST",
+          "is_required": true,
+          "format": "string",
+          "value": "-e MACOS_HOST=your_macos_hostname_or_ip",
+          "default": "-e MACOS_HOST=your_macos_hostname_or_ip",
+          "type": "named",
+          "name": "-e MACOS_HOST=your_macos_hostname_or_ip",
+          "value_hint": "MACOS_HOST=your_macos_hostname_or_ip"
+        },
+        {
+          "description": "Remove container when it exits",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "Docker image to use",
+          "is_required": true,
+          "format": "string",
+          "value": "buryhuang/mcp-remote-macos-use:latest",
+          "default": "buryhuang/mcp-remote-macos-use:latest",
+          "type": "positional",
+          "value_hint": "buryhuang/mcp-remote-macos-use:latest"
+        }
+      ]
+    }
+  ]
+}

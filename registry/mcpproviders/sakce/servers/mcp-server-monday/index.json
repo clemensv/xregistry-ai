@@ -1,64 +1,24 @@
 {
-  "repo_ref": "sakce/mcp-server-monday",
+  "id": "ac665c5c-e1de-4686-9012-5ac101186a31",
   "name": "io.github.sakce/mcp-server-monday",
-  "description": "MCP Server for monday.com, enabling MCP clients to interact with Monday.com boards, items, updates, and documents.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP Server to interact with Monday.com boards and items",
+  "repository": {
+    "url": "https://github.com/sakce/mcp-server-monday",
+    "source": "github",
+    "id": "936547010"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:42Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "sakce/mcp-server-monday",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "--rm",
-          "-i"
-        ],
-        "environment_variables": [
-          {
-            "name": "MONDAY_API_KEY",
-            "description": "API key for Monday.com",
-            "required": true
-          },
-          {
-            "name": "MONDAY_WORKSPACE_NAME",
-            "description": "Workspace name for Monday.com",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "uvx",
-      "package_name": "mcp-server-monday",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-server-monday"
-        ],
-        "environment_variables": [
-          {
-            "name": "MONDAY_API_KEY",
-            "description": "API key for Monday.com",
-            "required": true
-          },
-          {
-            "name": "MONDAY_WORKSPACE_NAME",
-            "description": "Workspace name for Monday.com",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-server-monday",
+      "version": "0.2.9"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "monday-create-item",
@@ -173,5 +133,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

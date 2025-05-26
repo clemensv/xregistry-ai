@@ -1,27 +1,30 @@
 {
-  "repo_ref": "Bankless/onchain-mcp",
-  "name": "io.github.Bankless/onchain-mcp",
-  "description": "MCP (Model Context Protocol) server for blockchain data interaction through the Bankless API.",
-  "version_detail": {
-    "version": "0.6.2"
+  "id": "2535daf3-637b-40d1-a4c2-41ef60a726b8",
+  "name": "io.github.bankless/onchain-mcp",
+  "description": "Bringing the bankless onchain API to MCP",
+  "repository": {
+    "url": "https://github.com/Bankless/onchain-mcp",
+    "source": "github",
+    "id": "946011336"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:37Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/bankless-onchain-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@bankless/onchain-mcp",
+      "version": "1.0.6",
+      "environment_variables": [
+        {
+          "description": "your_api_token_here",
+          "name": "BANKLESS_API_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "read_contract",
@@ -310,5 +313,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

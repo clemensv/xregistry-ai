@@ -1,46 +1,59 @@
 {
-  "repo_ref": "unibaseio/membase-mcp",
+  "id": "819f0338-1101-475c-9915-65a8727a8dc5",
   "name": "io.github.unibaseio/membase-mcp",
-  "description": "The membase mcp server enables seamless integration with the membase protocol for decentralized storage. It provides functionality to upload and download memory to/from the Unibase DA network, managing conversations and messages for AI agents.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A lightweight, decentralized memory server for AI agents to store and retrieve conversations via the Unibase memory layer.",
+  "repository": {
+    "url": "https://github.com/unibaseio/membase-mcp",
+    "source": "github",
+    "id": "957747274"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:06Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "membase-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "path/to/membase-mcp",
-          "run",
-          "src/membase_mcp/server.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "MEMBASE_ACCOUNT",
-            "description": "your account to upload",
-            "required": true
-          },
-          {
-            "name": "MEMBASE_CONVERSATION_ID",
-            "description": "your conversation id, should be unique, will preload its history",
-            "required": true
-          },
-          {
-            "name": "MEMBASE_ID",
-            "description": "your instance id",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "membase-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Specifies the directory to use",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory path/to/membase-mcp",
+          "default": "--directory path/to/membase-mcp",
+          "type": "named",
+          "name": "--directory path/to/membase-mcp",
+          "value_hint": "path/to/membase-mcp"
+        },
+        {
+          "description": "Path to the membase MCP server script",
+          "is_required": true,
+          "format": "string",
+          "value": "src/membase_mcp/server.py",
+          "default": "src/membase_mcp/server.py",
+          "type": "positional",
+          "value_hint": "src/membase_mcp/server.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your account, 0x...",
+          "name": "MEMBASE_ACCOUNT"
+        },
+        {
+          "description": "your conversation id, should be unique",
+          "name": "MEMBASE_CONVERSATION_ID"
+        },
+        {
+          "description": "your sub account, any string",
+          "name": "MEMBASE_ID"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_conversation_id",
@@ -102,5 +115,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

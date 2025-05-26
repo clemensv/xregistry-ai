@@ -1,25 +1,24 @@
 {
-  "repo_ref": "e2b-dev/mcp-server",
+  "id": "1f25c28f-9afe-4f34-9e29-d18aab507255",
   "name": "io.github.e2b-dev/mcp-server",
-  "description": "The E2B MCP server allows you to add code interpreting capabilities to your Claude Desktop app via the E2B Sandbox.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "Giving Claude ability to run code with E2B via MCP (Model Context Protocol)",
+  "repository": {
+    "url": "https://github.com/e2b-dev/mcp-server",
+    "source": "github",
+    "id": "896943331"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:28Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@smithery/e2b-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "e2b-mcp-root",
+      "version": ""
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "run_code",
@@ -37,5 +36,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

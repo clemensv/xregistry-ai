@@ -1,43 +1,24 @@
 {
-  "repo_ref": "Klavis-AI/klavis",
-  "name": "io.github.Klavis-AI/klavis",
-  "description": "MCP server providing web crawling, scraping, search, extraction, and related tools via Model Context Protocol.",
-  "version_detail": {
-    "version": "1.7.0"
+  "id": "0bc33e11-876e-4b0f-9c72-75c126d89978",
+  "name": "io.github.klavis-ai/klavis",
+  "description": "Klavis AI (YC X25):  Open Source MCP integration for AI applications",
+  "repository": {
+    "url": "https://github.com/Klavis-AI/klavis",
+    "source": "github",
+    "id": "965974441"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:5000",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "Klavis-AI/klavis",
+      "version": ""
     }
   ],
-  "registries": [
-    {
-      "name": "container",
-      "package_name": "klavisai/firecrawl-mcp:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "@klavis-ai/firecrawl-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "firecrawl_scrape",
@@ -598,5 +579,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

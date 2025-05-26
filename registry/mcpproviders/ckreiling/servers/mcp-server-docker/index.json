@@ -1,58 +1,22 @@
 {
-  "repo_ref": "ckreiling/mcp-server-docker",
+  "id": "d2aacd5b-0642-4832-8629-58272a922e4b",
   "name": "io.github.ckreiling/mcp-server-docker",
-  "description": "An MCP server for managing Docker with natural language! Compose containers, introspect and debug running containers, and manage persistent data with Docker volumes.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for Docker",
+  "repository": {
+    "url": "https://github.com/ckreiling/mcp-server-docker",
+    "source": "github",
+    "id": "899787279"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:01Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "mcp-server-docker:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "-i",
-          "--rm",
-          "-v",
-          "/var/run/docker.sock:/var/run/docker.sock",
-          "mcp-server-docker:latest"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "unknown",
-      "package_name": "unknown",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "docker_compose",
-      "description": "Treat the LLM like a Docker Compose manager",
-      "arguments": [
-        {
-          "name": "name",
-          "description": "Unique name of the project",
-          "required": true
-        },
-        {
-          "name": "containers",
-          "description": "Describe containers you want",
-          "required": true
-        }
-      ]
+      "registry_name": "unknown",
+      "name": "mcp-server-docker",
+      "version": "0.2.0"
     }
   ],
   "tools": [
@@ -204,6 +168,24 @@
       "name": "Stats for container",
       "description": "Live resource usage stats for container {container.name}",
       "mimetype": "application/json"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "docker_compose",
+      "description": "Treat the LLM like a Docker Compose manager",
+      "arguments": [
+        {
+          "name": "name",
+          "description": "Unique name of the project",
+          "required": true
+        },
+        {
+          "name": "containers",
+          "description": "Describe containers you want",
+          "required": true
+        }
+      ]
     }
   ]
 }

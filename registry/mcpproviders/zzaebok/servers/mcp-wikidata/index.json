@@ -1,25 +1,24 @@
 {
-  "repo_ref": "zzaebok/mcp-wikidata",
+  "id": "02b79b89-cce8-4401-aa1f-255b01587266",
   "name": "io.github.zzaebok/mcp-wikidata",
-  "description": "A server implementation for Wikidata API using the Model Context Protocol (MCP). This project provides tools to interact with Wikidata, such as searching identifiers (entity and property), extracting metadata (label and description) and executing sparql query.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A server implementation for Wikidata API using the Model Context Protocol (MCP).",
+  "repository": {
+    "url": "https://github.com/zzaebok/mcp-wikidata",
+    "source": "github",
+    "id": "959274715"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:49Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "@zzaebok/mcp-wikidata",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-wikidata",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "search_entity",
@@ -82,5 +81,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

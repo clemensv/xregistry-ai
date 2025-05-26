@@ -1,48 +1,42 @@
 {
-  "repo_ref": "ravenwits/mcp-server-arangodb",
+  "id": "1e97b930-031a-47b6-afb1-8af61dd81ec0",
   "name": "io.github.ravenwits/mcp-server-arangodb",
-  "description": "A Model Context Protocol server for ArangoDB providing database interaction capabilities through ArangoDB with core database operations and MCP tool integration.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "This is a TypeScript-based MCP server that provides database interaction capabilities through ArangoDB. It implements core database operations and allows seamless integration with ArangoDB through MCP tools. You can use it wih Claude app and also extension for VSCode that works with mcp like Cline!",
+  "repository": {
+    "url": "https://github.com/ravenwits/mcp-server-arangodb",
+    "source": "github",
+    "id": "909459279"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:13Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "arango-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "arango-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "ARANGO_URL",
-            "description": "ArangoDB connection URL",
-            "required": false
-          },
-          {
-            "name": "ARANGO_DB",
-            "description": "ArangoDB database name",
-            "required": false
-          },
-          {
-            "name": "ARANGO_USERNAME",
-            "description": "ArangoDB username",
-            "required": true
-          },
-          {
-            "name": "ARANGO_PASSWORD",
-            "description": "ArangoDB password",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "arango-server",
+      "version": "0.4.4",
+      "environment_variables": [
+        {
+          "description": "your_database_url",
+          "name": "ARANGO_URL"
+        },
+        {
+          "description": "your_database_name",
+          "name": "ARANGO_DB"
+        },
+        {
+          "description": "your_username",
+          "name": "ARANGO_USERNAME"
+        },
+        {
+          "description": "your_password",
+          "name": "ARANGO_PASSWORD"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "arango_query",
@@ -179,5 +173,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

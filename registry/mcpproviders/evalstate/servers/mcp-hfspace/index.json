@@ -1,63 +1,71 @@
 {
-  "repo_ref": "evalstate/mcp-hfspace",
+  "id": "532d7690-7a65-470f-81da-2ba3042bee05",
   "name": "io.github.evalstate/mcp-hfspace",
-  "description": "Connect to Hugging Face Spaces with minimal setup needed - simply add your spaces and go! Provides Image Generation capabilities to Claude Desktop.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode. ",
+  "repository": {
+    "url": "https://github.com/evalstate/mcp-hfspace",
+    "source": "github",
+    "id": "898049335"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:10Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@llmindset/mcp-hfspace",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@llmindset/mcp-hfspace"
-        ],
-        "environment_variables": [
-          {
-            "name": "MCP_HF_WORK_DIR",
-            "description": "Working directory for file upload/download",
-            "required": false
-          },
-          {
-            "name": "HF_TOKEN",
-            "description": "Hugging Face Token for private spaces",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "Available Resources",
-      "description": "List of available resources.",
-      "arguments": []
-    },
-    {
-      "name": "FLUX.1-schnell",
-      "description": "Prompt template from endpoint FLUX.1-schnell",
-      "arguments": []
-    },
-    {
-      "name": "shuttleai/shuttle-jaguar",
-      "description": "Prompt template from endpoint shuttleai/shuttle-jaguar",
-      "arguments": []
-    },
-    {
-      "name": "styletts2/styletts2",
-      "description": "Prompt template from endpoint styletts2/styletts2",
-      "arguments": []
-    },
-    {
-      "name": "Qwen/QVQ-72B-preview",
-      "description": "Prompt template from endpoint Qwen/QVQ-72B-preview",
-      "arguments": []
+      "registry_name": "npm",
+      "name": "@llmindset/mcp-hfspace",
+      "version": "0.5.4",
+      "package_arguments": [
+        {
+          "description": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "is_required": true,
+          "format": "string",
+          "value": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "default": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "type": "named",
+          "name": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "value_hint": "~/mcp-files/ or x:/temp/mcp-files/"
+        },
+        {
+          "description": "--HF_TOKEN=HF_{optional token}",
+          "is_required": true,
+          "format": "string",
+          "value": "--HF_TOKEN=HF_{optional token}",
+          "default": "--HF_TOKEN=HF_{optional token}",
+          "type": "named",
+          "name": "--HF_TOKEN=HF_{optional token}",
+          "value_hint": "HF_{optional token}"
+        },
+        {
+          "description": "Qwen/Qwen2-72B-Instruct",
+          "is_required": true,
+          "format": "string",
+          "value": "Qwen/Qwen2-72B-Instruct",
+          "default": "Qwen/Qwen2-72B-Instruct",
+          "type": "positional",
+          "value_hint": "Qwen/Qwen2-72B-Instruct"
+        },
+        {
+          "description": "black-forest-labs/FLUX.1-schnell",
+          "is_required": true,
+          "format": "string",
+          "value": "black-forest-labs/FLUX.1-schnell",
+          "default": "black-forest-labs/FLUX.1-schnell",
+          "type": "positional",
+          "value_hint": "black-forest-labs/FLUX.1-schnell"
+        },
+        {
+          "description": "space/example/specific-endpint",
+          "is_required": true,
+          "format": "string",
+          "value": "space/example/specific-endpint",
+          "default": "space/example/specific-endpint",
+          "type": "positional",
+          "value_hint": "space/example/specific-endpint"
+        }
+      ]
     }
   ],
   "tools": [
@@ -117,6 +125,33 @@
       "name": "available-files",
       "description": "List of available files and resources in the working directory.",
       "mimetype": "text/markdown"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "Available Resources",
+      "description": "List of available resources.",
+      "arguments": []
+    },
+    {
+      "name": "FLUX.1-schnell",
+      "description": "Prompt template from endpoint FLUX.1-schnell",
+      "arguments": []
+    },
+    {
+      "name": "shuttleai/shuttle-jaguar",
+      "description": "Prompt template from endpoint shuttleai/shuttle-jaguar",
+      "arguments": []
+    },
+    {
+      "name": "styletts2/styletts2",
+      "description": "Prompt template from endpoint styletts2/styletts2",
+      "arguments": []
+    },
+    {
+      "name": "Qwen/QVQ-72B-preview",
+      "description": "Prompt template from endpoint Qwen/QVQ-72B-preview",
+      "arguments": []
     }
   ]
 }

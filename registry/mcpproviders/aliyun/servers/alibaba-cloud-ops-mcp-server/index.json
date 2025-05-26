@@ -1,0 +1,32 @@
+{
+  "id": "24303d73-1ee0-4119-b2f1-3a57c17de967",
+  "name": "io.github.aliyun/alibaba-cloud-ops-mcp-server",
+  "description": "AlibabaCloud CloudOps MCP Server",
+  "repository": {
+    "url": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server",
+    "source": "github",
+    "id": "967873415"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:06Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "alibaba-cloud-ops-mcp-server",
+      "version": "0.8.6",
+      "environment_variables": [
+        {
+          "description": "Your Access Key ID",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_ID"
+        },
+        {
+          "description": "Your Access Key SECRET",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET"
+        }
+      ]
+    }
+  ]
+}

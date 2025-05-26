@@ -1,53 +1,32 @@
 {
-  "repo_ref": "chaindead/telegram-mcp",
+  "id": "0cd13ce0-2f67-414a-afb1-4e11dd3e4cba",
   "name": "io.github.chaindead/telegram-mcp",
-  "description": "The server is a bridge between the Telegram API and the AI assistants and is based on the Model Context Protocol. It provides capabilities such as getting current account information, listing dialogs, marking dialogs as read, retrieving messages, and sending draft messages.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.",
+  "repository": {
+    "url": "https://github.com/chaindead/telegram-mcp",
+    "source": "github",
+    "id": "958652024"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:34Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@chaindead/telegram-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@chaindead/telegram-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "TG_APP_ID",
-            "description": "Telegram API ID",
-            "required": true
-          },
-          {
-            "name": "TG_API_HASH",
-            "description": "Telegram API hash",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "Message Management",
-      "description": "Prompts for managing messages such as checking unread messages, summarizing, analyzing, and preparing draft responses.",
-      "arguments": []
-    },
-    {
-      "name": "Organization",
-      "description": "Prompts for analyzing dialogs and suggesting folder structures or categorization.",
-      "arguments": []
-    },
-    {
-      "name": "Communication",
-      "description": "Prompts for monitoring chats, drafting responses, and checking unanswered questions.",
-      "arguments": []
+      "registry_name": "unknown",
+      "name": "chaindead/telegram-mcp",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "<your-app-id>",
+          "name": "TG_APP_ID"
+        },
+        {
+          "description": "<your-api-hash>",
+          "name": "TG_API_HASH"
+        }
+      ]
     }
   ],
   "tools": [
@@ -87,5 +66,22 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": [
+    {
+      "name": "Message Management",
+      "description": "Prompts for managing messages such as checking unread messages, summarizing, analyzing, and preparing draft responses.",
+      "arguments": []
+    },
+    {
+      "name": "Organization",
+      "description": "Prompts for analyzing dialogs and suggesting folder structures or categorization.",
+      "arguments": []
+    },
+    {
+      "name": "Communication",
+      "description": "Prompts for monitoring chats, drafting responses, and checking unanswered questions.",
+      "arguments": []
+    }
+  ]
 }

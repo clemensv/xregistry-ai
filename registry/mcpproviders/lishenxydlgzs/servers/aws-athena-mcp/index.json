@@ -1,79 +1,46 @@
 {
-  "repo_ref": "lishenxydlgzs/aws-athena-mcp",
+  "id": "d3139564-f4c3-44f9-902a-8d172038af01",
   "name": "io.github.lishenxydlgzs/aws-athena-mcp",
-  "description": "A Model Context Protocol (MCP) server for running AWS Athena queries. This server enables AI assistants to execute SQL queries against your AWS Athena databases and retrieve results.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "MCP server to run AWS Athena queries",
+  "repository": {
+    "url": "https://github.com/lishenxydlgzs/aws-athena-mcp",
+    "source": "github",
+    "id": "938923691"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:23Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@lishenxydlgzs/aws-athena-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@lishenxydlgzs/aws-athena-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "OUTPUT_S3_PATH",
-            "description": "S3 bucket path for Athena query results",
-            "required": true
-          },
-          {
-            "name": "AWS_REGION",
-            "description": "AWS region (optional)",
-            "required": false
-          },
-          {
-            "name": "AWS_PROFILE",
-            "description": "AWS profile name (optional)",
-            "required": false
-          },
-          {
-            "name": "AWS_ACCESS_KEY_ID",
-            "description": "AWS access key (optional)",
-            "required": false
-          },
-          {
-            "name": "AWS_SECRET_ACCESS_KEY",
-            "description": "AWS secret key (optional)",
-            "required": false
-          },
-          {
-            "name": "AWS_SESSION_TOKEN",
-            "description": "AWS session token (optional)",
-            "required": false
-          },
-          {
-            "name": "ATHENA_WORKGROUP",
-            "description": "Athena WorkGroup (optional)",
-            "required": false
-          },
-          {
-            "name": "QUERY_TIMEOUT_MS",
-            "description": "Query timeout in milliseconds (optional)",
-            "required": false
-          },
-          {
-            "name": "MAX_RETRIES",
-            "description": "Maximum retry attempts (optional)",
-            "required": false
-          },
-          {
-            "name": "RETRY_DELAY_MS",
-            "description": "Delay between retries in milliseconds (optional)",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@lishenxydlgzs/aws-athena-mcp",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Named argument for query identifier",
+          "is_required": true,
+          "format": "string",
+          "value": "--namedQueryId abcd-1234-efgh-5678",
+          "default": "--namedQueryId abcd-1234-efgh-5678",
+          "type": "named",
+          "name": "--namedQueryId abcd-1234-efgh-5678",
+          "value_hint": "abcd-1234-efgh-5678"
+        },
+        {
+          "description": "Named argument for maximum rows",
+          "is_required": true,
+          "format": "string",
+          "value": "--maxRows 100",
+          "default": "--maxRows 100",
+          "type": "named",
+          "name": "--maxRows 100",
+          "value_hint": "100"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "run_query",
@@ -185,5 +152,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

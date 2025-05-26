@@ -1,30 +1,24 @@
 {
-  "repo_ref": "aws-samples/sample-mcp-server-s3",
+  "id": "f7f8acea-8725-48ec-a2f8-08ee16c738db",
   "name": "io.github.aws-samples/sample-mcp-server-s3",
-  "description": "An MCP server implementation for retrieving data such as PDF's from S3.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/aws-samples/sample-mcp-server-s3",
+    "source": "github",
+    "id": "907453245"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:34Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "s3-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/Users/user/generative_ai/model_context_protocol/s3-mcp-server",
-          "run",
-          "s3-mcp-server"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "s3-mcp-server",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "ListBuckets",
@@ -125,5 +119,6 @@
       "uritemplate": "s3://{bucket}/{object_key}",
       "mimetype": "application/pdf"
     }
-  ]
+  ],
+  "prompts": []
 }

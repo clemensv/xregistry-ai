@@ -1,31 +1,24 @@
 {
-  "repo_ref": "stefanoamorelli/sec-edgar-mcp",
+  "id": "8d526532-7125-4b3c-b180-901914ead390",
   "name": "io.github.stefanoamorelli/sec-edgar-mcp",
-  "description": "SEC EDGAR MCP is an open-source MCP server that connects AI models to the rich dataset of SEC EDGAR filings, enabling AI assistants to query official SEC financial data in real-time.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A Model Context Protocol (MCP) Server for SEC EDGAR",
+  "repository": {
+    "url": "https://github.com/stefanoamorelli/sec-edgar-mcp",
+    "source": "github",
+    "id": "958733763"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:50Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "sec-edgar-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "SEC_API_USER_AGENT",
-            "description": "User-Agent string required by SEC EDGAR API",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "sec-edgar-mcp",
+      "version": "0.1.1"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_submissions",
@@ -65,5 +58,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

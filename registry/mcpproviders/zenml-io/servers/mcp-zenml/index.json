@@ -1,59 +1,62 @@
 {
-  "repo_ref": "zenml-io/mcp-zenml",
+  "id": "64fdea5a-9fe3-4492-b9fb-6260e6c3dc34",
   "name": "io.github.zenml-io/mcp-zenml",
-  "description": "This project implements a Model Context Protocol (MCP) server for interacting with the ZenML API. It provides MCP tools to access core read functionality from the ZenML server, including users, stacks, pipelines, pipeline runs, pipeline steps, services, stack components, flavors, pipeline run templates, schedules, artifacts metadata, service connectors, step code, and step logs. It also allows triggering new pipeline runs if a run template is present.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server to connect an MCP client (Cursor, Claude Desktop etc) with your ZenML MLOps and LLMOps pipelines",
+  "repository": {
+    "url": "https://github.com/zenml-io/mcp-zenml",
+    "source": "github",
+    "id": "937211343"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:28Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "uv",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "zenml_server.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "LOGLEVEL",
-            "description": "Log level for server output",
-            "required": false
-          },
-          {
-            "name": "NO_COLOR",
-            "description": "Disable colored output",
-            "required": false
-          },
-          {
-            "name": "PYTHONUNBUFFERED",
-            "description": "Python unbuffered output",
-            "required": false
-          },
-          {
-            "name": "PYTHONIOENCODING",
-            "description": "Python IO encoding",
-            "required": false
-          },
-          {
-            "name": "ZENML_STORE_URL",
-            "description": "URL of the ZenML server",
-            "required": true
-          },
-          {
-            "name": "ZENML_STORE_API_KEY",
-            "description": "API key for ZenML server authentication",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "zenml-io/mcp-zenml",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Python script to run",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/zenml_server.py",
+          "default": "path/to/zenml_server.py",
+          "type": "positional",
+          "value_hint": "path/to/zenml_server.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "INFO",
+          "name": "LOGLEVEL"
+        },
+        {
+          "description": "1",
+          "name": "NO_COLOR"
+        },
+        {
+          "description": "1",
+          "name": "PYTHONUNBUFFERED"
+        },
+        {
+          "description": "UTF-8",
+          "name": "PYTHONIOENCODING"
+        },
+        {
+          "description": "https://your-zenml-server-goes-here.com",
+          "name": "ZENML_STORE_URL"
+        },
+        {
+          "description": "your-api-key-here",
+          "name": "ZENML_STORE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,54 +1,45 @@
 {
-  "repo_ref": "elastic/mcp-server-elasticsearch",
+  "id": "1b8a16d9-0648-4790-b853-d919a6be16e9",
   "name": "io.github.elastic/mcp-server-elasticsearch",
-  "description": "This server connects agents to your Elasticsearch data using the Model Context Protocol. It allows you to interact with your Elasticsearch indices through natural language conversations.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/elastic/mcp-server-elasticsearch",
+    "source": "github",
+    "id": "953992846"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:37Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@elastic/mcp-server-elasticsearch",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@elastic/mcp-server-elasticsearch"
-        ],
-        "environment_variables": [
-          {
-            "name": "ES_URL",
-            "description": "Your Elasticsearch instance URL",
-            "required": true
-          },
-          {
-            "name": "ES_API_KEY",
-            "description": "Elasticsearch API key for authentication",
-            "required": false
-          },
-          {
-            "name": "ES_USERNAME",
-            "description": "Elasticsearch username for basic authentication",
-            "required": false
-          },
-          {
-            "name": "ES_PASSWORD",
-            "description": "Elasticsearch password for basic authentication",
-            "required": false
-          },
-          {
-            "name": "ES_CA_CERT",
-            "description": "Path to custom CA certificate for Elasticsearch SSL/TLS",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@elastic/mcp-server-elasticsearch",
+      "version": "0.1.1",
+      "package_arguments": [
+        {
+          "description": "/path/to/your/project/dist/index.js",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/your/project/dist/index.js",
+          "default": "/path/to/your/project/dist/index.js",
+          "type": "positional",
+          "value_hint": "/path/to/your/project/dist/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-elasticsearch-url",
+          "name": "ES_URL"
+        },
+        {
+          "description": "your-api-key",
+          "name": "ES_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_indices",
@@ -79,5 +70,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

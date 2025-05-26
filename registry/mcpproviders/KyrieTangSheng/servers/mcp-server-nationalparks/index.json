@@ -1,25 +1,30 @@
 {
-  "repo_ref": "KyrieTangSheng/mcp-server-nationalparks",
-  "name": "io.github.KyrieTangSheng/mcp-server-nationalparks",
-  "description": "MCP Server for the National Park Service (NPS) API, providing real-time information about U.S. National Parks, including park details, alerts, and activities.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "010904ec-6e39-4bdc-878a-75a6e79d0500",
+  "name": "io.github.kyrietangsheng/mcp-server-nationalparks",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/KyrieTangSheng/mcp-server-nationalparks",
+    "source": "github",
+    "id": "951713109"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:05Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@KyrieTangSheng/mcp-server-nationalparks",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "mcp-server-nationalparks",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "YOUR_NPS_API_KEY",
+          "name": "NPS_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "findParks",
@@ -64,5 +69,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

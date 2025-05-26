@@ -1,43 +1,38 @@
 {
-  "repo_ref": "da-okazaki/mcp-neo4j-server",
+  "id": "b4c38c39-7381-49fa-b7b4-75e2604ed93d",
   "name": "io.github.da-okazaki/mcp-neo4j-server",
-  "description": "An MCP server that provides integration between Neo4j graph database and Claude Desktop, enabling graph database operations through natural language interactions.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "mcp-neo4j-server",
+  "repository": {
+    "url": "https://github.com/da-okazaki/mcp-neo4j-server",
+    "source": "github",
+    "id": "912380178"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@alanse/mcp-neo4j-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "@alanse/mcp-neo4j-server"
-        ],
-        "environment_variables": [
-          {
-            "name": "NEO4J_URI",
-            "description": "Neo4j database URI (default: bolt://localhost:7687)",
-            "required": false
-          },
-          {
-            "name": "NEO4J_USERNAME",
-            "description": "Neo4j username (default: neo4j)",
-            "required": false
-          },
-          {
-            "name": "NEO4J_PASSWORD",
-            "description": "Neo4j password (required)",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "@alanse/mcp-neo4j-server",
+      "version": "0.1.1",
+      "environment_variables": [
+        {
+          "description": "bolt://localhost:7687",
+          "name": "NEO4J_URI"
+        },
+        {
+          "description": "neo4j",
+          "name": "NEO4J_USERNAME"
+        },
+        {
+          "description": "your-password",
+          "name": "NEO4J_PASSWORD"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "execute_query",
@@ -114,5 +109,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

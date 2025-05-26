@@ -1,27 +1,24 @@
 {
-  "repo_ref": "vivekVells/mcp-pandoc",
-  "name": "io.github.vivekVells/mcp-pandoc",
-  "description": "A Model Context Protocol server for document format conversion using pandoc. This server provides tools to transform content between different document formats while preserving formatting and structure.",
-  "version_detail": {
-    "version": "0.1.0"
+  "id": "a0f6fd01-5eb2-4aca-b4a6-c67eb6e0c5da",
+  "name": "io.github.vivekvells/mcp-pandoc",
+  "description": "MCP server for document format conversion using pandoc.",
+  "repository": {
+    "url": "https://github.com/vivekVells/mcp-pandoc",
+    "source": "github",
+    "id": "900427746"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:21Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-pandoc",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "mcp-pandoc"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp-pandoc",
+      "version": "0.3.3"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "convert-contents",
@@ -109,5 +106,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

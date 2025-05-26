@@ -1,39 +1,24 @@
 {
-  "repo_ref": "meilisearch/meilisearch-mcp",
+  "id": "11d467e3-6001-4e60-ba90-494ad9eb7ad2",
   "name": "io.github.meilisearch/meilisearch-mcp",
-  "description": "A Model Context Protocol (MCP) server for interacting with Meilisearch through LLM interfaces like Claude.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A Model Context Protocol (MCP) server for interacting with Meilisearch through LLM interfaces.",
+  "repository": {
+    "url": "https://github.com/meilisearch/meilisearch-mcp",
+    "source": "github",
+    "id": "907425333"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:20Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "meilisearch-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-m",
-          "src.meilisearch_mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "MEILI_HTTP_ADDR",
-            "description": "Default Meilisearch URL",
-            "required": false
-          },
-          {
-            "name": "MEILI_MASTER_KEY",
-            "description": "Optional: Default Meilisearch API key",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "meilisearch-mcp",
+      "version": "0.4.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get-connection-settings",
@@ -447,5 +432,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

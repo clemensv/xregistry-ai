@@ -1,44 +1,65 @@
 {
-  "repo_ref": "keboola/keboola-mcp-server",
+  "id": "eba4813b-2591-4264-b7bc-c485b7652e92",
   "name": "io.github.keboola/keboola-mcp-server",
-  "description": "A Model Context Protocol (MCP) server for interacting with Keboola Connection. This server provides tools for listing and accessing data from Keboola Storage API.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol (MCP) Server for the Keboola Platform",
+  "repository": {
+    "url": "https://github.com/keboola/mcp-server",
+    "source": "github",
+    "id": "915789942"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:57Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "https://connection.keboola.com",
-      "transporttype": "https"
+      "registry_name": "pypi",
+      "name": "keboola-mcp-server",
+      "version": "0.17.4",
+      "package_arguments": [
+        {
+          "description": "Module to run",
+          "is_required": true,
+          "format": "string",
+          "value": "-m keboola_mcp_server.cli",
+          "default": "-m keboola_mcp_server.cli",
+          "type": "positional",
+          "value_hint": "keboola_mcp_server.cli"
+        },
+        {
+          "description": "Specify the transport type",
+          "is_required": true,
+          "format": "string",
+          "value": "--transport stdio",
+          "default": "--transport stdio",
+          "type": "named",
+          "name": "--transport stdio",
+          "value_hint": "stdio"
+        },
+        {
+          "description": "API URL for Keboola Connection",
+          "is_required": true,
+          "format": "string",
+          "value": "--api-url https://connection.YOUR_REGION.keboola.com",
+          "default": "--api-url https://connection.YOUR_REGION.keboola.com",
+          "type": "named",
+          "name": "--api-url https://connection.YOUR_REGION.keboola.com",
+          "value_hint": "https://connection.YOUR_REGION.keboola.com"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_keboola_storage_token",
+          "name": "KBC_STORAGE_TOKEN"
+        },
+        {
+          "description": "your_workspace_schema",
+          "name": "KBC_WORKSPACE_SCHEMA"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "python",
-      "package_name": "keboola-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--api-url",
-          "https://connection.keboola.com"
-        ],
-        "environment_variables": [
-          {
-            "name": "KBC_STORAGE_TOKEN",
-            "description": "Keboola Storage API token",
-            "required": true
-          },
-          {
-            "name": "KBC_WORKSPACE_SCHEMA",
-            "description": "Snowflake schema or BigQuery dataset of your workspace",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "docs_query",
@@ -199,5 +220,6 @@
       "description": "Tool to update a table's description."
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

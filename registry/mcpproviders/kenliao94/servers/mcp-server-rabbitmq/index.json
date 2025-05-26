@@ -1,40 +1,95 @@
 {
-  "repo_ref": "kenliao94/mcp-server-rabbitmq",
+  "id": "edf43b88-36a4-4f07-9d46-cab08bd418aa",
   "name": "io.github.kenliao94/mcp-server-rabbitmq",
-  "description": "A Model Context Protocol server implementation for RabbitMQ. Enabling MCP client to interact with queues and topics hosted in a RabbitMQ instance.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP server for interacting with RabbitMQ",
+  "repository": {
+    "url": "https://github.com/kenliao94/mcp-server-rabbitmq",
+    "source": "github",
+    "id": "910977229"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:12Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@kenliao94/mcp-server-rabbitmq",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/path/to/repo/mcp-server-rabbitmq",
-          "run",
-          "mcp-server-rabbitmq",
-          "--rabbitmq-host",
-          "<hostname ex. test.rabbit.com, localhost>",
-          "--port",
-          "<port number ex. 5672>",
-          "--username",
-          "<rabbitmq username>",
-          "--password",
-          "<rabbitmq password>",
-          "--use-tls",
-          "<true if uses amqps, false otherwise>"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "mcp-server-rabbitmq",
+      "version": "2.0.0",
+      "package_arguments": [
+        {
+          "description": "Specify directory to run the package from",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/repo/mcp-server-rabbitmq",
+          "default": "--directory /path/to/repo/mcp-server-rabbitmq",
+          "type": "named",
+          "name": "--directory /path/to/repo/mcp-server-rabbitmq",
+          "value_hint": "/path/to/repo/mcp-server-rabbitmq"
+        },
+        {
+          "description": "Package or script name to execute",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-server-rabbitmq",
+          "default": "mcp-server-rabbitmq",
+          "type": "positional",
+          "value_hint": "mcp-server-rabbitmq"
+        },
+        {
+          "description": "RabbitMQ host name",
+          "is_required": true,
+          "format": "string",
+          "value": "--rabbitmq-host <hostname ex. test.rabbit.com, localhost>",
+          "default": "--rabbitmq-host <hostname ex. test.rabbit.com, localhost>",
+          "type": "named",
+          "name": "--rabbitmq-host <hostname ex. test.rabbit.com, localhost>",
+          "value_hint": "<hostname ex. test.rabbit.com, localhost>"
+        },
+        {
+          "description": "RabbitMQ port number",
+          "is_required": true,
+          "format": "string",
+          "value": "--port <port number ex. 5672>",
+          "default": "--port <port number ex. 5672>",
+          "type": "named",
+          "name": "--port <port number ex. 5672>",
+          "value_hint": "<port number ex. 5672>"
+        },
+        {
+          "description": "RabbitMQ username",
+          "is_required": true,
+          "format": "string",
+          "value": "--username <rabbitmq username>",
+          "default": "--username <rabbitmq username>",
+          "type": "named",
+          "name": "--username <rabbitmq username>",
+          "value_hint": "<rabbitmq username>"
+        },
+        {
+          "description": "RabbitMQ password",
+          "is_required": true,
+          "format": "string",
+          "value": "--password <rabbitmq password>",
+          "default": "--password <rabbitmq password>",
+          "type": "named",
+          "name": "--password <rabbitmq password>",
+          "value_hint": "<rabbitmq password>"
+        },
+        {
+          "description": "Whether to use TLS (amqps protocol)",
+          "is_required": true,
+          "format": "string",
+          "value": "--use-tls <true if uses amqps, false otherwise>",
+          "default": "--use-tls <true if uses amqps, false otherwise>",
+          "type": "named",
+          "name": "--use-tls <true if uses amqps, false otherwise>",
+          "value_hint": "<true if uses amqps, false otherwise>"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "enqueue",
@@ -183,5 +238,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

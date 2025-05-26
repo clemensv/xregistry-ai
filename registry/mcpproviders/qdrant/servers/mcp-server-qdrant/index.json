@@ -1,66 +1,107 @@
 {
-  "repo_ref": "qdrant/mcp-server-qdrant",
+  "id": "823afe6f-4494-4fc1-a2ab-2ca989e59d21",
   "name": "io.github.qdrant/mcp-server-qdrant",
-  "description": "An official Model Context Protocol server for keeping and retrieving memories in the Qdrant vector search engine. It acts as a semantic memory layer on top of the Qdrant database.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "An official Qdrant Model Context Protocol (MCP) server implementation",
+  "repository": {
+    "url": "https://github.com/qdrant/mcp-server-qdrant",
+    "source": "github",
+    "id": "897308110"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:35Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "mcp-server-qdrant",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "QDRANT_URL",
-            "description": "URL of the Qdrant server",
-            "required": false
-          },
-          {
-            "name": "QDRANT_API_KEY",
-            "description": "API key for the Qdrant server",
-            "required": false
-          },
-          {
-            "name": "COLLECTION_NAME",
-            "description": "Name of the default collection to use.",
-            "required": false
-          },
-          {
-            "name": "QDRANT_LOCAL_PATH",
-            "description": "Path to the local Qdrant database (alternative to QDRANT_URL)",
-            "required": false
-          },
-          {
-            "name": "EMBEDDING_PROVIDER",
-            "description": "Embedding provider to use (currently only \"fastembed\" is supported)",
-            "required": false
-          },
-          {
-            "name": "EMBEDDING_MODEL",
-            "description": "Name of the embedding model to use",
-            "required": false
-          },
-          {
-            "name": "TOOL_STORE_DESCRIPTION",
-            "description": "Custom description for the store tool",
-            "required": false
-          },
-          {
-            "name": "TOOL_FIND_DESCRIPTION",
-            "description": "Custom description for the find tool",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mcp-server-qdrant",
+      "version": "0.7.1",
+      "package_arguments": [
+        {
+          "description": "Publish port 8000:8000",
+          "is_required": true,
+          "format": "string",
+          "value": "-p 8000:8000",
+          "default": "-p 8000:8000",
+          "type": "named",
+          "name": "-p 8000:8000",
+          "value_hint": "8000:8000"
+        },
+        {
+          "description": "Run in interactive mode",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "Remove container after exit",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "Set environment variable QDRANT_URL",
+          "is_required": true,
+          "format": "string",
+          "value": "-e QDRANT_URL",
+          "default": "-e QDRANT_URL",
+          "type": "named",
+          "name": "-e QDRANT_URL",
+          "value_hint": "QDRANT_URL"
+        },
+        {
+          "description": "Set environment variable QDRANT_API_KEY",
+          "is_required": true,
+          "format": "string",
+          "value": "-e QDRANT_API_KEY",
+          "default": "-e QDRANT_API_KEY",
+          "type": "named",
+          "name": "-e QDRANT_API_KEY",
+          "value_hint": "QDRANT_API_KEY"
+        },
+        {
+          "description": "Set environment variable COLLECTION_NAME",
+          "is_required": true,
+          "format": "string",
+          "value": "-e COLLECTION_NAME",
+          "default": "-e COLLECTION_NAME",
+          "type": "named",
+          "name": "-e COLLECTION_NAME",
+          "value_hint": "COLLECTION_NAME"
+        },
+        {
+          "description": "Docker image to run",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-server-qdrant",
+          "default": "mcp-server-qdrant",
+          "type": "positional",
+          "value_hint": "mcp-server-qdrant"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "${input:qdrantUrl}",
+          "name": "QDRANT_URL"
+        },
+        {
+          "description": "${input:qdrantApiKey}",
+          "name": "QDRANT_API_KEY"
+        },
+        {
+          "description": "${input:collectionName}",
+          "name": "COLLECTION_NAME"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "qdrant-store",
@@ -105,5 +146,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

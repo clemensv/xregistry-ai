@@ -1,54 +1,42 @@
 {
-  "repo_ref": "sirmews/mcp-pinecone",
+  "id": "23b81af0-3e03-47b8-a310-c9b07bebd547",
   "name": "io.github.sirmews/mcp-pinecone",
-  "description": "Pinecone Model Context Protocol Server for Claude Desktop. Implements reading and writing to a Pinecone index with tools for semantic search, document processing, and stats.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol server to allow for reading and writing from Pinecone. Rudimentary RAG",
+  "repository": {
+    "url": "https://github.com/sirmews/mcp-pinecone",
+    "source": "github",
+    "id": "900184645"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:32Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-pinecone",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "{project_dir}",
-          "run",
-          "mcp-pinecone"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "pinecone-query",
-      "description": "Search Pinecone index and construct an answer based on relevant pinecone documents",
-      "arguments": [
+      "registry_name": "unknown",
+      "name": "mcp-pinecone",
+      "version": "0.1.8",
+      "package_arguments": [
         {
-          "name": "query",
-          "description": "The question to answer, or the context to search for",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "pinecone-store",
-      "description": "Store content as document in Pinecone",
-      "arguments": [
-        {
-          "name": "content",
-          "description": "The content to store as a Pinecone document",
-          "required": true
+          "description": "Index name for the Pinecone database.",
+          "is_required": true,
+          "format": "string",
+          "value": "--index-name {your-index-name}",
+          "default": "--index-name {your-index-name}",
+          "type": "named",
+          "name": "--index-name {your-index-name}",
+          "value_hint": "{your-index-name}"
         },
         {
-          "name": "namespace",
-          "description": "The namespace to store the document in",
-          "required": false
+          "description": "API key for authenticating with Pinecone.",
+          "is_required": true,
+          "format": "string",
+          "value": "--api-key {your-secret-api-key}",
+          "default": "--api-key {your-secret-api-key}",
+          "type": "named",
+          "name": "--api-key {your-secret-api-key}",
+          "value_hint": "{your-secret-api-key}"
         }
       ]
     }
@@ -177,6 +165,35 @@
       "name": "Pinecone Vector",
       "description": "Vector resource identified by vector ID in Pinecone index",
       "mimetype": "text/plain"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "pinecone-query",
+      "description": "Search Pinecone index and construct an answer based on relevant pinecone documents",
+      "arguments": [
+        {
+          "name": "query",
+          "description": "The question to answer, or the context to search for",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "pinecone-store",
+      "description": "Store content as document in Pinecone",
+      "arguments": [
+        {
+          "name": "content",
+          "description": "The content to store as a Pinecone document",
+          "required": true
+        },
+        {
+          "name": "namespace",
+          "description": "The namespace to store the document in",
+          "required": false
+        }
+      ]
     }
   ]
 }

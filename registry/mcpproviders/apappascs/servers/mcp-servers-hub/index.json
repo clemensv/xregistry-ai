@@ -1,0 +1,22 @@
+{
+  "id": "41203071-aa7d-49f7-83a9-3f3c8429d178",
+  "name": "io.github.apappascs/mcp-servers-hub",
+  "description": "Discover the most comprehensive and up-to-date collection of MCP servers in the market. This repository serves as a centralized hub, offering an extensive catalog of open-source and proprietary MCP servers, complete with features, documentation links, and contributors.",
+  "repository": {
+    "url": "https://github.com/apappascs/mcp-servers-hub",
+    "source": "github",
+    "id": "907417434"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:54Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "apappascs/mcp-servers-hub",
+      "version": ""
+    }
+  ]
+}

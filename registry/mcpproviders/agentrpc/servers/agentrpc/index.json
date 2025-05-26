@@ -1,35 +1,42 @@
 {
-  "repo_ref": "agentrpc/agentrpc",
+  "id": "c296f683-5578-474a-bbef-00cfc2716fbc",
   "name": "io.github.agentrpc/agentrpc",
-  "description": "Universal RPC layer for AI agents across network boundaries and languages, supporting Model Context Protocol (MCP) and OpenAI-compatible tool definitions.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A universal RPC layer for AI agents. Connect to any function, any language, any framework, in minutes.",
+  "repository": {
+    "url": "https://github.com/agentrpc/agentrpc",
+    "source": "github",
+    "id": "949728461"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:56:57Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "agentrpc",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "agentrpc",
-          "mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "AGENTRPC_API_SECRET",
-            "description": "API secret for authentication",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "agentrpc/agentrpc",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Positional argument",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp",
+          "default": "mcp",
+          "type": "positional",
+          "value_hint": "mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<YOUR_API_SECRET>",
+          "name": "AGENTRPC_API_SECRET"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,72 +1,34 @@
 {
-  "repo_ref": "AudienseCo/mcp-audiense-insights",
-  "name": "io.github.AudienseCo/mcp-audiense-insights",
-  "description": "This server, based on the Model Context Protocol (MCP), allows Claude or any other MCP-compatible client to interact with your Audiense Insights account. It extracts marketing insights and audience analysis from Audiense reports, covering demographic, cultural, influencer, and content engagement analysis.",
-  "version_detail": {
-    "version": "1.0.0"
+  "id": "d85fa87b-48e1-4b81-8408-9d0c446f7de3",
+  "name": "io.github.audienseco/mcp-audiense-insights",
+  "description": "Audiense Insights MCP Server is a server based on the Model Context Protocol (MCP) that allows Claude and other MCP-compatible clients to interact with your Audiense Insights account",
+  "repository": {
+    "url": "https://github.com/AudienseCo/mcp-audiense-insights",
+    "source": "github",
+    "id": "925304505"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:26Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@AudienseCo/mcp-audiense-insights",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "build/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "AUDIENSE_CLIENT_ID"
-          },
-          {
-            "name": "AUDIENSE_CLIENT_SECRET"
-          },
-          {
-            "name": "TWITTER_BEARER_TOKEN"
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [
-    {
-      "name": "audiense-demo",
-      "description": "A prompt to extract marketing insights and audience understanding from Audiense reports through demographic, cultural, influencer, and content analysis.",
-      "arguments": [
+      "registry_name": "npm",
+      "name": "mcp-audiense-insights",
+      "version": "0.2.0",
+      "environment_variables": [
         {
-          "name": "reportName",
-          "description": "The name or id of the Audiense Insights report.",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "audiense-demo2",
-      "description": "A prompt to extract marketing insights and audience understanding from Audiense reports through demographic, cultural, influencer, and content analysis.",
-      "arguments": [
-        {
-          "name": "reportName",
-          "description": "The name or id of the Audiense Insights report.",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "segment-matching",
-      "description": "A prompt to match and compare audience segments across Audiense reports, identifying similarities, unique traits, and key insights based on demographics, interests, influencers, and engagement patterns.",
-      "arguments": [
-        {
-          "name": "brand1",
-          "description": "The name or ID of the Audiense Insights report for the first brand to analyze.",
-          "required": true
+          "description": "your_client_id_here",
+          "name": "AUDIENSE_CLIENT_ID"
         },
         {
-          "name": "brand2",
-          "description": "The name or ID of the Audiense Insights report for the second brand to analyze.",
-          "required": true
+          "description": "your_client_secret_here",
+          "name": "AUDIENSE_CLIENT_SECRET"
+        },
+        {
+          "description": "your_token_here",
+          "name": "TWITTER_BEARER_TOKEN"
         }
       ]
     }
@@ -239,5 +201,45 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": [
+    {
+      "name": "audiense-demo",
+      "description": "A prompt to extract marketing insights and audience understanding from Audiense reports through demographic, cultural, influencer, and content analysis.",
+      "arguments": [
+        {
+          "name": "reportName",
+          "description": "The name or id of the Audiense Insights report.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "audiense-demo2",
+      "description": "A prompt to extract marketing insights and audience understanding from Audiense reports through demographic, cultural, influencer, and content analysis.",
+      "arguments": [
+        {
+          "name": "reportName",
+          "description": "The name or id of the Audiense Insights report.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "segment-matching",
+      "description": "A prompt to match and compare audience segments across Audiense reports, identifying similarities, unique traits, and key insights based on demographics, interests, influencers, and engagement patterns.",
+      "arguments": [
+        {
+          "name": "brand1",
+          "description": "The name or ID of the Audiense Insights report for the first brand to analyze.",
+          "required": true
+        },
+        {
+          "name": "brand2",
+          "description": "The name or ID of the Audiense Insights report for the second brand to analyze.",
+          "required": true
+        }
+      ]
+    }
+  ]
 }

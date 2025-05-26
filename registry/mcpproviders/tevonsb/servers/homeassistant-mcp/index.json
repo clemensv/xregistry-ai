@@ -1,57 +1,24 @@
 {
-  "repo_ref": "tevonsb/homeassistant-mcp",
+  "id": "b87405fe-1aae-4a7a-a4d7-cd0b5f267ad8",
   "name": "io.github.tevonsb/homeassistant-mcp",
-  "description": "The server uses the MCP protocol to share access to a local Home Assistant instance with an LLM application. A powerful bridge between your Home Assistant instance and Language Learning Models (LLMs), enabling natural language control and monitoring of your smart home devices through the Model Context Protocol (MCP). This server provides a comprehensive API for managing your entire Home Assistant ecosystem, from device control to system administration.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "A MCP server for Home Assistant",
+  "repository": {
+    "url": "https://github.com/tevonsb/homeassistant-mcp",
+    "source": "github",
+    "id": "902220777"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:57Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:3000",
-      "transporttype": "http"
+      "registry_name": "unknown",
+      "name": "homeassistant-mcp",
+      "version": "0.1.0"
     }
   ],
-  "registries": [
-    {
-      "name": "container",
-      "package_name": "not specified",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "npm",
-      "package_name": "litemcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "HASS_HOST",
-            "description": "Home Assistant host URL",
-            "required": false
-          },
-          {
-            "name": "HASS_TOKEN",
-            "description": "Home Assistant access token",
-            "required": true
-          },
-          {
-            "name": "PORT",
-            "description": "Port to run the server on",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_devices",
@@ -478,5 +445,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

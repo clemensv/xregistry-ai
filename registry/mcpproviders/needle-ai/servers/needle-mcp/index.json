@@ -1,36 +1,50 @@
 {
-  "repo_ref": "needle-ai/needle-mcp",
+  "id": "be6eb263-3492-4073-b28f-0fd33d070982",
   "name": "io.github.needle-ai/needle-mcp",
-  "description": "MCP (Model Context Protocol) server to manage documents and perform searches using Needle through Claude’s Desktop Application.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Integration of Needle in modelcontextprotocol",
+  "repository": {
+    "url": "https://github.com/needle-ai/needle-mcp",
+    "source": "github",
+    "id": "903772115"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:40Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@smithery/needle-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/path/to/needle-mcp",
-          "run",
-          "needle-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "NEEDLE_API_KEY",
-            "description": "API key for Needle service",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "needle-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "/path/to/needle-mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "/path/to/needle-mcp",
+          "default": "/path/to/needle-mcp",
+          "type": "positional",
+          "value_hint": "/path/to/needle-mcp"
+        },
+        {
+          "description": "needle-mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "needle-mcp",
+          "default": "needle-mcp",
+          "type": "positional",
+          "value_hint": "needle-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_needle_api_key",
+          "name": "NEEDLE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "needle_list_collections",
@@ -154,5 +168,5 @@
     }
   ],
   "resources": [],
-  "documentation": "https://github.com/yourusername/needle-mcp/blob/main/README.md"
+  "prompts": []
 }

@@ -1,41 +1,45 @@
 {
-  "repo_ref": "PaddleHQ/paddle-mcp-server",
-  "name": "io.github.PaddleHQ/paddle-mcp-server",
-  "description": "This is a Model Context Protocol (MCP) server that provides tools for interacting with the Paddle API.",
-  "version_detail": {
-    "version": "0.1.2"
+  "id": "be79836b-8a99-4e4e-9487-c81c02833f4a",
+  "name": "io.github.paddlehq/paddle-mcp-server",
+  "description": "Interact with the Paddle API using AI assistants like Claude, or in AI-powered IDEs like Cursor. Manage product catalog, billing and subscriptions, and reports.",
+  "repository": {
+    "url": "https://github.com/PaddleHQ/paddle-mcp-server",
+    "source": "github",
+    "id": "955461567"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:57Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@paddle/paddle-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@paddle/paddle-mcp",
-          "--api-key=PADDLE_API_KEY",
-          "--environment=(sandbox|production)"
-        ],
-        "environment_variables": [
-          {
-            "name": "PADDLE_API_KEY",
-            "description": "API key for Paddle MCP server",
-            "required": true
-          },
-          {
-            "name": "PADDLE_ENVIRONMENT",
-            "description": "Environment to use: sandbox or production",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@paddle/paddle-mcp",
+      "version": "0.1.2",
+      "package_arguments": [
+        {
+          "description": "Path to the mcp server entry point",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/paddle-mcp-server/build/index.js",
+          "default": "path/to/paddle-mcp-server/build/index.js",
+          "type": "positional",
+          "value_hint": "path/to/paddle-mcp-server/build/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key",
+          "name": "PADDLE_API_KEY"
+        },
+        {
+          "description": "sandbox",
+          "name": "PADDLE_ENVIRONMENT"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "listProducts",
@@ -94,5 +98,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,44 +1,46 @@
 {
-  "repo_ref": "vectorize-io/vectorize-mcp-server",
+  "id": "c1b727f7-1570-465f-8153-585840de260a",
   "name": "io.github.vectorize-io/vectorize-mcp-server",
-  "description": "A Model Context Protocol (MCP) server implementation that integrates with Vectorize for advanced Vector retrieval and text extraction.",
-  "version_detail": {
-    "version": "0.1.0"
+  "description": "Official Vectorize MCP Server",
+  "repository": {
+    "url": "https://github.com/vectorize-io/vectorize-mcp-server",
+    "source": "github",
+    "id": "946057362"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:18Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@vectorize-io/vectorize-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@vectorize-io/vectorize-mcp-server@latest"
-        ],
-        "environment_variables": [
-          {
-            "name": "VECTORIZE_ORG_ID",
-            "description": "Vectorize Organization ID",
-            "required": true
-          },
-          {
-            "name": "VECTORIZE_TOKEN",
-            "description": "Vectorize Token",
-            "required": true
-          },
-          {
-            "name": "VECTORIZE_PIPELINE_ID",
-            "description": "Vectorize Pipeline ID",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "@vectorize-io/vectorize-mcp-server",
+      "version": "0.4.3",
+      "package_arguments": [
+        {
+          "description": "Generate a financial status report about the company",
+          "is_required": true,
+          "format": "string",
+          "value": "Generate a financial status report about the company",
+          "default": "Generate a financial status report about the company",
+          "type": "named",
+          "name": "Generate a financial status report about the company",
+          "value_hint": "Generate a financial status report about the company"
+        },
+        {
+          "description": "true",
+          "is_required": true,
+          "format": "string",
+          "value": "true",
+          "default": "true",
+          "type": "named",
+          "name": "true",
+          "value_hint": "true"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "retrieve",
@@ -104,5 +106,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

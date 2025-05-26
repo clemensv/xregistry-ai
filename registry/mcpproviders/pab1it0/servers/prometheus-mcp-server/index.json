@@ -1,62 +1,91 @@
 {
-  "repo_ref": "pab1it0/prometheus-mcp-server",
+  "id": "cf42caa8-50d1-489d-aa3c-3e8432efe9e2",
   "name": "io.github.pab1it0/prometheus-mcp-server",
-  "description": "A Model Context Protocol (MCP) server for Prometheus. Provides access to Prometheus metrics and queries through standardized MCP interfaces, allowing AI assistants to execute PromQL queries and analyze metrics data.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Prometheus metrics through standardized interfaces.",
+  "repository": {
+    "url": "https://github.com/pab1it0/prometheus-mcp-server",
+    "source": "github",
+    "id": "951416232"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:49Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "prometheus-mcp-server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "unspecified",
-      "package_name": "unspecified",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "<full path to prometheus-mcp-server directory>",
-          "run",
-          "src/prometheus_mcp_server/main.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "PROMETHEUS_URL",
-            "description": "URL of the Prometheus server",
-            "required": true
-          },
-          {
-            "name": "PROMETHEUS_USERNAME",
-            "description": "Username for basic authentication",
-            "required": false
-          },
-          {
-            "name": "PROMETHEUS_PASSWORD",
-            "description": "Password for basic authentication",
-            "required": false
-          },
-          {
-            "name": "PROMETHEUS_TOKEN",
-            "description": "Bearer token for authentication",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "prometheus_mcp_server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Automatically remove the container when it exits.",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "Keep STDIN open even if not attached.",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "Set environment variable PROMETHEUS_URL inside the container.",
+          "is_required": true,
+          "format": "string",
+          "value": "-e PROMETHEUS_URL",
+          "default": "-e PROMETHEUS_URL",
+          "type": "named",
+          "name": "-e PROMETHEUS_URL",
+          "value_hint": "PROMETHEUS_URL"
+        },
+        {
+          "description": "Set environment variable PROMETHEUS_USERNAME inside the container.",
+          "is_required": true,
+          "format": "string",
+          "value": "-e PROMETHEUS_USERNAME",
+          "default": "-e PROMETHEUS_USERNAME",
+          "type": "named",
+          "name": "-e PROMETHEUS_USERNAME",
+          "value_hint": "PROMETHEUS_USERNAME"
+        },
+        {
+          "description": "Set environment variable PROMETHEUS_PASSWORD inside the container.",
+          "is_required": true,
+          "format": "string",
+          "value": "-e PROMETHEUS_PASSWORD",
+          "default": "-e PROMETHEUS_PASSWORD",
+          "type": "named",
+          "name": "-e PROMETHEUS_PASSWORD",
+          "value_hint": "PROMETHEUS_PASSWORD"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "http://your-prometheus-server:9090",
+          "name": "PROMETHEUS_URL"
+        },
+        {
+          "description": "your_username",
+          "name": "PROMETHEUS_USERNAME"
+        },
+        {
+          "description": "your_password",
+          "name": "PROMETHEUS_PASSWORD"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

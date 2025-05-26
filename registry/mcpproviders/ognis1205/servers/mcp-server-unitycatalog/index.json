@@ -1,56 +1,74 @@
 {
-  "repo_ref": "ognis1205/mcp-server-unitycatalog",
+  "id": "51d74701-2a57-476f-a5ed-75a93be58f42",
   "name": "io.github.ognis1205/mcp-server-unitycatalog",
-  "description": "A Model Context Protocol server for Unity Catalog providing Unity Catalog Functions as MCP tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Unity Catalog AI Model Context Protocol Server",
+  "repository": {
+    "url": "https://github.com/ognis1205/mcp-server-unitycatalog",
+    "source": "github",
+    "id": "926414362"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:16Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "mcp-server-unitycatalog",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "UC_SERVER",
-            "description": "The base URL of the Unity Catalog server.",
-            "required": true
-          },
-          {
-            "name": "UC_CATALOG",
-            "description": "The name of the Unity Catalog catalog.",
-            "required": true
-          },
-          {
-            "name": "UC_SCHEMA",
-            "description": "The name of the schema within a Unity Catalog catalog.",
-            "required": true
-          },
-          {
-            "name": "UC_TOKEN",
-            "description": "The access token used to authorize API requests to the Unity Catalog server.",
-            "required": false
-          },
-          {
-            "name": "UC_VERBOSITY",
-            "description": "The verbosity level for logging. Default: warn.",
-            "required": false
-          },
-          {
-            "name": "UC_LOG_DIRECTORY",
-            "description": "The directory where log files will be stored. Default: .mcp_server_unitycatalog.",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "mcp-server-unitycatalog",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Remove container after run",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "Keep STDIN open even if not attached",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "Specify Unity Catalog server URL",
+          "is_required": true,
+          "format": "string",
+          "value": "--uc_server <your unity catalog url>",
+          "default": "--uc_server <your unity catalog url>",
+          "type": "named",
+          "name": "--uc_server <your unity catalog url>",
+          "value_hint": "<your unity catalog url>"
+        },
+        {
+          "description": "Specify Unity Catalog name",
+          "is_required": true,
+          "format": "string",
+          "value": "--uc_catalog <your catalog name>",
+          "default": "--uc_catalog <your catalog name>",
+          "type": "named",
+          "name": "--uc_catalog <your catalog name>",
+          "value_hint": "<your catalog name>"
+        },
+        {
+          "description": "Specify Unity Catalog schema name",
+          "is_required": true,
+          "format": "string",
+          "value": "--uc_schema <your schema name>",
+          "default": "--uc_schema <your schema name>",
+          "type": "named",
+          "name": "--uc_schema <your schema name>",
+          "value_hint": "<your schema name>"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "uc_list_functions",
@@ -111,5 +129,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,53 +1,97 @@
 {
-  "repo_ref": "EduBase/MCP",
-  "name": "io.github.EduBase/MCP",
-  "description": "Implementation of the Model Context Protocol (MCP) server for the EduBase platform. It allows MCP clients and LLMs to interact with EduBase account and perform tasks.",
-  "version_detail": {
-    "version": "1.0.10"
+  "id": "33102362-9e44-442f-8aa9-4443ce50c396",
+  "name": "io.github.edubase/mcp",
+  "description": "The EduBase MCP server enables Claude and other LLMs to interact with EduBase's comprehensive e-learning platform through the Model Context Protocol (MCP).",
+  "repository": {
+    "url": "https://github.com/EduBase/MCP",
+    "source": "github",
+    "id": "940803959"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:35Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@EduBase/MCP",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/path/to/dist/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "EDUBASE_API_URL",
-            "description": "URL of the EduBase API",
-            "required": true
-          },
-          {
-            "name": "EDUBASE_API_APP",
-            "description": "EduBase API application identifier",
-            "required": true
-          },
-          {
-            "name": "EDUBASE_API_KEY",
-            "description": "EduBase API key",
-            "required": true
-          },
-          {
-            "name": "EDUBASE_API_MAXRATE",
-            "description": "Optional rate limit per second",
-            "required": false
-          },
-          {
-            "name": "EDUBASE_API_MAXRATE60",
-            "description": "Optional rate limit per minute",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "docker",
+      "name": "@edubase/mcp",
+      "version": "1.0.10",
+      "package_arguments": [
+        {
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "-e EDUBASE_API_URL",
+          "is_required": true,
+          "format": "string",
+          "value": "-e EDUBASE_API_URL",
+          "default": "-e EDUBASE_API_URL",
+          "type": "named",
+          "name": "-e EDUBASE_API_URL",
+          "value_hint": "EDUBASE_API_URL"
+        },
+        {
+          "description": "-e EDUBASE_API_APP",
+          "is_required": true,
+          "format": "string",
+          "value": "-e EDUBASE_API_APP",
+          "default": "-e EDUBASE_API_APP",
+          "type": "named",
+          "name": "-e EDUBASE_API_APP",
+          "value_hint": "EDUBASE_API_APP"
+        },
+        {
+          "description": "-e EDUBASE_API_KEY",
+          "is_required": true,
+          "format": "string",
+          "value": "-e EDUBASE_API_KEY",
+          "default": "-e EDUBASE_API_KEY",
+          "type": "named",
+          "name": "-e EDUBASE_API_KEY",
+          "value_hint": "EDUBASE_API_KEY"
+        },
+        {
+          "description": "edubase/mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "edubase/mcp",
+          "default": "edubase/mcp",
+          "type": "positional",
+          "value_hint": "edubase/mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "https://domain.edubase.net/api",
+          "name": "EDUBASE_API_URL"
+        },
+        {
+          "description": "your_integration_app_id",
+          "name": "EDUBASE_API_APP"
+        },
+        {
+          "description": "your_integration_secret_key",
+          "name": "EDUBASE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "edubase_get_user",
@@ -66,5 +110,6 @@
       "description": "Tools named edubase_<method>_<endpoint> for each documented API endpoint"
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

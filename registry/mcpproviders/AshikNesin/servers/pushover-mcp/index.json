@@ -1,30 +1,55 @@
 {
-  "repo_ref": "AshikNesin/pushover-mcp",
-  "name": "io.github.AshikNesin/pushover-mcp",
-  "description": "A Model Context Protocol implementation for sending notifications via Pushover.net.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "61ffe82e-5288-4af8-a45f-9a0907c941de",
+  "name": "io.github.ashiknesin/pushover-mcp",
+  "description": "A MCP implementation for sending notifications via Pushover",
+  "repository": {
+    "url": "https://github.com/AshikNesin/pushover-mcp",
+    "source": "github",
+    "id": "943326406"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "pushover-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--token",
-          "YOUR_TOKEN",
-          "--user",
-          "YOUR_USER"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "pushover-mcp",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "start",
+          "is_required": true,
+          "format": "string",
+          "value": "start",
+          "default": "start",
+          "type": "positional",
+          "value_hint": "start"
+        },
+        {
+          "description": "--token YOUR_TOKEN",
+          "is_required": true,
+          "format": "string",
+          "value": "--token YOUR_TOKEN",
+          "default": "--token YOUR_TOKEN",
+          "type": "named",
+          "name": "--token YOUR_TOKEN",
+          "value_hint": "YOUR_TOKEN"
+        },
+        {
+          "description": "--user YOUR_USER",
+          "is_required": true,
+          "format": "string",
+          "value": "--user YOUR_USER",
+          "default": "--user YOUR_USER",
+          "type": "named",
+          "name": "--user YOUR_USER",
+          "value_hint": "YOUR_USER"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "send",
@@ -60,5 +85,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

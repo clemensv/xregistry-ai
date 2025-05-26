@@ -1,32 +1,46 @@
 {
-  "repo_ref": "lloydzhou/bitable-mcp",
+  "id": "4a33ebab-f5cf-48b3-adb3-3f7094ea706c",
   "name": "io.github.lloydzhou/bitable-mcp",
   "description": "This MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools.",
-  "version_detail": {
-    "version": "0.0.0"
+  "repository": {
+    "url": "https://github.com/lloydzhou/bitable-mcp",
+    "source": "github",
+    "id": "951621343"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:59Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uvx",
-      "package_name": "bitable-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [
-          {
-            "name": "PERSONAL_BASE_TOKEN"
-          },
-          {
-            "name": "APP_TOKEN"
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "bitable-mcp",
+      "version": "0.2.1",
+      "package_arguments": [
+        {
+          "description": "-m bitable_mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "-m bitable_mcp",
+          "default": "-m bitable_mcp",
+          "type": "named",
+          "name": "-m bitable_mcp",
+          "value_hint": "bitable_mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-personal-base-token",
+          "name": "PERSONAL_BASE_TOKEN"
+        },
+        {
+          "description": "your-app-token",
+          "name": "APP_TOKEN"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_table",
@@ -66,5 +80,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

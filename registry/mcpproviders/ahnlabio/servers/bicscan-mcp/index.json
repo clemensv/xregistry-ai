@@ -1,59 +1,52 @@
 {
-  "repo_ref": "ahnlabio/bicscan-mcp",
+  "id": "36e14e79-6228-442f-b3c7-c7080b6282f0",
   "name": "io.github.ahnlabio/bicscan-mcp",
-  "description": "A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "BICScan MCP Server",
+  "repository": {
+    "url": "https://github.com/ahnlabio/bicscan-mcp",
+    "source": "github",
+    "id": "954410951"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:40Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "container",
-      "package_name": "bicscan-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "run",
-          "--rm",
-          "--interactive",
-          "--env",
-          "BICSCAN_API_KEY=YOUR_BICSCAN_API_KEY_HERE"
-        ],
-        "environment_variables": [
-          {
-            "name": "BICSCAN_API_KEY",
-            "description": "API key for BICScan",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
-    },
-    {
-      "name": "uv",
-      "package_name": "bicscan-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "YOUR_BICSCAN_REPO_DIR_HERE",
-          "run",
-          "bicscan-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "BICSCAN_API_KEY",
-            "description": "API key for BICScan",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "bicscan-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "use repo url",
+          "is_required": true,
+          "format": "string",
+          "value": "--from git+https://github.com/ahnlabio/bicscan-mcp",
+          "default": "--from git+https://github.com/ahnlabio/bicscan-mcp",
+          "type": "named",
+          "name": "--from git+https://github.com/ahnlabio/bicscan-mcp",
+          "value_hint": "git+https://github.com/ahnlabio/bicscan-mcp"
+        },
+        {
+          "description": "subcommand or positional argument",
+          "is_required": true,
+          "format": "string",
+          "value": "bicscan-mcp",
+          "default": "bicscan-mcp",
+          "type": "positional",
+          "value_hint": "bicscan-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_BICSCAN_API_KEY_HERE",
+          "name": "BICSCAN_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

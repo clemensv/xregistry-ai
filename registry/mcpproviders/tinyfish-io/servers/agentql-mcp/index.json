@@ -1,33 +1,30 @@
 {
-  "repo_ref": "tinyfish-io/agentql-mcp",
+  "id": "d86f2098-0be9-4b52-b32e-9d0f17333197",
   "name": "io.github.tinyfish-io/agentql-mcp",
-  "description": "This is a Model Context Protocol (MCP) server that integrates AgentQL's data extraction capabilities.",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Model Context Protocol server that integrates AgentQL's data extraction capabilities.",
+  "repository": {
+    "url": "https://github.com/tinyfish-io/agentql-mcp",
+    "source": "github",
+    "id": "906462272"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:56:54Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "agentql-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "agentql-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "AGENTQL_API_KEY",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "agentql-mcp",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "YOUR_API_KEY",
+          "name": "AGENTQL_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "extract-web-data",
@@ -51,5 +48,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

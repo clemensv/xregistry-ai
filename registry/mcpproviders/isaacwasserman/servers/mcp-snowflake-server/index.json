@@ -1,42 +1,55 @@
 {
-  "repo_ref": "isaacwasserman/mcp-snowflake-server",
+  "id": "61942e80-99c9-4856-90c8-5a11ac76ade5",
   "name": "io.github.isaacwasserman/mcp-snowflake-server",
-  "description": "A Model Context Protocol (MCP) server implementation that provides database interaction with Snowflake. This server enables running SQL queries via tools and exposes data insights and schema context as resources.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/isaacwasserman/mcp-snowflake-server",
+    "source": "github",
+    "id": "903050511"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:04Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp_snowflake_server",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--python=3.12",
-          "mcp_snowflake_server",
-          "--account",
-          "your_account",
-          "--warehouse",
-          "your_warehouse",
-          "--user",
-          "your_user",
-          "--password",
-          "your_password",
-          "--role",
-          "your_role",
-          "--database",
-          "your_database",
-          "--schema",
-          "your_schema"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp_snowflake_server",
+      "version": "0.4.0",
+      "package_arguments": [
+        {
+          "description": "--python=3.12",
+          "is_required": true,
+          "format": "string",
+          "value": "--python=3.12",
+          "default": "--python=3.12",
+          "type": "named",
+          "name": "--python=3.12",
+          "value_hint": "3.12"
+        },
+        {
+          "description": "--directory /absolute/path/to/mcp_snowflake_server",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /absolute/path/to/mcp_snowflake_server",
+          "default": "--directory /absolute/path/to/mcp_snowflake_server",
+          "type": "named",
+          "name": "--directory /absolute/path/to/mcp_snowflake_server",
+          "value_hint": "/absolute/path/to/mcp_snowflake_server"
+        },
+        {
+          "description": "mcp_snowflake_server",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp_snowflake_server",
+          "default": "mcp_snowflake_server",
+          "type": "positional",
+          "value_hint": "mcp_snowflake_server"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "list_databases",
@@ -177,5 +190,6 @@
       "description": "Description of the {table_name} table",
       "mimetype": "text/plain"
     }
-  ]
+  ],
+  "prompts": []
 }

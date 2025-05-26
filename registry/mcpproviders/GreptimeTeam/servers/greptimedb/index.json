@@ -1,0 +1,22 @@
+{
+  "id": "68d8d603-4f42-4ee3-b49d-ef890fb745c0",
+  "name": "io.github.greptimeteam/greptimedb",
+  "description": "Open-source, cloud-native, unified observability database for metrics, logs and traces, supporting SQL/PromQL/Streaming. Available on GreptimeCloud.",
+  "repository": {
+    "url": "https://github.com/GreptimeTeam/greptimedb",
+    "source": "github",
+    "id": "480217156"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:27Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "GreptimeTeam/greptimedb",
+      "version": ""
+    }
+  ]
+}

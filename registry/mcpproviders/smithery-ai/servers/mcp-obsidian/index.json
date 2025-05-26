@@ -1,17 +1,21 @@
 {
-  "repo_ref": "smithery-ai/mcp-obsidian",
+  "id": "io.github.smithery-ai/mcp-obsidian",
   "name": "io.github.smithery-ai/mcp-obsidian",
   "description": "Connector to allow Claude Desktop (or any MCP client) to read and search any directory containing Markdown notes (such as an Obsidian vault).",
+  "repository": {
+    "url": "smithery-ai/mcp-obsidian",
+    "source": "",
+    "id": ""
+  },
   "version_detail": {
     "version": "1.0.0"
   },
-  "remotes": [],
-  "registries": [
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "mcp-obsidian",
-      "license": "",
-      "command_arguments": {
+      "registry_name": "npm",
+      "name": "mcp-obsidian",
+      "version": "",
+      "package_arguments": {
         "sub_commands": [],
         "positional_arguments": [
           "-y",
@@ -20,9 +24,12 @@
         ],
         "environment_variables": [],
         "named_arguments": null
-      }
+      },
+      "environment_variables": [],
+      "license": ""
     }
   ],
+  "remotes": [],
   "prompts": [],
   "tools": [
     {

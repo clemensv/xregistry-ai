@@ -1,30 +1,59 @@
 {
-  "repo_ref": "yangkyeongmo/mcp-server-apache-airflow",
+  "id": "ae6d4cd8-c930-4737-9aba-93609f53cde1",
   "name": "io.github.yangkyeongmo/mcp-server-apache-airflow",
-  "description": "A Model Context Protocol (MCP) server implementation for Apache Airflow, enabling seamless integration with MCP clients. This project provides a standardized way to interact with Apache Airflow through the Model Context Protocol.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "",
+  "repository": {
+    "url": "https://github.com/yangkyeongmo/mcp-server-apache-airflow",
+    "source": "github",
+    "id": "931916510"
   },
-  "remotes": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:43Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "url": "http://localhost:8080/api/v1",
-      "transporttype": "http"
+      "registry_name": "pypi",
+      "name": "mcp-server-apache-airflow",
+      "version": "0.2.2",
+      "package_arguments": [
+        {
+          "description": "Directory to run the server from",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/mcp-server-apache-airflow",
+          "default": "--directory /path/to/mcp-server-apache-airflow",
+          "type": "named",
+          "name": "--directory /path/to/mcp-server-apache-airflow",
+          "value_hint": "/path/to/mcp-server-apache-airflow"
+        },
+        {
+          "description": "Name of the Airflow MCP server",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-server-apache-airflow",
+          "default": "mcp-server-apache-airflow",
+          "type": "positional",
+          "value_hint": "mcp-server-apache-airflow"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "https://your-airflow-host",
+          "name": "AIRFLOW_HOST"
+        },
+        {
+          "description": "your-username",
+          "name": "AIRFLOW_USERNAME"
+        },
+        {
+          "description": "your-password",
+          "name": "AIRFLOW_PASSWORD"
+        }
+      ]
     }
   ],
-  "registries": [
-    {
-      "name": "container",
-      "package_name": "apache/airflow:latest",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [],
-        "environment_variables": [],
-        "named_arguments": null
-      }
-    }
-  ],
-  "prompts": [],
   "tools": [],
   "resources": [
     {
@@ -67,5 +96,6 @@
       "uritemplate": "/api/v1/datasets",
       "description": "Endpoints for managing datasets."
     }
-  ]
+  ],
+  "prompts": []
 }

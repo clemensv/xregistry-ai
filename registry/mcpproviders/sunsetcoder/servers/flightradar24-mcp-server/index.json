@@ -1,38 +1,34 @@
 {
-  "repo_ref": "sunsetcoder/flightradar24-mcp-server",
+  "id": "50b7ab52-c3d0-40bc-b342-38fa93da54ff",
   "name": "io.github.sunsetcoder/flightradar24-mcp-server",
-  "description": "A Claude Desktop MCP server that helps you track flights in real-time using Flightradar24 data. Perfect for aviation enthusiasts, travel planners, or anyone curious about flights overhead!",
-  "version_detail": {
-    "version": "1.0.0"
+  "description": "Model Context Protocol server for Flight Tracking",
+  "repository": {
+    "url": "https://github.com/sunsetcoder/flightradar24-mcp-server",
+    "source": "github",
+    "id": "903070998"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:55Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "/Users/<username>/<FULL_PATH...>/flightradar24-mcp-server/dist/index.js"
-        ],
-        "environment_variables": [
-          {
-            "name": "FR24_API_KEY",
-            "description": "Flightradar24 API key",
-            "required": true
-          },
-          {
-            "name": "FR24_API_URL",
-            "description": "Flightradar24 API base URL",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "flightradar24-mcp-server",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "FR24_API_KEY"
+        },
+        {
+          "description": "https://fr24api.flightradar24.com",
+          "name": "FR24_API_URL"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_flight_positions",
@@ -77,5 +73,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

@@ -1,38 +1,24 @@
 {
-  "repo_ref": "jifrozen0110/mcp-riot",
+  "id": "87e2c1e7-4fdb-436f-b52c-af683f63fb1b",
   "name": "io.github.jifrozen0110/mcp-riot",
-  "description": "MCP-Riot is a community-developed Model Context Protocol (MCP) server that integrates with the Riot Games API to provide League of Legends data to AI assistants via natural language queries.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "League of Legends MCP Server",
+  "repository": {
+    "url": "https://github.com/jifrozen0110/mcp-riot",
+    "source": "github",
+    "id": "967790464"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:34Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "mcp-riot",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/ABSOLUTE/PATH/TO/PARENT/FOLDER",
-          "run",
-          "--env-file",
-          "/ABSOLUTE/PATH/TO/PARENT/FOLDER/.env",
-          "riot.py"
-        ],
-        "environment_variables": [
-          {
-            "name": "RIOT_API_KEY",
-            "description": "Riot API key",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "riot",
+      "version": "0.1.0"
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "get_player_summary",
@@ -55,5 +41,6 @@
       "description": "Returns match performance stats for a given match ID and puuid."
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

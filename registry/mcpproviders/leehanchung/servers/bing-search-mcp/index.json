@@ -1,33 +1,30 @@
 {
-  "repo_ref": "leehanchung/bing-search-mcp",
+  "id": "a0db598f-81d1-44d6-9008-e9a71e742cd3",
   "name": "io.github.leehanchung/bing-search-mcp",
-  "description": "A Model Context Protocol (MCP) server for Microsoft Bing Search API integration, allowing AI assistants to perform web, news, and image searches.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "MCP Server for Bing Search API",
+  "repository": {
+    "url": "https://github.com/leehanchung/bing-search-mcp",
+    "source": "github",
+    "id": "949213032"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:57Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "python",
-      "package_name": "bing-search-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "bing-search-mcp"
-        ],
-        "environment_variables": [
-          {
-            "name": "BING_API_KEY",
-            "description": "Microsoft Bing Search API key",
-            "required": true
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "mcp_server_bing",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "your-bing-api-key",
+          "name": "BING_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "bing_web_search",
@@ -118,5 +115,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

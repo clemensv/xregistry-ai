@@ -1,50 +1,50 @@
 {
-  "repo_ref": "axiomhq/mcp-server-axiom",
+  "id": "ac19206d-f465-4c38-b62f-23635837b239",
   "name": "io.github.axiomhq/mcp-server-axiom",
-  "description": "A Model Context Protocol server implementation for Axiom that enables AI agents to query your data using Axiom Processing Language (APL). Works with Claude desktop app. Implements two MCP tools: queryApl and listDatasets. No support for MCP resources or prompts yet.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Axiom Model Context Protocol Server",
+  "repository": {
+    "url": "https://github.com/axiomhq/mcp-server-axiom",
+    "source": "github",
+    "id": "899010918"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:57:32Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "cli",
-      "package_name": "github.com/axiomhq/axiom-mcp",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--config",
-          "/path/to/your/config.txt"
-        ],
-        "environment_variables": [
-          {
-            "name": "AXIOM_TOKEN"
-          },
-          {
-            "name": "AXIOM_URL"
-          },
-          {
-            "name": "AXIOM_ORG_ID"
-          },
-          {
-            "name": "AXIOM_QUERY_RATE"
-          },
-          {
-            "name": "AXIOM_QUERY_BURST"
-          },
-          {
-            "name": "AXIOM_DATASETS_RATE"
-          },
-          {
-            "name": "AXIOM_DATASETS_BURST"
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "unknown",
+      "name": "axiomhq/mcp-server-axiom",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Specifies a configuration file",
+          "is_required": true,
+          "format": "string",
+          "value": "--config /path/to/your/config.txt",
+          "default": "--config /path/to/your/config.txt",
+          "type": "named",
+          "name": "--config /path/to/your/config.txt",
+          "value_hint": "/path/to/your/config.txt"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "xaat-your-token",
+          "name": "AXIOM_TOKEN"
+        },
+        {
+          "description": "https://api.axiom.co",
+          "name": "AXIOM_URL"
+        },
+        {
+          "description": "your-org-id",
+          "name": "AXIOM_ORG_ID"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "queryApl",
@@ -61,5 +61,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

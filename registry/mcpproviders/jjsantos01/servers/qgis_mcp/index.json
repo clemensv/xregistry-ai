@@ -1,30 +1,45 @@
 {
-  "repo_ref": "jjsantos01/qgis_mcp",
+  "id": "2e9aa092-56fc-4adb-93ba-e9c9d9919440",
   "name": "io.github.jjsantos01/qgis_mcp",
-  "description": "QGISMCP connects QGIS to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control QGIS. This integration enables prompt assisted project creation, layer loading, code execution and more.",
-  "version_detail": {
-    "version": "0.0.0"
+  "description": "Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop",
+  "repository": {
+    "url": "https://github.com/jjsantos01/qgis_mcp",
+    "source": "github",
+    "id": "947538862"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:03Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "uv",
-      "package_name": "uv",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "--directory",
-          "/ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
-          "run",
-          "qgis_mcp_server.py"
-        ],
-        "environment_variables": [],
-        "named_arguments": null
-      }
+      "registry_name": "pypi",
+      "name": "qgis-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Specifies the directory to run the command from",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+          "default": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+          "type": "named",
+          "name": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+          "value_hint": "/ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp"
+        },
+        {
+          "description": "The Python script to execute",
+          "is_required": true,
+          "format": "string",
+          "value": "qgis_mcp_server.py",
+          "default": "qgis_mcp_server.py",
+          "type": "positional",
+          "value_hint": "qgis_mcp_server.py"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [
     {
       "name": "ping",
@@ -48,5 +63,6 @@
       }
     }
   ],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

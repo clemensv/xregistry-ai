@@ -1,39 +1,31 @@
 {
-  "repo_ref": "ZubeidHendricks/youtube-mcp-server",
-  "name": "io.github.ZubeidHendricks/youtube-mcp-server",
-  "description": "A Model Context Protocol (MCP) server implementation for YouTube, enabling AI language models to interact with YouTube content through a standardized interface.",
-  "version_detail": {
-    "version": "0.0.0"
+  "id": "0278fd92-a009-4a47-a6df-5f77db37e6ab",
+  "name": "io.github.zubeidhendricks/youtube-mcp-server",
+  "description": "MCP Server for YouTube API, enabling video management, Shorts creation, and advanced analytics",
+  "repository": {
+    "url": "https://github.com/ZubeidHendricks/youtube-mcp-server",
+    "source": "github",
+    "id": "909607678"
   },
-  "remotes": [],
-  "registries": [
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:14Z",
+    "is_latest": true
+  },
+  "packages": [
     {
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/server-youtube",
-      "license": "",
-      "command_arguments": {
-        "sub_commands": [],
-        "positional_arguments": [
-          "-y",
-          "@modelcontextprotocol/server-youtube"
-        ],
-        "environment_variables": [
-          {
-            "name": "YOUTUBE_API_KEY",
-            "description": "Your YouTube Data API key",
-            "required": true
-          },
-          {
-            "name": "YOUTUBE_TRANSCRIPT_LANG",
-            "description": "Default language for transcripts (optional, defaults to 'en')",
-            "required": false
-          }
-        ],
-        "named_arguments": null
-      }
+      "registry_name": "npm",
+      "name": "zubeid-youtube-mcp-server",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "YOUTUBE_API_KEY"
+        }
+      ]
     }
   ],
-  "prompts": [],
   "tools": [],
-  "resources": []
+  "resources": [],
+  "prompts": []
 }

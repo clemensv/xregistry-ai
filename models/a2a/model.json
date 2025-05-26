@@ -16,18 +16,19 @@
                         "specversion": {
                             "name": "specversion",
                             "type": "string",
-                            "required": false
+                            "required": false,
+                            "description": "Version of the A2A specification this agent card conforms to"
                         },
                         "*": {
                             "name": "*",
-                            "type": "any"
+                            "type": "any",
+                            "description": "Additional custom attributes allowed for agent card extensibility"
                         }
                     },
                     "metaattributes": {
                         "validation": {
                             "name": "validation",
                             "type": "boolean",
-                            "description": "Verify compliance with specified schema 'specversion'",
                             "required": true,
                             "default": false
                         }

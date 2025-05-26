@@ -1,0 +1,72 @@
+{
+  "id": "cbc3c68c-82c8-4a9f-86b9-78e3893df494",
+  "name": "io.github.13rac1/videocapture-mcp",
+  "description": "Model Context Protocol (MCP) server to capture images from an OpenCV-compatible webcam or video source",
+  "repository": {
+    "url": "https://github.com/13rac1/videocapture-mcp",
+    "source": "github",
+    "id": "956274853"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:30Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "videocapture-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Use extra requirements with package",
+          "is_required": true,
+          "format": "string",
+          "value": "--with mcp[cli]",
+          "default": "--with mcp[cli]",
+          "type": "named",
+          "name": "--with mcp[cli]",
+          "value_hint": "mcp[cli]"
+        },
+        {
+          "description": "Use extra requirements with package",
+          "is_required": true,
+          "format": "string",
+          "value": "--with numpy",
+          "default": "--with numpy",
+          "type": "named",
+          "name": "--with numpy",
+          "value_hint": "numpy"
+        },
+        {
+          "description": "Use extra requirements with package",
+          "is_required": true,
+          "format": "string",
+          "value": "--with opencv-python",
+          "default": "--with opencv-python",
+          "type": "named",
+          "name": "--with opencv-python",
+          "value_hint": "opencv-python"
+        },
+        {
+          "description": "MCP run command",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp",
+          "default": "mcp",
+          "type": "positional",
+          "value_hint": "mcp"
+        },
+        {
+          "description": "Path to script",
+          "is_required": true,
+          "format": "string",
+          "value": "C:\\ABSOLUTE_PATH\\videocapture-mcp\\videocapture_mcp.py",
+          "default": "C:\\ABSOLUTE_PATH\\videocapture-mcp\\videocapture_mcp.py",
+          "type": "positional",
+          "value_hint": "C:\\ABSOLUTE_PATH\\videocapture-mcp\\videocapture_mcp.py"
+        }
+      ]
+    }
+  ]
+}
