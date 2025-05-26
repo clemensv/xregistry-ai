@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:10.747239057Z",
+  "createdat": "2025-05-26T16:31:53.436507677Z",
   "description": "Search, create and update Airtable bases, tables, fields, and records using Claude Desktop and MCP (Model Context Protocol) clients",
   "epoch": 1,
   "id": "04216a87-0760-4f25-b809-42ffbfbb8962",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:10.747239057Z",
+  "modifiedat": "2025-05-26T16:31:53.436507677Z",
   "name": "io.github.felores/airtable-mcp",
   "packages": [
     {

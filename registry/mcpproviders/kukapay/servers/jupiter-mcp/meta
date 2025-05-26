@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:19.511396193Z",
+  "createdat": "2025-05-26T16:32:02.222304374Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/jupiter-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:19.511396193Z",
+  "modifiedat": "2025-05-26T16:32:02.222304374Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/jupiter-mcp/meta",
   "serverid": "jupiter-mcp",

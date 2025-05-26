@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:24.453107954Z",
+  "createdat": "2025-05-26T16:31:07.037420973Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/quarkiverse/servers/quarkus-mcp-servers/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:24.453107954Z",
+  "modifiedat": "2025-05-26T16:31:07.037420973Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/quarkiverse/servers/quarkus-mcp-servers/meta",
   "serverid": "quarkus-mcp-servers",

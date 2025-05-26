@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:46.316471099Z",
+  "createdat": "2025-05-26T16:31:28.941745999Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/goplausible/servers/algorand-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:46.316471099Z",
+  "modifiedat": "2025-05-26T16:31:28.941745999Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/goplausible/servers/algorand-mcp/meta",
   "serverid": "algorand-mcp",

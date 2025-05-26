@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:34.395652139Z",
+  "createdat": "2025-05-26T16:32:17.116481215Z",
   "description": "MCP server for Apache Gravitino(incubating)",
   "epoch": 1,
   "id": "fee5894b-e255-408d-9cd2-e6ee29d78d78",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:34.395652139Z",
+  "modifiedat": "2025-05-26T16:32:17.116481215Z",
   "name": "io.github.datastrato/mcp-server-gravitino",
   "packages": [
     {

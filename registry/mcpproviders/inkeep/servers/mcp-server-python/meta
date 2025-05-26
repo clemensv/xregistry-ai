@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:51.493643489Z",
+  "createdat": "2025-05-26T16:31:33.596356874Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/inkeep/servers/mcp-server-python/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:51.493643489Z",
+  "modifiedat": "2025-05-26T16:31:33.596356874Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/inkeep/servers/mcp-server-python/meta",
   "serverid": "mcp-server-python",

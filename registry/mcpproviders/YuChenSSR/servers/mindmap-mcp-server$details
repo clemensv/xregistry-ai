@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:58.496212481Z",
+  "createdat": "2025-05-26T16:31:41.223600332Z",
   "description": "mindmap, mcp server, artifact",
   "epoch": 1,
   "id": "7f9416dd-34cf-4f0d-bcfb-c87cbee3abf6",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/YuChenSSR/servers/mindmap-mcp-server/meta",
-  "modifiedat": "2025-05-26T13:58:58.496212481Z",
+  "modifiedat": "2025-05-26T16:31:41.223600332Z",
   "name": "io.github.yuchenssr/mindmap-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:09.644701545Z",
+  "createdat": "2025-05-26T16:31:52.33742633Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pathintegral-institute/servers/mcpm.sh/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:09.644701545Z",
+  "modifiedat": "2025-05-26T16:31:52.33742633Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pathintegral-institute/servers/mcpm.sh/meta",
   "serverid": "mcpm.sh",

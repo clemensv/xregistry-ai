@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:29.658516592Z",
+  "createdat": "2025-05-26T16:32:12.399558314Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/longyi1207/servers/glean-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:29.658516592Z",
+  "modifiedat": "2025-05-26T16:32:12.399558314Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/longyi1207/servers/glean-mcp-server/meta",
   "serverid": "glean-mcp-server",

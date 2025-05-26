@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:57.209008826Z",
+  "createdat": "2025-05-26T16:31:39.928346639Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/e2b-dev/servers/mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:57.209008826Z",
+  "modifiedat": "2025-05-26T16:31:39.928346639Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/e2b-dev/servers/mcp-server/meta",
   "serverid": "mcp-server",

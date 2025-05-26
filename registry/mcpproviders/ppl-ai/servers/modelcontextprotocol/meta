@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:31.801256593Z",
+  "createdat": "2025-05-26T16:32:14.544270449Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ppl-ai/servers/modelcontextprotocol/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:31.801256593Z",
+  "modifiedat": "2025-05-26T16:32:14.544270449Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ppl-ai/servers/modelcontextprotocol/meta",
   "serverid": "modelcontextprotocol",

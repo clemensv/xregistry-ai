@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:57.707359764Z",
+  "createdat": "2025-05-26T16:31:40.431673181Z",
   "description": "An MCP proxy server that aggregates and serves multiple MCP resource servers through a single HTTP server.",
   "epoch": 1,
   "id": "9ad8f293-3ea1-4f0d-8c9f-a24945851bb6",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:58:57.707359764Z",
+  "modifiedat": "2025-05-26T16:31:40.431673181Z",
   "name": "io.github.tbxark/mcp-proxy",
   "packages": [
     {

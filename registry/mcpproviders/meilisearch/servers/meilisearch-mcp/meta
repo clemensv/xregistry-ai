@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:04.03409145Z",
+  "createdat": "2025-05-26T16:31:46.771158633Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/meilisearch/servers/meilisearch-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:04.03409145Z",
+  "modifiedat": "2025-05-26T16:31:46.771158633Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/meilisearch/servers/meilisearch-mcp/meta",
   "serverid": "meilisearch-mcp",

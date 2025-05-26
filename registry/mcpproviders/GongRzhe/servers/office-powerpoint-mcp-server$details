@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:25.01735703Z",
+  "createdat": "2025-05-26T16:31:07.617381145Z",
   "description": "A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol.",
   "epoch": 1,
   "id": "d3194c4f-b73a-40b2-9170-0e6e8ee713c0",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/office-powerpoint-mcp-server/meta",
-  "modifiedat": "2025-05-26T13:58:25.01735703Z",
+  "modifiedat": "2025-05-26T16:31:07.617381145Z",
   "name": "io.github.gongrzhe/office-powerpoint-mcp-server",
   "packages": [
     {

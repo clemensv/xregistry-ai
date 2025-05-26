@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:30.121639369Z",
+  "createdat": "2025-05-26T16:31:12.708146751Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pab1it0/servers/adx-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:30.121639369Z",
+  "modifiedat": "2025-05-26T16:31:12.708146751Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pab1it0/servers/adx-mcp-server/meta",
   "serverid": "adx-mcp-server",

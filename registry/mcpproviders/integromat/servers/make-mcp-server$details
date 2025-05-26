@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:55.555437708Z",
+  "createdat": "2025-05-26T16:31:38.26160431Z",
   "description": "Make MCP Server",
   "epoch": 1,
   "id": "f4fca7d7-fbab-4174-ba76-1396c3451cf1",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/integromat/servers/make-mcp-server/meta",
-  "modifiedat": "2025-05-26T13:58:55.555437708Z",
+  "modifiedat": "2025-05-26T16:31:38.26160431Z",
   "name": "io.github.integromat/make-mcp-server",
   "packages": [
     {

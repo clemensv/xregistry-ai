@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:42.75042524Z",
+  "createdat": "2025-05-26T16:32:25.414799134Z",
   "description": "github-enterprise-mcp",
   "epoch": 1,
   "id": "cc190d52-686a-4286-812d-c4542161203d",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:42.75042524Z",
+  "modifiedat": "2025-05-26T16:32:25.414799134Z",
   "name": "io.github.ddukbg/github-enterprise-mcp",
   "packages": [
     {

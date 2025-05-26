@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:59.250084942Z",
+  "createdat": "2025-05-26T16:31:41.983638796Z",
   "description": "",
   "epoch": 1,
   "id": "165ef95f-bfb3-4b08-b523-d17748fdfe31",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/v-3/servers/google-calendar/meta",
-  "modifiedat": "2025-05-26T13:58:59.250084942Z",
+  "modifiedat": "2025-05-26T16:31:41.983638796Z",
   "name": "io.github.v-3/google-calendar",
   "packages": [
     {

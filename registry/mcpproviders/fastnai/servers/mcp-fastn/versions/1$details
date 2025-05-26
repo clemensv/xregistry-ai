@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:34.66103018Z",
+  "createdat": "2025-05-26T16:32:17.3759469Z",
   "description": "",
   "epoch": 1,
   "id": "3d7c6822-88bd-4569-a099-1e58b9b365b0",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:34.66103018Z",
+  "modifiedat": "2025-05-26T16:32:17.3759469Z",
   "name": "io.github.fastnai/mcp-fastn",
   "packages": [
     {

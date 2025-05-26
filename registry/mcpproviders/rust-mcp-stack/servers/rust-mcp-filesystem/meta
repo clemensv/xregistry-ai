@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:18.440439286Z",
+  "createdat": "2025-05-26T16:32:01.151167681Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rust-mcp-stack/servers/rust-mcp-filesystem/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:18.440439286Z",
+  "modifiedat": "2025-05-26T16:32:01.151167681Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rust-mcp-stack/servers/rust-mcp-filesystem/meta",
   "serverid": "rust-mcp-filesystem",

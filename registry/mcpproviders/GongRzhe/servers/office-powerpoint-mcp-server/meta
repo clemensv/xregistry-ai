@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:25.01735703Z",
+  "createdat": "2025-05-26T16:31:07.617381145Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/office-powerpoint-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:25.01735703Z",
+  "modifiedat": "2025-05-26T16:31:07.617381145Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/office-powerpoint-mcp-server/meta",
   "serverid": "office-powerpoint-mcp-server",

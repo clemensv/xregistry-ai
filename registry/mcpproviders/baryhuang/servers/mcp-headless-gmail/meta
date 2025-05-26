@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:33.664265084Z",
+  "createdat": "2025-05-26T16:32:16.388238193Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-headless-gmail/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:33.664265084Z",
+  "modifiedat": "2025-05-26T16:32:16.388238193Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-headless-gmail/meta",
   "serverid": "mcp-headless-gmail",

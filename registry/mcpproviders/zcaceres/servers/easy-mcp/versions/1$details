@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:34.640619458Z",
+  "createdat": "2025-05-26T16:31:17.266671092Z",
   "description": "Absurdly easy Model Context Protocol Servers in Typescript",
   "epoch": 1,
   "id": "c636fa7e-796e-40a3-bdfc-52d7f4b82db4",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:58:34.640619458Z",
+  "modifiedat": "2025-05-26T16:31:17.266671092Z",
   "name": "io.github.zcaceres/easy-mcp",
   "packages": [
     {

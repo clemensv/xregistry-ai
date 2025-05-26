@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:33.664265084Z",
+  "createdat": "2025-05-26T16:32:16.388238193Z",
   "description": "A MCP (Model Context Protocol) server that provides get, send Gmails without local credential or token setup.",
   "epoch": 1,
   "id": "83932f7e-8c4d-475b-b03b-f30bc31793d3",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:33.664265084Z",
+  "modifiedat": "2025-05-26T16:32:16.388238193Z",
   "name": "io.github.baryhuang/mcp-headless-gmail",
   "packages": [
     {

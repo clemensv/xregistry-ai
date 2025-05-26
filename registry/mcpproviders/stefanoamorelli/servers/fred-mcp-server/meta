@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:38.204603127Z",
+  "createdat": "2025-05-26T16:31:20.815991579Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/fred-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:38.204603127Z",
+  "modifiedat": "2025-05-26T16:31:20.815991579Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/fred-mcp-server/meta",
   "serverid": "fred-mcp-server",

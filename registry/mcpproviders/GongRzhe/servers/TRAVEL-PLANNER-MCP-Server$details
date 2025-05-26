@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:25.4689503Z",
+  "createdat": "2025-05-26T16:31:08.070871512Z",
   "description": "",
   "epoch": 1,
   "id": "7d8aa739-c9c6-4afd-991b-cf425be475db",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/TRAVEL-PLANNER-MCP-Server/meta",
-  "modifiedat": "2025-05-26T13:58:25.4689503Z",
+  "modifiedat": "2025-05-26T16:31:08.070871512Z",
   "name": "io.github.gongrzhe/travel-planner-mcp-server",
   "packages": [
     {

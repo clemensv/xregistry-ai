@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:32.884359296Z",
+  "createdat": "2025-05-26T16:31:15.482451759Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:32.884359296Z",
+  "modifiedat": "2025-05-26T16:31:15.482451759Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/meta",
   "serverid": "xiyan_mcp_server",

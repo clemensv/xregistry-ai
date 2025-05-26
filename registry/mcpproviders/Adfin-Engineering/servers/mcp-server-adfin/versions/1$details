@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:44.272381078Z",
+  "createdat": "2025-05-26T16:32:26.953872579Z",
   "description": "A Model Context Protocol Server for connecting with Adfin APIs ",
   "epoch": 1,
   "id": "d3669201-252f-403c-944b-c3ec0845782b",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:44.272381078Z",
+  "modifiedat": "2025-05-26T16:32:26.953872579Z",
   "name": "io.github.adfin-engineering/mcp-server-adfin",
   "packages": [
     {

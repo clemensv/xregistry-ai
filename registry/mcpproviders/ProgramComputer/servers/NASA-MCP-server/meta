@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:22.939391952Z",
+  "createdat": "2025-05-26T16:31:05.508982619Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ProgramComputer/servers/NASA-MCP-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:22.939391952Z",
+  "modifiedat": "2025-05-26T16:31:05.508982619Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ProgramComputer/servers/NASA-MCP-server/meta",
   "serverid": "NASA-MCP-server",

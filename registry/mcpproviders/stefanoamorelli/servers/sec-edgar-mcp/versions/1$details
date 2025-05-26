@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:38.019369209Z",
+  "createdat": "2025-05-26T16:31:20.629127097Z",
   "description": "A Model Context Protocol (MCP) Server for SEC EDGAR",
   "epoch": 1,
   "id": "8d526532-7125-4b3c-b180-901914ead390",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:58:38.019369209Z",
+  "modifiedat": "2025-05-26T16:31:20.629127097Z",
   "name": "io.github.stefanoamorelli/sec-edgar-mcp",
   "packages": [
     {

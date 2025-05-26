@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:26.884518065Z",
+  "createdat": "2025-05-26T16:31:09.48485035Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/VeyraX/servers/veyrax-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:26.884518065Z",
+  "modifiedat": "2025-05-26T16:31:09.48485035Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/VeyraX/servers/veyrax-mcp/meta",
   "serverid": "veyrax-mcp",

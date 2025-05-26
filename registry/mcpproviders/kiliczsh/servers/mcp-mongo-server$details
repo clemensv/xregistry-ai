@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:02.146611946Z",
+  "createdat": "2025-05-26T16:31:44.895490938Z",
   "description": "A Model Context Protocol Server for MongoDB",
   "epoch": 1,
   "id": "b61a2d2e-db6c-47b4-9437-7edc8525d063",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kiliczsh/servers/mcp-mongo-server/meta",
-  "modifiedat": "2025-05-26T13:59:02.146611946Z",
+  "modifiedat": "2025-05-26T16:31:44.895490938Z",
   "name": "io.github.kiliczsh/mcp-mongo-server",
   "packages": [
     {

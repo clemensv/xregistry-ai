@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:44.350982117Z",
+  "createdat": "2025-05-26T16:31:26.950075446Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kone-net/servers/mcp_server_lark/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:44.350982117Z",
+  "modifiedat": "2025-05-26T16:31:26.950075446Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kone-net/servers/mcp_server_lark/meta",
   "serverid": "mcp_server_lark",

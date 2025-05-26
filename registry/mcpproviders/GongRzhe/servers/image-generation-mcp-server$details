@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:25.293933177Z",
+  "createdat": "2025-05-26T16:31:07.884205064Z",
   "description": "This MCP server provides image generation capabilities using the Replicate Flux model.",
   "epoch": 1,
   "id": "5bf6d045-dc83-4b51-858f-eb9c3403087f",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/meta",
-  "modifiedat": "2025-05-26T13:58:25.293933177Z",
+  "modifiedat": "2025-05-26T16:31:07.884205064Z",
   "name": "io.github.gongrzhe/image-generation-mcp-server",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:39.939731206Z",
+  "createdat": "2025-05-26T16:31:22.550826585Z",
   "description": "Control Neovim using Model Context Protocol (MCP) and the official neovim/node-client JavaScript library",
   "epoch": 1,
   "id": "d9d7e246-d3f4-4214-aa79-fe1981c73c2e",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/bigcodegen/servers/mcp-neovim-server/meta",
-  "modifiedat": "2025-05-26T13:58:39.939731206Z",
+  "modifiedat": "2025-05-26T16:31:22.550826585Z",
   "name": "io.github.bigcodegen/mcp-neovim-server",
   "packages": [
     {

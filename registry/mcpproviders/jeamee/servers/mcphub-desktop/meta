@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:32.358221549Z",
+  "createdat": "2025-05-26T16:31:14.948153325Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jeamee/servers/mcphub-desktop/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:32.358221549Z",
+  "modifiedat": "2025-05-26T16:31:14.948153325Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jeamee/servers/mcphub-desktop/meta",
   "serverid": "mcphub-desktop",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:21.996343945Z",
+  "createdat": "2025-05-26T16:32:04.741416318Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/dvcrn/servers/mcp-server-siri-shortcuts/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:21.996343945Z",
+  "modifiedat": "2025-05-26T16:32:04.741416318Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/dvcrn/servers/mcp-server-siri-shortcuts/meta",
   "serverid": "mcp-server-siri-shortcuts",

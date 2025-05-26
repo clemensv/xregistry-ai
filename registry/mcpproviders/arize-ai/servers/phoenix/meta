@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:11.686250757Z",
+  "createdat": "2025-05-26T16:31:54.380271517Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/arize-ai/servers/phoenix/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:11.686250757Z",
+  "modifiedat": "2025-05-26T16:31:54.380271517Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/arize-ai/servers/phoenix/meta",
   "serverid": "phoenix",

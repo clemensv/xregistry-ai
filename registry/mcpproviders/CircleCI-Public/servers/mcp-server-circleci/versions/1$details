@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:27.617211175Z",
+  "createdat": "2025-05-26T16:31:10.210186518Z",
   "description": "A specialized server implementation for the Model Context Protocol (MCP) designed to integrate with CircleCI's development workflow. This project serves as a bridge between CircleCI's infrastructure and the Model Context Protocol, enabling enhanced AI-powered development experiences.",
   "epoch": 1,
   "id": "a48ff624-6d95-4b8e-a0ed-498c4d838411",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:58:27.617211175Z",
+  "modifiedat": "2025-05-26T16:31:10.210186518Z",
   "name": "io.github.circleci-public/mcp-server-circleci",
   "packages": [
     {

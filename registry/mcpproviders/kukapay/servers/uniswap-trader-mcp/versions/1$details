@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:19.257854715Z",
+  "createdat": "2025-05-26T16:32:01.96987432Z",
   "description": "An MCP server for AI agents to automate token swaps on Uniswap DEX across multiple blockchains.",
   "epoch": 1,
   "id": "1dd6d7a5-ba98-4fce-b4a4-d0541df84569",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:19.257854715Z",
+  "modifiedat": "2025-05-26T16:32:01.96987432Z",
   "name": "io.github.kukapay/uniswap-trader-mcp",
   "packages": [
     {

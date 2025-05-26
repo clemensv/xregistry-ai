@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:27.724988664Z",
+  "createdat": "2025-05-26T16:32:10.464422101Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/magnetai/servers/mcp-free-usdc-transfer/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:27.724988664Z",
+  "modifiedat": "2025-05-26T16:32:10.464422101Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/magnetai/servers/mcp-free-usdc-transfer/meta",
   "serverid": "mcp-free-usdc-transfer",

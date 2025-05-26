@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:30.849293049Z",
+  "createdat": "2025-05-26T16:31:13.430275585Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/msgbyte/servers/tianji/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:30.849293049Z",
+  "modifiedat": "2025-05-26T16:31:13.430275585Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/msgbyte/servers/tianji/meta",
   "serverid": "tianji",

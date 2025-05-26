@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:01.054723529Z",
+  "createdat": "2025-05-26T16:31:43.792767564Z",
   "description": "MCP Server for kubernetes management commands",
   "epoch": 1,
   "id": "6a4d324e-7d12-495c-b72c-fe5803363af1",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:01.054723529Z",
+  "modifiedat": "2025-05-26T16:31:43.792767564Z",
   "name": "io.github.flux159/mcp-server-kubernetes",
   "packages": [
     {

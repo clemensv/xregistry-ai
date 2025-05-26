@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:28.875887317Z",
+  "createdat": "2025-05-26T16:31:11.470591986Z",
   "description": "MCP server for Mikrotik",
   "epoch": 1,
   "id": "5ebda83c-f2b3-4b14-ba72-13d940fa940a",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jeff-nasseri/servers/mikrotik-mcp/meta",
-  "modifiedat": "2025-05-26T13:58:28.875887317Z",
+  "modifiedat": "2025-05-26T16:31:11.470591986Z",
   "name": "io.github.jeff-nasseri/mikrotik-mcp",
   "packages": [
     {

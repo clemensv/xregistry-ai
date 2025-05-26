@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:32.988262063Z",
+  "createdat": "2025-05-26T16:31:15.585377297Z",
   "description": "A Ticketmaster MCP server that provides query capabilites from the Discovery API",
   "epoch": 1,
   "id": "7f7268e0-670a-4630-83da-acc1090264c3",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:58:32.988262063Z",
+  "modifiedat": "2025-05-26T16:31:15.585377297Z",
   "name": "io.github.delorenj/mcp-server-ticketmaster",
   "packages": [
     {

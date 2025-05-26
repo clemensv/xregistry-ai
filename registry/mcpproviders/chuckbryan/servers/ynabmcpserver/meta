@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:12.628426103Z",
+  "createdat": "2025-05-26T16:31:55.328041946Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chuckbryan/servers/ynabmcpserver/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:12.628426103Z",
+  "modifiedat": "2025-05-26T16:31:55.328041946Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chuckbryan/servers/ynabmcpserver/meta",
   "serverid": "ynabmcpserver",

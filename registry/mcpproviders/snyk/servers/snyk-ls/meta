@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:51.745145474Z",
+  "createdat": "2025-05-26T16:31:33.763558327Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/snyk/servers/snyk-ls/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:51.745145474Z",
+  "modifiedat": "2025-05-26T16:31:33.763558327Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/snyk/servers/snyk-ls/meta",
   "serverid": "snyk-ls",

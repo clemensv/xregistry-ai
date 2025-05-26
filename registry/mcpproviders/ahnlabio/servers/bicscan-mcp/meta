@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:31.184123435Z",
+  "createdat": "2025-05-26T16:31:13.773291823Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ahnlabio/servers/bicscan-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:31.184123435Z",
+  "modifiedat": "2025-05-26T16:31:13.773291823Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ahnlabio/servers/bicscan-mcp/meta",
   "serverid": "bicscan-mcp",

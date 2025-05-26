@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:59.611722589Z",
+  "createdat": "2025-05-26T16:31:42.3517783Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tevonsb/servers/homeassistant-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:59.611722589Z",
+  "modifiedat": "2025-05-26T16:31:42.3517783Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tevonsb/servers/homeassistant-mcp/meta",
   "serverid": "homeassistant-mcp",

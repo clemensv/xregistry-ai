@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:59:09.063145421Z",
+  "createdat": "2025-05-26T16:31:51.747526775Z",
   "description": "MCP tool for building Xcode iOS workspace/project and feeding back error to LLMs.",
   "epoch": 1,
   "id": "bce1c06f-6325-418a-91e2-0ff2f6cf8ffc",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:59:09.063145421Z",
+  "modifiedat": "2025-05-26T16:31:51.747526775Z",
   "name": "io.github.shenghaiwang/xcodebuild",
   "packages": [
     {

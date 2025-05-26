@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T13:58:25.347825359Z",
+  "createdat": "2025-05-26T16:31:07.940430943Z",
   "description": "JSON handling and processing mcp server",
   "epoch": 1,
   "id": "7e73a81a-e914-4cf7-aff2-482d0047e8dd",
   "isdefault": true,
-  "modifiedat": "2025-05-26T13:58:25.347825359Z",
+  "modifiedat": "2025-05-26T16:31:07.940430943Z",
   "name": "io.github.gongrzhe/json-mcp-server",
   "packages": [
     {

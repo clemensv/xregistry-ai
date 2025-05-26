@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:58:25.21537572Z",
+  "createdat": "2025-05-26T16:31:07.801920971Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/REDIS-MCP-Server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:58:25.21537572Z",
+  "modifiedat": "2025-05-26T16:31:07.801920971Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/REDIS-MCP-Server/meta",
   "serverid": "REDIS-MCP-Server",

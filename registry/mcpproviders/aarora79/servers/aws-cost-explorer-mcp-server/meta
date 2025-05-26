@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T13:59:37.242246612Z",
+  "createdat": "2025-05-26T16:32:19.930627973Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aarora79/servers/aws-cost-explorer-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T13:59:37.242246612Z",
+  "modifiedat": "2025-05-26T16:32:19.930627973Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aarora79/servers/aws-cost-explorer-mcp-server/meta",
   "serverid": "aws-cost-explorer-mcp-server",
