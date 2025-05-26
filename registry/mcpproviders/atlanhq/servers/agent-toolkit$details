@@ -1,27 +1,26 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:31.480706594Z",
-  "description": "A protocol server that enables interaction with Atlan services through function calling. Provides tools for asset search, and retrieval using pyatlan.",
+  "createdat": "2025-05-26T10:34:11.814377656Z",
+  "description": "Atlan AI Agent Toolkit",
   "epoch": 1,
+  "id": "c4888f33-5e27-449c-ba93-edf383b91686",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/atlanhq/servers/agent-toolkit/meta",
-  "modifiedat": "2025-05-26T08:16:31.480706594Z",
+  "modifiedat": "2025-05-26T10:34:11.814377656Z",
   "name": "io.github.atlanhq/agent-toolkit",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "atlan-agent-toolkit"
+      "name": "atlanhq/agent-toolkit",
+      "registry_name": "unknown",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "atlanhq/agent-toolkit",
+  "prompts": [],
+  "repository": {
+    "id": "959799376",
+    "source": "github",
+    "url": "https://github.com/atlanhq/agent-toolkit"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/atlanhq/servers/agent-toolkit",
   "serverid": "agent-toolkit",
@@ -205,7 +204,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:24Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

@@ -1,32 +1,61 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:18:06.951264831Z",
-    "description": "A Model Context Protocol (MCP) server implementation for Apache Airflow, enabling seamless integration with MCP clients. This project provides a standardized way to interact with Apache Airflow through the Model Context Protocol.",
+    "createdat": "2025-05-26T10:36:19.485549465Z",
+    "description": "",
     "epoch": 1,
+    "id": "ae6d4cd8-c930-4737-9aba-93609f53cde1",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:18:06.951264831Z",
+    "modifiedat": "2025-05-26T10:36:19.485549465Z",
     "name": "io.github.yangkyeongmo/mcp-server-apache-airflow",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "https://your-airflow-host",
+            "name": "AIRFLOW_HOST"
+          },
+          {
+            "description": "your-username",
+            "name": "AIRFLOW_USERNAME"
+          },
+          {
+            "description": "your-password",
+            "name": "AIRFLOW_PASSWORD"
+          }
+        ],
+        "name": "mcp-server-apache-airflow",
+        "package_arguments": [
+          {
+            "default": "--directory /path/to/mcp-server-apache-airflow",
+            "description": "Directory to run the server from",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /path/to/mcp-server-apache-airflow",
+            "type": "named",
+            "value": "--directory /path/to/mcp-server-apache-airflow",
+            "value_hint": "/path/to/mcp-server-apache-airflow"
+          },
+          {
+            "default": "mcp-server-apache-airflow",
+            "description": "Name of the Airflow MCP server",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp-server-apache-airflow",
+            "value_hint": "mcp-server-apache-airflow"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.2.2"
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "container",
-        "package_name": "apache/airflow:latest"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://localhost:8080/api/v1"
-      }
-    ],
-    "repo_ref": "yangkyeongmo/mcp-server-apache-airflow",
+    "repository": {
+      "id": "931916510",
+      "source": "github",
+      "url": "https://github.com/yangkyeongmo/mcp-server-apache-airflow"
+    },
     "resources": [
       {
         "description": "Endpoints for managing DAGs in Apache Airflow.",
@@ -73,7 +102,9 @@
     "serverid": "mcp-server-apache-airflow",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:02:43Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/yangkyeongmo/servers/mcp-server-apache-airflow/versions/1"

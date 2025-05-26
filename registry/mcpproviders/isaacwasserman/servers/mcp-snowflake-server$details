@@ -1,44 +1,57 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:04.025921747Z",
-  "description": "A Model Context Protocol (MCP) server implementation that provides database interaction with Snowflake. This server enables running SQL queries via tools and exposes data insights and schema context as resources.",
+  "createdat": "2025-05-26T10:34:51.117403466Z",
+  "description": "",
   "epoch": 1,
+  "id": "61942e80-99c9-4856-90c8-5a11ac76ade5",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta",
-  "modifiedat": "2025-05-26T08:17:04.025921747Z",
+  "modifiedat": "2025-05-26T10:34:51.117403466Z",
   "name": "io.github.isaacwasserman/mcp-snowflake-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "--python=3.12",
-          "mcp_snowflake_server",
-          "--account",
-          "your_account",
-          "--warehouse",
-          "your_warehouse",
-          "--user",
-          "your_user",
-          "--password",
-          "your_password",
-          "--role",
-          "your_role",
-          "--database",
-          "your_database",
-          "--schema",
-          "your_schema"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "mcp_snowflake_server"
+      "name": "mcp_snowflake_server",
+      "package_arguments": [
+        {
+          "default": "--python=3.12",
+          "description": "--python=3.12",
+          "format": "string",
+          "is_required": true,
+          "name": "--python=3.12",
+          "type": "named",
+          "value": "--python=3.12",
+          "value_hint": "3.12"
+        },
+        {
+          "default": "--directory /absolute/path/to/mcp_snowflake_server",
+          "description": "--directory /absolute/path/to/mcp_snowflake_server",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /absolute/path/to/mcp_snowflake_server",
+          "type": "named",
+          "value": "--directory /absolute/path/to/mcp_snowflake_server",
+          "value_hint": "/absolute/path/to/mcp_snowflake_server"
+        },
+        {
+          "default": "mcp_snowflake_server",
+          "description": "mcp_snowflake_server",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp_snowflake_server",
+          "value_hint": "mcp_snowflake_server"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.4.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "isaacwasserman/mcp-snowflake-server",
+  "prompts": [],
+  "repository": {
+    "id": "903050511",
+    "source": "github",
+    "url": "https://github.com/isaacwasserman/mcp-snowflake-server"
+  },
   "resources": [
     {
       "description": "A living document of discovered data insights",
@@ -183,7 +196,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:04Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

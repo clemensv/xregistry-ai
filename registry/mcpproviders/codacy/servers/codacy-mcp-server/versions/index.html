@@ -1,35 +1,36 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:41.07497786Z",
-    "description": "MCP Server for the Codacy API, enabling access to repositories, files, quality, coverage, security and more.",
+    "createdat": "2025-05-26T10:34:23.343810806Z",
+    "description": "Codacy's MCP Server implementation",
     "epoch": 1,
+    "id": "c746fe90-e3f6-4328-82c1-aeef49a2b6d9",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:41.07497786Z",
+    "modifiedat": "2025-05-26T10:34:23.343810806Z",
     "name": "io.github.codacy/codacy-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Codacy Account API Token",
-              "name": "CODACY_ACCOUNT_TOKEN",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "index.js"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@codacy/codacy-mcp-server"
+        "environment_variables": [
+          {
+            "description": "\u003cYOUR_TOKEN\u003e",
+            "name": "CODACY_ACCOUNT_TOKEN"
+          },
+          {
+            "description": "\u003cVERSION\u003e",
+            "name": "CODACY_CLI_VERSION"
+          }
+        ],
+        "name": "@codacy/codacy-mcp",
+        "registry_name": "unknown",
+        "version": "0.0.1"
       }
     ],
-    "remotes": [],
-    "repo_ref": "codacy/codacy-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "954645052",
+      "source": "github",
+      "url": "https://github.com/codacy/codacy-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/codacy/servers/codacy-mcp-server/versions/1",
     "serverid": "codacy-mcp-server",
@@ -190,7 +191,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:58:07Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/codacy/servers/codacy-mcp-server/versions/1"

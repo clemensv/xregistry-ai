@@ -1,61 +1,44 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:30.147485755Z",
-    "description": "Implementation of an MCP server for all Apify Actors enabling interaction with one or more Apify Actors defined in the MCP Server configuration. Allows AI assistants to use Apify Actors as tools for various scraping and data extraction tasks.",
+    "createdat": "2025-05-26T10:34:09.634705251Z",
+    "description": "Model Context Protocol (MCP) Server for Apify's Actors",
     "epoch": 1,
+    "id": "195dfdbd-bb15-4752-80b6-abc9212cd80f",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:30.147485755Z",
+    "modifiedat": "2025-05-26T10:34:09.634705251Z",
     "name": "io.github.apify/actors-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "${input:apify_token}",
+            "name": "APIFY_TOKEN"
+          }
+        ],
+        "name": "@apify/actors-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--actors lukaskrivka/google-maps-with-contact-details,apify/instagram-scraper",
+            "description": "--actors lukaskrivka/google-maps-with-contact-details,apify/instagram-scraper",
+            "format": "string",
+            "is_required": true,
+            "name": "--actors lukaskrivka/google-maps-with-contact-details,apify/instagram-scraper",
+            "type": "named",
+            "value": "--actors lukaskrivka/google-maps-with-contact-details,apify/instagram-scraper",
+            "value_hint": "lukaskrivka/google-maps-with-contact-details,apify/instagram-scraper"
+          }
+        ],
+        "registry_name": "npm",
+        "version": "0.1.31"
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API token for Apify platform",
-              "name": "APIFY_TOKEN",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "--actors",
-            "apify/rag-web-browser,lukaskrivka/google-maps-with-contact-details"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "container",
-        "package_name": "apify/actors-mcp-server:latest"
-      },
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API token for Apify platform",
-              "name": "APIFY_TOKEN",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "dist/stdio.js",
-            "--actors",
-            "apify/rag-web-browser,lukaskrivka/google-maps-with-contact-details"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@apify/actors-mcp-server"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://localhost:3001"
-      }
-    ],
-    "repo_ref": "apify/actors-mcp-server",
+    "repository": {
+      "id": "911256711",
+      "source": "github",
+      "url": "https://github.com/apify/actors-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apify/servers/actors-mcp-server/versions/1",
     "serverid": "actors-mcp-server",
@@ -143,7 +126,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:16Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/apify/servers/actors-mcp-server/versions/1"

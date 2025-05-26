@@ -1,53 +1,31 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:38.782656493Z",
-  "description": "An MCP-compliant server that enables AI assistants to access and analyze customer support data from Intercom.",
+  "createdat": "2025-05-26T10:35:38.137121848Z",
+  "description": "",
   "epoch": 1,
+  "id": "1967f4e6-f229-4d5f-a648-9bdc67d39da8",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:38.782656493Z",
+  "modifiedat": "2025-05-26T10:35:38.137121848Z",
   "name": "io.github.raoulbia-ai/mcp-server-for-intercom",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your_intercom_api_token",
+          "name": "INTERCOM_ACCESS_TOKEN"
+        }
+      ],
+      "name": "mcp-server-for-intercom",
+      "registry_name": "unknown",
+      "version": "1.0.0"
+    }
+  ],
   "prompts": [],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Your Intercom API token",
-            "name": "INTERCOM_ACCESS_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "container",
-      "package_name": "mcp-intercom:latest"
-    },
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Your Intercom API token",
-            "name": "INTERCOM_ACCESS_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "mcp-server-for-intercom"
-    }
-  ],
-  "remotes": [
-    {
-      "transporttype": "http",
-      "url": "http://localhost:8080"
-    }
-  ],
-  "repo_ref": "raoulbia-ai/mcp-server-for-intercom",
+  "repository": {
+    "id": "945565923",
+    "source": "github",
+    "url": "https://github.com/raoulbia-ai/mcp-server-for-intercom"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/versions/1",
   "serverid": "mcp-server-for-intercom",
@@ -167,7 +145,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:08:28Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/versions/1"

@@ -1,42 +1,56 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:26.697531843Z",
-  "description": "MCP server implementation providing tools for filesystem operations and Adfin API interactions, enabling Claude Desktop integration.",
+  "createdat": "2025-05-26T10:34:04.272957451Z",
+  "description": "A Model Context Protocol Server for connecting with Adfin APIs ",
   "epoch": 1,
+  "id": "d3669201-252f-403c-944b-c3ec0845782b",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:26.697531843Z",
-  "name": "io.github.Adfin-Engineering/mcp-server-adfin",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:04.272957451Z",
+  "name": "io.github.adfin-engineering/mcp-server-adfin",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "User email for Adfin authentication",
-            "name": "ADFIN_EMAIL",
-            "required": true
-          },
-          {
-            "description": "User password for Adfin authentication",
-            "name": "ADFIN_PASSWORD",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "--directory",
-          "\u003cabsolute_path_to_adfin_mcp_folder\u003e",
-          "run",
-          "main_adfin_mcp.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uv",
-      "package_name": "unknown"
+      "environment_variables": [
+        {
+          "description": "\u003cemail\u003e",
+          "name": "ADFIN_EMAIL"
+        },
+        {
+          "description": "\u003cpassword\u003e",
+          "name": "ADFIN_PASSWORD"
+        }
+      ],
+      "name": "adfinmcp",
+      "package_arguments": [
+        {
+          "default": "--directory \u003cabsolute_path_to_adfin_mcp_folder\u003e",
+          "description": "Directory to run the project from",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory \u003cabsolute_path_to_adfin_mcp_folder\u003e",
+          "type": "named",
+          "value": "--directory \u003cabsolute_path_to_adfin_mcp_folder\u003e",
+          "value_hint": "\u003cabsolute_path_to_adfin_mcp_folder\u003e"
+        },
+        {
+          "default": "main_adfin_mcp.py",
+          "description": "Script to execute",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "main_adfin_mcp.py",
+          "value_hint": "main_adfin_mcp.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "Adfin-Engineering/mcp-server-adfin",
+  "prompts": [],
+  "repository": {
+    "id": "951338147",
+    "source": "github",
+    "url": "https://github.com/Adfin-Engineering/mcp-server-adfin"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Adfin-Engineering/servers/mcp-server-adfin/versions/1",
   "serverid": "mcp-server-adfin",
@@ -124,7 +138,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:56:52Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/Adfin-Engineering/servers/mcp-server-adfin/versions/1"

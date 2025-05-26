@@ -1,47 +1,41 @@
 {
   "graphlit-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:58.53457896Z",
-    "description": "The Model Context Protocol (MCP) Server enables integration between MCP clients and the Graphlit service. It acts as a searchable, and RAG-ready knowledge base across developer and product management tools, ingesting data from various sources and providing tools for retrieval, RAG, extraction, publishing, ingestion, data connectors, web operations, notifications, and management operations.",
-    "documentation": "https://www.graphlit.com/blog/graphlit-mcp-server",
+    "createdat": "2025-05-26T10:34:43.969397777Z",
+    "description": "Model Context Protocol (MCP) Server for Graphlit Platform",
     "epoch": 1,
+    "id": "e44b5cad-3801-4403-b8ee-67f3ea1cd909",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/graphlit/servers/graphlit-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:16:58.53457896Z",
+    "modifiedat": "2025-05-26T10:34:43.969397777Z",
     "name": "io.github.graphlit/graphlit-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Your environment ID.",
-              "name": "GRAPHLIT_ENVIRONMENT_ID",
-              "required": true
-            },
-            {
-              "description": "Your organization ID.",
-              "name": "GRAPHLIT_ORGANIZATION_ID",
-              "required": true
-            },
-            {
-              "description": "Your JWT secret for signing the JWT token.",
-              "name": "GRAPHLIT_JWT_SECRET",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "index.js"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "graphlit-mcp-server"
+        "environment_variables": [
+          {
+            "description": "${input:organization_id}",
+            "name": "GRAPHLIT_ORGANIZATION_ID"
+          },
+          {
+            "description": "${input:environment_id}",
+            "name": "GRAPHLIT_ENVIRONMENT_ID"
+          },
+          {
+            "description": "${input:jwt_secret}",
+            "name": "GRAPHLIT_JWT_SECRET"
+          }
+        ],
+        "name": "graphlit-mcp-server",
+        "registry_name": "npm",
+        "version": "1.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "graphlit/graphlit-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "940989522",
+      "source": "github",
+      "url": "https://github.com/graphlit/graphlit-mcp-server"
+    },
     "resources": [
       {
         "description": "Returns list of conversation resources.",
@@ -1293,7 +1287,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:59:21Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

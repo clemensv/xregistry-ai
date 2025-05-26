@@ -1,66 +1,78 @@
 {
   "elevenlabs-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:18.386410435Z",
-    "description": "A Model Context Protocol (MCP) server that integrates with ElevenLabs text-to-speech API, featuring both a server component and a sample web-based MCP Client (SvelteKit) for managing voice generation tasks.",
+    "createdat": "2025-05-26T10:35:09.942348537Z",
+    "description": "",
     "epoch": 1,
+    "id": "1d89482a-a7de-4d3b-a7cb-1b7be49939ec",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mamertofabian/servers/elevenlabs-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:17:18.386410435Z",
+    "modifiedat": "2025-05-26T10:35:09.942348537Z",
     "name": "io.github.mamertofabian/elevenlabs-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API key for ElevenLabs",
-              "name": "ELEVENLABS_API_KEY",
-              "required": true
-            },
-            {
-              "description": "Default voice ID to use",
-              "name": "ELEVENLABS_VOICE_ID",
-              "required": false
-            },
-            {
-              "description": "Model ID for voice generation",
-              "name": "ELEVENLABS_MODEL_ID",
-              "required": false
-            },
-            {
-              "description": "Stability parameter for voice synthesis",
-              "name": "ELEVENLABS_STABILITY",
-              "required": false
-            },
-            {
-              "description": "Similarity boost parameter",
-              "name": "ELEVENLABS_SIMILARITY_BOOST",
-              "required": false
-            },
-            {
-              "description": "Style parameter for voice",
-              "name": "ELEVENLABS_STYLE",
-              "required": false
-            },
-            {
-              "description": "Output directory for audio files",
-              "name": "ELEVENLABS_OUTPUT_DIR",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "elevenlabs-mcp-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@smithery/elevenlabs-mcp-server"
+        "environment_variables": [
+          {
+            "description": "your-api-key",
+            "name": "ELEVENLABS_API_KEY"
+          },
+          {
+            "description": "your-voice-id",
+            "name": "ELEVENLABS_VOICE_ID"
+          },
+          {
+            "description": "eleven_flash_v2",
+            "name": "ELEVENLABS_MODEL_ID"
+          },
+          {
+            "description": "0.5",
+            "name": "ELEVENLABS_STABILITY"
+          },
+          {
+            "description": "0.75",
+            "name": "ELEVENLABS_SIMILARITY_BOOST"
+          },
+          {
+            "description": "0.1",
+            "name": "ELEVENLABS_STYLE"
+          },
+          {
+            "description": "output",
+            "name": "ELEVENLABS_OUTPUT_DIR"
+          }
+        ],
+        "name": "elevenlabs-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--directory path/to/elevenlabs-mcp-server",
+            "description": "Flag to specify a directory for the server",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory path/to/elevenlabs-mcp-server",
+            "type": "named",
+            "value": "--directory path/to/elevenlabs-mcp-server",
+            "value_hint": "path/to/elevenlabs-mcp-server"
+          },
+          {
+            "default": "elevenlabs-mcp-server",
+            "description": "Positional argument specifying the target server to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "elevenlabs-mcp-server",
+            "value_hint": "elevenlabs-mcp-server"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.1"
       }
     ],
-    "remotes": [],
-    "repo_ref": "mamertofabian/elevenlabs-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "906473152",
+      "source": "github",
+      "url": "https://github.com/mamertofabian/elevenlabs-mcp-server"
+    },
     "resources": [
       {
         "description": "Access voiceover job history. Provide job_id for specific job or omit for all jobs.",
@@ -171,7 +183,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:06:20Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
@@ -180,34 +194,54 @@
   },
   "mcp-everything-search": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:18.615453612Z",
-    "description": "An MCP server that provides fast file searching capabilities across Windows, macOS, and Linux. On Windows, it uses the Everything SDK. On macOS, it uses the built-in mdfind command. On Linux, it uses the locate/plocate command.",
+    "createdat": "2025-05-26T10:35:10.199581915Z",
+    "description": "",
     "epoch": 1,
+    "id": "c6f8403f-30d0-45d2-b7c3-95a6cb61c4b4",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mamertofabian/servers/mcp-everything-search/meta",
-    "modifiedat": "2025-05-26T08:17:18.615453612Z",
+    "modifiedat": "2025-05-26T10:35:10.199581915Z",
     "name": "io.github.mamertofabian/mcp-everything-search",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Path to Everything SDK DLL on Windows",
-              "name": "EVERYTHING_SDK_PATH",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "mcp-server-everything-search"
+        "environment_variables": [
+          {
+            "description": "path/to/Everything-SDK/dll/Everything64.dll",
+            "name": "EVERYTHING_SDK_PATH"
+          }
+        ],
+        "name": "mcp-server-everything-search",
+        "package_arguments": [
+          {
+            "default": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+            "description": "Sets the directory to operate from.",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+            "type": "named",
+            "value": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+            "value_hint": "/path/to/mcp-everything-search/src/mcp_server_everything_search"
+          },
+          {
+            "default": "mcp-server-everything-search",
+            "description": "Server name to execute (positional argument)",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp-server-everything-search",
+            "value_hint": "mcp-server-everything-search"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.2.1"
       }
     ],
-    "remotes": [],
-    "repo_ref": "mamertofabian/mcp-everything-search",
+    "prompts": [],
+    "repository": {
+      "id": "903415597",
+      "source": "github",
+      "url": "https://github.com/mamertofabian/mcp-everything-search"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mamertofabian/servers/mcp-everything-search",
     "serverid": "mcp-everything-search",
@@ -262,7 +296,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:06:30Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

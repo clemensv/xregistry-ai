@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:02.802832188Z",
+  "createdat": "2025-05-26T10:34:49.882463046Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/InditexTech/servers/mcp-server-simulator-ios-idb/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:02.802832188Z",
+  "modifiedat": "2025-05-26T10:34:49.882463046Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/InditexTech/servers/mcp-server-simulator-ios-idb/meta",
   "serverid": "mcp-server-simulator-ios-idb",

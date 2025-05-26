@@ -1,45 +1,35 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:42.01051789Z",
-  "description": "A MCP (Model Context Protocol) provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's thought processes from the Deepseek API service or from a local Ollama server.",
+  "createdat": "2025-05-26T10:35:43.000473076Z",
+  "description": "A MCP provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's CoT from the Deepseek API service or a local Ollama server.",
   "epoch": 1,
+  "id": "883a7c72-e6ca-41cb-91e9-e65436a58729",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:42.01051789Z",
+  "modifiedat": "2025-05-26T10:35:43.000473076Z",
   "name": "io.github.ruixingshi/deepseek-thinker-mcp",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Your OpenAI API Key",
-            "name": "API_KEY",
-            "required": false
-          },
-          {
-            "description": "API Base URL",
-            "name": "BASE_URL",
-            "required": false
-          },
-          {
-            "description": "Set to true to use Ollama mode",
-            "name": "USE_OLLAMA",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "deepseek-thinker-mcp"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "deepseek-thinker-mcp"
+      "environment_variables": [
+        {
+          "description": "\u003cYour API Key\u003e",
+          "name": "API_KEY"
+        },
+        {
+          "description": "\u003cYour Base URL\u003e",
+          "name": "BASE_URL"
+        }
+      ],
+      "name": "deepseek-thinker-mcp",
+      "registry_name": "unknown",
+      "version": "1.0.2"
     }
   ],
-  "remotes": [],
-  "repo_ref": "ruixingshi/deepseek-thinker-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "931883120",
+    "source": "github",
+    "url": "https://github.com/ruixingshi/deepseek-thinker-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ruixingshi/servers/deepseek-thinker-mcp/versions/1",
   "serverid": "deepseek-thinker-mcp",
@@ -62,7 +52,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:38Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/ruixingshi/servers/deepseek-thinker-mcp/versions/1"

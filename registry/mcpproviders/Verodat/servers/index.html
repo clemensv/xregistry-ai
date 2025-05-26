@@ -1,41 +1,48 @@
 {
   "verodat-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:18:01.491953986Z",
-    "description": "A Model Context Protocol (MCP) server implementation for Verodat, allowing AI models to interact with Verodat's data management capabilities through well-defined tools.",
+    "createdat": "2025-05-26T10:36:12.02614325Z",
+    "description": "Verodat MCP Server Implementation",
     "epoch": 1,
+    "id": "c0c30db1-cc08-426e-886f-0bdbcd31d101",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Verodat/servers/verodat-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:18:01.491953986Z",
-    "name": "io.github.Verodat/verodat-mcp-server",
-    "prompts": [],
-    "registries": [
+    "modifiedat": "2025-05-26T10:36:12.02614325Z",
+    "name": "io.github.verodat/verodat-mcp-server",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API key for authentication",
-              "name": "VERODAT_AI_API_KEY",
-              "required": true
-            },
-            {
-              "description": "Base URL for Verodat API",
-              "name": "VERODAT_API_BASE_URL",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "path/to/verodat-mcp-server/build/src/consume.js"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@Verodat/verodat-mcp-server"
+        "environment_variables": [
+          {
+            "description": "your-api-key",
+            "name": "VERODAT_AI_API_KEY"
+          },
+          {
+            "description": "https://verodat.io/api/v3",
+            "name": "VERODAT_API_BASE_URL"
+          }
+        ],
+        "name": "verodat-mcp-server",
+        "package_arguments": [
+          {
+            "default": "path/to/verodat-mcp-server/build/src/consume.js",
+            "description": "Path to script file to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/verodat-mcp-server/build/src/consume.js",
+            "value_hint": "path/to/verodat-mcp-server/build/src/consume.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "Verodat/verodat-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "924683561",
+      "source": "github",
+      "url": "https://github.com/Verodat/verodat-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Verodat/servers/verodat-mcp-server",
     "serverid": "verodat-mcp-server",
@@ -132,7 +139,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:02:20Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

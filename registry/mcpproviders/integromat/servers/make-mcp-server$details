@@ -1,52 +1,48 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:03.73575577Z",
-  "description": "A Model Context Protocol server that enables Make scenarios to be utilized as tools by AI assistants. This integration allows AI systems to trigger and interact with your Make automation workflows.",
+  "createdat": "2025-05-26T10:34:50.849194527Z",
+  "description": "Make MCP Server",
   "epoch": 1,
+  "id": "f4fca7d7-fbab-4174-ba76-1396c3451cf1",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/integromat/servers/make-mcp-server/meta",
-  "modifiedat": "2025-05-26T08:17:03.73575577Z",
+  "modifiedat": "2025-05-26T10:34:50.849194527Z",
   "name": "io.github.integromat/make-mcp-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for Make with scenarios:read and scenarios:run scopes",
-            "name": "MAKE_API_KEY",
-            "required": true
-          },
-          {
-            "description": "The zone your organization is hosted in (e.g., eu2.make.com)",
-            "name": "MAKE_ZONE",
-            "required": true
-          },
-          {
-            "description": "The Team ID found in the URL of the Team page",
-            "name": "MAKE_TEAM",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@makehq/mcp-server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@makehq/mcp-server"
+      "environment_variables": [
+        {
+          "description": "\u003cyour-api-key\u003e",
+          "name": "MAKE_API_KEY"
+        },
+        {
+          "description": "\u003cyour-zone\u003e",
+          "name": "MAKE_ZONE"
+        },
+        {
+          "description": "\u003cyour-team-id\u003e",
+          "name": "MAKE_TEAM"
+        }
+      ],
+      "name": "@makehq/mcp-server",
+      "registry_name": "npm",
+      "version": "0.5.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "integromat/make-mcp-server",
+  "prompts": [],
+  "repository": {
+    "id": "946079810",
+    "source": "github",
+    "url": "https://github.com/integromat/make-mcp-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/integromat/servers/make-mcp-server",
   "serverid": "make-mcp-server",
   "tools": [],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:00:16Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:42.01051789Z",
+  "createdat": "2025-05-26T10:35:43.000473076Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ruixingshi/servers/deepseek-thinker-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:42.01051789Z",
+  "modifiedat": "2025-05-26T10:35:43.000473076Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ruixingshi/servers/deepseek-thinker-mcp/meta",
   "serverid": "deepseek-thinker-mcp",

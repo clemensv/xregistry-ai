@@ -1,12 +1,69 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:49.586539841Z",
-  "description": "Connect to Hugging Face Spaces with minimal setup needed - simply add your spaces and go! Provides Image Generation capabilities to Claude Desktop.",
+  "createdat": "2025-05-26T10:34:33.571776431Z",
+  "description": "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode. ",
   "epoch": 1,
+  "id": "532d7690-7a65-470f-81da-2ba3042bee05",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/evalstate/servers/mcp-hfspace/meta",
-  "modifiedat": "2025-05-26T08:16:49.586539841Z",
+  "modifiedat": "2025-05-26T10:34:33.571776431Z",
   "name": "io.github.evalstate/mcp-hfspace",
+  "packages": [
+    {
+      "name": "@llmindset/mcp-hfspace",
+      "package_arguments": [
+        {
+          "default": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "description": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "format": "string",
+          "is_required": true,
+          "name": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "type": "named",
+          "value": "--work-dir=~/mcp-files/ or x:/temp/mcp-files/",
+          "value_hint": "~/mcp-files/ or x:/temp/mcp-files/"
+        },
+        {
+          "default": "--HF_TOKEN=HF_{optional token}",
+          "description": "--HF_TOKEN=HF_{optional token}",
+          "format": "string",
+          "is_required": true,
+          "name": "--HF_TOKEN=HF_{optional token}",
+          "type": "named",
+          "value": "--HF_TOKEN=HF_{optional token}",
+          "value_hint": "HF_{optional token}"
+        },
+        {
+          "default": "Qwen/Qwen2-72B-Instruct",
+          "description": "Qwen/Qwen2-72B-Instruct",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "Qwen/Qwen2-72B-Instruct",
+          "value_hint": "Qwen/Qwen2-72B-Instruct"
+        },
+        {
+          "default": "black-forest-labs/FLUX.1-schnell",
+          "description": "black-forest-labs/FLUX.1-schnell",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "black-forest-labs/FLUX.1-schnell",
+          "value_hint": "black-forest-labs/FLUX.1-schnell"
+        },
+        {
+          "default": "space/example/specific-endpint",
+          "description": "space/example/specific-endpint",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "space/example/specific-endpint",
+          "value_hint": "space/example/specific-endpint"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "0.5.4"
+    }
+  ],
   "prompts": [
     {
       "arguments": [],
@@ -34,34 +91,11 @@
       "name": "Qwen/QVQ-72B-preview"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Working directory for file upload/download",
-            "name": "MCP_HF_WORK_DIR",
-            "required": false
-          },
-          {
-            "description": "Hugging Face Token for private spaces",
-            "name": "HF_TOKEN",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@llmindset/mcp-hfspace"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@llmindset/mcp-hfspace"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "evalstate/mcp-hfspace",
+  "repository": {
+    "id": "898049335",
+    "source": "github",
+    "url": "https://github.com/evalstate/mcp-hfspace"
+  },
   "resources": [
     {
       "description": "List of available files and resources in the working directory.",
@@ -124,7 +158,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:08:10Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

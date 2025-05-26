@@ -1,28 +1,47 @@
 {
   "mcp-server-singlestore": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:46.93251976Z",
-    "description": "MCP server for SingleStore enabling integration with LLM clients like Claude Desktop and Cursor to perform operations using natural language.",
+    "createdat": "2025-05-26T10:35:49.946585478Z",
+    "description": "MCP server for interacting with SingleStore Management API and services",
     "epoch": 1,
+    "id": "901e1b1c-7414-4240-89b8-1def9aca4708",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/singlestore-labs/servers/mcp-server-singlestore/meta",
-    "modifiedat": "2025-05-26T08:17:46.93251976Z",
+    "modifiedat": "2025-05-26T10:35:49.946585478Z",
     "name": "io.github.singlestore-labs/mcp-server-singlestore",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "singlestore-mcp-server"
+        "name": "singlestore_mcp_server",
+        "package_arguments": [
+          {
+            "default": "start",
+            "description": "Start the single store MCP server",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "start",
+            "value_hint": "start"
+          },
+          {
+            "default": "\u003cSINGLESTORE_API_KEY\u003e",
+            "description": "SingleStore API Key",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "\u003cSINGLESTORE_API_KEY\u003e",
+            "value_hint": "\u003cSINGLESTORE_API_KEY\u003e"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": ""
       }
     ],
-    "remotes": [],
-    "repo_ref": "singlestore-labs/mcp-server-singlestore",
+    "prompts": [],
+    "repository": {
+      "id": "941979361",
+      "source": "github",
+      "url": "https://github.com/singlestore-labs/mcp-server-singlestore"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/singlestore-labs/servers/mcp-server-singlestore",
     "serverid": "mcp-server-singlestore",
@@ -124,7 +143,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:01:55Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

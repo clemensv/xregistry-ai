@@ -1,11 +1,36 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:34.48336344Z",
-  "description": "A TypeScript framework for building MCP servers capable of handling client sessions.",
+  "createdat": "2025-05-26T10:35:32.760782111Z",
+  "description": "A TypeScript framework for building MCP servers.",
   "epoch": 1,
+  "id": "c978017d-b94a-4d0c-a46e-5395cb94a67e",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:34.48336344Z",
+  "modifiedat": "2025-05-26T10:35:32.760782111Z",
   "name": "io.github.punkpeye/fastmcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "value",
+          "name": "YOUR_ENV_VAR"
+        }
+      ],
+      "name": "fastmcp",
+      "package_arguments": [
+        {
+          "default": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "description": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "value_hint": "/PATH/TO/YOUR_PROJECT/src/index.ts"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.0.0"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -30,20 +55,11 @@
       "name": "countryPoem"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "fastmcp"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "punkpeye/fastmcp",
+  "repository": {
+    "id": "908799323",
+    "source": "github",
+    "url": "https://github.com/punkpeye/fastmcp"
+  },
   "resources": [
     {
       "mimetype": "text/plain",
@@ -108,7 +124,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:16:25Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/punkpeye/servers/fastmcp/versions/1"

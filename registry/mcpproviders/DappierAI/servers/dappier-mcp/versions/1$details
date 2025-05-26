@@ -1,32 +1,31 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:43.861085461Z",
-  "description": "A Model Context Protocol (MCP) server that connects any LLM or Agentic AI to real-time, rights-cleared, proprietary data from trusted sources. Dappier enables your AI to become an expert in anything by providing access to specialized models, including Real-Time Web Search, News, Sports, Financial Stock Market Data, Crypto Data, and exclusive content from premium publishers.",
+  "createdat": "2025-05-26T10:34:26.325575557Z",
+  "description": "Enable fast, free real-time web search and access premium data from trusted media brands—news, financial markets, sports, entertainment, weather, and more. Build powerful AI agents with Dappier.",
   "epoch": 1,
+  "id": "58b5f6c8-1ad7-4378-9921-7b9b7982c84c",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:43.861085461Z",
-  "name": "io.github.DappierAI/dappier-mcp",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:26.325575557Z",
+  "name": "io.github.dappierai/dappier-mcp",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for accessing Dappier services",
-            "name": "DAPPIER_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "dappier-mcp"
+      "environment_variables": [
+        {
+          "description": "YOUR_API_KEY_HERE",
+          "name": "DAPPIER_API_KEY"
+        }
+      ],
+      "name": "dappier-mcp",
+      "registry_name": "unknown",
+      "version": "0.3.2"
     }
   ],
-  "remotes": [],
-  "repo_ref": "DappierAI/dappier-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "923666627",
+    "source": "github",
+    "url": "https://github.com/DappierAI/dappier-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/DappierAI/servers/dappier-mcp/versions/1",
   "serverid": "dappier-mcp",
@@ -89,7 +88,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:08Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/DappierAI/servers/dappier-mcp/versions/1"

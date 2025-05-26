@@ -1,35 +1,31 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:46.26099987Z",
-  "description": "A Model Context Protocol (MCP) server for the DeepSeek API, allowing seamless integration of DeepSeek's powerful language models with MCP-compatible applications like Claude Desktop.",
+  "createdat": "2025-05-26T10:34:29.534580262Z",
+  "description": "Model Context Protocol server for DeepSeek's advanced language models",
   "epoch": 1,
+  "id": "345bf964-02ce-4814-b37f-52c2e73ab395",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:46.26099987Z",
-  "name": "io.github.DMontgomery40/deepseek-mcp-server",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:29.534580262Z",
+  "name": "io.github.dmontgomery40/deepseek-mcp-server",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for DeepSeek API",
-            "name": "DEEPSEEK_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "deepseek-mcp-server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "deepseek-mcp-server"
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "DEEPSEEK_API_KEY"
+        }
+      ],
+      "name": "deepseek-mcp-server",
+      "registry_name": "npm",
+      "version": "0.2.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "DMontgomery40/deepseek-mcp-server",
+  "prompts": [],
+  "repository": {
+    "id": "920179950",
+    "source": "github",
+    "url": "https://github.com/DMontgomery40/deepseek-mcp-server"
+  },
   "resources": [
     {
       "description": "Resource exposing available models with their capabilities.",
@@ -198,7 +194,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:34Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/DMontgomery40/servers/deepseek-mcp-server/versions/1"

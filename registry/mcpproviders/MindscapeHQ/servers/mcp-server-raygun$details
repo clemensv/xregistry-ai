@@ -1,36 +1,32 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:23.76460506Z",
-  "description": "MCP Server for Raygun's API V3 endpoints for interacting with your Crash Reporting and Real User Monitoring applications. This server provides comprehensive access to Raygun's API features through the Model Context Protocol.",
+  "createdat": "2025-05-26T10:35:17.661739678Z",
+  "description": "",
   "epoch": 1,
+  "id": "f6ee7600-c27a-4210-9a94-29a35c41c274",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/MindscapeHQ/servers/mcp-server-raygun/meta",
-  "modifiedat": "2025-05-26T08:17:23.76460506Z",
-  "name": "io.github.MindscapeHQ/mcp-server-raygun",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:35:17.661739678Z",
+  "name": "io.github.mindscapehq/mcp-server-raygun",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Your Raygun PAT token",
-            "name": "RAYGUN_PAT_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@raygun.io/mcp-server-raygun"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@raygun.io/mcp-server-raygun"
+      "environment_variables": [
+        {
+          "description": "your-pat-token-ken",
+          "name": "RAYGUN_PAT_TOKEN"
+        }
+      ],
+      "name": "@raygun.io/mcp-server-raygun",
+      "registry_name": "unknown",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "MindscapeHQ/mcp-server-raygun",
+  "prompts": [],
+  "repository": {
+    "id": "895741231",
+    "source": "github",
+    "url": "https://github.com/MindscapeHQ/mcp-server-raygun"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/MindscapeHQ/servers/mcp-server-raygun",
   "serverid": "mcp-server-raygun",
@@ -325,7 +321,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:01:41Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

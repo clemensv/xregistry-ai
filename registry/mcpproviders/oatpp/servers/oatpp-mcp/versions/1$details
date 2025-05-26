@@ -1,20 +1,29 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:27.218896478Z",
+  "createdat": "2025-05-26T10:35:22.841474663Z",
   "description": "Anthropic’s Model Context Protocol implementation for Oat++",
-  "documentation": "https://www.anthropic.com/news/model-context-protocol",
   "epoch": 1,
+  "id": "9fdf29e9-6059-4a99-a5ae-4c0eda7627eb",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:27.218896478Z",
+  "modifiedat": "2025-05-26T10:35:22.841474663Z",
   "name": "io.github.oatpp/oatpp-mcp",
+  "packages": [
+    {
+      "name": "oatpp/oatpp-mcp",
+      "registry_name": "unknown",
+      "version": ""
+    }
+  ],
   "prompts": [
     {
       "name": "CodeReview"
     }
   ],
-  "registries": [],
-  "remotes": [],
-  "repo_ref": "oatpp/oatpp-mcp",
+  "repository": {
+    "id": "900529643",
+    "source": "github",
+    "url": "https://github.com/oatpp/oatpp-mcp"
+  },
   "resources": [
     {
       "name": "File"
@@ -28,7 +37,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:31Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/oatpp/servers/oatpp-mcp/versions/1"

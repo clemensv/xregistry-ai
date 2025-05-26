@@ -1,53 +1,65 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:07.632995521Z",
-  "description": "A simple implementation of an MCP server for using dify workflows. It achieves the invocation of the Dify workflow by calling the tools of MCP.",
+  "createdat": "2025-05-26T10:36:20.122178072Z",
+  "description": "Model Context Protocol (MCP) Server for dify workflows",
   "epoch": 1,
+  "id": "5f64133c-70f4-4044-ac82-dcb2e7758c8c",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/YanxingLiu/servers/dify-mcp-server/meta",
-  "modifiedat": "2025-05-26T08:18:07.632995521Z",
-  "name": "io.github.YanxingLiu/dify-mcp-server",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:36:20.122178072Z",
+  "name": "io.github.yanxingliu/dify-mcp-server",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "The base URL for your Dify API.",
-            "name": "DIFY_BASE_URL",
-            "required": false
-          },
-          {
-            "description": "Comma-separated list of your Dify App Secret Keys (SKs).",
-            "name": "DIFY_APP_SKS",
-            "required": false
-          },
-          {
-            "description": "Path to config.yaml file.",
-            "name": "CONFIG_PATH",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "--from",
-          "git+https://github.com/YanxingLiu/dify-mcp-server",
-          "dify_mcp_server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uvx",
-      "package_name": "dify-mcp-server"
+      "environment_variables": [
+        {
+          "description": "https://cloud.dify.ai/v1",
+          "name": "DIFY_BASE_URL"
+        },
+        {
+          "description": "app-sk1,app-sk2",
+          "name": "DIFY_APP_SKS"
+        }
+      ],
+      "name": "dify-mcp-server",
+      "package_arguments": [
+        {
+          "default": "--directory /Users/lyx/Downloads/dify-mcp-server",
+          "description": "Directory path to operate in",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /Users/lyx/Downloads/dify-mcp-server",
+          "type": "named",
+          "value": "--directory /Users/lyx/Downloads/dify-mcp-server",
+          "value_hint": "/Users/lyx/Downloads/dify-mcp-server"
+        },
+        {
+          "default": "dify_mcp_server",
+          "description": "Server script/module",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "dify_mcp_server",
+          "value_hint": "dify_mcp_server"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "YanxingLiu/dify-mcp-server",
+  "prompts": [],
+  "repository": {
+    "id": "908244326",
+    "source": "github",
+    "url": "https://github.com/YanxingLiu/dify-mcp-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/YanxingLiu/servers/dify-mcp-server",
   "serverid": "dify-mcp-server",
   "tools": [],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:51Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

@@ -1,34 +1,31 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:59.878815304Z",
-  "description": "A Model Context Protocol (MCP) server that provides seamless integration with Notion. This server enables Language Models to interact with your Notion workspace through standardized tools for searching, reading, creating, and updating pages and databases.",
+  "createdat": "2025-05-26T10:36:10.363271975Z",
+  "description": "",
   "epoch": 1,
+  "id": "1455eb68-3cf0-4cc3-a8ee-fd729a00acd3",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:59.878815304Z",
+  "modifiedat": "2025-05-26T10:36:10.363271975Z",
   "name": "io.github.v-3/notion-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Notion API key environment variable",
-            "name": "NOTION_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "/absolute/path/to/notion-server/build/index.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk"
+      "environment_variables": [
+        {
+          "description": "your_notion_api_key_here",
+          "name": "NOTION_API_KEY"
+        }
+      ],
+      "name": "notionmcp",
+      "registry_name": "unknown",
+      "version": "1.0.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "v-3/notion-server",
+  "prompts": [],
+  "repository": {
+    "id": "904087475",
+    "source": "github",
+    "url": "https://github.com/v-3/notion-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/v-3/servers/notion-server/versions/1",
   "serverid": "notion-server",
@@ -356,7 +353,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:24Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/v-3/servers/notion-server/versions/1"

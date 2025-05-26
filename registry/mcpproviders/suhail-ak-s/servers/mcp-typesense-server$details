@@ -1,12 +1,62 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:53.162374952Z",
-  "description": "A Model Context Protocol (MCP) server implementation that provides AI models with access to Typesense search capabilities. This server enables LLMs to discover, search, and analyze data stored in Typesense collections.",
+  "createdat": "2025-05-26T10:35:59.03567054Z",
+  "description": "",
   "epoch": 1,
+  "id": "a038d159-c51e-49ef-aa02-c794e8a5cb94",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/suhail-ak-s/servers/mcp-typesense-server/meta",
-  "modifiedat": "2025-05-26T08:17:53.162374952Z",
+  "modifiedat": "2025-05-26T10:35:59.03567054Z",
   "name": "io.github.suhail-ak-s/mcp-typesense-server",
+  "packages": [
+    {
+      "name": "typesense-mcp-server",
+      "package_arguments": [
+        {
+          "default": "--host your-typesense-host",
+          "description": "The Typesense server host",
+          "format": "string",
+          "is_required": true,
+          "name": "--host your-typesense-host",
+          "type": "named",
+          "value": "--host your-typesense-host",
+          "value_hint": "your-typesense-host"
+        },
+        {
+          "default": "--port 8108",
+          "description": "The Typesense server port",
+          "format": "string",
+          "is_required": true,
+          "name": "--port 8108",
+          "type": "named",
+          "value": "--port 8108",
+          "value_hint": "8108"
+        },
+        {
+          "default": "--protocol http",
+          "description": "The Typesense server protocol",
+          "format": "string",
+          "is_required": true,
+          "name": "--protocol http",
+          "type": "named",
+          "value": "--protocol http",
+          "value_hint": "http"
+        },
+        {
+          "default": "--api-key your-api-key",
+          "description": "The Typesense API key",
+          "format": "string",
+          "is_required": true,
+          "name": "--api-key your-api-key",
+          "type": "named",
+          "value": "--api-key your-api-key",
+          "value_hint": "your-api-key"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.0.0"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -31,30 +81,11 @@
       "name": "search_suggestions"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "dist/index.js",
-          "--host",
-          "your-typesense-host",
-          "--port",
-          "8108",
-          "--protocol",
-          "http",
-          "--api-key",
-          "your-api-key"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "typesense-mcp-server"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "suhail-ak-s/mcp-typesense-server",
+  "repository": {
+    "id": "940089654",
+    "source": "github",
+    "url": "https://github.com/suhail-ak-s/mcp-typesense-server"
+  },
   "resources": [
     {
       "description": "JSON schema information for each collection including field names and data types and sample documents",
@@ -136,7 +167,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:04Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

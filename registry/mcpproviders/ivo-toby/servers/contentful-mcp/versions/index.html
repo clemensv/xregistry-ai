@@ -1,43 +1,48 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:05.357328429Z",
-    "description": "An MCP server implementation that integrates with Contentful's Content Management API, providing comprehensive content management capabilities.",
+    "createdat": "2025-05-26T10:34:52.498541003Z",
+    "description": "MCP (Model Context Protocol) server for the Contentful Management API",
     "epoch": 1,
+    "id": "347d6881-c509-4dca-9ece-95e25098436b",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:17:05.357328429Z",
+    "modifiedat": "2025-05-26T10:34:52.498541003Z",
     "name": "io.github.ivo-toby/contentful-mcp",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Contentful Space ID",
-              "name": "SPACE_ID",
-              "required": true
-            },
-            {
-              "description": "Contentful Environment ID",
-              "name": "ENVIRONMENT_ID",
-              "required": false
-            },
-            {
-              "description": "Contentful API host",
-              "name": "CONTENTFUL_HOST",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@ivotoby/contentful-management-mcp-server"
+        "name": "@ivotoby/contentful-management-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--management-token \u003cyour token\u003e",
+            "description": "Management token for Contentful",
+            "format": "string",
+            "is_required": true,
+            "name": "--management-token \u003cyour token\u003e",
+            "type": "named",
+            "value": "--management-token \u003cyour token\u003e",
+            "value_hint": "\u003cyour token\u003e"
+          },
+          {
+            "default": "--host http://api.contentful.com",
+            "description": "Contentful API host address",
+            "format": "string",
+            "is_required": true,
+            "name": "--host http://api.contentful.com",
+            "type": "named",
+            "value": "--host http://api.contentful.com",
+            "value_hint": "http://api.contentful.com"
+          }
+        ],
+        "registry_name": "npm",
+        "version": "1.14.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "ivo-toby/contentful-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "898628964",
+      "source": "github",
+      "url": "https://github.com/ivo-toby/contentful-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ivo-toby/servers/contentful-mcp/versions/1",
     "serverid": "contentful-mcp",
@@ -266,7 +271,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:55Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/ivo-toby/servers/contentful-mcp/versions/1"

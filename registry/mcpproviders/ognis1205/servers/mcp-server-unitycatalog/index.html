@@ -1,58 +1,76 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:28.209153697Z",
-  "description": "A Model Context Protocol server for Unity Catalog providing Unity Catalog Functions as MCP tools.",
+  "createdat": "2025-05-26T10:35:23.884686247Z",
+  "description": "Unity Catalog AI Model Context Protocol Server",
   "epoch": 1,
+  "id": "51d74701-2a57-476f-a5ed-75a93be58f42",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog/meta",
-  "modifiedat": "2025-05-26T08:17:28.209153697Z",
+  "modifiedat": "2025-05-26T10:35:23.884686247Z",
   "name": "io.github.ognis1205/mcp-server-unitycatalog",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "The base URL of the Unity Catalog server.",
-            "name": "UC_SERVER",
-            "required": true
-          },
-          {
-            "description": "The name of the Unity Catalog catalog.",
-            "name": "UC_CATALOG",
-            "required": true
-          },
-          {
-            "description": "The name of the schema within a Unity Catalog catalog.",
-            "name": "UC_SCHEMA",
-            "required": true
-          },
-          {
-            "description": "The access token used to authorize API requests to the Unity Catalog server.",
-            "name": "UC_TOKEN",
-            "required": false
-          },
-          {
-            "description": "The verbosity level for logging. Default: warn.",
-            "name": "UC_VERBOSITY",
-            "required": false
-          },
-          {
-            "description": "The directory where log files will be stored. Default: .mcp_server_unitycatalog.",
-            "name": "UC_LOG_DIRECTORY",
-            "required": false
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uv",
-      "package_name": "mcp-server-unitycatalog"
+      "name": "mcp-server-unitycatalog",
+      "package_arguments": [
+        {
+          "default": "--rm",
+          "description": "Remove container after run",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm"
+        },
+        {
+          "default": "-i",
+          "description": "Keep STDIN open even if not attached",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i"
+        },
+        {
+          "default": "--uc_server \u003cyour unity catalog url\u003e",
+          "description": "Specify Unity Catalog server URL",
+          "format": "string",
+          "is_required": true,
+          "name": "--uc_server \u003cyour unity catalog url\u003e",
+          "type": "named",
+          "value": "--uc_server \u003cyour unity catalog url\u003e",
+          "value_hint": "\u003cyour unity catalog url\u003e"
+        },
+        {
+          "default": "--uc_catalog \u003cyour catalog name\u003e",
+          "description": "Specify Unity Catalog name",
+          "format": "string",
+          "is_required": true,
+          "name": "--uc_catalog \u003cyour catalog name\u003e",
+          "type": "named",
+          "value": "--uc_catalog \u003cyour catalog name\u003e",
+          "value_hint": "\u003cyour catalog name\u003e"
+        },
+        {
+          "default": "--uc_schema \u003cyour schema name\u003e",
+          "description": "Specify Unity Catalog schema name",
+          "format": "string",
+          "is_required": true,
+          "name": "--uc_schema \u003cyour schema name\u003e",
+          "type": "named",
+          "value": "--uc_schema \u003cyour schema name\u003e",
+          "value_hint": "\u003cyour schema name\u003e"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "ognis1205/mcp-server-unitycatalog",
+  "prompts": [],
+  "repository": {
+    "id": "926414362",
+    "source": "github",
+    "url": "https://github.com/ognis1205/mcp-server-unitycatalog"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog",
   "serverid": "mcp-server-unitycatalog",
@@ -117,7 +135,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:16Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

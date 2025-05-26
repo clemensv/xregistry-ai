@@ -1,0 +1,52 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:34:28.552339805Z",
+  "description": "SImple MCP server to manage your aranet4 device and local db.",
+  "epoch": 1,
+  "id": "775bd83c-b33a-471c-9deb-8a444fb4ac79",
+  "isdefault": true,
+  "modifiedat": "2025-05-26T10:34:28.552339805Z",
+  "name": "io.github.diegobit/aranet4-mcp-server",
+  "packages": [
+    {
+      "name": "aranet4-mcp-server",
+      "package_arguments": [
+        {
+          "default": "--directory {{PATH_TO_SRC}}/aranet4-mcp-server/",
+          "description": "Directory flag and its value",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory {{PATH_TO_SRC}}/aranet4-mcp-server/",
+          "type": "named",
+          "value": "--directory {{PATH_TO_SRC}}/aranet4-mcp-server/",
+          "value_hint": "{{PATH_TO_SRC}}/aranet4-mcp-server/"
+        },
+        {
+          "default": "src/server.py",
+          "description": "Python server file",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "src/server.py",
+          "value_hint": "src/server.py"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.0"
+    }
+  ],
+  "repository": {
+    "id": "965063885",
+    "source": "github",
+    "url": "https://github.com/diegobit/aranet4-mcp-server"
+  },
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/diegobit/servers/aranet4-mcp-server/versions/1",
+  "serverid": "aranet4-mcp-server",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:03:10Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/diegobit/servers/aranet4-mcp-server/versions/1"
+}

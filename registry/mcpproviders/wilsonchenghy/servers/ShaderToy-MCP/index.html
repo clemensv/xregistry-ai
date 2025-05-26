@@ -1,40 +1,62 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:05.448142145Z",
-  "description": "MCP Server for ShaderToy, connecting LLM like Claude with ShaderToy through Model Context Protocol (MCP), allowing the LLM to query and read the entire web page and generate complex shaders.",
+  "createdat": "2025-05-26T10:36:17.109820447Z",
+  "description": "",
   "epoch": 1,
+  "id": "0b245c5f-ba2b-4e8d-b9db-26681b0fa2e3",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wilsonchenghy/servers/ShaderToy-MCP/meta",
-  "modifiedat": "2025-05-26T08:18:05.448142145Z",
-  "name": "io.github.wilsonchenghy/ShaderToy-MCP",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:36:17.109820447Z",
+  "name": "io.github.wilsonchenghy/shadertoy-mcp",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for ShaderToy access",
-            "name": "SHADERTOY_APP_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "run",
-          "--with",
-          "mcp[cli]",
-          "mcp",
-          "run",
-          "\u003cpath_to_project\u003e/ShaderToy-MCP/src/ShaderToy-MCP/server.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uv",
-      "package_name": "mcp[cli]"
+      "environment_variables": [
+        {
+          "description": "your_actual_api_key",
+          "name": "SHADERTOY_APP_KEY"
+        }
+      ],
+      "name": "wilsonchenghy/ShaderToy-MCP",
+      "package_arguments": [
+        {
+          "default": "--with mcp[cli]",
+          "description": "Use with optional extra dependencies",
+          "format": "string",
+          "is_required": true,
+          "name": "--with mcp[cli]",
+          "type": "named",
+          "value": "--with mcp[cli]",
+          "value_hint": "mcp[cli]"
+        },
+        {
+          "default": "mcp",
+          "description": "Specify mcp command",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp",
+          "value_hint": "mcp"
+        },
+        {
+          "default": "\u003cpath_to_project\u003e/ShaderToy-MCP/src/ShaderToy-MCP/server.py",
+          "description": "Path to the ShaderToy-MCP server script",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "\u003cpath_to_project\u003e/ShaderToy-MCP/src/ShaderToy-MCP/server.py",
+          "value_hint": "\u003cpath_to_project\u003e/ShaderToy-MCP/src/ShaderToy-MCP/server.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "wilsonchenghy/ShaderToy-MCP",
+  "prompts": [],
+  "repository": {
+    "id": "958998300",
+    "source": "github",
+    "url": "https://github.com/wilsonchenghy/ShaderToy-MCP"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wilsonchenghy/servers/ShaderToy-MCP",
   "serverid": "ShaderToy-MCP",
@@ -55,7 +77,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:23Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

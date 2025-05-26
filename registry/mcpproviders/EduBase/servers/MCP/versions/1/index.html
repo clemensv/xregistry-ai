@@ -1,54 +1,98 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:48.063401081Z",
-  "description": "Implementation of the Model Context Protocol (MCP) server for the EduBase platform. It allows MCP clients and LLMs to interact with EduBase account and perform tasks.",
+  "createdat": "2025-05-26T10:34:31.623241435Z",
+  "description": "The EduBase MCP server enables Claude and other LLMs to interact with EduBase's comprehensive e-learning platform through the Model Context Protocol (MCP).",
   "epoch": 1,
+  "id": "33102362-9e44-442f-8aa9-4443ce50c396",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:48.063401081Z",
-  "name": "io.github.EduBase/MCP",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:31.623241435Z",
+  "name": "io.github.edubase/mcp",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "URL of the EduBase API",
-            "name": "EDUBASE_API_URL",
-            "required": true
-          },
-          {
-            "description": "EduBase API application identifier",
-            "name": "EDUBASE_API_APP",
-            "required": true
-          },
-          {
-            "description": "EduBase API key",
-            "name": "EDUBASE_API_KEY",
-            "required": true
-          },
-          {
-            "description": "Optional rate limit per second",
-            "name": "EDUBASE_API_MAXRATE",
-            "required": false
-          },
-          {
-            "description": "Optional rate limit per minute",
-            "name": "EDUBASE_API_MAXRATE60",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "/path/to/dist/index.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@EduBase/MCP"
+      "environment_variables": [
+        {
+          "description": "https://domain.edubase.net/api",
+          "name": "EDUBASE_API_URL"
+        },
+        {
+          "description": "your_integration_app_id",
+          "name": "EDUBASE_API_APP"
+        },
+        {
+          "description": "your_integration_secret_key",
+          "name": "EDUBASE_API_KEY"
+        }
+      ],
+      "name": "@edubase/mcp",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "-i",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i"
+        },
+        {
+          "default": "--rm",
+          "description": "--rm",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm"
+        },
+        {
+          "default": "-e EDUBASE_API_URL",
+          "description": "-e EDUBASE_API_URL",
+          "format": "string",
+          "is_required": true,
+          "name": "-e EDUBASE_API_URL",
+          "type": "named",
+          "value": "-e EDUBASE_API_URL",
+          "value_hint": "EDUBASE_API_URL"
+        },
+        {
+          "default": "-e EDUBASE_API_APP",
+          "description": "-e EDUBASE_API_APP",
+          "format": "string",
+          "is_required": true,
+          "name": "-e EDUBASE_API_APP",
+          "type": "named",
+          "value": "-e EDUBASE_API_APP",
+          "value_hint": "EDUBASE_API_APP"
+        },
+        {
+          "default": "-e EDUBASE_API_KEY",
+          "description": "-e EDUBASE_API_KEY",
+          "format": "string",
+          "is_required": true,
+          "name": "-e EDUBASE_API_KEY",
+          "type": "named",
+          "value": "-e EDUBASE_API_KEY",
+          "value_hint": "EDUBASE_API_KEY"
+        },
+        {
+          "default": "edubase/mcp",
+          "description": "edubase/mcp",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "edubase/mcp",
+          "value_hint": "edubase/mcp"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "1.0.10"
     }
   ],
-  "remotes": [],
-  "repo_ref": "EduBase/MCP",
+  "prompts": [],
+  "repository": {
+    "id": "940803959",
+    "source": "github",
+    "url": "https://github.com/EduBase/MCP"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/EduBase/servers/MCP/versions/1",
   "serverid": "MCP",
@@ -71,7 +115,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.10"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:58:35Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/EduBase/servers/MCP/versions/1"

@@ -1,36 +1,34 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:04.769329413Z",
-  "description": "Eunomia MCP Server is an extension of the Eunomia framework that connects Eunomia instruments with MCP servers. It provides a simple way to orchestrate data governance policies (like PII detection or user access control) and seamlessly integrate them with external server processes in the MCP ecosystem.",
+  "createdat": "2025-05-26T10:36:16.341150815Z",
+  "description": "",
   "epoch": 1,
+  "id": "35e1e1a0-30c9-4857-a9e0-5c64f7e29fa9",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/whataboutyou-ai/servers/eunomia-mcp-server/meta",
-  "modifiedat": "2025-05-26T08:18:04.769329413Z",
+  "modifiedat": "2025-05-26T10:36:16.341150815Z",
   "name": "io.github.whataboutyou-ai/eunomia-mcp-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "run",
-          "orchestra_server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python-asyncio",
-      "package_name": "eunomia-mcp-server"
+      "name": "eunomia-mcp-server",
+      "registry_name": "unknown",
+      "version": "0.0.2"
     }
   ],
-  "remotes": [],
-  "repo_ref": "whataboutyou-ai/eunomia-mcp-server",
+  "prompts": [],
+  "repository": {
+    "id": "915645627",
+    "source": "github",
+    "url": "https://github.com/whataboutyou-ai/eunomia-mcp-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/whataboutyou-ai/servers/eunomia-mcp-server",
   "serverid": "eunomia-mcp-server",
   "tools": [],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:06:25Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

@@ -1,29 +1,37 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:56.937429741Z",
+  "createdat": "2025-05-26T10:34:42.184233836Z",
   "description": "A Model Context Protocol (MCP) server that enables secure terminal command execution, directory navigation, and file system operations through a standardized interface.",
   "epoch": 1,
+  "id": "6275eefc-3f97-4a30-85ca-9678de62bdcf",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:56.937429741Z",
-  "name": "io.github.GongRzhe/terminal-controller-mcp",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:42.184233836Z",
+  "name": "io.github.gongrzhe/terminal-controller-mcp",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "-m",
-          "terminal_controller"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "terminal-controller"
+      "name": "terminal-controller",
+      "package_arguments": [
+        {
+          "default": "-m terminal_controller",
+          "description": "Positional module argument to run the module terminal_controller with python",
+          "format": "string",
+          "is_required": true,
+          "name": "-m terminal_controller",
+          "type": "named",
+          "value": "-m terminal_controller",
+          "value_hint": "terminal_controller"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.8"
     }
   ],
-  "remotes": [],
-  "repo_ref": "GongRzhe/terminal-controller-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "938867662",
+    "source": "github",
+    "url": "https://github.com/GongRzhe/terminal-controller-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp/versions/1",
   "serverid": "terminal-controller-mcp",
@@ -85,7 +93,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:38Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/GongRzhe/servers/terminal-controller-mcp/versions/1"

@@ -1,53 +1,55 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:30.217219358Z",
-    "description": "A Model Completion Protocol (MCP) server implementation for ServiceNow, allowing Claude to interact with ServiceNow instances.",
+    "createdat": "2025-05-26T10:35:26.546932834Z",
+    "description": "MCP Server for ServiceNow",
     "epoch": 1,
+    "id": "3f9a95e0-3a22-4ff8-8c92-60d89d847f5c",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:17:30.217219358Z",
+    "modifiedat": "2025-05-26T10:35:26.546932834Z",
     "name": "io.github.osomai/servicenow-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "https://your-instance.service-now.com",
+            "name": "SERVICENOW_INSTANCE_URL"
+          },
+          {
+            "description": "your-username",
+            "name": "SERVICENOW_USERNAME"
+          },
+          {
+            "description": "your-password",
+            "name": "SERVICENOW_PASSWORD"
+          },
+          {
+            "description": "basic",
+            "name": "SERVICENOW_AUTH_TYPE"
+          }
+        ],
+        "name": "servicenow-mcp",
+        "package_arguments": [
+          {
+            "default": "-m servicenow_mcp.cli",
+            "description": "Python module execution flag and module name",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "-m servicenow_mcp.cli",
+            "value_hint": "servicenow_mcp.cli"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "URL of the ServiceNow instance",
-              "name": "SERVICENOW_INSTANCE_URL",
-              "required": true
-            },
-            {
-              "description": "Username for authentication",
-              "name": "SERVICENOW_USERNAME",
-              "required": true
-            },
-            {
-              "description": "Password for authentication",
-              "name": "SERVICENOW_PASSWORD",
-              "required": true
-            },
-            {
-              "description": "Authentication type (basic, oauth, api_key)",
-              "name": "SERVICENOW_AUTH_TYPE",
-              "required": true
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "servicenow-mcp"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://0.0.0.0:8080"
-      }
-    ],
-    "repo_ref": "osomai/servicenow-mcp",
+    "repository": {
+      "id": "941149907",
+      "source": "github",
+      "url": "https://github.com/osomai/servicenow-mcp"
+    },
     "resources": [
       {
         "description": "Resource representing catalog items.",
@@ -91,7 +93,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:53Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/osomai/servers/servicenow-mcp/versions/1"

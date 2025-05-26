@@ -1,45 +1,39 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:23.080321387Z",
-  "description": "A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude. This server provides secure and comprehensive access to your Ghost blog, leveraging JWT authentication and a rich set of MCP tools for managing posts, users, members, tiers, offers, and newsletters.",
+  "createdat": "2025-05-26T10:35:16.972336795Z",
+  "description": "A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude. Allow you to control your Ghost blog by simply asking Claude etc.",
   "epoch": 1,
+  "id": "e4927319-b643-498e-935f-51bad4e30381",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:23.080321387Z",
-  "name": "io.github.MFYDev/ghost-mcp",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:35:16.972336795Z",
+  "name": "io.github.mfydev/ghost-mcp",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "URL of your Ghost blog",
-            "name": "GHOST_API_URL",
-            "required": true
-          },
-          {
-            "description": "Admin API key for Ghost",
-            "name": "GHOST_ADMIN_API_KEY",
-            "required": true
-          },
-          {
-            "description": "Ghost API version, e.g. v5.0",
-            "name": "GHOST_API_VERSION",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@fanyangmeng/ghost-mcp"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@fanyangmeng/ghost-mcp"
+      "environment_variables": [
+        {
+          "description": "https://yourblog.com",
+          "name": "GHOST_API_URL"
+        },
+        {
+          "description": "your_admin_api_key",
+          "name": "GHOST_ADMIN_API_KEY"
+        },
+        {
+          "description": "v5.0",
+          "name": "GHOST_API_VERSION"
+        }
+      ],
+      "name": "@fanyangmeng/ghost-mcp",
+      "registry_name": "npm",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "MFYDev/ghost-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "930747221",
+    "source": "github",
+    "url": "https://github.com/MFYDev/ghost-mcp"
+  },
   "resources": [
     {
       "description": "User resource identified by user_id.",
@@ -981,7 +975,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:06:59Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/MFYDev/servers/ghost-mcp/versions/1"

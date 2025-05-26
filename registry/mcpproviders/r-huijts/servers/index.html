@@ -1,37 +1,44 @@
 {
   "ns-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:36.853662464Z",
-    "description": "This MCP server connects Claude to real-time NS (Nederlandse Spoorwegen) travel information, making it your perfect companion for navigating the Netherlands by train.",
+    "createdat": "2025-05-26T10:35:35.437869911Z",
+    "description": "A Model Context Protocol (MCP) server that provides access to NS (Dutch Railways) travel information through Claude AI. This server enables Claude to fetch real-time train travel information and disruptions using the official Dutch NS API.",
     "epoch": 1,
+    "id": "afcff9a2-a4ed-457f-80fb-8bdd1948771a",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/ns-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:17:36.853662464Z",
+    "modifiedat": "2025-05-26T10:35:35.437869911Z",
     "name": "io.github.r-huijts/ns-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Your NS API key (required)",
-              "name": "NS_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "ns-mcp-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "ns-mcp-server"
+        "environment_variables": [
+          {
+            "description": "your_api_key_here",
+            "name": "NS_API_KEY"
+          }
+        ],
+        "name": "ns-mcp-server",
+        "package_arguments": [
+          {
+            "default": "/path/to/ns-server/build/index.js",
+            "description": "/path/to/ns-server/build/index.js",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/path/to/ns-server/build/index.js",
+            "value_hint": "/path/to/ns-server/build/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.1.6"
       }
     ],
-    "remotes": [],
-    "repo_ref": "r-huijts/ns-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "898429869",
+      "source": "github",
+      "url": "https://github.com/r-huijts/ns-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/ns-mcp-server",
     "serverid": "ns-mcp-server",
@@ -305,7 +312,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:12Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
@@ -314,37 +323,33 @@
   },
   "rijksmuseum-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:37.174698417Z",
-    "description": "A Model Context Protocol (MCP) server that provides access to the Rijksmuseum's collection through natural language interactions. This server enables AI models to explore, analyze, and interact with artworks and collections from the Rijksmuseum.",
+    "createdat": "2025-05-26T10:35:35.773424543Z",
+    "description": "Rijksmuseum MCP integration for artwork exploration and analysis",
     "epoch": 1,
+    "id": "6a64a548-c36c-400f-b43c-4d977aa1e482",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp/meta",
-    "modifiedat": "2025-05-26T08:17:37.174698417Z",
+    "modifiedat": "2025-05-26T10:35:35.773424543Z",
     "name": "io.github.r-huijts/rijksmuseum-mcp",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API key for accessing Rijksmuseum data",
-              "name": "RIJKSMUSEUM_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "mcp-server-rijksmuseum"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "mcp-server-rijksmuseum"
+        "environment_variables": [
+          {
+            "description": "your_api_key_here",
+            "name": "RIJKSMUSEUM_API_KEY"
+          }
+        ],
+        "name": "mcp-server-rijksmuseum",
+        "registry_name": "unknown",
+        "version": "1.0.4"
       }
     ],
-    "remotes": [],
-    "repo_ref": "r-huijts/rijksmuseum-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "907496920",
+      "source": "github",
+      "url": "https://github.com/r-huijts/rijksmuseum-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp",
     "serverid": "rijksmuseum-mcp",
@@ -593,11 +598,47 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:32Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
     "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp/versions",
     "xid": "/mcpproviders/r-huijts/servers/rijksmuseum-mcp"
+  },
+  "strava-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:35:36.12364688Z",
+    "description": "A Model Context Protocol (MCP) server that connects to Strava API, providing tools to access Strava data through LLMs",
+    "epoch": 1,
+    "id": "09a2ecf8-1774-490e-8542-2b25a6445a58",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/strava-mcp/meta",
+    "modifiedat": "2025-05-26T10:35:36.12364688Z",
+    "name": "io.github.r-huijts/strava-mcp",
+    "packages": [
+      {
+        "name": "strava-mcp-server",
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "repository": {
+      "id": "961429605",
+      "source": "github",
+      "url": "https://github.com/r-huijts/strava-mcp"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/strava-mcp",
+    "serverid": "strava-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:14:17Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/strava-mcp/versions",
+    "xid": "/mcpproviders/r-huijts/servers/strava-mcp"
   }
 }

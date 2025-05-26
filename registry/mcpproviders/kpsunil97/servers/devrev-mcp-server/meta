@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:12.230349075Z",
+  "createdat": "2025-05-26T10:35:01.233554572Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kpsunil97/servers/devrev-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:12.230349075Z",
+  "modifiedat": "2025-05-26T10:35:01.233554572Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kpsunil97/servers/devrev-mcp-server/meta",
   "serverid": "devrev-mcp-server",

@@ -1,36 +1,44 @@
 {
   "airtable-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:50.574430115Z",
-    "description": "A Model Context Protocol server that provides tools for interacting with Airtable's API. This server enables programmatic management of Airtable bases, tables, fields, and records through Claude Desktop or other MCP clients.",
+    "createdat": "2025-05-26T10:34:34.757468185Z",
+    "description": "Search, create and update Airtable bases, tables, fields, and records using Claude Desktop and MCP (Model Context Protocol) clients",
     "epoch": 1,
+    "id": "04216a87-0760-4f25-b809-42ffbfbb8962",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/airtable-mcp/meta",
-    "modifiedat": "2025-05-26T08:16:50.574430115Z",
+    "modifiedat": "2025-05-26T10:34:34.757468185Z",
     "name": "io.github.felores/airtable-mcp",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Airtable API key for authentication",
-              "name": "AIRTABLE_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "@felores/airtable-mcp-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@felores/airtable-mcp-server"
+        "environment_variables": [
+          {
+            "description": "your_api_key_here",
+            "name": "AIRTABLE_API_KEY"
+          }
+        ],
+        "name": "@felores/airtable-mcp-server",
+        "package_arguments": [
+          {
+            "default": "path/to/airtable-mcp/build/index.js",
+            "description": "Positional argument for the package entry point",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/airtable-mcp/build/index.js",
+            "value_hint": "path/to/airtable-mcp/build/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.3.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "felores/airtable-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "904238387",
+      "source": "github",
+      "url": "https://github.com/felores/airtable-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/airtable-mcp",
     "serverid": "airtable-mcp",
@@ -401,45 +409,97 @@
       }
     ],
     "version_detail": {
-      "version": "0.2.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:02:48Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
     "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/airtable-mcp/versions",
     "xid": "/mcpproviders/felores/servers/airtable-mcp"
   },
-  "placid-mcp-server": {
+  "cloudinary-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:50.991750397Z",
-    "description": "An MCP server implementation for integrating with Placid.app's API. This server provides tools for listing templates and generating images and videos through the Model Context Protocol.",
+    "createdat": "2025-05-26T10:34:35.097764976Z",
+    "description": "MCP (Model Context Protocol) server for uploading media to Cloudinary using Claude Desktop",
     "epoch": 1,
+    "id": "7baddfbe-3618-41d8-befe-40fc2aabcd8e",
     "isdefault": true,
-    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/placid-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:16:50.991750397Z",
-    "name": "io.github.felores/placid-mcp-server",
-    "prompts": [],
-    "registries": [
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/cloudinary-mcp-server/meta",
+    "modifiedat": "2025-05-26T10:34:35.097764976Z",
+    "name": "io.github.felores/cloudinary-mcp-server",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API token for Placid.app",
-              "name": "PLACID_API_TOKEN",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "@felores/placid-mcp-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@felores/placid-mcp-server"
+        "environment_variables": [
+          {
+            "description": "your_cloud_name",
+            "name": "CLOUDINARY_CLOUD_NAME"
+          },
+          {
+            "description": "your_api_key",
+            "name": "CLOUDINARY_API_KEY"
+          },
+          {
+            "description": "your_api_secret",
+            "name": "CLOUDINARY_API_SECRET"
+          }
+        ],
+        "name": "@felores/cloudinary-mcp-server",
+        "package_arguments": [
+          {
+            "default": "c:/path/to/cloudinary-mcp-server/dist/index.js",
+            "description": "Path to the package entrypoint",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "c:/path/to/cloudinary-mcp-server/dist/index.js",
+            "value_hint": "c:/path/to/cloudinary-mcp-server/dist/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.1.3"
       }
     ],
-    "remotes": [],
-    "repo_ref": "felores/placid-mcp-server",
+    "repository": {
+      "id": "913564273",
+      "source": "github",
+      "url": "https://github.com/felores/cloudinary-mcp-server"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/cloudinary-mcp-server",
+    "serverid": "cloudinary-mcp-server",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:32Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/cloudinary-mcp-server/versions",
+    "xid": "/mcpproviders/felores/servers/cloudinary-mcp-server"
+  },
+  "placid-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:35.236410522Z",
+    "description": "Generate image and video creatives using Placid.app templates in MCP compatible hosts",
+    "epoch": 1,
+    "id": "cfe44c73-8b61-48c9-9d7f-b28e98d23b5b",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/placid-mcp-server/meta",
+    "modifiedat": "2025-05-26T10:34:35.236410522Z",
+    "name": "io.github.felores/placid-mcp-server",
+    "packages": [
+      {
+        "name": "@felores/placid-mcp-server",
+        "registry_name": "unknown",
+        "version": "1.7.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "915853970",
+      "source": "github",
+      "url": "https://github.com/felores/placid-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/felores/servers/placid-mcp-server",
     "serverid": "placid-mcp-server",
@@ -460,7 +520,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:12:34Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

@@ -1,69 +1,76 @@
 {
   "mcp-clickhouse": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:40.017066536Z",
-    "description": "An MCP server for ClickHouse.",
+    "createdat": "2025-05-26T10:34:22.291245685Z",
+    "description": "",
     "epoch": 1,
+    "id": "98259539-3c6f-4462-b2b6-9a2567ff0545",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/meta",
-    "modifiedat": "2025-05-26T08:16:40.017066536Z",
-    "name": "io.github.ClickHouse/mcp-clickhouse",
-    "prompts": [],
-    "registries": [
+    "modifiedat": "2025-05-26T10:34:22.291245685Z",
+    "name": "io.github.clickhouse/mcp-clickhouse",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "The hostname of your ClickHouse server",
-              "name": "CLICKHOUSE_HOST",
-              "required": true
-            },
-            {
-              "description": "The username for authentication",
-              "name": "CLICKHOUSE_USER",
-              "required": true
-            },
-            {
-              "description": "The password for authentication",
-              "name": "CLICKHOUSE_PASSWORD",
-              "required": true
-            },
-            {
-              "description": "The port of the ClickHouse server",
-              "name": "CLICKHOUSE_PORT",
-              "required": false
-            },
-            {
-              "description": "Use secure connection",
-              "name": "CLICKHOUSE_SECURE",
-              "required": false
-            },
-            {
-              "description": "Verify SSL certificates",
-              "name": "CLICKHOUSE_VERIFY",
-              "required": false
-            },
-            {
-              "description": "Connection timeout in seconds",
-              "name": "CLICKHOUSE_CONNECT_TIMEOUT",
-              "required": false
-            },
-            {
-              "description": "Send/receive timeout in seconds",
-              "name": "CLICKHOUSE_SEND_RECEIVE_TIMEOUT",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "mcp-clickhouse"
+        "environment_variables": [
+          {
+            "description": "\u003cclickhouse-host\u003e",
+            "name": "CLICKHOUSE_HOST"
+          },
+          {
+            "description": "\u003cclickhouse-user\u003e",
+            "name": "CLICKHOUSE_USER"
+          },
+          {
+            "description": "\u003cclickhouse-password\u003e",
+            "name": "CLICKHOUSE_PASSWORD"
+          },
+          {
+            "description": "\u003coptional-database\u003e",
+            "name": "CLICKHOUSE_DATABASE"
+          }
+        ],
+        "name": "mcp-clickhouse",
+        "package_arguments": [
+          {
+            "default": "--with mcp-clickhouse",
+            "description": "Use the specified runtime feature",
+            "format": "string",
+            "is_required": true,
+            "name": "--with mcp-clickhouse",
+            "type": "named",
+            "value": "--with mcp-clickhouse",
+            "value_hint": "mcp-clickhouse"
+          },
+          {
+            "default": "--python 3.13",
+            "description": "Specify Python version",
+            "format": "string",
+            "is_required": true,
+            "name": "--python 3.13",
+            "type": "named",
+            "value": "--python 3.13",
+            "value_hint": "3.13"
+          },
+          {
+            "default": "mcp-clickhouse",
+            "description": "Positional argument to run (script or module)",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp-clickhouse",
+            "value_hint": "mcp-clickhouse"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.7"
       }
     ],
-    "remotes": [],
-    "repo_ref": "ClickHouse/mcp-clickhouse",
+    "prompts": [],
+    "repository": {
+      "id": "908231244",
+      "source": "github",
+      "url": "https://github.com/ClickHouse/mcp-clickhouse"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ClickHouse/servers/mcp-clickhouse",
     "serverid": "mcp-clickhouse",
@@ -115,7 +122,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:58:02Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

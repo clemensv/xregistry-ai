@@ -1,45 +1,66 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:08.913008615Z",
-  "description": "A Model Context Protocol (MCP) server for interacting with Keboola Connection. This server provides tools for listing and accessing data from Keboola Storage API.",
+  "createdat": "2025-05-26T10:34:56.712992618Z",
+  "description": "Model Context Protocol (MCP) Server for the Keboola Platform",
   "epoch": 1,
+  "id": "eba4813b-2591-4264-b7bc-c485b7652e92",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:08.913008615Z",
+  "modifiedat": "2025-05-26T10:34:56.712992618Z",
   "name": "io.github.keboola/keboola-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your_keboola_storage_token",
+          "name": "KBC_STORAGE_TOKEN"
+        },
+        {
+          "description": "your_workspace_schema",
+          "name": "KBC_WORKSPACE_SCHEMA"
+        }
+      ],
+      "name": "keboola-mcp-server",
+      "package_arguments": [
+        {
+          "default": "-m keboola_mcp_server.cli",
+          "description": "Module to run",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "-m keboola_mcp_server.cli",
+          "value_hint": "keboola_mcp_server.cli"
+        },
+        {
+          "default": "--transport stdio",
+          "description": "Specify the transport type",
+          "format": "string",
+          "is_required": true,
+          "name": "--transport stdio",
+          "type": "named",
+          "value": "--transport stdio",
+          "value_hint": "stdio"
+        },
+        {
+          "default": "--api-url https://connection.YOUR_REGION.keboola.com",
+          "description": "API URL for Keboola Connection",
+          "format": "string",
+          "is_required": true,
+          "name": "--api-url https://connection.YOUR_REGION.keboola.com",
+          "type": "named",
+          "value": "--api-url https://connection.YOUR_REGION.keboola.com",
+          "value_hint": "https://connection.YOUR_REGION.keboola.com"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.17.4"
+    }
+  ],
   "prompts": [],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Keboola Storage API token",
-            "name": "KBC_STORAGE_TOKEN",
-            "required": true
-          },
-          {
-            "description": "Snowflake schema or BigQuery dataset of your workspace",
-            "name": "KBC_WORKSPACE_SCHEMA",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "--api-url",
-          "https://connection.keboola.com"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "keboola-mcp-server"
-    }
-  ],
-  "remotes": [
-    {
-      "transporttype": "https",
-      "url": "https://connection.keboola.com"
-    }
-  ],
-  "repo_ref": "keboola/keboola-mcp-server",
+  "repository": {
+    "id": "915789942",
+    "source": "github",
+    "url": "https://github.com/keboola/mcp-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/keboola/servers/keboola-mcp-server/versions/1",
   "serverid": "keboola-mcp-server",
@@ -204,7 +225,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:59:57Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/keboola/servers/keboola-mcp-server/versions/1"

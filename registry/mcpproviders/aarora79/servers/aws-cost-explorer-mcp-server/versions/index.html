@@ -1,57 +1,81 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:25.791025807Z",
-    "description": "An MCP server for getting AWS spend data via Cost Explorer and Amazon Bedrock usage data via Model invocation logs in Amazon Cloud Watch through Anthropic's MCP (Model Control Protocol). It exposes AWS Cost Explorer API functionality to Claude Desktop, allowing natural language queries about AWS spend.",
+    "createdat": "2025-05-26T10:34:03.375975671Z",
+    "description": "MCP server for understanding AWS spend",
     "epoch": 1,
+    "id": "9ddac40e-d776-4232-a00f-7e698eb2dca8",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:25.791025807Z",
+    "modifiedat": "2025-05-26T10:34:03.375975671Z",
     "name": "io.github.aarora79/aws-cost-explorer-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "YOUR_ACCESS_KEY_ID",
+            "name": "AWS_ACCESS_KEY_ID"
+          },
+          {
+            "description": "YOUR_SECRET_ACCESS_KEY",
+            "name": "AWS_SECRET_ACCESS_KEY"
+          },
+          {
+            "description": "us-east-1",
+            "name": "AWS_REGION"
+          },
+          {
+            "description": "YOUR_CLOUDWATCH_BEDROCK_MODEL_INVOCATION_LOG_GROUP_NAME",
+            "name": "BEDROCK_LOG_GROUP_NAME"
+          },
+          {
+            "description": "ROLE_NAME_FOR_THE_ROLE_TO_ASSUME_IN_OTHER_ACCOUNTS",
+            "name": "CROSS_ACCOUNT_ROLE_NAME"
+          },
+          {
+            "description": "stdio",
+            "name": "MCP_TRANSPORT"
+          }
+        ],
+        "name": "aws-cost-explorer-mcp",
+        "package_arguments": [
+          {
+            "default": "--directory /path/to/aws-cost-explorer-mcp-server",
+            "description": "Path to the directory.",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /path/to/aws-cost-explorer-mcp-server",
+            "type": "named",
+            "value": "--directory /path/to/aws-cost-explorer-mcp-server",
+            "value_hint": "/path/to/aws-cost-explorer-mcp-server"
+          },
+          {
+            "default": "server.py",
+            "description": "Python script to run.",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server.py",
+            "value_hint": "server.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "AWS credentials with Cost Explorer access",
-              "name": "AWS_CREDENTIALS",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "venv",
-            "--python",
-            "3.12",
-            "\u0026\u0026",
-            "source",
-            ".venv/bin/activate",
-            "\u0026\u0026",
-            "uv",
-            "pip",
-            "install",
-            "--requirement",
-            "pyproject.toml"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "aws-cost-explorer-mcp"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "https",
-        "url": "https://\u003cyour-mcp-server-host\u003e"
-      }
-    ],
-    "repo_ref": "aarora79/aws-cost-explorer-mcp-server",
+    "repository": {
+      "id": "945535318",
+      "source": "github",
+      "url": "https://github.com/aarora79/aws-cost-explorer-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aarora79/servers/aws-cost-explorer-mcp-server/versions/1",
     "serverid": "aws-cost-explorer-mcp-server",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:28Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/aarora79/servers/aws-cost-explorer-mcp-server/versions/1"

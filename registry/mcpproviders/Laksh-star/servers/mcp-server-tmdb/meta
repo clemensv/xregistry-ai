@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:13.643204614Z",
+  "createdat": "2025-05-26T10:35:04.249658209Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Laksh-star/servers/mcp-server-tmdb/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:13.643204614Z",
+  "modifiedat": "2025-05-26T10:35:04.249658209Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Laksh-star/servers/mcp-server-tmdb/meta",
   "serverid": "mcp-server-tmdb",

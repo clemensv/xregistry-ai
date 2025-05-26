@@ -1,39 +1,25 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:35.891508678Z",
-  "description": "This server provides cloud browser automation capabilities using Browserbase, Puppeteer, and Stagehand. It enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.",
+  "createdat": "2025-05-26T10:34:17.724817231Z",
+  "description": "Allow LLMs to control a browser with Browserbase and Stagehand",
   "epoch": 1,
+  "id": "84dcab53-bfa3-4375-b69e-d519eb00af0f",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:35.891508678Z",
+  "modifiedat": "2025-05-26T10:34:17.724817231Z",
   "name": "io.github.browserbase/mcp-server-browserbase",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for Browserbase",
-            "name": "BROWSERBASE_API_KEY",
-            "required": true
-          },
-          {
-            "description": "Project ID for Browserbase",
-            "name": "BROWSERBASE_PROJECT_ID",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "server.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@browserbasehq/mcp-browserbase"
+      "name": "browserbase/mcp-server-browserbase",
+      "registry_name": "unknown",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "browserbase/mcp-server-browserbase",
+  "prompts": [],
+  "repository": {
+    "id": "899184149",
+    "source": "github",
+    "url": "https://github.com/browserbase/mcp-server-browserbase"
+  },
   "resources": [
     {
       "description": "Screenshot resources identified by name",
@@ -125,7 +111,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:48Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/browserbase/servers/mcp-server-browserbase/versions/1"

@@ -1,30 +1,37 @@
 {
   "basic-memory": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:34.238469849Z",
-    "description": "Basic Memory lets you build persistent knowledge through natural conversations with Large Language Models (LLMs) like Claude, while keeping everything in simple Markdown files on your computer. It uses the Model Context Protocol (MCP) to enable any compatible LLM to read and write to your local knowledge base.",
+    "createdat": "2025-05-26T10:34:15.434404281Z",
+    "description": "Basic Memory is a knowledge management system that allows you to build a persistent semantic graph from conversations with AI assistants, stored in standard Markdown files on your computer. Integrates directly with Obsidan.md",
     "epoch": 1,
+    "id": "377dba9b-63cc-4ca9-bb39-97f5e12497b4",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/basicmachines-co/servers/basic-memory/meta",
-    "modifiedat": "2025-05-26T08:16:34.238469849Z",
+    "modifiedat": "2025-05-26T10:34:15.434404281Z",
     "name": "io.github.basicmachines-co/basic-memory",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [
-            "mcp"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "basic-memory"
+        "name": "basic-memory",
+        "package_arguments": [
+          {
+            "default": "mcp",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp",
+            "value_hint": "mcp"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.12.3"
       }
     ],
-    "remotes": [],
-    "repo_ref": "basicmachines-co/basic-memory",
+    "prompts": [],
+    "repository": {
+      "id": "897595329",
+      "source": "github",
+      "url": "https://github.com/basicmachines-co/basic-memory"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/basicmachines-co/servers/basic-memory",
     "serverid": "basic-memory",
@@ -62,7 +69,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:49Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

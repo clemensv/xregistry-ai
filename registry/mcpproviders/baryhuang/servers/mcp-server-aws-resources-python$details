@@ -1,27 +1,75 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:34.03172376Z",
-  "description": "A Model Context Protocol (MCP) server implementation that provides running generated python code to query any AWS resources through boto3.",
+  "createdat": "2025-05-26T10:34:15.068414512Z",
+  "description": "A Python-based MCP server that lets Claude run boto3 code to query and manage AWS resources. Execute powerful AWS operations directly through Claude with proper sandboxing and containerization. No need for complex setups - just pass your AWS credentials and start interacting with all AWS services.",
   "epoch": 1,
+  "id": "6dd26dd7-d5c3-4aa8-bb9a-3aba328790ad",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-aws-resources-python/meta",
-  "modifiedat": "2025-05-26T08:16:34.03172376Z",
+  "modifiedat": "2025-05-26T10:34:15.068414512Z",
   "name": "io.github.baryhuang/mcp-server-aws-resources-python",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "container",
-      "package_name": "buryhuang/mcp-server-aws-resources"
+      "name": "mcp-server-aws-resources",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "Keep STDIN open even if not attached",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i"
+        },
+        {
+          "default": "--rm",
+          "description": "Automatically remove the container when it exits",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm"
+        },
+        {
+          "default": "-e AWS_PROFILE=default",
+          "description": "Set environment variables in the container",
+          "format": "string",
+          "is_required": true,
+          "name": "-e AWS_PROFILE=default",
+          "type": "named",
+          "value": "-e AWS_PROFILE=default",
+          "value_hint": "AWS_PROFILE=default"
+        },
+        {
+          "default": "-v ~/.aws:/root/.aws",
+          "description": "Bind mount a volume",
+          "format": "string",
+          "is_required": true,
+          "name": "-v ~/.aws:/root/.aws",
+          "type": "named",
+          "value": "-v ~/.aws:/root/.aws",
+          "value_hint": "~/.aws:/root/.aws"
+        },
+        {
+          "default": "buryhuang/mcp-server-aws-resources:latest",
+          "description": "Docker image name with tag",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "buryhuang/mcp-server-aws-resources:latest",
+          "value_hint": "buryhuang/mcp-server-aws-resources:latest"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "baryhuang/mcp-server-aws-resources-python",
+  "prompts": [],
+  "repository": {
+    "id": "916512524",
+    "source": "github",
+    "url": "https://github.com/baryhuang/mcp-server-aws-resources-python"
+  },
   "resources": [
     {
       "description": "A dynamic resource that provides access to AWS resources through boto3 queries",
@@ -49,7 +97,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:03:32Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

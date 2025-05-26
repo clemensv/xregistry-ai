@@ -1,48 +1,61 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:59.056066118Z",
-  "description": "The membase mcp server enables seamless integration with the membase protocol for decentralized storage. It provides functionality to upload and download memory to/from the Unibase DA network, managing conversations and messages for AI agents.",
+  "createdat": "2025-05-26T10:36:08.748142348Z",
+  "description": "A lightweight, decentralized memory server for AI agents to store and retrieve conversations via the Unibase memory layer.",
   "epoch": 1,
+  "id": "819f0338-1101-475c-9915-65a8727a8dc5",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unibaseio/servers/membase-mcp/meta",
-  "modifiedat": "2025-05-26T08:17:59.056066118Z",
+  "modifiedat": "2025-05-26T10:36:08.748142348Z",
   "name": "io.github.unibaseio/membase-mcp",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "your account to upload",
-            "name": "MEMBASE_ACCOUNT",
-            "required": true
-          },
-          {
-            "description": "your conversation id, should be unique, will preload its history",
-            "name": "MEMBASE_CONVERSATION_ID",
-            "required": true
-          },
-          {
-            "description": "your instance id",
-            "name": "MEMBASE_ID",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "--directory",
-          "path/to/membase-mcp",
-          "run",
-          "src/membase_mcp/server.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "membase-mcp"
+      "environment_variables": [
+        {
+          "description": "your account, 0x...",
+          "name": "MEMBASE_ACCOUNT"
+        },
+        {
+          "description": "your conversation id, should be unique",
+          "name": "MEMBASE_CONVERSATION_ID"
+        },
+        {
+          "description": "your sub account, any string",
+          "name": "MEMBASE_ID"
+        }
+      ],
+      "name": "membase-mcp",
+      "package_arguments": [
+        {
+          "default": "--directory path/to/membase-mcp",
+          "description": "Specifies the directory to use",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory path/to/membase-mcp",
+          "type": "named",
+          "value": "--directory path/to/membase-mcp",
+          "value_hint": "path/to/membase-mcp"
+        },
+        {
+          "default": "src/membase_mcp/server.py",
+          "description": "Path to the membase MCP server script",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "src/membase_mcp/server.py",
+          "value_hint": "src/membase_mcp/server.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "unibaseio/membase-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "957747274",
+    "source": "github",
+    "url": "https://github.com/unibaseio/membase-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unibaseio/servers/membase-mcp",
   "serverid": "membase-mcp",
@@ -108,7 +121,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:10:06Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

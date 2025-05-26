@@ -1,36 +1,43 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:36.853662464Z",
-    "description": "This MCP server connects Claude to real-time NS (Nederlandse Spoorwegen) travel information, making it your perfect companion for navigating the Netherlands by train.",
+    "createdat": "2025-05-26T10:35:35.437869911Z",
+    "description": "A Model Context Protocol (MCP) server that provides access to NS (Dutch Railways) travel information through Claude AI. This server enables Claude to fetch real-time train travel information and disruptions using the official Dutch NS API.",
     "epoch": 1,
+    "id": "afcff9a2-a4ed-457f-80fb-8bdd1948771a",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:17:36.853662464Z",
+    "modifiedat": "2025-05-26T10:35:35.437869911Z",
     "name": "io.github.r-huijts/ns-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Your NS API key (required)",
-              "name": "NS_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "ns-mcp-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "ns-mcp-server"
+        "environment_variables": [
+          {
+            "description": "your_api_key_here",
+            "name": "NS_API_KEY"
+          }
+        ],
+        "name": "ns-mcp-server",
+        "package_arguments": [
+          {
+            "default": "/path/to/ns-server/build/index.js",
+            "description": "/path/to/ns-server/build/index.js",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/path/to/ns-server/build/index.js",
+            "value_hint": "/path/to/ns-server/build/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.1.6"
       }
     ],
-    "remotes": [],
-    "repo_ref": "r-huijts/ns-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "898429869",
+      "source": "github",
+      "url": "https://github.com/r-huijts/ns-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/ns-mcp-server/versions/1",
     "serverid": "ns-mcp-server",
@@ -304,7 +311,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:12Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/r-huijts/servers/ns-mcp-server/versions/1"

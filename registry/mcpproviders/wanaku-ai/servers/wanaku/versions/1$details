@@ -1,32 +1,39 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:04.398702909Z",
-  "description": "The Wanaku MCP Router is a router for AI-enabled applications powered by the Model Context Protocol (MCP). This protocol is an open protocol that standardizes how applications provide context to LLMs.",
+  "createdat": "2025-05-26T10:36:15.96973662Z",
+  "description": "Wanaku MCP Router",
   "epoch": 1,
+  "id": "f3285cc9-1d33-472f-aa28-0b9d7723f877",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:18:04.398702909Z",
+  "modifiedat": "2025-05-26T10:36:15.96973662Z",
   "name": "io.github.wanaku-ai/wanaku",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "unknown",
-      "package_name": "unknown"
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ],
+      "name": "wanaku-ai/wanaku",
+      "registry_name": "npm",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "wanaku-ai/wanaku",
+  "prompts": [],
+  "repository": {
+    "id": "925674818",
+    "source": "github",
+    "url": "https://github.com/wanaku-ai/wanaku"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/wanaku-ai/servers/wanaku/versions/1",
   "serverid": "wanaku",
   "tools": [],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:38Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/wanaku-ai/servers/wanaku/versions/1"

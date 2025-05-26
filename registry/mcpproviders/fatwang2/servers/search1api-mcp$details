@@ -1,35 +1,32 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:50.322845778Z",
-  "description": "A Model Context Protocol (MCP) server that provides search and crawl functionality using Search1API.",
+  "createdat": "2025-05-26T10:34:34.529615071Z",
+  "description": "",
   "epoch": 1,
+  "id": "cb1647e0-2df7-4f2a-b63b-cfaea1e5e98a",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/fatwang2/servers/search1api-mcp/meta",
-  "modifiedat": "2025-05-26T08:16:50.322845778Z",
+  "modifiedat": "2025-05-26T10:34:34.529615071Z",
   "name": "io.github.fatwang2/search1api-mcp",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for Search1API",
-            "name": "SEARCH1API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "start"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "search1api-mcp"
+      "environment_variables": [
+        {
+          "description": "YOUR_SEARCH1API_KEY",
+          "name": "SEARCH1API_KEY"
+        }
+      ],
+      "name": "search1api-mcp",
+      "registry_name": "npm",
+      "version": "0.2.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "fatwang2/search1api-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "894382523",
+    "source": "github",
+    "url": "https://github.com/fatwang2/search1api-mcp"
+  },
   "resources": [
     {
       "description": "Basic information about Search1API capabilities",
@@ -42,7 +39,9 @@
   "serverid": "search1api-mcp",
   "tools": [],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:01:48Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

@@ -1,37 +1,37 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:31.230748382Z",
-  "description": "A Model Context Protocol (MCP) server implementation that integrates with Stripe for handling payments, customers, and refunds. This server provides a structured API to manage financial transactions securely.",
+  "createdat": "2025-05-26T10:34:11.578261421Z",
+  "description": "",
   "epoch": 1,
+  "id": "e532ff07-269a-47fb-98ad-6315d7081ccb",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:31.230748382Z",
+  "modifiedat": "2025-05-26T10:34:11.578261421Z",
   "name": "io.github.atharvagupta2003/mcp-stripe",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Stripe secret API key",
-            "name": "STRIPE_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "--directory",
-          "/ABSOLUTE/PATH/TO/PARENT/FOLDER/src",
-          "run",
-          "server.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uv",
-      "package_name": "@atharvagupta2003/mcp-stripe"
+      "name": "mcp-stripe",
+      "package_arguments": [
+        {
+          "default": "charge_id ch_abc123",
+          "description": "charge_id argument",
+          "format": "string",
+          "is_required": true,
+          "name": "charge_id ch_abc123",
+          "type": "named",
+          "value": "charge_id ch_abc123",
+          "value_hint": "ch_abc123"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "atharvagupta2003/mcp-stripe",
+  "prompts": [],
+  "repository": {
+    "id": "928410809",
+    "source": "github",
+    "url": "https://github.com/atharvagupta2003/mcp-stripe"
+  },
   "resources": [
     {
       "description": "Stores audit logs of customer, payment, and refund operations; supports structured logging for better traceability; uses MCP resource endpoints to retrieve audit data",
@@ -134,7 +134,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:20Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/atharvagupta2003/servers/mcp-stripe/versions/1"

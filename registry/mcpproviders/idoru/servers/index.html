@@ -1,13 +1,35 @@
 {
   "influxdb-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:01.868977525Z",
-    "description": "A Model Context Protocol (MCP) server that exposes access to an InfluxDB instance using the InfluxDB OSS API v2.",
+    "createdat": "2025-05-26T10:34:48.764190763Z",
+    "description": "An MCP Server for querying InfluxDB",
     "epoch": 1,
+    "id": "d78df157-559d-4e87-af1f-0dcbfe703a23",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/idoru/servers/influxdb-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:17:01.868977525Z",
+    "modifiedat": "2025-05-26T10:34:48.764190763Z",
     "name": "io.github.idoru/influxdb-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your_token",
+            "name": "INFLUXDB_TOKEN"
+          },
+          {
+            "description": "http://localhost:8086",
+            "name": "INFLUXDB_URL"
+          },
+          {
+            "description": "your_org",
+            "name": "INFLUXDB_ORG"
+          }
+        ],
+        "name": "influxdb-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.1.1"
+      }
+    ],
     "prompts": [
       {
         "arguments": [],
@@ -20,36 +42,11 @@
         "name": "line-protocol-guide"
       }
     ],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Authentication token for the InfluxDB API",
-              "name": "INFLUXDB_TOKEN",
-              "required": true
-            },
-            {
-              "description": "URL of the InfluxDB instance (defaults to http://localhost:8086)",
-              "name": "INFLUXDB_URL",
-              "required": false
-            },
-            {
-              "description": "Default organization name for certain operations",
-              "name": "INFLUXDB_ORG",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "influxdb-mcp-server"
-      }
-    ],
-    "remotes": [],
-    "repo_ref": "idoru/influxdb-mcp-server",
+    "repository": {
+      "id": "946415795",
+      "source": "github",
+      "url": "https://github.com/idoru/influxdb-mcp-server"
+    },
     "resources": [
       {
         "description": "Displays all organizations in the InfluxDB instance",
@@ -179,7 +176,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.1"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:08:24Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

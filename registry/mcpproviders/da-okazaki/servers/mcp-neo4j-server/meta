@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:16:43.344176527Z",
+  "createdat": "2025-05-26T10:34:25.777597257Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/da-okazaki/servers/mcp-neo4j-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:16:43.344176527Z",
+  "modifiedat": "2025-05-26T10:34:25.777597257Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/da-okazaki/servers/mcp-neo4j-server/meta",
   "serverid": "mcp-neo4j-server",

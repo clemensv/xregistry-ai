@@ -1,33 +1,101 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:28.284720478Z",
-    "description": "MCP Server for the TickTick API, enabling task management, project organization, habit tracking, and more.",
+    "createdat": "2025-05-26T10:34:06.672038144Z",
+    "description": "A Model Context Protocol (MCP) server designed to integrate with the TickTick task management platform, enabling intelligent context-aware task operations and automation.",
     "epoch": 1,
+    "id": "5c1709d9-3f57-4dbd-a727-5ce383a59c32",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:28.284720478Z",
+    "modifiedat": "2025-05-26T10:34:06.672038144Z",
     "name": "io.github.alexarevalo9/ticktick-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Path to dotenv config file",
-              "name": "DOTENV_CONFIG_PATH",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@alexarevalo9/ticktick-mcp-server"
+        "environment_variables": [
+          {
+            "description": "\u003cYOUR_CLIENT_ID\u003e",
+            "name": "TICKTICK_CLIENT_ID"
+          },
+          {
+            "description": "\u003cYOUR_CLIENT_SECRET\u003e",
+            "name": "TICKTICK_CLIENT_SECRET"
+          },
+          {
+            "description": "\u003cYOUR_ACCESS_TOKEN\u003e",
+            "name": "TICKTICK_ACCESS_TOKEN"
+          }
+        ],
+        "name": "@alexarevalo.ai/mcp-server-ticktick",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "Run container in interactive mode",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i",
+            "value_hint": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "Automatically remove the container when it exits",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm",
+            "value_hint": "--rm"
+          },
+          {
+            "default": "-e TICKTICK_CLIENT_ID",
+            "description": "Set the TICKTICK_CLIENT_ID environment variable in the container",
+            "format": "string",
+            "is_required": true,
+            "name": "-e TICKTICK_CLIENT_ID",
+            "type": "named",
+            "value": "-e TICKTICK_CLIENT_ID",
+            "value_hint": "TICKTICK_CLIENT_ID"
+          },
+          {
+            "default": "-e TICKTICK_CLIENT_SECRET",
+            "description": "Set the TICKTICK_CLIENT_SECRET environment variable in the container",
+            "format": "string",
+            "is_required": true,
+            "name": "-e TICKTICK_CLIENT_SECRET",
+            "type": "named",
+            "value": "-e TICKTICK_CLIENT_SECRET",
+            "value_hint": "TICKTICK_CLIENT_SECRET"
+          },
+          {
+            "default": "-e TICKTICK_ACCESS_TOKEN",
+            "description": "Set the TICKTICK_ACCESS_TOKEN environment variable in the container",
+            "format": "string",
+            "is_required": true,
+            "name": "-e TICKTICK_ACCESS_TOKEN",
+            "type": "named",
+            "value": "-e TICKTICK_ACCESS_TOKEN",
+            "value_hint": "TICKTICK_ACCESS_TOKEN"
+          },
+          {
+            "default": "mcp/ticktick",
+            "description": "Docker image name",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp/ticktick",
+            "value_hint": "mcp/ticktick"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "1.1.9"
       }
     ],
-    "remotes": [],
-    "repo_ref": "alexarevalo9/ticktick-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "957668156",
+      "source": "github",
+      "url": "https://github.com/alexarevalo9/ticktick-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/alexarevalo9/servers/ticktick-mcp-server/versions/1",
     "serverid": "ticktick-mcp-server",
@@ -365,7 +433,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:14:54Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/alexarevalo9/servers/ticktick-mcp-server/versions/1"

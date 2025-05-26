@@ -1,38 +1,36 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:08.453723993Z",
-    "description": "This MCP server enables Claude to interact with Okta's user management system, providing user and group management capabilities.",
+    "createdat": "2025-05-26T10:34:56.290141895Z",
+    "description": "Okta MCP Server",
     "epoch": 1,
+    "id": "618671cb-8783-47c7-a81c-164f5f9e2cc1",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:17:08.453723993Z",
+    "modifiedat": "2025-05-26T10:34:56.290141895Z",
     "name": "io.github.kapilduraphe/okta-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "name": "OKTA_ORG_URL",
-              "required": true
-            },
-            {
-              "name": "OKTA_API_TOKEN",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "dist/index.js"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "unknown"
+        "environment_variables": [
+          {
+            "description": "https://your-domain.okta.com",
+            "name": "OKTA_ORG_URL"
+          },
+          {
+            "description": "your-api-token",
+            "name": "OKTA_API_TOKEN"
+          }
+        ],
+        "name": "okta-mcp-server",
+        "registry_name": "unknown",
+        "version": "1.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "kapilduraphe/okta-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "932923739",
+      "source": "github",
+      "url": "https://github.com/kapilduraphe/okta-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/versions/1",
     "serverid": "okta-mcp-server",
@@ -60,7 +58,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:46Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/kapilduraphe/servers/okta-mcp-server/versions/1"

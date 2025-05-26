@@ -1,40 +1,34 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:55.657229219Z",
-  "description": "An MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.",
+  "createdat": "2025-05-26T10:36:03.917782542Z",
+  "description": "An MCP service designed for deploying HTML content to EdgeOne Pages and obtaining an accessible public URL.",
   "epoch": 1,
+  "id": "f97607ba-eb50-4258-b46c-ce9fc6587fa9",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/TencentEdgeOne/servers/edgeone-pages-mcp/meta",
-  "modifiedat": "2025-05-26T08:17:55.657229219Z",
-  "name": "io.github.TencentEdgeOne/edgeone-pages-mcp",
+  "modifiedat": "2025-05-26T10:36:03.917782542Z",
+  "name": "io.github.tencentedgeone/edgeone-pages-mcp",
+  "packages": [
+    {
+      "name": "edgeone-pages-mcp",
+      "registry_name": "unknown",
+      "version": "0.0.9"
+    }
+  ],
   "prompts": [],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "edgeone-pages-mcp"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "edgeone-pages-mcp"
-    }
-  ],
-  "remotes": [
-    {
-      "transporttype": "https",
-      "url": "https://mcp-on-edge.edgeone.site/mcp-server"
-    }
-  ],
-  "repo_ref": "TencentEdgeOne/edgeone-pages-mcp",
+  "repository": {
+    "id": "954390434",
+    "source": "github",
+    "url": "https://github.com/TencentEdgeOne/edgeone-pages-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/TencentEdgeOne/servers/edgeone-pages-mcp",
   "serverid": "edgeone-pages-mcp",
   "tools": [],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:06:09Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

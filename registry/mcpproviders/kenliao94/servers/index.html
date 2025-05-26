@@ -1,43 +1,98 @@
 {
   "mcp-server-rabbitmq": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:09.612099253Z",
-    "description": "A Model Context Protocol server implementation for RabbitMQ. Enabling MCP client to interact with queues and topics hosted in a RabbitMQ instance.",
+    "createdat": "2025-05-26T10:34:57.618613709Z",
+    "description": "MCP server for interacting with RabbitMQ",
     "epoch": 1,
+    "id": "edf43b88-36a4-4f07-9d46-cab08bd418aa",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kenliao94/servers/mcp-server-rabbitmq/meta",
-    "modifiedat": "2025-05-26T08:17:09.612099253Z",
+    "modifiedat": "2025-05-26T10:34:57.618613709Z",
     "name": "io.github.kenliao94/mcp-server-rabbitmq",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [
-            "--directory",
-            "/path/to/repo/mcp-server-rabbitmq",
-            "run",
-            "mcp-server-rabbitmq",
-            "--rabbitmq-host",
-            "\u003chostname ex. test.rabbit.com, localhost\u003e",
-            "--port",
-            "\u003cport number ex. 5672\u003e",
-            "--username",
-            "\u003crabbitmq username\u003e",
-            "--password",
-            "\u003crabbitmq password\u003e",
-            "--use-tls",
-            "\u003ctrue if uses amqps, false otherwise\u003e"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@kenliao94/mcp-server-rabbitmq"
+        "name": "mcp-server-rabbitmq",
+        "package_arguments": [
+          {
+            "default": "--directory /path/to/repo/mcp-server-rabbitmq",
+            "description": "Specify directory to run the package from",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /path/to/repo/mcp-server-rabbitmq",
+            "type": "named",
+            "value": "--directory /path/to/repo/mcp-server-rabbitmq",
+            "value_hint": "/path/to/repo/mcp-server-rabbitmq"
+          },
+          {
+            "default": "mcp-server-rabbitmq",
+            "description": "Package or script name to execute",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp-server-rabbitmq",
+            "value_hint": "mcp-server-rabbitmq"
+          },
+          {
+            "default": "--rabbitmq-host \u003chostname ex. test.rabbit.com, localhost\u003e",
+            "description": "RabbitMQ host name",
+            "format": "string",
+            "is_required": true,
+            "name": "--rabbitmq-host \u003chostname ex. test.rabbit.com, localhost\u003e",
+            "type": "named",
+            "value": "--rabbitmq-host \u003chostname ex. test.rabbit.com, localhost\u003e",
+            "value_hint": "\u003chostname ex. test.rabbit.com, localhost\u003e"
+          },
+          {
+            "default": "--port \u003cport number ex. 5672\u003e",
+            "description": "RabbitMQ port number",
+            "format": "string",
+            "is_required": true,
+            "name": "--port \u003cport number ex. 5672\u003e",
+            "type": "named",
+            "value": "--port \u003cport number ex. 5672\u003e",
+            "value_hint": "\u003cport number ex. 5672\u003e"
+          },
+          {
+            "default": "--username \u003crabbitmq username\u003e",
+            "description": "RabbitMQ username",
+            "format": "string",
+            "is_required": true,
+            "name": "--username \u003crabbitmq username\u003e",
+            "type": "named",
+            "value": "--username \u003crabbitmq username\u003e",
+            "value_hint": "\u003crabbitmq username\u003e"
+          },
+          {
+            "default": "--password \u003crabbitmq password\u003e",
+            "description": "RabbitMQ password",
+            "format": "string",
+            "is_required": true,
+            "name": "--password \u003crabbitmq password\u003e",
+            "type": "named",
+            "value": "--password \u003crabbitmq password\u003e",
+            "value_hint": "\u003crabbitmq password\u003e"
+          },
+          {
+            "default": "--use-tls \u003ctrue if uses amqps, false otherwise\u003e",
+            "description": "Whether to use TLS (amqps protocol)",
+            "format": "string",
+            "is_required": true,
+            "name": "--use-tls \u003ctrue if uses amqps, false otherwise\u003e",
+            "type": "named",
+            "value": "--use-tls \u003ctrue if uses amqps, false otherwise\u003e",
+            "value_hint": "\u003ctrue if uses amqps, false otherwise\u003e"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "2.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "kenliao94/mcp-server-rabbitmq",
+    "prompts": [],
+    "repository": {
+      "id": "910977229",
+      "source": "github",
+      "url": "https://github.com/kenliao94/mcp-server-rabbitmq"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kenliao94/servers/mcp-server-rabbitmq",
     "serverid": "mcp-server-rabbitmq",
@@ -190,7 +245,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:12Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

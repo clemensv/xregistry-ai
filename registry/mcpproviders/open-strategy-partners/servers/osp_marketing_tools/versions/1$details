@@ -1,26 +1,37 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:29.21321918Z",
-  "description": "A comprehensive suite of tools for technical marketing content creation, optimization, and product positioning based on Open Strategy Partners' proven methodologies. This software is based on the Model Context Protocol (MCP) and is usable by any LLM client that supports MCP.",
+  "createdat": "2025-05-26T10:35:24.942387194Z",
+  "description": "A Model Context Protocol (MCP) server that empowers LLMs to use some of Open Srategy Partners' core writing and product marketing techniques.",
   "epoch": 1,
+  "id": "0d8b287c-6023-4809-a5ba-963c5612efa2",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:29.21321918Z",
+  "modifiedat": "2025-05-26T10:35:24.942387194Z",
   "name": "io.github.open-strategy-partners/osp_marketing_tools",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "osp-marketing-tools"
+      "name": "osp-marketing-tools",
+      "package_arguments": [
+        {
+          "default": "--from git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+          "description": "Specifies the source repository",
+          "format": "string",
+          "is_required": true,
+          "name": "--from git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+          "type": "named",
+          "value": "--from git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+          "value_hint": "git+https://github.com/open-strategy-partners/osp_marketing_tools@main"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "open-strategy-partners/osp_marketing_tools",
+  "prompts": [],
+  "repository": {
+    "id": "917730483",
+    "source": "github",
+    "url": "https://github.com/open-strategy-partners/osp_marketing_tools"
+  },
   "resources": [
     {
       "description": "Resource namespace for OSP marketing tools.",
@@ -75,7 +86,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:12:14Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/open-strategy-partners/servers/osp_marketing_tools/versions/1"

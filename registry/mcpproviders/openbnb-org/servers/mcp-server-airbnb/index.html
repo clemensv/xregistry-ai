@@ -1,30 +1,37 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:29.527998418Z",
-  "description": "MCP Server for searching Airbnb and get listing details.",
+  "createdat": "2025-05-26T10:35:25.270079874Z",
+  "description": "",
   "epoch": 1,
+  "id": "1101c394-e912-42b6-85be-d2479b72d27f",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/openbnb-org/servers/mcp-server-airbnb/meta",
-  "modifiedat": "2025-05-26T08:17:29.527998418Z",
+  "modifiedat": "2025-05-26T10:35:25.270079874Z",
   "name": "io.github.openbnb-org/mcp-server-airbnb",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "-y",
-          "@openbnb/mcp-server-airbnb"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@openbnb/mcp-server-airbnb"
+      "name": "@openbnb/mcp-server-airbnb",
+      "package_arguments": [
+        {
+          "default": "--ignore-robots-txt",
+          "description": "Ignore robots.txt directives",
+          "format": "string",
+          "is_required": true,
+          "name": "--ignore-robots-txt",
+          "type": "named",
+          "value": "--ignore-robots-txt"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "0.1.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "openbnb-org/mcp-server-airbnb",
+  "prompts": [],
+  "repository": {
+    "id": "945678498",
+    "source": "github",
+    "url": "https://github.com/openbnb-org/mcp-server-airbnb"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/openbnb-org/servers/mcp-server-airbnb",
   "serverid": "mcp-server-airbnb",
@@ -135,7 +142,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:02:34Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

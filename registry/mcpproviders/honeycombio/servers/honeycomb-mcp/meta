@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:34:47.322378874Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/honeycombio/servers/honeycomb-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:34:47.322378874Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/honeycombio/servers/honeycomb-mcp/meta",
+  "serverid": "honeycomb-mcp",
+  "xid": "/mcpproviders/honeycombio/servers/honeycomb-mcp/meta"
+}

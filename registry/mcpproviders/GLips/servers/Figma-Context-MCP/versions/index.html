@@ -1,49 +1,47 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:55.639591004Z",
-    "description": "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot. This MCP server is specifically designed for use with Cursor. It simplifies and translates Figma API responses to provide only the most relevant layout and styling information to the model, improving AI accuracy and relevance.",
-    "documentation": "https://www.framelink.ai/docs/quickstart?utm_source=github\u0026utm_medium=referral\u0026utm_campaign=readme",
+    "createdat": "2025-05-26T10:34:40.464330559Z",
+    "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
     "epoch": 1,
+    "id": "e61c643c-ec01-483c-a586-20f87ab6280e",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:55.639591004Z",
-    "name": "io.github.GLips/Figma-Context-MCP",
+    "modifiedat": "2025-05-26T10:34:40.464330559Z",
+    "name": "io.github.glips/figma-context-mcp",
+    "packages": [
+      {
+        "name": "figma-developer-mcp",
+        "package_arguments": [
+          {
+            "default": "--figma-api-key=YOUR-KEY",
+            "description": "Figma API Key flag",
+            "format": "string",
+            "is_required": true,
+            "name": "--figma-api-key=YOUR-KEY",
+            "type": "named",
+            "value": "--figma-api-key=YOUR-KEY",
+            "value_hint": "YOUR-KEY"
+          },
+          {
+            "default": "--stdio",
+            "description": "stdio mode",
+            "format": "string",
+            "is_required": true,
+            "name": "--stdio",
+            "type": "named",
+            "value": "--stdio"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.2.2"
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Figma API access token",
-              "name": "FIGMA_API_KEY",
-              "required": true
-            },
-            {
-              "description": "Port number for HTTP server",
-              "name": "PORT",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "figma-developer-mcp",
-            "--figma-api-key=YOUR-KEY",
-            "--stdio"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "figma-developer-mcp"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://localhost:PORT/mcp"
-      }
-    ],
-    "repo_ref": "GLips/Figma-Context-MCP",
+    "repository": {
+      "id": "931892749",
+      "source": "github",
+      "url": "https://github.com/GLips/Figma-Context-MCP"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GLips/servers/Figma-Context-MCP/versions/1",
     "serverid": "Figma-Context-MCP",
@@ -121,7 +119,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.2.1"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:06:47Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/GLips/servers/Figma-Context-MCP/versions/1"

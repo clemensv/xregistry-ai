@@ -1,36 +1,71 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:25.186030045Z",
-  "description": "An MCP server implementation that interacts with DuckDB and MotherDuck databases, providing SQL analytics capabilities to AI Assistants and IDEs.",
+  "createdat": "2025-05-26T10:35:19.523768738Z",
+  "description": "MCP server for DuckDB and MotherDuck",
   "epoch": 1,
+  "id": "b3fa3fa4-901d-4584-82cf-d027dbdf290b",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:25.186030045Z",
+  "modifiedat": "2025-05-26T10:35:19.523768738Z",
   "name": "io.github.motherduckdb/mcp-server-motherduck",
+  "packages": [
+    {
+      "name": "mcp-server-motherduck",
+      "package_arguments": [
+        {
+          "default": "--directory /path/to/your/local/mcp-server-motherduck",
+          "description": "--directory /path/to/your/local/mcp-server-motherduck",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /path/to/your/local/mcp-server-motherduck",
+          "type": "named",
+          "value": "--directory /path/to/your/local/mcp-server-motherduck",
+          "value_hint": "/path/to/your/local/mcp-server-motherduck"
+        },
+        {
+          "default": "mcp-server-motherduck",
+          "description": "mcp-server-motherduck",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp-server-motherduck",
+          "value_hint": "mcp-server-motherduck"
+        },
+        {
+          "default": "--db-path md:",
+          "description": "--db-path md:",
+          "format": "string",
+          "is_required": true,
+          "name": "--db-path md:",
+          "type": "named",
+          "value": "--db-path md:",
+          "value_hint": "md:"
+        },
+        {
+          "default": "--motherduck-token \u003cYOUR_MOTHERDUCK_TOKEN_HERE\u003e",
+          "description": "--motherduck-token \u003cYOUR_MOTHERDUCK_TOKEN_HERE\u003e",
+          "format": "string",
+          "is_required": true,
+          "name": "--motherduck-token \u003cYOUR_MOTHERDUCK_TOKEN_HERE\u003e",
+          "type": "named",
+          "value": "--motherduck-token \u003cYOUR_MOTHERDUCK_TOKEN_HERE\u003e",
+          "value_hint": "\u003cYOUR_MOTHERDUCK_TOKEN_HERE\u003e"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.4.2"
+    }
+  ],
   "prompts": [
     {
       "description": "A prompt to initialize a connection to DuckDB or MotherDuck and start working with it",
       "name": "duckdb-motherduck-initial-prompt"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "--db-path",
-          "md:",
-          "--motherduck-token",
-          "\u003cYOUR_MOTHERDUCK_TOKEN_HERE\u003e"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "unknown",
-      "package_name": "unknown"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "motherduckdb/mcp-server-motherduck",
+  "repository": {
+    "id": "902619224",
+    "source": "github",
+    "url": "https://github.com/motherduckdb/mcp-server-motherduck"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/motherduckdb/servers/mcp-server-motherduck/versions/1",
   "serverid": "mcp-server-motherduck",
@@ -52,7 +87,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:00:38Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/motherduckdb/servers/mcp-server-motherduck/versions/1"

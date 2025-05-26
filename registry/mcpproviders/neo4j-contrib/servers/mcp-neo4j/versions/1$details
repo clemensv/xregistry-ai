@@ -1,32 +1,33 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:25.950152047Z",
-  "description": "Model Context Protocol (MCP) servers for managing context between large language models (LLMs) and Neo4j external systems, including natural language to Cypher queries, knowledge graph memory, and Neo4j Aura cloud service management.",
+  "createdat": "2025-05-26T10:35:21.110273226Z",
+  "description": "Model Context Protocol with Neo4j",
   "epoch": 1,
+  "id": "ee33c4cb-5bdf-45c0-88a8-ba2d237189f9",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:25.950152047Z",
+  "modifiedat": "2025-05-26T10:35:21.110273226Z",
   "name": "io.github.neo4j-contrib/mcp-neo4j",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "unspecified"
+      "name": "neo4j-contrib/mcp-neo4j",
+      "registry_name": "unknown",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "neo4j-contrib/mcp-neo4j",
+  "prompts": [],
+  "repository": {
+    "id": "897992568",
+    "source": "github",
+    "url": "https://github.com/neo4j-contrib/mcp-neo4j"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/neo4j-contrib/servers/mcp-neo4j/versions/1",
   "serverid": "mcp-neo4j",
   "tools": [],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:00:42Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/neo4j-contrib/servers/mcp-neo4j/versions/1"

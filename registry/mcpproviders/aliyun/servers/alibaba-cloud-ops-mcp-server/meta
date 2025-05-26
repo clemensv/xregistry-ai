@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:34:07.335339659Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:34:07.335339659Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/meta",
+  "serverid": "alibaba-cloud-ops-mcp-server",
+  "xid": "/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/meta"
+}

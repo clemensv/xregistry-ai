@@ -1,40 +1,76 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:28.069669422Z",
-  "description": "A Model Context Protocol (MCP) server for Aiven providing access to Aiven services such as PostgreSQL, Kafka, ClickHouse, Valkey and OpenSearch, enabling LLMs to build full stack solutions.",
+  "createdat": "2025-05-26T10:34:06.263671027Z",
+  "description": "Model Context Protocol server for Aiven",
   "epoch": 1,
+  "id": "2a0775fa-ff8e-47ff-a5e3-8b7c9b0567a9",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:28.069669422Z",
-  "name": "io.github.Aiven-Open/mcp-aiven",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:06.263671027Z",
+  "name": "io.github.aiven-open/mcp-aiven",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "The Aiven API url",
-            "name": "AIVEN_BASE_URL",
-            "required": true
-          },
-          {
-            "description": "The authentication token",
-            "name": "AIVEN_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "dev",
-          "mcp_aiven/mcp_server.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "mcp-aiven"
+      "environment_variables": [
+        {
+          "description": "https://api.aiven.io",
+          "name": "AIVEN_BASE_URL"
+        },
+        {
+          "description": "$AIVEN_TOKEN",
+          "name": "AIVEN_TOKEN"
+        }
+      ],
+      "name": "mcp-aiven",
+      "package_arguments": [
+        {
+          "default": "--directory $REPOSITORY_DIRECTORY",
+          "description": "$REPOSITORY_DIRECTORY",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory $REPOSITORY_DIRECTORY",
+          "type": "named",
+          "value": "--directory $REPOSITORY_DIRECTORY",
+          "value_hint": "$REPOSITORY_DIRECTORY"
+        },
+        {
+          "default": "--with-editable $REPOSITORY_DIRECTORY",
+          "description": "--with-editable $REPOSITORY_DIRECTORY",
+          "format": "string",
+          "is_required": true,
+          "name": "--with-editable $REPOSITORY_DIRECTORY",
+          "type": "named",
+          "value": "--with-editable $REPOSITORY_DIRECTORY",
+          "value_hint": "$REPOSITORY_DIRECTORY"
+        },
+        {
+          "default": "--python 3.13",
+          "description": "--python 3.13",
+          "format": "string",
+          "is_required": true,
+          "name": "--python 3.13",
+          "type": "named",
+          "value": "--python 3.13",
+          "value_hint": "3.13"
+        },
+        {
+          "default": "mcp-aiven",
+          "description": "mcp-aiven",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp-aiven",
+          "value_hint": "mcp-aiven"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.4"
     }
   ],
-  "remotes": [],
-  "repo_ref": "Aiven-Open/mcp-aiven",
+  "prompts": [],
+  "repository": {
+    "id": "947751392",
+    "source": "github",
+    "url": "https://github.com/Aiven-Open/mcp-aiven"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Aiven-Open/servers/mcp-aiven/versions/1",
   "serverid": "mcp-aiven",
@@ -87,7 +123,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:01Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/Aiven-Open/servers/mcp-aiven/versions/1"

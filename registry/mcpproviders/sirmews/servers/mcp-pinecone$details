@@ -1,12 +1,42 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:47.302264185Z",
-  "description": "Pinecone Model Context Protocol Server for Claude Desktop. Implements reading and writing to a Pinecone index with tools for semantic search, document processing, and stats.",
+  "createdat": "2025-05-26T10:35:50.332332594Z",
+  "description": "Model Context Protocol server to allow for reading and writing from Pinecone. Rudimentary RAG",
   "epoch": 1,
+  "id": "23b81af0-3e03-47b8-a310-c9b07bebd547",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sirmews/servers/mcp-pinecone/meta",
-  "modifiedat": "2025-05-26T08:17:47.302264185Z",
+  "modifiedat": "2025-05-26T10:35:50.332332594Z",
   "name": "io.github.sirmews/mcp-pinecone",
+  "packages": [
+    {
+      "name": "mcp-pinecone",
+      "package_arguments": [
+        {
+          "default": "--index-name {your-index-name}",
+          "description": "Index name for the Pinecone database.",
+          "format": "string",
+          "is_required": true,
+          "name": "--index-name {your-index-name}",
+          "type": "named",
+          "value": "--index-name {your-index-name}",
+          "value_hint": "{your-index-name}"
+        },
+        {
+          "default": "--api-key {your-secret-api-key}",
+          "description": "API key for authenticating with Pinecone.",
+          "format": "string",
+          "is_required": true,
+          "name": "--api-key {your-secret-api-key}",
+          "type": "named",
+          "value": "--api-key {your-secret-api-key}",
+          "value_hint": "{your-secret-api-key}"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.8"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -36,25 +66,11 @@
       "name": "pinecone-store"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "--directory",
-          "{project_dir}",
-          "run",
-          "mcp-pinecone"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "mcp-pinecone"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "sirmews/mcp-pinecone",
+  "repository": {
+    "id": "900184645",
+    "source": "github",
+    "url": "https://github.com/sirmews/mcp-pinecone"
+  },
   "resources": [
     {
       "description": "Vector resource identified by vector ID in Pinecone index",
@@ -184,7 +200,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:12:32Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

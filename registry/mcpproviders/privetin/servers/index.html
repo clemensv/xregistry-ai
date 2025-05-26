@@ -1,33 +1,48 @@
 {
   "chroma": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:33.369190714Z",
-    "description": "A Model Context Protocol (MCP) server implementation that provides vector database capabilities through Chroma. This server enables semantic document search, metadata filtering, and document management with persistent storage.",
+    "createdat": "2025-05-26T10:35:31.052717079Z",
+    "description": "MCP server for Chroma",
     "epoch": 1,
+    "id": "4b637a92-c1af-463d-afc1-e0ce65d7c057",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/chroma/meta",
-    "modifiedat": "2025-05-26T08:17:33.369190714Z",
+    "modifiedat": "2025-05-26T10:35:31.052717079Z",
     "name": "io.github.privetin/chroma",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [
-            "--directory",
-            "C:/MCP/server/community/chroma",
-            "run",
-            "chroma"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "uv"
+        "name": "chroma",
+        "package_arguments": [
+          {
+            "default": "--directory C:/MCP/server/community/chroma",
+            "description": "Named argument",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory C:/MCP/server/community/chroma",
+            "type": "named",
+            "value": "--directory C:/MCP/server/community/chroma",
+            "value_hint": "C:/MCP/server/community/chroma"
+          },
+          {
+            "default": "chroma",
+            "description": "Positional argument",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "chroma",
+            "value_hint": "chroma"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "privetin/chroma",
+    "prompts": [],
+    "repository": {
+      "id": "909977348",
+      "source": "github",
+      "url": "https://github.com/privetin/chroma"
+    },
     "resources": [
       {
         "description": "Stores documents with content and metadata",
@@ -153,11 +168,57 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:24Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
     "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/chroma/versions",
     "xid": "/mcpproviders/privetin/servers/chroma"
+  },
+  "dataset-viewer": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:35:31.297716022Z",
+    "description": "MCP server for Hugging Face dataset viewer",
+    "epoch": 1,
+    "id": "200d7310-6d18-4b22-98b3-68ae63ea985a",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/dataset-viewer/meta",
+    "modifiedat": "2025-05-26T10:35:31.297716022Z",
+    "name": "io.github.privetin/dataset-viewer",
+    "packages": [
+      {
+        "name": "dataset-viewer",
+        "package_arguments": [
+          {
+            "default": "dataset-viewer",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "dataset-viewer",
+            "value_hint": "dataset-viewer"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "911084198",
+      "source": "github",
+      "url": "https://github.com/privetin/dataset-viewer"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/dataset-viewer",
+    "serverid": "dataset-viewer",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:05:20Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/dataset-viewer/versions",
+    "xid": "/mcpproviders/privetin/servers/dataset-viewer"
   }
 }

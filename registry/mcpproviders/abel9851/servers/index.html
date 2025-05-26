@@ -1,55 +1,70 @@
 {
   "mcp-server-mariadb": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:25.989676972Z",
-    "description": "An MCP server implementation for retrieving data from mariadb",
+    "createdat": "2025-05-26T10:34:03.604732634Z",
+    "description": "An mcp server that provides read-only access to MariaDB.",
     "epoch": 1,
+    "id": "8197c60c-08c6-4d90-9d63-e64bf48ab6e4",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/abel9851/servers/mcp-server-mariadb/meta",
-    "modifiedat": "2025-05-26T08:16:25.989676972Z",
+    "modifiedat": "2025-05-26T10:34:03.604732634Z",
     "name": "io.github.abel9851/mcp-server-mariadb",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "name": "MARIADB_HOST"
-            },
-            {
-              "name": "MARIADB_USER"
-            },
-            {
-              "name": "MARIADB_PASSWORD"
-            },
-            {
-              "name": "MARIADB_DATABASE"
-            },
-            {
-              "name": "MARIADB_PORT"
-            }
-          ],
-          "positional_arguments": [
-            "--host",
-            "${DB_HOST}",
-            "--port",
-            "${DB_PORT}",
-            "--user",
-            "${DB_USER}",
-            "--password",
-            "${DB_PASSWORD}",
-            "--database",
-            "${DB_NAME}"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "",
-        "package_name": ""
+        "environment_variables": [
+          {
+            "description": "127.0.0.1",
+            "name": "MARIADB_HOST"
+          },
+          {
+            "description": "USER",
+            "name": "MARIADB_USER"
+          },
+          {
+            "description": "PASSWORD",
+            "name": "MARIADB_PASSWORD"
+          },
+          {
+            "description": "DATABASE",
+            "name": "MARIADB_DATABASE"
+          },
+          {
+            "description": "3306",
+            "name": "MARIADB_PORT"
+          }
+        ],
+        "name": "mcp-server-mariadb",
+        "package_arguments": [
+          {
+            "default": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+            "description": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+            "type": "named",
+            "value": "--directory /YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb",
+            "value_hint": "/YOUR/SOURCE/PATH/mcp-server-mariadb/src/mcp_server_mariadb"
+          },
+          {
+            "default": "server.py",
+            "description": "server.py",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server.py",
+            "value_hint": "server.py"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.1.2"
       }
     ],
-    "remotes": [],
-    "repo_ref": "abel9851/mcp-server-mariadb",
+    "prompts": [],
+    "repository": {
+      "id": "934896960",
+      "source": "github",
+      "url": "https://github.com/abel9851/mcp-server-mariadb"
+    },
     "resources": [
       {
         "description": "Expose schema list in database",
@@ -67,6 +82,11 @@
         "name": "query_database"
       }
     ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:09:39Z",
+      "version": "0.0.1-seed"
+    },
     "versionid": "1",
     "versionscount": 1,
     "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/abel9851/servers/mcp-server-mariadb/versions",

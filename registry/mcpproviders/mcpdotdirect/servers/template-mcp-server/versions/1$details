@@ -1,11 +1,36 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:20.509277435Z",
-  "description": "A CLI tool to quickly get started building your very own MCP (Model Context Protocol) server using FastMCP",
+  "createdat": "2025-05-26T10:35:12.798088558Z",
+  "description": "Template to quickly set up your own MCP server ",
   "epoch": 1,
+  "id": "816a9400-2e2b-4697-8fbb-2a22fd81de74",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:20.509277435Z",
+  "modifiedat": "2025-05-26T10:35:12.798088558Z",
   "name": "io.github.mcpdotdirect/template-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "development",
+          "name": "NODE_ENV"
+        }
+      ],
+      "name": "@mcpdotdirect/create-mcp-server",
+      "package_arguments": [
+        {
+          "default": "start",
+          "description": "start",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "start",
+          "value_hint": "start"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "2.0.1"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -19,28 +44,17 @@
       "name": "greeting"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "run",
-          "src/index.ts"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "bun",
-      "package_name": "@mcpdotdirect/template-mcp-server"
-    }
-  ],
   "remotes": [
     {
-      "transporttype": "http",
+      "transport_type": "sse",
       "url": "http://localhost:3001/sse"
     }
   ],
-  "repo_ref": "mcpdotdirect/template-mcp-server",
+  "repository": {
+    "id": "946258129",
+    "source": "github",
+    "url": "https://github.com/mcpdotdirect/template-mcp-server"
+  },
   "resources": [
     {
       "description": "Resource ID",
@@ -86,7 +100,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:16:33Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/mcpdotdirect/servers/template-mcp-server/versions/1"

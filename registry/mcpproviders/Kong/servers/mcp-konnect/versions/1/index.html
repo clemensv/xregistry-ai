@@ -1,39 +1,35 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:11.8407564Z",
-  "description": "Tools for managing and analyzing Kong Konnect API Gateway configurations and traffic",
+  "createdat": "2025-05-26T10:35:00.599160039Z",
+  "description": "A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.",
   "epoch": 1,
+  "id": "86a12728-3ab9-4a69-a447-bcb67957a5f7",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:11.8407564Z",
-  "name": "io.github.Kong/mcp-konnect",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:35:00.599160039Z",
+  "name": "io.github.kong/mcp-konnect",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Your Kong Konnect API key",
-            "name": "KONNECT_ACCESS_TOKEN",
-            "required": true
-          },
-          {
-            "description": "The API region to use (defaults to US)",
-            "name": "KONNECT_REGION",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "dist/index.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk"
+      "environment_variables": [
+        {
+          "description": "kpat_api_key_here",
+          "name": "KONNECT_ACCESS_TOKEN"
+        },
+        {
+          "description": "us",
+          "name": "KONNECT_REGION"
+        }
+      ],
+      "name": "kong-konnect-mcp",
+      "registry_name": "unknown",
+      "version": "1.0.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "Kong/mcp-konnect",
+  "prompts": [],
+  "repository": {
+    "id": "944084760",
+    "source": "github",
+    "url": "https://github.com/Kong/mcp-konnect"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Kong/servers/mcp-konnect/versions/1",
   "serverid": "mcp-konnect",
@@ -287,7 +283,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:08:59Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/Kong/servers/mcp-konnect/versions/1"

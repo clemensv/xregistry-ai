@@ -1,26 +1,45 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:19.247728244Z",
+  "createdat": "2025-05-26T10:35:11.130920195Z",
   "description": "Go server implementing Model Context Protocol (MCP) for filesystem operations.",
   "epoch": 1,
+  "id": "93c84b33-4392-41b2-85be-764e5f39da74",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:19.247728244Z",
+  "modifiedat": "2025-05-26T10:35:11.130920195Z",
   "name": "io.github.mark3labs/mcp-filesystem-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "go",
-      "package_name": "github.com/mark3labs/mcp-filesystem-server"
+      "name": "mark3labs/mcp-filesystem-server",
+      "package_arguments": [
+        {
+          "default": "ghcr.io/mark3labs/mcp-filesystem-server:latest",
+          "description": "Run container image",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "ghcr.io/mark3labs/mcp-filesystem-server:latest",
+          "value_hint": "ghcr.io/mark3labs/mcp-filesystem-server:latest"
+        },
+        {
+          "default": "/path/to/allowed/directory",
+          "description": "Allowed directory path",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/path/to/allowed/directory",
+          "value_hint": "/path/to/allowed/directory"
+        }
+      ],
+      "registry_name": "docker",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "mark3labs/mcp-filesystem-server",
+  "prompts": [],
+  "repository": {
+    "id": "895547074",
+    "source": "github",
+    "url": "https://github.com/mark3labs/mcp-filesystem-server"
+  },
   "resources": [
     {
       "description": "File system operations interface",
@@ -177,7 +196,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:07:25Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/mark3labs/servers/mcp-filesystem-server/versions/1"

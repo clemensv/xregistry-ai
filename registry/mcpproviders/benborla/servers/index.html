@@ -1,112 +1,60 @@
 {
   "mcp-server-mysql": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:34.632953446Z",
-    "description": "A Model Context Protocol server that provides access to MySQL databases. This server enables LLMs to inspect database schemas and execute SQL queries.",
+    "createdat": "2025-05-26T10:34:16.151641912Z",
+    "description": "A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.",
     "epoch": 1,
+    "id": "22fbb4c3-d5fd-4191-af7a-c78686cc6123",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/benborla/servers/mcp-server-mysql/meta",
-    "modifiedat": "2025-05-26T08:16:34.632953446Z",
+    "modifiedat": "2025-05-26T10:34:16.151641912Z",
     "name": "io.github.benborla/mcp-server-mysql",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "MySQL host address",
-              "name": "MYSQL_HOST",
-              "required": true
-            },
-            {
-              "description": "MySQL port number",
-              "name": "MYSQL_PORT",
-              "required": true
-            },
-            {
-              "description": "MySQL username",
-              "name": "MYSQL_USER",
-              "required": true
-            },
-            {
-              "description": "MySQL password",
-              "name": "MYSQL_PASS",
-              "required": true
-            },
-            {
-              "description": "MySQL database name (optional for multi-DB mode)",
-              "name": "MYSQL_DB",
-              "required": false
-            },
-            {
-              "description": "Allow INSERT SQL operations",
-              "name": "ALLOW_INSERT_OPERATION",
-              "required": false
-            },
-            {
-              "description": "Allow UPDATE SQL operations",
-              "name": "ALLOW_UPDATE_OPERATION",
-              "required": false
-            },
-            {
-              "description": "Allow DELETE SQL operations",
-              "name": "ALLOW_DELETE_OPERATION",
-              "required": false
-            },
-            {
-              "description": "Allow DDL SQL operations",
-              "name": "ALLOW_DDL_OPERATION",
-              "required": false
-            },
-            {
-              "description": "Schema-specific permissions for INSERT operations",
-              "name": "SCHEMA_INSERT_PERMISSIONS",
-              "required": false
-            },
-            {
-              "description": "Schema-specific permissions for UPDATE operations",
-              "name": "SCHEMA_UPDATE_PERMISSIONS",
-              "required": false
-            },
-            {
-              "description": "Schema-specific permissions for DELETE operations",
-              "name": "SCHEMA_DELETE_PERMISSIONS",
-              "required": false
-            },
-            {
-              "description": "Schema-specific permissions for DDL operations",
-              "name": "SCHEMA_DDL_PERMISSIONS",
-              "required": false
-            },
-            {
-              "description": "Enable write mode in multi-DB mode",
-              "name": "MULTI_DB_WRITE_MODE",
-              "required": false
-            },
-            {
-              "description": "Enable SSL for MySQL connection",
-              "name": "MYSQL_SSL",
-              "required": false
-            },
-            {
-              "description": "Reject unauthorized SSL certificates",
-              "name": "MYSQL_SSL_REJECT_UNAUTHORIZED",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "@benborla29/mcp-server-mysql"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@benborla29/mcp-server-mysql"
+        "environment_variables": [
+          {
+            "description": "127.0.0.1",
+            "name": "MYSQL_HOST"
+          },
+          {
+            "description": "3306",
+            "name": "MYSQL_PORT"
+          },
+          {
+            "description": "root",
+            "name": "MYSQL_USER"
+          },
+          {
+            "description": "your_password",
+            "name": "MYSQL_PASS"
+          },
+          {
+            "description": "your_database",
+            "name": "MYSQL_DB"
+          }
+        ],
+        "name": "@benborla29/mcp-server-mysql",
+        "package_arguments": [
+          {
+            "default": "/full/path/to/mcp-server-mysql/dist/index.js",
+            "description": "Path to the MCP server MySQL entry point.",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/full/path/to/mcp-server-mysql/dist/index.js",
+            "value_hint": "/full/path/to/mcp-server-mysql/dist/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "2.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "benborla/mcp-server-mysql",
+    "prompts": [],
+    "repository": {
+      "id": "900806525",
+      "source": "github",
+      "url": "https://github.com/benborla/mcp-server-mysql"
+    },
     "resources": [
       {
         "description": "Database and table name with schema suffix",
@@ -136,7 +84,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.18"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:10:51Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

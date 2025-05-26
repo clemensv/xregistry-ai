@@ -1,35 +1,87 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:33.698043356Z",
-  "description": "Model Context Protocol server for NASA APIs",
+  "createdat": "2025-05-26T10:35:31.633674082Z",
+  "description": "A Model Context Protocol (MCP) server for NASA APIs, providing a standardized interface for AI models to interact with NASA's vast array of data sources.",
   "epoch": 1,
+  "id": "6a44b030-46c7-4390-adf2-2a75652dee27",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:33.698043356Z",
-  "name": "io.github.ProgramComputer/NASA-MCP-server",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:35:31.633674082Z",
+  "name": "io.github.programcomputer/nasa-mcp-server",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Your NASA API key (get at api.nasa.gov)",
-            "name": "NASA_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@programcomputer/nasa-mcp-server@latest"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@programcomputer/nasa-mcp-server"
+      "name": "@programcomputer/nasa-mcp-server",
+      "package_arguments": [
+        {
+          "default": "T2M,PRECTOTCORR,WS10M",
+          "description": "Comma-separated list",
+          "format": "string",
+          "is_required": true,
+          "name": "T2M,PRECTOTCORR,WS10M",
+          "type": "named",
+          "value": "T2M,PRECTOTCORR,WS10M",
+          "value_hint": "T2M,PRECTOTCORR,WS10M"
+        },
+        {
+          "default": "re",
+          "description": "Community identifier",
+          "format": "string",
+          "is_required": true,
+          "name": "re",
+          "type": "named",
+          "value": "re",
+          "value_hint": "re"
+        },
+        {
+          "default": "40.7128",
+          "description": "Latitude",
+          "format": "string",
+          "is_required": true,
+          "name": "40.7128",
+          "type": "named",
+          "value": "40.7128",
+          "value_hint": "40.7128"
+        },
+        {
+          "default": "-74.0060",
+          "description": "Longitude",
+          "format": "string",
+          "is_required": true,
+          "name": "-74.0060",
+          "type": "named",
+          "value": "-74.0060",
+          "value_hint": "-74.0060"
+        },
+        {
+          "default": "20220101",
+          "description": "Start date (YYYYMMDD)",
+          "format": "string",
+          "is_required": true,
+          "name": "20220101",
+          "type": "named",
+          "value": "20220101",
+          "value_hint": "20220101"
+        },
+        {
+          "default": "20220107",
+          "description": "End date (YYYYMMDD)",
+          "format": "string",
+          "is_required": true,
+          "name": "20220107",
+          "type": "named",
+          "value": "20220107",
+          "value_hint": "20220107"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "1.0.12"
     }
   ],
-  "remotes": [],
-  "repo_ref": "ProgramComputer/NASA-MCP-server",
+  "prompts": [],
+  "repository": {
+    "id": "943596518",
+    "source": "github",
+    "url": "https://github.com/ProgramComputer/NASA-MCP-server"
+  },
   "resources": [
     {
       "description": "NASA Astronomy Picture of the Day",
@@ -905,7 +957,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.11"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:01Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/ProgramComputer/servers/NASA-MCP-server/versions/1"

@@ -1,44 +1,39 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:43.344176527Z",
-  "description": "An MCP server that provides integration between Neo4j graph database and Claude Desktop, enabling graph database operations through natural language interactions.",
+  "createdat": "2025-05-26T10:34:25.777597257Z",
+  "description": "mcp-neo4j-server",
   "epoch": 1,
+  "id": "b4c38c39-7381-49fa-b7b4-75e2604ed93d",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:43.344176527Z",
+  "modifiedat": "2025-05-26T10:34:25.777597257Z",
   "name": "io.github.da-okazaki/mcp-neo4j-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Neo4j database URI (default: bolt://localhost:7687)",
-            "name": "NEO4J_URI",
-            "required": false
-          },
-          {
-            "description": "Neo4j username (default: neo4j)",
-            "name": "NEO4J_USERNAME",
-            "required": false
-          },
-          {
-            "description": "Neo4j password (required)",
-            "name": "NEO4J_PASSWORD",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "@alanse/mcp-neo4j-server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@alanse/mcp-neo4j-server"
+      "environment_variables": [
+        {
+          "description": "bolt://localhost:7687",
+          "name": "NEO4J_URI"
+        },
+        {
+          "description": "neo4j",
+          "name": "NEO4J_USERNAME"
+        },
+        {
+          "description": "your-password",
+          "name": "NEO4J_PASSWORD"
+        }
+      ],
+      "name": "@alanse/mcp-neo4j-server",
+      "registry_name": "npm",
+      "version": "0.1.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "da-okazaki/mcp-neo4j-server",
+  "prompts": [],
+  "repository": {
+    "id": "912380178",
+    "source": "github",
+    "url": "https://github.com/da-okazaki/mcp-neo4j-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/da-okazaki/servers/mcp-neo4j-server/versions/1",
   "serverid": "mcp-neo4j-server",
@@ -119,7 +114,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:14Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/da-okazaki/servers/mcp-neo4j-server/versions/1"

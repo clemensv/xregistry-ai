@@ -1,12 +1,30 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:35.106213311Z",
-    "description": "A proof of concept integration between Claude Desktop (or any client) and Neovim using Model Context Protocol (MCP) and the official neovim/node-client JavaScript library. This server leverages Vim's native text editing commands and workflows, which Claude already understands, to create a lightweight code or general purpose AI text assistance layer.",
+    "createdat": "2025-05-26T10:34:16.660643291Z",
+    "description": "Control Neovim using Model Context Protocol (MCP) and the official neovim/node-client JavaScript library",
     "epoch": 1,
+    "id": "d9d7e246-d3f4-4214-aa79-fe1981c73c2e",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:35.106213311Z",
+    "modifiedat": "2025-05-26T10:34:16.660643291Z",
     "name": "io.github.bigcodegen/mcp-neovim-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "true",
+            "name": "ALLOW_SHELL_COMMANDS"
+          },
+          {
+            "description": "/tmp/nvim",
+            "name": "NVIM_SOCKET_PATH"
+          }
+        ],
+        "name": "mcp-neovim-server",
+        "registry_name": "npm",
+        "version": "0.4.2"
+      }
+    ],
     "prompts": [
       {
         "arguments": [],
@@ -14,34 +32,11 @@
         "name": "empty"
       }
     ],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Set to 'true' to enable shell command execution (e.g. !ls). Defaults to false for security.",
-              "name": "ALLOW_SHELL_COMMANDS",
-              "required": false
-            },
-            {
-              "description": "Set to the path of your Neovim socket. Defaults to '/tmp/nvim' if not specified.",
-              "name": "NVIM_SOCKET_PATH",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "mcp-neovim-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "mcp-neovim-server"
-      }
-    ],
-    "remotes": [],
-    "repo_ref": "bigcodegen/mcp-neovim-server",
+    "repository": {
+      "id": "907120691",
+      "source": "github",
+      "url": "https://github.com/bigcodegen/mcp-neovim-server"
+    },
     "resources": [
       {
         "description": "Current neovim text editor session",
@@ -242,7 +237,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.4.1"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:16Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/bigcodegen/servers/mcp-neovim-server/versions/1"

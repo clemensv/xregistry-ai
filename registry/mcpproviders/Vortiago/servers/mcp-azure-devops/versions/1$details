@@ -1,37 +1,25 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:03.475022809Z",
-  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services. This server provides a bridge between natural language interactions and the Azure DevOps REST API, supporting work item management, project management, and team management features.",
+  "createdat": "2025-05-26T10:36:14.495092555Z",
+  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services via Python SDK.",
   "epoch": 1,
+  "id": "4502246b-f419-4879-a179-149c6d87a871",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:18:03.475022809Z",
-  "name": "io.github.Vortiago/mcp-azure-devops",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:36:14.495092555Z",
+  "name": "io.github.vortiago/mcp-azure-devops",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Personal Access Token for Azure DevOps API access",
-            "name": "AZURE_DEVOPS_PAT",
-            "required": true
-          },
-          {
-            "description": "Full URL to the Azure DevOps organization",
-            "name": "AZURE_DEVOPS_ORGANIZATION_URL",
-            "required": true
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "mcp-azure-devops"
+      "name": "mcp-azure-devops",
+      "registry_name": "unknown",
+      "version": "0.6.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "Vortiago/mcp-azure-devops",
+  "prompts": [],
+  "repository": {
+    "id": "948085438",
+    "source": "github",
+    "url": "https://github.com/Vortiago/mcp-azure-devops"
+  },
   "resources": [
     {
       "description": "Work item resources accessible by ID.",
@@ -77,7 +65,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:03:42Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/Vortiago/servers/mcp-azure-devops/versions/1"

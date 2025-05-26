@@ -1,62 +1,68 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:06.700379073Z",
-  "description": "MSSQL MCP Server is a Model Context Protocol (MCP) server that enables secure and structured interaction with Microsoft SQL Server (MSSQL) databases. It allows AI assistants to list available tables, read table contents, and execute SQL queries with controlled access, ensuring safer database exploration, strict permission enforcement, and logging of database interactions.",
+  "createdat": "2025-05-26T10:34:54.620229953Z",
+  "description": "A Model Context Protocol (MCP) server facilitating secure interactions with MSSQL databases.",
   "epoch": 1,
+  "id": "53290776-f4aa-488d-a10f-135a17645b02",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:06.700379073Z",
-  "name": "io.github.JexinSam/mssql_mcp_server",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:54.620229953Z",
+  "name": "io.github.jexinsam/mssql_mcp_server",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "MSSQL driver environment variable",
-            "name": "MSSQL_DRIVER",
-            "required": true
-          },
-          {
-            "description": "MSSQL host environment variable",
-            "name": "MSSQL_HOST",
-            "required": true
-          },
-          {
-            "description": "MSSQL user environment variable",
-            "name": "MSSQL_USER",
-            "required": true
-          },
-          {
-            "description": "MSSQL password environment variable",
-            "name": "MSSQL_PASSWORD",
-            "required": true
-          },
-          {
-            "description": "MSSQL database environment variable",
-            "name": "MSSQL_DATABASE",
-            "required": true
-          },
-          {
-            "description": "Optional TrustServerCertificate environment variable",
-            "name": "TrustServerCertificate",
-            "required": false
-          },
-          {
-            "description": "Optional Trusted_Connection environment variable",
-            "name": "Trusted_Connection",
-            "required": false
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "mssql-mcp-server"
+      "environment_variables": [
+        {
+          "description": "mssql_driver",
+          "name": "MSSQL_DRIVER"
+        },
+        {
+          "description": "localhost",
+          "name": "MSSQL_HOST"
+        },
+        {
+          "description": "your_username",
+          "name": "MSSQL_USER"
+        },
+        {
+          "description": "your_password",
+          "name": "MSSQL_PASSWORD"
+        },
+        {
+          "description": "your_database",
+          "name": "MSSQL_DATABASE"
+        }
+      ],
+      "name": "mssql_mcp_server",
+      "package_arguments": [
+        {
+          "default": "--directory path/to/mssql_mcp_server",
+          "description": "Directory path for the MCP server",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory path/to/mssql_mcp_server",
+          "type": "named",
+          "value": "--directory path/to/mssql_mcp_server",
+          "value_hint": "path/to/mssql_mcp_server"
+        },
+        {
+          "default": "mssql_mcp_server",
+          "description": "MCP server module name to run",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mssql_mcp_server",
+          "value_hint": "mssql_mcp_server"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.2"
     }
   ],
-  "remotes": [],
-  "repo_ref": "JexinSam/mssql_mcp_server",
+  "prompts": [],
+  "repository": {
+    "id": "924542723",
+    "source": "github",
+    "url": "https://github.com/JexinSam/mssql_mcp_server"
+  },
   "resources": [
     {
       "description": "Data in table: {table}",
@@ -86,7 +92,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:10:15Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/JexinSam/servers/mssql_mcp_server/versions/1"

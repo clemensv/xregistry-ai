@@ -1,39 +1,25 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:07.977276862Z",
-  "description": "An open-source Model Context Protocol (MCP) server that connects to the SoccerDataAPI to deliver up-to-date football match information via natural language interactions.",
+  "createdat": "2025-05-26T10:36:20.371995333Z",
+  "description": "An MCP server that provides real-time football data based on the SoccerDataAPI.",
   "epoch": 1,
+  "id": "387ef1e6-0e4c-43ea-9416-bf3b399a3c76",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:18:07.977276862Z",
+  "modifiedat": "2025-05-26T10:36:20.371995333Z",
   "name": "io.github.yeonupark/mcp-soccer-data",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Authentication key for Soccerdata API",
-            "name": "AUTH_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "--directory",
-          "src/",
-          "run",
-          "--env-file",
-          ".env",
-          "server.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uv",
-      "package_name": "@yeonupark/mcp-soccer-data"
+      "name": "mcp-soccer-data",
+      "registry_name": "unknown",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "yeonupark/mcp-soccer-data",
+  "prompts": [],
+  "repository": {
+    "id": "966702385",
+    "source": "github",
+    "url": "https://github.com/yeonupark/mcp-soccer-data"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/yeonupark/servers/mcp-soccer-data/versions/1",
   "serverid": "mcp-soccer-data",
@@ -47,7 +33,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:08Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/yeonupark/servers/mcp-soccer-data/versions/1"

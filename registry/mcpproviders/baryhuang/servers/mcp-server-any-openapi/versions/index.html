@@ -1,0 +1,92 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:14.887558502Z",
+    "description": "A MCP server that enables Claude to discover and call any API endpoint through semantic search. Intelligently chunks OpenAPI specifications to handle large API documentation, with built-in request execution capabilities. Perfect for integrating private APIs with Claude Desktop.",
+    "epoch": 1,
+    "id": "c52271b3-e48e-4896-b5a2-2ff93189b339",
+    "isdefault": true,
+    "modifiedat": "2025-05-26T10:34:14.887558502Z",
+    "name": "io.github.baryhuang/mcp-server-any-openapi",
+    "packages": [
+      {
+        "name": "mcp-server-any-openapi",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "Run in interactive mode",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "Automatically remove the container when it exits",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm"
+          },
+          {
+            "default": "-e OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json",
+            "description": "Set environment variable OPENAPI_JSON_DOCS_URL",
+            "format": "string",
+            "is_required": true,
+            "name": "-e OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json",
+            "type": "named",
+            "value": "-e OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json",
+            "value_hint": "OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json"
+          },
+          {
+            "default": "-e MCP_API_PREFIX=finance",
+            "description": "Set environment variable MCP_API_PREFIX",
+            "format": "string",
+            "is_required": true,
+            "name": "-e MCP_API_PREFIX=finance",
+            "type": "named",
+            "value": "-e MCP_API_PREFIX=finance",
+            "value_hint": "MCP_API_PREFIX=finance"
+          },
+          {
+            "default": "-e GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com .",
+            "description": "Set environment variable GLOBAL_TOOL_PROMPT",
+            "format": "string",
+            "is_required": true,
+            "name": "-e GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com .",
+            "type": "named",
+            "value": "-e GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com .",
+            "value_hint": "GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com ."
+          },
+          {
+            "default": "buryhuang/mcp-server-any-openapi:latest",
+            "description": "Docker image name and tag",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "buryhuang/mcp-server-any-openapi:latest",
+            "value_hint": "buryhuang/mcp-server-any-openapi:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "929659341",
+      "source": "github",
+      "url": "https://github.com/baryhuang/mcp-server-any-openapi"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-any-openapi/versions/1",
+    "serverid": "mcp-server-any-openapi",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:58Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/baryhuang/servers/mcp-server-any-openapi/versions/1"
+  }
+}

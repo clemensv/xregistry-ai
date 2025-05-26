@@ -1,32 +1,47 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:07.243564242Z",
-  "description": "QGISMCP connects QGIS to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control QGIS. This integration enables prompt assisted project creation, layer loading, code execution and more.",
+  "createdat": "2025-05-26T10:34:55.163959258Z",
+  "description": "Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop",
   "epoch": 1,
+  "id": "2e9aa092-56fc-4adb-93ba-e9c9d9919440",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jjsantos01/servers/qgis_mcp/meta",
-  "modifiedat": "2025-05-26T08:17:07.243564242Z",
+  "modifiedat": "2025-05-26T10:34:55.163959258Z",
   "name": "io.github.jjsantos01/qgis_mcp",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "--directory",
-          "/ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
-          "run",
-          "qgis_mcp_server.py"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "uv",
-      "package_name": "uv"
+      "name": "qgis-mcp",
+      "package_arguments": [
+        {
+          "default": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+          "description": "Specifies the directory to run the command from",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+          "type": "named",
+          "value": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+          "value_hint": "/ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp"
+        },
+        {
+          "default": "qgis_mcp_server.py",
+          "description": "The Python script to execute",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "qgis_mcp_server.py",
+          "value_hint": "qgis_mcp_server.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "jjsantos01/qgis_mcp",
+  "prompts": [],
+  "repository": {
+    "id": "947538862",
+    "source": "github",
+    "url": "https://github.com/jjsantos01/qgis_mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jjsantos01/servers/qgis_mcp",
   "serverid": "qgis_mcp",
@@ -54,7 +69,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:13:03Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

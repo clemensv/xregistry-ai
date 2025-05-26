@@ -1,30 +1,37 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:59.548462103Z",
-  "description": "A Model Context Protocol (MCP) server that exposes GraphQL schema information to Large Language Models (LLMs) like Claude. This server allows an LLM to explore and understand GraphQL schemas through a set of specialized tools.",
+  "createdat": "2025-05-26T10:34:45.095683432Z",
+  "description": "GraphQL Schema Model Context Protocol Server",
   "epoch": 1,
+  "id": "7461c9c2-108f-46c1-8f35-6206ec509267",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/hannesj/servers/mcp-graphql-schema/meta",
-  "modifiedat": "2025-05-26T08:16:59.548462103Z",
+  "modifiedat": "2025-05-26T10:34:45.095683432Z",
   "name": "io.github.hannesj/mcp-graphql-schema",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "-y",
-          "mcp-graphql-schema"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "mcp-graphql-schema"
+      "name": "mcp-graphql-schema",
+      "package_arguments": [
+        {
+          "default": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "description": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "value_hint": "/ABSOLUTE/PATH/TO/schema.graphqls"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "0.0.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "hannesj/mcp-graphql-schema",
+  "prompts": [],
+  "repository": {
+    "id": "947826694",
+    "source": "github",
+    "url": "https://github.com/hannesj/mcp-graphql-schema"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/hannesj/servers/mcp-graphql-schema",
   "serverid": "mcp-graphql-schema",
@@ -101,7 +108,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:07:46Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

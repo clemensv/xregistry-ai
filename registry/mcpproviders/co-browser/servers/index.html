@@ -1,33 +1,27 @@
 {
   "attestable-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:40.689450477Z",
-    "description": "remotely attestable MCP server that uses a trusted execution environment and RA-TLS for remote attestation between MCP clients and servers.",
+    "createdat": "2025-05-26T10:34:22.980964877Z",
+    "description": "Verify that any MCP server is running the intended and untampered code via hardware attestation.",
     "epoch": 1,
+    "id": "05ca6ccc-d6e1-47ab-ab8d-25949db9ada7",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/co-browser/servers/attestable-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:16:40.689450477Z",
+    "modifiedat": "2025-05-26T10:34:22.980964877Z",
     "name": "io.github.co-browser/attestable-mcp-server",
+    "packages": [
+      {
+        "name": "attestable-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "container",
-        "package_name": "gsc-attestable-mcp-server"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://0.0.0.0:8000"
-      }
-    ],
-    "repo_ref": "co-browser/attestable-mcp-server",
+    "repository": {
+      "id": "955641588",
+      "source": "github",
+      "url": "https://github.com/co-browser/attestable-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/co-browser/servers/attestable-mcp-server",
     "serverid": "attestable-mcp-server",
@@ -50,7 +44,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:19Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
@@ -59,53 +55,81 @@
   },
   "browser-use-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:40.84478177Z",
-    "description": "An MCP server that enables AI agents to control web browsers using browser-use.",
+    "createdat": "2025-05-26T10:34:23.10757832Z",
+    "description": "Browse the web, directly from Cursor etc.",
     "epoch": 1,
+    "id": "27b05d20-fd9c-437d-a86c-923629491ff5",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/co-browser/servers/browser-use-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:16:40.84478177Z",
+    "modifiedat": "2025-05-26T10:34:23.10757832Z",
     "name": "io.github.co-browser/browser-use-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your-api-key",
+            "name": "OPENAI_API_KEY"
+          }
+        ],
+        "name": "browser-use-mcp-server",
+        "package_arguments": [
+          {
+            "default": "server",
+            "description": "server",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server",
+            "value_hint": "server"
+          },
+          {
+            "default": "--port 8000",
+            "description": "--port 8000",
+            "format": "string",
+            "is_required": true,
+            "name": "--port 8000",
+            "type": "named",
+            "value": "--port 8000",
+            "value_hint": "8000"
+          },
+          {
+            "default": "--stdio",
+            "description": "--stdio",
+            "format": "string",
+            "is_required": true,
+            "name": "--stdio",
+            "type": "named",
+            "value": "--stdio"
+          },
+          {
+            "default": "--proxy-port 9000",
+            "description": "--proxy-port 9000",
+            "format": "string",
+            "is_required": true,
+            "name": "--proxy-port 9000",
+            "type": "named",
+            "value": "--proxy-port 9000",
+            "value_hint": "9000"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API key for OpenAI",
-              "name": "OPENAI_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "run",
-            "server",
-            "--port",
-            "8000",
-            "--stdio",
-            "--proxy-port",
-            "9000"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "browser-use-mcp-server"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://localhost:8000/sse"
-      }
-    ],
-    "repo_ref": "co-browser/browser-use-mcp-server",
+    "repository": {
+      "id": "943806192",
+      "source": "github",
+      "url": "https://github.com/co-browser/browser-use-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/co-browser/servers/browser-use-mcp-server",
     "serverid": "browser-use-mcp-server",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:07Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

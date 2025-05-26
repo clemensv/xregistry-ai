@@ -1,46 +1,51 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:38.271493104Z",
-    "description": "A Model Context Protocol server for Keycloak administration, providing tools to manage users and realms.",
+    "createdat": "2025-05-26T10:34:20.327106873Z",
+    "description": "MCP server implementation for Keycloak user management. Enables AI-powered administration of Keycloak users and realms through the Model Context Protocol (MCP). Seamlessly integrates with Claude Desktop and other MCP clients for automated user operations.",
     "epoch": 1,
+    "id": "ac8e4d2b-da97-4a40-934b-1c516b4250fe",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:38.271493104Z",
-    "name": "io.github.ChristophEnglisch/keycloak-model-context-protocol",
-    "prompts": [],
-    "registries": [
+    "modifiedat": "2025-05-26T10:34:20.327106873Z",
+    "name": "io.github.christophenglisch/keycloak-model-context-protocol",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "URL of the Keycloak server",
-              "name": "KEYCLOAK_URL",
-              "required": false
-            },
-            {
-              "description": "Keycloak admin username",
-              "name": "KEYCLOAK_ADMIN",
-              "required": false
-            },
-            {
-              "description": "Keycloak admin password",
-              "name": "KEYCLOAK_ADMIN_PASSWORD",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "keycloak-model-context-protocol"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "keycloak-model-context-protocol"
+        "environment_variables": [
+          {
+            "description": "http://localhost:8080",
+            "name": "KEYCLOAK_URL"
+          },
+          {
+            "description": "admin",
+            "name": "KEYCLOAK_ADMIN"
+          },
+          {
+            "description": "admin",
+            "name": "KEYCLOAK_ADMIN_PASSWORD"
+          }
+        ],
+        "name": "keycloak-model-context-protocol",
+        "package_arguments": [
+          {
+            "default": "path/to/dist/index.js",
+            "description": "Second positional argument to the command",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/dist/index.js",
+            "value_hint": "path/to/dist/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.0.2"
       }
     ],
-    "remotes": [],
-    "repo_ref": "ChristophEnglisch/keycloak-model-context-protocol",
+    "prompts": [],
+    "repository": {
+      "id": "912825504",
+      "source": "github",
+      "url": "https://github.com/ChristophEnglisch/keycloak-model-context-protocol"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ChristophEnglisch/servers/keycloak-model-context-protocol/versions/1",
     "serverid": "keycloak-model-context-protocol",
@@ -122,7 +127,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.1"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:08:50Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/ChristophEnglisch/servers/keycloak-model-context-protocol/versions/1"

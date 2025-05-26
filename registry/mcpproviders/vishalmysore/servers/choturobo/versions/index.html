@@ -1,12 +1,20 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:18:02.641930099Z",
-    "description": "Arduino-based robotics server integrating AI using the MCP (Model Context Protocol) framework from Claude AI by Anthropic. Controls hardware components like LEDs, motors, servos, fans, sensors via MCP tools and prompts.",
+    "createdat": "2025-05-26T10:36:13.352214997Z",
+    "description": "Integrate Arduino-based robotics (using the NodeMCU ESP32 or Arduino Nano 368 board) with AI using the MCP (Model Context Protocol) framework from Claude Anthropic",
     "epoch": 1,
+    "id": "466926d1-72a6-42be-b2c1-ef94d44e5a67",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:18:02.641930099Z",
+    "modifiedat": "2025-05-26T10:36:13.352214997Z",
     "name": "io.github.vishalmysore/choturobo",
+    "packages": [
+      {
+        "name": "choturoboserver",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
     "prompts": [
       {
         "arguments": [
@@ -46,22 +54,11 @@
         "name": "set-chotu-speed"
       }
     ],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [
-            "server.js"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@modelcontextprotocol/sdk"
-      }
-    ],
-    "remotes": [],
-    "repo_ref": "vishalmysore/choturobo",
+    "repository": {
+      "id": "947567270",
+      "source": "github",
+      "url": "https://github.com/vishalmysore/choturobo"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vishalmysore/servers/choturobo/versions/1",
     "serverid": "choturobo",
@@ -236,7 +233,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:14Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/vishalmysore/servers/choturobo/versions/1"

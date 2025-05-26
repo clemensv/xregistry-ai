@@ -1,35 +1,31 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:46.790599744Z",
-  "description": "A Model Context Protocol server that provides read and write access to Airtable databases. This server enables LLMs to inspect database schemas, then read and write records.",
+  "createdat": "2025-05-26T10:34:30.093308726Z",
+  "description": "🗂️🤖 Airtable Model Context Protocol Server, for allowing AI systems to interact with your Airtable bases",
   "epoch": 1,
+  "id": "a4902ee8-060c-47d1-9dfc-ec6af1a9c398",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:46.790599744Z",
+  "modifiedat": "2025-05-26T10:34:30.093308726Z",
   "name": "io.github.domdomegg/airtable-mcp-server",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Airtable personal access token",
-            "name": "AIRTABLE_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "airtable-mcp-server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "airtable-mcp-server"
+      "environment_variables": [
+        {
+          "description": "pat123.abc123",
+          "name": "AIRTABLE_API_KEY"
+        }
+      ],
+      "name": "airtable-mcp-server",
+      "registry_name": "npm",
+      "version": "1.4.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "domdomegg/airtable-mcp-server",
+  "prompts": [],
+  "repository": {
+    "id": "902495626",
+    "source": "github",
+    "url": "https://github.com/domdomegg/airtable-mcp-server"
+  },
   "resources": [
     {
       "description": "Schema of a specific table in an Airtable base",
@@ -136,7 +132,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:02:45Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/domdomegg/servers/airtable-mcp-server/versions/1"

@@ -1,42 +1,56 @@
 {
   "code-assistant": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:51.622117136Z",
-    "description": "A CLI tool built in Rust for assisting with code-related tasks, capable of running as a Model Context Protocol server providing tools and resources to LLMs running in an MCP client.",
+    "createdat": "2025-05-26T10:35:57.468065871Z",
+    "description": "An LLM-powered, autonomous coding assistant. Also offers an MCP mode.",
     "epoch": 1,
+    "id": "ae6e66c8-bfef-42dd-b1c5-c69f35bfab36",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stippi/servers/code-assistant/meta",
-    "modifiedat": "2025-05-26T08:17:51.622117136Z",
+    "modifiedat": "2025-05-26T10:35:57.468065871Z",
     "name": "io.github.stippi/code-assistant",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "optional, enables perplexity_ask tool",
-              "name": "PERPLEXITY_API_KEY",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "rust",
-        "package_name": "code-assistant"
+        "environment_variables": [
+          {
+            "description": "pplx-...",
+            "name": "PERPLEXITY_API_KEY"
+          },
+          {
+            "description": "/bin/zsh",
+            "name": "SHELL"
+          }
+        ],
+        "name": "stippi/code-assistant",
+        "package_arguments": [
+          {
+            "default": "server",
+            "description": "second positional argument passed to the command",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server",
+            "value_hint": "server"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": ""
       }
     ],
-    "remotes": [],
-    "repo_ref": "stippi/code-assistant",
+    "prompts": [],
+    "repository": {
+      "id": "882757178",
+      "source": "github",
+      "url": "https://github.com/stippi/code-assistant"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stippi/servers/code-assistant",
     "serverid": "code-assistant",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:35Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

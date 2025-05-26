@@ -1,12 +1,26 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:06.083669001Z",
-  "description": "A Model Context Protocol server for the Linear API providing integration with Linear's issue tracking system through MCP, allowing LLMs to interact with Linear issues.",
+  "createdat": "2025-05-26T10:34:54.032945306Z",
+  "description": "A server that integrates Linear's project management system with the Model Context Protocol (MCP) to allow LLMs to interact with Linear.",
   "epoch": 1,
+  "id": "a0e6ce8a-15eb-4776-b9de-a4bb3c7e4730",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jerhadf/servers/linear-mcp-server/meta",
-  "modifiedat": "2025-05-26T08:17:06.083669001Z",
+  "modifiedat": "2025-05-26T10:34:54.032945306Z",
   "name": "io.github.jerhadf/linear-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your_linear_api_key_here",
+          "name": "LINEAR_API_KEY"
+        }
+      ],
+      "name": "linear-mcp-server",
+      "registry_name": "npm",
+      "version": "0.1.0"
+    }
+  ],
   "prompts": [
     {
       "arguments": [],
@@ -14,29 +28,11 @@
       "name": "linear-server-prompt"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for Linear",
-            "name": "LINEAR_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "linear-mcp-server"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "linear-mcp-server"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "jerhadf/linear-mcp-server",
+  "repository": {
+    "id": "898106797",
+    "source": "github",
+    "url": "https://github.com/jerhadf/linear-mcp-server"
+  },
   "resources": [
     {
       "description": "A Linear issue with its details, comments, and metadata. Use this to fetch detailed information about a specific issue.",
@@ -233,7 +229,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:09:17Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

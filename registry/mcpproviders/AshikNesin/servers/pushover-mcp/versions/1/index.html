@@ -1,31 +1,56 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:30.788107225Z",
-  "description": "A Model Context Protocol implementation for sending notifications via Pushover.net.",
+  "createdat": "2025-05-26T10:34:11.100453196Z",
+  "description": "A MCP implementation for sending notifications via Pushover",
   "epoch": 1,
+  "id": "61ffe82e-5288-4af8-a45f-9a0907c941de",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:30.788107225Z",
-  "name": "io.github.AshikNesin/pushover-mcp",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:11.100453196Z",
+  "name": "io.github.ashiknesin/pushover-mcp",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "--token",
-          "YOUR_TOKEN",
-          "--user",
-          "YOUR_USER"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "pushover-mcp"
+      "name": "pushover-mcp",
+      "package_arguments": [
+        {
+          "default": "start",
+          "description": "start",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "start",
+          "value_hint": "start"
+        },
+        {
+          "default": "--token YOUR_TOKEN",
+          "description": "--token YOUR_TOKEN",
+          "format": "string",
+          "is_required": true,
+          "name": "--token YOUR_TOKEN",
+          "type": "named",
+          "value": "--token YOUR_TOKEN",
+          "value_hint": "YOUR_TOKEN"
+        },
+        {
+          "default": "--user YOUR_USER",
+          "description": "--user YOUR_USER",
+          "format": "string",
+          "is_required": true,
+          "name": "--user YOUR_USER",
+          "type": "named",
+          "value": "--user YOUR_USER",
+          "value_hint": "YOUR_USER"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.0.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "AshikNesin/pushover-mcp",
+  "prompts": [],
+  "repository": {
+    "id": "943326406",
+    "source": "github",
+    "url": "https://github.com/AshikNesin/pushover-mcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AshikNesin/servers/pushover-mcp/versions/1",
   "serverid": "pushover-mcp",
@@ -65,7 +90,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:12:59Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/AshikNesin/servers/pushover-mcp/versions/1"

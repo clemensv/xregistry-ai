@@ -1,12 +1,20 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:57.584250259Z",
-  "description": "An MCP server to interact with a Tinybird Workspace from any MCP client. Supports querying Tinybird Data Sources, getting results from Tinybird API Endpoints, and pushing Datafiles. Supports both SSE and STDIO modes.",
+  "createdat": "2025-05-26T10:36:06.203119514Z",
+  "description": "",
   "epoch": 1,
+  "id": "adb9a058-774f-4505-aa80-1afa9bab8cb9",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tinybirdco/servers/mcp-tinybird/meta",
-  "modifiedat": "2025-05-26T08:17:57.584250259Z",
+  "modifiedat": "2025-05-26T10:36:06.203119514Z",
   "name": "io.github.tinybirdco/mcp-tinybird",
+  "packages": [
+    {
+      "name": "mcp-tinybird",
+      "registry_name": "unknown",
+      "version": "1.0.2"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -20,39 +28,11 @@
       "name": "tinybird-default"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Tinybird API URL",
-            "name": "TB_API_URL",
-            "required": true
-          },
-          {
-            "description": "Tinybird Admin Token",
-            "name": "TB_ADMIN_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "mcp-tinybird",
-          "stdio"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@tinybirdco/mcp-tinybird"
-    }
-  ],
-  "remotes": [
-    {
-      "transporttype": "http",
-      "url": "http://localhost:8000"
-    }
-  ],
-  "repo_ref": "tinybirdco/mcp-tinybird",
+  "repository": {
+    "id": "894960290",
+    "source": "github",
+    "url": "https://github.com/tinybirdco/mcp-tinybird"
+  },
   "resources": [
     {
       "description": "A living document of discovered insights",
@@ -225,7 +205,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:02:09Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

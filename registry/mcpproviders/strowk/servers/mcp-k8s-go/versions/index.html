@@ -1,45 +1,64 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:52.469114067Z",
-    "description": "Golang-based MCP server connecting to Kubernetes. Provides listing and retrieval of Kubernetes contexts, namespaces, resources, nodes, pods, events, pod logs, and running commands in pods.",
+    "createdat": "2025-05-26T10:35:58.342670886Z",
+    "description": "MCP server connecting to Kubernetes",
     "epoch": 1,
+    "id": "a59a162f-d811-4344-bf53-606a74bb50c6",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:17:52.469114067Z",
+    "modifiedat": "2025-05-26T10:35:58.342670886Z",
     "name": "io.github.strowk/mcp-k8s-go",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "container",
-        "package_name": "unspecified"
-      },
-      {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [
-            "@strowk/mcp-k8s"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@strowk/mcp-k8s"
+        "name": "strowk/mcp-k8s-go",
+        "package_arguments": [
+          {
+            "default": "-v ~/.kube/config:/home/nonroot/.kube/config",
+            "description": "Mounts ~/.kube/config into container",
+            "format": "string",
+            "is_required": true,
+            "name": "-v ~/.kube/config:/home/nonroot/.kube/config",
+            "type": "named",
+            "value": "-v ~/.kube/config:/home/nonroot/.kube/config",
+            "value_hint": "~/.kube/config:/home/nonroot/.kube/config"
+          },
+          {
+            "default": "--rm",
+            "description": "Removes container after exit",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm"
+          },
+          {
+            "default": "mcpk8s/server:latest",
+            "description": "Docker image to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcpk8s/server:latest",
+            "value_hint": "mcpk8s/server:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": ""
       }
     ],
-    "remotes": [],
-    "repo_ref": "strowk/mcp-k8s-go",
+    "prompts": [],
+    "repository": {
+      "id": "896738164",
+      "source": "github",
+      "url": "https://github.com/strowk/mcp-k8s-go"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/strowk/servers/mcp-k8s-go/versions/1",
     "serverid": "mcp-k8s-go",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:09:50Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/strowk/servers/mcp-k8s-go/versions/1"

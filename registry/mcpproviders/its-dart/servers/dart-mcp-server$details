@@ -1,12 +1,65 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:04.812903618Z",
-  "description": "The official AI Model Context Protocol (MCP) server for Dart, providing task and document management via prompts, resources, and tools.",
+  "createdat": "2025-05-26T10:34:51.920624761Z",
+  "description": "Dart AI Model Context Protocol (MCP) server",
   "epoch": 1,
+  "id": "9c2d91f0-76c4-4292-a19f-e81e962954b5",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/its-dart/servers/dart-mcp-server/meta",
-  "modifiedat": "2025-05-26T08:17:04.812903618Z",
+  "modifiedat": "2025-05-26T10:34:51.920624761Z",
   "name": "io.github.its-dart/dart-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "dsa_...",
+          "name": "DART_TOKEN"
+        }
+      ],
+      "name": "dart-mcp-server",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "-i",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "default": "--rm",
+          "description": "--rm",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "default": "-e DART_TOKEN",
+          "description": "-e",
+          "format": "string",
+          "is_required": true,
+          "name": "-e DART_TOKEN",
+          "type": "named",
+          "value": "-e DART_TOKEN",
+          "value_hint": "DART_TOKEN"
+        },
+        {
+          "default": "mcp/dart",
+          "description": "mcp/dart",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp/dart",
+          "value_hint": "mcp/dart"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "0.1.13"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -77,28 +130,11 @@
       "name": "Summarize tasks"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API token for Dart",
-            "name": "DART_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "dart-mcp-server"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "its-dart/dart-mcp-server",
+  "repository": {
+    "id": "936960342",
+    "source": "github",
+    "url": "https://github.com/its-dart/dart-mcp-server"
+  },
   "resources": [
     {
       "description": "Information about the authenticated user associated with the API key, including their role, teams, and settings.",
@@ -536,7 +572,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:58:23Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

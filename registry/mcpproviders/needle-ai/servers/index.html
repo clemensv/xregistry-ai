@@ -1,40 +1,53 @@
 {
   "needle-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:25.539015482Z",
-    "description": "MCP (Model Context Protocol) server to manage documents and perform searches using Needle through Claude’s Desktop Application.",
-    "documentation": "https://github.com/yourusername/needle-mcp/blob/main/README.md",
+    "createdat": "2025-05-26T10:35:20.731267324Z",
+    "description": "Integration of Needle in modelcontextprotocol",
     "epoch": 1,
+    "id": "be6eb263-3492-4073-b28f-0fd33d070982",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/needle-ai/servers/needle-mcp/meta",
-    "modifiedat": "2025-05-26T08:17:25.539015482Z",
+    "modifiedat": "2025-05-26T10:35:20.731267324Z",
     "name": "io.github.needle-ai/needle-mcp",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API key for Needle service",
-              "name": "NEEDLE_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "--directory",
-            "/path/to/needle-mcp",
-            "run",
-            "needle-mcp"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@smithery/needle-mcp"
+        "environment_variables": [
+          {
+            "description": "your_needle_api_key",
+            "name": "NEEDLE_API_KEY"
+          }
+        ],
+        "name": "needle-mcp",
+        "package_arguments": [
+          {
+            "default": "/path/to/needle-mcp",
+            "description": "/path/to/needle-mcp",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/path/to/needle-mcp",
+            "value_hint": "/path/to/needle-mcp"
+          },
+          {
+            "default": "needle-mcp",
+            "description": "needle-mcp",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "needle-mcp",
+            "value_hint": "needle-mcp"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "needle-ai/needle-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "903772115",
+      "source": "github",
+      "url": "https://github.com/needle-ai/needle-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/needle-ai/servers/needle-mcp",
     "serverid": "needle-mcp",
@@ -161,7 +174,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:00:40Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

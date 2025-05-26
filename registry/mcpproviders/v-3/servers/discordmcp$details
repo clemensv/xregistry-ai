@@ -1,35 +1,26 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:59.409293867Z",
-  "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.",
+  "createdat": "2025-05-26T10:36:09.880991584Z",
+  "description": "Discord MCP Server for Claude Integration",
   "epoch": 1,
+  "id": "361ed7f4-8df4-4a8e-931f-edfb380e0019",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/v-3/servers/discordmcp/meta",
-  "modifiedat": "2025-05-26T08:17:59.409293867Z",
+  "modifiedat": "2025-05-26T10:36:09.880991584Z",
   "name": "io.github.v-3/discordmcp",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Discord bot token",
-            "name": "DISCORD_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "build/index.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "discordmcp"
+      "name": "discord-mcp-server",
+      "registry_name": "unknown",
+      "version": "1.0.0"
     }
   ],
-  "remotes": [],
-  "repo_ref": "v-3/discordmcp",
+  "prompts": [],
+  "repository": {
+    "id": "919856605",
+    "source": "github",
+    "url": "https://github.com/v-3/discordmcp"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/v-3/servers/discordmcp",
   "serverid": "discordmcp",
@@ -79,7 +70,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:53Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

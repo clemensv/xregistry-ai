@@ -1,44 +1,52 @@
 {
   "agentrpc": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:27.110473195Z",
-    "description": "Universal RPC layer for AI agents across network boundaries and languages, supporting Model Context Protocol (MCP) and OpenAI-compatible tool definitions.",
+    "createdat": "2025-05-26T10:34:04.686232468Z",
+    "description": "A universal RPC layer for AI agents. Connect to any function, any language, any framework, in minutes.",
     "epoch": 1,
+    "id": "c296f683-5578-474a-bbef-00cfc2716fbc",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agentrpc/servers/agentrpc/meta",
-    "modifiedat": "2025-05-26T08:16:27.110473195Z",
+    "modifiedat": "2025-05-26T10:34:04.686232468Z",
     "name": "io.github.agentrpc/agentrpc",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API secret for authentication",
-              "name": "AGENTRPC_API_SECRET",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "agentrpc",
-            "mcp"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "agentrpc"
+        "environment_variables": [
+          {
+            "description": "\u003cYOUR_API_SECRET\u003e",
+            "name": "AGENTRPC_API_SECRET"
+          }
+        ],
+        "name": "agentrpc/agentrpc",
+        "package_arguments": [
+          {
+            "default": "mcp",
+            "description": "Positional argument",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp",
+            "value_hint": "mcp"
+          }
+        ],
+        "registry_name": "npm",
+        "version": ""
       }
     ],
-    "remotes": [],
-    "repo_ref": "agentrpc/agentrpc",
+    "prompts": [],
+    "repository": {
+      "id": "949728461",
+      "source": "github",
+      "url": "https://github.com/agentrpc/agentrpc"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agentrpc/servers/agentrpc",
     "serverid": "agentrpc",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:56:57Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

@@ -1,33 +1,26 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:57.267852899Z",
-  "description": "MCP server providing blockchain tools via the MCP protocol, enabling compatible LLM clients to interact with blockchain data and AI agents.",
+  "createdat": "2025-05-26T10:36:05.810810783Z",
+  "description": "",
   "epoch": 1,
+  "id": "f5349be9-5e04-4e93-bf2f-2dae8db4a9e9",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/thirdweb-dev/servers/ai/meta",
-  "modifiedat": "2025-05-26T08:17:57.267852899Z",
+  "modifiedat": "2025-05-26T10:36:05.810810783Z",
   "name": "io.github.thirdweb-dev/ai",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for thirdweb services",
-            "name": "THIRDWEB_SECRET_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "thirdweb-ai"
+      "name": "thirdweb-dev/ai",
+      "registry_name": "unknown",
+      "version": ""
     }
   ],
-  "remotes": [],
-  "repo_ref": "thirdweb-dev/ai",
+  "prompts": [],
+  "repository": {
+    "id": "947697435",
+    "source": "github",
+    "url": "https://github.com/thirdweb-dev/ai"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/thirdweb-dev/servers/ai",
   "serverid": "ai",
@@ -48,7 +41,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:02:05Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

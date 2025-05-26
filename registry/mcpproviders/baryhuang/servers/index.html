@@ -1,32 +1,74 @@
 {
   "mcp-headless-gmail": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:33.88160048Z",
+    "createdat": "2025-05-26T10:34:14.495249278Z",
     "description": "A MCP (Model Context Protocol) server that provides get, send Gmails without local credential or token setup.",
     "epoch": 1,
+    "id": "83932f7e-8c4d-475b-b03b-f30bc31793d3",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-headless-gmail/meta",
-    "modifiedat": "2025-05-26T08:16:33.88160048Z",
+    "modifiedat": "2025-05-26T10:34:14.495249278Z",
     "name": "io.github.baryhuang/mcp-headless-gmail",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [
-            "-i",
-            "--rm",
-            "buryhuang/mcp-headless-gmail:latest"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "container",
-        "package_name": "buryhuang/mcp-headless-gmail"
+        "environment_variables": [
+          {
+            "description": "your_access_token",
+            "name": "google_access_token"
+          }
+        ],
+        "name": "mcp-server-headless-gmail",
+        "package_arguments": [
+          {
+            "default": "recipient@example.com",
+            "description": "Recipient email address",
+            "format": "string",
+            "is_required": true,
+            "name": "recipient@example.com",
+            "type": "named",
+            "value": "recipient@example.com",
+            "value_hint": "recipient@example.com"
+          },
+          {
+            "default": "Hello from MCP Gmail",
+            "description": "Email subject",
+            "format": "string",
+            "is_required": true,
+            "name": "Hello from MCP Gmail",
+            "type": "named",
+            "value": "Hello from MCP Gmail",
+            "value_hint": "Hello from MCP Gmail"
+          },
+          {
+            "default": "This is a test email sent via MCP Gmail server",
+            "description": "Plain text email body",
+            "format": "string",
+            "is_required": true,
+            "name": "This is a test email sent via MCP Gmail server",
+            "type": "named",
+            "value": "This is a test email sent via MCP Gmail server",
+            "value_hint": "This is a test email sent via MCP Gmail server"
+          },
+          {
+            "default": "\u003cp\u003eThis is a \u003cstrong\u003etest email\u003c/strong\u003e sent via MCP Gmail server\u003c/p\u003e",
+            "description": "HTML email body",
+            "format": "string",
+            "name": "\u003cp\u003eThis is a \u003cstrong\u003etest email\u003c/strong\u003e sent via MCP Gmail server\u003c/p\u003e",
+            "type": "named",
+            "value": "\u003cp\u003eThis is a \u003cstrong\u003etest email\u003c/strong\u003e sent via MCP Gmail server\u003c/p\u003e",
+            "value_hint": "\u003cp\u003eThis is a \u003cstrong\u003etest email\u003c/strong\u003e sent via MCP Gmail server\u003c/p\u003e"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "baryhuang/mcp-headless-gmail",
+    "prompts": [],
+    "repository": {
+      "id": "951719324",
+      "source": "github",
+      "url": "https://github.com/baryhuang/mcp-headless-gmail"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-headless-gmail",
     "serverid": "mcp-headless-gmail",
@@ -128,37 +170,265 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:07:16Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
     "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-headless-gmail/versions",
     "xid": "/mcpproviders/baryhuang/servers/mcp-headless-gmail"
   },
-  "mcp-server-aws-resources-python": {
+  "mcp-remote-macos-use": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:34.03172376Z",
-    "description": "A Model Context Protocol (MCP) server implementation that provides running generated python code to query any AWS resources through boto3.",
+    "createdat": "2025-05-26T10:34:14.725766454Z",
+    "description": "The only general AI agent that does NOT requires extra API key, giving you full control on your local and remote MacOs from Claude Desktop App",
     "epoch": 1,
+    "id": "5e32ec37-7a46-4e84-9f19-845cd6b151f4",
     "isdefault": true,
-    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-aws-resources-python/meta",
-    "modifiedat": "2025-05-26T08:16:34.03172376Z",
-    "name": "io.github.baryhuang/mcp-server-aws-resources-python",
-    "prompts": [],
-    "registries": [
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-remote-macos-use/meta",
+    "modifiedat": "2025-05-26T10:34:14.725766454Z",
+    "name": "io.github.baryhuang/mcp-remote-macos-use",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "container",
-        "package_name": "buryhuang/mcp-server-aws-resources"
+        "name": "mcp_remote_macos_use",
+        "package_arguments": [
+          {
+            "default": "-e MACOS_USERNAME=your_macos_username",
+            "description": "Pass environment variable MACOS_USERNAME",
+            "format": "string",
+            "is_required": true,
+            "name": "-e MACOS_USERNAME=your_macos_username",
+            "type": "named",
+            "value": "-e MACOS_USERNAME=your_macos_username",
+            "value_hint": "MACOS_USERNAME=your_macos_username"
+          },
+          {
+            "default": "-e MACOS_PASSWORD=your_macos_password",
+            "description": "Pass environment variable MACOS_PASSWORD",
+            "format": "string",
+            "is_required": true,
+            "name": "-e MACOS_PASSWORD=your_macos_password",
+            "type": "named",
+            "value": "-e MACOS_PASSWORD=your_macos_password",
+            "value_hint": "MACOS_PASSWORD=your_macos_password"
+          },
+          {
+            "default": "-e MACOS_HOST=your_macos_hostname_or_ip",
+            "description": "Pass environment variable MACOS_HOST",
+            "format": "string",
+            "is_required": true,
+            "name": "-e MACOS_HOST=your_macos_hostname_or_ip",
+            "type": "named",
+            "value": "-e MACOS_HOST=your_macos_hostname_or_ip",
+            "value_hint": "MACOS_HOST=your_macos_hostname_or_ip"
+          },
+          {
+            "default": "--rm",
+            "description": "Remove container when it exits",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm",
+            "value_hint": "--rm"
+          },
+          {
+            "default": "buryhuang/mcp-remote-macos-use:latest",
+            "description": "Docker image to use",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "buryhuang/mcp-remote-macos-use:latest",
+            "value_hint": "buryhuang/mcp-remote-macos-use:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "baryhuang/mcp-server-aws-resources-python",
+    "repository": {
+      "id": "952732612",
+      "source": "github",
+      "url": "https://github.com/baryhuang/mcp-remote-macos-use"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-remote-macos-use",
+    "serverid": "mcp-remote-macos-use",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:52Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-remote-macos-use/versions",
+    "xid": "/mcpproviders/baryhuang/servers/mcp-remote-macos-use"
+  },
+  "mcp-server-any-openapi": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:14.887558502Z",
+    "description": "A MCP server that enables Claude to discover and call any API endpoint through semantic search. Intelligently chunks OpenAPI specifications to handle large API documentation, with built-in request execution capabilities. Perfect for integrating private APIs with Claude Desktop.",
+    "epoch": 1,
+    "id": "c52271b3-e48e-4896-b5a2-2ff93189b339",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-any-openapi/meta",
+    "modifiedat": "2025-05-26T10:34:14.887558502Z",
+    "name": "io.github.baryhuang/mcp-server-any-openapi",
+    "packages": [
+      {
+        "name": "mcp-server-any-openapi",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "Run in interactive mode",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "Automatically remove the container when it exits",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm"
+          },
+          {
+            "default": "-e OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json",
+            "description": "Set environment variable OPENAPI_JSON_DOCS_URL",
+            "format": "string",
+            "is_required": true,
+            "name": "-e OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json",
+            "type": "named",
+            "value": "-e OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json",
+            "value_hint": "OPENAPI_JSON_DOCS_URL=https://api.example.com/openapi.json"
+          },
+          {
+            "default": "-e MCP_API_PREFIX=finance",
+            "description": "Set environment variable MCP_API_PREFIX",
+            "format": "string",
+            "is_required": true,
+            "name": "-e MCP_API_PREFIX=finance",
+            "type": "named",
+            "value": "-e MCP_API_PREFIX=finance",
+            "value_hint": "MCP_API_PREFIX=finance"
+          },
+          {
+            "default": "-e GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com .",
+            "description": "Set environment variable GLOBAL_TOOL_PROMPT",
+            "format": "string",
+            "is_required": true,
+            "name": "-e GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com .",
+            "type": "named",
+            "value": "-e GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com .",
+            "value_hint": "GLOBAL_TOOL_PROMPT='Access to insights apis for ACME Financial Services abc.com ."
+          },
+          {
+            "default": "buryhuang/mcp-server-any-openapi:latest",
+            "description": "Docker image name and tag",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "buryhuang/mcp-server-any-openapi:latest",
+            "value_hint": "buryhuang/mcp-server-any-openapi:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "929659341",
+      "source": "github",
+      "url": "https://github.com/baryhuang/mcp-server-any-openapi"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-any-openapi",
+    "serverid": "mcp-server-any-openapi",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:58Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-any-openapi/versions",
+    "xid": "/mcpproviders/baryhuang/servers/mcp-server-any-openapi"
+  },
+  "mcp-server-aws-resources-python": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:15.068414512Z",
+    "description": "A Python-based MCP server that lets Claude run boto3 code to query and manage AWS resources. Execute powerful AWS operations directly through Claude with proper sandboxing and containerization. No need for complex setups - just pass your AWS credentials and start interacting with all AWS services.",
+    "epoch": 1,
+    "id": "6dd26dd7-d5c3-4aa8-bb9a-3aba328790ad",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baryhuang/servers/mcp-server-aws-resources-python/meta",
+    "modifiedat": "2025-05-26T10:34:15.068414512Z",
+    "name": "io.github.baryhuang/mcp-server-aws-resources-python",
+    "packages": [
+      {
+        "name": "mcp-server-aws-resources",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "Keep STDIN open even if not attached",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "Automatically remove the container when it exits",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm"
+          },
+          {
+            "default": "-e AWS_PROFILE=default",
+            "description": "Set environment variables in the container",
+            "format": "string",
+            "is_required": true,
+            "name": "-e AWS_PROFILE=default",
+            "type": "named",
+            "value": "-e AWS_PROFILE=default",
+            "value_hint": "AWS_PROFILE=default"
+          },
+          {
+            "default": "-v ~/.aws:/root/.aws",
+            "description": "Bind mount a volume",
+            "format": "string",
+            "is_required": true,
+            "name": "-v ~/.aws:/root/.aws",
+            "type": "named",
+            "value": "-v ~/.aws:/root/.aws",
+            "value_hint": "~/.aws:/root/.aws"
+          },
+          {
+            "default": "buryhuang/mcp-server-aws-resources:latest",
+            "description": "Docker image name with tag",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "buryhuang/mcp-server-aws-resources:latest",
+            "value_hint": "buryhuang/mcp-server-aws-resources:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "916512524",
+      "source": "github",
+      "url": "https://github.com/baryhuang/mcp-server-aws-resources-python"
+    },
     "resources": [
       {
         "description": "A dynamic resource that provides access to AWS resources through boto3 queries",
@@ -186,7 +456,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:32Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

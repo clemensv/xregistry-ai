@@ -1,44 +1,48 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:54.648268903Z",
-    "description": "MCP Server for Shopify API, enabling interaction with store data through GraphQL API",
+    "createdat": "2025-05-26T10:34:38.662111386Z",
+    "description": "MCP server for Shopify api, usable on mcp clients such as Anthropic's Claude and Cursor IDE",
     "epoch": 1,
+    "id": "fcde90d4-5b99-4262-8101-7a507bf05915",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:54.648268903Z",
-    "name": "io.github.GeLi2001/shopify-mcp",
-    "prompts": [],
-    "registries": [
+    "modifiedat": "2025-05-26T10:34:38.662111386Z",
+    "name": "io.github.geli2001/shopify-mcp",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Shopify API access token",
-              "name": "SHOPIFY_ACCESS_TOKEN",
-              "required": true
-            },
-            {
-              "description": "Shopify store domain",
-              "name": "MYSHOPIFY_DOMAIN",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "shopify-mcp",
-            "--accessToken",
-            "\u003cYOUR_ACCESS_TOKEN\u003e",
-            "--domain",
-            "\u003cYOUR_SHOP\u003e.myshopify.com"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "shopify-mcp-server"
+        "name": "shopify-mcp",
+        "package_arguments": [
+          {
+            "default": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+            "description": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+            "format": "string",
+            "is_required": true,
+            "name": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+            "type": "named",
+            "value": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+            "value_hint": "\u003cYOUR_ACCESS_TOKEN\u003e"
+          },
+          {
+            "default": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+            "description": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+            "format": "string",
+            "is_required": true,
+            "name": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+            "type": "named",
+            "value": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+            "value_hint": "\u003cYOUR_SHOP\u003e.myshopify.com"
+          }
+        ],
+        "registry_name": "npm",
+        "version": "1.0.5"
       }
     ],
-    "remotes": [],
-    "repo_ref": "GeLi2001/shopify-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "958329576",
+      "source": "github",
+      "url": "https://github.com/GeLi2001/shopify-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp/versions/1",
     "serverid": "shopify-mcp",
@@ -315,7 +319,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:55Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/GeLi2001/servers/shopify-mcp/versions/1"

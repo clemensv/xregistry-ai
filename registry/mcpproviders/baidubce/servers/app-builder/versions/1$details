@@ -1,37 +1,31 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:33.337989692Z",
-  "description": "This server provides MCP (Model Context Protocol) tools for interacting with Baidu AppBuilder applications. It supports both stdio and SSE (Server-Sent Events) protocols.",
+  "createdat": "2025-05-26T10:34:13.857004816Z",
+  "description": "appbuilder-sdk, 千帆AppBuilder-SDK帮助开发者灵活、快速的搭建AI原生应用",
   "epoch": 1,
+  "id": "b7e8b7c6-548b-49a7-9001-2bf1733ca539",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:33.337989692Z",
+  "modifiedat": "2025-05-26T10:34:13.857004816Z",
   "name": "io.github.baidubce/app-builder",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ],
+      "name": "baidubce/app-builder",
+      "registry_name": "npm",
+      "version": ""
+    }
+  ],
   "prompts": [],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "AppBuilder API token for authentication",
-            "name": "APPBUILDER_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "appbuilder-sdk"
-    }
-  ],
-  "remotes": [
-    {
-      "transporttype": "http",
-      "url": "http://appbuilder.baidu.com/v2/ai_search/mcp/sse"
-    }
-  ],
-  "repo_ref": "baidubce/app-builder",
+  "repository": {
+    "id": "727502310",
+    "source": "github",
+    "url": "https://github.com/baidubce/app-builder"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/baidubce/servers/app-builder/versions/1",
   "serverid": "app-builder",
@@ -89,7 +83,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.5"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:03:44Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/baidubce/servers/app-builder/versions/1"

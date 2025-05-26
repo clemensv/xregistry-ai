@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:16.943764937Z",
+  "createdat": "2025-05-26T10:35:07.737946342Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lloydzhou/servers/bitable-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:16.943764937Z",
+  "modifiedat": "2025-05-26T10:35:07.737946342Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lloydzhou/servers/bitable-mcp/meta",
   "serverid": "bitable-mcp",

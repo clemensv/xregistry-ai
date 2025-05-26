@@ -1,27 +1,36 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:35.602260091Z",
-    "description": "MCP Server Box is a Python project that integrates with the Box API to perform various operations such as file search, text extraction, AI-based querying, and data extraction. It leverages the box-sdk-gen library and provides a set of tools to interact with Box files and folders. The Model Context Protocol (MCP) is used to facilitate seamless integration with the Box API, enabling efficient and scalable operations on Box files and folders.",
+    "createdat": "2025-05-26T10:34:17.409318096Z",
+    "description": "An MCP server capable of interacting with the Box API",
     "epoch": 1,
+    "id": "46bcb36f-ede9-412e-8181-7c7ece41fa04",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:35.602260091Z",
+    "modifiedat": "2025-05-26T10:34:17.409318096Z",
     "name": "io.github.box-community/mcp-server-box",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "mcp-server-box"
+        "name": "mcp-server-box",
+        "package_arguments": [
+          {
+            "default": "src/mcp_server_box.py",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "src/mcp_server_box.py",
+            "value_hint": "src/mcp_server_box.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "box-community/mcp-server-box",
+    "prompts": [],
+    "repository": {
+      "id": "938387717",
+      "source": "github",
+      "url": "https://github.com/box-community/mcp-server-box"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/box-community/servers/mcp-server-box/versions/1",
     "serverid": "mcp-server-box",
@@ -257,7 +266,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:46Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/box-community/servers/mcp-server-box/versions/1"

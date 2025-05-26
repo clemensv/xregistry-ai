@@ -1,0 +1,31 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:35:36.12364688Z",
+  "description": "A Model Context Protocol (MCP) server that connects to Strava API, providing tools to access Strava data through LLMs",
+  "epoch": 1,
+  "id": "09a2ecf8-1774-490e-8542-2b25a6445a58",
+  "isdefault": true,
+  "modifiedat": "2025-05-26T10:35:36.12364688Z",
+  "name": "io.github.r-huijts/strava-mcp",
+  "packages": [
+    {
+      "name": "strava-mcp-server",
+      "registry_name": "unknown",
+      "version": "1.0.0"
+    }
+  ],
+  "repository": {
+    "id": "961429605",
+    "source": "github",
+    "url": "https://github.com/r-huijts/strava-mcp"
+  },
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/r-huijts/servers/strava-mcp/versions/1",
+  "serverid": "strava-mcp",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:17Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/r-huijts/servers/strava-mcp/versions/1"
+}

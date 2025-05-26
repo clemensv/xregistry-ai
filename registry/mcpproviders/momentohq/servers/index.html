@@ -1,47 +1,41 @@
 {
   "mcp-momento": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:24.721013837Z",
-    "description": "A simple Model Context Protocol (MCP) server implementation for Momento Cache.",
+    "createdat": "2025-05-26T10:35:18.553036981Z",
+    "description": "A model context protocol server for Momento",
     "epoch": 1,
+    "id": "b99e5603-6346-4b2c-bae8-876c9b71e18b",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/momentohq/servers/mcp-momento/meta",
-    "modifiedat": "2025-05-26T08:17:24.721013837Z",
+    "modifiedat": "2025-05-26T10:35:18.553036981Z",
     "name": "io.github.momentohq/mcp-momento",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "API key for Momento Cache",
-              "name": "MOMENTO_API_KEY",
-              "required": true
-            },
-            {
-              "description": "Name of the cache to use",
-              "name": "MOMENTO_CACHE_NAME",
-              "required": false
-            },
-            {
-              "description": "Default TTL for cache entries in seconds",
-              "name": "DEFAULT_TTL_SECONDS",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "@gomomento/mcp-momento"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@gomomento/mcp-momento"
+        "environment_variables": [
+          {
+            "description": "your-api-key",
+            "name": "MOMENTO_API_KEY"
+          },
+          {
+            "description": "your-cache-name",
+            "name": "MOMENTO_CACHE_NAME"
+          },
+          {
+            "description": "60",
+            "name": "DEFAULT_TTL_SECONDS"
+          }
+        ],
+        "name": "@gomomento/mcp-momento",
+        "registry_name": "npm",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "momentohq/mcp-momento",
+    "prompts": [],
+    "repository": {
+      "id": "960008375",
+      "source": "github",
+      "url": "https://github.com/momentohq/mcp-momento"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/momentohq/servers/mcp-momento",
     "serverid": "mcp-momento",
@@ -162,7 +156,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:00:31Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

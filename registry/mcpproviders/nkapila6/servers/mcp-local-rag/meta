@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:26.588024283Z",
+  "createdat": "2025-05-26T10:35:21.860006315Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/nkapila6/servers/mcp-local-rag/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:26.588024283Z",
+  "modifiedat": "2025-05-26T10:35:21.860006315Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/nkapila6/servers/mcp-local-rag/meta",
   "serverid": "mcp-local-rag",

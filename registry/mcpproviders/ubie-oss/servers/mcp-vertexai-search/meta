@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:36:08.4050661Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ubie-oss/servers/mcp-vertexai-search/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:36:08.4050661Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ubie-oss/servers/mcp-vertexai-search/meta",
+  "serverid": "mcp-vertexai-search",
+  "xid": "/mcpproviders/ubie-oss/servers/mcp-vertexai-search/meta"
+}

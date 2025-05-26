@@ -1,38 +1,37 @@
 {
   "ai-agent-marketplace-index-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:27.689073311Z",
-    "description": "MCP Server for AI Agent Marketplace Index from DeepNLP, allowing AI assistants to search available AI agents by keywords or category, including tools for searching AI agents and listing AI agents to the marketplace.",
+    "createdat": "2025-05-26T10:34:05.556728687Z",
+    "description": "MCP Server for AI Agent Marketplace Index from DeepNLP",
     "epoch": 1,
+    "id": "ffe051ab-1088-4040-9bbb-8a1bf3fd2a7b",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AI-Agent-Hub/servers/ai-agent-marketplace-index-mcp/meta",
-    "modifiedat": "2025-05-26T08:16:27.689073311Z",
-    "name": "io.github.AI-Agent-Hub/ai-agent-marketplace-index-mcp",
-    "prompts": [],
-    "registries": [
+    "modifiedat": "2025-05-26T10:34:05.556728687Z",
+    "name": "io.github.ai-agent-hub/ai-agent-marketplace-index-mcp",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Microsoft Bing Search API key",
-              "name": "BING_SEARCH_API_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "run",
-            "-m",
-            "ai-agent-marketplace-index-mcp"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "ai-agent-marketplace-index-mcp"
+        "name": "ai-agent-marketplace-index-mcp",
+        "package_arguments": [
+          {
+            "default": "server.py",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server.py",
+            "value_hint": "server.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "AI-Agent-Hub/ai-agent-marketplace-index-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "958905017",
+      "source": "github",
+      "url": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AI-Agent-Hub/servers/ai-agent-marketplace-index-mcp",
     "serverid": "ai-agent-marketplace-index-mcp",
@@ -63,11 +62,47 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:02:37Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,
     "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AI-Agent-Hub/servers/ai-agent-marketplace-index-mcp/versions",
     "xid": "/mcpproviders/AI-Agent-Hub/servers/ai-agent-marketplace-index-mcp"
+  },
+  "mcp-marketplace": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:05.676180732Z",
+    "description": "OpenSource MCP Marketplace and Html Plugin to Integrate with your AI Application",
+    "epoch": 1,
+    "id": "de52e791-0131-40d1-be41-ba7b14f3c134",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AI-Agent-Hub/servers/mcp-marketplace/meta",
+    "modifiedat": "2025-05-26T10:34:05.676180732Z",
+    "name": "io.github.ai-agent-hub/mcp-marketplace",
+    "packages": [
+      {
+        "name": "AI-Agent-Hub/mcp-marketplace",
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "repository": {
+      "id": "978816723",
+      "source": "github",
+      "url": "https://github.com/AI-Agent-Hub/mcp-marketplace"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AI-Agent-Hub/servers/mcp-marketplace",
+    "serverid": "mcp-marketplace",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:16:48Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AI-Agent-Hub/servers/mcp-marketplace/versions",
+    "xid": "/mcpproviders/AI-Agent-Hub/servers/mcp-marketplace"
   }
 }

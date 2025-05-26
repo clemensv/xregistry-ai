@@ -1,54 +1,33 @@
 {
   "mcp-redis": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:39.900354883Z",
-    "description": "The Redis MCP Server is a natural language interface designed for agentic applications to efficiently manage and search data in Redis. It integrates seamlessly with MCP (Model Content Protocol) clients, enabling AI-driven workflows to interact with structured and unstructured data in Redis.",
+    "createdat": "2025-05-26T10:35:40.019524779Z",
+    "description": "The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently",
     "epoch": 1,
+    "id": "87f325e6-a742-43e4-b8ae-069f7301475d",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/redis/servers/mcp-redis/meta",
-    "modifiedat": "2025-05-26T08:17:39.900354883Z",
+    "modifiedat": "2025-05-26T10:35:40.019524779Z",
     "name": "io.github.redis/mcp-redis",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Redis IP or hostname",
-              "name": "REDIS_HOST",
-              "required": false
-            },
-            {
-              "description": "Redis port",
-              "name": "REDIS_PORT",
-              "required": false
-            },
-            {
-              "description": "Default database username",
-              "name": "REDIS_USERNAME",
-              "required": false
-            },
-            {
-              "description": "Default database password",
-              "name": "REDIS_PWD",
-              "required": false
-            },
-            {
-              "description": "Enables or disables SSL/TLS",
-              "name": "REDIS_SSL",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "mcp-redis"
+        "environment_variables": [
+          {
+            "description": "${input:apiKey}",
+            "name": "API_KEY"
+          }
+        ],
+        "name": "redis-mcp-server",
+        "registry_name": "npm",
+        "version": "0.2.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "redis/mcp-redis",
+    "prompts": [],
+    "repository": {
+      "id": "959084910",
+      "source": "github",
+      "url": "https://github.com/redis/mcp-redis"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/redis/servers/mcp-redis",
     "serverid": "mcp-redis",
@@ -125,7 +104,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:01:10Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 0,
@@ -134,50 +115,79 @@
   },
   "mcp-redis-cloud": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:40.121285205Z",
-    "description": "Model Context Protocol (MCP) server for managing Redis Cloud resources via natural language commands.",
+    "createdat": "2025-05-26T10:35:40.251469573Z",
+    "description": "",
     "epoch": 1,
+    "id": "b8c0e12b-0c04-486d-95a7-caa33b9eefeb",
     "isdefault": true,
     "metascount": 1,
     "metasurl": "http://localhost:8080/mcpproviders/redis/servers/mcp-redis",
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/redis/servers/mcp-redis-cloud/meta",
-    "modifiedat": "2025-05-26T08:17:40.121285205Z",
+    "modifiedat": "2025-05-26T10:35:40.251469573Z",
     "name": "io.github.redis/mcp-redis-cloud",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Redis Cloud API key",
-              "name": "API_KEY",
-              "required": true
-            },
-            {
-              "description": "Redis Cloud API secret key",
-              "name": "SECRET_KEY",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "--experimental-fetch",
-            "\u003cabsolute_path_to_project_root\u003e/dist/index.js"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@modelcontextprotocol/sdk"
+        "name": "mcp-redis-cloud",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "-i",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i",
+            "value_hint": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "--rm",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm",
+            "value_hint": "--rm"
+          },
+          {
+            "default": "-e API_KEY=\u003cyour_redis_cloud_api_key\u003e",
+            "description": "-e API_KEY=\u003cyour_redis_cloud_api_key\u003e",
+            "format": "string",
+            "is_required": true,
+            "name": "-e API_KEY=\u003cyour_redis_cloud_api_key\u003e",
+            "type": "named",
+            "value": "-e API_KEY=\u003cyour_redis_cloud_api_key\u003e",
+            "value_hint": "API_KEY=\u003cyour_redis_cloud_api_key\u003e"
+          },
+          {
+            "default": "-e SECRET_KEY=\u003cyour_redis_cloud_api_secret_key\u003e",
+            "description": "-e SECRET_KEY=\u003cyour_redis_cloud_api_secret_key\u003e",
+            "format": "string",
+            "is_required": true,
+            "name": "-e SECRET_KEY=\u003cyour_redis_cloud_api_secret_key\u003e",
+            "type": "named",
+            "value": "-e SECRET_KEY=\u003cyour_redis_cloud_api_secret_key\u003e",
+            "value_hint": "SECRET_KEY=\u003cyour_redis_cloud_api_secret_key\u003e"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "1.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "redis/mcp-redis-cloud",
+    "prompts": [],
+    "repository": {
+      "id": "956477944",
+      "source": "github",
+      "url": "https://github.com/redis/mcp-redis-cloud"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/redis/servers/mcp-redis-cloud",
     "serverid": "mcp-redis-cloud",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:01:13Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

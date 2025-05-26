@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:18:05.872041887Z",
+  "createdat": "2025-05-26T10:36:17.993158486Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XeroAPI/servers/xero-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:18:05.872041887Z",
+  "modifiedat": "2025-05-26T10:36:17.993158486Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XeroAPI/servers/xero-mcp-server/meta",
   "serverid": "xero-mcp-server",

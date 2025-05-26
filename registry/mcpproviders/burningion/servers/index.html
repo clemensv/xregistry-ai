@@ -1,36 +1,63 @@
 {
   "video-editing-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:36.136137419Z",
-    "description": "Server to upload, edit, search, and generate videos using Video Jungle and LLM integration with custom vj:// URI scheme and video editing tools.",
+    "createdat": "2025-05-26T10:34:17.97198357Z",
+    "description": "MCP Interface for Video Jungle",
     "epoch": 1,
+    "id": "6b136dc5-ffcf-41b0-bf5f-e5dff5d47981",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/burningion/servers/video-editing-mcp/meta",
-    "modifiedat": "2025-05-26T08:16:36.136137419Z",
+    "modifiedat": "2025-05-26T10:34:17.97198357Z",
     "name": "io.github.burningion/video-editing-mcp",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Enable searching local Photos app videos on MacOS",
-              "name": "LOAD_PHOTOS_DB",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "YOURAPIKEY"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "uvicorn",
-        "package_name": "video-editor-mcp"
+        "environment_variables": [
+          {
+            "description": "1",
+            "name": "LOAD_PHOTOS_DB"
+          }
+        ],
+        "name": "video-editor-mcp",
+        "package_arguments": [
+          {
+            "default": "--directory /Users/\u003cPATH_TO\u003e/video-jungle-mcp",
+            "description": "Directory to use",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /Users/\u003cPATH_TO\u003e/video-jungle-mcp",
+            "type": "named",
+            "value": "--directory /Users/\u003cPATH_TO\u003e/video-jungle-mcp",
+            "value_hint": "/Users/\u003cPATH_TO\u003e/video-jungle-mcp"
+          },
+          {
+            "default": "video-editor-mcp",
+            "description": "Script or module name",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "video-editor-mcp",
+            "value_hint": "video-editor-mcp"
+          },
+          {
+            "default": "\u003cYOURAPIKEY\u003e",
+            "description": "API Key input",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "\u003cYOURAPIKEY\u003e",
+            "value_hint": "\u003cYOURAPIKEY\u003e"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.25"
       }
     ],
-    "remotes": [],
-    "repo_ref": "burningion/video-editing-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "898031405",
+      "source": "github",
+      "url": "https://github.com/burningion/video-editing-mcp"
+    },
     "resources": [
       {
         "description": "Access individual videos and projects via custom vj:// URI scheme.",
@@ -71,7 +98,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:26Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

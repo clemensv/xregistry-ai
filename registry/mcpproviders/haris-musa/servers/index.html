@@ -1,50 +1,47 @@
 {
   "excel-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:00.013726603Z",
-    "description": "A Model Context Protocol (MCP) server that lets you manipulate Excel files without needing Microsoft Excel installed. Create, read, and modify Excel workbooks with your AI agent.",
+    "createdat": "2025-05-26T10:34:45.772908267Z",
+    "description": "A Model Context Protocol server for Excel file manipulation",
     "epoch": 1,
+    "id": "2a5c04e4-0526-492b-aa98-49896e033b74",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/haris-musa/servers/excel-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:17:00.013726603Z",
+    "modifiedat": "2025-05-26T10:34:45.772908267Z",
     "name": "io.github.haris-musa/excel-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Server port (default: 8000)",
-              "name": "FASTMCP_PORT",
-              "required": false
-            },
-            {
-              "description": "Directory for Excel files (default: ./excel_files)",
-              "name": "EXCEL_FILES_PATH",
-              "required": false
-            }
-          ],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "excel-mcp-server"
+        "environment_variables": [
+          {
+            "description": "/path/to/excel/files",
+            "name": "EXCEL_FILES_PATH"
+          }
+        ],
+        "name": "excel-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.1.1"
       }
     ],
+    "prompts": [],
     "remotes": [
       {
-        "transporttype": "http",
+        "transport_type": "sse",
         "url": "http://localhost:8000/sse"
       }
     ],
-    "repo_ref": "haris-musa/excel-mcp-server",
+    "repository": {
+      "id": "931365873",
+      "source": "github",
+      "url": "https://github.com/haris-musa/excel-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/haris-musa/servers/excel-mcp-server",
     "serverid": "excel-mcp-server",
     "tools": [],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:06:33Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

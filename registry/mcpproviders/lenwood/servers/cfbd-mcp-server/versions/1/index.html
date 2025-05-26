@@ -1,11 +1,39 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:15.092027764Z",
-  "description": "An MCP server implementation providing access to college football statistics sourced from the College Football Data API within Claude Desktop. Enables AI assistants and applications to query comprehensive college football statistics and data including game results, team records, player statistics, play-by-play data, rankings, and win probability metrics using natural language.",
+  "createdat": "2025-05-26T10:35:05.799687464Z",
+  "description": "An MCP server enabling CFBD API queries within Claude Desktop.",
   "epoch": 1,
+  "id": "9fcb3e74-e8af-4b55-9bfc-808fa2560148",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:15.092027764Z",
+  "modifiedat": "2025-05-26T10:35:05.799687464Z",
   "name": "io.github.lenwood/cfbd-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "xxx",
+          "name": "CFB_API_KEY"
+        },
+        {
+          "description": "/full/path/to/python",
+          "name": "PATH"
+        }
+      ],
+      "name": "cfbd-mcp-server",
+      "package_arguments": [
+        {
+          "default": "cfbd-mcp-server",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "cfbd-mcp-server",
+          "value_hint": "cfbd-mcp-server"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.5.0"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -98,33 +126,11 @@
       "name": "analyze-rivalry"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "API key for College Football Data API",
-            "name": "CFB_API_KEY",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@smithery/cli",
-          "install",
-          "cfbd",
-          "--client",
-          "claude"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@smithery/cfbd"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "lenwood/cfbd-mcp-server",
+  "repository": {
+    "id": "906271992",
+    "source": "github",
+    "url": "https://github.com/lenwood/cfbd-mcp-server"
+  },
   "resources": [
     {
       "description": "Get game information with scores, teams and metadata",
@@ -261,7 +267,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.4.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:04:14Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/lenwood/servers/cfbd-mcp-server/versions/1"

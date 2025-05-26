@@ -1,49 +1,27 @@
 {
   "mcp-server-aws": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:41.244249584Z",
-    "description": "A Model Context Protocol server implementation for AWS operations that currently supports S3 and DynamoDB services. All operations are automatically logged and can be accessed through the audit://aws-operations resource endpoint.",
+    "createdat": "2025-05-26T10:35:41.890259281Z",
+    "description": "A Model Context Protocol server implementation for operations on AWS resources",
     "epoch": 1,
+    "id": "e9799403-3917-4c38-9638-c69aebf1ac08",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rishikavikondala/servers/mcp-server-aws/meta",
-    "modifiedat": "2025-05-26T08:17:41.244249584Z",
+    "modifiedat": "2025-05-26T10:35:41.890259281Z",
     "name": "io.github.rishikavikondala/mcp-server-aws",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "AWS access key ID",
-              "name": "AWS_ACCESS_KEY_ID",
-              "required": false
-            },
-            {
-              "description": "AWS secret access key",
-              "name": "AWS_SECRET_ACCESS_KEY",
-              "required": false
-            },
-            {
-              "description": "AWS region, defaults to us-east-1",
-              "name": "AWS_REGION",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "--directory",
-            "/path/to/repo/mcp-server-aws",
-            "run",
-            "mcp-server-aws"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "mcp-server-aws"
+        "name": "mcp-server-aws",
+        "registry_name": "unknown",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "rishikavikondala/mcp-server-aws",
+    "prompts": [],
+    "repository": {
+      "id": "898207013",
+      "source": "github",
+      "url": "https://github.com/rishikavikondala/mcp-server-aws"
+    },
     "resources": [
       {
         "description": "Access to automatically logged AWS operations.",
@@ -210,7 +188,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:20Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

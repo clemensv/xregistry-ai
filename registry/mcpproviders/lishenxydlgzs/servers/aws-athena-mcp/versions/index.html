@@ -1,81 +1,48 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:16.276412722Z",
-    "description": "A Model Context Protocol (MCP) server for running AWS Athena queries. This server enables AI assistants to execute SQL queries against your AWS Athena databases and retrieve results.",
+    "createdat": "2025-05-26T10:35:07.13270421Z",
+    "description": "MCP server to run AWS Athena queries",
     "epoch": 1,
+    "id": "d3139564-f4c3-44f9-902a-8d172038af01",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:17:16.276412722Z",
+    "modifiedat": "2025-05-26T10:35:07.13270421Z",
     "name": "io.github.lishenxydlgzs/aws-athena-mcp",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "S3 bucket path for Athena query results",
-              "name": "OUTPUT_S3_PATH",
-              "required": true
-            },
-            {
-              "description": "AWS region (optional)",
-              "name": "AWS_REGION",
-              "required": false
-            },
-            {
-              "description": "AWS profile name (optional)",
-              "name": "AWS_PROFILE",
-              "required": false
-            },
-            {
-              "description": "AWS access key (optional)",
-              "name": "AWS_ACCESS_KEY_ID",
-              "required": false
-            },
-            {
-              "description": "AWS secret key (optional)",
-              "name": "AWS_SECRET_ACCESS_KEY",
-              "required": false
-            },
-            {
-              "description": "AWS session token (optional)",
-              "name": "AWS_SESSION_TOKEN",
-              "required": false
-            },
-            {
-              "description": "Athena WorkGroup (optional)",
-              "name": "ATHENA_WORKGROUP",
-              "required": false
-            },
-            {
-              "description": "Query timeout in milliseconds (optional)",
-              "name": "QUERY_TIMEOUT_MS",
-              "required": false
-            },
-            {
-              "description": "Maximum retry attempts (optional)",
-              "name": "MAX_RETRIES",
-              "required": false
-            },
-            {
-              "description": "Delay between retries in milliseconds (optional)",
-              "name": "RETRY_DELAY_MS",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "-y",
-            "@lishenxydlgzs/aws-athena-mcp"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "@lishenxydlgzs/aws-athena-mcp"
+        "name": "@lishenxydlgzs/aws-athena-mcp",
+        "package_arguments": [
+          {
+            "default": "--namedQueryId abcd-1234-efgh-5678",
+            "description": "Named argument for query identifier",
+            "format": "string",
+            "is_required": true,
+            "name": "--namedQueryId abcd-1234-efgh-5678",
+            "type": "named",
+            "value": "--namedQueryId abcd-1234-efgh-5678",
+            "value_hint": "abcd-1234-efgh-5678"
+          },
+          {
+            "default": "--maxRows 100",
+            "description": "Named argument for maximum rows",
+            "format": "string",
+            "is_required": true,
+            "name": "--maxRows 100",
+            "type": "named",
+            "value": "--maxRows 100",
+            "value_hint": "100"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "lishenxydlgzs/aws-athena-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "938923691",
+      "source": "github",
+      "url": "https://github.com/lishenxydlgzs/aws-athena-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lishenxydlgzs/servers/aws-athena-mcp/versions/1",
     "serverid": "aws-athena-mcp",
@@ -191,7 +158,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:23Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/lishenxydlgzs/servers/aws-athena-mcp/versions/1"

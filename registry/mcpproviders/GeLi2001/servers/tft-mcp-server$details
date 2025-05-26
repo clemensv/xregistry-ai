@@ -1,35 +1,58 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:54.887433544Z",
-  "description": "Model Context Protocol (MCP) server for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.",
+  "createdat": "2025-05-26T10:34:38.928016836Z",
+  "description": "",
   "epoch": 1,
+  "id": "1aa1e801-80d9-4ea1-80c2-e7d037ce98e3",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server/meta",
-  "modifiedat": "2025-05-26T08:16:54.887433544Z",
-  "name": "io.github.GeLi2001/tft-mcp-server",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:38.928016836Z",
+  "name": "io.github.geli2001/tft-mcp-server",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [],
-        "positional_arguments": [
-          "mcp-server-tft",
-          "--apiKey",
-          "\u003cYOUR_RIOT_API_KEY\u003e",
-          "--gameName",
-          "\u003cYOUR_GAME_NAME\u003e",
-          "--tagLine",
-          "\u003cYOUR_TAG_LINE\u003e"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "mcp-server-tft"
+      "name": "mcp-server-tft",
+      "package_arguments": [
+        {
+          "default": "--apiKey \u003cYOUR_RIOT_API_KEY\u003e",
+          "description": "\u003cYOUR_RIOT_API_KEY\u003e",
+          "format": "string",
+          "is_required": true,
+          "name": "--apiKey \u003cYOUR_RIOT_API_KEY\u003e",
+          "type": "named",
+          "value": "--apiKey \u003cYOUR_RIOT_API_KEY\u003e",
+          "value_hint": "\u003cYOUR_RIOT_API_KEY\u003e"
+        },
+        {
+          "default": "--gameName \u003cYOUR_GAME_NAME\u003e",
+          "description": "\u003cYOUR_GAME_NAME\u003e",
+          "format": "string",
+          "is_required": true,
+          "name": "--gameName \u003cYOUR_GAME_NAME\u003e",
+          "type": "named",
+          "value": "--gameName \u003cYOUR_GAME_NAME\u003e",
+          "value_hint": "\u003cYOUR_GAME_NAME\u003e"
+        },
+        {
+          "default": "--tagLine \u003cYOUR_TAG_LINE\u003e",
+          "description": "\u003cYOUR_TAG_LINE\u003e",
+          "format": "string",
+          "is_required": true,
+          "name": "--tagLine \u003cYOUR_TAG_LINE\u003e",
+          "type": "named",
+          "value": "--tagLine \u003cYOUR_TAG_LINE\u003e",
+          "value_hint": "\u003cYOUR_TAG_LINE\u003e"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "0.1.3"
     }
   ],
-  "remotes": [],
-  "repo_ref": "GeLi2001/tft-mcp-server",
+  "prompts": [],
+  "repository": {
+    "id": "957763921",
+    "source": "github",
+    "url": "https://github.com/GeLi2001/tft-mcp-server"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server",
   "serverid": "tft-mcp-server",
@@ -70,7 +93,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.1.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:41Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

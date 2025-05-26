@@ -1,59 +1,170 @@
 {
-  "alibabacloud-hologres-mcp-server": {
+  "alibaba-cloud-ops-mcp-server": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:28.833862216Z",
-    "description": "Hologres MCP Server serves as a universal interface between AI Agents and Hologres databases. It enables seamless communication between AI Agents and Hologres, helping AI Agents retrieve Hologres database metadata and execute SQL operations.",
+    "createdat": "2025-05-26T10:34:07.335339659Z",
+    "description": "AlibabaCloud CloudOps MCP Server",
     "epoch": 1,
+    "id": "24303d73-1ee0-4119-b2f1-3a57c17de967",
     "isdefault": true,
-    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-hologres-mcp-server/meta",
-    "modifiedat": "2025-05-26T08:16:28.833862216Z",
-    "name": "io.github.aliyun/alibabacloud-hologres-mcp-server",
-    "prompts": [],
-    "registries": [
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/meta",
+    "modifiedat": "2025-05-26T10:34:07.335339659Z",
+    "name": "io.github.aliyun/alibaba-cloud-ops-mcp-server",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Host of the Hologres database",
-              "name": "HOLOGRES_HOST",
-              "required": true
-            },
-            {
-              "description": "Port of the Hologres database",
-              "name": "HOLOGRES_PORT",
-              "required": true
-            },
-            {
-              "description": "Access ID for Hologres",
-              "name": "HOLOGRES_USER",
-              "required": true
-            },
-            {
-              "description": "Access key for Hologres",
-              "name": "HOLOGRES_PASSWORD",
-              "required": true
-            },
-            {
-              "description": "Database name in Hologres",
-              "name": "HOLOGRES_DATABASE",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "run",
-            "--with",
-            "hologres-mcp-server",
-            "hologres-mcp-server"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "hologres-mcp-server"
+        "environment_variables": [
+          {
+            "description": "Your Access Key ID",
+            "name": "ALIBABA_CLOUD_ACCESS_KEY_ID"
+          },
+          {
+            "description": "Your Access Key SECRET",
+            "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET"
+          }
+        ],
+        "name": "alibaba-cloud-ops-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.8.6"
       }
     ],
-    "remotes": [],
-    "repo_ref": "aliyun/alibabacloud-hologres-mcp-server",
+    "repository": {
+      "id": "967873415",
+      "source": "github",
+      "url": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server",
+    "serverid": "alibaba-cloud-ops-mcp-server",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:06Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/versions",
+    "xid": "/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server"
+  },
+  "alibabacloud-adb-mysql-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:07.444835492Z",
+    "description": "AnalyticDB for MySQL MCP Server",
+    "epoch": 1,
+    "id": "7f6e6610-4df3-490e-95e3-03ec954eb2ab",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/meta",
+    "modifiedat": "2025-05-26T10:34:07.444835492Z",
+    "name": "io.github.aliyun/alibabacloud-adb-mysql-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "host",
+            "name": "ADB_MYSQL_HOST"
+          },
+          {
+            "description": "port",
+            "name": "ADB_MYSQL_PORT"
+          },
+          {
+            "description": "database_user",
+            "name": "ADB_MYSQL_USER"
+          },
+          {
+            "description": "database_password",
+            "name": "ADB_MYSQL_PASSWORD"
+          },
+          {
+            "description": "database",
+            "name": "ADB_MYSQL_DATABASE"
+          }
+        ],
+        "name": "adb-mysql-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--with adb-mysql-mcp-server",
+            "description": "With flag and value",
+            "format": "string",
+            "is_required": true,
+            "name": "--with adb-mysql-mcp-server",
+            "type": "named",
+            "value": "--with adb-mysql-mcp-server",
+            "value_hint": "adb-mysql-mcp-server"
+          },
+          {
+            "default": "adb-mysql-mcp-server",
+            "description": "Script/module to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "adb-mysql-mcp-server",
+            "value_hint": "adb-mysql-mcp-server"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "1.0.0"
+      }
+    ],
+    "repository": {
+      "id": "956503834",
+      "source": "github",
+      "url": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server",
+    "serverid": "alibabacloud-adb-mysql-mcp-server",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:04Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/versions",
+    "xid": "/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server"
+  },
+  "alibabacloud-hologres-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:07.595914618Z",
+    "description": "",
+    "epoch": 1,
+    "id": "e67dda78-7d99-43e5-9e98-c80267f34940",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/aliyun/servers/alibabacloud-hologres-mcp-server/meta",
+    "modifiedat": "2025-05-26T10:34:07.595914618Z",
+    "name": "io.github.aliyun/alibabacloud-hologres-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "host",
+            "name": "HOLOGRES_HOST"
+          },
+          {
+            "description": "port",
+            "name": "HOLOGRES_PORT"
+          },
+          {
+            "description": "access_id",
+            "name": "HOLOGRES_USER"
+          },
+          {
+            "description": "access_key",
+            "name": "HOLOGRES_PASSWORD"
+          },
+          {
+            "description": "database",
+            "name": "HOLOGRES_DATABASE"
+          }
+        ],
+        "name": "hologres-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.1.9"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "951662313",
+      "source": "github",
+      "url": "https://github.com/aliyun/alibabacloud-hologres-mcp-server"
+    },
     "resources": [
       {
         "description": "Hologres is a PostgreSQL-compatible OLAP product. List all schemas in Hologres database",
@@ -198,7 +309,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.1.7"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:59:31Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

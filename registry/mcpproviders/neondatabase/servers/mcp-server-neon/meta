@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:35:21.391813718Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/neondatabase/servers/mcp-server-neon/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:35:21.391813718Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/neondatabase/servers/mcp-server-neon/meta",
+  "serverid": "mcp-server-neon",
+  "xid": "/mcpproviders/neondatabase/servers/mcp-server-neon/meta"
+}

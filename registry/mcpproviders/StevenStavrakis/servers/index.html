@@ -1,28 +1,47 @@
 {
   "obsidian-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:51.237638859Z",
-    "description": "An MCP (Model Context Protocol) server that enables AI assistants to interact with Obsidian vaults, providing tools for reading, creating, editing and managing notes and tags.",
+    "createdat": "2025-05-26T10:35:57.082664696Z",
+    "description": "A simple MCP server for Obsidian",
     "epoch": 1,
+    "id": "752ef535-2865-4d95-bcc5-647a7be83f74",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/StevenStavrakis/servers/obsidian-mcp/meta",
-    "modifiedat": "2025-05-26T08:17:51.237638859Z",
-    "name": "io.github.StevenStavrakis/obsidian-mcp",
-    "prompts": [],
-    "registries": [
+    "modifiedat": "2025-05-26T10:35:57.082664696Z",
+    "name": "io.github.stevenstavrakis/obsidian-mcp",
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "npm",
-        "package_name": "obsidian-mcp"
+        "name": "obsidian-mcp",
+        "package_arguments": [
+          {
+            "default": "/path/to/your/vault",
+            "description": "/path/to/your/vault",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/path/to/your/vault",
+            "value_hint": "/path/to/your/vault"
+          },
+          {
+            "default": "/path/to/your/vault2",
+            "description": "/path/to/your/vault2",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/path/to/your/vault2",
+            "value_hint": "/path/to/your/vault2"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.6"
       }
     ],
-    "remotes": [],
-    "repo_ref": "StevenStavrakis/obsidian-mcp",
+    "prompts": [],
+    "repository": {
+      "id": "906827503",
+      "source": "github",
+      "url": "https://github.com/StevenStavrakis/obsidian-mcp"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/StevenStavrakis/servers/obsidian-mcp",
     "serverid": "obsidian-mcp",
@@ -113,7 +132,9 @@
       }
     ],
     "version_detail": {
-      "version": "1.0.6"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:35Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

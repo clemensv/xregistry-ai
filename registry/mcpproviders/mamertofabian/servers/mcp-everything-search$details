@@ -1,33 +1,53 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:18.615453612Z",
-  "description": "An MCP server that provides fast file searching capabilities across Windows, macOS, and Linux. On Windows, it uses the Everything SDK. On macOS, it uses the built-in mdfind command. On Linux, it uses the locate/plocate command.",
+  "createdat": "2025-05-26T10:35:10.199581915Z",
+  "description": "",
   "epoch": 1,
+  "id": "c6f8403f-30d0-45d2-b7c3-95a6cb61c4b4",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mamertofabian/servers/mcp-everything-search/meta",
-  "modifiedat": "2025-05-26T08:17:18.615453612Z",
+  "modifiedat": "2025-05-26T10:35:10.199581915Z",
   "name": "io.github.mamertofabian/mcp-everything-search",
-  "prompts": [],
-  "registries": [
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Path to Everything SDK DLL on Windows",
-            "name": "EVERYTHING_SDK_PATH",
-            "required": false
-          }
-        ],
-        "positional_arguments": [],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "python",
-      "package_name": "mcp-server-everything-search"
+      "environment_variables": [
+        {
+          "description": "path/to/Everything-SDK/dll/Everything64.dll",
+          "name": "EVERYTHING_SDK_PATH"
+        }
+      ],
+      "name": "mcp-server-everything-search",
+      "package_arguments": [
+        {
+          "default": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+          "description": "Sets the directory to operate from.",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+          "type": "named",
+          "value": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+          "value_hint": "/path/to/mcp-everything-search/src/mcp_server_everything_search"
+        },
+        {
+          "default": "mcp-server-everything-search",
+          "description": "Server name to execute (positional argument)",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp-server-everything-search",
+          "value_hint": "mcp-server-everything-search"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.2.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "mamertofabian/mcp-everything-search",
+  "prompts": [],
+  "repository": {
+    "id": "903415597",
+    "source": "github",
+    "url": "https://github.com/mamertofabian/mcp-everything-search"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mamertofabian/servers/mcp-everything-search",
   "serverid": "mcp-everything-search",
@@ -82,7 +102,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:06:30Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,

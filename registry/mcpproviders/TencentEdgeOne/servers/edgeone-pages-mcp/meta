@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:17:55.657229219Z",
+  "createdat": "2025-05-26T10:36:03.917782542Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/TencentEdgeOne/servers/edgeone-pages-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:17:55.657229219Z",
+  "modifiedat": "2025-05-26T10:36:03.917782542Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/TencentEdgeOne/servers/edgeone-pages-mcp/meta",
   "serverid": "edgeone-pages-mcp",

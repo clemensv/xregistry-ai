@@ -1,63 +1,73 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:29.691626229Z",
-    "description": "A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through IoTDB. This server enables running SQL queries.",
+    "createdat": "2025-05-26T10:34:08.992221334Z",
+    "description": "Apache IoTDB MCP Server",
     "epoch": 1,
+    "id": "31d9b130-4676-45d9-930f-a8bc2d5a3b9e",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:29.691626229Z",
+    "modifiedat": "2025-05-26T10:34:08.992221334Z",
     "name": "io.github.apache/iotdb-mcp-server",
-    "prompts": [],
-    "registries": [
+    "packages": [
       {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Host address of the IoTDB server",
-              "name": "IOTDB_HOST",
-              "required": true
-            },
-            {
-              "description": "Port number of the IoTDB server",
-              "name": "IOTDB_PORT",
-              "required": true
-            },
-            {
-              "description": "Username for IoTDB authentication",
-              "name": "IOTDB_USER",
-              "required": true
-            },
-            {
-              "description": "Password for IoTDB authentication",
-              "name": "IOTDB_PASSWORD",
-              "required": true
-            },
-            {
-              "description": "Database name to connect to",
-              "name": "IOTDB_DATABASE",
-              "required": true
-            },
-            {
-              "description": "SQL dialect to use: 'tree' or 'table'",
-              "name": "IOTDB_SQL_DIALECT",
-              "required": true
-            }
-          ],
-          "positional_arguments": [
-            "--directory",
-            "YOUR_REPO_PATH/src/iotdb_mcp_server",
-            "run",
-            "server.py"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python-uv",
-        "package_name": "iotdb-mcp-server"
+        "environment_variables": [
+          {
+            "description": "127.0.0.1",
+            "name": "IOTDB_HOST"
+          },
+          {
+            "description": "6667",
+            "name": "IOTDB_PORT"
+          },
+          {
+            "description": "root",
+            "name": "IOTDB_USER"
+          },
+          {
+            "description": "root",
+            "name": "IOTDB_PASSWORD"
+          },
+          {
+            "description": "test",
+            "name": "IOTDB_DATABASE"
+          },
+          {
+            "description": "table",
+            "name": "IOTDB_SQL_DIALECT"
+          }
+        ],
+        "name": "iotdb-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--directory YOUR_REPO_PATH/src/iotdb_mcp_server",
+            "description": "The working directory for the command",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory YOUR_REPO_PATH/src/iotdb_mcp_server",
+            "type": "named",
+            "value": "--directory YOUR_REPO_PATH/src/iotdb_mcp_server",
+            "value_hint": "YOUR_REPO_PATH/src/iotdb_mcp_server"
+          },
+          {
+            "default": "server.py",
+            "description": "Python script to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server.py",
+            "value_hint": "server.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
       }
     ],
-    "remotes": [],
-    "repo_ref": "apache/iotdb-mcp-server",
+    "prompts": [],
+    "repository": {
+      "id": "959057712",
+      "source": "github",
+      "url": "https://github.com/apache/iotdb-mcp-server"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apache/servers/iotdb-mcp-server/versions/1",
     "serverid": "iotdb-mcp-server",
@@ -137,7 +147,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:10Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/apache/servers/iotdb-mcp-server/versions/1"

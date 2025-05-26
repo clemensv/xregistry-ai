@@ -1,46 +1,43 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:16:39.063430939Z",
-  "description": "Model Context Protocol (MCP) Server for CircleCI enabling natural language interaction with CircleCI pipelines and logs.",
+  "createdat": "2025-05-26T10:34:21.253713604Z",
+  "description": "A specialized server implementation for the Model Context Protocol (MCP) designed to integrate with CircleCI's development workflow. This project serves as a bridge between CircleCI's infrastructure and the Model Context Protocol, enabling enhanced AI-powered development experiences.",
   "epoch": 1,
+  "id": "a48ff624-6d95-4b8e-a0ed-498c4d838411",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:16:39.063430939Z",
-  "name": "io.github.CircleCI-Public/mcp-server-circleci",
-  "prompts": [],
-  "registries": [
+  "modifiedat": "2025-05-26T10:34:21.253713604Z",
+  "name": "io.github.circleci-public/mcp-server-circleci",
+  "packages": [
     {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "CircleCI API token for authentication",
-            "name": "CIRCLECI_TOKEN",
-            "required": true
-          },
-          {
-            "description": "Optional base URL for CircleCI on-prem customers",
-            "name": "CIRCLECI_BASE_URL",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "-y",
-          "@circleci/mcp-server-circleci"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@circleci/mcp-server-circleci"
+      "environment_variables": [
+        {
+          "description": "your-circleci-token",
+          "name": "CIRCLECI_TOKEN"
+        },
+        {
+          "description": "https://circleci.com",
+          "name": "CIRCLECI_BASE_URL"
+        }
+      ],
+      "name": "@circleci/mcp-server-circleci",
+      "registry_name": "npm",
+      "version": "0.7.1"
     }
   ],
-  "remotes": [],
-  "repo_ref": "CircleCI-Public/mcp-server-circleci",
+  "prompts": [],
+  "repository": {
+    "id": "955501958",
+    "source": "github",
+    "url": "https://github.com/CircleCI-Public/mcp-server-circleci"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/CircleCI-Public/servers/mcp-server-circleci/versions/1",
   "serverid": "mcp-server-circleci",
   "tools": [],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:58Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/CircleCI-Public/servers/mcp-server-circleci/versions/1"

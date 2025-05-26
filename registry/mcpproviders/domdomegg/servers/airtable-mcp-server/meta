@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T08:16:46.790599744Z",
+  "createdat": "2025-05-26T10:34:30.093308726Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/domdomegg/servers/airtable-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T08:16:46.790599744Z",
+  "modifiedat": "2025-05-26T10:34:30.093308726Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/domdomegg/servers/airtable-mcp-server/meta",
   "serverid": "airtable-mcp-server",

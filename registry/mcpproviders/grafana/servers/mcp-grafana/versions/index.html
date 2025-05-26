@@ -1,32 +1,94 @@
 {
   "1": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:16:58.183452688Z",
-    "description": "A Model Context Protocol (MCP) server for Grafana. This provides access to your Grafana instance and the surrounding ecosystem.",
+    "createdat": "2025-05-26T10:34:43.577028206Z",
+    "description": "MCP server for Grafana",
     "epoch": 1,
+    "id": "1329d108-67d0-488a-85a1-cc65b58cf5cd",
     "isdefault": true,
-    "modifiedat": "2025-05-26T08:16:58.183452688Z",
+    "modifiedat": "2025-05-26T10:34:43.577028206Z",
     "name": "io.github.grafana/mcp-grafana",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "http://localhost:3000",
+            "name": "GRAFANA_URL"
+          },
+          {
+            "description": "\u003cyour service account token\u003e",
+            "name": "GRAFANA_API_KEY"
+          }
+        ],
+        "name": "grafana/mcp-grafana",
+        "package_arguments": [
+          {
+            "default": "--rm",
+            "description": "Remove container after exit",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm"
+          },
+          {
+            "default": "-p 8000:8000",
+            "description": "Publish a container's port(s) to the host",
+            "format": "string",
+            "is_required": true,
+            "name": "-p 8000:8000",
+            "type": "named",
+            "value": "-p 8000:8000",
+            "value_hint": "8000:8000"
+          },
+          {
+            "default": "-e GRAFANA_URL",
+            "description": "Set environment variable GRAFANA_URL",
+            "format": "string",
+            "is_required": true,
+            "name": "-e GRAFANA_URL",
+            "type": "named",
+            "value": "-e GRAFANA_URL",
+            "value_hint": "GRAFANA_URL"
+          },
+          {
+            "default": "-e GRAFANA_API_KEY",
+            "description": "Set environment variable GRAFANA_API_KEY",
+            "format": "string",
+            "is_required": true,
+            "name": "-e GRAFANA_API_KEY",
+            "type": "named",
+            "value": "-e GRAFANA_API_KEY",
+            "value_hint": "GRAFANA_API_KEY"
+          },
+          {
+            "default": "mcp/grafana",
+            "description": "Container image to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mcp/grafana",
+            "value_hint": "mcp/grafana"
+          },
+          {
+            "default": "-debug",
+            "description": "Enable debug mode",
+            "format": "string",
+            "name": "-debug",
+            "type": "named",
+            "value": "-debug"
+          }
+        ],
+        "registry_name": "docker",
+        "version": ""
+      }
+    ],
     "prompts": [],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [],
-          "positional_arguments": [],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python-asyncio",
-        "package_name": "grafana-mcp-server"
-      }
-    ],
-    "remotes": [
-      {
-        "transporttype": "http",
-        "url": "http://localhost:8000"
-      }
-    ],
-    "repo_ref": "grafana/mcp-grafana",
+    "repository": {
+      "id": "907869862",
+      "source": "github",
+      "url": "https://github.com/grafana/mcp-grafana"
+    },
     "resources": [],
     "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/grafana/servers/mcp-grafana/versions/1",
     "serverid": "mcp-grafana",
@@ -225,7 +287,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T18:59:19Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "xid": "/mcpproviders/grafana/servers/mcp-grafana/versions/1"

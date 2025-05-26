@@ -1,11 +1,19 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:17:37.626977045Z",
-  "description": "MCP server providing tools to read and create Microsoft OneNote content via Microsoft Graph API.",
+  "createdat": "2025-05-26T10:35:36.73191584Z",
+  "description": "A Model Context Protocol (MCP) server that provides AI assistants with access to Microsoft OneNote. This server enables AI models to read from and write to OneNote notebooks, sections, and pages.",
   "epoch": 1,
+  "id": "a2e44c59-4a60-47a6-8588-22b90cebe345",
   "isdefault": true,
-  "modifiedat": "2025-05-26T08:17:37.626977045Z",
-  "name": "io.github.rajvirtual/MCP-Servers",
+  "modifiedat": "2025-05-26T10:35:36.73191584Z",
+  "name": "io.github.rajvirtual/mcp-servers",
+  "packages": [
+    {
+      "name": "rajvirtual/MCP-Servers",
+      "registry_name": "unknown",
+      "version": ""
+    }
+  ],
   "prompts": [
     {
       "description": "List all available OneNote notebooks",
@@ -36,28 +44,11 @@
       "name": "Create a page in a section"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "Azure AD client ID for authentication",
-            "name": "CLIENT_ID",
-            "required": false
-          }
-        ],
-        "positional_arguments": [
-          "index.js"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "npm",
-      "package_name": "@modelcontextprotocol/sdk"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "rajvirtual/MCP-Servers",
+  "repository": {
+    "id": "947565134",
+    "source": "github",
+    "url": "https://github.com/rajvirtual/MCP-Servers"
+  },
   "resources": [],
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rajvirtual/servers/MCP-Servers/versions/1",
   "serverid": "MCP-Servers",
@@ -137,7 +128,9 @@
     }
   ],
   "version_detail": {
-    "version": "1.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:48Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "xid": "/mcpproviders/rajvirtual/servers/MCP-Servers/versions/1"

@@ -1,13 +1,21 @@
 {
   "kicad-mcp": {
     "ancestor": "1",
-    "createdat": "2025-05-26T08:17:13.961837539Z",
-    "description": "A Model Context Protocol (MCP) server for KiCad providing resources, tools, and prompts to interact with KiCad projects, schematics, BOMs, DRC checks, netlists, and circuit pattern recognition.",
+    "createdat": "2025-05-26T10:35:04.547472193Z",
+    "description": "Model Context Protocol server for KiCad on Mac, Windows, and Linux",
     "epoch": 1,
+    "id": "e80eb5ed-497b-4bcf-8cc3-f7f2c5eed889",
     "isdefault": true,
     "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lamaalrajih/servers/kicad-mcp/meta",
-    "modifiedat": "2025-05-26T08:17:13.961837539Z",
+    "modifiedat": "2025-05-26T10:35:04.547472193Z",
     "name": "io.github.lamaalrajih/kicad-mcp",
+    "packages": [
+      {
+        "name": "lamaalrajih/kicad-mcp",
+        "registry_name": "pypi",
+        "version": ""
+      }
+    ],
     "prompts": [
       {
         "arguments": [],
@@ -25,28 +33,11 @@
         "name": "pcb_manufacturing_checklist"
       }
     ],
-    "registries": [
-      {
-        "command_arguments": {
-          "environment_variables": [
-            {
-              "description": "Comma-separated list of paths to search for KiCad projects.",
-              "name": "KICAD_SEARCH_PATHS",
-              "required": false
-            }
-          ],
-          "positional_arguments": [
-            "main.py"
-          ],
-          "sub_commands": []
-        },
-        "license": "",
-        "name": "python",
-        "package_name": "kicad-mcp"
-      }
-    ],
-    "remotes": [],
-    "repo_ref": "lamaalrajih/kicad-mcp",
+    "repository": {
+      "id": "951687178",
+      "source": "github",
+      "url": "https://github.com/lamaalrajih/kicad-mcp"
+    },
     "resources": [
       {
         "description": "Get a formatted report of identified circuit patterns in a KiCad schematic file.",
@@ -272,7 +263,9 @@
       }
     ],
     "version_detail": {
-      "version": "0.0.0"
+      "is_latest": true,
+      "release_date": "2025-05-16T19:08:47Z",
+      "version": "0.0.1-seed"
     },
     "versionid": "1",
     "versionscount": 1,

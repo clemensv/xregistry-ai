@@ -1,12 +1,79 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T08:18:03.835124472Z",
-  "description": "A Model Context Protocol (MCP) server for Home Assistant integration with Claude and other LLMs. Enables AI assistants to query device states, control entities, get summaries, troubleshoot automations, search entities, and create guided conversations.",
+  "createdat": "2025-05-26T10:36:15.057842213Z",
+  "description": "Home Assistant MCP Server",
   "epoch": 1,
+  "id": "67c71178-8632-4d67-abad-c28f6e58c87f",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/voska/servers/hass-mcp/meta",
-  "modifiedat": "2025-05-26T08:18:03.835124472Z",
+  "modifiedat": "2025-05-26T10:36:15.057842213Z",
   "name": "io.github.voska/hass-mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "http://homeassistant.local:8123",
+          "name": "HA_URL"
+        },
+        {
+          "description": "YOUR_LONG_LIVED_TOKEN",
+          "name": "HA_TOKEN"
+        }
+      ],
+      "name": "hass-mcp",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "-i",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i"
+        },
+        {
+          "default": "--rm",
+          "description": "--rm",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm"
+        },
+        {
+          "default": "-e HA_URL",
+          "description": "-e HA_URL",
+          "format": "string",
+          "is_required": true,
+          "name": "-e HA_URL",
+          "type": "named",
+          "value": "-e HA_URL",
+          "value_hint": "HA_URL"
+        },
+        {
+          "default": "-e HA_TOKEN",
+          "description": "-e HA_TOKEN",
+          "format": "string",
+          "is_required": true,
+          "name": "-e HA_TOKEN",
+          "type": "named",
+          "value": "-e HA_TOKEN",
+          "value_hint": "HA_TOKEN"
+        },
+        {
+          "default": "voska/hass-mcp",
+          "description": "voska/hass-mcp",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "voska/hass-mcp",
+          "value_hint": "voska/hass-mcp"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "0.1.0"
+    }
+  ],
   "prompts": [
     {
       "arguments": [
@@ -67,40 +134,11 @@
       "name": "dashboard_layout_generator"
     }
   ],
-  "registries": [
-    {
-      "command_arguments": {
-        "environment_variables": [
-          {
-            "description": "URL of the Home Assistant instance",
-            "name": "HA_URL",
-            "required": true
-          },
-          {
-            "description": "Home Assistant Long-Lived Access Token",
-            "name": "HA_TOKEN",
-            "required": true
-          }
-        ],
-        "positional_arguments": [
-          "run",
-          "-i",
-          "--rm",
-          "-e",
-          "HA_URL",
-          "-e",
-          "HA_TOKEN",
-          "voska/hass-mcp"
-        ],
-        "sub_commands": []
-      },
-      "license": "",
-      "name": "container",
-      "package_name": "voska/hass-mcp:latest"
-    }
-  ],
-  "remotes": [],
-  "repo_ref": "voska/hass-mcp",
+  "repository": {
+    "id": "949564493",
+    "source": "github",
+    "url": "https://github.com/voska/hass-mcp"
+  },
   "resources": [
     {
       "description": "Get the state of a Home Assistant entity as a resource",
@@ -352,7 +390,9 @@
     }
   ],
   "version_detail": {
-    "version": "0.0.0"
+    "is_latest": true,
+    "release_date": "2025-05-16T19:08:01Z",
+    "version": "0.0.1-seed"
   },
   "versionid": "1",
   "versionscount": 1,
