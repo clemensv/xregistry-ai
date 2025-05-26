@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:13.030646678Z",
+  "createdat": "2025-05-26T08:17:56.706364923Z",
   "description": "The server uses the MCP protocol to share access to a local Home Assistant instance with an LLM application. A powerful bridge between your Home Assistant instance and Language Learning Models (LLMs), enabling natural language control and monitoring of your smart home devices through the Model Context Protocol (MCP). This server provides a comprehensive API for managing your entire Home Assistant ecosystem, from device control to system administration.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tevonsb/servers/homeassistant-mcp/meta",
-  "modifiedat": "2025-05-25T21:35:13.030646678Z",
+  "modifiedat": "2025-05-26T08:17:56.706364923Z",
   "name": "io.github.tevonsb/homeassistant-mcp",
   "prompts": [],
   "registries": [

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:35:24.556092549Z",
+  "createdat": "2025-05-26T08:18:10.22998782Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zenml-io/servers/mcp-zenml/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:35:24.556092549Z",
+  "modifiedat": "2025-05-26T08:18:10.22998782Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zenml-io/servers/mcp-zenml/meta",
   "serverid": "mcp-zenml",

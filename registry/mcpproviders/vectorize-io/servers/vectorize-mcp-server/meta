@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:54.38077726Z",
+  "createdat": "2025-05-26T08:18:01.109020483Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vectorize-io/servers/vectorize-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:54.38077726Z",
+  "modifiedat": "2025-05-26T08:18:01.109020483Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vectorize-io/servers/vectorize-mcp-server/meta",
   "serverid": "vectorize-mcp-server",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:35:23.908810778Z",
+  "createdat": "2025-05-26T08:17:50.178227236Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/starwind-ui/servers/starwind-ui-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:35:23.908810778Z",
+  "modifiedat": "2025-05-26T08:17:50.178227236Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/starwind-ui/servers/starwind-ui-mcp/meta",
   "serverid": "starwind-ui-mcp",

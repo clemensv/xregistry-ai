@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:30.984966578Z",
+  "createdat": "2025-05-26T08:17:02.178110828Z",
   "description": "The fastest way to build workflows with an AI agent platform! This is a simple implementation of an MCP server using iFlytek. It enables calling iFlytek workflows through MCP tools. Supports 14 types of workflow nodes, advanced orchestration modes, multi-model support, and streaming output via hook mechanism.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:35:30.984966578Z",
+  "modifiedat": "2025-05-26T08:17:02.178110828Z",
   "name": "io.github.iflytek/ifly-workflow-mcp-server",
   "prompts": [],
   "registries": [

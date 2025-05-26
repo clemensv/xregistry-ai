@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:35:22.598563027Z",
+  "createdat": "2025-05-26T08:17:26.906479357Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/nspady/servers/google-calendar-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:35:22.598563027Z",
+  "modifiedat": "2025-05-26T08:17:26.906479357Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/nspady/servers/google-calendar-mcp/meta",
   "serverid": "google-calendar-mcp",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:57.109934309Z",
+  "createdat": "2025-05-26T08:17:29.882757518Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/oschina/servers/mcp-gitee/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:57.109934309Z",
+  "modifiedat": "2025-05-26T08:17:29.882757518Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/oschina/servers/mcp-gitee/meta",
   "serverid": "mcp-gitee",

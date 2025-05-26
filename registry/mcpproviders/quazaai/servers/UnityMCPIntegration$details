@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:01.486794607Z",
+  "createdat": "2025-05-26T08:17:36.360474959Z",
   "description": "MCP server providing integration between Model Context Protocol and Unity Editor, enabling AI assistants to interact with Unity projects in real-time, including scene hierarchy, project settings, code execution, logs, and play mode control.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/quazaai/servers/UnityMCPIntegration/meta",
-  "modifiedat": "2025-05-25T21:35:01.486794607Z",
+  "modifiedat": "2025-05-26T08:17:36.360474959Z",
   "name": "io.github.quazaai/UnityMCPIntegration",
   "prompts": [],
   "registries": [

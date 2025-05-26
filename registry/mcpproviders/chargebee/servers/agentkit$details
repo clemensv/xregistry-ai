@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:34:58.656713498Z",
+  "createdat": "2025-05-26T08:16:37.214897098Z",
   "description": "MCP server for interacting with Chargebee",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chargebee/servers/agentkit/meta",
-  "modifiedat": "2025-05-25T21:34:58.656713498Z",
+  "modifiedat": "2025-05-26T08:16:37.214897098Z",
   "name": "io.github.chargebee/agentkit",
   "prompts": [],
   "registries": [

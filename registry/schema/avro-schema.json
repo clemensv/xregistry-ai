@@ -523,7 +523,7 @@
                         "type": "array",
                         "items": "RemotesItem"
                       },
-                      "doc": "Source\u00e2\u20ac\u2018code hosting locations."
+                      "doc": "Source\u2011code hosting locations."
                     },
                     {
                       "name": "prompts",

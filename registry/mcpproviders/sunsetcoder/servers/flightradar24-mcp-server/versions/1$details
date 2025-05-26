@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:33.502780512Z",
+  "createdat": "2025-05-26T08:17:53.610370707Z",
   "description": "A Claude Desktop MCP server that helps you track flights in real-time using Flightradar24 data. Perfect for aviation enthusiasts, travel planners, or anyone curious about flights overhead!",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:35:33.502780512Z",
+  "modifiedat": "2025-05-26T08:17:53.610370707Z",
   "name": "io.github.sunsetcoder/flightradar24-mcp-server",
   "prompts": [],
   "registries": [

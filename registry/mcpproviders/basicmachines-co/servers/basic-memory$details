@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:09.397015016Z",
+  "createdat": "2025-05-26T08:16:34.238469849Z",
   "description": "Basic Memory lets you build persistent knowledge through natural conversations with Large Language Models (LLMs) like Claude, while keeping everything in simple Markdown files on your computer. It uses the Model Context Protocol (MCP) to enable any compatible LLM to read and write to your local knowledge base.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/basicmachines-co/servers/basic-memory/meta",
-  "modifiedat": "2025-05-25T21:35:09.397015016Z",
+  "modifiedat": "2025-05-26T08:16:34.238469849Z",
   "name": "io.github.basicmachines-co/basic-memory",
   "prompts": [],
   "registries": [

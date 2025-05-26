@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:35:22.817722872Z",
+  "createdat": "2025-05-26T08:16:51.525433441Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Fewsats/servers/fewsats-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:35:22.817722872Z",
+  "modifiedat": "2025-05-26T08:16:51.525433441Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Fewsats/servers/fewsats-mcp/meta",
   "serverid": "fewsats-mcp",

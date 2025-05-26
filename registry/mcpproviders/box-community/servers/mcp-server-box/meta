@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:35:11.490728453Z",
+  "createdat": "2025-05-26T08:16:35.602260091Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/box-community/servers/mcp-server-box/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:35:11.490728453Z",
+  "modifiedat": "2025-05-26T08:16:35.602260091Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/box-community/servers/mcp-server-box/meta",
   "serverid": "mcp-server-box",

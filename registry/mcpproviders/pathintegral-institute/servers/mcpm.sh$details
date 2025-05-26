@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:18.389740496Z",
+  "createdat": "2025-05-26T08:17:31.93559258Z",
   "description": "A router that aggregates multiple MCP servers (SSE/STDIO) and exposes them as a single SSE server.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pathintegral-institute/servers/mcpm.sh/meta",
-  "modifiedat": "2025-05-25T21:35:18.389740496Z",
+  "modifiedat": "2025-05-26T08:17:31.93559258Z",
   "name": "io.github.pathintegral-institute/mcpm",
   "prompts": [],
   "registries": [

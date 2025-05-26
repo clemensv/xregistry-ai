@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:12.611444183Z",
+  "createdat": "2025-05-26T08:17:59.409293867Z",
   "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:35:12.611444183Z",
+  "modifiedat": "2025-05-26T08:17:59.409293867Z",
   "name": "io.github.v-3/discordmcp",
   "prompts": [],
   "registries": [

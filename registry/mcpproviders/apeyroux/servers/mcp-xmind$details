@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:31.236385493Z",
+  "createdat": "2025-05-26T08:16:29.941902069Z",
   "description": "A Model Context Protocol server for analyzing and querying XMind mind maps. This tool provides powerful capabilities for searching, extracting, and analyzing content from XMind files.",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apeyroux/servers/mcp-xmind/meta",
-  "modifiedat": "2025-05-25T21:35:31.236385493Z",
+  "modifiedat": "2025-05-26T08:16:29.941902069Z",
   "name": "io.github.apeyroux/mcp-xmind",
   "prompts": [],
   "registries": [

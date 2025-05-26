@@ -1,10 +1,10 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:35:04.274245024Z",
+  "createdat": "2025-05-26T08:17:57.267852899Z",
   "description": "MCP server providing blockchain tools via the MCP protocol, enabling compatible LLM clients to interact with blockchain data and AI agents.",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:35:04.274245024Z",
+  "modifiedat": "2025-05-26T08:17:57.267852899Z",
   "name": "io.github.thirdweb-dev/ai",
   "prompts": [],
   "registries": [

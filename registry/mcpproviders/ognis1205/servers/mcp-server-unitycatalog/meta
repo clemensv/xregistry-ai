@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:56.740219761Z",
+  "createdat": "2025-05-26T08:17:28.209153697Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:56.740219761Z",
+  "modifiedat": "2025-05-26T08:17:28.209153697Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog/meta",
   "serverid": "mcp-server-unitycatalog",

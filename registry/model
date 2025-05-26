@@ -811,7 +811,7 @@
             "remotes": {
               "name": "remotes",
               "type": "array",
-              "description": "Sourceâ€‘code hosting locations.",
+              "description": "Source‑code hosting locations.",
               "item": {
                 "type": "object",
                 "attributes": {

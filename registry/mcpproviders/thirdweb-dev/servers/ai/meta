@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:35:04.274245024Z",
+  "createdat": "2025-05-26T08:17:57.267852899Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/thirdweb-dev/servers/ai/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:35:04.274245024Z",
+  "modifiedat": "2025-05-26T08:17:57.267852899Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/thirdweb-dev/servers/ai/meta",
   "serverid": "ai",

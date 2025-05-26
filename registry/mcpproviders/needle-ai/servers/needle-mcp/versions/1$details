@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-25T21:34:57.247104901Z",
+  "createdat": "2025-05-26T08:17:25.539015482Z",
   "description": "MCP (Model Context Protocol) server to manage documents and perform searches using Needle through Claude’s Desktop Application.",
   "documentation": "https://github.com/yourusername/needle-mcp/blob/main/README.md",
   "epoch": 1,
   "isdefault": true,
-  "modifiedat": "2025-05-25T21:34:57.247104901Z",
+  "modifiedat": "2025-05-26T08:17:25.539015482Z",
   "name": "io.github.needle-ai/needle-mcp",
   "prompts": [],
   "registries": [

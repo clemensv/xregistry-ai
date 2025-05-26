@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-25T21:34:55.363175431Z",
+  "createdat": "2025-05-26T08:17:52.28707259Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/strowk/servers/foxy-contexts/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-25T21:34:55.363175431Z",
+  "modifiedat": "2025-05-26T08:17:52.28707259Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/strowk/servers/foxy-contexts/meta",
   "serverid": "foxy-contexts",
