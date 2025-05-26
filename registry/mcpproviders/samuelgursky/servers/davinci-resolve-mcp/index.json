@@ -1,0 +1,22 @@
+{
+  "id": "59a6acf5-d65f-4884-a9b8-ae7d2c9f6728",
+  "name": "io.github.samuelgursky/davinci-resolve-mcp",
+  "description": "MCP server integration for DaVinci Resolve",
+  "repository": {
+    "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+    "source": "github",
+    "id": "950355259"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:18Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "version": ""
+    }
+  ]
+}

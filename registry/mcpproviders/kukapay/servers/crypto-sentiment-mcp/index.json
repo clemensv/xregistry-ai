@@ -1,0 +1,28 @@
+{
+  "id": "bb7a2190-2e72-4ccf-9603-226e0fde174c",
+  "name": "io.github.kukapay/crypto-sentiment-mcp",
+  "description": "An MCP server that delivers cryptocurrency sentiment analysis to AI agents.",
+  "repository": {
+    "url": "https://github.com/kukapay/crypto-sentiment-mcp",
+    "source": "github",
+    "id": "953543740"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:04Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "crypto-sentiment-mcp",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ]
+    }
+  ]
+}

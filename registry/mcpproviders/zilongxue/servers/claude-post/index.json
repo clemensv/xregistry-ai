@@ -1,0 +1,43 @@
+{
+  "id": "3b404956-9bad-4bd9-89a9-17534b4bd22e",
+  "name": "io.github.zilongxue/claude-post",
+  "description": "ClaudePost enables seamless email management through natural language conversations with Claude, offering secure features like email search, reading, and sending.",
+  "repository": {
+    "url": "https://github.com/ZilongXue/claude-post",
+    "source": "github",
+    "id": "913146173"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:28Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "email_client",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Directory to execute the command in",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /path/to/claude-post/src/email_client",
+          "default": "--directory /path/to/claude-post/src/email_client",
+          "type": "named",
+          "name": "--directory /path/to/claude-post/src/email_client",
+          "value_hint": "/path/to/claude-post/src/email_client"
+        },
+        {
+          "description": "Name of the email client script",
+          "is_required": true,
+          "format": "string",
+          "value": "email-client",
+          "default": "email-client",
+          "type": "positional",
+          "value_hint": "email-client"
+        }
+      ]
+    }
+  ]
+}

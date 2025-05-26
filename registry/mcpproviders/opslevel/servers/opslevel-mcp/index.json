@@ -1,0 +1,28 @@
+{
+  "id": "27560049-5f82-4445-8969-d527da4d8936",
+  "name": "io.github.opslevel/opslevel-mcp",
+  "description": "Model Context Protocol (MCP) server for OpsLevel",
+  "repository": {
+    "url": "https://github.com/OpsLevel/opslevel-mcp",
+    "source": "github",
+    "id": "968273511"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:51Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "OpsLevel/opslevel-mcp",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "XXXXXX",
+          "name": "OPSLEVEL_API_TOKEN"
+        }
+      ]
+    }
+  ]
+}

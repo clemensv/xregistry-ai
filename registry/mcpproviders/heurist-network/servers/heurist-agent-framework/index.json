@@ -1,0 +1,28 @@
+{
+  "id": "27c761f6-dc25-4c35-9912-2dc2bbdeaadd",
+  "name": "io.github.heurist-network/heurist-agent-framework",
+  "description": "A flexible multi-interface AI agent framework for building agents with reasoning, tool use, memory, deep research, blockchain interaction, MCP, and agents-as-a-service.",
+  "repository": {
+    "url": "https://github.com/heurist-network/heurist-agent-framework",
+    "source": "github",
+    "id": "897068154"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:53Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "heurist-agent-framework",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ]
+    }
+  ]
+}

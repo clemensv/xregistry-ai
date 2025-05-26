@@ -1,0 +1,358 @@
+{
+  "id": "8e5b8c2e-6751-4567-b367-4e24e5c7fb8c",
+  "name": "io.github.snyk/snyk-ls",
+  "description": "Language Server used by IDEs as Snyk Backend for Frontends",
+  "repository": {
+    "url": "https://github.com/snyk/snyk-ls",
+    "source": "github",
+    "id": "431904794"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:29Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "snyk/snyk-ls",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Enables Snyk Open Source - defaults to true",
+          "is_required": true,
+          "format": "string",
+          "value": "--activateSnykOpenSource true",
+          "default": "--activateSnykOpenSource true",
+          "type": "named",
+          "name": "--activateSnykOpenSource true",
+          "value_hint": "true"
+        },
+        {
+          "description": "Enables Snyk Code, if enabled for your organization - defaults to false, deprecated in favor of specific Snyk Code analysis types",
+          "is_required": true,
+          "format": "string",
+          "value": "--activateSnykCode false",
+          "default": "--activateSnykCode false",
+          "type": "named",
+          "name": "--activateSnykCode false",
+          "value_hint": "false"
+        },
+        {
+          "description": "Enables Infrastructure as Code - defaults to true",
+          "is_required": true,
+          "format": "string",
+          "value": "--activateSnykIac true",
+          "default": "--activateSnykIac true",
+          "type": "named",
+          "name": "--activateSnykIac true",
+          "value_hint": "true"
+        },
+        {
+          "description": "Allows custom CAs (Certification Authorities)",
+          "is_required": true,
+          "format": "string",
+          "value": "--insecure false",
+          "default": "--insecure false",
+          "type": "named",
+          "name": "--insecure false",
+          "value_hint": "false"
+        },
+        {
+          "description": "Snyk API Endpoint required for non-default multi-tenant and single-tenant setups",
+          "is_required": true,
+          "format": "string",
+          "value": "--endpoint https://api.eu.snyk.io",
+          "default": "--endpoint https://api.eu.snyk.io",
+          "type": "named",
+          "name": "--endpoint https://api.eu.snyk.io",
+          "value_hint": "https://api.eu.snyk.io"
+        },
+        {
+          "description": "The name of your organization, e.g. the output of: curl -H \"Authorization: token $(snyk config get api)\"  https://api.snyk.io/v1/cli-config/settings/sast | jq .org",
+          "is_required": true,
+          "format": "string",
+          "value": "--organization a string",
+          "default": "--organization a string",
+          "type": "named",
+          "name": "--organization a string",
+          "value_hint": "a string"
+        },
+        {
+          "description": "Adds to the system path used by the CLI",
+          "is_required": true,
+          "format": "string",
+          "value": "--path /usr/local/bin",
+          "default": "--path /usr/local/bin",
+          "type": "named",
+          "name": "--path /usr/local/bin",
+          "value_hint": "/usr/local/bin"
+        },
+        {
+          "description": "The path where the CLI can be found, or where it should be downloaded to",
+          "is_required": true,
+          "format": "string",
+          "value": "--cliPath /a/patch/snyk-cli",
+          "default": "--cliPath /a/patch/snyk-cli",
+          "type": "named",
+          "name": "--cliPath /a/patch/snyk-cli",
+          "value_hint": "/a/patch/snyk-cli"
+        },
+        {
+          "description": "The Snyk token, e.g.: snyk config get api or a token from authentication flow",
+          "is_required": true,
+          "format": "string",
+          "value": "--token secret-token",
+          "default": "--token secret-token",
+          "type": "named",
+          "name": "--token secret-token",
+          "value_hint": "secret-token"
+        },
+        {
+          "description": "The name of the IDE or editor the LS is running in",
+          "is_required": true,
+          "format": "string",
+          "value": "--integrationName ECLIPSE",
+          "default": "--integrationName ECLIPSE",
+          "type": "named",
+          "name": "--integrationName ECLIPSE",
+          "value_hint": "ECLIPSE"
+        },
+        {
+          "description": "The version of the IDE or editor the LS is running in",
+          "is_required": true,
+          "format": "string",
+          "value": "--integrationVersion 1.0.0",
+          "default": "--integrationVersion 1.0.0",
+          "type": "named",
+          "name": "--integrationVersion 1.0.0",
+          "value_hint": "1.0.0"
+        },
+        {
+          "description": "Whether LS will automatically authenticate on scan start (default: true)",
+          "is_required": true,
+          "format": "string",
+          "value": "--automaticAuthentication true",
+          "default": "--automaticAuthentication true",
+          "type": "named",
+          "name": "--automaticAuthentication true",
+          "value_hint": "true"
+        },
+        {
+          "description": "A unique ID from the running the LS, used for telemetry",
+          "is_required": true,
+          "format": "string",
+          "value": "--deviceId a UUID",
+          "default": "--deviceId a UUID",
+          "type": "named",
+          "name": "--deviceId a UUID",
+          "value_hint": "a UUID"
+        },
+        {
+          "description": "Optional filter to be applied for the determined issues (if omitted: no filtering)",
+          "format": "string",
+          "value": "--filterSeverity critical:true,high:true,medium:true,low:true",
+          "default": "--filterSeverity critical:true,high:true,medium:true,low:true",
+          "type": "named",
+          "name": "--filterSeverity critical:true,high:true,medium:true,low:true",
+          "value_hint": "critical:true,high:true,medium:true,low:true"
+        },
+        {
+          "description": "Optional filter to be applied for the determined issues (if omitted: no filtering)",
+          "format": "string",
+          "value": "--issueViewOptions openIssues:true,ignoredIssues:false",
+          "default": "--issueViewOptions openIssues:true,ignoredIssues:false",
+          "type": "named",
+          "name": "--issueViewOptions openIssues:true,ignoredIssues:false",
+          "value_hint": "openIssues:true,ignoredIssues:false"
+        },
+        {
+          "description": "Whether to report errors to Snyk - defaults to true",
+          "is_required": true,
+          "format": "string",
+          "value": "--sendErrorReports true",
+          "default": "--sendErrorReports true",
+          "type": "named",
+          "name": "--sendErrorReports true",
+          "value_hint": "true"
+        },
+        {
+          "description": "Whether CLI/LS binaries will be downloaded & updated automatically",
+          "is_required": true,
+          "format": "string",
+          "value": "--manageBinariesAutomatically true",
+          "default": "--manageBinariesAutomatically true",
+          "type": "named",
+          "name": "--manageBinariesAutomatically true",
+          "value_hint": "true"
+        },
+        {
+          "description": "Whether LS will prompt to trust a folder (default: true)",
+          "is_required": true,
+          "format": "string",
+          "value": "--enableTrustedFoldersFeature true",
+          "default": "--enableTrustedFoldersFeature true",
+          "type": "named",
+          "name": "--enableTrustedFoldersFeature true",
+          "value_hint": "true"
+        },
+        {
+          "description": "Enables Snyk Code Security reporting",
+          "is_required": true,
+          "format": "string",
+          "value": "--activateSnykCodeSecurity false",
+          "default": "--activateSnykCodeSecurity false",
+          "type": "named",
+          "name": "--activateSnykCodeSecurity false",
+          "value_hint": "false"
+        },
+        {
+          "description": "Enable Snyk Code Quality issue reporting (Beta, only in IDEs and LS)",
+          "is_required": true,
+          "format": "string",
+          "value": "--activateSnykCodeQuality false",
+          "default": "--activateSnykCodeQuality false",
+          "type": "named",
+          "name": "--activateSnykCodeQuality false",
+          "value_hint": "false"
+        },
+        {
+          "description": "Specifies the mode for scans: \"auto\" for background scans or \"manual\" for scans on command",
+          "is_required": true,
+          "format": "string",
+          "value": "--scanningMode auto",
+          "default": "--scanningMode auto",
+          "type": "named",
+          "name": "--scanningMode auto",
+          "value_hint": "auto"
+        },
+        {
+          "description": "Specifies the authentication method to use: \"token\" for Snyk API token or \"oauth\" for Snyk OAuth flow. Default is token.",
+          "is_required": true,
+          "format": "string",
+          "value": "--authenticationMethod oauth",
+          "default": "--authenticationMethod oauth",
+          "type": "named",
+          "name": "--authenticationMethod oauth",
+          "value_hint": "oauth"
+        },
+        {
+          "description": "Specifies the Snyk Code API endpoint to use. Default is https://deeproxy.snyk.io",
+          "is_required": true,
+          "format": "string",
+          "value": "--snykCodeApi https://deeproxy.snyk.io",
+          "default": "--snykCodeApi https://deeproxy.snyk.io",
+          "type": "named",
+          "name": "--snykCodeApi https://deeproxy.snyk.io",
+          "value_hint": "https://deeproxy.snyk.io"
+        },
+        {
+          "description": "show snyk learns code actions",
+          "is_required": true,
+          "format": "string",
+          "value": "--enableSnykLearnCodeActions true",
+          "default": "--enableSnykLearnCodeActions true",
+          "type": "named",
+          "name": "--enableSnykLearnCodeActions true",
+          "value_hint": "true"
+        },
+        {
+          "description": "show quickfixes for supported OSS package manager issues",
+          "is_required": true,
+          "format": "string",
+          "value": "--enableSnykOSSQuickFixCodeActions true",
+          "default": "--enableSnykOSSQuickFixCodeActions true",
+          "type": "named",
+          "name": "--enableSnykOSSQuickFixCodeActions true",
+          "value_hint": "true"
+        },
+        {
+          "description": "show code actions to open issue descriptions",
+          "is_required": true,
+          "format": "string",
+          "value": "--enableSnykOpenBrowserActions false",
+          "default": "--enableSnykOpenBrowserActions false",
+          "type": "named",
+          "name": "--enableSnykOpenBrowserActions false",
+          "value_hint": "false"
+        },
+        {
+          "description": "only display issues that are not new and thus not on the base branch",
+          "is_required": true,
+          "format": "string",
+          "value": "--enableDeltaFindings false",
+          "default": "--enableDeltaFindings false",
+          "type": "named",
+          "name": "--enableDeltaFindings false",
+          "value_hint": "false"
+        },
+        {
+          "description": "the protocol version a client needs",
+          "is_required": true,
+          "format": "string",
+          "value": "--requiredProtocolVersion 14",
+          "default": "--requiredProtocolVersion 14",
+          "type": "named",
+          "name": "--requiredProtocolVersion 14",
+          "value_hint": "14"
+        },
+        {
+          "description": "0-3 with 0 the lowest verbosity. 0: off, 1: only description, 2: description & details 3: complete (default)",
+          "is_required": true,
+          "format": "string",
+          "value": "--hoverVerbosity 1",
+          "default": "--hoverVerbosity 1",
+          "type": "named",
+          "name": "--hoverVerbosity 1",
+          "value_hint": "1"
+        },
+        {
+          "description": "plain = plain, markdown = md (default) or html = HTML",
+          "is_required": true,
+          "format": "string",
+          "value": "--outputFormat md",
+          "default": "--outputFormat md",
+          "type": "named",
+          "name": "--outputFormat md",
+          "value_hint": "md"
+        },
+        {
+          "description": "Any extra params for Open Source scans using the Snyk CLI, separated by spaces",
+          "format": "string",
+          "value": "--additionalParams --all-projects",
+          "default": "--additionalParams --all-projects",
+          "type": "named",
+          "name": "--additionalParams --all-projects",
+          "value_hint": "--all-projects"
+        },
+        {
+          "description": "Additional environment variables, separated by semicolons",
+          "format": "string",
+          "value": "--additionalEnv MAVEN_OPTS=-Djava.awt.headless=true;FOO=BAR",
+          "default": "--additionalEnv MAVEN_OPTS=-Djava.awt.headless=true;FOO=BAR",
+          "type": "named",
+          "name": "--additionalEnv MAVEN_OPTS=-Djava.awt.headless=true;FOO=BAR",
+          "value_hint": "MAVEN_OPTS=-Djava.awt.headless=true;FOO=BAR"
+        },
+        {
+          "description": "An array of folder that should be trusted",
+          "format": "string",
+          "value": "--trustedFolders /a/trusted/path,/another/trusted/path",
+          "default": "--trustedFolders /a/trusted/path,/another/trusted/path",
+          "type": "named",
+          "name": "--trustedFolders /a/trusted/path,/another/trusted/path",
+          "value_hint": "/a/trusted/path,/another/trusted/path"
+        },
+        {
+          "description": "an array of folder configurations, defining the desired base branch of a workspaceFolder",
+          "format": "string",
+          "value": "--folderConfigs baseBranch:main,folderPath:a/b/c,additionalParameters:--file=pom.xml",
+          "default": "--folderConfigs baseBranch:main,folderPath:a/b/c,additionalParameters:--file=pom.xml",
+          "type": "named",
+          "name": "--folderConfigs baseBranch:main,folderPath:a/b/c,additionalParameters:--file=pom.xml",
+          "value_hint": "baseBranch:main,folderPath:a/b/c,additionalParameters:--file=pom.xml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "8d24741f-2cdf-481a-932b-06517c8f9aeb",
+  "name": "io.github.spgoodman/createveai-nexus-server",
+  "description": "Createve.AI Nexus Server: MCP and API bridge for ComfyUI-node compatible LLM and agent use",
+  "repository": {
+    "url": "https://github.com/spgoodman/createveai-nexus-server",
+    "source": "github",
+    "id": "945610929"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:57Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "spgoodman/createveai-nexus-server",
+      "version": ""
+    }
+  ]
+}

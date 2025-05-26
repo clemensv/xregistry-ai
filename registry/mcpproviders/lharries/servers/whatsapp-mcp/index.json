@@ -1,0 +1,43 @@
+{
+  "id": "0d2cbcc1-4b34-4b2b-af66-595d8fb5e78a",
+  "name": "io.github.lharries/whatsapp-mcp",
+  "description": "WhatsApp MCP server",
+  "repository": {
+    "url": "https://github.com/lharries/whatsapp-mcp",
+    "source": "github",
+    "id": "957053334"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:45Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "lharries/whatsapp-mcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Directory to run in",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory {{PATH_TO_SRC}}/whatsapp-mcp/whatsapp-mcp-server",
+          "default": "--directory {{PATH_TO_SRC}}/whatsapp-mcp/whatsapp-mcp-server",
+          "type": "named",
+          "name": "--directory {{PATH_TO_SRC}}/whatsapp-mcp/whatsapp-mcp-server",
+          "value_hint": "{{PATH_TO_SRC}}/whatsapp-mcp/whatsapp-mcp-server"
+        },
+        {
+          "description": "Main Python file",
+          "is_required": true,
+          "format": "string",
+          "value": "main.py",
+          "default": "main.py",
+          "type": "positional",
+          "value_hint": "main.py"
+        }
+      ]
+    }
+  ]
+}

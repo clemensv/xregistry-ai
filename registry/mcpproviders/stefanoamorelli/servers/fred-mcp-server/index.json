@@ -1,0 +1,28 @@
+{
+  "id": "2382172a-b26a-40fc-adee-f82132b56edc",
+  "name": "io.github.stefanoamorelli/fred-mcp-server",
+  "description": "Open-source MCP Server for the Federal Reserve Economic Data",
+  "repository": {
+    "url": "https://github.com/stefanoamorelli/fred-mcp-server",
+    "source": "github",
+    "id": "981791515"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:41Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "fred-mcp-server",
+      "version": "0.2.3",
+      "environment_variables": [
+        {
+          "description": "<YOUR_API_KEY>",
+          "name": "FRED_API_KEY"
+        }
+      ]
+    }
+  ]
+}

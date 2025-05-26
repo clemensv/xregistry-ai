@@ -1,0 +1,22 @@
+{
+  "id": "c859bceb-143a-43dc-84e6-8ad8f707fcb0",
+  "name": "io.github.chuckbryan/ynabmcpserver",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/ChuckBryan/ynabmcpserver",
+    "source": "github",
+    "id": "982820266"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:12Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "ynabmcpserver",
+      "version": "0.0.0"
+    }
+  ]
+}

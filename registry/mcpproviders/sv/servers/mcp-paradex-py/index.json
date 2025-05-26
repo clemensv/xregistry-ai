@@ -1,0 +1,63 @@
+{
+  "id": "038a3024-c319-4a07-bd7f-9cf699cfebf1",
+  "name": "io.github.sv/mcp-paradex-py",
+  "description": "Connect AI agents to the Paradex trading platform. Retrieve market data, manage accounts, and execute trades seamlessly. Enhance your trading experience with automated tools and real-time insights.",
+  "repository": {
+    "url": "https://github.com/sv/mcp-paradex-py",
+    "source": "github",
+    "id": "944258239"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:24Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-paradex",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "--from mcpdoc",
+          "is_required": true,
+          "format": "string",
+          "value": "--from mcpdoc",
+          "default": "--from mcpdoc",
+          "type": "named",
+          "name": "--from mcpdoc",
+          "value_hint": "mcpdoc"
+        },
+        {
+          "description": "mcpdoc",
+          "is_required": true,
+          "format": "string",
+          "value": "mcpdoc",
+          "default": "mcpdoc",
+          "type": "positional",
+          "value_hint": "mcpdoc"
+        },
+        {
+          "description": "--urls Paradex:https://docs.paradex.trade/llms.txt",
+          "is_required": true,
+          "format": "string",
+          "value": "--urls Paradex:https://docs.paradex.trade/llms.txt",
+          "default": "--urls Paradex:https://docs.paradex.trade/llms.txt",
+          "type": "named",
+          "name": "--urls Paradex:https://docs.paradex.trade/llms.txt",
+          "value_hint": "Paradex:https://docs.paradex.trade/llms.txt"
+        },
+        {
+          "description": "--transport stdio",
+          "is_required": true,
+          "format": "string",
+          "value": "--transport stdio",
+          "default": "--transport stdio",
+          "type": "named",
+          "name": "--transport stdio",
+          "value_hint": "stdio"
+        }
+      ]
+    }
+  ]
+}

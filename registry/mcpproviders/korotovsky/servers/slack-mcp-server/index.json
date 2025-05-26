@@ -1,0 +1,49 @@
+{
+  "id": "1e8b16b3-9182-43a9-b4c5-07fdf8032c89",
+  "name": "io.github.korotovsky/slack-mcp-server",
+  "description": "The most powerful MCP Slack Server with Stdio and SSE transports, Proxy support and no permission requirements on Slack Workspace! ",
+  "repository": {
+    "url": "https://github.com/korotovsky/slack-mcp-server",
+    "source": "github",
+    "id": "965085580"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:00Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "korotovsky/slack-mcp-server",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "The url endpoint to connect to",
+          "is_required": true,
+          "format": "string",
+          "value": "https://x.y.z.q:3001/sse",
+          "default": "https://x.y.z.q:3001/sse",
+          "type": "positional",
+          "value_hint": "https://x.y.z.q:3001/sse"
+        },
+        {
+          "description": "Add HTTP headers to the request",
+          "is_required": true,
+          "format": "string",
+          "value": "--header Authorization: Bearer ${SLACK_MCP_SSE_API_KEY}",
+          "default": "--header Authorization: Bearer ${SLACK_MCP_SSE_API_KEY}",
+          "type": "named",
+          "name": "--header Authorization: Bearer ${SLACK_MCP_SSE_API_KEY}",
+          "value_hint": "Authorization: Bearer ${SLACK_MCP_SSE_API_KEY}"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "my-$$e-$ecret",
+          "name": "SLACK_MCP_SSE_API_KEY"
+        }
+      ]
+    }
+  ]
+}

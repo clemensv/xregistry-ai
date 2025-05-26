@@ -1,0 +1,5 @@
+{
+  "name": "Pinecone",
+  "description": "The vector database for machine learning applications. Build vector-based personalization, ranking, and search systems that are accurate, fast, and scalable.",
+  "documentation": "https://github.com/pinecone-io"
+}

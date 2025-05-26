@@ -1,0 +1,33 @@
+{
+  "id": "2a679bdd-d106-4510-99ea-b4802070d30f",
+  "name": "io.github.jaw9c/awesome-remote-mcp-servers",
+  "description": "A curated, opinionated list of high-quality remote Model Context Protocol (MCP) servers. ",
+  "repository": {
+    "url": "https://github.com/jaw9c/awesome-remote-mcp-servers",
+    "source": "github",
+    "id": "961291556"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:46Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "jaw9c/awesome-remote-mcp-servers",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "<REMOTE_MCP_SERVER_URL>",
+          "is_required": true,
+          "format": "string",
+          "value": "<REMOTE_MCP_SERVER_URL>",
+          "default": "<REMOTE_MCP_SERVER_URL>",
+          "type": "positional",
+          "value_hint": "<REMOTE_MCP_SERVER_URL>"
+        }
+      ]
+    }
+  ]
+}

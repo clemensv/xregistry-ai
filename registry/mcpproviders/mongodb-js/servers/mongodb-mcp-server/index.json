@@ -1,0 +1,44 @@
+{
+  "id": "9fd2c1fb-b8a6-4411-89cf-d4612cc3a539",
+  "name": "io.github.mongodb-js/mongodb-mcp-server",
+  "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
+  "repository": {
+    "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+    "source": "github",
+    "id": "960484071"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:34Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "mongodb-mcp-server",
+      "version": "0.1.1",
+      "package_arguments": [
+        {
+          "description": "your-atlas-service-accounts-client-id",
+          "is_required": true,
+          "format": "string",
+          "value": "--apiClientId your-atlas-service-accounts-client-id",
+          "default": "--apiClientId your-atlas-service-accounts-client-id",
+          "type": "named",
+          "name": "--apiClientId your-atlas-service-accounts-client-id",
+          "value_hint": "your-atlas-service-accounts-client-id"
+        },
+        {
+          "description": "your-atlas-service-accounts-client-secret",
+          "is_required": true,
+          "format": "string",
+          "value": "--apiClientSecret your-atlas-service-accounts-client-secret",
+          "default": "--apiClientSecret your-atlas-service-accounts-client-secret",
+          "type": "named",
+          "name": "--apiClientSecret your-atlas-service-accounts-client-secret",
+          "value_hint": "your-atlas-service-accounts-client-secret"
+        }
+      ]
+    }
+  ]
+}

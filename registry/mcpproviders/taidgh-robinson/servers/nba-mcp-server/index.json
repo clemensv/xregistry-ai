@@ -1,0 +1,22 @@
+{
+  "id": "9c7c309a-fb3c-4099-b461-0ca725c9083b",
+  "name": "io.github.taidgh-robinson/nba-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/Taidgh-Robinson/nba-mcp-server",
+    "source": "github",
+    "id": "971505657"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:09Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-server-nba",
+      "version": "0.1.0"
+    }
+  ]
+}

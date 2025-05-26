@@ -1,0 +1,22 @@
+{
+  "id": "39843dbb-856d-46d9-92c4-74b5041c4444",
+  "name": "io.github.kone-net/mcp_server_lark",
+  "description": "A Model Context Protocol server for Lark(Feishu) sheet, message, doc and etc.",
+  "repository": {
+    "url": "https://github.com/kone-net/mcp_server_lark",
+    "source": "github",
+    "id": "955286262"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:08Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-server-lark",
+      "version": ""
+    }
+  ]
+}

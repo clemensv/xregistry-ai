@@ -1,0 +1,5 @@
+{
+  "name": "Memgraph",
+  "description": "Open source in-memory graph database built for streaming.",
+  "documentation": "https://github.com/memgraph"
+}

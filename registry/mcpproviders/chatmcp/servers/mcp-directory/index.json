@@ -1,0 +1,22 @@
+{
+  "id": "53bef572-b137-447a-bb2f-9fdd37926619",
+  "name": "io.github.chatmcp/mcp-directory",
+  "description": "directory for Awesome MCP Servers",
+  "repository": {
+    "url": "https://github.com/chatmcp/mcpso",
+    "source": "github",
+    "id": "899309258"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:17:06Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "navfast",
+      "version": "0.1.0"
+    }
+  ]
+}

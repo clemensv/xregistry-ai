@@ -1,0 +1,22 @@
+{
+  "id": "21242e10-3373-40a3-9119-e4d075b7c27e",
+  "name": "io.github.hichana/goalstory-mcp",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/hichana/goalstory-mcp",
+    "source": "github",
+    "id": "911416763"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:18Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "goalstory-mcp",
+      "version": "0.4.3"
+    }
+  ]
+}

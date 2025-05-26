@@ -1,0 +1,22 @@
+{
+  "id": "9941c18c-f247-4b88-a6ff-7b001f806acf",
+  "name": "io.github.unifai-network/unifai-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/unifai-network/unifai-mcp-server",
+    "source": "github",
+    "id": "946711580"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:11Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "unifai-network/unifai-mcp-server",
+      "version": ""
+    }
+  ]
+}

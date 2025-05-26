@@ -1,0 +1,51 @@
+{
+  "id": "54a7e4fa-a7d1-476f-bd25-2f417766c3b5",
+  "name": "io.github.mschneider82/mcp-openweather",
+  "description": "mcp server for openweather free api",
+  "repository": {
+    "url": "https://github.com/mschneider82/mcp-openweather",
+    "source": "github",
+    "id": "982749772"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:11Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mschneider82/mcp-openweather",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "The city for which weather is requested",
+          "is_required": true,
+          "format": "string",
+          "value": "Berlin",
+          "default": "Berlin",
+          "type": "positional",
+          "value_hint": "Berlin"
+        },
+        {
+          "description": "Units to display temperature (c|f|k)",
+          "format": "string",
+          "value": "units c",
+          "default": "units c",
+          "type": "named",
+          "name": "units c",
+          "value_hint": "c"
+        },
+        {
+          "description": "Language code for the response (en|de|fr|...)",
+          "format": "string",
+          "value": "lang en",
+          "default": "lang en",
+          "type": "named",
+          "name": "lang en",
+          "value_hint": "en"
+        }
+      ]
+    }
+  ]
+}

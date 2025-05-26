@@ -1,0 +1,32 @@
+{
+  "id": "5446ebef-4e06-494b-a50f-3b02ff493274",
+  "name": "io.github.vivekkumarneu/mcp-lucene-server",
+  "description": "MCP Lucene Server",
+  "repository": {
+    "url": "https://github.com/VivekKumarNeu/MCP-Lucene-Server",
+    "source": "github",
+    "id": "969059271"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:32Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "VivekKumarNeu/MCP-Lucene-Server",
+      "version": "",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "doc2",
+          "default": "doc2",
+          "type": "positional",
+          "value_hint": "doc2"
+        }
+      ]
+    }
+  ]
+}

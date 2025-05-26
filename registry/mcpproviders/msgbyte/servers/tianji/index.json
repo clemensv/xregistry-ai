@@ -1,0 +1,22 @@
+{
+  "id": "9dd7f908-4c1b-4ba3-a33f-86be881cc8b6",
+  "name": "io.github.msgbyte/tianji",
+  "description": "Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status. not only another GA alternatives",
+  "repository": {
+    "url": "https://github.com/msgbyte/tianji",
+    "source": "github",
+    "id": "685392779"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:02:07Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "tianji",
+      "version": "1.20.9"
+    }
+  ]
+}

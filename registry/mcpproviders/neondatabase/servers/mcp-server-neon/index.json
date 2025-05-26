@@ -1,0 +1,42 @@
+{
+  "id": "9a6bd437-fe20-4f40-b776-5507f2871441",
+  "name": "io.github.neondatabase/mcp-server-neon",
+  "description": "MCP server for interacting with Neon Management API and databases",
+  "repository": {
+    "url": "https://github.com/neondatabase-labs/mcp-server-neon",
+    "source": "github",
+    "id": "896203400"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:45Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@neondatabase/mcp-server-neon",
+      "version": "0.4.0",
+      "package_arguments": [
+        {
+          "description": "Start the Neon MCP server",
+          "is_required": true,
+          "format": "string",
+          "value": "start",
+          "default": "start",
+          "type": "positional",
+          "value_hint": "start"
+        },
+        {
+          "description": "Your Neon API key",
+          "is_required": true,
+          "format": "string",
+          "value": "<YOUR_NEON_API_KEY>",
+          "default": "<YOUR_NEON_API_KEY>",
+          "type": "positional",
+          "value_hint": "<YOUR_NEON_API_KEY>"
+        }
+      ]
+    }
+  ]
+}

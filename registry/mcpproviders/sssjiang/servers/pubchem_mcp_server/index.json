@@ -1,0 +1,22 @@
+{
+  "id": "68966508-9094-4eb5-9588-ff7456d6c1ce",
+  "name": "io.github.sssjiang/pubchem_mcp_server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/sssjiang/pubchem_mcp_server",
+    "source": "github",
+    "id": "955038120"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:51Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "pubchem_mcp_server",
+      "version": "0.1.5"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "6ebc1c16-ea8d-44eb-958c-74f3f0531058",
+  "name": "io.github.kocierik/mcp-nomad",
+  "description": " A nomad MCP Server (modelcontextprotocol) ",
+  "repository": {
+    "url": "https://github.com/kocierik/mcp-nomad",
+    "source": "github",
+    "id": "969499680"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:20Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "docker",
+      "name": "kocierik/mcp-nomad",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+          "is_required": true,
+          "format": "string",
+          "value": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+          "default": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+          "type": "named",
+          "name": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+          "value_hint": "NOMAD_ADDR=http://172.17.0.1:4646"
+        },
+        {
+          "description": "-e NOMAD_TOKEN=secret-token-acl-optional",
+          "is_required": true,
+          "format": "string",
+          "value": "-e NOMAD_TOKEN=secret-token-acl-optional",
+          "default": "-e NOMAD_TOKEN=secret-token-acl-optional",
+          "type": "named",
+          "name": "-e NOMAD_TOKEN=secret-token-acl-optional",
+          "value_hint": "NOMAD_TOKEN=secret-token-acl-optional"
+        },
+        {
+          "description": "kocierik/mcpnomad-server:latest",
+          "is_required": true,
+          "format": "string",
+          "value": "kocierik/mcpnomad-server:latest",
+          "default": "kocierik/mcpnomad-server:latest",
+          "type": "positional",
+          "value_hint": "kocierik/mcpnomad-server:latest"
+        }
+      ]
+    }
+  ]
+}

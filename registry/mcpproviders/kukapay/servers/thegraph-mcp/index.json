@@ -1,0 +1,49 @@
+{
+  "id": "ea41dc54-96fd-41db-90ec-92a1a45e7151",
+  "name": "io.github.kukapay/thegraph-mcp",
+  "description": "An MCP server that powers AI agents with indexed blockchain data from The Graph.",
+  "repository": {
+    "url": "https://github.com/kukapay/thegraph-mcp",
+    "source": "github",
+    "id": "952738950"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:46Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "thegraph-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Specifies the directory to run the application from",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory path/to/thegraph-mcp",
+          "default": "--directory path/to/thegraph-mcp",
+          "type": "named",
+          "name": "--directory path/to/thegraph-mcp",
+          "value_hint": "path/to/thegraph-mcp"
+        },
+        {
+          "description": "Main python file to execute",
+          "is_required": true,
+          "format": "string",
+          "value": "main.py",
+          "default": "main.py",
+          "type": "positional",
+          "value_hint": "main.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "THEGRAPH_API_KEY"
+        }
+      ]
+    }
+  ]
+}

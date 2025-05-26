@@ -1,0 +1,22 @@
+{
+  "id": "16dc9c56-47bb-4604-9f37-221dd07510ed",
+  "name": "io.github.ibm/wxflows",
+  "description": "Examples and tutorials for building AI applications with watsonx.ai Flows Engine",
+  "repository": {
+    "url": "https://github.com/IBM/wxflows",
+    "source": "github",
+    "id": "822793282"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:38Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "IBM/wxflows",
+      "version": ""
+    }
+  ]
+}

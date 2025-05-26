@@ -1,0 +1,36 @@
+{
+  "id": "be45349a-793d-44d9-b2c6-6d4a30785a18",
+  "name": "io.github.prathamesh0901/zoom-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/Prathamesh0901/zoom-mcp-server",
+    "source": "github",
+    "id": "978843359"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:17Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@prathamesh0901/zoom-mcp-server",
+      "version": "1.0.1",
+      "environment_variables": [
+        {
+          "description": "Your Zoom Account ID",
+          "name": "ZOOM_ACCOUNT_ID"
+        },
+        {
+          "description": "Your Zoom Client ID",
+          "name": "ZOOM_CLIENT_ID"
+        },
+        {
+          "description": "Your Zoom Client Secret",
+          "name": "ZOOM_CLIENT_SECRET"
+        }
+      ]
+    }
+  ]
+}

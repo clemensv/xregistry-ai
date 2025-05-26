@@ -1,0 +1,22 @@
+{
+  "id": "fedddd78-b4fc-4bf9-96a2-021779348acf",
+  "name": "io.github.punkpeye/awesome-mcp-servers",
+  "description": "A collection of MCP servers.",
+  "repository": {
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "source": "github",
+    "id": "896335270"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:42Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "punkpeye/awesome-mcp-servers",
+      "version": ""
+    }
+  ]
+}

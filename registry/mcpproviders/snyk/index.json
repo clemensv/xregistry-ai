@@ -1,0 +1,5 @@
+{
+  "name": "Snyk",
+  "description": "Find and automatically fix vulnerabilities in your code, open source dependencies, containers, and infrastructure as code.",
+  "documentation": "https://github.com/snyk"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1f0ecfb3-f362-459d-b217-f146079c3c3b",
+  "name": "io.github.clafollett/fdic-bank-find-mcp-server",
+  "description": "MCP Server to wrap the FDIC Bank Find API",
+  "repository": {
+    "url": "https://github.com/clafollett/fdic-bank-find-mcp-server",
+    "source": "github",
+    "id": "971755349"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:43Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "clafollett/fdic-bank-find-mcp-server",
+      "version": ""
+    }
+  ]
+}

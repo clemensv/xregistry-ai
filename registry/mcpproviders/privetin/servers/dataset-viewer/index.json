@@ -1,0 +1,32 @@
+{
+  "id": "200d7310-6d18-4b22-98b3-68ae63ea985a",
+  "name": "io.github.privetin/dataset-viewer",
+  "description": "MCP server for Hugging Face dataset viewer",
+  "repository": {
+    "url": "https://github.com/privetin/dataset-viewer",
+    "source": "github",
+    "id": "911084198"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:20Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "dataset-viewer",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "dataset-viewer",
+          "default": "dataset-viewer",
+          "type": "positional",
+          "value_hint": "dataset-viewer"
+        }
+      ]
+    }
+  ]
+}

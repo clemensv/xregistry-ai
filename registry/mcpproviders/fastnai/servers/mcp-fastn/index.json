@@ -1,0 +1,32 @@
+{
+  "id": "3d7c6822-88bd-4569-a099-1e58b9b365b0",
+  "name": "io.github.fastnai/mcp-fastn",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/fastnai/mcp-fastn",
+    "source": "github",
+    "id": "950266465"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:38Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "fastn",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "fastn-server.py",
+          "default": "fastn-server.py",
+          "type": "positional",
+          "value_hint": "fastn-server.py"
+        }
+      ]
+    }
+  ]
+}

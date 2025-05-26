@@ -1,0 +1,22 @@
+{
+  "id": "a9fe34f1-7c82-4f7d-8fbe-20bb8ca29e7b",
+  "name": "io.github.kocierik/consul-mcp-server",
+  "description": "A consul MCP Server (modelcontextprotocol) ",
+  "repository": {
+    "url": "https://github.com/kocierik/consul-mcp-server",
+    "source": "github",
+    "id": "969129017"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:42Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "consul-mcp",
+      "version": "1.0.0"
+    }
+  ]
+}

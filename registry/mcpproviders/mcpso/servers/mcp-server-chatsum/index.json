@@ -1,0 +1,28 @@
+{
+  "id": "196a8cbd-8234-4336-a4d7-f6dda870bcfb",
+  "name": "io.github.mcpso/mcp-server-chatsum",
+  "description": "Query and Summarize your chat messages.",
+  "repository": {
+    "url": "https://github.com/chatmcp/mcp-server-chatsum",
+    "source": "github",
+    "id": "898004429"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:19Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-server-chatsum",
+      "version": "0.1.0",
+      "environment_variables": [
+        {
+          "description": "path-to/mcp-server-chatsum/chatbot/data/chat.db",
+          "name": "CHAT_DB_PATH"
+        }
+      ]
+    }
+  ]
+}

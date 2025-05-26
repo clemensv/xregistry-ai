@@ -1,0 +1,22 @@
+{
+  "id": "523175e8-6767-4387-af85-a46f256a6390",
+  "name": "io.github.szeider/mcp-solver",
+  "description": "Model Context Protocol (MCP) server for constraint optimization and solving\"",
+  "repository": {
+    "url": "https://github.com/szeider/mcp-solver",
+    "source": "github",
+    "id": "903561149"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:06Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-solver",
+      "version": "3.2.0"
+    }
+  ]
+}

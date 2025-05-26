@@ -1,0 +1,22 @@
+{
+  "id": "07ccf835-680a-42b4-bf0b-db28367519ee",
+  "name": "io.github.ubie-oss/mcp-vertexai-search",
+  "description": "A MCP server for Vertex AI Search",
+  "repository": {
+    "url": "https://github.com/ubie-oss/mcp-vertexai-search",
+    "source": "github",
+    "id": "934580342"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:44Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-vertexai-search",
+      "version": "0.1.0"
+    }
+  ]
+}

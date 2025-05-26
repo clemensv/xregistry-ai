@@ -1,0 +1,40 @@
+{
+  "id": "34b93e72-0fa8-4dbe-ae9b-82a9e40de735",
+  "name": "io.github.taazkareem/clickup-mcp-server",
+  "description": "ClickUp MCP Server - Integrate ClickUp task management with AI through Model Context Protocol",
+  "repository": {
+    "url": "https://github.com/taazkareem/clickup-mcp-server",
+    "source": "github",
+    "id": "930539984"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:30Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@taazkareem/clickup-mcp-server",
+      "version": "0.7.2",
+      "environment_variables": [
+        {
+          "description": "your-api-key",
+          "name": "CLICKUP_API_KEY"
+        },
+        {
+          "description": "your-team-id",
+          "name": "CLICKUP_TEAM_ID"
+        },
+        {
+          "description": "true",
+          "name": "ENABLE_SSE"
+        },
+        {
+          "description": "8000",
+          "name": "PORT"
+        }
+      ]
+    }
+  ]
+}

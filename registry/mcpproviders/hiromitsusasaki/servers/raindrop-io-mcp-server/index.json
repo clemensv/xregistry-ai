@@ -1,0 +1,39 @@
+{
+  "id": "ddfb0c36-c116-4333-a62e-c9447d699b6e",
+  "name": "io.github.hiromitsusasaki/raindrop-io-mcp-server",
+  "description": "An integration that allows LLMs to interact with Raindrop.io bookmarks using the Model Context Protocol (MCP).",
+  "repository": {
+    "url": "https://github.com/hiromitsusasaki/raindrop-io-mcp-server",
+    "source": "github",
+    "id": "914932138"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:17Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "raindrop-io-mcp-server",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "PATH_TO_BUILD/index.js",
+          "is_required": true,
+          "format": "string",
+          "value": "PATH_TO_BUILD/index.js",
+          "default": "PATH_TO_BUILD/index.js",
+          "type": "positional",
+          "value_hint": "PATH_TO_BUILD/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_access_token_here",
+          "name": "RAINDROP_TOKEN"
+        }
+      ]
+    }
+  ]
+}

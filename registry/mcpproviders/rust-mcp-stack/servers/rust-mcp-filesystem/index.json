@@ -1,0 +1,22 @@
+{
+  "id": "583f254e-410c-4dd4-a96c-8f362475436e",
+  "name": "io.github.rust-mcp-stack/rust-mcp-filesystem",
+  "description": "Blazing-fast, asynchronous MCP server for seamless filesystem operations.",
+  "repository": {
+    "url": "https://github.com/rust-mcp-stack/rust-mcp-filesystem",
+    "source": "github",
+    "id": "968849582"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:39Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "rust-mcp-stack/rust-mcp-filesystem",
+      "version": ""
+    }
+  ]
+}

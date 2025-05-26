@@ -1,0 +1,32 @@
+{
+  "id": "3e50df21-8223-440d-bad9-dfc9ce117af4",
+  "name": "io.github.gleanwork/mcp-server",
+  "description": "MCP server for Glean API integration",
+  "repository": {
+    "url": "https://github.com/gleanwork/mcp-server",
+    "source": "github",
+    "id": "946754858"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:06Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@gleanwork/mcp-server",
+      "version": "0.6.1",
+      "environment_variables": [
+        {
+          "description": "<glean instance name>",
+          "name": "GLEAN_INSTANCE"
+        },
+        {
+          "description": "<glean api token>",
+          "name": "GLEAN_API_TOKEN"
+        }
+      ]
+    }
+  ]
+}

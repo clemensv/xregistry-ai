@@ -1,0 +1,57 @@
+{
+  "id": "938ee893-25dd-424a-88b4-7ebce53bcb22",
+  "name": "io.github.salesforce-mcp/salesforce-mcp",
+  "description": "Salesforce MCP",
+  "repository": {
+    "url": "https://github.com/salesforce-mcp/salesforce-mcp",
+    "source": "github",
+    "id": "973629838"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:13:37Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "salesforce-mcp/salesforce-mcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Argument for source identifier",
+          "is_required": true,
+          "format": "string",
+          "value": "--from salesforce-mcp",
+          "default": "--from salesforce-mcp",
+          "type": "named",
+          "name": "--from salesforce-mcp",
+          "value_hint": "salesforce-mcp"
+        },
+        {
+          "description": "Target package or operation",
+          "is_required": true,
+          "format": "string",
+          "value": "salesforce",
+          "default": "salesforce",
+          "type": "positional",
+          "value_hint": "salesforce"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "YOUR_SALESFORCE_USERNAME",
+          "name": "USERNAME"
+        },
+        {
+          "description": "YOUR_SALESFORCE_PASSWORD",
+          "name": "PASSWORD"
+        },
+        {
+          "description": "YOUR_SALESFORCE_SECURITY_TOKEN",
+          "name": "SECURITY_TOKEN"
+        }
+      ]
+    }
+  ]
+}

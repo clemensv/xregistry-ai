@@ -1,0 +1,22 @@
+{
+  "id": "dd8073c5-c7c4-42c1-a0d7-cad8089de750",
+  "name": "io.github.kelvin6365/plane-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/kelvin6365/plane-mcp-server",
+    "source": "github",
+    "id": "953147035"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:36Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "plane-mcp-server",
+      "version": "0.1.0"
+    }
+  ]
+}

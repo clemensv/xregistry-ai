@@ -1,0 +1,43 @@
+{
+  "id": "243a8c0e-4bb7-4932-9d7c-8e8229306295",
+  "name": "io.github.kukapay/jupiter-mcp",
+  "description": "An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API.",
+  "repository": {
+    "url": "https://github.com/kukapay/jupiter-mcp",
+    "source": "github",
+    "id": "952976727"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:44Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "jupiter-mcp",
+      "version": "1.0.1",
+      "package_arguments": [
+        {
+          "description": "Jupiter MCP server entry file",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/jupiter-mcp/server/index.js",
+          "default": "path/to/jupiter-mcp/server/index.js",
+          "type": "positional",
+          "value_hint": "path/to/jupiter-mcp/server/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "solana rpc url you can access",
+          "name": "SOLANA_RPC_URL"
+        },
+        {
+          "description": "your private key",
+          "name": "PRIVATE_KEY"
+        }
+      ]
+    }
+  ]
+}

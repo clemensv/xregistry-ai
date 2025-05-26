@@ -1,0 +1,48 @@
+{
+  "id": "554f9f4e-2cd3-4a48-90e4-3c0351603f26",
+  "name": "io.github.macrat/mcp-server-kintone",
+  "description": "MCP server for kintone",
+  "repository": {
+    "url": "https://github.com/macrat/mcp-server-kintone",
+    "source": "github",
+    "id": "905159302"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:57Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "macrat/mcp-server-kintone",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "https://<domain>.cybozu.com",
+          "name": "KINTONE_BASE_URL"
+        },
+        {
+          "description": "<your username>",
+          "name": "KINTONE_USERNAME"
+        },
+        {
+          "description": "<your password>",
+          "name": "KINTONE_PASSWORD"
+        },
+        {
+          "description": "<your api token>, <another api token>, ...",
+          "name": "KINTONE_API_TOKEN"
+        },
+        {
+          "description": "1, 2, 3, ...",
+          "name": "KINTONE_ALLOW_APPS"
+        },
+        {
+          "description": "4, 5, ...",
+          "name": "KINTONE_DENY_APPS"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "925a5d1d-ab12-44bd-9297-a20bdde6ec68",
+  "name": "io.github.kukapay/pancakeswap-poolspy-mcp",
+  "description": "An MCP server that tracks newly created liquidity pools on Pancake Swap",
+  "repository": {
+    "url": "https://github.com/kukapay/pancakeswap-poolspy-mcp",
+    "source": "github",
+    "id": "949792903"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:12:19Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "pancakeswap-poolspy-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Specify directory to run from",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory path/to/pancakeswap-poolspy-mcp",
+          "default": "--directory path/to/pancakeswap-poolspy-mcp",
+          "type": "named",
+          "name": "--directory path/to/pancakeswap-poolspy-mcp",
+          "value_hint": "path/to/pancakeswap-poolspy-mcp"
+        },
+        {
+          "description": "Python script to execute",
+          "is_required": true,
+          "format": "string",
+          "value": "main.py",
+          "default": "main.py",
+          "type": "positional",
+          "value_hint": "main.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your api key from The Graph",
+          "name": "THEGRAPH_API_KEY"
+        }
+      ]
+    }
+  ]
+}

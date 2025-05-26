@@ -1,0 +1,64 @@
+{
+  "id": "5ebda83c-f2b3-4b14-ba72-13d940fa940a",
+  "name": "io.github.jeff-nasseri/mikrotik-mcp",
+  "description": "MCP server for Mikrotik",
+  "repository": {
+    "url": "https://github.com/jeff-nasseri/mikrotik-mcp",
+    "source": "github",
+    "id": "982172059"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:28Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-server-mikrotik",
+      "version": "0.1.6",
+      "package_arguments": [
+        {
+          "description": "Host to connect to",
+          "is_required": true,
+          "format": "string",
+          "value": "--host <HOST>",
+          "default": "--host <HOST>",
+          "type": "named",
+          "name": "--host <HOST>",
+          "value_hint": "<HOST>"
+        },
+        {
+          "description": "Username for authentication",
+          "is_required": true,
+          "format": "string",
+          "value": "--username <USERNAME>",
+          "default": "--username <USERNAME>",
+          "type": "named",
+          "name": "--username <USERNAME>",
+          "value_hint": "<USERNAME>"
+        },
+        {
+          "description": "Password for authentication",
+          "is_required": true,
+          "format": "string",
+          "value": "--password <PASSWORD>",
+          "default": "--password <PASSWORD>",
+          "type": "named",
+          "name": "--password <PASSWORD>",
+          "value_hint": "<PASSWORD>"
+        },
+        {
+          "description": "Port to connect to",
+          "is_required": true,
+          "format": "string",
+          "value": "--port 22",
+          "default": "--port 22",
+          "type": "named",
+          "name": "--port 22",
+          "value_hint": "22"
+        }
+      ]
+    }
+  ]
+}

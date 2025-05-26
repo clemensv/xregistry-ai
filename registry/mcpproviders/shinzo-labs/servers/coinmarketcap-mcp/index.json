@@ -1,0 +1,22 @@
+{
+  "id": "7e3a17ce-fbbd-48cb-b29f-34a4b8c6ca55",
+  "name": "io.github.shinzo-labs/coinmarketcap-mcp",
+  "description": "MCP Implementation for CoinMarketCap",
+  "repository": {
+    "url": "https://github.com/shinzo-labs/coinmarketcap-mcp",
+    "source": "github",
+    "id": "952163210"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:48Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@shinzolabs/coinmarketcap-mcp",
+      "version": "1.3.7"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "11e3a5f5-867c-4f1e-ba79-1b803550fb1a",
+  "name": "io.github.nota/gyazo-mcp-server",
+  "description": "Official Model Context Protocol server for Gyazo",
+  "repository": {
+    "url": "https://github.com/nota/gyazo-mcp-server",
+    "source": "github",
+    "id": "922406701"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:10Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "docker",
+      "name": "@notainc/gyazo-mcp-server",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "docker named argument for stdin",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "docker named argument for removing the container after exit",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "docker named argument to set environment variable",
+          "is_required": true,
+          "format": "string",
+          "value": "-e",
+          "default": "-e",
+          "type": "named",
+          "name": "-e",
+          "value_hint": "-e"
+        },
+        {
+          "description": "docker positional argument indicating the image name",
+          "is_required": true,
+          "format": "string",
+          "value": "GYAZO_ACCESS_TOKEN",
+          "default": "GYAZO_ACCESS_TOKEN",
+          "type": "positional",
+          "value_hint": "GYAZO_ACCESS_TOKEN"
+        },
+        {
+          "description": "docker positional argument indicating the package to run",
+          "is_required": true,
+          "format": "string",
+          "value": "gyazo-mcp-server",
+          "default": "gyazo-mcp-server",
+          "type": "positional",
+          "value_hint": "gyazo-mcp-server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your-access-token-here",
+          "name": "GYAZO_ACCESS_TOKEN"
+        }
+      ]
+    }
+  ]
+}

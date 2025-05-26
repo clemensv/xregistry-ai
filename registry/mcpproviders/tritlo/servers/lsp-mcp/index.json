@@ -1,0 +1,34 @@
+{
+  "id": "32f876df-1f34-40d7-aed8-0431b32d5091",
+  "name": "io.github.tritlo/lsp-mcp",
+  "description": "An MCP server that lets you interact with LSP servers",
+  "repository": {
+    "url": "https://github.com/Tritlo/lsp-mcp",
+    "source": "github",
+    "id": "952869992"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:12Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "lsp-mcp-server",
+      "version": "0.2.0",
+      "package_arguments": [
+        {
+          "description": "debug",
+          "is_required": true,
+          "format": "string",
+          "value": "debug",
+          "default": "debug",
+          "type": "named",
+          "name": "debug",
+          "value_hint": "debug"
+        }
+      ]
+    }
+  ]
+}

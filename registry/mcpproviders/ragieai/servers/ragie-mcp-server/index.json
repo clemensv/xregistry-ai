@@ -1,0 +1,40 @@
+{
+  "id": "324d6879-eb6f-4565-bdeb-6c4b00d91384",
+  "name": "io.github.ragieai/ragie-mcp-server",
+  "description": "Ragie Model Context Protocol Server",
+  "repository": {
+    "url": "https://github.com/ragieai/ragie-mcp-server",
+    "source": "github",
+    "id": "940305209"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:08Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@ragieai/mcp-server",
+      "version": "0.0.7",
+      "package_arguments": [
+        {
+          "description": "Partition identifier (optional)",
+          "is_required": true,
+          "format": "string",
+          "value": "--partition optional_partition_id",
+          "default": "--partition optional_partition_id",
+          "type": "named",
+          "name": "--partition optional_partition_id",
+          "value_hint": "optional_partition_id"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_api_key",
+          "name": "RAGIE_API_KEY"
+        }
+      ]
+    }
+  ]
+}

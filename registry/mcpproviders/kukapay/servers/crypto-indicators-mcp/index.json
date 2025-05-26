@@ -1,0 +1,39 @@
+{
+  "id": "0852caec-a861-4f9c-9e94-a7c8b67a1641",
+  "name": "io.github.kukapay/crypto-indicators-mcp",
+  "description": "An MCP server providing a range of cryptocurrency technical analysis indicators and strategies.",
+  "repository": {
+    "url": "https://github.com/kukapay/crypto-indicators-mcp",
+    "source": "github",
+    "id": "953321792"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:01Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "crypto-indicators-mcp",
+      "version": "1.0.1",
+      "package_arguments": [
+        {
+          "description": "Positional argument: path/to/crypto-indicators-mcp/index.js",
+          "is_required": true,
+          "format": "string",
+          "value": "path/to/crypto-indicators-mcp/index.js",
+          "default": "path/to/crypto-indicators-mcp/index.js",
+          "type": "positional",
+          "value_hint": "path/to/crypto-indicators-mcp/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "binance",
+          "name": "EXCHANGE_NAME"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dd730dba-107c-40f0-b172-85500a22b5c2",
+  "name": "io.github.memgraph/mcp-memgraph",
+  "description": "Memgraph MCP Server",
+  "repository": {
+    "url": "https://github.com/memgraph/mcp-memgraph",
+    "source": "github",
+    "id": "946087272"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:00:22Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-memgraph",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "c0a64e6c-2ff2-4a2f-afe6-f52119a020a0",
+  "name": "io.github.shy2593666979/mcp-server-email",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/Shy2593666979/mcp-server-email",
+    "source": "github",
+    "id": "953349763"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:22Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-server-email",
+      "version": "0.1.0"
+    }
+  ]
+}

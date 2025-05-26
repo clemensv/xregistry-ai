@@ -1,0 +1,5 @@
+{
+  "name": "Tavily AI",
+  "description": "Tavily Search API is a search engine optimized for LLMs and RAG, aimed at efficient, quick and persistent search results",
+  "documentation": "https://github.com/tavily-ai"
+}

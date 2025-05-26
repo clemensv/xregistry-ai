@@ -1,0 +1,75 @@
+{
+  "id": "687591a4-a5da-44df-8d55-f32e19d5658a",
+  "name": "io.github.ramp-public/ramp-mcp",
+  "description": "ramp_mcp",
+  "repository": {
+    "url": "https://github.com/ramp-public/ramp_mcp",
+    "source": "github",
+    "id": "951969645"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:39Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "ramp-mcp",
+      "version": "0.0.1",
+      "package_arguments": [
+        {
+          "description": "Specify the directory to use",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /<ABSOLUTE-PATH-TO>/ramp-mcp",
+          "default": "--directory /<ABSOLUTE-PATH-TO>/ramp-mcp",
+          "type": "named",
+          "name": "--directory /<ABSOLUTE-PATH-TO>/ramp-mcp",
+          "value_hint": "/<ABSOLUTE-PATH-TO>/ramp-mcp"
+        },
+        {
+          "description": "Application name",
+          "is_required": true,
+          "format": "string",
+          "value": "ramp-mcp",
+          "default": "ramp-mcp",
+          "type": "positional",
+          "value_hint": "ramp-mcp"
+        },
+        {
+          "description": "Run in silent mode",
+          "is_required": true,
+          "format": "string",
+          "value": "-s",
+          "default": "-s",
+          "type": "named",
+          "name": "-s"
+        },
+        {
+          "description": "Specify resource permissions",
+          "is_required": true,
+          "format": "string",
+          "value": "transactions:read,reimbursements:read",
+          "default": "transactions:read,reimbursements:read",
+          "type": "positional",
+          "value_hint": "transactions:read,reimbursements:read"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<CLIENT_ID>",
+          "name": "RAMP_CLIENT_ID"
+        },
+        {
+          "description": "<CLIENT_SECRET>",
+          "name": "RAMP_CLIENT_SECRET"
+        },
+        {
+          "description": "<demo|qa|prd>",
+          "name": "RAMP_ENV"
+        }
+      ]
+    }
+  ]
+}

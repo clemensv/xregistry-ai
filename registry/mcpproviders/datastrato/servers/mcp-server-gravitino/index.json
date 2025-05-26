@@ -1,0 +1,101 @@
+{
+  "id": "fee5894b-e255-408d-9cd2-e6ee29d78d78",
+  "name": "io.github.datastrato/mcp-server-gravitino",
+  "description": "MCP server for Apache Gravitino(incubating)",
+  "repository": {
+    "url": "https://github.com/datastrato/mcp-server-gravitino",
+    "source": "github",
+    "id": "966588444"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:03:02Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "mcp-server-gravitino",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "description": "Set working directory",
+          "is_required": true,
+          "format": "string",
+          "value": "--directory /Users/user/workspace/mcp-server-gravitino",
+          "default": "--directory /Users/user/workspace/mcp-server-gravitino",
+          "type": "named",
+          "name": "--directory /Users/user/workspace/mcp-server-gravitino",
+          "value_hint": "/Users/user/workspace/mcp-server-gravitino"
+        },
+        {
+          "description": "Add fastmcp",
+          "is_required": true,
+          "format": "string",
+          "value": "--with fastmcp",
+          "default": "--with fastmcp",
+          "type": "named",
+          "name": "--with fastmcp",
+          "value_hint": "fastmcp"
+        },
+        {
+          "description": "Add httpx",
+          "is_required": true,
+          "format": "string",
+          "value": "--with httpx",
+          "default": "--with httpx",
+          "type": "named",
+          "name": "--with httpx",
+          "value_hint": "httpx"
+        },
+        {
+          "description": "Add mcp-server-gravitino",
+          "is_required": true,
+          "format": "string",
+          "value": "--with mcp-server-gravitino",
+          "default": "--with mcp-server-gravitino",
+          "type": "named",
+          "name": "--with mcp-server-gravitino",
+          "value_hint": "mcp-server-gravitino"
+        },
+        {
+          "description": "Run python",
+          "is_required": true,
+          "format": "string",
+          "value": "python",
+          "default": "python",
+          "type": "positional",
+          "value_hint": "python"
+        },
+        {
+          "description": "Run module",
+          "is_required": true,
+          "format": "string",
+          "value": "-m mcp_server_gravitino.server",
+          "default": "-m mcp_server_gravitino.server",
+          "type": "named",
+          "name": "-m mcp_server_gravitino.server",
+          "value_hint": "mcp_server_gravitino.server"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "http://localhost:8090",
+          "name": "GRAVITINO_URI"
+        },
+        {
+          "description": "admin",
+          "name": "GRAVITINO_USERNAME"
+        },
+        {
+          "description": "admin",
+          "name": "GRAVITINO_PASSWORD"
+        },
+        {
+          "description": "metalake_demo",
+          "name": "GRAVITINO_METALAKE"
+        }
+      ]
+    }
+  ]
+}

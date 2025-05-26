@@ -1,0 +1,22 @@
+{
+  "id": "8df45968-12aa-4c35-ae54-62973243334a",
+  "name": "io.github.jamsocket/forevervm",
+  "description": "Securely run AI-generated code in stateful sandboxes that run forever.",
+  "repository": {
+    "url": "https://github.com/jamsocket/forevervm",
+    "source": "github",
+    "id": "918657398"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:39Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "jamsocket/forevervm",
+      "version": ""
+    }
+  ]
+}

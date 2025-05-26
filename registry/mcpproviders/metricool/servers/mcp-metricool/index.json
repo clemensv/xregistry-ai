@@ -1,0 +1,32 @@
+{
+  "id": "091ef217-8e6d-4e06-8cb9-bc5ffe5467b1",
+  "name": "io.github.metricool/mcp-metricool",
+  "description": "This is a Multi-Agent Collaboration Protocol (MCP) server for interacting with the Metricool API. It allows AI agents to access and analyze social media metrics and campaign data from your Metricool account.",
+  "repository": {
+    "url": "https://github.com/metricool/mcp-metricool",
+    "source": "github",
+    "id": "967888435"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:11Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-metricool",
+      "version": "1.1.0",
+      "environment_variables": [
+        {
+          "description": "<METRICOOL_USER_TOKEN>",
+          "name": "METRICOOL_USER_TOKEN"
+        },
+        {
+          "description": "<METRICOOL_USER_ID>",
+          "name": "METRICOOL_USER_ID"
+        }
+      ]
+    }
+  ]
+}

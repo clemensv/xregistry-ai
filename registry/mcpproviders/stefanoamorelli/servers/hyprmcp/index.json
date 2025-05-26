@@ -1,0 +1,72 @@
+{
+  "id": "b51467a7-698f-4a33-9598-db5aaf4e07b3",
+  "name": "io.github.stefanoamorelli/hyprmcp",
+  "description": "Community MCP server for hyprctl",
+  "repository": {
+    "url": "https://github.com/stefanoamorelli/hyprmcp",
+    "source": "github",
+    "id": "973785828"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:17Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "stefanoamorelli/hyprmcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "--with mcp[cli]",
+          "is_required": true,
+          "format": "string",
+          "value": "--with mcp[cli]",
+          "default": "--with mcp[cli]",
+          "type": "named",
+          "name": "--with mcp[cli]",
+          "value_hint": "mcp[cli]"
+        },
+        {
+          "description": "--with subprocess",
+          "is_required": true,
+          "format": "string",
+          "value": "--with subprocess",
+          "default": "--with subprocess",
+          "type": "named",
+          "name": "--with subprocess",
+          "value_hint": "subprocess"
+        },
+        {
+          "description": "mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp",
+          "default": "mcp",
+          "type": "positional",
+          "value_hint": "mcp"
+        },
+        {
+          "description": "<global path of the repo>/hyprmcp/hyprmcp/server.py",
+          "is_required": true,
+          "format": "string",
+          "value": "<global path of the repo>/hyprmcp/hyprmcp/server.py",
+          "default": "<global path of the repo>/hyprmcp/hyprmcp/server.py",
+          "type": "positional",
+          "value_hint": "<global path of the repo>/hyprmcp/hyprmcp/server.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<global path of the repo>/hyprmcp",
+          "name": "PYTHONPATH"
+        },
+        {
+          "description": "<your-hyprland-instance-signature>",
+          "name": "HYPRLAND_INSTANCE_SIGNATURE"
+        }
+      ]
+    }
+  ]
+}

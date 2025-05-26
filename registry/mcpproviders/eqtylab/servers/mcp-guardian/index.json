@@ -1,0 +1,22 @@
+{
+  "id": "04b4489b-db48-4aaa-98f6-036bcf5fd483",
+  "name": "io.github.eqtylab/mcp-guardian",
+  "description": "Manage / Proxy / Secure your MCP Servers",
+  "repository": {
+    "url": "https://github.com/eqtylab/mcp-guardian",
+    "source": "github",
+    "id": "926222936"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:58Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "eqtylab/mcp-guardian",
+      "version": ""
+    }
+  ]
+}

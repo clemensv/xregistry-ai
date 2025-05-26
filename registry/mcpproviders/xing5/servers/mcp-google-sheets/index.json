@@ -1,0 +1,43 @@
+{
+  "id": "69ae0fdb-713d-4f8e-bf8e-d214e79fa295",
+  "name": "io.github.xing5/mcp-google-sheets",
+  "description": "This MCP server integrates with your Google Drive and Google Sheets, to enable creating and modifying spreadsheets.",
+  "repository": {
+    "url": "https://github.com/xing5/mcp-google-sheets",
+    "source": "github",
+    "id": "952831973"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:38Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "mcp-google-sheets",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Positional argument for script to run",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp-google-sheets",
+          "default": "mcp-google-sheets",
+          "type": "positional",
+          "value_hint": "mcp-google-sheets"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "/full/path/to/cloned/mcp-google-sheets/service-account-key.json",
+          "name": "SERVICE_ACCOUNT_PATH"
+        },
+        {
+          "description": "your_shared_folder_id_here",
+          "name": "DRIVE_FOLDER_ID"
+        }
+      ]
+    }
+  ]
+}

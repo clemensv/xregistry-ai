@@ -1,0 +1,33 @@
+{
+  "id": "b1051584-3b09-49af-a97f-a92b47861ed1",
+  "name": "io.github.rohans2/mcp-google-sheets",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/rohans2/mcp-google-sheets",
+    "source": "github",
+    "id": "975908174"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:40Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "backend",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "Budget Q2",
+          "is_required": true,
+          "format": "string",
+          "value": "Budget Q2",
+          "default": "Budget Q2",
+          "type": "positional",
+          "value_hint": "Budget Q2"
+        }
+      ]
+    }
+  ]
+}

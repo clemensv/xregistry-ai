@@ -1,0 +1,22 @@
+{
+  "id": "9826cb7a-bc6f-41d9-b9b7-f76f781c1eca",
+  "name": "io.github.sonnylazuardi/cursor-talk-to-figma-mcp",
+  "description": "Cursor Talk To Figma MCP",
+  "repository": {
+    "url": "https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp",
+    "source": "github",
+    "id": "949523404"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:14:25Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "cursor-talk-to-figma-mcp",
+      "version": "0.2.1"
+    }
+  ]
+}

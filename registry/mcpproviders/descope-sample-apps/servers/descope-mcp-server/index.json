@@ -1,0 +1,32 @@
+{
+  "id": "bac14e5d-08c4-4b69-8e40-b845632d26ed",
+  "name": "io.github.descope-sample-apps/descope-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/descope-sample-apps/descope-mcp-server-stdio",
+    "source": "github",
+    "id": "921929368"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:41Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "descope-mcp-server",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your-descope-project-id-here",
+          "name": "DESCOPE_PROJECT_ID"
+        },
+        {
+          "description": "your-descope-management-key-here",
+          "name": "DESCOPE_MANAGEMENT_KEY"
+        }
+      ]
+    }
+  ]
+}

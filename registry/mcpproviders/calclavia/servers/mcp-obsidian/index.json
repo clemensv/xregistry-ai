@@ -1,0 +1,33 @@
+{
+  "id": "ab58cca1-94ad-42d8-be13-980556ac552b",
+  "name": "io.github.calclavia/mcp-obsidian",
+  "description": "A connector for Claude Desktop to read and search an Obsidian vault.",
+  "repository": {
+    "url": "https://github.com/smithery-ai/mcp-obsidian",
+    "source": "github",
+    "id": "895882011"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:11:33Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "mcp-obsidian",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "Path to Obsidian vault",
+          "is_required": true,
+          "format": "string",
+          "value": "${input:vaultPath}",
+          "default": "${input:vaultPath}",
+          "type": "positional",
+          "value_hint": "${input:vaultPath}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "aef75131-e237-4b91-a2b8-c0f416d3618f",
+  "name": "io.github.buryhuang/mcp-hubspot",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with HubSpot CRM data, providing built-in vector storage and caching mechanisms help overcome HubSpot API limitations while improving response times.",
+  "repository": {
+    "url": "https://github.com/peakmojo/mcp-hubspot",
+    "source": "github",
+    "id": "908899631"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:06Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "docker",
+      "name": "mcp-server-hubspot",
+      "version": "0.2.0",
+      "package_arguments": [
+        {
+          "description": "Attach stdin even if not attached",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "description": "Remove container after exit",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "description": "Set HUBSPOT_ACCESS_TOKEN environment variable in the container",
+          "is_required": true,
+          "format": "string",
+          "value": "-e HUBSPOT_ACCESS_TOKEN=your_token",
+          "default": "-e HUBSPOT_ACCESS_TOKEN=your_token",
+          "type": "named",
+          "name": "-e HUBSPOT_ACCESS_TOKEN=your_token",
+          "value_hint": "HUBSPOT_ACCESS_TOKEN=your_token"
+        },
+        {
+          "description": "Optional persistent storage for state files",
+          "format": "string",
+          "value": "-v /path/to/storage:/storage",
+          "default": "-v /path/to/storage:/storage",
+          "type": "named",
+          "name": "-v /path/to/storage:/storage",
+          "value_hint": "/path/to/storage:/storage"
+        },
+        {
+          "description": "Docker image to run",
+          "is_required": true,
+          "format": "string",
+          "value": "buryhuang/mcp-hubspot:latest",
+          "default": "buryhuang/mcp-hubspot:latest",
+          "type": "positional",
+          "value_hint": "buryhuang/mcp-hubspot:latest"
+        }
+      ]
+    }
+  ]
+}

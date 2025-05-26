@@ -1,0 +1,22 @@
+{
+  "id": "6026be39-cc97-4ace-b557-a97aeddbbd60",
+  "name": "io.github.geropl/git-mcp-go",
+  "description": "Git MCP based on mcp-go",
+  "repository": {
+    "url": "https://github.com/geropl/git-mcp-go",
+    "source": "github",
+    "id": "940039420"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:07:01Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "geropl/git-mcp-go",
+      "version": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "f4b01928-545f-4f65-a9b4-2bcc4f4a7204",
+  "name": "io.github.gibsonai/mcp",
+  "description": "GibsonAI's MCP server",
+  "repository": {
+    "url": "https://github.com/GibsonAI/mcp",
+    "source": "github",
+    "id": "967696769"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:01Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "GibsonAI/mcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "gibson",
+          "is_required": true,
+          "format": "string",
+          "value": "gibson",
+          "default": "gibson",
+          "type": "positional",
+          "value_hint": "gibson"
+        },
+        {
+          "description": "mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "mcp",
+          "default": "mcp",
+          "type": "positional",
+          "value_hint": "mcp"
+        }
+      ]
+    }
+  ]
+}

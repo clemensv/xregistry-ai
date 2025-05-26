@@ -1,0 +1,22 @@
+{
+  "id": "3947e186-beb0-4372-8f74-045047dacebd",
+  "name": "io.github.vrknetha/mcp-server-firecrawl",
+  "description": "Official Firecrawl MCP Server - Adds powerful web scraping to Cursor, Claude and any other LLM clients.",
+  "repository": {
+    "url": "https://github.com/mendableai/firecrawl-mcp-server",
+    "source": "github",
+    "id": "899407931"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:52Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "firecrawl-mcp",
+      "version": "1.9.0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4bd856fc-761e-43e3-9236-7b996b6b7ec7",
+  "name": "io.github.kukapay/token-revoke-mcp",
+  "description": "An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains.",
+  "repository": {
+    "url": "https://github.com/kukapay/token-revoke-mcp",
+    "source": "github",
+    "id": "956577908"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:01Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "token-revoke-mcp",
+      "version": "1.0.0",
+      "environment_variables": [
+        {
+          "description": "your moralis api key",
+          "name": "MORALIS_API_KEY"
+        },
+        {
+          "description": "your wallet private key",
+          "name": "PRIVATE_KEY"
+        }
+      ]
+    }
+  ]
+}

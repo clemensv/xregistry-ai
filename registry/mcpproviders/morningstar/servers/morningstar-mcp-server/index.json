@@ -1,0 +1,22 @@
+{
+  "id": "3f0811e0-35b7-4e9b-a610-d8aa0b71400d",
+  "name": "io.github.morningstar/morningstar-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/Morningstar/morningstar-mcp-server",
+    "source": "github",
+    "id": "956037631"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:44Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "Morningstar/morningstar-mcp-server",
+      "version": ""
+    }
+  ]
+}

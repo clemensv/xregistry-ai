@@ -1,0 +1,22 @@
+{
+  "id": "3ec2249d-2ed3-45d2-8b52-185abfa918ac",
+  "name": "io.github.lciesielski/mcp-salesforce-example",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/lciesielski/mcp-salesforce-example",
+    "source": "github",
+    "id": "957204688"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:00Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-salesforce",
+      "version": "1.0.0"
+    }
+  ]
+}

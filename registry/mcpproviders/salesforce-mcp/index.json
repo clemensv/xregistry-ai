@@ -1,0 +1,5 @@
+{
+  "name": "Salesforce - MCP",
+  "description": "Model Context Protocol (MCP) server for Salesforce. — MCP connector so LLMs can interact with Salesforce data & metadata.",
+  "documentation": "https://github.com/salesforce-mcp"
+}

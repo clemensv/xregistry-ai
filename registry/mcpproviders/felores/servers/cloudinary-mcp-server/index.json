@@ -1,0 +1,47 @@
+{
+  "id": "7baddfbe-3618-41d8-befe-40fc2aabcd8e",
+  "name": "io.github.felores/cloudinary-mcp-server",
+  "description": "MCP (Model Context Protocol) server for uploading media to Cloudinary using Claude Desktop",
+  "repository": {
+    "url": "https://github.com/felores/cloudinary-mcp-server",
+    "source": "github",
+    "id": "913564273"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:04:32Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@felores/cloudinary-mcp-server",
+      "version": "1.1.3",
+      "package_arguments": [
+        {
+          "description": "Path to the package entrypoint",
+          "is_required": true,
+          "format": "string",
+          "value": "c:/path/to/cloudinary-mcp-server/dist/index.js",
+          "default": "c:/path/to/cloudinary-mcp-server/dist/index.js",
+          "type": "positional",
+          "value_hint": "c:/path/to/cloudinary-mcp-server/dist/index.js"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your_cloud_name",
+          "name": "CLOUDINARY_CLOUD_NAME"
+        },
+        {
+          "description": "your_api_key",
+          "name": "CLOUDINARY_API_KEY"
+        },
+        {
+          "description": "your_api_secret",
+          "name": "CLOUDINARY_API_SECRET"
+        }
+      ]
+    }
+  ]
+}

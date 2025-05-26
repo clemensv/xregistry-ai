@@ -1,0 +1,22 @@
+{
+  "id": "add3f73d-394b-4b99-b255-8d9d89db84c2",
+  "name": "io.github.rishabkoul/iterm-mcp-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/rishabkoul/iTerm-MCP-Server",
+    "source": "github",
+    "id": "953500133"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:34Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "iterm_mcp_server",
+      "version": "1.0.4"
+    }
+  ]
+}

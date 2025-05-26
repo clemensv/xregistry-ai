@@ -1,0 +1,22 @@
+{
+  "id": "3afff2d4-d77f-42c2-bf39-ce786ecb0ecf",
+  "name": "io.github.dynatrace-oss/dynatrace-mcp",
+  "description": "MCP server for Dynatrace Observability",
+  "repository": {
+    "url": "https://github.com/dynatrace-oss/dynatrace-mcp",
+    "source": "github",
+    "id": "971357826"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:58:26Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@dynatrace-oss/dynatrace-mcp-server",
+      "version": "0.1.2"
+    }
+  ]
+}

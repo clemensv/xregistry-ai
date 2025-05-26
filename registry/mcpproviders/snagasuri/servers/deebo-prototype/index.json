@@ -1,0 +1,91 @@
+{
+  "id": "ec2849c6-e8ed-46b1-8e57-646fd2e8be93",
+  "name": "io.github.snagasuri/deebo-prototype",
+  "description": "Autonomous debugging agent MCP server",
+  "repository": {
+    "url": "https://github.com/snagasuri/deebo-prototype",
+    "source": "github",
+    "id": "954456943"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:30Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "deebo-prototype",
+      "version": "1.0.0",
+      "package_arguments": [
+        {
+          "description": "--experimental-specifier-resolution=node",
+          "is_required": true,
+          "format": "string",
+          "value": "--experimental-specifier-resolution=node",
+          "default": "--experimental-specifier-resolution=node",
+          "type": "named",
+          "name": "--experimental-specifier-resolution=node",
+          "value_hint": "node"
+        },
+        {
+          "description": "--experimental-modules",
+          "is_required": true,
+          "format": "string",
+          "value": "--experimental-modules",
+          "default": "--experimental-modules",
+          "type": "named",
+          "name": "--experimental-modules"
+        },
+        {
+          "description": "--max-old-space-size=4096",
+          "is_required": true,
+          "format": "string",
+          "value": "--max-old-space-size=4096",
+          "default": "--max-old-space-size=4096",
+          "type": "named",
+          "name": "--max-old-space-size=4096",
+          "value_hint": "4096"
+        },
+        {
+          "description": "/Users/[your-name]/.deebo/build/index.js",
+          "is_required": true,
+          "format": "string",
+          "value": "/Users/[your-name]/.deebo/build/index.js",
+          "default": "/Users/[your-name]/.deebo/build/index.js",
+          "type": "positional"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "development",
+          "name": "NODE_ENV"
+        },
+        {
+          "description": "true",
+          "name": "USE_MEMORY_BANK"
+        },
+        {
+          "description": "openrouter",
+          "name": "MOTHER_HOST"
+        },
+        {
+          "description": "anthropic/claude-3.5-sonnet",
+          "name": "MOTHER_MODEL"
+        },
+        {
+          "description": "openrouter",
+          "name": "SCENARIO_HOST"
+        },
+        {
+          "description": "deepseek/deepseek-chat",
+          "name": "SCENARIO_MODEL"
+        },
+        {
+          "description": "your-openrouter-api-key",
+          "name": "OPENROUTER_API_KEY"
+        }
+      ]
+    }
+  ]
+}

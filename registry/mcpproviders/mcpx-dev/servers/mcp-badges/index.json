@@ -1,0 +1,22 @@
+{
+  "id": "72d60875-916c-4555-8651-a10f013c7c30",
+  "name": "io.github.mcpx-dev/mcp-badges",
+  "description": "Get your projects MCP (Model Context Protocol)  badges",
+  "repository": {
+    "url": "https://github.com/mcpx-dev/mcp-badges",
+    "source": "github",
+    "id": "911113162"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:52Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcpx-dev/mcp-badges",
+      "version": ""
+    }
+  ]
+}

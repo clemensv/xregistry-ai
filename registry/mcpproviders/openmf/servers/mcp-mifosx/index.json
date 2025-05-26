@@ -1,0 +1,22 @@
+{
+  "id": "9cc3a712-dd68-494f-a2a3-63bfc54ce837",
+  "name": "io.github.openmf/mcp-mifosx",
+  "description": "Model Context Protocol - MCP for Mifos X",
+  "repository": {
+    "url": "https://github.com/openMF/mcp-mifosx",
+    "source": "github",
+    "id": "955487988"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:10:25Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "openMF/mcp-mifosx",
+      "version": ""
+    }
+  ]
+}

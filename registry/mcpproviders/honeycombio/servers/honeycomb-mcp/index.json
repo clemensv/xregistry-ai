@@ -1,0 +1,22 @@
+{
+  "id": "19aa503d-7b8e-42d8-a1e5-3bc918d36382",
+  "name": "io.github.honeycombio/honeycomb-mcp",
+  "description": "Allows Honeycomb Enterprise customers to use AI to query and analyze their data, alerts, dashboards, and more; and cross-reference production behavior with the codebase.",
+  "repository": {
+    "url": "https://github.com/honeycombio/honeycomb-mcp",
+    "source": "github",
+    "id": "906807010"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T18:59:34Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "@honeycombio/honeycomb-mcp",
+      "version": "0.0.1"
+    }
+  ]
+}

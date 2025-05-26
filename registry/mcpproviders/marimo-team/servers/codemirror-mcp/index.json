@@ -1,0 +1,28 @@
+{
+  "id": "bdcb0c25-b41c-4e61-ad25-89e5ddb35dcc",
+  "name": "io.github.marimo-team/codemirror-mcp",
+  "description": "CodeMirror extension to hook up a Model Context Provider (MCP)",
+  "repository": {
+    "url": "https://github.com/marimo-team/codemirror-mcp",
+    "source": "github",
+    "id": "914149601"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:36Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "@marimo-team/codemirror-mcp",
+      "version": "0.1.2",
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ]
+    }
+  ]
+}

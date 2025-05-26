@@ -1,0 +1,34 @@
+{
+  "id": "9ad8f293-3ea1-4f0d-8c9f-a24945851bb6",
+  "name": "io.github.tbxark/mcp-proxy",
+  "description": "An MCP proxy server that aggregates and serves multiple MCP resource servers through a single HTTP server.",
+  "repository": {
+    "url": "https://github.com/TBXark/mcp-proxy",
+    "source": "github",
+    "id": "955698123"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:58Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "TBXark/mcp-proxy",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "<YOUR_TOKEN>",
+          "name": "GITHUB_PERSONAL_ACCESS_TOKEN"
+        }
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "transport_type": "sse",
+      "url": "https://mcp.amap.com/sse?key=<YOUR_TOKEN>"
+    }
+  ]
+}

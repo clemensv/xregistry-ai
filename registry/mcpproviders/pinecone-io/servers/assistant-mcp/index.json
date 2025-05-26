@@ -1,0 +1,81 @@
+{
+  "id": "08668c6a-c2f6-47b0-a4e0-75a8ee9bcf10",
+  "name": "io.github.pinecone-io/assistant-mcp",
+  "description": "Pinecone Assistant MCP server",
+  "repository": {
+    "url": "https://github.com/pinecone-io/assistant-mcp",
+    "source": "github",
+    "id": "940446625"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:06Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "docker",
+      "name": "pinecone-io/assistant-mcp",
+      "version": "",
+      "package_arguments": [
+        {
+          "description": "-i",
+          "is_required": true,
+          "format": "string",
+          "value": "-i",
+          "default": "-i",
+          "type": "named",
+          "name": "-i"
+        },
+        {
+          "description": "--rm",
+          "is_required": true,
+          "format": "string",
+          "value": "--rm",
+          "default": "--rm",
+          "type": "named",
+          "name": "--rm"
+        },
+        {
+          "description": "-e PINECONE_API_KEY",
+          "is_required": true,
+          "format": "string",
+          "value": "-e PINECONE_API_KEY",
+          "default": "-e PINECONE_API_KEY",
+          "type": "named",
+          "name": "-e PINECONE_API_KEY",
+          "value_hint": "PINECONE_API_KEY"
+        },
+        {
+          "description": "-e PINECONE_ASSISTANT_HOST",
+          "is_required": true,
+          "format": "string",
+          "value": "-e PINECONE_ASSISTANT_HOST",
+          "default": "-e PINECONE_ASSISTANT_HOST",
+          "type": "named",
+          "name": "-e PINECONE_ASSISTANT_HOST",
+          "value_hint": "PINECONE_ASSISTANT_HOST"
+        },
+        {
+          "description": "pinecone/assistant-mcp",
+          "is_required": true,
+          "format": "string",
+          "value": "pinecone/assistant-mcp",
+          "default": "pinecone/assistant-mcp",
+          "type": "positional",
+          "value_hint": "pinecone/assistant-mcp"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "<YOUR_PINECONE_API_KEY_HERE>",
+          "name": "PINECONE_API_KEY"
+        },
+        {
+          "description": "<YOUR_PINECONE_ASSISTANT_HOST_HERE>",
+          "name": "PINECONE_ASSISTANT_HOST"
+        }
+      ]
+    }
+  ]
+}

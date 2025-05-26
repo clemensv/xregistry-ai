@@ -1,0 +1,38 @@
+{
+  "id": "1ff3b09d-5c19-4254-849f-34244dc6ee88",
+  "name": "io.github.kukapay/uniswap-poolspy-mcp",
+  "description": "An MCP server that tracks newly created liquidity pools on Uniswap across nine blockchain networks.",
+  "repository": {
+    "url": "https://github.com/kukapay/uniswap-poolspy-mcp",
+    "source": "github",
+    "id": "950939450"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:15:09Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "uniswap-poolspy-mcp",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "run main.py",
+          "default": "run main.py",
+          "type": "positional",
+          "value_hint": "main.py"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "your api key from The Graph",
+          "name": "THEGRAPH_API_KEY"
+        }
+      ]
+    }
+  ]
+}

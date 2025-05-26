@@ -1,0 +1,28 @@
+{
+  "id": "9eab3795-a96d-4fad-8521-921599e85240",
+  "name": "io.github.ppl-ai/modelcontextprotocol",
+  "description": "A Model Context Protocol Server connector for Perplexity API, to enable web search without leaving the MCP ecosystem.",
+  "repository": {
+    "url": "https://github.com/ppl-ai/modelcontextprotocol",
+    "source": "github",
+    "id": "946214670"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:01:00Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "ppl-ai/modelcontextprotocol",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "YOUR_API_KEY_HERE",
+          "name": "PERPLEXITY_API_KEY"
+        }
+      ]
+    }
+  ]
+}

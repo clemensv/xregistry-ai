@@ -1,0 +1,32 @@
+{
+  "id": "d0f30dc9-bc11-43f8-9b61-034e2bec78d5",
+  "name": "io.github.qainsights/jmeter-mcp-server",
+  "description": "✨ JMeter Meets AI Workflows: Introducing the JMeter MCP Server! 🤯 ",
+  "repository": {
+    "url": "https://github.com/QAInsights/jmeter-mcp-server",
+    "source": "github",
+    "id": "956608147"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:39Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "jmeter-mcp-server",
+      "version": "0.1.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "jmeter_server.py",
+          "default": "jmeter_server.py",
+          "type": "positional",
+          "value_hint": "jmeter_server.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "573c235f-93d7-45a3-9f23-b1166a660c97",
+  "name": "io.github.kukapay/freqtrade-mcp",
+  "description": "An MCP server that integrates with the Freqtrade cryptocurrency trading bot.",
+  "repository": {
+    "url": "https://github.com/kukapay/freqtrade-mcp",
+    "source": "github",
+    "id": "954056822"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:06:57Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "freqtrade-mcp",
+      "version": "0.1.0"
+    }
+  ]
+}

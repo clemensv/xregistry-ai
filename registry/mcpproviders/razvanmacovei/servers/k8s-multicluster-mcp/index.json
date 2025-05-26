@@ -1,0 +1,28 @@
+{
+  "id": "87c3876b-995b-4838-901b-062cdfb884c7",
+  "name": "io.github.razvanmacovei/k8s-multicluster-mcp",
+  "description": "An MCP (Model Context Protocol) server application for Kubernetes operations, providing a standardized API to interact with multiple Kubernetes clusters simultaneously using multiple kubeconfig files.",
+  "repository": {
+    "url": "https://github.com/razvanmacovei/k8s-multicluster-mcp",
+    "source": "github",
+    "id": "979253683"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:08:46Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "razvanmacovei/k8s-multicluster-mcp",
+      "version": "",
+      "environment_variables": [
+        {
+          "description": "/path/to/your/kubeconfigs",
+          "name": "KUBECONFIG_DIR"
+        }
+      ]
+    }
+  ]
+}

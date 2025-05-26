@@ -1,0 +1,38 @@
+{
+  "id": "d0568ded-6678-4940-b344-9644e04e6d7b",
+  "name": "io.github.mcp-router/mcp-router",
+  "description": "MCP Router enables easily manage your MCP (Model Context Protocol) servers with enhanced security",
+  "repository": {
+    "url": "https://github.com/mcp-router/mcp-router",
+    "source": "github",
+    "id": "952939763"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:16:50Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "my-docs-site",
+      "version": "0.0.0",
+      "package_arguments": [
+        {
+          "is_required": true,
+          "format": "string",
+          "value": "connect",
+          "default": "connect",
+          "type": "positional",
+          "value_hint": "connect"
+        }
+      ],
+      "environment_variables": [
+        {
+          "description": "Issued Token",
+          "name": "MCPR_TOKEN"
+        }
+      ]
+    }
+  ]
+}

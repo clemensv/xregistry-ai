@@ -1,0 +1,22 @@
+{
+  "id": "1fa71606-a2ca-47f1-b249-91031917ca41",
+  "name": "io.github.stass/lldb-mcp",
+  "description": "LLDB MCP server",
+  "repository": {
+    "url": "https://github.com/stass/lldb-mcp",
+    "source": "github",
+    "id": "955087112"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:09:27Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "stass/lldb-mcp",
+      "version": ""
+    }
+  ]
+}

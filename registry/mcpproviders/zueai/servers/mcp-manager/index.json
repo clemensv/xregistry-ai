@@ -1,0 +1,22 @@
+{
+  "id": "3288499d-b820-45c9-8abf-60c050c5c741",
+  "name": "io.github.zueai/mcp-manager",
+  "description": "simple web ui to manage mcp (model context protocol) servers in the claude app",
+  "repository": {
+    "url": "https://github.com/zueai/mcp-manager",
+    "source": "github",
+    "id": "900260982"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:17:02Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-manager",
+      "version": "0.1.9"
+    }
+  ]
+}

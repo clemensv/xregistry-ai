@@ -1,0 +1,22 @@
+{
+  "id": "79f72036-83ee-4420-9767-980e27590e6f",
+  "name": "io.github.reading-plus-ai/mcp-server-deep-research",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/reading-plus-ai/mcp-server-deep-research",
+    "source": "github",
+    "id": "953282616"
+  },
+  "version_detail": {
+    "version": "0.0.1-seed",
+    "release_date": "2025-05-16T19:05:32Z",
+    "is_latest": true
+  },
+  "packages": [
+    {
+      "registry_name": "unknown",
+      "name": "mcp-server-deep-research",
+      "version": "0.1.1"
+    }
+  ]
+}
