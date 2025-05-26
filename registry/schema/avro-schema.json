@@ -257,7 +257,8 @@
                       "name": "specversion",
                       "type": {
                         "type": "string"
-                      }
+                      },
+                      "doc": "Version of the A2A specification this agent card conforms to"
                     },
                     {
                       "name": "additionalProperties",
@@ -487,62 +488,72 @@
                       "name": "id",
                       "type": {
                         "type": "string"
-                      }
+                      },
+                      "doc": "Unique identifier for the MCP server"
                     },
                     {
                       "name": "name",
                       "type": {
                         "type": "string"
-                      }
+                      },
+                      "doc": "Human-readable name of the MCP server"
                     },
                     {
                       "name": "description",
                       "type": {
                         "type": "string"
-                      }
+                      },
+                      "doc": "Detailed description of the server's functionality and capabilities"
                     },
                     {
                       "name": "repository",
-                      "type": "Repository"
+                      "type": "Repository",
+                      "doc": "Source code repository information for the MCP server"
                     },
                     {
                       "name": "version_detail",
-                      "type": "VersionDetail"
+                      "type": "VersionDetail",
+                      "doc": "Version information for the current server release"
                     },
                     {
                       "name": "packages",
                       "type": {
                         "type": "array",
                         "items": "PackagesItem"
-                      }
+                      },
+                      "doc": "Available package distributions for installing and running the server"
                     },
                     {
                       "name": "remotes",
                       "type": {
                         "type": "array",
                         "items": "RemotesItem"
-                      }
+                      },
+                      "doc": "Remote server endpoints that can be connected to via network protocols"
                     },
                     {
                       "name": "prompts",
                       "type": {
                         "type": "array",
                         "items": "PromptsItem"
-                      }
+                      },
+                      "doc": "Pre-defined prompt templates available through this server"
                     },
                     {
                       "name": "tools",
                       "type": {
                         "type": "array",
                         "items": "ToolsItem"
-                      }
+                      },
+                      "doc": "Tools and functions exposed by this MCP server"
                     },
                     {
                       "name": "resources",
                       "type": {
                         "type": "array",
                         "items": "ResourcesItem"
-                      }
+                      },
+                      "doc": "Resources that can be accessed through this MCP server"
                     },
                     {
                       "name": "additionalProperties",

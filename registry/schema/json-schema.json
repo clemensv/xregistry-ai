@@ -50,7 +50,8 @@
           "description": "ID of the agentcards object"
         },
         "specversion": {
-          "type": "string"
+          "type": "string",
+          "description": "Version of the A2A specification this agent card conforms to"
         }
       },
       "required": [],
@@ -117,7 +118,8 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "description": "Human-readable name of the MCP server"
         },
         "epoch": {
           "type": "integer",
@@ -134,7 +136,8 @@
           "description": "Relative URL of the object"
         },
         "description": {
-          "type": "string"
+          "type": "string",
+          "description": "Detailed description of the server's functionality and capabilities"
         },
         "documentation": {
           "type": "string",
@@ -160,214 +163,273 @@
           "description": "ID of the servers object"
         },
         "id": {
-          "type": "string"
+          "type": "string",
+          "description": "Unique identifier for the MCP server"
         },
         "repository": {
           "type": "object",
+          "description": "Source code repository information for the MCP server",
           "properties": {
             "url": {
-              "type": "string"
+              "type": "string",
+              "description": "URL of the source code repository"
             },
             "source": {
-              "type": "string"
+              "type": "string",
+              "description": "Repository hosting platform (e.g., github, gitlab)"
             },
             "id": {
-              "type": "string"
+              "type": "string",
+              "description": "Repository identifier or path within the hosting platform"
             }
           }
         },
         "version_detail": {
           "type": "object",
+          "description": "Version information for the current server release",
           "properties": {
             "version": {
-              "type": "string"
+              "type": "string",
+              "description": "Semantic version number of the server"
             },
             "release_date": {
-              "type": "string"
+              "type": "string",
+              "description": "ISO 8601 date when this version was released"
             },
             "is_latest": {
-              "type": "boolean"
+              "type": "boolean",
+              "description": "Whether this is the latest available version"
             }
           }
         },
         "packages": {
           "type": "array",
+          "description": "Available package distributions for installing and running the server",
           "items": {
             "type": "object",
             "properties": {
               "registry_name": {
-                "type": "string"
+                "type": "string",
+                "description": "Name of the package registry (e.g., npm, pypi, cargo)"
               },
               "name": {
-                "type": "string"
+                "type": "string",
+                "description": "Package name within the registry"
               },
               "version": {
-                "type": "string"
+                "type": "string",
+                "description": "Package version identifier"
               },
               "runtime_hint": {
-                "type": "string"
+                "type": "string",
+                "description": "Suggested runtime environment (e.g., node, python, cargo)"
               },
               "runtime_arguments": {
                 "type": "array",
+                "description": "Command-line arguments required when executing the server runtime",
                 "items": {
                   "type": "object",
                   "properties": {
                     "description": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Human-readable description of this argument"
                     },
                     "is_required": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this argument is mandatory for server execution"
                     },
                     "format": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Expected format or validation pattern for the argument value"
                     },
                     "value": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Current or default value for this argument"
                     },
                     "is_secret": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this argument contains sensitive information"
                     },
                     "default": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Default value used when argument is not provided"
                     },
                     "choices": {
                       "type": "array",
+                      "description": "List of valid values for this argument",
                       "items": {
                         "type": "string"
                       }
                     },
                     "template": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Template string for generating argument values"
                     },
                     "properties": {
                       "type": "object",
+                      "description": "Additional properties or metadata for this argument",
                       "properties": {}
                     },
                     "variables": {
                       "type": "object",
+                      "description": "Variable substitutions available for this argument",
                       "properties": {}
                     },
                     "type": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Data type of the argument (string, number, boolean, etc.)"
                     },
                     "name": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Name or identifier for this argument"
                     },
                     "is_repeated": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this argument can be specified multiple times"
                     },
                     "value_hint": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Hint or example for what kind of value to provide"
                     }
                   }
                 }
               },
               "package_arguments": {
                 "type": "array",
+                "description": "Arguments specific to package installation or configuration",
                 "items": {
                   "type": "object",
                   "properties": {
                     "description": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Human-readable description of this package argument"
                     },
                     "is_required": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this argument is mandatory for package installation"
                     },
                     "format": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Expected format or validation pattern for the argument value"
                     },
                     "value": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Current or default value for this package argument"
                     },
                     "is_secret": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this argument contains sensitive information"
                     },
                     "default": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Default value used when argument is not provided"
                     },
                     "choices": {
                       "type": "array",
+                      "description": "List of valid values for this package argument",
                       "items": {
                         "type": "string"
                       }
                     },
                     "template": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Template string for generating package argument values"
                     },
                     "properties": {
                       "type": "object",
+                      "description": "Additional properties or metadata for this package argument",
                       "properties": {}
                     },
                     "variables": {
                       "type": "object",
+                      "description": "Variable substitutions available for this package argument",
                       "properties": {}
                     },
                     "type": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Data type of the package argument"
                     },
                     "name": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Name or identifier for this package argument"
                     },
                     "is_repeated": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this package argument can be specified multiple times"
                     },
                     "value_hint": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Hint or example for what kind of value to provide"
                     }
                   }
                 }
               },
               "environment_variables": {
                 "type": "array",
+                "description": "Environment variables required or used by the server",
                 "items": {
                   "type": "object",
                   "properties": {
                     "description": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Human-readable description of this environment variable"
                     },
                     "is_required": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this environment variable is mandatory"
                     },
                     "format": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Expected format or validation pattern for the variable value"
                     },
                     "value": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Current or default value for this environment variable"
                     },
                     "is_secret": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this environment variable contains sensitive information"
                     },
                     "default": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Default value used when environment variable is not set"
                     },
                     "choices": {
                       "type": "array",
+                      "description": "List of valid values for this environment variable",
                       "items": {
                         "type": "string"
                       }
                     },
                     "template": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Template string for generating environment variable values"
                     },
                     "properties": {
                       "type": "object",
+                      "description": "Additional properties or metadata for this environment variable",
                       "properties": {}
                     },
                     "variables": {
                       "type": "object",
+                      "description": "Variable substitutions available for this environment variable",
                       "properties": {}
                     },
                     "type": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Data type of the environment variable"
                     },
                     "name": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Name of the environment variable"
                     },
                     "is_repeated": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this environment variable can have multiple values"
                     },
                     "value_hint": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Hint or example for what kind of value to provide"
                     }
                   }
                 }
@@ -377,49 +439,62 @@
         },
         "remotes": {
           "type": "array",
+          "description": "Remote server endpoints that can be connected to via network protocols",
           "items": {
             "type": "object",
             "properties": {
               "transport_type": {
-                "type": "string"
+                "type": "string",
+                "description": "Network transport protocol (e.g., http, websocket, tcp)"
               },
               "url": {
-                "type": "string"
+                "type": "string",
+                "description": "URL endpoint for connecting to the remote server"
               },
               "headers": {
                 "type": "array",
+                "description": "HTTP headers required for connecting to the remote server",
                 "items": {
                   "type": "object",
                   "properties": {
                     "description": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Human-readable description of this header"
                     },
                     "is_required": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this header is mandatory for connection"
                     },
                     "format": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Expected format or validation pattern for the header value"
                     },
                     "value": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Current or default value for this header"
                     },
                     "is_secret": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Whether this header contains sensitive information"
                     },
                     "default": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Default value used when header is not provided"
                     },
                     "choices": {
                       "type": "array",
+                      "description": "List of valid values for this header",
                       "items": {
                         "type": "string"
                       }
                     },
                     "template": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Template string for generating header values"
                     },
                     "properties": {
                       "type": "object",
+                      "description": "Additional properties or metadata for this header",
                       "properties": {}
                     }
                   }
@@ -430,6 +505,7 @@
         },
         "prompts": {
           "type": "array",
+          "description": "Pre-defined prompt templates available through this server",
           "items": {
             "type": "object",
             "properties": {}
@@ -437,6 +513,7 @@
         },
         "tools": {
           "type": "array",
+          "description": "Tools and functions exposed by this MCP server",
           "items": {
             "type": "object",
             "properties": {}
@@ -444,6 +521,7 @@
         },
         "resources": {
           "type": "array",
+          "description": "Resources that can be accessed through this MCP server",
           "items": {
             "type": "object",
             "properties": {}
