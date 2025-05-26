@@ -132,7 +132,7 @@ docker exec "${CONTAINER_ID}" /bin/sh -c '
 echo "Exporting live data to $ARCHIVE_PATH..."
 docker exec "${CONTAINER_ID}" /bin/sh -c "
   mkdir -p /tmp/live
-  /xr download -s localhost:8080 /tmp/live -u $GITHUB_PAGES_URL/registry --index index.html
+  /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
   cd /tmp/live
   tar czf $ARCHIVE_PATH .
 "
