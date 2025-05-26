@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:05.357445828Z",
+  "createdat": "2025-05-26T12:59:41.85515801Z",
   "description": "",
   "epoch": 1,
   "id": "fd341719-247e-45e8-a911-ad7c336eb163",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ahujasid/servers/blender-mcp/meta",
-  "modifiedat": "2025-05-26T10:34:05.357445828Z",
+  "modifiedat": "2025-05-26T12:59:41.85515801Z",
   "name": "io.github.ahujasid/blender-mcp",
   "packages": [
     {

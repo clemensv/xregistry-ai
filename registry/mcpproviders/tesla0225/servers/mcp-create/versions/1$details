@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:36:04.595468736Z",
+  "createdat": "2025-05-26T12:59:26.715873149Z",
   "description": "",
   "epoch": 1,
   "id": "84bda3c9-65ce-45f2-898f-6e370718b43d",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:36:04.595468736Z",
+  "modifiedat": "2025-05-26T12:59:26.715873149Z",
   "name": "io.github.tesla0225/mcp-create",
   "packages": [
     {

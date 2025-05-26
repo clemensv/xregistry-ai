@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:29.326229647Z",
+  "createdat": "2025-05-26T13:00:00.903555387Z",
   "description": "On-premises conversational RAG with configurable containers",
   "epoch": 1,
   "id": "a0774c2f-cd94-44d6-b441-d606f20c2087",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:29.326229647Z",
+  "modifiedat": "2025-05-26T13:00:00.903555387Z",
   "name": "io.github.dmayboroda/minima",
   "packages": [
     {

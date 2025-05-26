@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:03.604732634Z",
+  "createdat": "2025-05-26T13:00:00.698551578Z",
   "description": "An mcp server that provides read-only access to MariaDB.",
   "epoch": 1,
   "id": "8197c60c-08c6-4d90-9d63-e64bf48ab6e4",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:03.604732634Z",
+  "modifiedat": "2025-05-26T13:00:00.698551578Z",
   "name": "io.github.abel9851/mcp-server-mariadb",
   "packages": [
     {

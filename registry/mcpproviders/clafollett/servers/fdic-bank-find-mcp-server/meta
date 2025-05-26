@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:21.77872081Z",
+  "createdat": "2025-05-26T12:59:19.355744164Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/clafollett/servers/fdic-bank-find-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:21.77872081Z",
+  "modifiedat": "2025-05-26T12:59:19.355744164Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/clafollett/servers/fdic-bank-find-mcp-server/meta",
   "serverid": "fdic-bank-find-mcp-server",

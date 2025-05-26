@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:23.833073463Z",
+  "createdat": "2025-05-26T13:00:06.584421874Z",
   "description": "MCP Server to integrate Unity Editor game engine with different AI Model clients (e.g. Claude Desktop, Windsurf, Cursor)",
   "epoch": 1,
   "id": "3cccaee3-1b35-4a97-bc23-d1a8603aa366",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:23.833073463Z",
+  "modifiedat": "2025-05-26T13:00:06.584421874Z",
   "name": "io.github.codergamester/mcp-unity",
   "packages": [
     {

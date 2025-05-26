@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:43.299696472Z",
+  "createdat": "2025-05-26T13:00:14.821045417Z",
   "description": "",
   "epoch": 1,
   "id": "0f970fc6-418a-45c7-a665-00e725e8338d",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:43.299696472Z",
+  "modifiedat": "2025-05-26T13:00:14.821045417Z",
   "name": "io.github.gotohuman/gotohuman-mcp-server",
   "packages": [
     {

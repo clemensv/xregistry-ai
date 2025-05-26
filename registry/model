@@ -81,6 +81,1284 @@
           "type": "any"
         }
       }
+    },
+    "agentcardprovidersurl": {
+      "name": "agentcardprovidersurl",
+      "type": "url",
+      "readonly": true,
+      "immutable": true,
+      "required": true
+    },
+    "agentcardproviderscount": {
+      "name": "agentcardproviderscount",
+      "type": "uinteger",
+      "readonly": true,
+      "required": true
+    },
+    "agentcardproviders": {
+      "name": "agentcardproviders",
+      "type": "map",
+      "item": {
+        "type": "object",
+        "attributes": {
+          "*": {
+            "name": "*",
+            "type": "any"
+          }
+        }
+      }
+    },
+    "mcpprovidersurl": {
+      "name": "mcpprovidersurl",
+      "type": "url",
+      "readonly": true,
+      "immutable": true,
+      "required": true
+    },
+    "mcpproviderscount": {
+      "name": "mcpproviderscount",
+      "type": "uinteger",
+      "readonly": true,
+      "required": true
+    },
+    "mcpproviders": {
+      "name": "mcpproviders",
+      "type": "map",
+      "item": {
+        "type": "object",
+        "attributes": {
+          "*": {
+            "name": "*",
+            "type": "any"
+          }
+        }
+      }
+    }
+  },
+  "groups": {
+    "agentcardproviders": {
+      "plural": "agentcardproviders",
+      "singular": "agentcardprovider",
+      "description": "Google A2A AgentCardProviders group",
+      "modelversion": "1.0-rc1",
+      "attributes": {
+        "agentcardproviderid": {
+          "name": "agentcardproviderid",
+          "type": "string",
+          "immutable": true,
+          "required": true
+        },
+        "self": {
+          "name": "self",
+          "type": "url",
+          "readonly": true,
+          "immutable": true,
+          "required": true
+        },
+        "xid": {
+          "name": "xid",
+          "type": "xid",
+          "readonly": true,
+          "immutable": true,
+          "required": true
+        },
+        "epoch": {
+          "name": "epoch",
+          "type": "uinteger",
+          "readonly": true,
+          "required": true
+        },
+        "name": {
+          "name": "name",
+          "type": "string"
+        },
+        "description": {
+          "name": "description",
+          "type": "string"
+        },
+        "documentation": {
+          "name": "documentation",
+          "type": "url"
+        },
+        "labels": {
+          "name": "labels",
+          "type": "map",
+          "item": {
+            "type": "string"
+          }
+        },
+        "createdat": {
+          "name": "createdat",
+          "type": "timestamp",
+          "required": true
+        },
+        "modifiedat": {
+          "name": "modifiedat",
+          "type": "timestamp",
+          "required": true
+        },
+        "agentcardsurl": {
+          "name": "agentcardsurl",
+          "type": "url",
+          "readonly": true,
+          "immutable": true,
+          "required": true
+        },
+        "agentcardscount": {
+          "name": "agentcardscount",
+          "type": "uinteger",
+          "readonly": true,
+          "required": true
+        },
+        "agentcards": {
+          "name": "agentcards",
+          "type": "map",
+          "item": {
+            "type": "object",
+            "attributes": {
+              "*": {
+                "name": "*",
+                "type": "any"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "agentcards": {
+          "plural": "agentcards",
+          "singular": "agentcard",
+          "description": "Google A2A AgentCard resource",
+          "maxversions": 0,
+          "setversionid": true,
+          "setdefaultversionsticky": true,
+          "hasdocument": true,
+          "singleversionroot": false,
+          "attributes": {
+            "agentcardid": {
+              "name": "agentcardid",
+              "type": "string",
+              "immutable": true,
+              "required": true
+            },
+            "versionid": {
+              "name": "versionid",
+              "type": "string",
+              "immutable": true,
+              "required": true
+            },
+            "self": {
+              "name": "self",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "xid": {
+              "name": "xid",
+              "type": "xid",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "epoch": {
+              "name": "epoch",
+              "type": "uinteger",
+              "readonly": true,
+              "required": true
+            },
+            "name": {
+              "name": "name",
+              "type": "string"
+            },
+            "isdefault": {
+              "name": "isdefault",
+              "type": "boolean",
+              "readonly": true,
+              "required": true,
+              "default": false
+            },
+            "description": {
+              "name": "description",
+              "type": "string"
+            },
+            "documentation": {
+              "name": "documentation",
+              "type": "url"
+            },
+            "labels": {
+              "name": "labels",
+              "type": "map",
+              "item": {
+                "type": "string"
+              }
+            },
+            "createdat": {
+              "name": "createdat",
+              "type": "timestamp",
+              "required": true
+            },
+            "modifiedat": {
+              "name": "modifiedat",
+              "type": "timestamp",
+              "required": true
+            },
+            "ancestor": {
+              "name": "ancestor",
+              "type": "string",
+              "required": true
+            },
+            "contenttype": {
+              "name": "contenttype",
+              "type": "string"
+            },
+            "specversion": {
+              "name": "specversion",
+              "type": "string",
+              "description": "Version of the A2A specification this agent card conforms to"
+            },
+            "*": {
+              "name": "*",
+              "type": "any",
+              "description": "Additional custom attributes allowed for agent card extensibility"
+            },
+            "agentcardurl": {
+              "name": "agentcardurl",
+              "type": "url"
+            },
+            "agentcardproxyurl": {
+              "name": "agentcardproxyurl",
+              "type": "url"
+            },
+            "agentcard": {
+              "name": "agentcard",
+              "type": "any"
+            },
+            "metaurl": {
+              "name": "metaurl",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "meta": {
+              "name": "meta",
+              "type": "object",
+              "attributes": {
+                "*": {
+                  "name": "*",
+                  "type": "any"
+                }
+              }
+            },
+            "versionsurl": {
+              "name": "versionsurl",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "versionscount": {
+              "name": "versionscount",
+              "type": "uinteger",
+              "readonly": true,
+              "required": true
+            },
+            "versions": {
+              "name": "versions",
+              "type": "map",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any"
+                  }
+                }
+              }
+            }
+          },
+          "metaattributes": {
+            "agentcardid": {
+              "name": "agentcardid",
+              "type": "string",
+              "immutable": true,
+              "required": true
+            },
+            "self": {
+              "name": "self",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "xid": {
+              "name": "xid",
+              "type": "xid",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "xref": {
+              "name": "xref",
+              "type": "url"
+            },
+            "epoch": {
+              "name": "epoch",
+              "type": "uinteger",
+              "readonly": true,
+              "required": true
+            },
+            "createdat": {
+              "name": "createdat",
+              "type": "timestamp",
+              "required": true
+            },
+            "modifiedat": {
+              "name": "modifiedat",
+              "type": "timestamp",
+              "required": true
+            },
+            "readonly": {
+              "name": "readonly",
+              "type": "boolean",
+              "readonly": true,
+              "required": true,
+              "default": false
+            },
+            "compatibility": {
+              "name": "compatibility",
+              "type": "string",
+              "enum": [
+                "none",
+                "backward",
+                "backward_transitive",
+                "forward",
+                "forward_transitive",
+                "full",
+                "full_transitive"
+              ],
+              "strict": false,
+              "required": true,
+              "default": "none"
+            },
+            "compatibilityauthority": {
+              "name": "compatibilityauthority",
+              "type": "string",
+              "enum": [
+                "external",
+                "server"
+              ],
+              "strict": false
+            },
+            "deprecated": {
+              "name": "deprecated",
+              "type": "object",
+              "attributes": {
+                "alternative": {
+                  "name": "alternative",
+                  "type": "url"
+                },
+                "docs": {
+                  "name": "docs",
+                  "type": "url"
+                },
+                "effective": {
+                  "name": "effective",
+                  "type": "timestamp"
+                },
+                "removal": {
+                  "name": "removal",
+                  "type": "timestamp"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any"
+                }
+              }
+            },
+            "validation": {
+              "name": "validation",
+              "type": "boolean",
+              "required": true,
+              "default": false
+            },
+            "defaultversionid": {
+              "name": "defaultversionid",
+              "type": "string",
+              "required": true
+            },
+            "defaultversionurl": {
+              "name": "defaultversionurl",
+              "type": "url",
+              "readonly": true,
+              "required": true
+            },
+            "defaultversionsticky": {
+              "name": "defaultversionsticky",
+              "type": "boolean",
+              "required": true,
+              "default": false
+            }
+          }
+        }
+      }
+    },
+    "mcpproviders": {
+      "plural": "mcpproviders",
+      "singular": "mcpprovider",
+      "description": "Registry of Model Context Protocol (MCP) servers and their capabilities, organized by provider.",
+      "attributes": {
+        "mcpproviderid": {
+          "name": "mcpproviderid",
+          "type": "string",
+          "immutable": true,
+          "required": true
+        },
+        "self": {
+          "name": "self",
+          "type": "url",
+          "readonly": true,
+          "immutable": true,
+          "required": true
+        },
+        "xid": {
+          "name": "xid",
+          "type": "xid",
+          "readonly": true,
+          "immutable": true,
+          "required": true
+        },
+        "epoch": {
+          "name": "epoch",
+          "type": "uinteger",
+          "readonly": true,
+          "required": true
+        },
+        "name": {
+          "name": "name",
+          "type": "string"
+        },
+        "description": {
+          "name": "description",
+          "type": "string"
+        },
+        "documentation": {
+          "name": "documentation",
+          "type": "url"
+        },
+        "labels": {
+          "name": "labels",
+          "type": "map",
+          "item": {
+            "type": "string"
+          }
+        },
+        "createdat": {
+          "name": "createdat",
+          "type": "timestamp",
+          "required": true
+        },
+        "modifiedat": {
+          "name": "modifiedat",
+          "type": "timestamp",
+          "required": true
+        },
+        "serversurl": {
+          "name": "serversurl",
+          "type": "url",
+          "readonly": true,
+          "immutable": true,
+          "required": true
+        },
+        "serverscount": {
+          "name": "serverscount",
+          "type": "uinteger",
+          "readonly": true,
+          "required": true
+        },
+        "servers": {
+          "name": "servers",
+          "type": "map",
+          "item": {
+            "type": "object",
+            "attributes": {
+              "*": {
+                "name": "*",
+                "type": "any"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "servers": {
+          "plural": "servers",
+          "singular": "server",
+          "maxversions": 0,
+          "setversionid": false,
+          "setdefaultversionsticky": false,
+          "hasdocument": false,
+          "singleversionroot": true,
+          "attributes": {
+            "serverid": {
+              "name": "serverid",
+              "type": "string",
+              "immutable": true,
+              "required": true
+            },
+            "versionid": {
+              "name": "versionid",
+              "type": "string",
+              "immutable": true,
+              "required": true
+            },
+            "self": {
+              "name": "self",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "xid": {
+              "name": "xid",
+              "type": "xid",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "epoch": {
+              "name": "epoch",
+              "type": "uinteger",
+              "readonly": true,
+              "required": true
+            },
+            "name": {
+              "name": "name",
+              "type": "string",
+              "description": "Human-readable name of the MCP server"
+            },
+            "isdefault": {
+              "name": "isdefault",
+              "type": "boolean",
+              "readonly": true,
+              "required": true,
+              "default": false
+            },
+            "description": {
+              "name": "description",
+              "type": "string"
+            },
+            "documentation": {
+              "name": "documentation",
+              "type": "url"
+            },
+            "labels": {
+              "name": "labels",
+              "type": "map",
+              "item": {
+                "type": "string"
+              }
+            },
+            "createdat": {
+              "name": "createdat",
+              "type": "timestamp",
+              "required": true
+            },
+            "modifiedat": {
+              "name": "modifiedat",
+              "type": "timestamp",
+              "required": true
+            },
+            "ancestor": {
+              "name": "ancestor",
+              "type": "string",
+              "required": true
+            },
+            "contenttype": {
+              "name": "contenttype",
+              "type": "string"
+            },
+            "id": {
+              "name": "id",
+              "type": "string",
+              "description": "Unique identifier for the MCP server"
+            },
+            "packages": {
+              "name": "packages",
+              "type": "array",
+              "description": "Available package distributions for installing and running the server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "environment_variables": {
+                    "name": "environment_variables",
+                    "type": "array",
+                    "description": "Environment variables required or used by the server",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this environment variable",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when environment variable is not set"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this environment variable"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the variable value"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean",
+                          "description": "Whether this environment variable can have multiple values"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this environment variable is mandatory"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this environment variable contains sensitive information"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string",
+                          "description": "Name of the environment variable"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this environment variable",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating environment variable values"
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string",
+                          "description": "Data type of the environment variable"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this environment variable"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string",
+                          "description": "Hint or example for what kind of value to provide"
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "map",
+                          "description": "Variable substitutions available for this environment variable",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional environment variable metadata"
+                        }
+                      }
+                    }
+                  },
+                  "name": {
+                    "name": "name",
+                    "type": "string",
+                    "description": "Package name within the registry"
+                  },
+                  "package_arguments": {
+                    "name": "package_arguments",
+                    "type": "array",
+                    "description": "Arguments specific to package installation or configuration",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this package argument",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when argument is not provided"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this package argument"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the argument value"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean",
+                          "description": "Whether this package argument can be specified multiple times"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this argument is mandatory for package installation"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this argument contains sensitive information"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string",
+                          "description": "Name or identifier for this package argument"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this package argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating package argument values"
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string",
+                          "description": "Data type of the package argument"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this package argument"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string",
+                          "description": "Hint or example for what kind of value to provide"
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "map",
+                          "description": "Variable substitutions available for this package argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional package argument metadata"
+                        }
+                      }
+                    }
+                  },
+                  "registry_name": {
+                    "name": "registry_name",
+                    "type": "string",
+                    "description": "Name of the package registry (e.g., npm, pypi, cargo)"
+                  },
+                  "runtime_arguments": {
+                    "name": "runtime_arguments",
+                    "type": "array",
+                    "description": "Command-line arguments required when executing the server runtime",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this argument",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when argument is not provided"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this argument"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the argument value"
+                        },
+                        "is_repeated": {
+                          "name": "is_repeated",
+                          "type": "boolean",
+                          "description": "Whether this argument can be specified multiple times"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this argument is mandatory for server execution"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this argument contains sensitive information"
+                        },
+                        "name": {
+                          "name": "name",
+                          "type": "string",
+                          "description": "Name or identifier for this argument"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating argument values"
+                        },
+                        "type": {
+                          "name": "type",
+                          "type": "string",
+                          "description": "Data type of the argument (string, number, boolean, etc.)"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this argument"
+                        },
+                        "value_hint": {
+                          "name": "value_hint",
+                          "type": "string",
+                          "description": "Hint or example for what kind of value to provide"
+                        },
+                        "variables": {
+                          "name": "variables",
+                          "type": "map",
+                          "description": "Variable substitutions available for this argument",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional argument metadata"
+                        }
+                      }
+                    }
+                  },
+                  "runtime_hint": {
+                    "name": "runtime_hint",
+                    "type": "string",
+                    "description": "Suggested runtime environment (e.g., node, python, cargo)"
+                  },
+                  "version": {
+                    "name": "version",
+                    "type": "string",
+                    "description": "Package version identifier"
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Additional package metadata"
+                  }
+                }
+              }
+            },
+            "prompts": {
+              "name": "prompts",
+              "type": "array",
+              "description": "Pre-defined prompt templates available through this server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Prompt definition attributes including name, description, and arguments"
+                  }
+                }
+              }
+            },
+            "remotes": {
+              "name": "remotes",
+              "type": "array",
+              "description": "Remote server endpoints that can be connected to via network protocols",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "headers": {
+                    "name": "headers",
+                    "type": "array",
+                    "description": "HTTP headers required for connecting to the remote server",
+                    "item": {
+                      "type": "object",
+                      "attributes": {
+                        "choices": {
+                          "name": "choices",
+                          "type": "array",
+                          "description": "List of valid values for this header",
+                          "item": {
+                            "type": "string"
+                          }
+                        },
+                        "default": {
+                          "name": "default",
+                          "type": "string",
+                          "description": "Default value used when header is not provided"
+                        },
+                        "description": {
+                          "name": "description",
+                          "type": "string",
+                          "description": "Human-readable description of this header"
+                        },
+                        "format": {
+                          "name": "format",
+                          "type": "string",
+                          "description": "Expected format or validation pattern for the header value"
+                        },
+                        "is_required": {
+                          "name": "is_required",
+                          "type": "boolean",
+                          "description": "Whether this header is mandatory for connection"
+                        },
+                        "is_secret": {
+                          "name": "is_secret",
+                          "type": "boolean",
+                          "description": "Whether this header contains sensitive information"
+                        },
+                        "properties": {
+                          "name": "properties",
+                          "type": "map",
+                          "description": "Additional properties or metadata for this header",
+                          "item": {
+                            "type": "any"
+                          }
+                        },
+                        "template": {
+                          "name": "template",
+                          "type": "string",
+                          "description": "Template string for generating header values"
+                        },
+                        "value": {
+                          "name": "value",
+                          "type": "string",
+                          "description": "Current or default value for this header"
+                        },
+                        "*": {
+                          "name": "*",
+                          "type": "any",
+                          "description": "Additional header metadata"
+                        }
+                      }
+                    }
+                  },
+                  "transport_type": {
+                    "name": "transport_type",
+                    "type": "string",
+                    "description": "Network transport protocol (e.g., http, websocket, tcp)"
+                  },
+                  "url": {
+                    "name": "url",
+                    "type": "string",
+                    "description": "URL endpoint for connecting to the remote server"
+                  },
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Additional remote server configuration"
+                  }
+                }
+              }
+            },
+            "repository": {
+              "name": "repository",
+              "type": "object",
+              "description": "Source code repository information for the MCP server",
+              "attributes": {
+                "id": {
+                  "name": "id",
+                  "type": "string",
+                  "description": "Repository identifier or path within the hosting platform"
+                },
+                "source": {
+                  "name": "source",
+                  "type": "string",
+                  "description": "Repository hosting platform (e.g., github, gitlab)"
+                },
+                "url": {
+                  "name": "url",
+                  "type": "string",
+                  "description": "URL of the source code repository"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any",
+                  "description": "Additional repository metadata"
+                }
+              }
+            },
+            "resources": {
+              "name": "resources",
+              "type": "array",
+              "description": "Resources that can be accessed through this MCP server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Resource definition attributes including URI, name, description, and mime type"
+                  }
+                }
+              }
+            },
+            "tools": {
+              "name": "tools",
+              "type": "array",
+              "description": "Tools and functions exposed by this MCP server",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any",
+                    "description": "Tool definition attributes including name, description, input schema, and output schema"
+                  }
+                }
+              }
+            },
+            "version_detail": {
+              "name": "version_detail",
+              "type": "object",
+              "description": "Version information for the current server release",
+              "attributes": {
+                "is_latest": {
+                  "name": "is_latest",
+                  "type": "boolean",
+                  "description": "Whether this is the latest available version"
+                },
+                "release_date": {
+                  "name": "release_date",
+                  "type": "string",
+                  "description": "ISO 8601 date when this version was released"
+                },
+                "version": {
+                  "name": "version",
+                  "type": "string",
+                  "description": "Semantic version number of the server"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any",
+                  "description": "Additional version metadata"
+                }
+              }
+            },
+            "*": {
+              "name": "*",
+              "type": "any",
+              "description": "Additional server metadata and custom attributes"
+            },
+            "metaurl": {
+              "name": "metaurl",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "meta": {
+              "name": "meta",
+              "type": "object",
+              "attributes": {
+                "*": {
+                  "name": "*",
+                  "type": "any"
+                }
+              }
+            },
+            "versionsurl": {
+              "name": "versionsurl",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "versionscount": {
+              "name": "versionscount",
+              "type": "uinteger",
+              "readonly": true,
+              "required": true
+            },
+            "versions": {
+              "name": "versions",
+              "type": "map",
+              "item": {
+                "type": "object",
+                "attributes": {
+                  "*": {
+                    "name": "*",
+                    "type": "any"
+                  }
+                }
+              }
+            }
+          },
+          "metaattributes": {
+            "serverid": {
+              "name": "serverid",
+              "type": "string",
+              "immutable": true,
+              "required": true
+            },
+            "self": {
+              "name": "self",
+              "type": "url",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "xid": {
+              "name": "xid",
+              "type": "xid",
+              "readonly": true,
+              "immutable": true,
+              "required": true
+            },
+            "xref": {
+              "name": "xref",
+              "type": "url"
+            },
+            "epoch": {
+              "name": "epoch",
+              "type": "uinteger",
+              "readonly": true,
+              "required": true
+            },
+            "createdat": {
+              "name": "createdat",
+              "type": "timestamp",
+              "required": true
+            },
+            "modifiedat": {
+              "name": "modifiedat",
+              "type": "timestamp",
+              "required": true
+            },
+            "readonly": {
+              "name": "readonly",
+              "type": "boolean",
+              "readonly": true,
+              "required": true,
+              "default": false
+            },
+            "compatibility": {
+              "name": "compatibility",
+              "type": "string",
+              "enum": [
+                "none",
+                "backward",
+                "backward_transitive",
+                "forward",
+                "forward_transitive",
+                "full",
+                "full_transitive"
+              ],
+              "strict": false,
+              "required": true,
+              "default": "none"
+            },
+            "compatibilityauthority": {
+              "name": "compatibilityauthority",
+              "type": "string",
+              "enum": [
+                "external",
+                "server"
+              ],
+              "strict": false
+            },
+            "deprecated": {
+              "name": "deprecated",
+              "type": "object",
+              "attributes": {
+                "alternative": {
+                  "name": "alternative",
+                  "type": "url"
+                },
+                "docs": {
+                  "name": "docs",
+                  "type": "url"
+                },
+                "effective": {
+                  "name": "effective",
+                  "type": "timestamp"
+                },
+                "removal": {
+                  "name": "removal",
+                  "type": "timestamp"
+                },
+                "*": {
+                  "name": "*",
+                  "type": "any"
+                }
+              }
+            },
+            "defaultversionid": {
+              "name": "defaultversionid",
+              "type": "string",
+              "required": true
+            },
+            "defaultversionurl": {
+              "name": "defaultversionurl",
+              "type": "url",
+              "readonly": true,
+              "required": true
+            },
+            "defaultversionsticky": {
+              "name": "defaultversionsticky",
+              "type": "boolean",
+              "required": true,
+              "default": false
+            }
+          }
+        }
+      }
     }
   }
 }

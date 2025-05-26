@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:49.141552465Z",
+  "createdat": "2025-05-26T13:00:13.269153309Z",
   "description": "MCP Server implementation for Ableton Live OSC control",
   "epoch": 1,
   "id": "60b95692-579f-4de4-8095-1efdca5d8591",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/meta",
-  "modifiedat": "2025-05-26T10:35:49.141552465Z",
+  "modifiedat": "2025-05-26T13:00:13.269153309Z",
   "name": "io.github.simon-kansara/ableton-live-mcp-server",
   "packages": [
     {

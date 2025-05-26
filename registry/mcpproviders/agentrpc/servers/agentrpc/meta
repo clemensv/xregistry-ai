@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:04.686232468Z",
+  "createdat": "2025-05-26T12:59:15.261929755Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agentrpc/servers/agentrpc/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:04.686232468Z",
+  "modifiedat": "2025-05-26T12:59:15.261929755Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agentrpc/servers/agentrpc/meta",
   "serverid": "agentrpc",

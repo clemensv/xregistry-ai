@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:23.343810806Z",
+  "createdat": "2025-05-26T12:59:46.848596405Z",
   "description": "Codacy's MCP Server implementation",
   "epoch": 1,
   "id": "c746fe90-e3f6-4328-82c1-aeef49a2b6d9",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/codacy/servers/codacy-mcp-server/meta",
-  "modifiedat": "2025-05-26T10:34:23.343810806Z",
+  "modifiedat": "2025-05-26T12:59:46.848596405Z",
   "name": "io.github.codacy/codacy-mcp-server",
   "packages": [
     {

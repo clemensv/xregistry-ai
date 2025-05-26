@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:34.931149942Z",
+  "createdat": "2025-05-26T12:59:28.572115066Z",
   "description": "Enable AI Agents to Control Unity",
   "epoch": 1,
   "id": "162d7f33-0f96-47d7-980b-361fb0ddc381",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/quazaai/servers/UnityMCPIntegration/meta",
-  "modifiedat": "2025-05-26T10:35:34.931149942Z",
+  "modifiedat": "2025-05-26T12:59:28.572115066Z",
   "name": "io.github.quazaai/unitymcpintegration",
   "packages": [
     {

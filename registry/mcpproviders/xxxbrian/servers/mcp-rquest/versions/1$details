@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:36:19.101858778Z",
+  "createdat": "2025-05-26T13:00:06.811369917Z",
   "description": "A MCP server providing realistic browser-like HTTP request capabilities with accurate TLS/JA3/JA4 fingerprints for bypassing anti-bot measures. It also supports converting PDF and HTML documents to Markdown for easier processing by LLMs.",
   "epoch": 1,
   "id": "0c43f128-7589-4ce6-9382-5399ba24bebd",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:36:19.101858778Z",
+  "modifiedat": "2025-05-26T13:00:06.811369917Z",
   "name": "io.github.xxxbrian/mcp-rquest",
   "packages": [
     {

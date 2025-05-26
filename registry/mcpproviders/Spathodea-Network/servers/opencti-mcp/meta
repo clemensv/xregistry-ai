@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:35:54.123945479Z",
+  "createdat": "2025-05-26T12:59:22.301421481Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:35:54.123945479Z",
+  "modifiedat": "2025-05-26T12:59:22.301421481Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/meta",
   "serverid": "opencti-mcp",

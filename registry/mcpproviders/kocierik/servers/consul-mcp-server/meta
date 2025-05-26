@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:59.743187943Z",
+  "createdat": "2025-05-26T12:59:22.550648898Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/consul-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:59.743187943Z",
+  "modifiedat": "2025-05-26T12:59:22.550648898Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/consul-mcp-server/meta",
   "serverid": "consul-mcp-server",

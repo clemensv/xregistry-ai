@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:16.418523965Z",
+  "createdat": "2025-05-26T12:59:20.906505214Z",
   "description": "MCP Server for whois lookups.",
   "epoch": 1,
   "id": "5f5a497c-673d-4988-b86b-c3bcaaf1a317",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:16.418523965Z",
+  "modifiedat": "2025-05-26T12:59:20.906505214Z",
   "name": "io.github.bharathvaj-ganesan/whois-mcp",
   "packages": [
     {

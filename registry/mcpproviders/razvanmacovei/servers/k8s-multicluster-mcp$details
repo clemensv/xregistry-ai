@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:39.057858513Z",
+  "createdat": "2025-05-26T12:59:19.993121377Z",
   "description": "An MCP (Model Context Protocol) server application for Kubernetes operations, providing a standardized API to interact with multiple Kubernetes clusters simultaneously using multiple kubeconfig files.",
   "epoch": 1,
   "id": "87c3876b-995b-4838-901b-062cdfb884c7",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/razvanmacovei/servers/k8s-multicluster-mcp/meta",
-  "modifiedat": "2025-05-26T10:35:39.057858513Z",
+  "modifiedat": "2025-05-26T12:59:19.993121377Z",
   "name": "io.github.razvanmacovei/k8s-multicluster-mcp",
   "packages": [
     {

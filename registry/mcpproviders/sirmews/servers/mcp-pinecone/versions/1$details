@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:50.332332594Z",
+  "createdat": "2025-05-26T12:59:24.927307699Z",
   "description": "Model Context Protocol server to allow for reading and writing from Pinecone. Rudimentary RAG",
   "epoch": 1,
   "id": "23b81af0-3e03-47b8-a310-c9b07bebd547",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:35:50.332332594Z",
+  "modifiedat": "2025-05-26T12:59:24.927307699Z",
   "name": "io.github.sirmews/mcp-pinecone",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:24.538923485Z",
+  "createdat": "2025-05-26T12:59:49.14706486Z",
   "description": "Model Context Protocol (MCP) implementation for Opik enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics. ",
   "epoch": 1,
   "id": "61b3cbd8-8eee-4bef-a0ef-5fcaf6449201",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:24.538923485Z",
+  "modifiedat": "2025-05-26T12:59:49.14706486Z",
   "name": "io.github.comet-ml/opik-mcp",
   "packages": [
     {

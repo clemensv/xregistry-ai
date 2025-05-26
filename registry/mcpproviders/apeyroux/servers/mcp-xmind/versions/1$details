@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:09.430079257Z",
+  "createdat": "2025-05-26T13:00:31.135341147Z",
   "description": "",
   "epoch": 1,
   "id": "cd63d589-6f0e-4d2d-8c9c-b6857f48cc62",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:09.430079257Z",
+  "modifiedat": "2025-05-26T13:00:31.135341147Z",
   "name": "io.github.apeyroux/mcp-xmind",
   "packages": [
     {

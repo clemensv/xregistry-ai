@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:54.895922934Z",
+  "createdat": "2025-05-26T13:00:25.734494541Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jifrozen0110/servers/mcp-riot/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:54.895922934Z",
+  "modifiedat": "2025-05-26T13:00:25.734494541Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jifrozen0110/servers/mcp-riot/meta",
   "serverid": "mcp-riot",

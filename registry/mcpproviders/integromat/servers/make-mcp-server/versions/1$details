@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:50.849194527Z",
+  "createdat": "2025-05-26T12:59:47.655004142Z",
   "description": "Make MCP Server",
   "epoch": 1,
   "id": "f4fca7d7-fbab-4174-ba76-1396c3451cf1",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:50.849194527Z",
+  "modifiedat": "2025-05-26T12:59:47.655004142Z",
   "name": "io.github.integromat/make-mcp-server",
   "packages": [
     {

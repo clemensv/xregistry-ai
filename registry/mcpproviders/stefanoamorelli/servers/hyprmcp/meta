@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:35:56.186690597Z",
+  "createdat": "2025-05-26T12:59:30.895155642Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/hyprmcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:35:56.186690597Z",
+  "modifiedat": "2025-05-26T12:59:30.895155642Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/hyprmcp/meta",
   "serverid": "hyprmcp",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:25.048668131Z",
+  "createdat": "2025-05-26T12:59:18.875504298Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/couchbase-ecosystem/servers/mcp-server-couchbase/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:25.048668131Z",
+  "modifiedat": "2025-05-26T12:59:18.875504298Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/couchbase-ecosystem/servers/mcp-server-couchbase/meta",
   "serverid": "mcp-server-couchbase",

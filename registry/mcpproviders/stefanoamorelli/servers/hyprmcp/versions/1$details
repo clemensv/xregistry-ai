@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:56.186690597Z",
+  "createdat": "2025-05-26T12:59:30.895155642Z",
   "description": "Community MCP server for hyprctl",
   "epoch": 1,
   "id": "b51467a7-698f-4a33-9598-db5aaf4e07b3",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:35:56.186690597Z",
+  "modifiedat": "2025-05-26T12:59:30.895155642Z",
   "name": "io.github.stefanoamorelli/hyprmcp",
   "packages": [
     {

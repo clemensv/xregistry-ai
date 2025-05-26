@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:35:05.207228662Z",
+  "createdat": "2025-05-26T12:59:20.075627114Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lciesielski/servers/mcp-salesforce-example/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:35:05.207228662Z",
+  "modifiedat": "2025-05-26T12:59:20.075627114Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lciesielski/servers/mcp-salesforce-example/meta",
   "serverid": "mcp-salesforce-example",

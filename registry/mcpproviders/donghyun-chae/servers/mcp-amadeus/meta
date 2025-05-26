@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:30.346979385Z",
+  "createdat": "2025-05-26T12:59:43.751948149Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/donghyun-chae/servers/mcp-amadeus/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:30.346979385Z",
+  "modifiedat": "2025-05-26T12:59:43.751948149Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/donghyun-chae/servers/mcp-amadeus/meta",
   "serverid": "mcp-amadeus",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:24.080046634Z",
+  "createdat": "2025-05-26T12:59:57.941282884Z",
   "description": "MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.",
   "epoch": 1,
   "id": "8663db3e-ad80-4805-8032-11a3f303b5fc",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:24.080046634Z",
+  "modifiedat": "2025-05-26T12:59:57.941282884Z",
   "name": "io.github.coding-solo/godot-mcp",
   "packages": [
     {

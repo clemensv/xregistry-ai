@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:49.106771563Z",
+  "createdat": "2025-05-26T13:00:30.637599568Z",
   "description": "This a simple implementation of an MCP server using iFlytek. It enables calling iFlytek workflows through MCP tools.",
   "epoch": 1,
   "id": "6a9b532e-61df-4d4d-a898-25d66aa60315",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:49.106771563Z",
+  "modifiedat": "2025-05-26T13:00:30.637599568Z",
   "name": "io.github.iflytek/ifly-workflow-mcp-server",
   "packages": [
     {

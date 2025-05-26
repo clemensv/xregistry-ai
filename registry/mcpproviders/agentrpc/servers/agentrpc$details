@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:04.686232468Z",
+  "createdat": "2025-05-26T12:59:15.261929755Z",
   "description": "A universal RPC layer for AI agents. Connect to any function, any language, any framework, in minutes.",
   "epoch": 1,
   "id": "c296f683-5578-474a-bbef-00cfc2716fbc",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agentrpc/servers/agentrpc/meta",
-  "modifiedat": "2025-05-26T10:34:04.686232468Z",
+  "modifiedat": "2025-05-26T12:59:15.261929755Z",
   "name": "io.github.agentrpc/agentrpc",
   "packages": [
     {

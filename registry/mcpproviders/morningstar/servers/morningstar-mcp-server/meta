@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:35:19.233753515Z",
+  "createdat": "2025-05-26T12:59:38.605601771Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/morningstar/servers/morningstar-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:35:19.233753515Z",
+  "modifiedat": "2025-05-26T12:59:38.605601771Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/morningstar/servers/morningstar-mcp-server/meta",
   "serverid": "morningstar-mcp-server",

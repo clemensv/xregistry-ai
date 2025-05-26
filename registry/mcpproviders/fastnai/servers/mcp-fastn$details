@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:34.319518612Z",
+  "createdat": "2025-05-26T13:00:27.388949771Z",
   "description": "",
   "epoch": 1,
   "id": "3d7c6822-88bd-4569-a099-1e58b9b365b0",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/fastnai/servers/mcp-fastn/meta",
-  "modifiedat": "2025-05-26T10:34:34.319518612Z",
+  "modifiedat": "2025-05-26T13:00:27.388949771Z",
   "name": "io.github.fastnai/mcp-fastn",
   "packages": [
     {

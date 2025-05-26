@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:18.553036981Z",
+  "createdat": "2025-05-26T13:00:32.002418297Z",
   "description": "A model context protocol server for Momento",
   "epoch": 1,
   "id": "b99e5603-6346-4b2c-bae8-876c9b71e18b",
   "isdefault": true,
   "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/momentohq/servers/mcp-momento/meta",
-  "modifiedat": "2025-05-26T10:35:18.553036981Z",
+  "modifiedat": "2025-05-26T13:00:32.002418297Z",
   "name": "io.github.momentohq/mcp-momento",
   "packages": [
     {

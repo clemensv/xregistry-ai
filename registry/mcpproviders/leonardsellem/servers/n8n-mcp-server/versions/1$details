@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:35:06.198160826Z",
+  "createdat": "2025-05-26T12:59:28.080104098Z",
   "description": "MCP server that provides tools and resources for interacting with n8n API",
   "epoch": 1,
   "id": "309e2634-8163-47c9-951e-1cfec85e701b",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:35:06.198160826Z",
+  "modifiedat": "2025-05-26T12:59:28.080104098Z",
   "name": "io.github.leonardsellem/n8n-mcp-server",
   "packages": [
     {

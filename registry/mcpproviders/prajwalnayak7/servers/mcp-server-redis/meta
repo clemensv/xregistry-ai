@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:35:30.369361407Z",
+  "createdat": "2025-05-26T12:59:26.991798662Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/prajwalnayak7/servers/mcp-server-redis/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:35:30.369361407Z",
+  "modifiedat": "2025-05-26T12:59:26.991798662Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/prajwalnayak7/servers/mcp-server-redis/meta",
   "serverid": "mcp-server-redis",

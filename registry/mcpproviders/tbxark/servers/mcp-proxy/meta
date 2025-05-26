@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:36:03.229887702Z",
+  "createdat": "2025-05-26T12:59:49.847220447Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tbxark/servers/mcp-proxy/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:36:03.229887702Z",
+  "modifiedat": "2025-05-26T12:59:49.847220447Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tbxark/servers/mcp-proxy/meta",
   "serverid": "mcp-proxy",

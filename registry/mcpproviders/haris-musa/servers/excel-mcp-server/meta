@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T10:34:45.772908267Z",
+  "createdat": "2025-05-26T12:59:35.178544644Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/haris-musa/servers/excel-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T10:34:45.772908267Z",
+  "modifiedat": "2025-05-26T12:59:35.178544644Z",
   "readonly": false,
   "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/haris-musa/servers/excel-mcp-server/meta",
   "serverid": "excel-mcp-server",

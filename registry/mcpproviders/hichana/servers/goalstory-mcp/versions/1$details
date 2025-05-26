@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T10:34:46.84188312Z",
+  "createdat": "2025-05-26T12:59:20.698266693Z",
   "description": "",
   "epoch": 1,
   "id": "21242e10-3373-40a3-9119-e4d075b7c27e",
   "isdefault": true,
-  "modifiedat": "2025-05-26T10:34:46.84188312Z",
+  "modifiedat": "2025-05-26T12:59:20.698266693Z",
   "name": "io.github.hichana/goalstory-mcp",
   "packages": [
     {
