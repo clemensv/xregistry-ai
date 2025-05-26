@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:30.408894381Z",
+  "createdat": "2025-05-26T16:41:52.756911866Z",
   "description": "A Model Context Protocol server implementation for operations on AWS resources",
   "epoch": 1,
   "id": "e9799403-3917-4c38-9638-c69aebf1ac08",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/rishikavikondala/servers/mcp-server-aws/meta",
-  "modifiedat": "2025-05-26T16:39:30.408894381Z",
+  "modifiedat": "2025-05-26T16:41:52.756911866Z",
   "name": "io.github.rishikavikondala/mcp-server-aws",
   "packages": [
     {

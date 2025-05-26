@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:12.465302226Z",
+  "createdat": "2025-05-26T16:42:34.823640537Z",
   "description": "MCP server for understanding AWS spend",
   "epoch": 1,
   "id": "9ddac40e-d776-4232-a00f-7e698eb2dca8",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:40:12.465302226Z",
+  "modifiedat": "2025-05-26T16:42:34.823640537Z",
   "name": "io.github.aarora79/aws-cost-explorer-mcp-server",
   "packages": [
     {

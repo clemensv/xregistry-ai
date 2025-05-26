@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:34.365166183Z",
+  "createdat": "2025-05-26T16:41:56.768407043Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/v-3/servers/notion-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:34.365166183Z",
+  "modifiedat": "2025-05-26T16:41:56.768407043Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/v-3/servers/notion-server/meta",
   "serverid": "notion-server",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:55.258704397Z",
+  "createdat": "2025-05-26T16:42:17.733228818Z",
   "description": "A mcp server for tracking cryptocurrency whale transactions.",
   "epoch": 1,
   "id": "e69c8abd-6964-48b1-a7cb-89c926932c47",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/whale-tracker-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:55.258704397Z",
+  "modifiedat": "2025-05-26T16:42:17.733228818Z",
   "name": "io.github.kukapay/whale-tracker-mcp",
   "packages": [
     {

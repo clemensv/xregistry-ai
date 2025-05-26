@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:18.952012383Z",
+  "createdat": "2025-05-26T16:41:41.280821528Z",
   "description": "",
   "epoch": 1,
   "id": "add3f73d-394b-4b99-b255-8d9d89db84c2",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:39:18.952012383Z",
+  "modifiedat": "2025-05-26T16:41:41.280821528Z",
   "name": "io.github.rishabkoul/iterm-mcp-server",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:04.193038229Z",
+  "createdat": "2025-05-26T16:42:26.602159408Z",
   "description": "A Desktop Chat App that leverages MCP(Model Context Protocol) to interface with other LLMs.",
   "epoch": 1,
   "id": "16fc441d-0d72-4b14-afd7-d5c9dd25c909",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/AI-QL/servers/chat-mcp/meta",
-  "modifiedat": "2025-05-26T16:40:04.193038229Z",
+  "modifiedat": "2025-05-26T16:42:26.602159408Z",
   "name": "io.github.ai-ql/chat-mcp",
   "packages": [
     {

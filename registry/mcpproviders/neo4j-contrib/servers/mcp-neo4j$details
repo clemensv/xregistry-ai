@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:08.731263816Z",
+  "createdat": "2025-05-26T16:41:31.213151876Z",
   "description": "Model Context Protocol with Neo4j",
   "epoch": 1,
   "id": "ee33c4cb-5bdf-45c0-88a8-ba2d237189f9",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/neo4j-contrib/servers/mcp-neo4j/meta",
-  "modifiedat": "2025-05-26T16:39:08.731263816Z",
+  "modifiedat": "2025-05-26T16:41:31.213151876Z",
   "name": "io.github.neo4j-contrib/mcp-neo4j",
   "packages": [
     {

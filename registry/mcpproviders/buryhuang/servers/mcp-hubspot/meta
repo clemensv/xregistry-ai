@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:40:02.811096857Z",
+  "createdat": "2025-05-26T16:42:25.24401044Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/buryhuang/servers/mcp-hubspot/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:40:02.811096857Z",
+  "modifiedat": "2025-05-26T16:42:25.24401044Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/buryhuang/servers/mcp-hubspot/meta",
   "serverid": "mcp-hubspot",

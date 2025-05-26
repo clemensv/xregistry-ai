@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:50.214911518Z",
+  "createdat": "2025-05-26T16:42:12.696412933Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ubie-oss/servers/mcp-vertexai-search/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:50.214911518Z",
+  "modifiedat": "2025-05-26T16:42:12.696412933Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ubie-oss/servers/mcp-vertexai-search/meta",
   "serverid": "mcp-vertexai-search",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:01.97528121Z",
+  "createdat": "2025-05-26T16:42:24.415177983Z",
   "description": "Axiom Model Context Protocol Server",
   "epoch": 1,
   "id": "ac19206d-f465-4c38-b62f-23635837b239",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/axiomhq/servers/mcp-server-axiom/meta",
-  "modifiedat": "2025-05-26T16:40:01.97528121Z",
+  "modifiedat": "2025-05-26T16:42:24.415177983Z",
   "name": "io.github.axiomhq/mcp-server-axiom",
   "packages": [
     {

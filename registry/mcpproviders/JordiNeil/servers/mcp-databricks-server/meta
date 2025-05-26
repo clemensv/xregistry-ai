@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:08.385417304Z",
+  "createdat": "2025-05-26T16:41:30.875188554Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/JordiNeil/servers/mcp-databricks-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:08.385417304Z",
+  "modifiedat": "2025-05-26T16:41:30.875188554Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/JordiNeil/servers/mcp-databricks-server/meta",
   "serverid": "mcp-databricks-server",

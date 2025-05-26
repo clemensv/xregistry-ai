@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:49.017255462Z",
+  "createdat": "2025-05-26T16:42:11.472610086Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/szeider/servers/mcp-dblp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:49.017255462Z",
+  "modifiedat": "2025-05-26T16:42:11.472610086Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/szeider/servers/mcp-dblp/meta",
   "serverid": "mcp-dblp",

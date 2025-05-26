@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:07.64557203Z",
+  "createdat": "2025-05-26T16:41:30.145869192Z",
   "description": "",
   "epoch": 1,
   "id": "d5076249-cb9d-4c5e-ae2e-544779ec1a04",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:07.64557203Z",
+  "modifiedat": "2025-05-26T16:41:30.145869192Z",
   "name": "io.github.adenot/mcp-google-search",
   "packages": [
     {

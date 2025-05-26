@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:04.750936787Z",
+  "createdat": "2025-05-26T16:41:27.302661178Z",
   "description": "",
   "epoch": 1,
   "id": "c01d9a66-7a37-4f66-870d-38829c0047ea",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:04.750936787Z",
+  "modifiedat": "2025-05-26T16:41:27.302661178Z",
   "name": "io.github.spathodea-network/opencti-mcp",
   "packages": [
     {

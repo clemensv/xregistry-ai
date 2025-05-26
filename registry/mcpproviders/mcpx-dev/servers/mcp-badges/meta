@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:48.484630771Z",
+  "createdat": "2025-05-26T16:42:10.929891873Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mcpx-dev/servers/mcp-badges/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:48.484630771Z",
+  "modifiedat": "2025-05-26T16:42:10.929891873Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/mcpx-dev/servers/mcp-badges/meta",
   "serverid": "mcp-badges",

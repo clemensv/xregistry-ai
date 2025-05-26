@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:04.913982847Z",
+  "createdat": "2025-05-26T16:41:27.465255039Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kocierik/servers/mcp-nomad/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:04.913982847Z",
+  "modifiedat": "2025-05-26T16:41:27.465255039Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kocierik/servers/mcp-nomad/meta",
   "serverid": "mcp-nomad",

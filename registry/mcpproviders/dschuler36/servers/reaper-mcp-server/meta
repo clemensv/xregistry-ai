@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:25.922598207Z",
+  "createdat": "2025-05-26T16:41:48.477878592Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/dschuler36/servers/reaper-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:25.922598207Z",
+  "modifiedat": "2025-05-26T16:41:48.477878592Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/dschuler36/servers/reaper-mcp-server/meta",
   "serverid": "reaper-mcp-server",

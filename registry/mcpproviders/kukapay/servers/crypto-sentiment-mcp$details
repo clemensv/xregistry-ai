@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:55.386124202Z",
+  "createdat": "2025-05-26T16:42:17.858516975Z",
   "description": "An MCP server that delivers cryptocurrency sentiment analysis to AI agents.",
   "epoch": 1,
   "id": "bb7a2190-2e72-4ccf-9603-226e0fde174c",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-sentiment-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:55.386124202Z",
+  "modifiedat": "2025-05-26T16:42:17.858516975Z",
   "name": "io.github.kukapay/crypto-sentiment-mcp",
   "packages": [
     {

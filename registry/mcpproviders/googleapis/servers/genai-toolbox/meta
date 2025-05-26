@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:40:10.336281042Z",
+  "createdat": "2025-05-26T16:42:32.730633956Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/googleapis/servers/genai-toolbox/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:40:10.336281042Z",
+  "modifiedat": "2025-05-26T16:42:32.730633956Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/googleapis/servers/genai-toolbox/meta",
   "serverid": "genai-toolbox",

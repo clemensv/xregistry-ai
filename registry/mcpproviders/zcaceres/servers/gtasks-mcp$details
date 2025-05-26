@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:09.950639064Z",
+  "createdat": "2025-05-26T16:41:32.415768652Z",
   "description": "A Google Tasks Model Context Protocol Server for Claude",
   "epoch": 1,
   "id": "5486801a-8243-44ae-8d59-2e9a02c13a8e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/gtasks-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:09.950639064Z",
+  "modifiedat": "2025-05-26T16:41:32.415768652Z",
   "name": "io.github.zcaceres/gtasks-mcp",
   "packages": [
     {

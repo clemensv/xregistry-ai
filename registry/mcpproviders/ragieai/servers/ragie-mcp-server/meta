@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:40:01.280538975Z",
+  "createdat": "2025-05-26T16:42:23.720543687Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ragieai/servers/ragie-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:40:01.280538975Z",
+  "modifiedat": "2025-05-26T16:42:23.720543687Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ragieai/servers/ragie-mcp-server/meta",
   "serverid": "ragie-mcp-server",

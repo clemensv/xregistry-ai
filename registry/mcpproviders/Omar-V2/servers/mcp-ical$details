@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:49.32383523Z",
+  "createdat": "2025-05-26T16:42:11.781457652Z",
   "description": "A Model Context Protocol Server that allows you to interact with your MacOS Calendar through natural language.",
   "epoch": 1,
   "id": "0d7bc864-fdf3-4afd-8b44-48468b12d550",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/Omar-V2/servers/mcp-ical/meta",
-  "modifiedat": "2025-05-26T16:39:49.32383523Z",
+  "modifiedat": "2025-05-26T16:42:11.781457652Z",
   "name": "io.github.omar-v2/mcp-ical",
   "packages": [
     {

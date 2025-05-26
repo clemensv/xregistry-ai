@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:11.921152813Z",
+  "createdat": "2025-05-26T16:41:34.368185189Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/samuelgursky/servers/davinci-resolve-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:11.921152813Z",
+  "modifiedat": "2025-05-26T16:41:34.368185189Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/samuelgursky/servers/davinci-resolve-mcp/meta",
   "serverid": "davinci-resolve-mcp",

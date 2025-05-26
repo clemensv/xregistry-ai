@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:47.890599074Z",
+  "createdat": "2025-05-26T16:42:10.332585336Z",
   "description": "",
   "epoch": 1,
   "id": "c859bceb-143a-43dc-84e6-8ad8f707fcb0",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/chuckbryan/servers/ynabmcpserver/meta",
-  "modifiedat": "2025-05-26T16:39:47.890599074Z",
+  "modifiedat": "2025-05-26T16:42:10.332585336Z",
   "name": "io.github.chuckbryan/ynabmcpserver",
   "packages": [
     {

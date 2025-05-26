@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:56.532782717Z",
+  "createdat": "2025-05-26T16:42:18.979763929Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/heurist-network/servers/heurist-agent-framework/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:56.532782717Z",
+  "modifiedat": "2025-05-26T16:42:18.979763929Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/heurist-network/servers/heurist-agent-framework/meta",
   "serverid": "heurist-agent-framework",

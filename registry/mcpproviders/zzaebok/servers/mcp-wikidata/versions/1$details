@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:03.727770843Z",
+  "createdat": "2025-05-26T16:42:26.144018512Z",
   "description": "A server implementation for Wikidata API using the Model Context Protocol (MCP).",
   "epoch": 1,
   "id": "02b79b89-cce8-4401-aa1f-255b01587266",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:40:03.727770843Z",
+  "modifiedat": "2025-05-26T16:42:26.144018512Z",
   "name": "io.github.zzaebok/mcp-wikidata",
   "packages": [
     {

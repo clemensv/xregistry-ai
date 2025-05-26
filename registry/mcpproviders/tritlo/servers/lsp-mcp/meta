@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:15.493840083Z",
+  "createdat": "2025-05-26T16:41:37.888460293Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/tritlo/servers/lsp-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:15.493840083Z",
+  "modifiedat": "2025-05-26T16:41:37.888460293Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/tritlo/servers/lsp-mcp/meta",
   "serverid": "lsp-mcp",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:12.562336583Z",
+  "createdat": "2025-05-26T16:41:34.998600256Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/Vortiago/servers/mcp-outline/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:12.562336583Z",
+  "modifiedat": "2025-05-26T16:41:34.998600256Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/Vortiago/servers/mcp-outline/meta",
   "serverid": "mcp-outline",

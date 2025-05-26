@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:13.507652008Z",
+  "createdat": "2025-05-26T16:41:35.923166734Z",
   "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
   "epoch": 1,
   "id": "afd9f984-ea69-4a8c-86ac-fdb58f3ab37c",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/elie222/servers/inbox-zero/meta",
-  "modifiedat": "2025-05-26T16:39:13.507652008Z",
+  "modifiedat": "2025-05-26T16:41:35.923166734Z",
   "name": "io.github.elie222/inbox-zero",
   "packages": [
     {

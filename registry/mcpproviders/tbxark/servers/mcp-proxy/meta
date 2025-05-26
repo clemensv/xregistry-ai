@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:33.018939826Z",
+  "createdat": "2025-05-26T16:41:55.432428098Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/tbxark/servers/mcp-proxy/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:33.018939826Z",
+  "modifiedat": "2025-05-26T16:41:55.432428098Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/tbxark/servers/mcp-proxy/meta",
   "serverid": "mcp-proxy",

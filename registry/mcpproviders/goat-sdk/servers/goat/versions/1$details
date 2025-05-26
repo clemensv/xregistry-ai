@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:01.823000883Z",
+  "createdat": "2025-05-26T16:41:24.522258487Z",
   "description": "The leading agentic finance toolkit for AI agents",
   "epoch": 1,
   "id": "6e61849a-2312-4c76-a9d0-0a4b84a7795e",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:01.823000883Z",
+  "modifiedat": "2025-05-26T16:41:24.522258487Z",
   "name": "io.github.goat-sdk/goat",
   "packages": [
     {

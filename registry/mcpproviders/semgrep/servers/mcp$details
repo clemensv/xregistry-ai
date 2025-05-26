@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:17.947007572Z",
+  "createdat": "2025-05-26T16:41:40.305480523Z",
   "description": "A MCP server for using Semgrep to scan code for security vulnerabilities.",
   "epoch": 1,
   "id": "d012ea8c-2f32-43e4-9583-7418d750193e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/semgrep/servers/mcp/meta",
-  "modifiedat": "2025-05-26T16:39:17.947007572Z",
+  "modifiedat": "2025-05-26T16:41:40.305480523Z",
   "name": "io.github.semgrep/mcp",
   "packages": [
     {

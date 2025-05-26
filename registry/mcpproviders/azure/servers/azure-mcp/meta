@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:57.061760617Z",
+  "createdat": "2025-05-26T16:42:19.517987985Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/azure/servers/azure-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:57.061760617Z",
+  "modifiedat": "2025-05-26T16:42:19.517987985Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/azure/servers/azure-mcp/meta",
   "serverid": "azure-mcp",

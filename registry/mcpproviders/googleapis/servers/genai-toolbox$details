@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:10.336281042Z",
+  "createdat": "2025-05-26T16:42:32.730633956Z",
   "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
   "epoch": 1,
   "id": "09f19715-3a0c-4900-932b-1ff0035aff11",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/googleapis/servers/genai-toolbox/meta",
-  "modifiedat": "2025-05-26T16:40:10.336281042Z",
+  "modifiedat": "2025-05-26T16:42:32.730633956Z",
   "name": "io.github.googleapis/genai-toolbox",
   "packages": [
     {

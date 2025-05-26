@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:39.630307614Z",
+  "createdat": "2025-05-26T16:42:02.025983024Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/grafana/servers/mcp-grafana/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:39.630307614Z",
+  "modifiedat": "2025-05-26T16:42:02.025983024Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/grafana/servers/mcp-grafana/meta",
   "serverid": "mcp-grafana",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:09.75120151Z",
+  "createdat": "2025-05-26T16:41:32.218115268Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/mcp-markdownify-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:09.75120151Z",
+  "modifiedat": "2025-05-26T16:41:32.218115268Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/mcp-markdownify-server/meta",
   "serverid": "mcp-markdownify-server",

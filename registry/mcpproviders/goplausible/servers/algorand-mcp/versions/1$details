@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:21.522512771Z",
+  "createdat": "2025-05-26T16:41:43.866744578Z",
   "description": "Algorand Model Context Protocol (Server \u0026 Client)",
   "epoch": 1,
   "id": "4813a35a-7d43-42fa-999d-86e68b2aca1a",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:21.522512771Z",
+  "modifiedat": "2025-05-26T16:41:43.866744578Z",
   "name": "io.github.goplausible/algorand-mcp",
   "packages": [
     {

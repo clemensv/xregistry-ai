@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:03.670648256Z",
+  "createdat": "2025-05-26T16:41:26.240738456Z",
   "description": "",
   "epoch": 1,
   "id": "dd8073c5-c7c4-42c1-a0d7-cad8089de750",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kelvin6365/servers/plane-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:39:03.670648256Z",
+  "modifiedat": "2025-05-26T16:41:26.240738456Z",
   "name": "io.github.kelvin6365/plane-mcp-server",
   "packages": [
     {

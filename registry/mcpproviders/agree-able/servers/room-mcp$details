@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:17.363761194Z",
+  "createdat": "2025-05-26T16:42:39.690139663Z",
   "description": "Allow MCP clients like claude-desktop to use rooms to coordinate with other agents",
   "epoch": 1,
   "id": "b9bf1c69-4a64-47ec-a781-fb81d1922695",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/agree-able/servers/room-mcp/meta",
-  "modifiedat": "2025-05-26T16:40:17.363761194Z",
+  "modifiedat": "2025-05-26T16:42:39.690139663Z",
   "name": "io.github.agree-able/room-mcp",
   "packages": [
     {

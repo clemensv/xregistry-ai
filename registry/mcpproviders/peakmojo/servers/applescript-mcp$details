@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:45.110435296Z",
+  "createdat": "2025-05-26T16:42:07.536585194Z",
   "description": "MCP server that execute applescript giving you full control of your Mac",
   "epoch": 1,
   "id": "8a38266e-dee5-41ce-8228-2b51a307785f",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/peakmojo/servers/applescript-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:45.110435296Z",
+  "modifiedat": "2025-05-26T16:42:07.536585194Z",
   "name": "io.github.peakmojo/applescript-mcp",
   "packages": [
     {

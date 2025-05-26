@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:27.614681244Z",
+  "createdat": "2025-05-26T16:41:49.967857898Z",
   "description": "Klavis AI (YC X25):  Open Source MCP integration for AI applications",
   "epoch": 1,
   "id": "0bc33e11-876e-4b0f-9c72-75c126d89978",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/Klavis-AI/servers/klavis/meta",
-  "modifiedat": "2025-05-26T16:39:27.614681244Z",
+  "modifiedat": "2025-05-26T16:41:49.967857898Z",
   "name": "io.github.klavis-ai/klavis",
   "packages": [
     {

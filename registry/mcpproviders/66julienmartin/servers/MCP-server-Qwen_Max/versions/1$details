@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:11.452465077Z",
+  "createdat": "2025-05-26T16:41:33.90749275Z",
   "description": "MCP server for Qwen Max model",
   "epoch": 1,
   "id": "92c66a82-172a-45e6-92a4-ee6a053e95e6",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:11.452465077Z",
+  "modifiedat": "2025-05-26T16:41:33.90749275Z",
   "name": "io.github.66julienmartin/mcp-server-qwen_max",
   "packages": [
     {

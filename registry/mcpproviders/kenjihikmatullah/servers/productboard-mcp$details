@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:42.266362196Z",
+  "createdat": "2025-05-26T16:42:04.676712386Z",
   "description": "Integrate the Productboard API into agentic workflows via MCP",
   "epoch": 1,
   "id": "00613acb-73e2-4f93-8b96-296df17316c8",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:42.266362196Z",
+  "modifiedat": "2025-05-26T16:42:04.676712386Z",
   "name": "io.github.kenjihikmatullah/productboard-mcp",
   "packages": [
     {

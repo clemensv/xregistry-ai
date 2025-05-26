@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:28.430896234Z",
+  "createdat": "2025-05-26T16:41:50.785699507Z",
   "description": "Wanaku MCP Router",
   "epoch": 1,
   "id": "f3285cc9-1d33-472f-aa28-0b9d7723f877",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:28.430896234Z",
+  "modifiedat": "2025-05-26T16:41:50.785699507Z",
   "name": "io.github.wanaku-ai/wanaku",
   "packages": [
     {

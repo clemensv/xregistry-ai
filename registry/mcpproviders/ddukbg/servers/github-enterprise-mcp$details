@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:17.952421626Z",
+  "createdat": "2025-05-26T16:42:40.283114108Z",
   "description": "github-enterprise-mcp",
   "epoch": 1,
   "id": "cc190d52-686a-4286-812d-c4542161203d",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ddukbg/servers/github-enterprise-mcp/meta",
-  "modifiedat": "2025-05-26T16:40:17.952421626Z",
+  "modifiedat": "2025-05-26T16:42:40.283114108Z",
   "name": "io.github.ddukbg/github-enterprise-mcp",
   "packages": [
     {

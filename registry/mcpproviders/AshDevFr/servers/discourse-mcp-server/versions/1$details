@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:11.195964265Z",
+  "createdat": "2025-05-26T16:41:33.652239067Z",
   "description": "",
   "epoch": 1,
   "id": "dedc68af-03ef-49ce-a331-e4717b96f693",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:11.195964265Z",
+  "modifiedat": "2025-05-26T16:41:33.652239067Z",
   "name": "io.github.ashdevfr/discourse-mcp-server",
   "packages": [
     {

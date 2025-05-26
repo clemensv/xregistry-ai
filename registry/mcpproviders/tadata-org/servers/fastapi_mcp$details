@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:18.081869945Z",
+  "createdat": "2025-05-26T16:41:40.43635448Z",
   "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
   "epoch": 1,
   "id": "9297bbe7-81bc-4a7c-97ba-fcaaf8c7a626",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/tadata-org/servers/fastapi_mcp/meta",
-  "modifiedat": "2025-05-26T16:39:18.081869945Z",
+  "modifiedat": "2025-05-26T16:41:40.43635448Z",
   "name": "io.github.tadata-org/fastapi_mcp",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:29.818743558Z",
+  "createdat": "2025-05-26T16:41:52.175612581Z",
   "description": "Model Context Protocol (MCP) Server for the Keboola Platform",
   "epoch": 1,
   "id": "eba4813b-2591-4264-b7bc-c485b7652e92",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:29.818743558Z",
+  "modifiedat": "2025-05-26T16:41:52.175612581Z",
   "name": "io.github.keboola/keboola-mcp-server",
   "packages": [
     {

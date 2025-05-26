@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:45.297101557Z",
+  "createdat": "2025-05-26T16:42:07.720551094Z",
   "description": "Integrate Arduino-based robotics (using the NodeMCU ESP32 or Arduino Nano 368 board) with AI using the MCP (Model Context Protocol) framework from Claude Anthropic",
   "epoch": 1,
   "id": "466926d1-72a6-42be-b2c1-ef94d44e5a67",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:45.297101557Z",
+  "modifiedat": "2025-05-26T16:42:07.720551094Z",
   "name": "io.github.vishalmysore/choturobo",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:54.878739614Z",
+  "createdat": "2025-05-26T16:42:17.362735863Z",
   "description": "An MCP server providing a range of cryptocurrency technical analysis indicators and strategies.",
   "epoch": 1,
   "id": "0852caec-a861-4f9c-9e94-a7c8b67a1641",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:54.878739614Z",
+  "modifiedat": "2025-05-26T16:42:17.362735863Z",
   "name": "io.github.kukapay/crypto-indicators-mcp",
   "packages": [
     {

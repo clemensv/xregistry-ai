@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:04.023553173Z",
+  "createdat": "2025-05-26T16:41:26.583456958Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/jeff-nasseri/servers/mikrotik-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:04.023553173Z",
+  "modifiedat": "2025-05-26T16:41:26.583456958Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/jeff-nasseri/servers/mikrotik-mcp/meta",
   "serverid": "mikrotik-mcp",

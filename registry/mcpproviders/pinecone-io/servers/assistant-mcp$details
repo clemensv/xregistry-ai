@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:21.906235601Z",
+  "createdat": "2025-05-26T16:41:44.25448596Z",
   "description": "Pinecone Assistant MCP server",
   "epoch": 1,
   "id": "08668c6a-c2f6-47b0-a4e0-75a8ee9bcf10",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/pinecone-io/servers/assistant-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:21.906235601Z",
+  "modifiedat": "2025-05-26T16:41:44.25448596Z",
   "name": "io.github.pinecone-io/assistant-mcp",
   "packages": [
     {

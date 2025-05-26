@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:13.639605731Z",
+  "createdat": "2025-05-26T16:41:36.054797633Z",
   "description": "🍃🔎 MongoDB Lens: Full Featured MCP Server for MongoDB Databases",
   "epoch": 1,
   "id": "b4970e5b-1259-4ff9-a40a-c570f27d0930",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/furey/servers/mongodb-lens/meta",
-  "modifiedat": "2025-05-26T16:39:13.639605731Z",
+  "modifiedat": "2025-05-26T16:41:36.054797633Z",
   "name": "io.github.furey/mongodb-lens",
   "packages": [
     {

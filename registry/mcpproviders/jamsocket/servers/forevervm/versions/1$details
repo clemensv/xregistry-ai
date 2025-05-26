@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:15.00809799Z",
+  "createdat": "2025-05-26T16:41:37.406328548Z",
   "description": "Securely run AI-generated code in stateful sandboxes that run forever.",
   "epoch": 1,
   "id": "8df45968-12aa-4c35-ae54-62973243334a",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:15.00809799Z",
+  "modifiedat": "2025-05-26T16:41:37.406328548Z",
   "name": "io.github.jamsocket/forevervm",
   "packages": [
     {

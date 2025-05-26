@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:49.135352885Z",
+  "createdat": "2025-05-26T16:42:11.589225563Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/szeider/servers/mcp-solver/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:49.135352885Z",
+  "modifiedat": "2025-05-26T16:42:11.589225563Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/szeider/servers/mcp-solver/meta",
   "serverid": "mcp-solver",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:52.182310969Z",
+  "createdat": "2025-05-26T16:42:14.679193083Z",
   "description": "A MCP server for the Discord integration. Enable your AI assistants to seamlessly interact with Discord. Enhance your Discord experience with powerful automation capabilities.",
   "epoch": 1,
   "id": "ae4c8106-9947-4577-924e-c7106256dd69",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/SaseQ/servers/discord-mcp/meta",
-  "modifiedat": "2025-05-26T16:39:52.182310969Z",
+  "modifiedat": "2025-05-26T16:42:14.679193083Z",
   "name": "io.github.saseq/discord-mcp",
   "packages": [
     {

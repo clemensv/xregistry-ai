@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:15.62568925Z",
+  "createdat": "2025-05-26T16:41:38.015478152Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/marimo-team/servers/codemirror-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:15.62568925Z",
+  "modifiedat": "2025-05-26T16:41:38.015478152Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/marimo-team/servers/codemirror-mcp/meta",
   "serverid": "codemirror-mcp",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:00.28850075Z",
+  "createdat": "2025-05-26T16:41:23.021171346Z",
   "description": "This MCP server provides image generation capabilities using the Replicate Flux model.",
   "epoch": 1,
   "id": "5bf6d045-dc83-4b51-858f-eb9c3403087f",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:00.28850075Z",
+  "modifiedat": "2025-05-26T16:41:23.021171346Z",
   "name": "io.github.gongrzhe/image-generation-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:07.276888927Z",
+  "createdat": "2025-05-26T16:41:29.793396399Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:07.276888927Z",
+  "modifiedat": "2025-05-26T16:41:29.793396399Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/meta",
   "serverid": "okta-mcp-server",

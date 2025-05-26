@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:12.311364122Z",
+  "createdat": "2025-05-26T16:41:34.751493027Z",
   "description": "An MCP server that provides real-time football data based on the SoccerDataAPI.",
   "epoch": 1,
   "id": "387ef1e6-0e4c-43ea-9416-bf3b399a3c76",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/yeonupark/servers/mcp-soccer-data/meta",
-  "modifiedat": "2025-05-26T16:39:12.311364122Z",
+  "modifiedat": "2025-05-26T16:41:34.751493027Z",
   "name": "io.github.yeonupark/mcp-soccer-data",
   "packages": [
     {

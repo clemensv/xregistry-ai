@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:04.608497186Z",
+  "createdat": "2025-05-26T16:41:27.166532241Z",
   "description": "MCP server for Docker",
   "epoch": 1,
   "id": "d2aacd5b-0642-4832-8629-58272a922e4b",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:04.608497186Z",
+  "modifiedat": "2025-05-26T16:41:27.166532241Z",
   "name": "io.github.ckreiling/mcp-server-docker",
   "packages": [
     {

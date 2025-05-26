@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:28.101039221Z",
+  "createdat": "2025-05-26T16:41:50.456396408Z",
   "description": "",
   "epoch": 1,
   "id": "4f189cdd-04a5-47f6-b87b-7d38cc82e625",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:28.101039221Z",
+  "modifiedat": "2025-05-26T16:41:50.456396408Z",
   "name": "io.github.mem0ai/mem0-mcp",
   "packages": [
     {

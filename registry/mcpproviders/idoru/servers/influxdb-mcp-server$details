@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:17.072150706Z",
+  "createdat": "2025-05-26T16:42:39.407737802Z",
   "description": "An MCP Server for querying InfluxDB",
   "epoch": 1,
   "id": "d78df157-559d-4e87-af1f-0dcbfe703a23",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/idoru/servers/influxdb-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:40:17.072150706Z",
+  "modifiedat": "2025-05-26T16:42:39.407737802Z",
   "name": "io.github.idoru/influxdb-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:06.006432215Z",
+  "createdat": "2025-05-26T16:41:28.564451275Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/msgbyte/servers/tianji/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:06.006432215Z",
+  "modifiedat": "2025-05-26T16:41:28.564451275Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/msgbyte/servers/tianji/meta",
   "serverid": "tianji",

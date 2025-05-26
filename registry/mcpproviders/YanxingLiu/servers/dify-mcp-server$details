@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:38.289012311Z",
+  "createdat": "2025-05-26T16:42:00.680787931Z",
   "description": "Model Context Protocol (MCP) Server for dify workflows",
   "epoch": 1,
   "id": "5f64133c-70f4-4044-ac82-dcb2e7758c8c",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/YanxingLiu/servers/dify-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:39:38.289012311Z",
+  "modifiedat": "2025-05-26T16:42:00.680787931Z",
   "name": "io.github.yanxingliu/dify-mcp-server",
   "packages": [
     {

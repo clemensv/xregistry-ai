@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:17.816386273Z",
+  "createdat": "2025-05-26T16:41:40.177617063Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/allen-munsch/servers/mcp-prefect/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:17.816386273Z",
+  "modifiedat": "2025-05-26T16:41:40.177617063Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/allen-munsch/servers/mcp-prefect/meta",
   "serverid": "mcp-prefect",

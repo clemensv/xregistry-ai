@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:40:06.577421774Z",
+  "createdat": "2025-05-26T16:42:28.995884828Z",
   "description": "Model Context Protocol - MCP for Mifos X",
   "epoch": 1,
   "id": "9cc3a712-dd68-494f-a2a3-63bfc54ce837",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:40:06.577421774Z",
+  "modifiedat": "2025-05-26T16:42:28.995884828Z",
   "name": "io.github.openmf/mcp-mifosx",
   "packages": [
     {

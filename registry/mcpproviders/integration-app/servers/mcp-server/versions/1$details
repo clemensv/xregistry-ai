@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:39:30.249535251Z",
+  "createdat": "2025-05-26T16:41:52.598871839Z",
   "description": "",
   "epoch": 1,
   "id": "584b368d-b659-4bac-9036-dc319cf8d88d",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:39:30.249535251Z",
+  "modifiedat": "2025-05-26T16:41:52.598871839Z",
   "name": "io.github.integration-app/mcp-server",
   "packages": [
     {

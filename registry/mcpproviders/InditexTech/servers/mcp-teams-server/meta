@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:39:36.033062851Z",
+  "createdat": "2025-05-26T16:41:58.436921478Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/InditexTech/servers/mcp-teams-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:39:36.033062851Z",
+  "modifiedat": "2025-05-26T16:41:58.436921478Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/InditexTech/servers/mcp-teams-server/meta",
   "serverid": "mcp-teams-server",
