@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:30.066105084Z",
+  "createdat": "2025-05-26T16:39:22.650482084Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sv/servers/mcp-paradex-py/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/sv/servers/mcp-paradex-py/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:30.066105084Z",
+  "modifiedat": "2025-05-26T16:39:22.650482084Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sv/servers/mcp-paradex-py/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/sv/servers/mcp-paradex-py/meta",
   "serverid": "mcp-paradex-py",
   "xid": "/mcpproviders/sv/servers/mcp-paradex-py/meta"
 }

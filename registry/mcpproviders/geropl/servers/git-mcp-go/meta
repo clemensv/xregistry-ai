@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:18.055800688Z",
+  "createdat": "2025-05-26T16:40:10.558618204Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/geropl/servers/git-mcp-go/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/geropl/servers/git-mcp-go/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:18.055800688Z",
+  "modifiedat": "2025-05-26T16:40:10.558618204Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/geropl/servers/git-mcp-go/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/geropl/servers/git-mcp-go/meta",
   "serverid": "git-mcp-go",
   "xid": "/mcpproviders/geropl/servers/git-mcp-go/meta"
 }

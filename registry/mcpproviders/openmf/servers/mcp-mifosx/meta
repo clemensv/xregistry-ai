@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:14.065560582Z",
+  "createdat": "2025-05-26T16:40:06.577421774Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/openmf/servers/mcp-mifosx/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/openmf/servers/mcp-mifosx/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:14.065560582Z",
+  "modifiedat": "2025-05-26T16:40:06.577421774Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/openmf/servers/mcp-mifosx/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/openmf/servers/mcp-mifosx/meta",
   "serverid": "mcp-mifosx",
   "xid": "/mcpproviders/openmf/servers/mcp-mifosx/meta"
 }

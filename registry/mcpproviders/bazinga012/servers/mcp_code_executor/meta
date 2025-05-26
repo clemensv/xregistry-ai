@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:32.306395225Z",
+  "createdat": "2025-05-26T16:39:25.036909135Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/bazinga012/servers/mcp_code_executor/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/bazinga012/servers/mcp_code_executor/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:32.306395225Z",
+  "modifiedat": "2025-05-26T16:39:25.036909135Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/bazinga012/servers/mcp_code_executor/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/bazinga012/servers/mcp_code_executor/meta",
   "serverid": "mcp_code_executor",
   "xid": "/mcpproviders/bazinga012/servers/mcp_code_executor/meta"
 }

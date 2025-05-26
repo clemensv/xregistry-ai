@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:22.239327699Z",
+  "createdat": "2025-05-26T16:39:14.819439697Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lamaalrajih/servers/kicad-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/lamaalrajih/servers/kicad-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:22.239327699Z",
+  "modifiedat": "2025-05-26T16:39:14.819439697Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/lamaalrajih/servers/kicad-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/lamaalrajih/servers/kicad-mcp/meta",
   "serverid": "kicad-mcp",
   "xid": "/mcpproviders/lamaalrajih/servers/kicad-mcp/meta"
 }

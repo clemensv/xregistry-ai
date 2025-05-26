@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:07.004831423Z",
+  "createdat": "2025-05-26T16:39:59.507829927Z",
   "description": "Model Context Protocol Servers for Milvus",
   "epoch": 1,
   "id": "e458676a-2727-4daf-84c5-d607932fa000",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilliztech/servers/mcp-server-milvus/meta",
-  "modifiedat": "2025-05-26T16:32:07.004831423Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/zilliztech/servers/mcp-server-milvus/meta",
+  "modifiedat": "2025-05-26T16:39:59.507829927Z",
   "name": "io.github.zilliztech/mcp-server-milvus",
   "packages": [
     {
@@ -53,7 +53,7 @@
     "url": "https://github.com/zilliztech/mcp-server-milvus"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilliztech/servers/mcp-server-milvus",
+  "self": "https://mcpxreg.com/registry/mcpproviders/zilliztech/servers/mcp-server-milvus",
   "serverid": "mcp-server-milvus",
   "tools": [],
   "version_detail": {
@@ -63,6 +63,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilliztech/servers/mcp-server-milvus/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/zilliztech/servers/mcp-server-milvus/versions",
   "xid": "/mcpproviders/zilliztech/servers/mcp-server-milvus"
 }

@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:38.26160431Z",
+  "createdat": "2025-05-26T16:39:30.845462397Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/integromat/servers/make-mcp-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/integromat/servers/make-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:38.26160431Z",
+  "modifiedat": "2025-05-26T16:39:30.845462397Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/integromat/servers/make-mcp-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/integromat/servers/make-mcp-server/meta",
   "serverid": "make-mcp-server",
   "xid": "/mcpproviders/integromat/servers/make-mcp-server/meta"
 }

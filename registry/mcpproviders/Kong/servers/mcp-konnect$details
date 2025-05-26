@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:21.928793421Z",
+  "createdat": "2025-05-26T16:39:14.504271994Z",
   "description": "A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.",
   "epoch": 1,
   "id": "86a12728-3ab9-4a69-a447-bcb67957a5f7",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Kong/servers/mcp-konnect/meta",
-  "modifiedat": "2025-05-26T16:31:21.928793421Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/Kong/servers/mcp-konnect/meta",
+  "modifiedat": "2025-05-26T16:39:14.504271994Z",
   "name": "io.github.kong/mcp-konnect",
   "packages": [
     {
@@ -32,7 +32,7 @@
     "url": "https://github.com/Kong/mcp-konnect"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Kong/servers/mcp-konnect",
+  "self": "https://mcpxreg.com/registry/mcpproviders/Kong/servers/mcp-konnect",
   "serverid": "mcp-konnect",
   "tools": [
     {
@@ -290,6 +290,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Kong/servers/mcp-konnect/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/Kong/servers/mcp-konnect/versions",
   "xid": "/mcpproviders/Kong/servers/mcp-konnect"
 }

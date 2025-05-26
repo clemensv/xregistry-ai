@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:12.347605489Z",
+  "createdat": "2025-05-26T16:39:04.913982847Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/mcp-nomad/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kocierik/servers/mcp-nomad/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:12.347605489Z",
+  "modifiedat": "2025-05-26T16:39:04.913982847Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/mcp-nomad/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kocierik/servers/mcp-nomad/meta",
   "serverid": "mcp-nomad",
   "xid": "/mcpproviders/kocierik/servers/mcp-nomad/meta"
 }

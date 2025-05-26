@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:25.648478021Z",
+  "createdat": "2025-05-26T16:39:18.214980892Z",
   "description": "It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic",
   "epoch": 1,
   "id": "4e9cf4cf-71f6-4aca-bae8-2d10a29ca2e0",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/21st-dev/servers/magic-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:25.648478021Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/21st-dev/servers/magic-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:18.214980892Z",
   "name": "io.github.21st-dev/magic-mcp",
   "packages": [
     {
@@ -28,7 +28,7 @@
     "url": "https://github.com/21st-dev/magic-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/21st-dev/servers/magic-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/21st-dev/servers/magic-mcp",
   "serverid": "magic-mcp",
   "tools": [
     {
@@ -51,6 +51,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/21st-dev/servers/magic-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/21st-dev/servers/magic-mcp/versions",
   "xid": "/mcpproviders/21st-dev/servers/magic-mcp"
 }

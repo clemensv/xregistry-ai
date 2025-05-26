@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:56.112209284Z",
+  "createdat": "2025-05-26T16:39:48.673302535Z",
   "description": "Apache IoTDB MCP Server",
   "epoch": 1,
   "id": "31d9b130-4676-45d9-930f-a8bc2d5a3b9e",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apache/servers/iotdb-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:31:56.112209284Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:39:48.673302535Z",
   "name": "io.github.apache/iotdb-mcp-server",
   "packages": [
     {
@@ -69,7 +69,7 @@
     "url": "https://github.com/apache/iotdb-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apache/servers/iotdb-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server",
   "serverid": "iotdb-mcp-server",
   "tools": [
     {
@@ -153,6 +153,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apache/servers/iotdb-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server/versions",
   "xid": "/mcpproviders/apache/servers/iotdb-mcp-server"
 }

@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:29.921255617Z",
+  "createdat": "2025-05-26T16:39:22.506101628Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mcp-router/servers/mcp-router/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mcp-router/servers/mcp-router/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:29.921255617Z",
+  "modifiedat": "2025-05-26T16:39:22.506101628Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mcp-router/servers/mcp-router/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/mcp-router/servers/mcp-router/meta",
   "serverid": "mcp-router",
   "xid": "/mcpproviders/mcp-router/servers/mcp-router/meta"
 }

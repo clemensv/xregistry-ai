@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:01.96987432Z",
+  "createdat": "2025-05-26T16:39:54.47444322Z",
   "description": "An MCP server for AI agents to automate token swaps on Uniswap DEX across multiple blockchains.",
   "epoch": 1,
   "id": "1dd6d7a5-ba98-4fce-b4a4-d0541df84569",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/meta",
-  "modifiedat": "2025-05-26T16:32:01.96987432Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:54.47444322Z",
   "name": "io.github.kukapay/uniswap-trader-mcp",
   "packages": [
     {
@@ -41,7 +41,7 @@
     "source": "github",
     "url": "https://github.com/kukapay/uniswap-trader-mcp"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/uniswap-trader-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp",
   "serverid": "uniswap-trader-mcp",
   "version_detail": {
     "is_latest": true,
@@ -50,6 +50,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/versions",
   "xid": "/mcpproviders/kukapay/servers/uniswap-trader-mcp"
 }

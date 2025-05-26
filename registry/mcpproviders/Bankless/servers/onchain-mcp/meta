@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:26.496084986Z",
+  "createdat": "2025-05-26T16:39:19.085558676Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Bankless/servers/onchain-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/Bankless/servers/onchain-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:26.496084986Z",
+  "modifiedat": "2025-05-26T16:39:19.085558676Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Bankless/servers/onchain-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/Bankless/servers/onchain-mcp/meta",
   "serverid": "onchain-mcp",
   "xid": "/mcpproviders/Bankless/servers/onchain-mcp/meta"
 }

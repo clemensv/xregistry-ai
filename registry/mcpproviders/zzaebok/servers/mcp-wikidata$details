@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:11.214534145Z",
+  "createdat": "2025-05-26T16:40:03.727770843Z",
   "description": "A server implementation for Wikidata API using the Model Context Protocol (MCP).",
   "epoch": 1,
   "id": "02b79b89-cce8-4401-aa1f-255b01587266",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zzaebok/servers/mcp-wikidata/meta",
-  "modifiedat": "2025-05-26T16:32:11.214534145Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/zzaebok/servers/mcp-wikidata/meta",
+  "modifiedat": "2025-05-26T16:40:03.727770843Z",
   "name": "io.github.zzaebok/mcp-wikidata",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/zzaebok/mcp-wikidata"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zzaebok/servers/mcp-wikidata",
+  "self": "https://mcpxreg.com/registry/mcpproviders/zzaebok/servers/mcp-wikidata",
   "serverid": "mcp-wikidata",
   "tools": [
     {
@@ -93,6 +93,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zzaebok/servers/mcp-wikidata/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/zzaebok/servers/mcp-wikidata/versions",
   "xid": "/mcpproviders/zzaebok/servers/mcp-wikidata"
 }

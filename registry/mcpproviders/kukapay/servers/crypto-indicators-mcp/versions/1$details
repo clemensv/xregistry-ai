@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:02.352030774Z",
+  "createdat": "2025-05-26T16:39:54.878739614Z",
   "description": "An MCP server providing a range of cryptocurrency technical analysis indicators and strategies.",
   "epoch": 1,
   "id": "0852caec-a861-4f9c-9e94-a7c8b67a1641",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:32:02.352030774Z",
+  "modifiedat": "2025-05-26T16:39:54.878739614Z",
   "name": "io.github.kukapay/crypto-indicators-mcp",
   "packages": [
     {
@@ -36,7 +36,7 @@
     "source": "github",
     "url": "https://github.com/kukapay/crypto-indicators-mcp"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/versions/1",
   "serverid": "crypto-indicators-mcp",
   "version_detail": {
     "is_latest": true,

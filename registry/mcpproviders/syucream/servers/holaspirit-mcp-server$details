@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:47.475635027Z",
+  "createdat": "2025-05-26T16:39:40.041310149Z",
   "description": "A MCP server that accesses to Holaspirit",
   "epoch": 1,
   "id": "fffcda50-ddc1-4357-a9bf-b7022f86c582",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/syucream/servers/holaspirit-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:31:47.475635027Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/holaspirit-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:39:40.041310149Z",
   "name": "io.github.syucream/holaspirit-mcp-server",
   "packages": [
     {
@@ -32,7 +32,7 @@
     "url": "https://github.com/syucream/holaspirit-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/syucream/servers/holaspirit-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/holaspirit-mcp-server",
   "serverid": "holaspirit-mcp-server",
   "tools": [
     {
@@ -134,6 +134,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/syucream/servers/holaspirit-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/holaspirit-mcp-server/versions",
   "xid": "/mcpproviders/syucream/servers/holaspirit-mcp-server"
 }

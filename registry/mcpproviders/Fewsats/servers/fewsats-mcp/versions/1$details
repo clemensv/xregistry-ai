@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:00.706328927Z",
+  "createdat": "2025-05-26T16:39:53.227155198Z",
   "description": "Fewsats MCP server",
   "epoch": 1,
   "id": "0e7533d0-5925-4e06-a6bf-5da4e4e21aec",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:32:00.706328927Z",
+  "modifiedat": "2025-05-26T16:39:53.227155198Z",
   "name": "io.github.fewsats/fewsats-mcp",
   "packages": [
     {
@@ -27,7 +27,7 @@
     "url": "https://github.com/Fewsats/fewsats-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Fewsats/servers/fewsats-mcp/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/Fewsats/servers/fewsats-mcp/versions/1",
   "serverid": "fewsats-mcp",
   "tools": [
     {

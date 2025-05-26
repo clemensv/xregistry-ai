@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:39.456486358Z",
+  "createdat": "2025-05-26T16:39:32.042399307Z",
   "description": "Model Context Protocol server for Replicate's API",
   "epoch": 1,
   "id": "ab0a0d85-7031-4eb0-bd01-5db69fb8c667",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/deepfates/servers/mcp-replicate/meta",
-  "modifiedat": "2025-05-26T16:31:39.456486358Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/deepfates/servers/mcp-replicate/meta",
+  "modifiedat": "2025-05-26T16:39:32.042399307Z",
   "name": "io.github.deepfates/mcp-replicate",
   "packages": [
     {
@@ -28,7 +28,7 @@
     "url": "https://github.com/deepfates/mcp-replicate"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/deepfates/servers/mcp-replicate",
+  "self": "https://mcpxreg.com/registry/mcpproviders/deepfates/servers/mcp-replicate",
   "serverid": "mcp-replicate",
   "tools": [
     {
@@ -123,6 +123,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/deepfates/servers/mcp-replicate/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/deepfates/servers/mcp-replicate/versions",
   "xid": "/mcpproviders/deepfates/servers/mcp-replicate"
 }

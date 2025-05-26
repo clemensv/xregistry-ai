@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:21.194532651Z",
+  "createdat": "2025-05-26T16:40:13.74097301Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rishijatia/servers/fantasy-pl-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/rishijatia/servers/fantasy-pl-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:21.194532651Z",
+  "modifiedat": "2025-05-26T16:40:13.74097301Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rishijatia/servers/fantasy-pl-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/rishijatia/servers/fantasy-pl-mcp/meta",
   "serverid": "fantasy-pl-mcp",
   "xid": "/mcpproviders/rishijatia/servers/fantasy-pl-mcp/meta"
 }

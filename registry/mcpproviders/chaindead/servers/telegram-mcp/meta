@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:29.576361461Z",
+  "createdat": "2025-05-26T16:39:22.159700872Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chaindead/servers/telegram-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/chaindead/servers/telegram-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:29.576361461Z",
+  "modifiedat": "2025-05-26T16:39:22.159700872Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chaindead/servers/telegram-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/chaindead/servers/telegram-mcp/meta",
   "serverid": "telegram-mcp",
   "xid": "/mcpproviders/chaindead/servers/telegram-mcp/meta"
 }

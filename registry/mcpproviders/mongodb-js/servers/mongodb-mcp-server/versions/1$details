@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:50.282898442Z",
+  "createdat": "2025-05-26T16:39:42.837100025Z",
   "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
   "epoch": 1,
   "id": "9fd2c1fb-b8a6-4411-89cf-d4612cc3a539",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:50.282898442Z",
+  "modifiedat": "2025-05-26T16:39:42.837100025Z",
   "name": "io.github.mongodb-js/mongodb-mcp-server",
   "packages": [
     {
@@ -41,7 +41,7 @@
     "source": "github",
     "url": "https://github.com/mongodb-js/mongodb-mcp-server"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mongodb-js/servers/mongodb-mcp-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/mongodb-js/servers/mongodb-mcp-server/versions/1",
   "serverid": "mongodb-mcp-server",
   "version_detail": {
     "is_latest": true,

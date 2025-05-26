@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:49.705012806Z",
+  "createdat": "2025-05-26T16:39:42.266362196Z",
   "description": "Integrate the Productboard API into agentic workflows via MCP",
   "epoch": 1,
   "id": "00613acb-73e2-4f93-8b96-296df17316c8",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:49.705012806Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:42.266362196Z",
   "name": "io.github.kenjihikmatullah/productboard-mcp",
   "packages": [
     {
@@ -28,7 +28,7 @@
     "url": "https://github.com/kenjihikmatullah/productboard-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp",
   "serverid": "productboard-mcp",
   "tools": [
     {
@@ -116,6 +116,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kenjihikmatullah/servers/productboard-mcp/versions",
   "xid": "/mcpproviders/kenjihikmatullah/servers/productboard-mcp"
 }

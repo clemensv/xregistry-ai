@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:23.046667Z",
+  "createdat": "2025-05-26T16:39:15.62568925Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/marimo-team/servers/codemirror-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/marimo-team/servers/codemirror-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:23.046667Z",
+  "modifiedat": "2025-05-26T16:39:15.62568925Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/marimo-team/servers/codemirror-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/marimo-team/servers/codemirror-mcp/meta",
   "serverid": "codemirror-mcp",
   "xid": "/mcpproviders/marimo-team/servers/codemirror-mcp/meta"
 }

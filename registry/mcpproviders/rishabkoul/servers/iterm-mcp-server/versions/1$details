@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:26.363789427Z",
+  "createdat": "2025-05-26T16:39:18.952012383Z",
   "description": "",
   "epoch": 1,
   "id": "add3f73d-394b-4b99-b255-8d9d89db84c2",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:26.363789427Z",
+  "modifiedat": "2025-05-26T16:39:18.952012383Z",
   "name": "io.github.rishabkoul/iterm-mcp-server",
   "packages": [
     {
@@ -19,7 +19,7 @@
     "source": "github",
     "url": "https://github.com/rishabkoul/iTerm-MCP-Server"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/versions/1",
   "serverid": "iterm-mcp-server",
   "version_detail": {
     "is_latest": true,

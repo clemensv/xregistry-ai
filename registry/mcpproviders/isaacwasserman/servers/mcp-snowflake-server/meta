@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:06.074009443Z",
+  "createdat": "2025-05-26T16:38:58.412045184Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:06.074009443Z",
+  "modifiedat": "2025-05-26T16:38:58.412045184Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta",
   "serverid": "mcp-snowflake-server",
   "xid": "/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta"
 }

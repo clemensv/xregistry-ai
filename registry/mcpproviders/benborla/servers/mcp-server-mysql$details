@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:48.244639792Z",
+  "createdat": "2025-05-26T16:39:40.810762997Z",
   "description": "A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.",
   "epoch": 1,
   "id": "22fbb4c3-d5fd-4191-af7a-c78686cc6123",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/benborla/servers/mcp-server-mysql/meta",
-  "modifiedat": "2025-05-26T16:31:48.244639792Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/benborla/servers/mcp-server-mysql/meta",
+  "modifiedat": "2025-05-26T16:39:40.810762997Z",
   "name": "io.github.benborla/mcp-server-mysql",
   "packages": [
     {
@@ -62,7 +62,7 @@
       "uritemplate": "{database}/{table}/schema"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/benborla/servers/mcp-server-mysql",
+  "self": "https://mcpxreg.com/registry/mcpproviders/benborla/servers/mcp-server-mysql",
   "serverid": "mcp-server-mysql",
   "tools": [
     {
@@ -89,6 +89,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/benborla/servers/mcp-server-mysql/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/benborla/servers/mcp-server-mysql/versions",
   "xid": "/mcpproviders/benborla/servers/mcp-server-mysql"
 }

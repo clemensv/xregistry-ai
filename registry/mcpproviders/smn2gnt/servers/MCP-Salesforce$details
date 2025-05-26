@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:35.941922402Z",
+  "createdat": "2025-05-26T16:39:28.771127496Z",
   "description": "MCP Salesforce connector",
   "epoch": 1,
   "id": "0e45cb5a-5b45-47f3-8b5e-12bdf88d176a",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/smn2gnt/servers/MCP-Salesforce/meta",
-  "modifiedat": "2025-05-26T16:31:35.941922402Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/smn2gnt/servers/MCP-Salesforce/meta",
+  "modifiedat": "2025-05-26T16:39:28.771127496Z",
   "name": "io.github.smn2gnt/mcp-salesforce",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/smn2gnt/MCP-Salesforce"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/smn2gnt/servers/MCP-Salesforce",
+  "self": "https://mcpxreg.com/registry/mcpproviders/smn2gnt/servers/MCP-Salesforce",
   "serverid": "MCP-Salesforce",
   "tools": [],
   "version_detail": {
@@ -32,6 +32,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/smn2gnt/servers/MCP-Salesforce/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/smn2gnt/servers/MCP-Salesforce/versions",
   "xid": "/mcpproviders/smn2gnt/servers/MCP-Salesforce"
 }

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:06.074009443Z",
+  "createdat": "2025-05-26T16:38:58.412045184Z",
   "description": "",
   "epoch": 1,
   "id": "61942e80-99c9-4856-90c8-5a11ac76ade5",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta",
-  "modifiedat": "2025-05-26T16:31:06.074009443Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta",
+  "modifiedat": "2025-05-26T16:38:58.412045184Z",
   "name": "io.github.isaacwasserman/mcp-snowflake-server",
   "packages": [
     {
@@ -66,7 +66,7 @@
       "uritemplate": "context://table/{table_name}"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server",
   "serverid": "mcp-snowflake-server",
   "tools": [
     {
@@ -202,6 +202,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/versions",
   "xid": "/mcpproviders/isaacwasserman/servers/mcp-snowflake-server"
 }

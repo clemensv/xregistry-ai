@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:50.590491003Z",
+  "createdat": "2025-05-26T16:39:43.152504758Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/JexinSam/servers/mssql_mcp_server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/JexinSam/servers/mssql_mcp_server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:50.590491003Z",
+  "modifiedat": "2025-05-26T16:39:43.152504758Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/JexinSam/servers/mssql_mcp_server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/JexinSam/servers/mssql_mcp_server/meta",
   "serverid": "mssql_mcp_server",
   "xid": "/mcpproviders/JexinSam/servers/mssql_mcp_server/meta"
 }

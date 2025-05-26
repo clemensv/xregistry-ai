@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:11.125743452Z",
+  "createdat": "2025-05-26T16:39:03.670648256Z",
   "description": "",
   "epoch": 1,
   "id": "dd8073c5-c7c4-42c1-a0d7-cad8089de750",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:11.125743452Z",
+  "modifiedat": "2025-05-26T16:39:03.670648256Z",
   "name": "io.github.kelvin6365/plane-mcp-server",
   "packages": [
     {
@@ -19,7 +19,7 @@
     "source": "github",
     "url": "https://github.com/kelvin6365/plane-mcp-server"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kelvin6365/servers/plane-mcp-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kelvin6365/servers/plane-mcp-server/versions/1",
   "serverid": "plane-mcp-server",
   "version_detail": {
     "is_latest": true,

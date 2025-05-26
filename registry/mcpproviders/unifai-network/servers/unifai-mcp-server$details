@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:48.068587471Z",
+  "createdat": "2025-05-26T16:39:40.635665795Z",
   "description": "",
   "epoch": 1,
   "id": "9941c18c-f247-4b88-a6ff-7b001f806acf",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unifai-network/servers/unifai-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:31:48.068587471Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/unifai-network/servers/unifai-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:39:40.635665795Z",
   "name": "io.github.unifai-network/unifai-mcp-server",
   "packages": [
     {
@@ -20,7 +20,7 @@
     "source": "github",
     "url": "https://github.com/unifai-network/unifai-mcp-server"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unifai-network/servers/unifai-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/unifai-network/servers/unifai-mcp-server",
   "serverid": "unifai-mcp-server",
   "version_detail": {
     "is_latest": true,
@@ -29,6 +29,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unifai-network/servers/unifai-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/unifai-network/servers/unifai-mcp-server/versions",
   "xid": "/mcpproviders/unifai-network/servers/unifai-mcp-server"
 }

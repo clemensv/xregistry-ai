@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:22.518983153Z",
+  "createdat": "2025-05-26T16:40:15.068600717Z",
   "description": "Virtual traveler library for MCP",
   "epoch": 1,
   "id": "8b5bb45d-a025-4e7b-a185-dbb5e349af32",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:32:22.518983153Z",
+  "modifiedat": "2025-05-26T16:40:15.068600717Z",
   "name": "io.github.mfukushim/map-traveler-mcp",
   "packages": [
     {
@@ -45,7 +45,7 @@
       "uritemplate": "/prompts/custom_samples"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mfukushim/servers/map-traveler-mcp/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/mfukushim/servers/map-traveler-mcp/versions/1",
   "serverid": "map-traveler-mcp",
   "tools": [
     {

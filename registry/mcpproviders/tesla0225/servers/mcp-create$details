@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:16.611108006Z",
+  "createdat": "2025-05-26T16:39:09.156379711Z",
   "description": "",
   "epoch": 1,
   "id": "84bda3c9-65ce-45f2-898f-6e370718b43d",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tesla0225/servers/mcp-create/meta",
-  "modifiedat": "2025-05-26T16:31:16.611108006Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/tesla0225/servers/mcp-create/meta",
+  "modifiedat": "2025-05-26T16:39:09.156379711Z",
   "name": "io.github.tesla0225/mcp-create",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/tesla0225/mcp-create"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tesla0225/servers/mcp-create",
+  "self": "https://mcpxreg.com/registry/mcpproviders/tesla0225/servers/mcp-create",
   "serverid": "mcp-create",
   "tools": [
     {
@@ -126,6 +126,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tesla0225/servers/mcp-create/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/tesla0225/servers/mcp-create/versions",
   "xid": "/mcpproviders/tesla0225/servers/mcp-create"
 }

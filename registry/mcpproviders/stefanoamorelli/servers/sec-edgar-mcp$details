@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:20.629127097Z",
+  "createdat": "2025-05-26T16:39:13.202479838Z",
   "description": "A Model Context Protocol (MCP) Server for SEC EDGAR",
   "epoch": 1,
   "id": "8d526532-7125-4b3c-b180-901914ead390",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:20.629127097Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:13.202479838Z",
   "name": "io.github.stefanoamorelli/sec-edgar-mcp",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/stefanoamorelli/sec-edgar-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp",
   "serverid": "sec-edgar-mcp",
   "tools": [
     {
@@ -70,6 +70,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp/versions",
   "xid": "/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp"
 }

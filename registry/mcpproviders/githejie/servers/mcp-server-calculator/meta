@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:13.524240942Z",
+  "createdat": "2025-05-26T16:39:06.104586736Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/githejie/servers/mcp-server-calculator/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/githejie/servers/mcp-server-calculator/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:13.524240942Z",
+  "modifiedat": "2025-05-26T16:39:06.104586736Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/githejie/servers/mcp-server-calculator/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/githejie/servers/mcp-server-calculator/meta",
   "serverid": "mcp-server-calculator",
   "xid": "/mcpproviders/githejie/servers/mcp-server-calculator/meta"
 }

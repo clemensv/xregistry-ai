@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:36.1808848Z",
+  "createdat": "2025-05-26T16:39:28.927366376Z",
   "description": "Atlan AI Agent Toolkit",
   "epoch": 1,
   "id": "c4888f33-5e27-449c-ba93-edf383b91686",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/atlanhq/servers/agent-toolkit/meta",
-  "modifiedat": "2025-05-26T16:31:36.1808848Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/atlanhq/servers/agent-toolkit/meta",
+  "modifiedat": "2025-05-26T16:39:28.927366376Z",
   "name": "io.github.atlanhq/agent-toolkit",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/atlanhq/agent-toolkit"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/atlanhq/servers/agent-toolkit",
+  "self": "https://mcpxreg.com/registry/mcpproviders/atlanhq/servers/agent-toolkit",
   "serverid": "agent-toolkit",
   "tools": [
     {
@@ -210,6 +210,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/atlanhq/servers/agent-toolkit/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/atlanhq/servers/agent-toolkit/versions",
   "xid": "/mcpproviders/atlanhq/servers/agent-toolkit"
 }

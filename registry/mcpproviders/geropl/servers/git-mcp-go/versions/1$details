@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:18.055800688Z",
+  "createdat": "2025-05-26T16:40:10.558618204Z",
   "description": "Git MCP based on mcp-go",
   "epoch": 1,
   "id": "6026be39-cc97-4ace-b557-a97aeddbbd60",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:32:18.055800688Z",
+  "modifiedat": "2025-05-26T16:40:10.558618204Z",
   "name": "io.github.geropl/git-mcp-go",
   "packages": [
     {
@@ -19,7 +19,7 @@
     "source": "github",
     "url": "https://github.com/geropl/git-mcp-go"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/geropl/servers/git-mcp-go/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/geropl/servers/git-mcp-go/versions/1",
   "serverid": "git-mcp-go",
   "version_detail": {
     "is_latest": true,

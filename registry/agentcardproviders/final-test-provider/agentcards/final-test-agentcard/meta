@@ -1,14 +1,14 @@
 {
   "agentcardid": "final-test-agentcard",
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:05.285152942Z",
+  "createdat": "2025-05-26T16:38:57.632172456Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:05.285152942Z",
+  "modifiedat": "2025-05-26T16:38:57.632172456Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/meta",
+  "self": "https://mcpxreg.com/registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/meta",
   "validation": false,
   "xid": "/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/meta"
 }

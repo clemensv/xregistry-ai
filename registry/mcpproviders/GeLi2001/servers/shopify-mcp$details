@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:24.228693172Z",
+  "createdat": "2025-05-26T16:39:16.804868088Z",
   "description": "MCP server for Shopify api, usable on mcp clients such as Anthropic's Claude and Cursor IDE",
   "epoch": 1,
   "id": "fcde90d4-5b99-4262-8101-7a507bf05915",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:24.228693172Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/shopify-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:16.804868088Z",
   "name": "io.github.geli2001/shopify-mcp",
   "packages": [
     {
@@ -44,7 +44,7 @@
     "url": "https://github.com/GeLi2001/shopify-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/shopify-mcp",
   "serverid": "shopify-mcp",
   "tools": [
     {
@@ -325,6 +325,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/shopify-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/shopify-mcp/versions",
   "xid": "/mcpproviders/GeLi2001/servers/shopify-mcp"
 }

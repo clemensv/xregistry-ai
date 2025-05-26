@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:02.479273853Z",
+  "createdat": "2025-05-26T16:39:55.005740928Z",
   "description": "An MCP server providing tools for AI agents to mint ERC-20 tokens across multiple blockchains.",
   "epoch": 1,
   "id": "10bb9deb-9384-4e4d-935e-9d830015a43e",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/token-minter-mcp/meta",
-  "modifiedat": "2025-05-26T16:32:02.479273853Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-minter-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:55.005740928Z",
   "name": "io.github.kukapay/token-minter-mcp",
   "packages": [
     {
@@ -41,7 +41,7 @@
     "source": "github",
     "url": "https://github.com/kukapay/token-minter-mcp"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/token-minter-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-minter-mcp",
   "serverid": "token-minter-mcp",
   "version_detail": {
     "is_latest": true,
@@ -50,6 +50,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/token-minter-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-minter-mcp/versions",
   "xid": "/mcpproviders/kukapay/servers/token-minter-mcp"
 }

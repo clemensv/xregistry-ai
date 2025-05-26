@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:53.249354178Z",
+  "createdat": "2025-05-26T16:39:45.810083784Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chatmcp/servers/mcp-directory/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/chatmcp/servers/mcp-directory/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:53.249354178Z",
+  "modifiedat": "2025-05-26T16:39:45.810083784Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/chatmcp/servers/mcp-directory/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/chatmcp/servers/mcp-directory/meta",
   "serverid": "mcp-directory",
   "xid": "/mcpproviders/chatmcp/servers/mcp-directory/meta"
 }

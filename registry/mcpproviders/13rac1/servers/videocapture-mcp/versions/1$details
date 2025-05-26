@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:27.687632414Z",
+  "createdat": "2025-05-26T16:39:20.274050857Z",
   "description": "Model Context Protocol (MCP) server to capture images from an OpenCV-compatible webcam or video source",
   "epoch": 1,
   "id": "cbc3c68c-82c8-4a9f-86b9-78e3893df494",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:27.687632414Z",
+  "modifiedat": "2025-05-26T16:39:20.274050857Z",
   "name": "io.github.13rac1/videocapture-mcp",
   "packages": [
     {
@@ -69,7 +69,7 @@
     "source": "github",
     "url": "https://github.com/13rac1/videocapture-mcp"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/13rac1/servers/videocapture-mcp/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/13rac1/servers/videocapture-mcp/versions/1",
   "serverid": "videocapture-mcp",
   "version_detail": {
     "is_latest": true,

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:04.334446178Z",
+  "createdat": "2025-05-26T16:39:56.859045264Z",
   "description": "",
   "epoch": 1,
   "id": "68966508-9094-4eb5-9588-ff7456d6c1ce",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:32:04.334446178Z",
+  "modifiedat": "2025-05-26T16:39:56.859045264Z",
   "name": "io.github.sssjiang/pubchem_mcp_server",
   "packages": [
     {
@@ -19,7 +19,7 @@
     "source": "github",
     "url": "https://github.com/sssjiang/pubchem_mcp_server"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sssjiang/servers/pubchem_mcp_server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/sssjiang/servers/pubchem_mcp_server/versions/1",
   "serverid": "pubchem_mcp_server",
   "version_detail": {
     "is_latest": true,

@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:16.742387678Z",
+  "createdat": "2025-05-26T16:39:09.290589896Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:16.742387678Z",
+  "modifiedat": "2025-05-26T16:39:09.290589896Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/meta",
   "serverid": "mcp-server-for-intercom",
   "xid": "/mcpproviders/raoulbia-ai/servers/mcp-server-for-intercom/meta"
 }

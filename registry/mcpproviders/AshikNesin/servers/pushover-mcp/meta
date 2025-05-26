@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:09.215518274Z",
+  "createdat": "2025-05-26T16:39:01.641352363Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AshikNesin/servers/pushover-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/AshikNesin/servers/pushover-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:09.215518274Z",
+  "modifiedat": "2025-05-26T16:39:01.641352363Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/AshikNesin/servers/pushover-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/AshikNesin/servers/pushover-mcp/meta",
   "serverid": "pushover-mcp",
   "xid": "/mcpproviders/AshikNesin/servers/pushover-mcp/meta"
 }

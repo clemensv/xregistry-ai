@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:32.457515715Z",
+  "createdat": "2025-05-26T16:39:25.267708043Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/nkapila6/servers/mcp-local-rag/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/nkapila6/servers/mcp-local-rag/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:32.457515715Z",
+  "modifiedat": "2025-05-26T16:39:25.267708043Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/nkapila6/servers/mcp-local-rag/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/nkapila6/servers/mcp-local-rag/meta",
   "serverid": "mcp-local-rag",
   "xid": "/mcpproviders/nkapila6/servers/mcp-local-rag/meta"
 }

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:12.185875174Z",
+  "createdat": "2025-05-26T16:39:04.750936787Z",
   "description": "",
   "epoch": 1,
   "id": "c01d9a66-7a37-4f66-870d-38829c0047ea",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:12.185875174Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:04.750936787Z",
   "name": "io.github.spathodea-network/opencti-mcp",
   "packages": [
     {
@@ -43,7 +43,7 @@
     "url": "https://github.com/Spathodea-Network/opencti-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Spathodea-Network/servers/opencti-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/Spathodea-Network/servers/opencti-mcp",
   "serverid": "opencti-mcp",
   "tools": [
     {
@@ -271,6 +271,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/versions",
   "xid": "/mcpproviders/Spathodea-Network/servers/opencti-mcp"
 }

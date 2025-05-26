@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:50.796575221Z",
+  "createdat": "2025-05-26T16:39:43.358208777Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/metoro-io/servers/metoro-mcp-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/metoro-io/servers/metoro-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:50.796575221Z",
+  "modifiedat": "2025-05-26T16:39:43.358208777Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/metoro-io/servers/metoro-mcp-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/metoro-io/servers/metoro-mcp-server/meta",
   "serverid": "metoro-mcp-server",
   "xid": "/mcpproviders/metoro-io/servers/metoro-mcp-server/meta"
 }

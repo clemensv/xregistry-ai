@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:20.717766872Z",
+  "createdat": "2025-05-26T16:40:13.26171387Z",
   "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
   "epoch": 1,
   "id": "4a097d31-ea39-43aa-9af5-6f19a7676901",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/manusa/servers/kubernetes-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:32:20.717766872Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/manusa/servers/kubernetes-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:40:13.26171387Z",
   "name": "io.github.manusa/kubernetes-mcp-server",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/manusa/kubernetes-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/manusa/servers/kubernetes-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/manusa/servers/kubernetes-mcp-server",
   "serverid": "kubernetes-mcp-server",
   "tools": [],
   "version_detail": {
@@ -32,6 +32,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/manusa/servers/kubernetes-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/manusa/servers/kubernetes-mcp-server/versions",
   "xid": "/mcpproviders/manusa/servers/kubernetes-mcp-server"
 }

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:04.957235711Z",
+  "createdat": "2025-05-26T16:39:57.492694312Z",
   "description": "Local MCP server implementation for Starwind UI that you can use with Cursor, Windsurf, and other AI tools",
   "epoch": 1,
   "id": "8a0bb0a3-74c3-41c1-9b9f-2974dd1576fe",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/boston343/servers/starwind-ui-mcp/meta",
-  "modifiedat": "2025-05-26T16:32:04.957235711Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/boston343/servers/starwind-ui-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:57.492694312Z",
   "name": "io.github.boston343/starwind-ui-mcp",
   "packages": [
     {
@@ -20,7 +20,7 @@
     "source": "github",
     "url": "https://github.com/starwind-ui/starwind-ui-mcp"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/boston343/servers/starwind-ui-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/boston343/servers/starwind-ui-mcp",
   "serverid": "starwind-ui-mcp",
   "version_detail": {
     "is_latest": true,
@@ -29,6 +29,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/boston343/servers/starwind-ui-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/boston343/servers/starwind-ui-mcp/versions",
   "xid": "/mcpproviders/boston343/servers/starwind-ui-mcp"
 }

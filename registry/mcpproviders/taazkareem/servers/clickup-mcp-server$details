@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:05.77645076Z",
+  "createdat": "2025-05-26T16:39:58.289138449Z",
   "description": "ClickUp MCP Server - Integrate ClickUp task management with AI through Model Context Protocol",
   "epoch": 1,
   "id": "34b93e72-0fa8-4dbe-ae9b-82a9e40de735",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/taazkareem/servers/clickup-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:32:05.77645076Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/taazkareem/servers/clickup-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:39:58.289138449Z",
   "name": "io.github.taazkareem/clickup-mcp-server",
   "packages": [
     {
@@ -38,7 +38,7 @@
     "source": "github",
     "url": "https://github.com/taazkareem/clickup-mcp-server"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/taazkareem/servers/clickup-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/taazkareem/servers/clickup-mcp-server",
   "serverid": "clickup-mcp-server",
   "version_detail": {
     "is_latest": true,
@@ -47,6 +47,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/taazkareem/servers/clickup-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/taazkareem/servers/clickup-mcp-server/versions",
   "xid": "/mcpproviders/taazkareem/servers/clickup-mcp-server"
 }

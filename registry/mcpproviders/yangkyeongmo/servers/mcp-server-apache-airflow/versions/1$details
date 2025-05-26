@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:06.726200722Z",
+  "createdat": "2025-05-26T16:38:59.095985622Z",
   "description": "",
   "epoch": 1,
   "id": "ae6d4cd8-c930-4737-9aba-93609f53cde1",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:06.726200722Z",
+  "modifiedat": "2025-05-26T16:38:59.095985622Z",
   "name": "io.github.yangkyeongmo/mcp-server-apache-airflow",
   "packages": [
     {
@@ -97,7 +97,7 @@
       "uritemplate": "/api/v1/datasets"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/yangkyeongmo/servers/mcp-server-apache-airflow/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/yangkyeongmo/servers/mcp-server-apache-airflow/versions/1",
   "serverid": "mcp-server-apache-airflow",
   "tools": [],
   "version_detail": {

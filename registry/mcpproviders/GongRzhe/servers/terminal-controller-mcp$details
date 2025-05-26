@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:07.731192148Z",
+  "createdat": "2025-05-26T16:39:00.134455695Z",
   "description": "A Model Context Protocol (MCP) server that enables secure terminal command execution, directory navigation, and file system operations through a standardized interface.",
   "epoch": 1,
   "id": "6275eefc-3f97-4a30-85ca-9678de62bdcf",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:07.731192148Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:00.134455695Z",
   "name": "io.github.gongrzhe/terminal-controller-mcp",
   "packages": [
     {
@@ -34,7 +34,7 @@
     "url": "https://github.com/GongRzhe/terminal-controller-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp",
   "serverid": "terminal-controller-mcp",
   "tools": [
     {
@@ -100,6 +100,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp/versions",
   "xid": "/mcpproviders/GongRzhe/servers/terminal-controller-mcp"
 }

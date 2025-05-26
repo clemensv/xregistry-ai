@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:19.293020534Z",
+  "createdat": "2025-05-26T16:40:11.824964228Z",
   "description": "MCP server for Chroma",
   "epoch": 1,
   "id": "4b637a92-c1af-463d-afc1-e0ce65d7c057",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/chroma/meta",
-  "modifiedat": "2025-05-26T16:32:19.293020534Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/chroma/meta",
+  "modifiedat": "2025-05-26T16:40:11.824964228Z",
   "name": "io.github.privetin/chroma",
   "packages": [
     {
@@ -49,7 +49,7 @@
       "uritemplate": "/documents/{document_id}"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/chroma",
+  "self": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/chroma",
   "serverid": "chroma",
   "tools": [
     {
@@ -173,6 +173,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/privetin/servers/chroma/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/chroma/versions",
   "xid": "/mcpproviders/privetin/servers/chroma"
 }

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:25.895169543Z",
+  "createdat": "2025-05-26T16:40:18.461418845Z",
   "description": "",
   "epoch": 1,
   "id": "010904ec-6e39-4bdc-878a-75a6e79d0500",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks/meta",
-  "modifiedat": "2025-05-26T16:32:25.895169543Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks/meta",
+  "modifiedat": "2025-05-26T16:40:18.461418845Z",
   "name": "io.github.kyrietangsheng/mcp-server-nationalparks",
   "packages": [
     {
@@ -28,7 +28,7 @@
     "url": "https://github.com/KyrieTangSheng/mcp-server-nationalparks"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks",
+  "self": "https://mcpxreg.com/registry/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks",
   "serverid": "mcp-server-nationalparks",
   "tools": [
     {
@@ -81,6 +81,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks/versions",
   "xid": "/mcpproviders/KyrieTangSheng/servers/mcp-server-nationalparks"
 }

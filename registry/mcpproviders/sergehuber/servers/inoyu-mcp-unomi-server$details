@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:47.85864938Z",
+  "createdat": "2025-05-26T16:39:40.42528544Z",
   "description": "An implementation of Anthropic's Model Context Protocol for the Apache Unomi CDP",
   "epoch": 1,
   "id": "601ee7e9-e0db-470e-80e5-f1509cddf6d7",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server/meta",
-  "modifiedat": "2025-05-26T16:31:47.85864938Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server/meta",
+  "modifiedat": "2025-05-26T16:39:40.42528544Z",
   "name": "io.github.sergehuber/inoyu-mcp-unomi-server",
   "packages": [
     {
@@ -29,7 +29,7 @@
       "uritemplate": "unomi://profiles/list"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server",
   "serverid": "inoyu-mcp-unomi-server",
   "tools": [
     {
@@ -145,6 +145,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server/versions",
   "xid": "/mcpproviders/sergehuber/servers/inoyu-mcp-unomi-server"
 }

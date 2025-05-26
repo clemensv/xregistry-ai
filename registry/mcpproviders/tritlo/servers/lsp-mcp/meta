@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:22.916137451Z",
+  "createdat": "2025-05-26T16:39:15.493840083Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tritlo/servers/lsp-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/tritlo/servers/lsp-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:22.916137451Z",
+  "modifiedat": "2025-05-26T16:39:15.493840083Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/tritlo/servers/lsp-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/tritlo/servers/lsp-mcp/meta",
   "serverid": "lsp-mcp",
   "xid": "/mcpproviders/tritlo/servers/lsp-mcp/meta"
 }

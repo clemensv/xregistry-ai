@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:29.077454276Z",
+  "createdat": "2025-05-26T16:39:21.658532085Z",
   "description": "Helps AI assistants access text content from bot-protected websites. MCP server that fetches HTML/markdown from sites with anti-automation measures using Scrapling.",
   "epoch": 1,
   "id": "874336ad-3dfa-467f-8356-3de7d8b2b93d",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/meta",
-  "modifiedat": "2025-05-26T16:31:29.077454276Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:21.658532085Z",
   "name": "io.github.cyberchitta/scrapling-fetch-mcp",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/cyberchitta/scrapling-fetch-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp",
   "serverid": "scrapling-fetch-mcp",
   "tools": [
     {
@@ -85,6 +85,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/versions",
   "xid": "/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp"
 }

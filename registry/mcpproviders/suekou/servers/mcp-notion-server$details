@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:10.463505817Z",
+  "createdat": "2025-05-26T16:39:02.99927474Z",
   "description": "",
   "epoch": 1,
   "id": "e9a5215c-6485-462f-b086-6e97f0466b30",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/suekou/servers/mcp-notion-server/meta",
-  "modifiedat": "2025-05-26T16:31:10.463505817Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/suekou/servers/mcp-notion-server/meta",
+  "modifiedat": "2025-05-26T16:39:02.99927474Z",
   "name": "io.github.suekou/mcp-notion-server",
   "packages": [
     {
@@ -43,7 +43,7 @@
     "url": "https://github.com/suekou/mcp-notion-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/suekou/servers/mcp-notion-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/suekou/servers/mcp-notion-server",
   "serverid": "mcp-notion-server",
   "tools": [],
   "version_detail": {
@@ -53,6 +53,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/suekou/servers/mcp-notion-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/suekou/servers/mcp-notion-server/versions",
   "xid": "/mcpproviders/suekou/servers/mcp-notion-server"
 }

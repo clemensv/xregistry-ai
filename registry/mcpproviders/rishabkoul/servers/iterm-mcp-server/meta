@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:26.363789427Z",
+  "createdat": "2025-05-26T16:39:18.952012383Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:26.363789427Z",
+  "modifiedat": "2025-05-26T16:39:18.952012383Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/rishabkoul/servers/iterm-mcp-server/meta",
   "serverid": "iterm-mcp-server",
   "xid": "/mcpproviders/rishabkoul/servers/iterm-mcp-server/meta"
 }

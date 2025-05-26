@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:30.713139835Z",
+  "createdat": "2025-05-26T16:39:23.300617543Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/asusevski/servers/opendota-mcp-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/asusevski/servers/opendota-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:30.713139835Z",
+  "modifiedat": "2025-05-26T16:39:23.300617543Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/asusevski/servers/opendota-mcp-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/asusevski/servers/opendota-mcp-server/meta",
   "serverid": "opendota-mcp-server",
   "xid": "/mcpproviders/asusevski/servers/opendota-mcp-server/meta"
 }

@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:22.428319906Z",
+  "createdat": "2025-05-26T16:39:15.00809799Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jamsocket/servers/forevervm/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/jamsocket/servers/forevervm/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:22.428319906Z",
+  "modifiedat": "2025-05-26T16:39:15.00809799Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jamsocket/servers/forevervm/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/jamsocket/servers/forevervm/meta",
   "serverid": "forevervm",
   "xid": "/mcpproviders/jamsocket/servers/forevervm/meta"
 }

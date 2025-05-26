@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:24.117829135Z",
+  "createdat": "2025-05-26T16:39:16.694269139Z",
   "description": "",
   "epoch": 1,
   "id": "1aa1e801-80d9-4ea1-80c2-e7d037ce98e3",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:31:24.117829135Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/tft-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:39:16.694269139Z",
   "name": "io.github.geli2001/tft-mcp-server",
   "packages": [
     {
@@ -54,7 +54,7 @@
     "url": "https://github.com/GeLi2001/tft-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/tft-mcp-server",
   "serverid": "tft-mcp-server",
   "tools": [
     {
@@ -99,6 +99,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GeLi2001/servers/tft-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/tft-mcp-server/versions",
   "xid": "/mcpproviders/GeLi2001/servers/tft-mcp-server"
 }

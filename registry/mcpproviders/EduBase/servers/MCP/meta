@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:40.854774797Z",
+  "createdat": "2025-05-26T16:39:33.440977401Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/EduBase/servers/MCP/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/EduBase/servers/MCP/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:40.854774797Z",
+  "modifiedat": "2025-05-26T16:39:33.440977401Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/EduBase/servers/MCP/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/EduBase/servers/MCP/meta",
   "serverid": "MCP",
   "xid": "/mcpproviders/EduBase/servers/MCP/meta"
 }

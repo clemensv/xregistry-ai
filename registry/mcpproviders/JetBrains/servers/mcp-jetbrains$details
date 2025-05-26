@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:24.060422975Z",
+  "createdat": "2025-05-26T16:40:16.604051619Z",
   "description": "A model context protocol server to work with JetBrains IDEs: IntelliJ, PyCharm, WebStorm, etc. Also, works with Android Studio",
   "epoch": 1,
   "id": "a51c6dec-56ed-403e-831b-fa5f155f8696",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/JetBrains/servers/mcp-jetbrains/meta",
-  "modifiedat": "2025-05-26T16:32:24.060422975Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/JetBrains/servers/mcp-jetbrains/meta",
+  "modifiedat": "2025-05-26T16:40:16.604051619Z",
   "name": "io.github.jetbrains/mcp-jetbrains",
   "packages": [
     {
@@ -28,7 +28,7 @@
     "url": "https://github.com/JetBrains/mcp-jetbrains"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/JetBrains/servers/mcp-jetbrains",
+  "self": "https://mcpxreg.com/registry/mcpproviders/JetBrains/servers/mcp-jetbrains",
   "serverid": "mcp-jetbrains",
   "tools": [],
   "version_detail": {
@@ -38,6 +38,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/JetBrains/servers/mcp-jetbrains/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/JetBrains/servers/mcp-jetbrains/versions",
   "xid": "/mcpproviders/JetBrains/servers/mcp-jetbrains"
 }

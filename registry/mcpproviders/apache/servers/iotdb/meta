@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:56.267565825Z",
+  "createdat": "2025-05-26T16:39:48.826215624Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apache/servers/iotdb/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:56.267565825Z",
+  "modifiedat": "2025-05-26T16:39:48.826215624Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apache/servers/iotdb/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb/meta",
   "serverid": "iotdb",
   "xid": "/mcpproviders/apache/servers/iotdb/meta"
 }

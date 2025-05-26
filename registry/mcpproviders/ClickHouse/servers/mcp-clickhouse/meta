@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:54.567955978Z",
+  "createdat": "2025-05-26T16:39:47.130999072Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:54.567955978Z",
+  "modifiedat": "2025-05-26T16:39:47.130999072Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/meta",
   "serverid": "mcp-clickhouse",
   "xid": "/mcpproviders/ClickHouse/servers/mcp-clickhouse/meta"
 }

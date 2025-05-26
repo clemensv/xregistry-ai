@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:01.351298882Z",
+  "createdat": "2025-05-26T16:39:53.856876318Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/dune-analytics-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:01.351298882Z",
+  "modifiedat": "2025-05-26T16:39:53.856876318Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/dune-analytics-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/meta",
   "serverid": "dune-analytics-mcp",
   "xid": "/mcpproviders/kukapay/servers/dune-analytics-mcp/meta"
 }

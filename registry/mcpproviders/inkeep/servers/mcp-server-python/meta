@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:33.596356874Z",
+  "createdat": "2025-05-26T16:39:27.019571101Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/inkeep/servers/mcp-server-python/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/inkeep/servers/mcp-server-python/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:33.596356874Z",
+  "modifiedat": "2025-05-26T16:39:27.019571101Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/inkeep/servers/mcp-server-python/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/inkeep/servers/mcp-server-python/meta",
   "serverid": "mcp-server-python",
   "xid": "/mcpproviders/inkeep/servers/mcp-server-python/meta"
 }

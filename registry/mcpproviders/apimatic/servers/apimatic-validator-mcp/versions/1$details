@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:21.79813357Z",
+  "createdat": "2025-05-26T16:39:14.372722665Z",
   "description": "APIMatic Validator MCP Server for validating OpenAPI specs via APIMatic's API with MCP",
   "epoch": 1,
   "id": "5c95a170-d394-4b21-a100-bb953b872922",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:21.79813357Z",
+  "modifiedat": "2025-05-26T16:39:14.372722665Z",
   "name": "io.github.apimatic/apimatic-validator-mcp",
   "packages": [
     {
@@ -27,7 +27,7 @@
     "url": "https://github.com/apimatic/apimatic-validator-mcp"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/apimatic/servers/apimatic-validator-mcp/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/apimatic/servers/apimatic-validator-mcp/versions/1",
   "serverid": "apimatic-validator-mcp",
   "tools": [
     {

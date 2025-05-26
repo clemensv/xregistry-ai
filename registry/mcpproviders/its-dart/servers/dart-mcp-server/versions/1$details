@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:49.908379454Z",
+  "createdat": "2025-05-26T16:39:42.471905235Z",
   "description": "Dart AI Model Context Protocol (MCP) server",
   "epoch": 1,
   "id": "9c2d91f0-76c4-4292-a19f-e81e962954b5",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:49.908379454Z",
+  "modifiedat": "2025-05-26T16:39:42.471905235Z",
   "name": "io.github.its-dart/dart-mcp-server",
   "packages": [
     {
@@ -151,7 +151,7 @@
       "uritemplate": "dart-doc:///{docId}"
     }
   ],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/its-dart/servers/dart-mcp-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/its-dart/servers/dart-mcp-server/versions/1",
   "serverid": "dart-mcp-server",
   "tools": [
     {

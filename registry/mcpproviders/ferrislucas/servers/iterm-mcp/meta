@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:05.893849453Z",
+  "createdat": "2025-05-26T16:38:58.246913889Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ferrislucas/servers/iterm-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ferrislucas/servers/iterm-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:05.893849453Z",
+  "modifiedat": "2025-05-26T16:38:58.246913889Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ferrislucas/servers/iterm-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/ferrislucas/servers/iterm-mcp/meta",
   "serverid": "iterm-mcp",
   "xid": "/mcpproviders/ferrislucas/servers/iterm-mcp/meta"
 }

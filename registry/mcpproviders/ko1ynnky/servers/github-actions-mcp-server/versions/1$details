@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:25.083810583Z",
+  "createdat": "2025-05-26T16:39:17.659550797Z",
   "description": "GitHub Actions Model Context Protocol Server",
   "epoch": 1,
   "id": "fa6d267b-a797-42b7-9510-5abc3c518f3e",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:25.083810583Z",
+  "modifiedat": "2025-05-26T16:39:17.659550797Z",
   "name": "io.github.ko1ynnky/github-actions-mcp-server",
   "packages": [
     {
@@ -38,7 +38,7 @@
     "url": "https://github.com/ko1ynnky/github-actions-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ko1ynnky/servers/github-actions-mcp-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/ko1ynnky/servers/github-actions-mcp-server/versions/1",
   "serverid": "github-actions-mcp-server",
   "tools": [
     {

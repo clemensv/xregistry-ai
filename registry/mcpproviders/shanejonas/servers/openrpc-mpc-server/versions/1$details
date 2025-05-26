@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:52.137425064Z",
+  "createdat": "2025-05-26T16:39:44.687761546Z",
   "description": "A Model Context Protocol (MCP) server that provides JSON-RPC functionality through OpenRPC.",
   "epoch": 1,
   "id": "9c804dd3-4283-4a5b-a34e-6f1c7065b671",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:52.137425064Z",
+  "modifiedat": "2025-05-26T16:39:44.687761546Z",
   "name": "io.github.shanejonas/openrpc-mpc-server",
   "packages": [
     {
@@ -21,7 +21,7 @@
     "url": "https://github.com/shanejonas/openrpc-mpc-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/shanejonas/servers/openrpc-mpc-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/shanejonas/servers/openrpc-mpc-server/versions/1",
   "serverid": "openrpc-mpc-server",
   "tools": [
     {

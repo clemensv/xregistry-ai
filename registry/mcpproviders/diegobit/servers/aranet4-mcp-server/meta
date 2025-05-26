@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:14.763043055Z",
+  "createdat": "2025-05-26T16:40:07.276672889Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/diegobit/servers/aranet4-mcp-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/diegobit/servers/aranet4-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:14.763043055Z",
+  "modifiedat": "2025-05-26T16:40:07.276672889Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/diegobit/servers/aranet4-mcp-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/diegobit/servers/aranet4-mcp-server/meta",
   "serverid": "aranet4-mcp-server",
   "xid": "/mcpproviders/diegobit/servers/aranet4-mcp-server/meta"
 }

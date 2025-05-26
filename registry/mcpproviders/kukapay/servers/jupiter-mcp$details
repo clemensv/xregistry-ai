@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:02.222304374Z",
+  "createdat": "2025-05-26T16:39:54.752397163Z",
   "description": "An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API.",
   "epoch": 1,
   "id": "243a8c0e-4bb7-4932-9d7c-8e8229306295",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/jupiter-mcp/meta",
-  "modifiedat": "2025-05-26T16:32:02.222304374Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp/meta",
+  "modifiedat": "2025-05-26T16:39:54.752397163Z",
   "name": "io.github.kukapay/jupiter-mcp",
   "packages": [
     {
@@ -41,7 +41,7 @@
     "source": "github",
     "url": "https://github.com/kukapay/jupiter-mcp"
   },
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/jupiter-mcp",
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp",
   "serverid": "jupiter-mcp",
   "version_detail": {
     "is_latest": true,
@@ -50,6 +50,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kukapay/servers/jupiter-mcp/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp/versions",
   "xid": "/mcpproviders/kukapay/servers/jupiter-mcp"
 }

@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:24.814059125Z",
+  "createdat": "2025-05-26T16:40:17.363761194Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agree-able/servers/room-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/agree-able/servers/room-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:24.814059125Z",
+  "modifiedat": "2025-05-26T16:40:17.363761194Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/agree-able/servers/room-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/agree-able/servers/room-mcp/meta",
   "serverid": "room-mcp",
   "xid": "/mcpproviders/agree-able/servers/room-mcp/meta"
 }

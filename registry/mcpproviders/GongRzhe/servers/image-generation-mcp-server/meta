@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:07.884205064Z",
+  "createdat": "2025-05-26T16:39:00.28850075Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:07.884205064Z",
+  "modifiedat": "2025-05-26T16:39:00.28850075Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/meta",
   "serverid": "image-generation-mcp-server",
   "xid": "/mcpproviders/GongRzhe/servers/image-generation-mcp-server/meta"
 }

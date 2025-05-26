@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:41.492792791Z",
+  "createdat": "2025-05-26T16:39:34.071956333Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ConechoAI/servers/openai-websearch-mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ConechoAI/servers/openai-websearch-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:41.492792791Z",
+  "modifiedat": "2025-05-26T16:39:34.071956333Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ConechoAI/servers/openai-websearch-mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/ConechoAI/servers/openai-websearch-mcp/meta",
   "serverid": "openai-websearch-mcp",
   "xid": "/mcpproviders/ConechoAI/servers/openai-websearch-mcp/meta"
 }

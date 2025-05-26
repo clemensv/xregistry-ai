@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:32:03.680434196Z",
+  "createdat": "2025-05-26T16:39:56.208195541Z",
   "description": "MCP Server implementation for Ableton Live OSC control",
   "epoch": 1,
   "id": "60b95692-579f-4de4-8095-1efdca5d8591",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/meta",
-  "modifiedat": "2025-05-26T16:32:03.680434196Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/meta",
+  "modifiedat": "2025-05-26T16:39:56.208195541Z",
   "name": "io.github.simon-kansara/ableton-live-mcp-server",
   "packages": [
     {
@@ -22,7 +22,7 @@
     "url": "https://github.com/Simon-Kansara/ableton-live-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server",
   "serverid": "ableton-live-mcp-server",
   "tools": [],
   "version_detail": {
@@ -32,6 +32,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server/versions",
   "xid": "/mcpproviders/Simon-Kansara/servers/ableton-live-mcp-server"
 }

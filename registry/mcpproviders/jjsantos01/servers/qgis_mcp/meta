@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:32:06.55111587Z",
+  "createdat": "2025-05-26T16:39:59.057977128Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jjsantos01/servers/qgis_mcp/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/jjsantos01/servers/qgis_mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:32:06.55111587Z",
+  "modifiedat": "2025-05-26T16:39:59.057977128Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/jjsantos01/servers/qgis_mcp/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/jjsantos01/servers/qgis_mcp/meta",
   "serverid": "qgis_mcp",
   "xid": "/mcpproviders/jjsantos01/servers/qgis_mcp/meta"
 }

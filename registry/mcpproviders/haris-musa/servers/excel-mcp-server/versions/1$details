@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:24.947337395Z",
+  "createdat": "2025-05-26T16:39:17.524607478Z",
   "description": "A Model Context Protocol server for Excel file manipulation",
   "epoch": 1,
   "id": "2a5c04e4-0526-492b-aa98-49896e033b74",
   "isdefault": true,
-  "modifiedat": "2025-05-26T16:31:24.947337395Z",
+  "modifiedat": "2025-05-26T16:39:17.524607478Z",
   "name": "io.github.haris-musa/excel-mcp-server",
   "packages": [
     {
@@ -33,7 +33,7 @@
     "url": "https://github.com/haris-musa/excel-mcp-server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/haris-musa/servers/excel-mcp-server/versions/1",
+  "self": "https://mcpxreg.com/registry/mcpproviders/haris-musa/servers/excel-mcp-server/versions/1",
   "serverid": "excel-mcp-server",
   "tools": [],
   "version_detail": {

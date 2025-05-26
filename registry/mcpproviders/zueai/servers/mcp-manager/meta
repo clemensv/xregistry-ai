@@ -1,13 +1,13 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-26T16:31:50.983970202Z",
+  "createdat": "2025-05-26T16:39:43.545946676Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
-  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zueai/servers/mcp-manager/versions/1",
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/zueai/servers/mcp-manager/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-26T16:31:50.983970202Z",
+  "modifiedat": "2025-05-26T16:39:43.545946676Z",
   "readonly": false,
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zueai/servers/mcp-manager/meta",
+  "self": "https://mcpxreg.com/registry/mcpproviders/zueai/servers/mcp-manager/meta",
   "serverid": "mcp-manager",
   "xid": "/mcpproviders/zueai/servers/mcp-manager/meta"
 }

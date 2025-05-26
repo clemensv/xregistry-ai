@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-26T16:31:15.482451759Z",
+  "createdat": "2025-05-26T16:39:08.078904047Z",
   "description": "A Model Context Protocol (MCP) server that enables natural language queries to databases",
   "epoch": 1,
   "id": "a33de229-5e89-468d-aa2a-570b0f6e3dfa",
   "isdefault": true,
-  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/meta",
-  "modifiedat": "2025-05-26T16:31:15.482451759Z",
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/meta",
+  "modifiedat": "2025-05-26T16:39:08.078904047Z",
   "name": "io.github.xgenerationlab/xiyan_mcp_server",
   "packages": [
     {
@@ -28,7 +28,7 @@
     "url": "https://github.com/XGenerationLab/xiyan_mcp_server"
   },
   "resources": [],
-  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server",
+  "self": "https://mcpxreg.com/registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server",
   "serverid": "xiyan_mcp_server",
   "tools": [],
   "version_detail": {
@@ -38,6 +38,6 @@
   },
   "versionid": "1",
   "versionscount": 1,
-  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/versions",
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/versions",
   "xid": "/mcpproviders/XGenerationLab/servers/xiyan_mcp_server"
 }
