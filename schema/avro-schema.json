@@ -257,7 +257,8 @@
                       "name": "specversion",
                       "type": {
                         "type": "string"
-                      }
+                      },
+                      "doc": "Version of the A2A specification this agent card conforms to"
                     },
                     {
                       "name": "additionalProperties",
@@ -484,38 +485,36 @@
                       "doc": "Time of the object modification"
                     },
                     {
+                      "name": "id",
+                      "type": {
+                        "type": "string"
+                      },
+                      "doc": "Unique identifier for the MCP server"
+                    },
+                    {
                       "name": "name",
                       "type": {
                         "type": "string"
                       },
-                      "doc": "Unique reverse-DNS identifier of the repository."
+                      "doc": "Human-readable name of the MCP server"
                     },
                     {
-                      "name": "description",
-                      "type": {
-                        "type": "string"
-                      },
-                      "doc": "Repository or server overview."
+                      "name": "repository",
+                      "type": "Repository",
+                      "doc": "Source code repository information for the MCP server"
                     },
                     {
                       "name": "version_detail",
                       "type": "VersionDetail",
-                      "doc": "Version detail for the server."
+                      "doc": "Version information for the current server release"
                     },
                     {
-                      "name": "registries",
+                      "name": "packages",
                       "type": {
                         "type": "array",
-                        "items": "RegistriesItem"
+                        "items": "PackagesItem"
                       },
-                      "doc": "Package registry metadata blocks."
-                    },
-                    {
-                      "name": "repo_ref",
-                      "type": {
-                        "type": "string"
-                      },
-                      "doc": "Repository reference for the server."
+                      "doc": "Available package distributions for installing and running the server"
                     },
                     {
                       "name": "remotes",
@@ -523,7 +522,7 @@
                         "type": "array",
                         "items": "RemotesItem"
                       },
-                      "doc": "Source\u00e2\u20ac\u2018code hosting locations."
+                      "doc": "Remote server endpoints that can be connected to via network protocols"
                     },
                     {
                       "name": "prompts",
@@ -531,7 +530,7 @@
                         "type": "array",
                         "items": "PromptsItem"
                       },
-                      "doc": "Static prompt templates bundled with this server."
+                      "doc": "Pre-defined prompt templates available through this server"
                     },
                     {
                       "name": "tools",
@@ -539,7 +538,7 @@
                         "type": "array",
                         "items": "ToolsItem"
                       },
-                      "doc": "Tool definitions invocable via the MCP runtime."
+                      "doc": "Tools and functions exposed by this MCP server"
                     },
                     {
                       "name": "resources",
@@ -547,7 +546,47 @@
                         "type": "array",
                         "items": "ResourcesItem"
                       },
-                      "doc": "Data resources the server can expose or subscribe to."
+                      "doc": "Resources that can be accessed through this MCP server"
+                    },
+                    {
+                      "name": "additionalProperties",
+                      "type": {
+                        "type": "record",
+                        "name": "GenericRecord",
+                        "fields": [
+                          {
+                            "name": "object",
+                            "type": {
+                              "type": "map",
+                              "values": [
+                                "null",
+                                "boolean",
+                                "int",
+                                "long",
+                                "float",
+                                "double",
+                                "bytes",
+                                "string",
+                                {
+                                  "type": "array",
+                                  "items": [
+                                    "null",
+                                    "boolean",
+                                    "int",
+                                    "long",
+                                    "float",
+                                    "double",
+                                    "bytes",
+                                    "string",
+                                    "GenericRecord"
+                                  ]
+                                },
+                                "GenericRecord"
+                              ]
+                            }
+                          }
+                        ]
+                      }
                     }
                   ]
                 }
