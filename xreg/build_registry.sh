@@ -144,60 +144,19 @@ docker cp "${CONTAINER_ID}:$ARCHIVE_PATH" "$DATA_EXPORT_DIR/xr_live_data.tar.gz"
 tar xzf "$DATA_EXPORT_DIR/xr_live_data.tar.gz" -C "$DATA_EXPORT_DIR"
 rm "$DATA_EXPORT_DIR/xr_live_data.tar.gz"
 
+# Convert JSON files to HTML files containing JSON content for Azure Static Web Apps
+echo "Converting JSON files to HTML files for Azure Static Web Apps..."
+find "$DATA_EXPORT_DIR" -name "*.json" -not -path "*/schema/*" -not -path "*/openapi/*" | while read jsonfile; do
+    htmlfile="${jsonfile%.json}.html"
+    echo "Converting $jsonfile to $htmlfile"
+    cp "$jsonfile" "$htmlfile"
+done
+
 # Stop and remove the container
 echo "Stopping and removing xregistry server..."
 docker stop "${CONTAINER_ID}"
 docker rm "${CONTAINER_ID}"
 echo "xregistry server stopped and removed."
-
-# Create explicit /registry/index.json file
-echo "Creating explicit registry index.json..."
-cat > "$DATA_EXPORT_DIR/index.json" << 'EOF'
-{
-  "registryid": "xRegistry",
-  "specversion": "1.0-rc1",
-  "xid": "/",
-  "self": "https://mcpxreg.com/registry/",
-  "mcpprovidersurl": "https://mcpxreg.com/registry/mcpproviders",
-  "agentcardprovidersurl": "https://mcpxreg.com/registry/agentcardproviders"
-}
-EOF
-
-# Count providers and update the index.json with actual counts
-if [ -d "$DATA_EXPORT_DIR/mcpproviders" ]; then
-  MCP_COUNT=$(find "$DATA_EXPORT_DIR/mcpproviders" -name "index.json" | wc -l)
-else
-  MCP_COUNT=0
-fi
-
-if [ -d "$DATA_EXPORT_DIR/agentcardproviders" ]; then
-  AGENT_COUNT=$(find "$DATA_EXPORT_DIR/agentcardproviders" -name "index.json" | wc -l)
-else
-  AGENT_COUNT=0
-fi
-
-# Get current timestamp
-TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ")
-EPOCH=$(date +%s)
-
-# Update the index.json with actual counts and timestamps
-cat > "$DATA_EXPORT_DIR/index.json" << EOF
-{
-  "registryid": "xRegistry",
-  "specversion": "1.0-rc1", 
-  "xid": "/",
-  "createdat": "$TIMESTAMP",
-  "modifiedat": "$TIMESTAMP",
-  "epoch": $EPOCH,
-  "self": "https://mcpxreg.com/registry/",
-  "mcpproviderscount": $MCP_COUNT,
-  "mcpprovidersurl": "https://mcpxreg.com/registry/mcpproviders",
-  "agentcardproviderscount": $AGENT_COUNT,
-  "agentcardprovidersurl": "https://mcpxreg.com/registry/agentcardproviders"
-}
-EOF
-
-echo "Created registry index.json with $MCP_COUNT MCP providers and $AGENT_COUNT agent card providers"
 
 # Build the index
 echo "Building index..."
