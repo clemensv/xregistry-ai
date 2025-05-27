@@ -1,0 +1,61 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:39.782367305Z",
+  "description": "A MCP provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's CoT from the Deepseek API service or a local Ollama server.",
+  "epoch": 1,
+  "id": "883a7c72-e6ca-41cb-91e9-e65436a58729",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:03:39.782367305Z",
+  "name": "io.github.ruixingshi/deepseek-thinker-mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "\u003cYour API Key\u003e",
+          "name": "API_KEY"
+        },
+        {
+          "description": "\u003cYour Base URL\u003e",
+          "name": "BASE_URL"
+        }
+      ],
+      "name": "deepseek-thinker-mcp",
+      "registry_name": "unknown",
+      "version": "1.0.2"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "931883120",
+    "source": "github",
+    "url": "https://github.com/ruixingshi/deepseek-thinker-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/ruixingshi/servers/deepseek-thinker-mcp/versions/1",
+  "serverid": "deepseek-thinker-mcp",
+  "tools": [
+    {
+      "description": "Perform reasoning using the Deepseek model",
+      "inputschema": {
+        "properties": {
+          "originPrompt": {
+            "description": "user's original prompt",
+            "type": "string"
+          }
+        },
+        "required": [
+          "originPrompt"
+        ],
+        "type": "object"
+      },
+      "name": "get-deepseek-thinker"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:38Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/ruixingshi/servers/deepseek-thinker-mcp/versions/1"
+}

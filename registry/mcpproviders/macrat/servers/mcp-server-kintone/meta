@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:09.015742979Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/macrat/servers/mcp-server-kintone/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:09.015742979Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/macrat/servers/mcp-server-kintone/meta",
+  "serverid": "mcp-server-kintone",
+  "xid": "/mcpproviders/macrat/servers/mcp-server-kintone/meta"
+}

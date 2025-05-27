@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:40.854109415Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/sakce/servers/mcp-server-monday/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:40.854109415Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/sakce/servers/mcp-server-monday/meta",
+  "serverid": "mcp-server-monday",
+  "xid": "/mcpproviders/sakce/servers/mcp-server-monday/meta"
+}

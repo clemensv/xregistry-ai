@@ -1,0 +1,124 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:30.70106522Z",
+  "description": "The EduBase MCP server enables Claude and other LLMs to interact with EduBase's comprehensive e-learning platform through the Model Context Protocol (MCP).",
+  "epoch": 1,
+  "id": "33102362-9e44-442f-8aa9-4443ce50c396",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:02:30.70106522Z",
+  "name": "io.github.edubase/mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "https://domain.edubase.net/api",
+          "name": "EDUBASE_API_URL"
+        },
+        {
+          "description": "your_integration_app_id",
+          "name": "EDUBASE_API_APP"
+        },
+        {
+          "description": "your_integration_secret_key",
+          "name": "EDUBASE_API_KEY"
+        }
+      ],
+      "name": "@edubase/mcp",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "-i",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i"
+        },
+        {
+          "default": "--rm",
+          "description": "--rm",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm"
+        },
+        {
+          "default": "-e EDUBASE_API_URL",
+          "description": "-e EDUBASE_API_URL",
+          "format": "string",
+          "is_required": true,
+          "name": "-e EDUBASE_API_URL",
+          "type": "named",
+          "value": "-e EDUBASE_API_URL",
+          "value_hint": "EDUBASE_API_URL"
+        },
+        {
+          "default": "-e EDUBASE_API_APP",
+          "description": "-e EDUBASE_API_APP",
+          "format": "string",
+          "is_required": true,
+          "name": "-e EDUBASE_API_APP",
+          "type": "named",
+          "value": "-e EDUBASE_API_APP",
+          "value_hint": "EDUBASE_API_APP"
+        },
+        {
+          "default": "-e EDUBASE_API_KEY",
+          "description": "-e EDUBASE_API_KEY",
+          "format": "string",
+          "is_required": true,
+          "name": "-e EDUBASE_API_KEY",
+          "type": "named",
+          "value": "-e EDUBASE_API_KEY",
+          "value_hint": "EDUBASE_API_KEY"
+        },
+        {
+          "default": "edubase/mcp",
+          "description": "edubase/mcp",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "edubase/mcp",
+          "value_hint": "edubase/mcp"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "1.0.10"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "940803959",
+    "source": "github",
+    "url": "https://github.com/EduBase/MCP"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/EduBase/servers/MCP/versions/1",
+  "serverid": "MCP",
+  "tools": [
+    {
+      "description": "Tool for the GET /user endpoint",
+      "name": "edubase_get_user"
+    },
+    {
+      "description": "Tools named edubase_\u003cmethod\u003e_\u003cendpoint\u003e for each documented API endpoint",
+      "name": "edubase_get_"
+    },
+    {
+      "description": "Tools named edubase_\u003cmethod\u003e_\u003cendpoint\u003e for each documented API endpoint",
+      "name": "edubase_post_"
+    },
+    {
+      "description": "Tools named edubase_\u003cmethod\u003e_\u003cendpoint\u003e for each documented API endpoint",
+      "name": "edubase_delete_"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:58:35Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/EduBase/servers/MCP/versions/1"
+}

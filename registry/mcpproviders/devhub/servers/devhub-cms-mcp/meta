@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:27.590581736Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/devhub/servers/devhub-cms-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:27.590581736Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/devhub/servers/devhub-cms-mcp/meta",
+  "serverid": "devhub-cms-mcp",
+  "xid": "/mcpproviders/devhub/servers/devhub-cms-mcp/meta"
+}

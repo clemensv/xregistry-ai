@@ -1,0 +1,65 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:11.481875197Z",
+  "description": "APIMatic Validator MCP Server for validating OpenAPI specs via APIMatic's API with MCP",
+  "epoch": 1,
+  "id": "5c95a170-d394-4b21-a100-bb953b872922",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/apimatic/servers/apimatic-validator-mcp/meta",
+  "modifiedat": "2025-05-27T10:02:11.481875197Z",
+  "name": "io.github.apimatic/apimatic-validator-mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "\u003cAdd your APIMatic token here\u003e",
+          "name": "APIMATIC_API_KEY"
+        }
+      ],
+      "name": "apimatic-validator---mcp",
+      "registry_name": "unknown",
+      "version": "1.0.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "951214203",
+    "source": "github",
+    "url": "https://github.com/apimatic/apimatic-validator-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/apimatic/servers/apimatic-validator-mcp",
+  "serverid": "apimatic-validator-mcp",
+  "tools": [
+    {
+      "description": "Get validation summary for your OpenAPI spec using APIMatic",
+      "inputschema": {
+        "properties": {
+          "isYaml": {
+            "description": "Whether the OpenAPI file is in YAML format",
+            "type": "boolean"
+          },
+          "openApiFile": {
+            "description": "The OpenAPI file content as a string",
+            "type": "string"
+          }
+        },
+        "required": [
+          "openApiFile",
+          "isYaml"
+        ],
+        "type": "object"
+      },
+      "name": "validate-openapi-using-apimatic"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:18Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/apimatic/servers/apimatic-validator-mcp/versions",
+  "xid": "/mcpproviders/apimatic/servers/apimatic-validator-mcp"
+}

@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:04:15.182140329Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/wong2/servers/mcp-cli/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:04:15.182140329Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/wong2/servers/mcp-cli/meta",
+  "serverid": "mcp-cli",
+  "xid": "/mcpproviders/wong2/servers/mcp-cli/meta"
+}

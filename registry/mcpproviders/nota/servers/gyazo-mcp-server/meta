@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:21.11746127Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/nota/servers/gyazo-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:21.11746127Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/nota/servers/gyazo-mcp-server/meta",
+  "serverid": "gyazo-mcp-server",
+  "xid": "/mcpproviders/nota/servers/gyazo-mcp-server/meta"
+}

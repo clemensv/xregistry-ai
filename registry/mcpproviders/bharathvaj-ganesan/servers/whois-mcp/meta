@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:16.447886061Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/bharathvaj-ganesan/servers/whois-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:16.447886061Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/bharathvaj-ganesan/servers/whois-mcp/meta",
+  "serverid": "whois-mcp",
+  "xid": "/mcpproviders/bharathvaj-ganesan/servers/whois-mcp/meta"
+}

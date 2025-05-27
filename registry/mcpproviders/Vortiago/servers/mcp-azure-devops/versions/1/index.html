@@ -1,0 +1,74 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:04:12.181723052Z",
+  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services via Python SDK.",
+  "epoch": 1,
+  "id": "4502246b-f419-4879-a179-149c6d87a871",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:04:12.181723052Z",
+  "name": "io.github.vortiago/mcp-azure-devops",
+  "packages": [
+    {
+      "name": "mcp-azure-devops",
+      "registry_name": "unknown",
+      "version": "0.6.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "948085438",
+    "source": "github",
+    "url": "https://github.com/Vortiago/mcp-azure-devops"
+  },
+  "resources": [
+    {
+      "description": "Work item resources accessible by ID.",
+      "mimetype": "application/json",
+      "name": "work_items",
+      "uritemplate": "/workitems/{id}"
+    },
+    {
+      "description": "List of accessible projects in the organization.",
+      "mimetype": "application/json",
+      "name": "projects",
+      "uritemplate": "/projects"
+    },
+    {
+      "description": "List of teams within the organization.",
+      "mimetype": "application/json",
+      "name": "teams",
+      "uritemplate": "/teams"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/Vortiago/servers/mcp-azure-devops/versions/1",
+  "serverid": "mcp-azure-devops",
+  "tools": [
+    {
+      "description": "Searches for work items using Work Item Query Language (WIQL). Use this tool to find work items matching specific criteria, search across projects, create dynamic reports, or identify work items assigned to specific team members.",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The WIQL query string (e.g., \"SELECT * FROM workitems WHERE [System.State] = 'Active'\")",
+            "type": "string"
+          },
+          "top": {
+            "description": "Maximum number of results to return (default: 30)",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "query_work_items"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:03:42Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/Vortiago/servers/mcp-azure-devops/versions/1"
+}

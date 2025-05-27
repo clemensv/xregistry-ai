@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:00.152667388Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kone-net/servers/mcp_server_lark/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:00.152667388Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/kone-net/servers/mcp_server_lark/meta",
+  "serverid": "mcp_server_lark",
+  "xid": "/mcpproviders/kone-net/servers/mcp_server_lark/meta"
+}

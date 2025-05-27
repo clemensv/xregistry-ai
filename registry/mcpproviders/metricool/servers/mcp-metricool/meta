@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:15.618394257Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/metricool/servers/mcp-metricool/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:15.618394257Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/metricool/servers/mcp-metricool/meta",
+  "serverid": "mcp-metricool",
+  "xid": "/mcpproviders/metricool/servers/mcp-metricool/meta"
+}

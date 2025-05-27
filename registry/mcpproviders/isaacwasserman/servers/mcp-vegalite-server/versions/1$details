@@ -1,0 +1,76 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:51.08395386Z",
+  "description": "",
+  "epoch": 1,
+  "id": "aa301cee-889b-4606-b66b-fd9dc1e77817",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:02:51.08395386Z",
+  "name": "io.github.isaacwasserman/mcp-vegalite-server",
+  "packages": [
+    {
+      "name": "mcp-server-vegalite",
+      "registry_name": "unknown",
+      "version": "0.0.1"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "902526658",
+    "source": "github",
+    "url": "https://github.com/isaacwasserman/mcp-vegalite-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-vegalite-server/versions/1",
+  "serverid": "mcp-vegalite-server",
+  "tools": [
+    {
+      "description": "Save a table of data agregations to the server for later visualization",
+      "inputschema": {
+        "properties": {
+          "data": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "data"
+        ],
+        "type": "object"
+      },
+      "name": "save_data"
+    },
+    {
+      "description": "Visualize a table of data using Vega-Lite syntax",
+      "inputschema": {
+        "properties": {
+          "data_name": {
+            "type": "string"
+          },
+          "vegalite_specification": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "data_name",
+          "vegalite_specification"
+        ],
+        "type": "object"
+      },
+      "name": "visualize_data"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:22Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/isaacwasserman/servers/mcp-vegalite-server/versions/1"
+}

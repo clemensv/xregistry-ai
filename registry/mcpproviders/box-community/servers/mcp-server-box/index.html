@@ -1,0 +1,277 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:17.317078168Z",
+  "description": "An MCP server capable of interacting with the Box API",
+  "epoch": 1,
+  "id": "46bcb36f-ede9-412e-8181-7c7ece41fa04",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/box-community/servers/mcp-server-box/meta",
+  "modifiedat": "2025-05-27T10:02:17.317078168Z",
+  "name": "io.github.box-community/mcp-server-box",
+  "packages": [
+    {
+      "name": "mcp-server-box",
+      "package_arguments": [
+        {
+          "default": "src/mcp_server_box.py",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "src/mcp_server_box.py",
+          "value_hint": "src/mcp_server_box.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "938387717",
+    "source": "github",
+    "url": "https://github.com/box-community/mcp-server-box"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/box-community/servers/mcp-server-box",
+  "serverid": "mcp-server-box",
+  "tools": [
+    {
+      "description": "Get your current user information and check connection status.",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "box_who_am_i"
+    },
+    {
+      "description": "Start the Box application authorization process.",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "box_authorize_app_tool"
+    },
+    {
+      "description": "Search for files in Box.",
+      "inputschema": {
+        "properties": {
+          "ancestor_folder_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "file_extensions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "query": {
+            "type": "string"
+          },
+          "where_to_look_for_query": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "box_search_tool"
+    },
+    {
+      "description": "Read the text content of a Box file.",
+      "inputschema": {
+        "properties": {
+          "file_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_id"
+        ],
+        "type": "object"
+      },
+      "name": "box_read_tool"
+    },
+    {
+      "description": "Ask Box AI about a file.",
+      "inputschema": {
+        "properties": {
+          "file_id": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_id",
+          "prompt"
+        ],
+        "type": "object"
+      },
+      "name": "box_ask_ai_tool"
+    },
+    {
+      "description": "Locate a folder by name.",
+      "inputschema": {
+        "properties": {
+          "folder_name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "folder_name"
+        ],
+        "type": "object"
+      },
+      "name": "box_search_folder_by_name"
+    },
+    {
+      "description": "Extract data from a file using AI.",
+      "inputschema": {
+        "properties": {
+          "fields": {
+            "type": "string"
+          },
+          "file_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_id",
+          "fields"
+        ],
+        "type": "object"
+      },
+      "name": "box_ai_extract_data"
+    },
+    {
+      "description": "List folder contents.",
+      "inputschema": {
+        "properties": {
+          "folder_id": {
+            "type": "string"
+          },
+          "is_recursive": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "folder_id",
+          "is_recursive"
+        ],
+        "type": "object"
+      },
+      "name": "box_list_folder_content_by_folder_id"
+    },
+    {
+      "description": "Create, update, or delete folders in Box.",
+      "inputschema": {
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "folder_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "parent_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "recursive": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "box_manage_folder_tool"
+    },
+    {
+      "description": "Upload content as a file to Box.",
+      "inputschema": {
+        "properties": {
+          "content": {
+            "type": "string"
+          },
+          "file_name": {
+            "type": "string"
+          },
+          "folder_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "content",
+          "file_name"
+        ],
+        "type": "object"
+      },
+      "name": "box_upload_file_tool"
+    },
+    {
+      "description": "Download a file from Box and return its content.",
+      "inputschema": {
+        "properties": {
+          "file_id": {
+            "type": "string"
+          },
+          "save_file": {
+            "type": "boolean"
+          },
+          "save_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "file_id"
+        ],
+        "type": "object"
+      },
+      "name": "box_download_file_tool"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:46Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/box-community/servers/mcp-server-box/versions",
+  "xid": "/mcpproviders/box-community/servers/mcp-server-box"
+}

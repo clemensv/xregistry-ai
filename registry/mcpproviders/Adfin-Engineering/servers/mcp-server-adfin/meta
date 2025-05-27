@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:06.356328322Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/Adfin-Engineering/servers/mcp-server-adfin/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:06.356328322Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/Adfin-Engineering/servers/mcp-server-adfin/meta",
+  "serverid": "mcp-server-adfin",
+  "xid": "/mcpproviders/Adfin-Engineering/servers/mcp-server-adfin/meta"
+}

@@ -1,0 +1,44 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:15.360929759Z",
+  "description": "Metoro MCP Server",
+  "epoch": 1,
+  "id": "95047d21-596b-4c32-b206-2ebd171733aa",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:03:15.360929759Z",
+  "name": "io.github.metoro-io/metoro-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcklkIjoiOThlZDU1M2QtYzY4ZC00MDRhLWFhZjItNDM2ODllNWJiMGUzIiwiZW1haWwiOiJ0ZXN0QGNocmlzYmF0dGFyYmVlLmNvbSIsImV4cCI6MTgyMTI0NzIzN30.7G6alDpcZh_OThYj293Jce5rjeOBqAhOlANR_Fl5auw",
+          "name": "METORO_AUTH_TOKEN"
+        },
+        {
+          "description": "https://demo.us-east.metoro.io",
+          "name": "METORO_API_URL"
+        }
+      ],
+      "name": "metoro-io/metoro-mcp-server",
+      "registry_name": "unknown",
+      "version": ""
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "900333594",
+    "source": "github",
+    "url": "https://github.com/metoro-io/metoro-mcp-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/metoro-io/servers/metoro-mcp-server/versions/1",
+  "serverid": "metoro-mcp-server",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:00:25Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/metoro-io/servers/metoro-mcp-server/versions/1"
+}

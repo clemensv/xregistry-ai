@@ -1,0 +1,321 @@
+{
+  "alibaba-cloud-ops-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:08.908707987Z",
+    "description": "AlibabaCloud CloudOps MCP Server",
+    "epoch": 1,
+    "id": "24303d73-1ee0-4119-b2f1-3a57c17de967",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/meta",
+    "modifiedat": "2025-05-27T10:02:08.908707987Z",
+    "name": "io.github.aliyun/alibaba-cloud-ops-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "Your Access Key ID",
+            "name": "ALIBABA_CLOUD_ACCESS_KEY_ID"
+          },
+          {
+            "description": "Your Access Key SECRET",
+            "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET"
+          }
+        ],
+        "name": "alibaba-cloud-ops-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.8.6"
+      }
+    ],
+    "repository": {
+      "id": "967873415",
+      "source": "github",
+      "url": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server",
+    "serverid": "alibaba-cloud-ops-mcp-server",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:06Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/versions",
+    "xid": "/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server"
+  },
+  "alibabacloud-adb-mysql-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:09.009250771Z",
+    "description": "AnalyticDB for MySQL MCP Server",
+    "epoch": 1,
+    "id": "7f6e6610-4df3-490e-95e3-03ec954eb2ab",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/meta",
+    "modifiedat": "2025-05-27T10:02:09.009250771Z",
+    "name": "io.github.aliyun/alibabacloud-adb-mysql-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "host",
+            "name": "ADB_MYSQL_HOST"
+          },
+          {
+            "description": "port",
+            "name": "ADB_MYSQL_PORT"
+          },
+          {
+            "description": "database_user",
+            "name": "ADB_MYSQL_USER"
+          },
+          {
+            "description": "database_password",
+            "name": "ADB_MYSQL_PASSWORD"
+          },
+          {
+            "description": "database",
+            "name": "ADB_MYSQL_DATABASE"
+          }
+        ],
+        "name": "adb-mysql-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--with adb-mysql-mcp-server",
+            "description": "With flag and value",
+            "format": "string",
+            "is_required": true,
+            "name": "--with adb-mysql-mcp-server",
+            "type": "named",
+            "value": "--with adb-mysql-mcp-server",
+            "value_hint": "adb-mysql-mcp-server"
+          },
+          {
+            "default": "adb-mysql-mcp-server",
+            "description": "Script/module to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "adb-mysql-mcp-server",
+            "value_hint": "adb-mysql-mcp-server"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "1.0.0"
+      }
+    ],
+    "repository": {
+      "id": "956503834",
+      "source": "github",
+      "url": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server",
+    "serverid": "alibabacloud-adb-mysql-mcp-server",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:04Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/versions",
+    "xid": "/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server"
+  },
+  "alibabacloud-hologres-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:09.180616779Z",
+    "description": "",
+    "epoch": 1,
+    "id": "e67dda78-7d99-43e5-9e98-c80267f34940",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-hologres-mcp-server/meta",
+    "modifiedat": "2025-05-27T10:02:09.180616779Z",
+    "name": "io.github.aliyun/alibabacloud-hologres-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "host",
+            "name": "HOLOGRES_HOST"
+          },
+          {
+            "description": "port",
+            "name": "HOLOGRES_PORT"
+          },
+          {
+            "description": "access_id",
+            "name": "HOLOGRES_USER"
+          },
+          {
+            "description": "access_key",
+            "name": "HOLOGRES_PASSWORD"
+          },
+          {
+            "description": "database",
+            "name": "HOLOGRES_DATABASE"
+          }
+        ],
+        "name": "hologres-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.1.9"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "951662313",
+      "source": "github",
+      "url": "https://github.com/aliyun/alibabacloud-hologres-mcp-server"
+    },
+    "resources": [
+      {
+        "description": "Hologres is a PostgreSQL-compatible OLAP product. List all schemas in Hologres database",
+        "mimetype": "text/plain",
+        "name": "All Schemas",
+        "uritemplate": "hologres:///schemas"
+      },
+      {
+        "description": "List all tables in a specific schema",
+        "mimetype": "text/plain",
+        "name": "Schema Tables",
+        "uritemplate": "hologres:///{schema}/tables"
+      },
+      {
+        "description": "Get the DDL script of a table in a specific schema",
+        "mimetype": "text/plain",
+        "name": "Table DDL",
+        "uritemplate": "hologres:///{schema}/{table}/ddl"
+      },
+      {
+        "description": "Get statistics information of a table",
+        "mimetype": "text/plain",
+        "name": "Table Statistics",
+        "uritemplate": "hologres:///{schema}/{table}/statistic"
+      },
+      {
+        "description": "List all partitions of a partitioned table",
+        "mimetype": "text/plain",
+        "name": "Table Statistics",
+        "uritemplate": "hologres:///{schema}/{table}/partitions"
+      },
+      {
+        "description": "System information in Hologres, following are some common system_paths:\n\n'missing_stats_tables'    Shows the tables that are missing statistics.\n'stat_activity'    Shows the information of current running queries.\n'query_log/latest/\u003crow_limits\u003e'    Get recent query log history with specified number of rows.\n'query_log/user/\u003cuser_name\u003e/\u003crow_limits\u003e'    Get query log history for a specific user with row limits.\n'query_log/application/\u003capplication_name\u003e/\u003crow_limits\u003e'    Get query log history for a specific application with row limits.\n'query_log/failed/\u003cinterval\u003e/\u003crow_limits\u003e' - Get failed query log history with interval and specified number of rows.\n",
+        "mimetype": "text/plain",
+        "name": "System internal Information",
+        "uritemplate": "system:///{+system_path}"
+      }
+    ],
+    "self": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-hologres-mcp-server",
+    "serverid": "alibabacloud-hologres-mcp-server",
+    "tools": [
+      {
+        "description": "Execute SELECT SQL to query data from Hologres database.",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "The (SELECT) SQL query to execute",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "execute_select_sql"
+      },
+      {
+        "description": "Execute (INSERT, UPDATE, DELETE) SQL to insert, update, and delete data in Hologres databse.",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "The DML SQL query to execute",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "execute_dml_sql"
+      },
+      {
+        "description": "Execute (CREATE, ALTER, DROP) SQL statements to CREATE, ALTER, or DROP tables, views, procedures, GUCs etc. in Hologres databse.",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "The DDL SQL query to execute",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "execute_ddl_sql"
+      },
+      {
+        "description": "Execute the ANALYZE TABLE command to have Hologres collect table statistics, enabling QO to generate better query plans",
+        "inputschema": {
+          "properties": {
+            "schema": {
+              "description": "Schema name",
+              "type": "string"
+            },
+            "table": {
+              "description": "Table name",
+              "type": "string"
+            }
+          },
+          "required": [
+            "schema",
+            "table"
+          ],
+          "type": "object"
+        },
+        "name": "gather_table_statistics"
+      },
+      {
+        "description": "Get query plan for a SQL query",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "The SQL query to analyze",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "get_query_plan"
+      },
+      {
+        "description": "Get actual execution plan with runtime statistics for a SQL query",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "The SQL query to analyze",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "get_execution_plan"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:59:31Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-hologres-mcp-server/versions",
+    "xid": "/mcpproviders/aliyun/servers/alibabacloud-hologres-mcp-server"
+  }
+}

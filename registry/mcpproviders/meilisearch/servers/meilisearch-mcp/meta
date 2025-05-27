@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:13.523572806Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/meilisearch/servers/meilisearch-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:13.523572806Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/meilisearch/servers/meilisearch-mcp/meta",
+  "serverid": "meilisearch-mcp",
+  "xid": "/mcpproviders/meilisearch/servers/meilisearch-mcp/meta"
+}

@@ -1,0 +1,799 @@
+{
+  "crypto-feargreed-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:01.309128787Z",
+    "description": "Providing real-time and historical Crypto Fear \u0026 Greed Index data",
+    "epoch": 1,
+    "id": "45ee52ba-1e4c-48a5-9eef-de7a234997db",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-feargreed-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:01.309128787Z",
+    "name": "io.github.kukapay/crypto-feargreed-mcp",
+    "packages": [
+      {
+        "name": "crypto-feargreed-mcp",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [
+      {
+        "arguments": [
+          {
+            "description": "Crypto Fear \u0026 Greed Index value to interpret",
+            "name": "value",
+            "required": true
+          }
+        ],
+        "description": "Index Data Interpretation.",
+        "name": "interpret_fng"
+      }
+    ],
+    "repository": {
+      "id": "948974664",
+      "source": "github",
+      "url": "https://github.com/kukapay/crypto-feargreed-mcp"
+    },
+    "resources": [
+      {
+        "description": "Current crypto Fear \u0026 Greed Index.",
+        "name": "current",
+        "uritemplate": "fng://current"
+      },
+      {
+        "description": "Historical Data of Crypto Fear \u0026 Greed Index for specified number of days.",
+        "name": "history",
+        "uritemplate": "fng://history/{days}"
+      }
+    ],
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-feargreed-mcp",
+    "serverid": "crypto-feargreed-mcp",
+    "tools": [
+      {
+        "description": "Current Index. Same as fng://current",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get_current_fng_tool"
+      },
+      {
+        "description": "Historical Index Data. Same as fng://history/{days}",
+        "inputschema": {
+          "properties": {
+            "days": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "days"
+          ],
+          "type": "object"
+        },
+        "name": "get_historical_fng_tool"
+      },
+      {
+        "description": "Index trend Analysis.",
+        "inputschema": {
+          "properties": {
+            "days": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "days"
+          ],
+          "type": "object"
+        },
+        "name": "analyze_fng_trend"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:59Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-feargreed-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/crypto-feargreed-mcp"
+  },
+  "crypto-indicators-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:01.490443079Z",
+    "description": "An MCP server providing a range of cryptocurrency technical analysis indicators and strategies.",
+    "epoch": 1,
+    "id": "0852caec-a861-4f9c-9e94-a7c8b67a1641",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:01.490443079Z",
+    "name": "io.github.kukapay/crypto-indicators-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "binance",
+            "name": "EXCHANGE_NAME"
+          }
+        ],
+        "name": "crypto-indicators-mcp",
+        "package_arguments": [
+          {
+            "default": "path/to/crypto-indicators-mcp/index.js",
+            "description": "Positional argument: path/to/crypto-indicators-mcp/index.js",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/crypto-indicators-mcp/index.js",
+            "value_hint": "path/to/crypto-indicators-mcp/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.1"
+      }
+    ],
+    "repository": {
+      "id": "953321792",
+      "source": "github",
+      "url": "https://github.com/kukapay/crypto-indicators-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp",
+    "serverid": "crypto-indicators-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:05:01Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/crypto-indicators-mcp"
+  },
+  "crypto-sentiment-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:01.65673828Z",
+    "description": "An MCP server that delivers cryptocurrency sentiment analysis to AI agents.",
+    "epoch": 1,
+    "id": "bb7a2190-2e72-4ccf-9603-226e0fde174c",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-sentiment-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:01.65673828Z",
+    "name": "io.github.kukapay/crypto-sentiment-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "${input:apiKey}",
+            "name": "API_KEY"
+          }
+        ],
+        "name": "crypto-sentiment-mcp",
+        "registry_name": "npm",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "953543740",
+      "source": "github",
+      "url": "https://github.com/kukapay/crypto-sentiment-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-sentiment-mcp",
+    "serverid": "crypto-sentiment-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:05:04Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-sentiment-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/crypto-sentiment-mcp"
+  },
+  "cryptopanic-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:01.833263992Z",
+    "description": "Provide latest cryptocurrency news to AI agents.",
+    "epoch": 1,
+    "id": "91f75500-0051-4d05-a5b2-9a87aa52ec3a",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/cryptopanic-mcp-server/meta",
+    "modifiedat": "2025-05-27T10:03:01.833263992Z",
+    "name": "io.github.kukapay/cryptopanic-mcp-server",
+    "packages": [
+      {
+        "name": "cryptopanic-mcp-server",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "946301386",
+      "source": "github",
+      "url": "https://github.com/kukapay/cryptopanic-mcp-server"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/cryptopanic-mcp-server",
+    "serverid": "cryptopanic-mcp-server",
+    "tools": [
+      {
+        "description": "Fetch latest cryptocurrency news, analysis, or videos from CryptoPanic.",
+        "inputschema": {
+          "properties": {
+            "kind": {
+              "description": "Content type (news, analysis, videos)",
+              "type": "string"
+            },
+            "num_pages": {
+              "description": "Number of pages to fetch (default: 1, max: 10)",
+              "type": "integer"
+            }
+          },
+          "required": [],
+          "type": "object"
+        },
+        "name": "get_crypto_news"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:05:05Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/cryptopanic-mcp-server/versions",
+    "xid": "/mcpproviders/kukapay/servers/cryptopanic-mcp-server"
+  },
+  "dune-analytics-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:02.015722376Z",
+    "description": "A mcp server that bridges Dune Analytics data to AI agents.",
+    "epoch": 1,
+    "id": "2d851046-40f2-4088-95df-d6c0f93c2f0a",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:02.015722376Z",
+    "name": "io.github.kukapay/dune-analytics-mcp",
+    "packages": [
+      {
+        "name": "dune-analytics-mcp",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "949262442",
+      "source": "github",
+      "url": "https://github.com/kukapay/dune-analytics-mcp"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp",
+    "serverid": "dune-analytics-mcp",
+    "tools": [
+      {
+        "description": "Get the latest results for a specific query ID as a CSV string on dune analytics",
+        "inputschema": {
+          "properties": {
+            "query_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "query_id"
+          ],
+          "type": "object"
+        },
+        "name": "get_latest_result"
+      },
+      {
+        "description": "Run a query by ID and return results as a CSV string on dune analytics",
+        "inputschema": {
+          "properties": {
+            "query_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "query_id"
+          ],
+          "type": "object"
+        },
+        "name": "run_query"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:06:07Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/dune-analytics-mcp"
+  },
+  "freqtrade-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:02.197410398Z",
+    "description": "An MCP server that integrates with the Freqtrade cryptocurrency trading bot.",
+    "epoch": 1,
+    "id": "573c235f-93d7-45a3-9f23-b1166a660c97",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/freqtrade-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:02.197410398Z",
+    "name": "io.github.kukapay/freqtrade-mcp",
+    "packages": [
+      {
+        "name": "freqtrade-mcp",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "954056822",
+      "source": "github",
+      "url": "https://github.com/kukapay/freqtrade-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/freqtrade-mcp",
+    "serverid": "freqtrade-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:06:57Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/freqtrade-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/freqtrade-mcp"
+  },
+  "jupiter-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:02.354555672Z",
+    "description": "An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API.",
+    "epoch": 1,
+    "id": "243a8c0e-4bb7-4932-9d7c-8e8229306295",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:02.354555672Z",
+    "name": "io.github.kukapay/jupiter-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "solana rpc url you can access",
+            "name": "SOLANA_RPC_URL"
+          },
+          {
+            "description": "your private key",
+            "name": "PRIVATE_KEY"
+          }
+        ],
+        "name": "jupiter-mcp",
+        "package_arguments": [
+          {
+            "default": "path/to/jupiter-mcp/server/index.js",
+            "description": "Jupiter MCP server entry file",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/jupiter-mcp/server/index.js",
+            "value_hint": "path/to/jupiter-mcp/server/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.1"
+      }
+    ],
+    "repository": {
+      "id": "952976727",
+      "source": "github",
+      "url": "https://github.com/kukapay/jupiter-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp",
+    "serverid": "jupiter-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:08:44Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/jupiter-mcp"
+  },
+  "pancakeswap-poolspy-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:02.537809918Z",
+    "description": "An MCP server that tracks newly created liquidity pools on Pancake Swap",
+    "epoch": 1,
+    "id": "925a5d1d-ab12-44bd-9297-a20bdde6ec68",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/pancakeswap-poolspy-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:02.537809918Z",
+    "name": "io.github.kukapay/pancakeswap-poolspy-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your api key from The Graph",
+            "name": "THEGRAPH_API_KEY"
+          }
+        ],
+        "name": "pancakeswap-poolspy-mcp",
+        "package_arguments": [
+          {
+            "default": "--directory path/to/pancakeswap-poolspy-mcp",
+            "description": "Specify directory to run from",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory path/to/pancakeswap-poolspy-mcp",
+            "type": "named",
+            "value": "--directory path/to/pancakeswap-poolspy-mcp",
+            "value_hint": "path/to/pancakeswap-poolspy-mcp"
+          },
+          {
+            "default": "main.py",
+            "description": "Python script to execute",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "main.py",
+            "value_hint": "main.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "949792903",
+      "source": "github",
+      "url": "https://github.com/kukapay/pancakeswap-poolspy-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/pancakeswap-poolspy-mcp",
+    "serverid": "pancakeswap-poolspy-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:12:19Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/pancakeswap-poolspy-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/pancakeswap-poolspy-mcp"
+  },
+  "thegraph-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:02.737195445Z",
+    "description": "An MCP server that powers AI agents with indexed blockchain data from The Graph.",
+    "epoch": 1,
+    "id": "ea41dc54-96fd-41db-90ec-92a1a45e7151",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/thegraph-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:02.737195445Z",
+    "name": "io.github.kukapay/thegraph-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your_api_key_here",
+            "name": "THEGRAPH_API_KEY"
+          }
+        ],
+        "name": "thegraph-mcp",
+        "package_arguments": [
+          {
+            "default": "--directory path/to/thegraph-mcp",
+            "description": "Specifies the directory to run the application from",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory path/to/thegraph-mcp",
+            "type": "named",
+            "value": "--directory path/to/thegraph-mcp",
+            "value_hint": "path/to/thegraph-mcp"
+          },
+          {
+            "default": "main.py",
+            "description": "Main python file to execute",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "main.py",
+            "value_hint": "main.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "952738950",
+      "source": "github",
+      "url": "https://github.com/kukapay/thegraph-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/thegraph-mcp",
+    "serverid": "thegraph-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:14:46Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/thegraph-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/thegraph-mcp"
+  },
+  "token-minter-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:02.9331517Z",
+    "description": "An MCP server providing tools for AI agents to mint ERC-20 tokens across multiple blockchains.",
+    "epoch": 1,
+    "id": "10bb9deb-9384-4e4d-935e-9d830015a43e",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-minter-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:02.9331517Z",
+    "name": "io.github.kukapay/token-minter-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your infura key",
+            "name": "INFURA_KEY"
+          },
+          {
+            "description": "your private key",
+            "name": "PRIVATE_KEY"
+          }
+        ],
+        "name": "token-minter-mcp",
+        "package_arguments": [
+          {
+            "default": "path/to/token-minter-mcp/server/index.js",
+            "description": "Path to the server entry point",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/token-minter-mcp/server/index.js",
+            "value_hint": "path/to/token-minter-mcp/server/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.1"
+      }
+    ],
+    "repository": {
+      "id": "951336068",
+      "source": "github",
+      "url": "https://github.com/kukapay/token-minter-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-minter-mcp",
+    "serverid": "token-minter-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:14:59Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-minter-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/token-minter-mcp"
+  },
+  "token-revoke-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:03.117408426Z",
+    "description": "An MCP server for checking and revoking ERC-20 token allowances across multiple blockchains.",
+    "epoch": 1,
+    "id": "4bd856fc-761e-43e3-9236-7b996b6b7ec7",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-revoke-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:03.117408426Z",
+    "name": "io.github.kukapay/token-revoke-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your moralis api key",
+            "name": "MORALIS_API_KEY"
+          },
+          {
+            "description": "your wallet private key",
+            "name": "PRIVATE_KEY"
+          }
+        ],
+        "name": "token-revoke-mcp",
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "repository": {
+      "id": "956577908",
+      "source": "github",
+      "url": "https://github.com/kukapay/token-revoke-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-revoke-mcp",
+    "serverid": "token-revoke-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:01Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-revoke-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/token-revoke-mcp"
+  },
+  "uniswap-poolspy-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:03.299163654Z",
+    "description": "An MCP server that tracks newly created liquidity pools on Uniswap across nine blockchain networks.",
+    "epoch": 1,
+    "id": "1ff3b09d-5c19-4254-849f-34244dc6ee88",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-poolspy-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:03.299163654Z",
+    "name": "io.github.kukapay/uniswap-poolspy-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your api key from The Graph",
+            "name": "THEGRAPH_API_KEY"
+          }
+        ],
+        "name": "uniswap-poolspy-mcp",
+        "package_arguments": [
+          {
+            "default": "run main.py",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "run main.py",
+            "value_hint": "main.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "950939450",
+      "source": "github",
+      "url": "https://github.com/kukapay/uniswap-poolspy-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-poolspy-mcp",
+    "serverid": "uniswap-poolspy-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:09Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-poolspy-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/uniswap-poolspy-mcp"
+  },
+  "uniswap-trader-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:03.478322775Z",
+    "description": "An MCP server for AI agents to automate token swaps on Uniswap DEX across multiple blockchains.",
+    "epoch": 1,
+    "id": "1dd6d7a5-ba98-4fce-b4a4-d0541df84569",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:03.478322775Z",
+    "name": "io.github.kukapay/uniswap-trader-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your infura key",
+            "name": "INFURA_KEY"
+          },
+          {
+            "description": "your private key",
+            "name": "WALLET_PRIVATE_KEY"
+          }
+        ],
+        "name": "uniswap-trader-mcp",
+        "package_arguments": [
+          {
+            "default": "path/to/uniswap-trader-mcp/server/index.js",
+            "description": "Path to main entry file",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/uniswap-trader-mcp/server/index.js",
+            "value_hint": "path/to/uniswap-trader-mcp/server/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.1"
+      }
+    ],
+    "repository": {
+      "id": "952312114",
+      "source": "github",
+      "url": "https://github.com/kukapay/uniswap-trader-mcp"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp",
+    "serverid": "uniswap-trader-mcp",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:12Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/uniswap-trader-mcp"
+  },
+  "whale-tracker-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:03.639811694Z",
+    "description": "A mcp server for tracking cryptocurrency whale transactions.",
+    "epoch": 1,
+    "id": "e69c8abd-6964-48b1-a7cb-89c926932c47",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/whale-tracker-mcp/meta",
+    "modifiedat": "2025-05-27T10:03:03.639811694Z",
+    "name": "io.github.kukapay/whale-tracker-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "${input:apiKey}",
+            "name": "API_KEY"
+          }
+        ],
+        "name": "whale-tracker-mcp",
+        "registry_name": "npm",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [
+      {
+        "description": "A reusable template for analyzing whale transaction patterns, optionally filtered by blockchain.",
+        "name": "query_whale_activity"
+      }
+    ],
+    "repository": {
+      "id": "948027955",
+      "source": "github",
+      "url": "https://github.com/kukapay/whale-tracker-mcp"
+    },
+    "resources": [
+      {
+        "description": "Expose recent transactions for a specified blockchain as contextual data.",
+        "name": "whale://transactions/{blockchain}",
+        "uritemplate": "whale://transactions/{blockchain}"
+      }
+    ],
+    "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/whale-tracker-mcp",
+    "serverid": "whale-tracker-mcp",
+    "tools": [
+      {
+        "description": "Fetch recent whale transactions with optional filters for blockchain, minimum value, and limit.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get_recent_transactions"
+      },
+      {
+        "description": "Retrieve detailed information about a specific transaction by its ID.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get_transaction_details"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:42Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/whale-tracker-mcp/versions",
+    "xid": "/mcpproviders/kukapay/servers/whale-tracker-mcp"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "okta-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:56.387397639Z",
+    "description": "Okta MCP Server",
+    "epoch": 1,
+    "id": "618671cb-8783-47c7-a81c-164f5f9e2cc1",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/meta",
+    "modifiedat": "2025-05-27T10:02:56.387397639Z",
+    "name": "io.github.kapilduraphe/okta-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "https://your-domain.okta.com",
+            "name": "OKTA_ORG_URL"
+          },
+          {
+            "description": "your-api-token",
+            "name": "OKTA_API_TOKEN"
+          }
+        ],
+        "name": "okta-mcp-server",
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "932923739",
+      "source": "github",
+      "url": "https://github.com/kapilduraphe/okta-mcp-server"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/okta-mcp-server",
+    "serverid": "okta-mcp-server",
+    "tools": [
+      {
+        "description": "Retrieves detailed user information from Okta, including user details, account dates, personal information, employment details, contact information, address, and preferences.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get_user"
+      },
+      {
+        "description": "Lists users from Okta with optional filtering and pagination, supporting SCIM filter expressions, free-form text search, sorting options, and pagination support.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "list_users"
+      },
+      {
+        "description": "Lists user groups from Okta with optional filtering and pagination, supporting filter expressions, free-form text search, sorting options, and pagination support.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "list_groups"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:46Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/versions",
+    "xid": "/mcpproviders/kapilduraphe/servers/okta-mcp-server"
+  },
+  "webflow-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:56.534631223Z",
+    "description": "Webflow MCP server",
+    "epoch": 1,
+    "id": "c7876b07-1fe3-4006-a104-93ef9f9e1669",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/webflow-mcp-server/meta",
+    "modifiedat": "2025-05-27T10:02:56.534631223Z",
+    "name": "io.github.kapilduraphe/webflow-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your-api-token",
+            "name": "WEBFLOW_API_TOKEN"
+          }
+        ],
+        "name": "webflow-mcp-server",
+        "package_arguments": [
+          {
+            "default": "/ABSOLUTE/PATH/TO/YOUR/build/index.js",
+            "description": "Path to the entry point script",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "/ABSOLUTE/PATH/TO/YOUR/build/index.js",
+            "value_hint": "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "935070409",
+      "source": "github",
+      "url": "https://github.com/kapilduraphe/webflow-mcp-server"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/webflow-mcp-server",
+    "serverid": "webflow-mcp-server",
+    "tools": [
+      {
+        "description": "Retrieve detailed information about a specific Webflow site by ID, including workspace, creation date, display name, and publishing details",
+        "inputschema": {
+          "properties": {
+            "siteId": {
+              "description": "The unique identifier of the Webflow site",
+              "type": "string"
+            }
+          },
+          "required": [
+            "siteId"
+          ],
+          "type": "object"
+        },
+        "name": "get_site"
+      },
+      {
+        "description": "Retrieve a list of all Webflow sites accessible to the authenticated user",
+        "inputschema": {
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "name": "get_sites"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:40Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/webflow-mcp-server/versions",
+    "xid": "/mcpproviders/kapilduraphe/servers/webflow-mcp-server"
+  }
+}

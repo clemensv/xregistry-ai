@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:04:10.326308376Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/VeyraX/servers/veyrax-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:04:10.326308376Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/VeyraX/servers/veyrax-mcp/meta",
+  "serverid": "veyrax-mcp",
+  "xid": "/mcpproviders/VeyraX/servers/veyrax-mcp/meta"
+}

@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:20.694135866Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/chuckbryan/servers/ynabmcpserver/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:20.694135866Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/chuckbryan/servers/ynabmcpserver/meta",
+  "serverid": "ynabmcpserver",
+  "xid": "/mcpproviders/chuckbryan/servers/ynabmcpserver/meta"
+}

@@ -1,0 +1,136 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:30.506398652Z",
+  "description": "A TypeScript framework for building MCP servers.",
+  "epoch": 1,
+  "id": "c978017d-b94a-4d0c-a46e-5395cb94a67e",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/punkpeye/servers/fastmcp/meta",
+  "modifiedat": "2025-05-27T10:03:30.506398652Z",
+  "name": "io.github.punkpeye/fastmcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "value",
+          "name": "YOUR_ENV_VAR"
+        }
+      ],
+      "name": "fastmcp",
+      "package_arguments": [
+        {
+          "default": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "description": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/PATH/TO/YOUR_PROJECT/src/index.ts",
+          "value_hint": "/PATH/TO/YOUR_PROJECT/src/index.ts"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.0.0"
+    }
+  ],
+  "prompts": [
+    {
+      "arguments": [
+        {
+          "description": "Git diff or description of changes",
+          "name": "changes",
+          "required": true
+        }
+      ],
+      "description": "Generate a Git commit message",
+      "name": "git-commit"
+    },
+    {
+      "arguments": [
+        {
+          "description": "Name of the country",
+          "name": "name",
+          "required": true
+        }
+      ],
+      "description": "Writes a poem about a country",
+      "name": "countryPoem"
+    }
+  ],
+  "repository": {
+    "id": "908799323",
+    "source": "github",
+    "url": "https://github.com/punkpeye/fastmcp"
+  },
+  "resources": [
+    {
+      "mimetype": "text/plain",
+      "name": "Application Logs",
+      "uritemplate": "file:///logs/{name}.log"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/punkpeye/servers/fastmcp",
+  "serverid": "fastmcp",
+  "tools": [
+    {
+      "description": "Add two numbers",
+      "inputschema": {
+        "additionalProperties": false,
+        "properties": {
+          "a": {
+            "type": "number"
+          },
+          "b": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "a",
+          "b"
+        ],
+        "type": "object"
+      },
+      "name": "add"
+    },
+    {
+      "description": "Fetch the content of a url (using Zod)",
+      "inputschema": {
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "url"
+        ],
+        "type": "object"
+      },
+      "name": "fetch-zod"
+    },
+    {
+      "description": "Fetch the content of a url (using ArkType)",
+      "inputschema": {
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "url"
+        ],
+        "type": "object"
+      },
+      "name": "fetch-arktype"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:16:25Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/punkpeye/servers/fastmcp/versions",
+  "xid": "/mcpproviders/punkpeye/servers/fastmcp"
+}

@@ -1,0 +1,140 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:34.115376222Z",
+  "description": "A Model Context Protocol (MCP) server that provides AI assistants with access to Microsoft OneNote. This server enables AI models to read from and write to OneNote notebooks, sections, and pages.",
+  "epoch": 1,
+  "id": "a2e44c59-4a60-47a6-8588-22b90cebe345",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/rajvirtual/servers/MCP-Servers/meta",
+  "modifiedat": "2025-05-27T10:03:34.115376222Z",
+  "name": "io.github.rajvirtual/mcp-servers",
+  "packages": [
+    {
+      "name": "rajvirtual/MCP-Servers",
+      "registry_name": "unknown",
+      "version": ""
+    }
+  ],
+  "prompts": [
+    {
+      "description": "List all available OneNote notebooks",
+      "name": "Get all notebooks"
+    },
+    {
+      "description": "List all sections in a specific notebook",
+      "name": "Get sections in a notebook"
+    },
+    {
+      "description": "List all pages in a specific section",
+      "name": "Get pages in a section"
+    },
+    {
+      "description": "Get content from a specific page",
+      "name": "Get a specific page"
+    },
+    {
+      "description": "Create a brand new notebook",
+      "name": "Create a new notebook"
+    },
+    {
+      "description": "Create a new section in a specific notebook",
+      "name": "Create a section in a notebook"
+    },
+    {
+      "description": "Create a new page in a specific section",
+      "name": "Create a page in a section"
+    }
+  ],
+  "repository": {
+    "id": "947565134",
+    "source": "github",
+    "url": "https://github.com/rajvirtual/MCP-Servers"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/rajvirtual/servers/MCP-Servers",
+  "serverid": "MCP-Servers",
+  "tools": [
+    {
+      "description": "Read content from Microsoft OneNote notebooks, sections, or pages",
+      "inputschema": {
+        "properties": {
+          "includeContent": {
+            "default": true,
+            "description": "Whether to include the content of the page",
+            "type": "boolean"
+          },
+          "includeMetadata": {
+            "default": false,
+            "description": "Whether to include metadata about the page",
+            "type": "boolean"
+          },
+          "notebookId": {
+            "description": "ID of the notebook to list sections from",
+            "type": "string"
+          },
+          "pageId": {
+            "description": "ID of the specific page to read",
+            "type": "string"
+          },
+          "sectionId": {
+            "description": "ID of the section to list pages from",
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "read_content"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "type": "object"
+      },
+      "name": "onenote-read"
+    },
+    {
+      "description": "Create new content in Microsoft OneNote",
+      "inputschema": {
+        "properties": {
+          "content": {
+            "description": "Content in Markdown format",
+            "type": "string"
+          },
+          "parentId": {
+            "description": "ID of the parent section or notebook",
+            "type": "string"
+          },
+          "title": {
+            "description": "Title of the content to create",
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "create_page",
+              "create_section",
+              "create_notebook"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "content"
+        ],
+        "type": "object"
+      },
+      "name": "onenote-create"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:48Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/rajvirtual/servers/MCP-Servers/versions",
+  "xid": "/mcpproviders/rajvirtual/servers/MCP-Servers"
+}

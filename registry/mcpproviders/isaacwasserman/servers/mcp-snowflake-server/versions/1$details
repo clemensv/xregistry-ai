@@ -1,0 +1,204 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:50.85285952Z",
+  "description": "",
+  "epoch": 1,
+  "id": "61942e80-99c9-4856-90c8-5a11ac76ade5",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:02:50.85285952Z",
+  "name": "io.github.isaacwasserman/mcp-snowflake-server",
+  "packages": [
+    {
+      "name": "mcp_snowflake_server",
+      "package_arguments": [
+        {
+          "default": "--python=3.12",
+          "description": "--python=3.12",
+          "format": "string",
+          "is_required": true,
+          "name": "--python=3.12",
+          "type": "named",
+          "value": "--python=3.12",
+          "value_hint": "3.12"
+        },
+        {
+          "default": "--directory /absolute/path/to/mcp_snowflake_server",
+          "description": "--directory /absolute/path/to/mcp_snowflake_server",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /absolute/path/to/mcp_snowflake_server",
+          "type": "named",
+          "value": "--directory /absolute/path/to/mcp_snowflake_server",
+          "value_hint": "/absolute/path/to/mcp_snowflake_server"
+        },
+        {
+          "default": "mcp_snowflake_server",
+          "description": "mcp_snowflake_server",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp_snowflake_server",
+          "value_hint": "mcp_snowflake_server"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.4.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "903050511",
+    "source": "github",
+    "url": "https://github.com/isaacwasserman/mcp-snowflake-server"
+  },
+  "resources": [
+    {
+      "description": "A living document of discovered data insights",
+      "mimetype": "text/plain",
+      "name": "Data Insights Memo",
+      "uritemplate": "memo://insights"
+    },
+    {
+      "description": "Description of the {table_name} table",
+      "mimetype": "text/plain",
+      "name": "{table_name} table",
+      "uritemplate": "context://table/{table_name}"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/versions/1",
+  "serverid": "mcp-snowflake-server",
+  "tools": [
+    {
+      "description": "List all available databases in Snowflake",
+      "inputschema": {
+        "properties": {},
+        "type": "object"
+      },
+      "name": "list_databases"
+    },
+    {
+      "description": "List all schemas in a database",
+      "inputschema": {
+        "properties": {
+          "database": {
+            "description": "Database name to list schemas from",
+            "type": "string"
+          }
+        },
+        "required": [
+          "database"
+        ],
+        "type": "object"
+      },
+      "name": "list_schemas"
+    },
+    {
+      "description": "List all tables in a specific database and schema",
+      "inputschema": {
+        "properties": {
+          "database": {
+            "description": "Database name",
+            "type": "string"
+          },
+          "schema": {
+            "description": "Schema name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "database",
+          "schema"
+        ],
+        "type": "object"
+      },
+      "name": "list_tables"
+    },
+    {
+      "description": "Get the schema information for a specific table",
+      "inputschema": {
+        "properties": {
+          "table_name": {
+            "description": "Fully qualified table name in the format 'database.schema.table'",
+            "type": "string"
+          }
+        },
+        "required": [
+          "table_name"
+        ],
+        "type": "object"
+      },
+      "name": "describe_table"
+    },
+    {
+      "description": "Execute a SELECT query.",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "SELECT SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "read_query"
+    },
+    {
+      "description": "Add a data insight to the memo",
+      "inputschema": {
+        "properties": {
+          "insight": {
+            "description": "Data insight discovered from analysis",
+            "type": "string"
+          }
+        },
+        "required": [
+          "insight"
+        ],
+        "type": "object"
+      },
+      "name": "append_insight"
+    },
+    {
+      "description": "Execute an INSERT, UPDATE, or DELETE query on the Snowflake database",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "write_query"
+    },
+    {
+      "description": "Create a new table in the Snowflake database",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "CREATE TABLE SQL statement",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "create_table"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:04Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/versions/1"
+}

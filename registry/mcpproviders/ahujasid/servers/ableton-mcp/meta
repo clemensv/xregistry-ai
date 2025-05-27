@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:07.267832884Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ahujasid/servers/ableton-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:07.267832884Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/ahujasid/servers/ableton-mcp/meta",
+  "serverid": "ableton-mcp",
+  "xid": "/mcpproviders/ahujasid/servers/ableton-mcp/meta"
+}

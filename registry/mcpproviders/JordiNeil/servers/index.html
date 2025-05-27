@@ -1,0 +1,94 @@
+{
+  "mcp-databricks-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:55.862350471Z",
+    "description": "MCP Server for Databricks",
+    "epoch": 1,
+    "id": "5061131f-b74a-4997-a349-99e7789b0eb3",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/JordiNeil/servers/mcp-databricks-server/meta",
+    "modifiedat": "2025-05-27T10:02:55.862350471Z",
+    "name": "io.github.jordineil/mcp-databricks-server",
+    "packages": [
+      {
+        "name": "JordiNeil/mcp-databricks-server",
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "952279762",
+      "source": "github",
+      "url": "https://github.com/JordiNeil/mcp-databricks-server"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/JordiNeil/servers/mcp-databricks-server",
+    "serverid": "mcp-databricks-server",
+    "tools": [
+      {
+        "description": "Execute SQL queries on your Databricks SQL warehouse",
+        "inputschema": {
+          "properties": {
+            "sql": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "sql"
+          ],
+          "type": "object"
+        },
+        "name": "run_sql_query"
+      },
+      {
+        "description": "List all Databricks jobs in your workspace",
+        "inputschema": {
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "name": "list_jobs"
+      },
+      {
+        "description": "Get the status of a specific Databricks job by ID",
+        "inputschema": {
+          "properties": {
+            "job_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "job_id"
+          ],
+          "type": "object"
+        },
+        "name": "get_job_status"
+      },
+      {
+        "description": "Get detailed information about a specific Databricks job",
+        "inputschema": {
+          "properties": {
+            "job_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "job_id"
+          ],
+          "type": "object"
+        },
+        "name": "get_job_details"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:05:10Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/JordiNeil/servers/mcp-databricks-server/versions",
+    "xid": "/mcpproviders/JordiNeil/servers/mcp-databricks-server"
+  }
+}

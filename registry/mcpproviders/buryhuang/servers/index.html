@@ -1,0 +1,86 @@
+{
+  "mcp-hubspot": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:17.991865941Z",
+    "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with HubSpot CRM data, providing built-in vector storage and caching mechanisms help overcome HubSpot API limitations while improving response times.",
+    "epoch": 1,
+    "id": "aef75131-e237-4b91-a2b8-c0f416d3618f",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/buryhuang/servers/mcp-hubspot/meta",
+    "modifiedat": "2025-05-27T10:02:17.991865941Z",
+    "name": "io.github.buryhuang/mcp-hubspot",
+    "packages": [
+      {
+        "name": "mcp-server-hubspot",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "Attach stdin even if not attached",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i",
+            "value_hint": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "Remove container after exit",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm",
+            "value_hint": "--rm"
+          },
+          {
+            "default": "-e HUBSPOT_ACCESS_TOKEN=your_token",
+            "description": "Set HUBSPOT_ACCESS_TOKEN environment variable in the container",
+            "format": "string",
+            "is_required": true,
+            "name": "-e HUBSPOT_ACCESS_TOKEN=your_token",
+            "type": "named",
+            "value": "-e HUBSPOT_ACCESS_TOKEN=your_token",
+            "value_hint": "HUBSPOT_ACCESS_TOKEN=your_token"
+          },
+          {
+            "default": "-v /path/to/storage:/storage",
+            "description": "Optional persistent storage for state files",
+            "format": "string",
+            "name": "-v /path/to/storage:/storage",
+            "type": "named",
+            "value": "-v /path/to/storage:/storage",
+            "value_hint": "/path/to/storage:/storage"
+          },
+          {
+            "default": "buryhuang/mcp-hubspot:latest",
+            "description": "Docker image to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "buryhuang/mcp-hubspot:latest",
+            "value_hint": "buryhuang/mcp-hubspot:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": "0.2.0"
+      }
+    ],
+    "repository": {
+      "id": "908899631",
+      "source": "github",
+      "url": "https://github.com/peakmojo/mcp-hubspot"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/buryhuang/servers/mcp-hubspot",
+    "serverid": "mcp-hubspot",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:08:06Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/buryhuang/servers/mcp-hubspot/versions",
+    "xid": "/mcpproviders/buryhuang/servers/mcp-hubspot"
+  }
+}

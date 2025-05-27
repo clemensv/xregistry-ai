@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:21.684763596Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/oatpp/servers/oatpp-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:21.684763596Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/oatpp/servers/oatpp-mcp/meta",
+  "serverid": "oatpp-mcp",
+  "xid": "/mcpproviders/oatpp/servers/oatpp-mcp/meta"
+}

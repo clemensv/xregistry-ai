@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:23.702656169Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/comet-ml/servers/opik/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:23.702656169Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/comet-ml/servers/opik/meta",
+  "serverid": "opik",
+  "xid": "/mcpproviders/comet-ml/servers/opik/meta"
+}

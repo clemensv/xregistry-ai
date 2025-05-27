@@ -1,0 +1,93 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:04:18.191324Z",
+  "description": "A Model Context Protocol (MCP) server that enables secure interaction with OceanBase databases. This server allows AI assistants to list tables, read data, and execute SQL queries through a controlled interface, making database exploration and analysis safer and more structured.",
+  "epoch": 1,
+  "id": "b71bb3e0-0871-4ca6-9336-3c731607d3ad",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/yuanoOo/servers/oceanbase_mcp_server/meta",
+  "modifiedat": "2025-05-27T10:04:18.191324Z",
+  "name": "io.github.yuanooo/oceanbase_mcp_server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "localhost",
+          "name": "OB_HOST"
+        },
+        {
+          "description": "2881",
+          "name": "OB_PORT"
+        },
+        {
+          "description": "your_username",
+          "name": "OB_USER"
+        },
+        {
+          "description": "your_password",
+          "name": "OB_PASSWORD"
+        },
+        {
+          "description": "your_database",
+          "name": "OB_DATABASE"
+        }
+      ],
+      "name": "oceanbase_mcp_server",
+      "package_arguments": [
+        {
+          "default": "oceanbase_mcp_server",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "oceanbase_mcp_server",
+          "value_hint": "oceanbase_mcp_server"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "943079798",
+    "source": "github",
+    "url": "https://github.com/yuanoOo/oceanbase_mcp_server"
+  },
+  "resources": [
+    {
+      "description": "Data in table: {table}",
+      "mimetype": "text/plain",
+      "name": "Table",
+      "uritemplate": "oceanbase://{table}/data"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/yuanoOo/servers/oceanbase_mcp_server",
+  "serverid": "oceanbase_mcp_server",
+  "tools": [
+    {
+      "description": "Execute an SQL query on the OceanBase server",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "execute_sql"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:39Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/yuanoOo/servers/oceanbase_mcp_server/versions",
+  "xid": "/mcpproviders/yuanoOo/servers/oceanbase_mcp_server"
+}

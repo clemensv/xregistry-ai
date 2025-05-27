@@ -1,0 +1,76 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:06.186526538Z",
+  "description": "",
+  "epoch": 1,
+  "id": "d5076249-cb9d-4c5e-ae2e-544779ec1a04",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/adenot/servers/mcp-google-search/meta",
+  "modifiedat": "2025-05-27T10:02:06.186526538Z",
+  "name": "io.github.adenot/mcp-google-search",
+  "packages": [
+    {
+      "name": "@adenot/mcp-google-search",
+      "registry_name": "unknown",
+      "version": "0.2.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "925498825",
+    "source": "github",
+    "url": "https://github.com/adenot/mcp-google-search"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/adenot/servers/mcp-google-search",
+  "serverid": "mcp-google-search",
+  "tools": [
+    {
+      "description": "Perform a web search query",
+      "inputschema": {
+        "properties": {
+          "num": {
+            "description": "Number of results (1-10)",
+            "maximum": 10,
+            "minimum": 1,
+            "type": "number"
+          },
+          "query": {
+            "description": "Search query",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "search"
+    },
+    {
+      "description": "Fetch and extract text content from a webpage",
+      "inputschema": {
+        "properties": {
+          "url": {
+            "description": "URL of the webpage to read",
+            "type": "string"
+          }
+        },
+        "required": [
+          "url"
+        ],
+        "type": "object"
+      },
+      "name": "read_webpage"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:07:34Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/adenot/servers/mcp-google-search/versions",
+  "xid": "/mcpproviders/adenot/servers/mcp-google-search"
+}

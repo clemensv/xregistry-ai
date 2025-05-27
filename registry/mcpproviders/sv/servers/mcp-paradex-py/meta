@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:58.233643787Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/sv/servers/mcp-paradex-py/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:58.233643787Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/sv/servers/mcp-paradex-py/meta",
+  "serverid": "mcp-paradex-py",
+  "xid": "/mcpproviders/sv/servers/mcp-paradex-py/meta"
+}

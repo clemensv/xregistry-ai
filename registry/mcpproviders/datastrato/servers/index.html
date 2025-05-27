@@ -1,0 +1,115 @@
+{
+  "mcp-server-gravitino": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:26.094179572Z",
+    "description": "MCP server for Apache Gravitino(incubating)",
+    "epoch": 1,
+    "id": "fee5894b-e255-408d-9cd2-e6ee29d78d78",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/datastrato/servers/mcp-server-gravitino/meta",
+    "modifiedat": "2025-05-27T10:02:26.094179572Z",
+    "name": "io.github.datastrato/mcp-server-gravitino",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "http://localhost:8090",
+            "name": "GRAVITINO_URI"
+          },
+          {
+            "description": "admin",
+            "name": "GRAVITINO_USERNAME"
+          },
+          {
+            "description": "admin",
+            "name": "GRAVITINO_PASSWORD"
+          },
+          {
+            "description": "metalake_demo",
+            "name": "GRAVITINO_METALAKE"
+          }
+        ],
+        "name": "mcp-server-gravitino",
+        "package_arguments": [
+          {
+            "default": "--directory /Users/user/workspace/mcp-server-gravitino",
+            "description": "Set working directory",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /Users/user/workspace/mcp-server-gravitino",
+            "type": "named",
+            "value": "--directory /Users/user/workspace/mcp-server-gravitino",
+            "value_hint": "/Users/user/workspace/mcp-server-gravitino"
+          },
+          {
+            "default": "--with fastmcp",
+            "description": "Add fastmcp",
+            "format": "string",
+            "is_required": true,
+            "name": "--with fastmcp",
+            "type": "named",
+            "value": "--with fastmcp",
+            "value_hint": "fastmcp"
+          },
+          {
+            "default": "--with httpx",
+            "description": "Add httpx",
+            "format": "string",
+            "is_required": true,
+            "name": "--with httpx",
+            "type": "named",
+            "value": "--with httpx",
+            "value_hint": "httpx"
+          },
+          {
+            "default": "--with mcp-server-gravitino",
+            "description": "Add mcp-server-gravitino",
+            "format": "string",
+            "is_required": true,
+            "name": "--with mcp-server-gravitino",
+            "type": "named",
+            "value": "--with mcp-server-gravitino",
+            "value_hint": "mcp-server-gravitino"
+          },
+          {
+            "default": "python",
+            "description": "Run python",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "python",
+            "value_hint": "python"
+          },
+          {
+            "default": "-m mcp_server_gravitino.server",
+            "description": "Run module",
+            "format": "string",
+            "is_required": true,
+            "name": "-m mcp_server_gravitino.server",
+            "type": "named",
+            "value": "-m mcp_server_gravitino.server",
+            "value_hint": "mcp_server_gravitino.server"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "repository": {
+      "id": "966588444",
+      "source": "github",
+      "url": "https://github.com/datastrato/mcp-server-gravitino"
+    },
+    "self": "https://mcpxreg.com/registry/mcpproviders/datastrato/servers/mcp-server-gravitino",
+    "serverid": "mcp-server-gravitino",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:02Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/datastrato/servers/mcp-server-gravitino/versions",
+    "xid": "/mcpproviders/datastrato/servers/mcp-server-gravitino"
+  }
+}

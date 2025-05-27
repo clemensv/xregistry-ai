@@ -1,0 +1,37 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:21.417389398Z",
+  "description": "MCP integration for Google Calendar to manage events.",
+  "epoch": 1,
+  "id": "6543c44a-7ad6-4f9e-bf7e-9f8f969934bf",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/nspady/servers/google-calendar-mcp/meta",
+  "modifiedat": "2025-05-27T10:03:21.417389398Z",
+  "name": "io.github.nspady/google-calendar-mcp",
+  "packages": [
+    {
+      "name": "google-calendar-mcp",
+      "registry_name": "unknown",
+      "version": "1.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "903584784",
+    "source": "github",
+    "url": "https://github.com/nspady/google-calendar-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/nspady/servers/google-calendar-mcp",
+  "serverid": "google-calendar-mcp",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:07:33Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/nspady/servers/google-calendar-mcp/versions",
+  "xid": "/mcpproviders/nspady/servers/google-calendar-mcp"
+}

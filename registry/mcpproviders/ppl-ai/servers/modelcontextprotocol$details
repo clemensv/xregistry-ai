@@ -1,0 +1,40 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:28.142710586Z",
+  "description": "A Model Context Protocol Server connector for Perplexity API, to enable web search without leaving the MCP ecosystem.",
+  "epoch": 1,
+  "id": "9eab3795-a96d-4fad-8521-921599e85240",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/ppl-ai/servers/modelcontextprotocol/meta",
+  "modifiedat": "2025-05-27T10:03:28.142710586Z",
+  "name": "io.github.ppl-ai/modelcontextprotocol",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "YOUR_API_KEY_HERE",
+          "name": "PERPLEXITY_API_KEY"
+        }
+      ],
+      "name": "ppl-ai/modelcontextprotocol",
+      "registry_name": "npm",
+      "version": ""
+    }
+  ],
+  "repository": {
+    "id": "946214670",
+    "source": "github",
+    "url": "https://github.com/ppl-ai/modelcontextprotocol"
+  },
+  "self": "https://mcpxreg.com/registry/mcpproviders/ppl-ai/servers/modelcontextprotocol",
+  "serverid": "modelcontextprotocol",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:01:00Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/ppl-ai/servers/modelcontextprotocol/versions",
+  "xid": "/mcpproviders/ppl-ai/servers/modelcontextprotocol"
+}

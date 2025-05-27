@@ -1,0 +1,158 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:10.390975488Z",
+  "description": "Apache IoTDB MCP Server",
+  "epoch": 1,
+  "id": "31d9b130-4676-45d9-930f-a8bc2d5a3b9e",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server/meta",
+  "modifiedat": "2025-05-27T10:02:10.390975488Z",
+  "name": "io.github.apache/iotdb-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "127.0.0.1",
+          "name": "IOTDB_HOST"
+        },
+        {
+          "description": "6667",
+          "name": "IOTDB_PORT"
+        },
+        {
+          "description": "root",
+          "name": "IOTDB_USER"
+        },
+        {
+          "description": "root",
+          "name": "IOTDB_PASSWORD"
+        },
+        {
+          "description": "test",
+          "name": "IOTDB_DATABASE"
+        },
+        {
+          "description": "table",
+          "name": "IOTDB_SQL_DIALECT"
+        }
+      ],
+      "name": "iotdb-mcp-server",
+      "package_arguments": [
+        {
+          "default": "--directory YOUR_REPO_PATH/src/iotdb_mcp_server",
+          "description": "The working directory for the command",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory YOUR_REPO_PATH/src/iotdb_mcp_server",
+          "type": "named",
+          "value": "--directory YOUR_REPO_PATH/src/iotdb_mcp_server",
+          "value_hint": "YOUR_REPO_PATH/src/iotdb_mcp_server"
+        },
+        {
+          "default": "server.py",
+          "description": "Python script to run",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "server.py",
+          "value_hint": "server.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "959057712",
+    "source": "github",
+    "url": "https://github.com/apache/iotdb-mcp-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server",
+  "serverid": "iotdb-mcp-server",
+  "tools": [
+    {
+      "description": "Execute SHOW/COUNT queries to read metadata from the database",
+      "inputschema": {
+        "properties": {
+          "query_sql": {
+            "description": "The SHOW/COUNT SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query_sql"
+        ],
+        "type": "object"
+      },
+      "name": "metadata_query"
+    },
+    {
+      "description": "Execute SELECT queries to read data from the database",
+      "inputschema": {
+        "properties": {
+          "query_sql": {
+            "description": "The SELECT SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query_sql"
+        ],
+        "type": "object"
+      },
+      "name": "select_query"
+    },
+    {
+      "description": "Execute SELECT queries to read data from the database",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The SELECT SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "read_query"
+    },
+    {
+      "description": "Get a list of all tables in the database",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "list_tables"
+    },
+    {
+      "description": "View schema information for a specific table",
+      "inputschema": {
+        "properties": {
+          "table_name": {
+            "description": "Name of table to describe",
+            "type": "string"
+          }
+        },
+        "required": [
+          "table_name"
+        ],
+        "type": "object"
+      },
+      "name": "describe-table"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:57:10Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server/versions",
+  "xid": "/mcpproviders/apache/servers/iotdb-mcp-server"
+}

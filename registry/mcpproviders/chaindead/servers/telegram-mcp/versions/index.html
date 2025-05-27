@@ -1,0 +1,98 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:18.893818206Z",
+    "description": "Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.",
+    "epoch": 1,
+    "id": "0cd13ce0-2f67-414a-afb1-4e11dd3e4cba",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T10:02:18.893818206Z",
+    "name": "io.github.chaindead/telegram-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "\u003cyour-app-id\u003e",
+            "name": "TG_APP_ID"
+          },
+          {
+            "description": "\u003cyour-api-hash\u003e",
+            "name": "TG_API_HASH"
+          }
+        ],
+        "name": "chaindead/telegram-mcp",
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "prompts": [
+      {
+        "arguments": [],
+        "description": "Prompts for managing messages such as checking unread messages, summarizing, analyzing, and preparing draft responses.",
+        "name": "Message Management"
+      },
+      {
+        "arguments": [],
+        "description": "Prompts for analyzing dialogs and suggesting folder structures or categorization.",
+        "name": "Organization"
+      },
+      {
+        "arguments": [],
+        "description": "Prompts for monitoring chats, drafting responses, and checking unanswered questions.",
+        "name": "Communication"
+      }
+    ],
+    "repository": {
+      "id": "958652024",
+      "source": "github",
+      "url": "https://github.com/chaindead/telegram-mcp"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/chaindead/servers/telegram-mcp/versions/1",
+    "serverid": "telegram-mcp",
+    "tools": [
+      {
+        "description": "Get current account information",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "tg_me"
+      },
+      {
+        "description": "List dialogs with optional unread filter",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "tg_dialogs"
+      },
+      {
+        "description": "Mark dialog as read",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "tg_read"
+      },
+      {
+        "description": "Retrieve messages from specific dialog",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "tg_dialog"
+      },
+      {
+        "description": "Send draft messages to any dialog",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "tg_send"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:14:34Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/chaindead/servers/telegram-mcp/versions/1"
+  }
+}

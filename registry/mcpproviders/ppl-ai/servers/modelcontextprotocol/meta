@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:28.142710586Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ppl-ai/servers/modelcontextprotocol/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:28.142710586Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/ppl-ai/servers/modelcontextprotocol/meta",
+  "serverid": "modelcontextprotocol",
+  "xid": "/mcpproviders/ppl-ai/servers/modelcontextprotocol/meta"
+}

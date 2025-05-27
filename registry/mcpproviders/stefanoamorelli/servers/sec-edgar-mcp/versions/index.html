@@ -1,0 +1,74 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:03:54.714304045Z",
+    "description": "A Model Context Protocol (MCP) Server for SEC EDGAR",
+    "epoch": 1,
+    "id": "8d526532-7125-4b3c-b180-901914ead390",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T10:03:54.714304045Z",
+    "name": "io.github.stefanoamorelli/sec-edgar-mcp",
+    "packages": [
+      {
+        "name": "sec-edgar-mcp",
+        "registry_name": "unknown",
+        "version": "0.1.1"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "958733763",
+      "source": "github",
+      "url": "https://github.com/stefanoamorelli/sec-edgar-mcp"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp/versions/1",
+    "serverid": "sec-edgar-mcp",
+    "tools": [
+      {
+        "description": "Fetches submissions (filings) for a given company CIK.",
+        "inputschema": {
+          "properties": {
+            "cik": {
+              "description": "Central Index Key of the company",
+              "type": "string"
+            }
+          },
+          "required": [
+            "cik"
+          ],
+          "type": "object"
+        },
+        "name": "get_submissions"
+      },
+      {
+        "description": "Fetches specific financial concepts for a company.",
+        "inputschema": {
+          "properties": {
+            "cik": {
+              "description": "Central Index Key of the company",
+              "type": "string"
+            },
+            "concept": {
+              "description": "Financial concept to retrieve",
+              "type": "string"
+            }
+          },
+          "required": [
+            "cik",
+            "concept"
+          ],
+          "type": "object"
+        },
+        "name": "get_company_concepts"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:50Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/stefanoamorelli/servers/sec-edgar-mcp/versions/1"
+  }
+}

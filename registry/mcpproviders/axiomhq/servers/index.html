@@ -1,0 +1,80 @@
+{
+  "mcp-server-axiom": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:14.155315848Z",
+    "description": "Axiom Model Context Protocol Server",
+    "epoch": 1,
+    "id": "ac19206d-f465-4c38-b62f-23635837b239",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/axiomhq/servers/mcp-server-axiom/meta",
+    "modifiedat": "2025-05-27T10:02:14.155315848Z",
+    "name": "io.github.axiomhq/mcp-server-axiom",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "xaat-your-token",
+            "name": "AXIOM_TOKEN"
+          },
+          {
+            "description": "https://api.axiom.co",
+            "name": "AXIOM_URL"
+          },
+          {
+            "description": "your-org-id",
+            "name": "AXIOM_ORG_ID"
+          }
+        ],
+        "name": "axiomhq/mcp-server-axiom",
+        "package_arguments": [
+          {
+            "default": "--config /path/to/your/config.txt",
+            "description": "Specifies a configuration file",
+            "format": "string",
+            "is_required": true,
+            "name": "--config /path/to/your/config.txt",
+            "type": "named",
+            "value": "--config /path/to/your/config.txt",
+            "value_hint": "/path/to/your/config.txt"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "899010918",
+      "source": "github",
+      "url": "https://github.com/axiomhq/mcp-server-axiom"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/axiomhq/servers/mcp-server-axiom",
+    "serverid": "mcp-server-axiom",
+    "tools": [
+      {
+        "description": "Execute APL queries against Axiom datasets",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "queryApl"
+      },
+      {
+        "description": "List available Axiom datasets",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "listDatasets"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:32Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/axiomhq/servers/mcp-server-axiom/versions",
+    "xid": "/mcpproviders/axiomhq/servers/mcp-server-axiom"
+  }
+}

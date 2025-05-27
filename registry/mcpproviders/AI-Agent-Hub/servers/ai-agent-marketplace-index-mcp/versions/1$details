@@ -1,0 +1,69 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:02:07.578612663Z",
+  "description": "MCP Server for AI Agent Marketplace Index from DeepNLP",
+  "epoch": 1,
+  "id": "ffe051ab-1088-4040-9bbb-8a1bf3fd2a7b",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:02:07.578612663Z",
+  "name": "io.github.ai-agent-hub/ai-agent-marketplace-index-mcp",
+  "packages": [
+    {
+      "name": "ai-agent-marketplace-index-mcp",
+      "package_arguments": [
+        {
+          "default": "server.py",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "server.py",
+          "value_hint": "server.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "958905017",
+    "source": "github",
+    "url": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/AI-Agent-Hub/servers/ai-agent-marketplace-index-mcp/versions/1",
+  "serverid": "ai-agent-marketplace-index-mcp",
+  "tools": [
+    {
+      "description": "General search of AI Agents for information, websites, content and metric statistic of web traffic, etc.",
+      "inputschema": {
+        "properties": {
+          "limit": {
+            "description": "Maximum number of results to return.",
+            "type": "integer"
+          },
+          "q": {
+            "description": "Query string to search AI agents.",
+            "type": "string"
+          },
+          "timeout": {
+            "description": "Timeout in seconds for the API call.",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "q"
+        ],
+        "type": "object"
+      },
+      "name": "search_ai_agent"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:02:37Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/AI-Agent-Hub/servers/ai-agent-marketplace-index-mcp/versions/1"
+}

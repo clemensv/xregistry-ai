@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:03:28.426823102Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/prajwalnayak7/servers/mcp-server-redis/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:03:28.426823102Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/prajwalnayak7/servers/mcp-server-redis/meta",
+  "serverid": "mcp-server-redis",
+  "xid": "/mcpproviders/prajwalnayak7/servers/mcp-server-redis/meta"
+}

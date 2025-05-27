@@ -1,0 +1,55 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:56.910371285Z",
+  "description": "",
+  "epoch": 1,
+  "id": "e9a5215c-6485-462f-b086-6e97f0466b30",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T10:03:56.910371285Z",
+  "name": "io.github.suekou/mcp-notion-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your-integration-token",
+          "name": "NOTION_API_TOKEN"
+        },
+        {
+          "description": "true",
+          "name": "NOTION_MARKDOWN_CONVERSION"
+        }
+      ],
+      "name": "@suekou/mcp-notion-server",
+      "package_arguments": [
+        {
+          "default": "your-built-file-path",
+          "description": "your-built-file-path",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "your-built-file-path",
+          "value_hint": "your-built-file-path"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "1.2.4"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "896417211",
+    "source": "github",
+    "url": "https://github.com/suekou/mcp-notion-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/suekou/servers/mcp-notion-server/versions/1",
+  "serverid": "mcp-notion-server",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:22Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/suekou/servers/mcp-notion-server/versions/1"
+}

@@ -1,0 +1,65 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:28.45490885Z",
+    "description": "On-premises conversational RAG with configurable containers",
+    "epoch": 1,
+    "id": "a0774c2f-cd94-44d6-b441-d606f20c2087",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T10:02:28.45490885Z",
+    "name": "io.github.dmayboroda/minima",
+    "packages": [
+      {
+        "name": "dmayboroda/minima",
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "prompts": [
+      {
+        "arguments": [
+          {
+            "description": "Context to search",
+            "name": "context",
+            "required": true
+          }
+        ],
+        "description": "Find a context in a local files",
+        "name": "query"
+      }
+    ],
+    "repository": {
+      "id": "882486617",
+      "source": "github",
+      "url": "https://github.com/dmayboroda/minima"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/dmayboroda/servers/minima/versions/1",
+    "serverid": "minima",
+    "tools": [
+      {
+        "description": "Find a context in local files (PDF, CSV, DOCX, MD, TXT)",
+        "inputschema": {
+          "properties": {
+            "text": {
+              "description": "context to find",
+              "type": "string"
+            }
+          },
+          "required": [
+            "text"
+          ],
+          "type": "object"
+        },
+        "name": "query"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:10:33Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/dmayboroda/servers/minima/versions/1"
+  }
+}

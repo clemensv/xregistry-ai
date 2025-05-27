@@ -1,0 +1,79 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T10:02:55.301784985Z",
+    "description": "Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop",
+    "epoch": 1,
+    "id": "2e9aa092-56fc-4adb-93ba-e9c9d9919440",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T10:02:55.301784985Z",
+    "name": "io.github.jjsantos01/qgis_mcp",
+    "packages": [
+      {
+        "name": "qgis-mcp",
+        "package_arguments": [
+          {
+            "default": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+            "description": "Specifies the directory to run the command from",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+            "type": "named",
+            "value": "--directory /ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp",
+            "value_hint": "/ABSOLUTE/PATH/TO/PARENT/REPO/FOLDER/qgis_mcp/src/qgis_mcp"
+          },
+          {
+            "default": "qgis_mcp_server.py",
+            "description": "The Python script to execute",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "qgis_mcp_server.py",
+            "value_hint": "qgis_mcp_server.py"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "947538862",
+      "source": "github",
+      "url": "https://github.com/jjsantos01/qgis_mcp"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/jjsantos01/servers/qgis_mcp/versions/1",
+    "serverid": "qgis_mcp",
+    "tools": [
+      {
+        "description": "Simple ping command to check server connectivity",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "ping"
+      },
+      {
+        "description": "Get QGIS information about the current installation",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "get_qgis_info"
+      },
+      {
+        "description": "Load a QGIS project",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "load_project"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:03Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/jjsantos01/servers/qgis_mcp/versions/1"
+  }
+}

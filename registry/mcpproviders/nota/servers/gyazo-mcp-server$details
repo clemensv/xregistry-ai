@@ -1,0 +1,90 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T10:03:21.11746127Z",
+  "description": "Official Model Context Protocol server for Gyazo",
+  "epoch": 1,
+  "id": "11e3a5f5-867c-4f1e-ba79-1b803550fb1a",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/nota/servers/gyazo-mcp-server/meta",
+  "modifiedat": "2025-05-27T10:03:21.11746127Z",
+  "name": "io.github.nota/gyazo-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your-access-token-here",
+          "name": "GYAZO_ACCESS_TOKEN"
+        }
+      ],
+      "name": "@notainc/gyazo-mcp-server",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "docker named argument for stdin",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "default": "--rm",
+          "description": "docker named argument for removing the container after exit",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "default": "-e",
+          "description": "docker named argument to set environment variable",
+          "format": "string",
+          "is_required": true,
+          "name": "-e",
+          "type": "named",
+          "value": "-e",
+          "value_hint": "-e"
+        },
+        {
+          "default": "GYAZO_ACCESS_TOKEN",
+          "description": "docker positional argument indicating the image name",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "GYAZO_ACCESS_TOKEN",
+          "value_hint": "GYAZO_ACCESS_TOKEN"
+        },
+        {
+          "default": "gyazo-mcp-server",
+          "description": "docker positional argument indicating the package to run",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "gyazo-mcp-server",
+          "value_hint": "gyazo-mcp-server"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "0.1.0"
+    }
+  ],
+  "repository": {
+    "id": "922406701",
+    "source": "github",
+    "url": "https://github.com/nota/gyazo-mcp-server"
+  },
+  "self": "https://mcpxreg.com/registry/mcpproviders/nota/servers/gyazo-mcp-server",
+  "serverid": "gyazo-mcp-server",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:59:10Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/nota/servers/gyazo-mcp-server/versions",
+  "xid": "/mcpproviders/nota/servers/gyazo-mcp-server"
+}

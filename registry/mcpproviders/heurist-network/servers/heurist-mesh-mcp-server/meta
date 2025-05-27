@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T10:02:45.882726777Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/heurist-network/servers/heurist-mesh-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T10:02:45.882726777Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/heurist-network/servers/heurist-mesh-mcp-server/meta",
+  "serverid": "heurist-mesh-mcp-server",
+  "xid": "/mcpproviders/heurist-network/servers/heurist-mesh-mcp-server/meta"
+}
