@@ -1,0 +1,87 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:35:37.107417267Z",
+  "description": "ramp_mcp",
+  "epoch": 1,
+  "id": "687591a4-a5da-44df-8d55-f32e19d5658a",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ramp-public/servers/ramp-mcp/meta",
+  "modifiedat": "2025-05-26T10:35:37.107417267Z",
+  "name": "io.github.ramp-public/ramp-mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "\u003cCLIENT_ID\u003e",
+          "name": "RAMP_CLIENT_ID"
+        },
+        {
+          "description": "\u003cCLIENT_SECRET\u003e",
+          "name": "RAMP_CLIENT_SECRET"
+        },
+        {
+          "description": "\u003cdemo|qa|prd\u003e",
+          "name": "RAMP_ENV"
+        }
+      ],
+      "name": "ramp-mcp",
+      "package_arguments": [
+        {
+          "default": "--directory /\u003cABSOLUTE-PATH-TO\u003e/ramp-mcp",
+          "description": "Specify the directory to use",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /\u003cABSOLUTE-PATH-TO\u003e/ramp-mcp",
+          "type": "named",
+          "value": "--directory /\u003cABSOLUTE-PATH-TO\u003e/ramp-mcp",
+          "value_hint": "/\u003cABSOLUTE-PATH-TO\u003e/ramp-mcp"
+        },
+        {
+          "default": "ramp-mcp",
+          "description": "Application name",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "ramp-mcp",
+          "value_hint": "ramp-mcp"
+        },
+        {
+          "default": "-s",
+          "description": "Run in silent mode",
+          "format": "string",
+          "is_required": true,
+          "name": "-s",
+          "type": "named",
+          "value": "-s"
+        },
+        {
+          "default": "transactions:read,reimbursements:read",
+          "description": "Specify resource permissions",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "transactions:read,reimbursements:read",
+          "value_hint": "transactions:read,reimbursements:read"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.0.1"
+    }
+  ],
+  "repository": {
+    "id": "951969645",
+    "source": "github",
+    "url": "https://github.com/ramp-public/ramp_mcp"
+  },
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ramp-public/servers/ramp-mcp",
+  "serverid": "ramp-mcp",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:01:39Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ramp-public/servers/ramp-mcp/versions",
+  "xid": "/mcpproviders/ramp-public/servers/ramp-mcp"
+}

@@ -1,0 +1,418 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:34:58.006139797Z",
+  "description": "A Model Context Protocol Server for MongoDB",
+  "epoch": 1,
+  "id": "b61a2d2e-db6c-47b4-9437-7edc8525d063",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kiliczsh/servers/mcp-mongo-server/meta",
+  "modifiedat": "2025-05-26T10:34:58.006139797Z",
+  "name": "io.github.kiliczsh/mcp-mongo-server",
+  "packages": [
+    {
+      "name": "mcp-mongo-server",
+      "package_arguments": [
+        {
+          "default": "mongodb://muhammed:kilic@localhost:27017/database",
+          "description": "MongoDB connection string",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mongodb://muhammed:kilic@localhost:27017/database",
+          "value_hint": "mongodb://muhammed:kilic@localhost:27017/database"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.3.0"
+    }
+  ],
+  "prompts": [
+    {
+      "arguments": [
+        {
+          "description": "Name of the collection to analyze",
+          "name": "collection",
+          "required": true
+        }
+      ],
+      "description": "Analyze a MongoDB collection structure and contents",
+      "name": "analyze_collection"
+    }
+  ],
+  "repository": {
+    "id": "898654014",
+    "source": "github",
+    "url": "https://github.com/kiliczsh/mcp-mongo-server"
+  },
+  "resources": [
+    {
+      "description": "MongoDB collections exposed as resources",
+      "mimetype": "application/json",
+      "name": "collections",
+      "uritemplate": "/collections/{collectionName}"
+    }
+  ],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kiliczsh/servers/mcp-mongo-server",
+  "serverid": "mcp-mongo-server",
+  "tools": [
+    {
+      "description": "Execute a MongoDB query with optional execution plan analysis",
+      "inputschema": {
+        "properties": {
+          "collection": {
+            "description": "Name of the collection to query",
+            "type": "string"
+          },
+          "explain": {
+            "description": "Optional: Get query execution information",
+            "enum": [
+              "queryPlanner",
+              "executionStats",
+              "allPlansExecution"
+            ],
+            "type": "string"
+          },
+          "filter": {
+            "description": "MongoDB query filter",
+            "type": "object"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of documents to return",
+            "type": "number"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          },
+          "projection": {
+            "description": "Fields to include/exclude",
+            "type": "object"
+          }
+        },
+        "required": [
+          "collection"
+        ],
+        "type": "object"
+      },
+      "name": "query"
+    },
+    {
+      "description": "Execute a MongoDB aggregation pipeline with optional execution plan analysis",
+      "inputschema": {
+        "properties": {
+          "collection": {
+            "description": "Name of the collection to aggregate",
+            "type": "string"
+          },
+          "explain": {
+            "description": "Optional: Get aggregation execution information (queryPlanner, executionStats, or allPlansExecution)",
+            "enum": [
+              "queryPlanner",
+              "executionStats",
+              "allPlansExecution"
+            ],
+            "type": "string"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          },
+          "pipeline": {
+            "description": "Aggregation pipeline stages",
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "collection",
+          "pipeline"
+        ],
+        "type": "object"
+      },
+      "name": "aggregate"
+    },
+    {
+      "description": "Update documents in a MongoDB collection",
+      "inputschema": {
+        "properties": {
+          "collection": {
+            "description": "Name of the collection to update",
+            "type": "string"
+          },
+          "filter": {
+            "description": "Filter to select documents to update",
+            "type": "object"
+          },
+          "multi": {
+            "description": "Update multiple documents that match the filter",
+            "type": "boolean"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          },
+          "update": {
+            "description": "Update operations to apply ($set, $unset, $inc, etc.)",
+            "type": "object"
+          },
+          "upsert": {
+            "description": "Create a new document if no documents match the filter",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "collection",
+          "filter",
+          "update"
+        ],
+        "type": "object"
+      },
+      "name": "update"
+    },
+    {
+      "description": "Get MongoDB server information including version, storage engine, and other details",
+      "inputschema": {
+        "properties": {
+          "includeDebugInfo": {
+            "description": "Include additional debug information about the server",
+            "type": "boolean"
+          }
+        },
+        "type": "object"
+      },
+      "name": "serverInfo"
+    },
+    {
+      "description": "Insert one or more documents into a MongoDB collection",
+      "inputschema": {
+        "properties": {
+          "bypassDocumentValidation": {
+            "description": "Allow insert to bypass schema validation",
+            "type": "boolean"
+          },
+          "collection": {
+            "description": "Name of the collection to insert into",
+            "type": "string"
+          },
+          "documents": {
+            "description": "Array of documents to insert",
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          },
+          "ordered": {
+            "description": "If true, perform ordered insert. If false, insert unordered",
+            "type": "boolean"
+          },
+          "writeConcern": {
+            "description": "Write concern for the insert operation",
+            "type": "object"
+          }
+        },
+        "required": [
+          "collection",
+          "documents"
+        ],
+        "type": "object"
+      },
+      "name": "insert"
+    },
+    {
+      "description": "Create one or more indexes on a MongoDB collection",
+      "inputschema": {
+        "properties": {
+          "collection": {
+            "description": "Name of the collection to create indexes on",
+            "type": "string"
+          },
+          "commitQuorum": {
+            "description": "Number of members required to create the index",
+            "type": "string"
+          },
+          "indexes": {
+            "description": "Array of index specifications",
+            "items": {
+              "properties": {
+                "background": {
+                  "description": "Optional: Builds index in background",
+                  "type": "boolean"
+                },
+                "expireAfterSeconds": {
+                  "description": "TTL in seconds for documents",
+                  "type": "number"
+                },
+                "key": {
+                  "description": "Index key pattern, e.g. { field: 1 }",
+                  "type": "object"
+                },
+                "name": {
+                  "description": "Optional: Name of the index",
+                  "type": "string"
+                },
+                "partialFilterExpression": {
+                  "description": "Filter expression for partial indexes",
+                  "type": "object"
+                },
+                "sparse": {
+                  "description": "Optional: Creates a sparse index",
+                  "type": "boolean"
+                },
+                "unique": {
+                  "description": "Optional: Creates a unique index",
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "key"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          },
+          "writeConcern": {
+            "description": "Write concern for index creation",
+            "type": "object"
+          }
+        },
+        "required": [
+          "collection",
+          "indexes"
+        ],
+        "type": "object"
+      },
+      "name": "createIndex"
+    },
+    {
+      "description": "Count documents in a collection matching a query",
+      "inputschema": {
+        "properties": {
+          "collation": {
+            "description": "Collation rules for comparison",
+            "type": "object"
+          },
+          "collection": {
+            "description": "Collection name",
+            "type": "string"
+          },
+          "hint": {
+            "description": "Index hint",
+            "type": "object"
+          },
+          "limit": {
+            "description": "Max documents to count",
+            "type": "integer"
+          },
+          "maxTimeMS": {
+            "description": "Max execution time",
+            "type": "integer"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          },
+          "query": {
+            "description": "Query filter to count",
+            "type": "object"
+          },
+          "readConcern": {
+            "description": "Read concern option",
+            "type": "object"
+          },
+          "skip": {
+            "description": "Docs to skip before counting",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "collection"
+        ],
+        "type": "object"
+      },
+      "name": "count"
+    },
+    {
+      "description": "List all collections in the MongoDB database",
+      "inputschema": {
+        "properties": {
+          "filter": {
+            "description": "Filter for collections",
+            "type": "object"
+          },
+          "nameOnly": {
+            "description": "If true, return only collection names",
+            "type": "boolean"
+          },
+          "objectIdMode": {
+            "default": "auto",
+            "description": "Control how 24-character hex strings are handled",
+            "enum": [
+              "auto",
+              "none",
+              "force"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "listCollections"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:10:38Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kiliczsh/servers/mcp-mongo-server/versions",
+  "xid": "/mcpproviders/kiliczsh/servers/mcp-mongo-server"
+}

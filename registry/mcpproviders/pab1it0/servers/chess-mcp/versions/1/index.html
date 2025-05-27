@@ -1,0 +1,126 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:35:27.485812018Z",
+  "description": "A Model Context Protocol server for Chess.com's Published Data API.  This provides access to Chess.com player data, game records, and other public information through standardized MCP interfaces, allowing AI assistants to search and analyze chess information.",
+  "epoch": 1,
+  "id": "12ca72e6-3bbf-4c79-94d5-91016543f8ca",
+  "isdefault": true,
+  "modifiedat": "2025-05-26T10:35:27.485812018Z",
+  "name": "io.github.pab1it0/chess-mcp",
+  "packages": [
+    {
+      "name": "chess_mcp",
+      "package_arguments": [
+        {
+          "default": "--directory \u003cfull path to chess-mcp directory\u003e",
+          "description": "The directory to use for the operation",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory \u003cfull path to chess-mcp directory\u003e",
+          "type": "named",
+          "value": "--directory \u003cfull path to chess-mcp directory\u003e",
+          "value_hint": "\u003cfull path to chess-mcp directory\u003e"
+        },
+        {
+          "default": "run src/chess_mcp/main.py",
+          "description": "Script to run with python",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "run src/chess_mcp/main.py",
+          "value_hint": "run src/chess_mcp/main.py"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "956967521",
+    "source": "github",
+    "url": "https://github.com/pab1it0/chess-mcp"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/pab1it0/servers/chess-mcp/versions/1",
+  "serverid": "chess-mcp",
+  "tools": [
+    {
+      "description": "Get a player's profile from Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_player_profile"
+    },
+    {
+      "description": "Get a player's stats from Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_player_stats"
+    },
+    {
+      "description": "Check if a player is currently online on Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "is_player_online"
+    },
+    {
+      "description": "Get a list of titled players from Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_titled_players"
+    },
+    {
+      "description": "Get a player's ongoing games on Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_player_current_games"
+    },
+    {
+      "description": "Get a player's games for a specific month from Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_player_games_by_month"
+    },
+    {
+      "description": "Get a list of available monthly game archives for a player on Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_player_game_archives"
+    },
+    {
+      "description": "Download PGN files for all games in a specific month from Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "download_player_games_pgn"
+    },
+    {
+      "description": "Get information about a club on Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_club_profile"
+    },
+    {
+      "description": "Get members of a club on Chess.com",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_club_members"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:04:22Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/pab1it0/servers/chess-mcp/versions/1"
+}

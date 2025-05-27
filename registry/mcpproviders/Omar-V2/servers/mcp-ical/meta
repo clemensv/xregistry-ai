@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:35:24.3095332Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Omar-V2/servers/mcp-ical/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:35:24.3095332Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/Omar-V2/servers/mcp-ical/meta",
+  "serverid": "mcp-ical",
+  "xid": "/mcpproviders/Omar-V2/servers/mcp-ical/meta"
+}

@@ -1,0 +1,68 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:36:23.250641263Z",
+  "description": "Model Context Protocol Servers for Milvus",
+  "epoch": 1,
+  "id": "e458676a-2727-4daf-84c5-d607932fa000",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilliztech/servers/mcp-server-milvus/meta",
+  "modifiedat": "2025-05-26T10:36:23.250641263Z",
+  "name": "io.github.zilliztech/mcp-server-milvus",
+  "packages": [
+    {
+      "name": "mcp-server-milvus",
+      "package_arguments": [
+        {
+          "default": "--directory /path/to/mcp-server-milvus/src/mcp_server_milvus",
+          "description": "Directory argument",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /path/to/mcp-server-milvus/src/mcp_server_milvus",
+          "type": "named",
+          "value": "--directory /path/to/mcp-server-milvus/src/mcp_server_milvus",
+          "value_hint": "/path/to/mcp-server-milvus/src/mcp_server_milvus"
+        },
+        {
+          "default": "server.py",
+          "description": "Python server entry file",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "server.py",
+          "value_hint": "server.py"
+        },
+        {
+          "default": "--milvus-uri http://127.0.0.1:19530",
+          "description": "Milvus URI",
+          "format": "string",
+          "is_required": true,
+          "name": "--milvus-uri http://127.0.0.1:19530",
+          "type": "named",
+          "value": "--milvus-uri http://127.0.0.1:19530",
+          "value_hint": "http://127.0.0.1:19530"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.1"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "943619628",
+    "source": "github",
+    "url": "https://github.com/zilliztech/mcp-server-milvus"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilliztech/servers/mcp-server-milvus",
+  "serverid": "mcp-server-milvus",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:00:28Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/zilliztech/servers/mcp-server-milvus/versions",
+  "xid": "/mcpproviders/zilliztech/servers/mcp-server-milvus"
+}

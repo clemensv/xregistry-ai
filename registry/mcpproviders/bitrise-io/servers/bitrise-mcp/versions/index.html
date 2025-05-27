@@ -1,0 +1,73 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:16.997097742Z",
+    "description": "MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.",
+    "epoch": 1,
+    "id": "9e07df79-22e2-464d-a842-06f08b875196",
+    "isdefault": true,
+    "modifiedat": "2025-05-26T10:34:16.997097742Z",
+    "name": "io.github.bitrise-io/bitrise-mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "\u003cYOUR_PAT\u003e",
+            "name": "BITRISE_TOKEN"
+          }
+        ],
+        "name": "bitrise-mcp",
+        "package_arguments": [
+          {
+            "default": "--from git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
+            "description": "source package location",
+            "format": "string",
+            "is_required": true,
+            "name": "--from git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
+            "type": "named",
+            "value": "--from git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0",
+            "value_hint": "git+https://github.com/bitrise-io/bitrise-mcp@v1.1.0"
+          },
+          {
+            "default": "bitrise-mcp",
+            "description": "local entrypoint command",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "bitrise-mcp",
+            "value_hint": "bitrise-mcp"
+          },
+          {
+            "default": "--enabled-api-groups cache-items,pipelines",
+            "description": "list of enabled API groups",
+            "format": "string",
+            "is_required": true,
+            "name": "--enabled-api-groups cache-items,pipelines",
+            "type": "named",
+            "value": "--enabled-api-groups cache-items,pipelines",
+            "value_hint": "cache-items,pipelines"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "958502546",
+      "source": "github",
+      "url": "https://github.com/bitrise-io/bitrise-mcp"
+    },
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/bitrise-io/servers/bitrise-mcp/versions/1",
+    "serverid": "bitrise-mcp",
+    "tools": [],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:57:44Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/bitrise-io/servers/bitrise-mcp/versions/1"
+  }
+}

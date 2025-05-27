@@ -1,0 +1,243 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:36:13.352214997Z",
+    "description": "Integrate Arduino-based robotics (using the NodeMCU ESP32 or Arduino Nano 368 board) with AI using the MCP (Model Context Protocol) framework from Claude Anthropic",
+    "epoch": 1,
+    "id": "466926d1-72a6-42be-b2c1-ef94d44e5a67",
+    "isdefault": true,
+    "modifiedat": "2025-05-26T10:36:13.352214997Z",
+    "name": "io.github.vishalmysore/choturobo",
+    "packages": [
+      {
+        "name": "choturoboserver",
+        "registry_name": "unknown",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [
+      {
+        "arguments": [
+          {
+            "name": "steps"
+          }
+        ],
+        "description": "Prompt to move Chotu a specified number of steps.",
+        "name": "move-chotu"
+      },
+      {
+        "arguments": [],
+        "description": "Prompt to initialize Chotu and prepare for operation.",
+        "name": "start-chotu"
+      },
+      {
+        "arguments": [],
+        "description": "Prompt to stop Chotu safely and shut down operations.",
+        "name": "stop-chotu"
+      },
+      {
+        "arguments": [
+          {
+            "name": "direction"
+          }
+        ],
+        "description": "Prompt to turn Chotu left or right.",
+        "name": "turn-chotu"
+      },
+      {
+        "arguments": [
+          {
+            "name": "speed"
+          }
+        ],
+        "description": "Prompt to set Chotu's speed.",
+        "name": "set-chotu-speed"
+      }
+    ],
+    "repository": {
+      "id": "947567270",
+      "source": "github",
+      "url": "https://github.com/vishalmysore/choturobo"
+    },
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vishalmysore/servers/choturobo/versions/1",
+    "serverid": "choturobo",
+    "tools": [
+      {
+        "description": "Blink the eyes of Chotu for a specified time.",
+        "inputschema": {
+          "properties": {
+            "time": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "time"
+          ],
+          "type": "object"
+        },
+        "name": "chotuBlinkEyes"
+      },
+      {
+        "description": "Sound a buzzer for a specified time.",
+        "inputschema": {
+          "properties": {
+            "time": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "time"
+          ],
+          "type": "object"
+        },
+        "name": "chotuBuzzSound"
+      },
+      {
+        "description": "Run a motor at a certain speed.",
+        "inputschema": {
+          "properties": {
+            "speed": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "speed"
+          ],
+          "type": "object"
+        },
+        "name": "runMotor"
+      },
+      {
+        "description": "Move a servo motor to a specific angle.",
+        "inputschema": {
+          "properties": {
+            "angle": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "angle"
+          ],
+          "type": "object"
+        },
+        "name": "moveServo"
+      },
+      {
+        "description": "Turn a fan on or off.",
+        "inputschema": {
+          "properties": {
+            "state": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "state"
+          ],
+          "type": "object"
+        },
+        "name": "controlFan"
+      },
+      {
+        "description": "Switch a relay on or off.",
+        "inputschema": {
+          "properties": {
+            "state": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "state"
+          ],
+          "type": "object"
+        },
+        "name": "toggleRelay"
+      },
+      {
+        "description": "Read temperature from a sensor.",
+        "inputschema": {
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "name": "readTemperature"
+      },
+      {
+        "description": "Measure distance using an ultrasonic sensor.",
+        "inputschema": {
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "name": "readDistance"
+      },
+      {
+        "description": "Move the motor clockwise for a number of steps.",
+        "inputschema": {
+          "properties": {
+            "steps": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "steps"
+          ],
+          "type": "object"
+        },
+        "name": "moveBackward"
+      },
+      {
+        "description": "Move the motor counterclockwise for a number of steps.",
+        "inputschema": {
+          "properties": {
+            "steps": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "steps"
+          ],
+          "type": "object"
+        },
+        "name": "moveForward"
+      },
+      {
+        "description": "Make Chotu speak a given message.",
+        "inputschema": {
+          "properties": {
+            "message": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "message"
+          ],
+          "type": "object"
+        },
+        "name": "makeChotuSpeak"
+      },
+      {
+        "description": "Make Chotu sing a given message.",
+        "inputschema": {
+          "properties": {
+            "message": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "message"
+          ],
+          "type": "object"
+        },
+        "name": "makeChotuSing"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:14Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/vishalmysore/servers/choturobo/versions/1"
+  }
+}

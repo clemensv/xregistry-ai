@@ -1,0 +1,141 @@
+{
+  "llm-context.py": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:25.414529009Z",
+    "description": "Share code with LLMs via Model Context Protocol or clipboard. Rule-based customization enables easy switching between different tasks (like code review and documentation). Includes smart code outlining.",
+    "epoch": 1,
+    "id": "b9f04c6e-0d22-4f17-af83-ccde8b03e4e8",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/llm-context.py/meta",
+    "modifiedat": "2025-05-26T10:34:25.414529009Z",
+    "name": "io.github.cyberchitta/llm-context.py",
+    "packages": [
+      {
+        "name": "llm-context",
+        "package_arguments": [
+          {
+            "default": "--from llm-context",
+            "description": "Named argument --from with value llm-context",
+            "format": "string",
+            "is_required": true,
+            "name": "--from llm-context",
+            "type": "named",
+            "value": "--from llm-context",
+            "value_hint": "llm-context"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.3.2"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "789457378",
+      "source": "github",
+      "url": "https://github.com/cyberchitta/llm-context.py"
+    },
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/llm-context.py",
+    "serverid": "llm-context.py",
+    "tools": [],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:09:30Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/llm-context.py/versions",
+    "xid": "/mcpproviders/cyberchitta/servers/llm-context.py"
+  },
+  "scrapling-fetch-mcp": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:25.544846158Z",
+    "description": "Helps AI assistants access text content from bot-protected websites. MCP server that fetches HTML/markdown from sites with anti-automation measures using Scrapling.",
+    "epoch": 1,
+    "id": "874336ad-3dfa-467f-8356-3de7d8b2b93d",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/meta",
+    "modifiedat": "2025-05-26T10:34:25.544846158Z",
+    "name": "io.github.cyberchitta/scrapling-fetch-mcp",
+    "packages": [
+      {
+        "name": "scrapling-fetch-mcp",
+        "registry_name": "unknown",
+        "version": "0.1.6"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "947737843",
+      "source": "github",
+      "url": "https://github.com/cyberchitta/scrapling-fetch-mcp"
+    },
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp",
+    "serverid": "scrapling-fetch-mcp",
+    "tools": [
+      {
+        "description": "Retrieves complete web pages with pagination support",
+        "inputschema": {
+          "properties": {
+            "max_length": {
+              "type": "integer"
+            },
+            "mode": {
+              "type": "string"
+            },
+            "start_index": {
+              "type": "integer"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "url",
+            "mode"
+          ],
+          "type": "object"
+        },
+        "name": "s-fetch-page"
+      },
+      {
+        "description": "Extracts content matching regex patterns with surrounding context",
+        "inputschema": {
+          "properties": {
+            "context_chars": {
+              "type": "integer"
+            },
+            "mode": {
+              "type": "string"
+            },
+            "search_pattern": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "url",
+            "mode",
+            "search_pattern",
+            "context_chars"
+          ],
+          "type": "object"
+        },
+        "name": "s-fetch-pattern"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:45Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/versions",
+    "xid": "/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp"
+  }
+}

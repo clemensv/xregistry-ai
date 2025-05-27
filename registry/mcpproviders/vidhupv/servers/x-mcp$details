@@ -1,0 +1,142 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:36:12.919070484Z",
+  "description": "",
+  "epoch": 1,
+  "id": "a24e506b-b16b-412d-b806-fcf7e39b4549",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vidhupv/servers/x-mcp/meta",
+  "modifiedat": "2025-05-26T10:36:12.919070484Z",
+  "name": "io.github.vidhupv/x-mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your_api_key",
+          "name": "TWITTER_API_KEY"
+        },
+        {
+          "description": "your_api_secret",
+          "name": "TWITTER_API_SECRET"
+        },
+        {
+          "description": "your_access_token",
+          "name": "TWITTER_ACCESS_TOKEN"
+        },
+        {
+          "description": "your_access_token_secret",
+          "name": "TWITTER_ACCESS_TOKEN_SECRET"
+        }
+      ],
+      "name": "x-mcp",
+      "package_arguments": [
+        {
+          "default": "x-mcp",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "x-mcp",
+          "value_hint": "x-mcp"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "898698501",
+    "source": "github",
+    "url": "https://github.com/vidhupv/x-mcp"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vidhupv/servers/x-mcp",
+  "serverid": "x-mcp",
+  "tools": [
+    {
+      "description": "Create a draft tweet",
+      "inputschema": {
+        "properties": {
+          "content": {
+            "description": "The content of the tweet",
+            "type": "string"
+          }
+        },
+        "required": [
+          "content"
+        ],
+        "type": "object"
+      },
+      "name": "create_draft_tweet"
+    },
+    {
+      "description": "Create a draft tweet thread",
+      "inputschema": {
+        "properties": {
+          "contents": {
+            "description": "An array of tweet contents for the thread",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "contents"
+        ],
+        "type": "object"
+      },
+      "name": "create_draft_thread"
+    },
+    {
+      "description": "List all draft tweets and threads",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "list_drafts"
+    },
+    {
+      "description": "Publish a draft tweet or thread",
+      "inputschema": {
+        "properties": {
+          "draft_id": {
+            "description": "ID of the draft to publish",
+            "type": "string"
+          }
+        },
+        "required": [
+          "draft_id"
+        ],
+        "type": "object"
+      },
+      "name": "publish_draft"
+    },
+    {
+      "description": "Delete a draft tweet or thread",
+      "inputschema": {
+        "properties": {
+          "draft_id": {
+            "description": "ID of the draft to delete",
+            "type": "string"
+          }
+        },
+        "required": [
+          "draft_id"
+        ],
+        "type": "object"
+      },
+      "name": "delete_draft"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:16:02Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/vidhupv/servers/x-mcp/versions",
+  "xid": "/mcpproviders/vidhupv/servers/x-mcp"
+}

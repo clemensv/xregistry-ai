@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:36:09.175744705Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unifai-network/servers/unifai-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:36:09.175744705Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/unifai-network/servers/unifai-mcp-server/meta",
+  "serverid": "unifai-mcp-server",
+  "xid": "/mcpproviders/unifai-network/servers/unifai-mcp-server/meta"
+}

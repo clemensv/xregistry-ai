@@ -1,0 +1,67 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:35:08.452845901Z",
+  "description": "",
+  "epoch": 1,
+  "id": "39d0e161-edcd-4ad5-bdc6-9c3d29908ed4",
+  "isdefault": true,
+  "modifiedat": "2025-05-26T10:35:08.452845901Z",
+  "name": "io.github.longyi1207/glean-mcp-server",
+  "packages": [
+    {
+      "name": "@modelcontextprotocol/glean",
+      "registry_name": "unknown",
+      "version": "0.6.2"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "913663339",
+    "source": "github",
+    "url": "https://github.com/longyi1207/glean-mcp-server"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/longyi1207/servers/glean-mcp-server/versions/1",
+  "serverid": "glean-mcp-server",
+  "tools": [
+    {
+      "description": "Tool to perform search queries using Glean API",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The query to perform retrieval on",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "search"
+    },
+    {
+      "description": "Tool to interact with ChatGPT using Glean API",
+      "inputschema": {
+        "properties": {
+          "message": {
+            "description": "The message to send to ChatGPT",
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "type": "object"
+      },
+      "name": "chat"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:07:09Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/longyi1207/servers/glean-mcp-server/versions/1"
+}

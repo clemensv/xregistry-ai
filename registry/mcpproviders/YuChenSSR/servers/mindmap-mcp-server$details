@@ -1,0 +1,58 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:36:21.104708225Z",
+  "description": "mindmap, mcp server, artifact",
+  "epoch": 1,
+  "id": "7f9416dd-34cf-4f0d-bcfb-c87cbee3abf6",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/YuChenSSR/servers/mindmap-mcp-server/meta",
+  "modifiedat": "2025-05-26T10:36:21.104708225Z",
+  "name": "io.github.yuchenssr/mindmap-mcp-server",
+  "packages": [
+    {
+      "name": "mindmap-mcp-server",
+      "package_arguments": [
+        {
+          "default": "-i",
+          "description": "-i",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i"
+        },
+        {
+          "default": "-v /path/to/output/folder:/output",
+          "description": "-v /path/to/output/folder:/output",
+          "format": "string",
+          "is_required": true,
+          "name": "-v /path/to/output/folder:/output",
+          "type": "named",
+          "value": "-v /path/to/output/folder:/output",
+          "value_hint": "/path/to/output/folder:/output"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "0.1.1"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "951261036",
+    "source": "github",
+    "url": "https://github.com/YuChenSSR/mindmap-mcp-server"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/YuChenSSR/servers/mindmap-mcp-server",
+  "serverid": "mindmap-mcp-server",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:10:31Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/YuChenSSR/servers/mindmap-mcp-server/versions",
+  "xid": "/mcpproviders/YuChenSSR/servers/mindmap-mcp-server"
+}

@@ -1,0 +1,119 @@
+{
+  "consul-mcp-server": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:59.743187943Z",
+    "description": "A consul MCP Server (modelcontextprotocol) ",
+    "epoch": 1,
+    "id": "a9fe34f1-7c82-4f7d-8fbe-20bb8ca29e7b",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/consul-mcp-server/meta",
+    "modifiedat": "2025-05-26T10:34:59.743187943Z",
+    "name": "io.github.kocierik/consul-mcp-server",
+    "packages": [
+      {
+        "name": "consul-mcp",
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "repository": {
+      "id": "969129017",
+      "source": "github",
+      "url": "https://github.com/kocierik/consul-mcp-server"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/consul-mcp-server",
+    "serverid": "consul-mcp-server",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:04:42Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/consul-mcp-server/versions",
+    "xid": "/mcpproviders/kocierik/servers/consul-mcp-server"
+  },
+  "mcp-nomad": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:59.894605996Z",
+    "description": " A nomad MCP Server (modelcontextprotocol) ",
+    "epoch": 1,
+    "id": "6ebc1c16-ea8d-44eb-958c-74f3f0531058",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/mcp-nomad/meta",
+    "modifiedat": "2025-05-26T10:34:59.894605996Z",
+    "name": "io.github.kocierik/mcp-nomad",
+    "packages": [
+      {
+        "name": "kocierik/mcp-nomad",
+        "package_arguments": [
+          {
+            "default": "-i",
+            "description": "-i",
+            "format": "string",
+            "is_required": true,
+            "name": "-i",
+            "type": "named",
+            "value": "-i"
+          },
+          {
+            "default": "--rm",
+            "description": "--rm",
+            "format": "string",
+            "is_required": true,
+            "name": "--rm",
+            "type": "named",
+            "value": "--rm"
+          },
+          {
+            "default": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+            "description": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+            "format": "string",
+            "is_required": true,
+            "name": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+            "type": "named",
+            "value": "-e NOMAD_ADDR=http://172.17.0.1:4646",
+            "value_hint": "NOMAD_ADDR=http://172.17.0.1:4646"
+          },
+          {
+            "default": "-e NOMAD_TOKEN=secret-token-acl-optional",
+            "description": "-e NOMAD_TOKEN=secret-token-acl-optional",
+            "format": "string",
+            "is_required": true,
+            "name": "-e NOMAD_TOKEN=secret-token-acl-optional",
+            "type": "named",
+            "value": "-e NOMAD_TOKEN=secret-token-acl-optional",
+            "value_hint": "NOMAD_TOKEN=secret-token-acl-optional"
+          },
+          {
+            "default": "kocierik/mcpnomad-server:latest",
+            "description": "kocierik/mcpnomad-server:latest",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "kocierik/mcpnomad-server:latest",
+            "value_hint": "kocierik/mcpnomad-server:latest"
+          }
+        ],
+        "registry_name": "docker",
+        "version": ""
+      }
+    ],
+    "repository": {
+      "id": "969499680",
+      "source": "github",
+      "url": "https://github.com/kocierik/mcp-nomad"
+    },
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/mcp-nomad",
+    "serverid": "mcp-nomad",
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:11:20Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kocierik/servers/mcp-nomad/versions",
+    "xid": "/mcpproviders/kocierik/servers/mcp-nomad"
+  }
+}

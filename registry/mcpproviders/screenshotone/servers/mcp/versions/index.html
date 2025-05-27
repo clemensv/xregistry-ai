@@ -1,0 +1,61 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:35:46.009835112Z",
+    "description": "A simple implementation of an MCP server for the ScreenshotOne API",
+    "epoch": 1,
+    "id": "87c7dec1-1b0c-414b-9f7b-7a113e67989d",
+    "isdefault": true,
+    "modifiedat": "2025-05-26T10:35:46.009835112Z",
+    "name": "io.github.screenshotone/mcp",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "\u003cyour api key\u003e",
+            "name": "SCREENSHOTONE_API_KEY"
+          }
+        ],
+        "name": "screenshotone-mcp-server",
+        "package_arguments": [
+          {
+            "default": "path/to/screenshotone/mcp/build/index.js",
+            "description": "Positional argument for 'path/to/screenshotone/mcp/build/index.js'",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "path/to/screenshotone/mcp/build/index.js",
+            "value_hint": "path/to/screenshotone/mcp/build/index.js"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "934098377",
+      "source": "github",
+      "url": "https://github.com/screenshotone/mcp"
+    },
+    "resources": [],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/screenshotone/servers/mcp/versions/1",
+    "serverid": "mcp",
+    "tools": [
+      {
+        "description": "Render a screenshot of a website and returns it as an image.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "render-website-screenshot"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:01:51Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/screenshotone/servers/mcp/versions/1"
+  }
+}

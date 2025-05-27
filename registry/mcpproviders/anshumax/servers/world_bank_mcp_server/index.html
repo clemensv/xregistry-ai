@@ -1,0 +1,93 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:34:08.660138242Z",
+  "description": "An implementation of the Model Context Protocol for the World Bank open data API",
+  "epoch": 1,
+  "id": "4e6fc5a4-eecb-46e4-a3ce-4310cbb8c3f4",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anshumax/servers/world_bank_mcp_server/meta",
+  "modifiedat": "2025-05-26T10:34:08.660138242Z",
+  "name": "io.github.anshumax/world_bank_mcp_server",
+  "packages": [
+    {
+      "name": "world_bank_mcp_server",
+      "package_arguments": [
+        {
+          "default": "--directory path/to/world_bank_mcp_server",
+          "description": "The directory to use",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory path/to/world_bank_mcp_server",
+          "type": "named",
+          "value": "--directory path/to/world_bank_mcp_server",
+          "value_hint": "path/to/world_bank_mcp_server"
+        },
+        {
+          "default": "world_bank_mcp_server",
+          "description": "The server script/module to execute",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "world_bank_mcp_server",
+          "value_hint": "world_bank_mcp_server"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "911984754",
+    "source": "github",
+    "url": "https://github.com/anshumax/world_bank_mcp_server"
+  },
+  "resources": [
+    {
+      "description": "List of countries in the World Bank database",
+      "mimetype": "application/json",
+      "name": "Countries list",
+      "uritemplate": "https://api.worldbank.org/v2/country?format=json\u0026per_page=1000"
+    },
+    {
+      "description": "List of indicators in the World Bank database",
+      "mimetype": "application/json",
+      "name": "Indicators list",
+      "uritemplate": "https://api.worldbank.org/v2/indicator?format=json\u0026per_page=50000"
+    }
+  ],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anshumax/servers/world_bank_mcp_server",
+  "serverid": "world_bank_mcp_server",
+  "tools": [
+    {
+      "description": "Get values for an indicator for a specific country from the World Bank API",
+      "inputschema": {
+        "properties": {
+          "country_id": {
+            "description": "The ID of the country for which the indicator is to be queried",
+            "type": "string"
+          },
+          "indicator_id": {
+            "description": "The ID of the indicator to be queried",
+            "type": "string"
+          }
+        },
+        "required": [
+          "country_id",
+          "indicator_id"
+        ],
+        "type": "object"
+      },
+      "name": "get_indicator_for_country"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:56Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/anshumax/servers/world_bank_mcp_server/versions",
+  "xid": "/mcpproviders/anshumax/servers/world_bank_mcp_server"
+}

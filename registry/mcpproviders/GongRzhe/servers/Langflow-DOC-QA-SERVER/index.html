@@ -1,0 +1,60 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:34:41.402838932Z",
+  "description": "A Model Context Protocol server for document Q\u0026A powered by Langflow . It demonstrates core MCP concepts by providing a simple interface to query documents through a Langflow backend.",
+  "epoch": 1,
+  "id": "3c265bda-03e4-4e46-bceb-437a1b02f431",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/Langflow-DOC-QA-SERVER/meta",
+  "modifiedat": "2025-05-26T10:34:41.402838932Z",
+  "name": "io.github.gongrzhe/langflow-doc-qa-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "http://127.0.0.1:7860/api/v1/run/480ec7b3-29d2-4caa-b03b-e74118f35fac",
+          "name": "API_ENDPOINT"
+        }
+      ],
+      "name": "doc-qa-server",
+      "registry_name": "unknown",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "937522079",
+    "source": "github",
+    "url": "https://github.com/GongRzhe/Langflow-DOC-QA-SERVER"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/Langflow-DOC-QA-SERVER",
+  "serverid": "Langflow-DOC-QA-SERVER",
+  "tools": [
+    {
+      "description": "Query the document Q\u0026A system with a prompt",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The query prompt to search for in the documents",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "query_docs"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:09:06Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/GongRzhe/servers/Langflow-DOC-QA-SERVER/versions",
+  "xid": "/mcpproviders/GongRzhe/servers/Langflow-DOC-QA-SERVER"
+}

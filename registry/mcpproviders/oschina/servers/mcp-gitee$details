@@ -1,0 +1,76 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:35:26.232783436Z",
+  "description": "mcp-gitee is a Model Context Protocol (MCP) server implementation for Gitee. It provides a set of tools that interact with Gitee's API, allowing AI assistants to manage repository, issues, pull requests, etc.",
+  "epoch": 1,
+  "id": "88f1bf70-a3ea-4bf4-933e-25ae6ea3003c",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/oschina/servers/mcp-gitee/meta",
+  "modifiedat": "2025-05-26T10:35:26.232783436Z",
+  "name": "io.github.oschina/mcp-gitee",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "https://gitee.com/api/v5",
+          "name": "GITEE_API_BASE"
+        },
+        {
+          "description": "\u003cyour personal access token\u003e",
+          "name": "GITEE_ACCESS_TOKEN"
+        }
+      ],
+      "name": "oschina/mcp-gitee",
+      "registry_name": "unknown",
+      "version": ""
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "947190076",
+    "source": "github",
+    "url": "https://github.com/oschina/mcp-gitee"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/oschina/servers/mcp-gitee",
+  "serverid": "mcp-gitee",
+  "tools": [
+    {
+      "description": "List user authorized repositories",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "list_user_repos"
+    },
+    {
+      "description": "Get the content of a file in a repository",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get_file_content"
+    },
+    {
+      "description": "Create a user repository",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "create_user_repo"
+    },
+    {
+      "description": "Create an organization repository",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "create_org_repo"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:59:03Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/oschina/servers/mcp-gitee/versions",
+  "xid": "/mcpproviders/oschina/servers/mcp-gitee"
+}

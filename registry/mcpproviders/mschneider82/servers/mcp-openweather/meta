@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:35:19.857441629Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mschneider82/servers/mcp-openweather/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:35:19.857441629Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mschneider82/servers/mcp-openweather/meta",
+  "serverid": "mcp-openweather",
+  "xid": "/mcpproviders/mschneider82/servers/mcp-openweather/meta"
+}

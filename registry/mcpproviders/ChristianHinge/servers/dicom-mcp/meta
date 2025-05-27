@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:34:19.996768825Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ChristianHinge/servers/dicom-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:34:19.996768825Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/ChristianHinge/servers/dicom-mcp/meta",
+  "serverid": "dicom-mcp",
+  "xid": "/mcpproviders/ChristianHinge/servers/dicom-mcp/meta"
+}

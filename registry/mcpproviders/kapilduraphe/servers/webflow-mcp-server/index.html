@@ -1,0 +1,80 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:34:56.447105978Z",
+  "description": "Webflow MCP server",
+  "epoch": 1,
+  "id": "c7876b07-1fe3-4006-a104-93ef9f9e1669",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kapilduraphe/servers/webflow-mcp-server/meta",
+  "modifiedat": "2025-05-26T10:34:56.447105978Z",
+  "name": "io.github.kapilduraphe/webflow-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your-api-token",
+          "name": "WEBFLOW_API_TOKEN"
+        }
+      ],
+      "name": "webflow-mcp-server",
+      "package_arguments": [
+        {
+          "default": "/ABSOLUTE/PATH/TO/YOUR/build/index.js",
+          "description": "Path to the entry point script",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/ABSOLUTE/PATH/TO/YOUR/build/index.js",
+          "value_hint": "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "1.0.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "935070409",
+    "source": "github",
+    "url": "https://github.com/kapilduraphe/webflow-mcp-server"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kapilduraphe/servers/webflow-mcp-server",
+  "serverid": "webflow-mcp-server",
+  "tools": [
+    {
+      "description": "Retrieve detailed information about a specific Webflow site by ID, including workspace, creation date, display name, and publishing details",
+      "inputschema": {
+        "properties": {
+          "siteId": {
+            "description": "The unique identifier of the Webflow site",
+            "type": "string"
+          }
+        },
+        "required": [
+          "siteId"
+        ],
+        "type": "object"
+      },
+      "name": "get_site"
+    },
+    {
+      "description": "Retrieve a list of all Webflow sites accessible to the authenticated user",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "get_sites"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:40Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/kapilduraphe/servers/webflow-mcp-server/versions",
+  "xid": "/mcpproviders/kapilduraphe/servers/webflow-mcp-server"
+}

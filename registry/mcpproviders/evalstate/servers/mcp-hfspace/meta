@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-26T10:34:33.571776431Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/evalstate/servers/mcp-hfspace/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-26T10:34:33.571776431Z",
+  "readonly": false,
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/evalstate/servers/mcp-hfspace/meta",
+  "serverid": "mcp-hfspace",
+  "xid": "/mcpproviders/evalstate/servers/mcp-hfspace/meta"
+}

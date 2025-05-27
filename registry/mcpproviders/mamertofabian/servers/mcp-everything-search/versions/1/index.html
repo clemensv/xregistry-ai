@@ -1,0 +1,110 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:35:10.199581915Z",
+  "description": "",
+  "epoch": 1,
+  "id": "c6f8403f-30d0-45d2-b7c3-95a6cb61c4b4",
+  "isdefault": true,
+  "modifiedat": "2025-05-26T10:35:10.199581915Z",
+  "name": "io.github.mamertofabian/mcp-everything-search",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "path/to/Everything-SDK/dll/Everything64.dll",
+          "name": "EVERYTHING_SDK_PATH"
+        }
+      ],
+      "name": "mcp-server-everything-search",
+      "package_arguments": [
+        {
+          "default": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+          "description": "Sets the directory to operate from.",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+          "type": "named",
+          "value": "--directory /path/to/mcp-everything-search/src/mcp_server_everything_search",
+          "value_hint": "/path/to/mcp-everything-search/src/mcp_server_everything_search"
+        },
+        {
+          "default": "mcp-server-everything-search",
+          "description": "Server name to execute (positional argument)",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp-server-everything-search",
+          "value_hint": "mcp-server-everything-search"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.2.1"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "903415597",
+    "source": "github",
+    "url": "https://github.com/mamertofabian/mcp-everything-search"
+  },
+  "resources": [],
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/mamertofabian/servers/mcp-everything-search/versions/1",
+  "serverid": "mcp-everything-search",
+  "tools": [
+    {
+      "description": "Universal file search tool for Windows, macOS, and Linux. Supports platform-specific search capabilities using Everything SDK on Windows, mdfind on macOS, and locate on Linux.",
+      "inputschema": {
+        "properties": {
+          "match_case": {
+            "default": false,
+            "description": "Enable case-sensitive search",
+            "type": "boolean"
+          },
+          "match_path": {
+            "default": false,
+            "description": "Match against full path instead of filename only",
+            "type": "boolean"
+          },
+          "match_regex": {
+            "default": false,
+            "description": "Enable regex search",
+            "type": "boolean"
+          },
+          "match_whole_word": {
+            "default": false,
+            "description": "Match whole words only",
+            "type": "boolean"
+          },
+          "max_results": {
+            "default": 100,
+            "description": "Maximum number of results to return (1-1000)",
+            "maximum": 1000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "query": {
+            "description": "Search query string. See the search syntax guide for details.",
+            "type": "string"
+          },
+          "sort_by": {
+            "default": 1,
+            "description": "Sort order for results (Note: Not all sort options available on all platforms)",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "search"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:06:30Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/mamertofabian/servers/mcp-everything-search/versions/1"
+}

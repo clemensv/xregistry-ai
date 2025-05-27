@@ -1,0 +1,45 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-26T10:34:18.553764709Z",
+  "description": "A connector for Claude Desktop to read and search an Obsidian vault.",
+  "epoch": 1,
+  "id": "ab58cca1-94ad-42d8-be13-980556ac552b",
+  "isdefault": true,
+  "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/calclavia/servers/mcp-obsidian/meta",
+  "modifiedat": "2025-05-26T10:34:18.553764709Z",
+  "name": "io.github.calclavia/mcp-obsidian",
+  "packages": [
+    {
+      "name": "mcp-obsidian",
+      "package_arguments": [
+        {
+          "default": "${input:vaultPath}",
+          "description": "Path to Obsidian vault",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "${input:vaultPath}",
+          "value_hint": "${input:vaultPath}"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.0.0"
+    }
+  ],
+  "repository": {
+    "id": "895882011",
+    "source": "github",
+    "url": "https://github.com/smithery-ai/mcp-obsidian"
+  },
+  "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/calclavia/servers/mcp-obsidian",
+  "serverid": "mcp-obsidian",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:11:33Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/calclavia/servers/mcp-obsidian/versions",
+  "xid": "/mcpproviders/calclavia/servers/mcp-obsidian"
+}

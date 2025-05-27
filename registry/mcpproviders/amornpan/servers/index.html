@@ -1,0 +1,160 @@
+{
+  "py-mcp-line": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:08.0835403Z",
+    "description": "python mcp LINE",
+    "epoch": 1,
+    "id": "3791bb07-364f-431c-acf4-331007c52571",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/amornpan/servers/py-mcp-line/meta",
+    "modifiedat": "2025-05-26T10:34:08.0835403Z",
+    "name": "io.github.amornpan/py-mcp-line",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your_channel_secret",
+            "name": "LINE_CHANNEL_SECRET"
+          },
+          {
+            "description": "your_access_token",
+            "name": "LINE_ACCESS_TOKEN"
+          },
+          {
+            "description": "8000",
+            "name": "SERVER_PORT"
+          },
+          {
+            "description": "data/messages.json",
+            "name": "MESSAGES_FILE"
+          }
+        ],
+        "name": "amornpan/py-mcp-line",
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "940071130",
+      "source": "github",
+      "url": "https://github.com/amornpan/py-mcp-line"
+    },
+    "resources": [
+      {
+        "description": "Lists available message types from the LINE Bot and provides access to messages such as text, sticker, and image messages in JSON format.",
+        "mimetype": "application/json",
+        "name": "LINE Bot messages",
+        "uritemplate": "line://{message_type}/data"
+      }
+    ],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/amornpan/servers/py-mcp-line",
+    "serverid": "py-mcp-line",
+    "tools": [],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:09:21Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/amornpan/servers/py-mcp-line/versions",
+    "xid": "/mcpproviders/amornpan/servers/py-mcp-line"
+  },
+  "py-mcp-mssql": {
+    "ancestor": "1",
+    "createdat": "2025-05-26T10:34:08.207785237Z",
+    "description": "py-mcp-mssql",
+    "epoch": 1,
+    "id": "0c9a70a7-7523-42b7-a951-b4c4b8077710",
+    "isdefault": true,
+    "metaurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/amornpan/servers/py-mcp-mssql/meta",
+    "modifiedat": "2025-05-26T10:34:08.207785237Z",
+    "name": "io.github.amornpan/py-mcp-mssql",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your_server",
+            "name": "MSSQL_SERVER"
+          },
+          {
+            "description": "your_database",
+            "name": "MSSQL_DATABASE"
+          },
+          {
+            "description": "your_username",
+            "name": "MSSQL_USER"
+          },
+          {
+            "description": "your_password",
+            "name": "MSSQL_PASSWORD"
+          },
+          {
+            "description": "{ODBC Driver 17 for SQL Server}",
+            "name": "MSSQL_DRIVER"
+          }
+        ],
+        "name": "amornpan/py-mcp-mssql",
+        "package_arguments": [
+          {
+            "default": "server.py",
+            "description": "script to run",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "server.py",
+            "value_hint": "server.py"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": ""
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "922607489",
+      "source": "github",
+      "url": "https://github.com/amornpan/py-mcp-mssql"
+    },
+    "resources": [
+      {
+        "description": "Lists all available tables in the database with URIs in the format mssql://\u003ctable_name\u003e/data; includes table descriptions and MIME types.",
+        "mimetype": "text/csv",
+        "name": "tables",
+        "uritemplate": "mssql://{table_name}/data"
+      }
+    ],
+    "self": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/amornpan/servers/py-mcp-mssql",
+    "serverid": "py-mcp-mssql",
+    "tools": [
+      {
+        "description": "Executes SQL queries; supports both SELECT and modification queries; returns results in CSV format for SELECT queries and affected row count for modification queries.",
+        "inputschema": {
+          "properties": {
+            "arguments": {
+              "type": "object"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "type": "object"
+        },
+        "name": "call_tool"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:10:17Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://clemensv.github.io/xregistry-ai//registry/mcpproviders/amornpan/servers/py-mcp-mssql/versions",
+    "xid": "/mcpproviders/amornpan/servers/py-mcp-mssql"
+  }
+}
