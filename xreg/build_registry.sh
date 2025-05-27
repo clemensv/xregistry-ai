@@ -144,14 +144,6 @@ docker cp "${CONTAINER_ID}:$ARCHIVE_PATH" "$DATA_EXPORT_DIR/xr_live_data.tar.gz"
 tar xzf "$DATA_EXPORT_DIR/xr_live_data.tar.gz" -C "$DATA_EXPORT_DIR"
 rm "$DATA_EXPORT_DIR/xr_live_data.tar.gz"
 
-# Convert JSON files to HTML files containing JSON content for Azure Static Web Apps
-echo "Converting JSON files to HTML files for Azure Static Web Apps..."
-find "$DATA_EXPORT_DIR" -name "*.json" -not -path "*/schema/*" -not -path "*/openapi/*" | while read jsonfile; do
-    htmlfile="${jsonfile%.json}.html"
-    echo "Converting $jsonfile to $htmlfile"
-    cp "$jsonfile" "$htmlfile"
-done
-
 # Stop and remove the container
 echo "Stopping and removing xregistry server..."
 docker stop "${CONTAINER_ID}"
