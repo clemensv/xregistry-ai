@@ -119,7 +119,7 @@ docker exec "${CONTAINER_ID}" /bin/sh -c '
  find $REGISTRY_DIR -type f -name index.json | while read file; do
    path=${file#"$REGISTRY_DIR"/}
    path=${path%/index.json}
-   /xr create "$path" -d "@$file" -s localhost:8080
+   /xr create "/$path" -d "@$file" -s localhost:8080
    if [ $? -ne 0 ]; then
      echo "Error processing file: $file"
    else
