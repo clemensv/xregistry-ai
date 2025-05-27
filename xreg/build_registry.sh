@@ -123,6 +123,10 @@ docker exec "${CONTAINER_ID}" sh -c "/xr model update /workspace/xreg/model.json
 echo "Creating registry entries..."
 docker exec "${CONTAINER_ID}" sh -c 'REGISTRY_DIR=/workspace/registry && find $REGISTRY_DIR -type f -name index.json | while read file; do path=${file#"$REGISTRY_DIR"/}; path=${path%/index.json}; /xr create "/$path" -d "@$file" -s localhost:8080 && echo "Processed file: $file" || echo "Error processing file: $file"; done'
 
+# Create root registry index for the main /registry/ endpoint
+echo "Creating root registry index..."
+docker exec "${CONTAINER_ID}" sh -c '/xr create "/" -s localhost:8080 || echo "Root registry may already exist"'
+
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
 docker exec "${CONTAINER_ID}" sh -c "mkdir -p /tmp/live && /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html && cd /tmp/live && tar czf $ARCHIVE_PATH ."
