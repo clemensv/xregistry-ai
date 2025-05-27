@@ -114,27 +114,41 @@ docker exec "${CONTAINER_ID}" /xr model update /workspace/xreg/model.json -s loc
 
 # Create entries for each registry index.json
 echo "Creating registry entries..."
+echo "First, let's see what registry files exist:"
+docker exec "${CONTAINER_ID}" find /workspace/registry -name "index.json" | head -5
+
+echo "Now creating entries..."
 docker exec "${CONTAINER_ID}" /bin/sh -c '
  REGISTRY_DIR=/workspace/registry
  find $REGISTRY_DIR -type f -name index.json | while read file; do
    path=${file#"$REGISTRY_DIR"/}
    path=${path%/index.json}
+   echo "Creating entry for path: /$path from file: $file"
    /xr create "/$path" -d "@$file" -s localhost:8080
    if [ $? -ne 0 ]; then
      echo "Error processing file: $file"
    else
-     echo "Processed file: $file"
+     echo "Successfully processed file: $file"
    fi 
  done
 '
 
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
+echo "First, let's verify the xr server has entries:"
+docker exec "${CONTAINER_ID}" /xr list -s localhost:8080 || echo "xr list failed"
+
+echo "Now downloading registry data..."
 docker exec "${CONTAINER_ID}" /bin/sh -c "
   mkdir -p /tmp/live
+  echo 'Running xr download...'
   /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
+  echo 'Download completed. Directory contents:'
+  ls -la /tmp/live/
+  echo 'Creating tarball...'
   cd /tmp/live
   tar czf $ARCHIVE_PATH .
+  echo 'Tarball created.'
 "
 
 # Copy the archive to the host
@@ -149,6 +163,19 @@ echo "Stopping and removing xregistry server..."
 docker stop "${CONTAINER_ID}"
 docker rm "${CONTAINER_ID}"
 echo "xregistry server stopped and removed."
+
+# verify that the data export directory contains an index.html file
+echo "Verifying registry files were generated..."
+echo "Looking for index.html in: $DATA_EXPORT_DIR/"
+ls -la "$DATA_EXPORT_DIR/" | head -10
+
+if [ ! -f "$DATA_EXPORT_DIR/index.html" ]; then
+  echo "Error: Data export directory does not contain an index.html file."
+  echo "Expected: $DATA_EXPORT_DIR/index.html"
+  echo "Directory contents:"
+  ls -la "$DATA_EXPORT_DIR/"
+  exit 1
+fi
 
 # Build the index
 echo "Building index..."
