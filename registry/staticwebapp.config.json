@@ -2,23 +2,58 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/index.html"
+      "rewrite": "/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
     },
     {
       "route": "/mcpproviders",
-      "rewrite": "/mcpproviders/index.html"
+      "rewrite": "/mcpproviders/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
     },
     {
       "route": "/mcpproviders/",
-      "rewrite": "/mcpproviders/index.html"
+      "rewrite": "/mcpproviders/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
     },
     {
       "route": "/agentcardproviders",
-      "rewrite": "/agentcardproviders/index.html"
+      "rewrite": "/agentcardproviders/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
     },
     {
       "route": "/agentcardproviders/",
-      "rewrite": "/agentcardproviders/index.html"
+      "rewrite": "/agentcardproviders/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "route": "/mcpproviders/*/*",
+      "rewrite": "/mcpproviders/*/*/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "route": "/agentcardproviders/*/*",
+      "rewrite": "/agentcardproviders/*/*/index.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "route": "*.html",
+      "headers": {
+        "Content-Type": "application/json"
+      }
     },
     {
       "route": "/*",
@@ -34,6 +69,6 @@
   },
   "mimeTypes": {
     ".json": "application/json",
-    ".html": "text/html"
+    ".html": "application/json"
   }
 }
