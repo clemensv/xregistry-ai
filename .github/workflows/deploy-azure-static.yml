@@ -34,6 +34,8 @@ jobs:
     runs-on: ubuntu-latest
     # Only run if Azure token is configured
     if: vars.ENABLE_AZURE_DEPLOYMENT == 'true' || github.event_name == 'workflow_dispatch'
+    outputs:
+      azure_url: ${{ steps.builddeploy.outputs.static_web_app_url }}
     
     steps:
       - name: Check Azure Configuration
@@ -204,7 +206,225 @@ jobs:
             echo "📋 Registry API: ${{ steps.builddeploy.outputs.static_web_app_url }}/registry/"
           fi
 
-  # Deployment check job
+  # Registry endpoint verification job
+  verify-registry-endpoints:
+    runs-on: ubuntu-latest
+    if: needs.build-and-deploy.result == 'success'
+    needs: build-and-deploy
+    timeout-minutes: 10
+    steps:
+      - name: Determine Azure Static Web App URLs
+        id: determine-urls
+        run: |
+          # Extract Azure Static Web App URL from deployment output
+          AZURE_URL="${{ needs.build-and-deploy.outputs.azure_url }}"
+          
+          if [ -z "$AZURE_URL" ]; then
+            echo "❌ Could not determine Azure Static Web App URL from deployment output"
+            # Try to construct from repository info as fallback
+            REPO_NAME="${{ github.repository }}"
+            REPO_OWNER="${{ github.repository_owner }}"
+            AZURE_URL="https://${REPO_NAME/\//-}.azurestaticapps.net"
+            echo "⚠️  Using fallback Azure URL: $AZURE_URL"
+          fi
+          
+          # Clean up URL (remove trailing slash)
+          AZURE_URL=$(echo "$AZURE_URL" | sed 's|/$||')
+          
+          # Define registry endpoints
+          AZURE_REGISTRY_URL="${AZURE_URL}/registry/"
+          CUSTOM_REGISTRY_URL="https://mcpxreg.com/registry/"
+          
+          echo "azure_base_url=$AZURE_URL" >> $GITHUB_OUTPUT
+          echo "azure_registry_url=$AZURE_REGISTRY_URL" >> $GITHUB_OUTPUT
+          echo "custom_registry_url=$CUSTOM_REGISTRY_URL" >> $GITHUB_OUTPUT
+          
+          echo "🔗 Azure Base URL: $AZURE_URL"
+          echo "🔗 Azure Registry URL: $AZURE_REGISTRY_URL"
+          echo "🔗 Custom Registry URL: $CUSTOM_REGISTRY_URL"
+      
+      - name: Wait for deployment to settle
+        run: |
+          echo "⏱️  Waiting for Azure deployment to fully propagate..."
+          sleep 60
+          
+          echo "🔄 Checking Azure base URL availability..."
+          for i in {1..12}; do
+            if curl -sf "${{ steps.determine-urls.outputs.azure_base_url }}" > /dev/null 2>&1; then
+              echo "✅ Azure base URL is responding (attempt $i)"
+              break
+            else
+              echo "⏳ Waiting for Azure base URL... (attempt $i/12)"
+              sleep 15
+            fi
+          done
+      
+      - name: Verify Azure Registry Endpoint
+        id: verify-azure
+        run: |
+          AZURE_REGISTRY_URL="${{ steps.determine-urls.outputs.azure_registry_url }}"
+          echo "🧪 Testing Azure registry endpoint: $AZURE_REGISTRY_URL"
+          
+          # Test registry endpoint with retry logic
+          SUCCESS=false
+          for i in {1..5}; do
+            echo "Attempt $i/5 for Azure registry endpoint..."
+            
+            if RESPONSE=$(curl -sf --max-time 30 "$AZURE_REGISTRY_URL" 2>/dev/null); then
+              echo "✅ Azure registry endpoint is responding"
+              
+              # Validate JSON structure
+              if echo "$RESPONSE" | jq -e '.registryid' > /dev/null 2>&1; then
+                REGISTRY_ID=$(echo "$RESPONSE" | jq -r '.registryid')
+                MCP_COUNT=$(echo "$RESPONSE" | jq -r '.mcpproviderscount // 0')
+                AGENT_COUNT=$(echo "$RESPONSE" | jq -r '.agentcardproviderscount // 0')
+                SPEC_VERSION=$(echo "$RESPONSE" | jq -r '.specversion // "unknown"')
+                
+                echo "✅ Valid JSON structure detected"
+                echo "📊 Registry ID: $REGISTRY_ID"
+                echo "📊 MCP Providers: $MCP_COUNT"
+                echo "📊 Agent Card Providers: $AGENT_COUNT"
+                echo "📊 Spec Version: $SPEC_VERSION"
+                
+                # Verify expected fields
+                if [ "$REGISTRY_ID" = "xRegistry" ] && [ "$MCP_COUNT" -gt 0 ]; then
+                  echo "✅ Azure registry endpoint validation successful"
+                  echo "azure_endpoint_status=success" >> $GITHUB_OUTPUT
+                  echo "azure_mcp_count=$MCP_COUNT" >> $GITHUB_OUTPUT
+                  echo "azure_agent_count=$AGENT_COUNT" >> $GITHUB_OUTPUT
+                  SUCCESS=true
+                  break
+                else
+                  echo "⚠️  Registry data validation failed (registryid: $REGISTRY_ID, mcp_count: $MCP_COUNT)"
+                fi
+              else
+                echo "❌ Invalid JSON response from Azure endpoint"
+                echo "Response: $RESPONSE"
+              fi
+            else
+              echo "⚠️  Azure registry endpoint not responding (attempt $i/5)"
+            fi
+            
+            sleep 20
+          done
+          
+          if [ "$SUCCESS" = false ]; then
+            echo "❌ Azure registry endpoint verification failed after all attempts"
+            echo "azure_endpoint_status=failed" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Verify Custom Domain Endpoint (Optional)
+        id: verify-custom
+        continue-on-error: true
+        run: |
+          CUSTOM_REGISTRY_URL="${{ steps.determine-urls.outputs.custom_registry_url }}"
+          echo "🧪 Testing custom domain registry endpoint: $CUSTOM_REGISTRY_URL"
+          
+          if RESPONSE=$(curl -sf --max-time 30 "$CUSTOM_REGISTRY_URL" 2>/dev/null); then
+            echo "✅ Custom domain endpoint is responding"
+            
+            # Validate JSON structure
+            if echo "$RESPONSE" | jq -e '.registryid' > /dev/null 2>&1; then
+              REGISTRY_ID=$(echo "$RESPONSE" | jq -r '.registryid')
+              MCP_COUNT=$(echo "$RESPONSE" | jq -r '.mcpproviderscount // 0')
+              AGENT_COUNT=$(echo "$RESPONSE" | jq -r '.agentcardproviderscount // 0')
+              
+              echo "✅ Valid JSON structure detected"
+              echo "📊 Registry ID: $REGISTRY_ID"
+              echo "📊 MCP Providers: $MCP_COUNT"
+              echo "📊 Agent Card Providers: $AGENT_COUNT"
+              
+              if [ "$REGISTRY_ID" = "xRegistry" ] && [ "$MCP_COUNT" -gt 0 ]; then
+                echo "✅ Custom domain endpoint validation successful"
+                echo "custom_endpoint_status=success" >> $GITHUB_OUTPUT
+                echo "custom_mcp_count=$MCP_COUNT" >> $GITHUB_OUTPUT
+                echo "custom_agent_count=$AGENT_COUNT" >> $GITHUB_OUTPUT
+              else
+                echo "⚠️  Custom domain registry data validation failed"
+                echo "custom_endpoint_status=validation_failed" >> $GITHUB_OUTPUT
+              fi
+            else
+              echo "❌ Invalid JSON response from custom domain"
+              echo "custom_endpoint_status=invalid_json" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️  Custom domain endpoint not responding (this is optional)"
+            echo "custom_endpoint_status=not_responding" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Deployment Verification Summary
+        run: |
+          echo "## 🚀 Deployment Verification Results"
+          echo ""
+          
+          # Azure endpoint results
+          AZURE_STATUS="${{ steps.verify-azure.outputs.azure_endpoint_status }}"
+          if [ "$AZURE_STATUS" = "success" ]; then
+            echo "✅ **Azure Registry Endpoint**: PASSED"
+            echo "   - URL: ${{ steps.determine-urls.outputs.azure_registry_url }}"
+            echo "   - MCP Providers: ${{ steps.verify-azure.outputs.azure_mcp_count }}"
+            echo "   - Agent Card Providers: ${{ steps.verify-azure.outputs.azure_agent_count }}"
+          else
+            echo "❌ **Azure Registry Endpoint**: FAILED"
+            echo "   - URL: ${{ steps.determine-urls.outputs.azure_registry_url }}"
+            echo "   - Status: $AZURE_STATUS"
+          fi
+          
+          echo ""
+          
+          # Custom domain results
+          CUSTOM_STATUS="${{ steps.verify-custom.outputs.custom_endpoint_status }}"
+          case "$CUSTOM_STATUS" in
+            "success")
+              echo "✅ **Custom Domain Endpoint**: PASSED"
+              echo "   - URL: ${{ steps.determine-urls.outputs.custom_registry_url }}"
+              echo "   - MCP Providers: ${{ steps.verify-custom.outputs.custom_mcp_count }}"
+              echo "   - Agent Card Providers: ${{ steps.verify-custom.outputs.custom_agent_count }}"
+              ;;
+            "validation_failed")
+              echo "⚠️  **Custom Domain Endpoint**: DATA VALIDATION FAILED"
+              echo "   - URL: ${{ steps.determine-urls.outputs.custom_registry_url }}"
+              ;;
+            "invalid_json")
+              echo "⚠️  **Custom Domain Endpoint**: INVALID JSON RESPONSE"
+              echo "   - URL: ${{ steps.determine-urls.outputs.custom_registry_url }}"
+              ;;
+            "not_responding")
+              echo "⚠️  **Custom Domain Endpoint**: NOT RESPONDING"
+              echo "   - URL: ${{ steps.determine-urls.outputs.custom_registry_url }}"
+              ;;
+            *)
+              echo "ℹ️  **Custom Domain Endpoint**: NOT TESTED"
+              ;;
+          esac
+          
+          echo ""
+          echo "## 📋 Registry API Specification"
+          echo "Both endpoints should return a JSON response with the following structure:"
+          echo '```json'
+          echo '{'
+          echo '  "registryid": "xRegistry",'
+          echo '  "mcpproviderscount": <number>,'
+          echo '  "agentcardproviderscount": <number>,'
+          echo '  "specversion": "1.0-rc1",'
+          echo '  "xid": "/",'
+          echo '  "createdat": "<timestamp>",'
+          echo '  "modifiedat": "<timestamp>",'
+          echo '  "epoch": <number>,'
+          echo '  "mcpprovidersurl": "<base_url>/mcpproviders",'
+          echo '  "agentcardprovidersurl": "<base_url>/agentcardproviders",'
+          echo '  "self": "<base_url>/"'
+          echo '}'
+          echo '```'
+          
+          # Fail the job if Azure endpoint failed
+          if [ "$AZURE_STATUS" != "success" ]; then
+            echo ""
+            echo "❌ **CRITICAL**: Azure registry endpoint validation failed!"
+            exit 1
+          fi
+
+  # Deployment check job for skipped deployments
   check-deployment:
     runs-on: ubuntu-latest
     if: always() && needs.build-and-deploy.result == 'skipped'

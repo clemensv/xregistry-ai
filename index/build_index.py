@@ -143,10 +143,12 @@ flex_indexer_dir = Path(script_dir) / "flex-indexer"
 if flex_indexer_dir.exists() and (flex_indexer_dir / "package.json").exists():
     try:
         # Run npm install to install dependencies
-        subprocess.run(["npm", "install"], cwd=flex_indexer_dir, check=True)
-        
-        # Run the npm script for flex-indexer
-        subprocess.run(["npm", "start"], cwd=flex_indexer_dir, check=True)
+        if os.name == 'nt':  # Windows
+            subprocess.run(["npm.cmd", "install"], cwd=flex_indexer_dir, check=True, shell=True)
+            subprocess.run(["npm.cmd", "start"], cwd=flex_indexer_dir, check=True, shell=True)
+        else:  # Unix-like systems
+            subprocess.run(["npm", "install"], cwd=flex_indexer_dir, check=True)
+            subprocess.run(["npm", "start"], cwd=flex_indexer_dir, check=True)
         print("Flex indexer completed successfully")
     except subprocess.CalledProcessError as e:
         print(f"Warning: Flex indexer failed: {e}")
