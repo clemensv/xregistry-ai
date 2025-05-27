@@ -11,13 +11,6 @@ if [ -n "$GITHUB_ACTIONS" ]; then
   REPO_ROOT="$GITHUB_WORKSPACE"
   echo "Running on GitHub Actions. Using GITHUB_WORKSPACE as repository root: $REPO_ROOT"
 fi
-
-# Convert path for Docker volume mount on Windows
-DOCKER_REPO_ROOT="$REPO_ROOT"
-if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
-  # Convert /c/path to C:/path for Docker on Windows
-  DOCKER_REPO_ROOT=$(echo "$REPO_ROOT" | sed 's|^/\([a-zA-Z]\)/|\1:/|')
-fi
 DATA_EXPORT_DIR="$REPO_ROOT/site/public/registry"
 SITE_DIR="$REPO_ROOT/site"
 
@@ -105,7 +98,7 @@ else
   if [ "$(docker ps -aq -f name="${CONTAINER_NAME}")" ]; then
     docker rm "${CONTAINER_NAME}" > /dev/null 2>&1
   fi
-  CONTAINER_ID=$(docker run -d --name "${CONTAINER_NAME}" -v "$DOCKER_REPO_ROOT:/workspace" -p 8080:8080 ghcr.io/xregistry/xrserver-all --recreatedb)
+  CONTAINER_ID=$(docker run -d --name "${CONTAINER_NAME}" -v $REPO_ROOT:/workspace -p 8080:8080 ghcr.io/xregistry/xrserver-all --recreatedb)
 fi
 
 # Wait for the server to be ready
@@ -116,20 +109,33 @@ done
 
 # Update the model
 echo "Updating model..."
-docker exec "${CONTAINER_ID}" ls -l /workspace
-docker exec "${CONTAINER_ID}" sh -c "/xr model update /workspace/xreg/model.json -s localhost:8080"
+docker exec "${CONTAINER_ID}" /bin/bash ls -l /workspace
+docker exec "${CONTAINER_ID}" /xr model update /workspace/xreg/model.json -s localhost:8080
 
 # Create entries for each registry index.json
 echo "Creating registry entries..."
-docker exec "${CONTAINER_ID}" sh -c 'REGISTRY_DIR=/workspace/registry && find $REGISTRY_DIR -type f -name index.json | while read file; do path=${file#"$REGISTRY_DIR"/}; path=${path%/index.json}; /xr create "/$path" -d "@$file" -s localhost:8080 && echo "Processed file: $file" || echo "Error processing file: $file"; done'
-
-# Create root registry index for the main /registry/ endpoint
-echo "Creating root registry index..."
-docker exec "${CONTAINER_ID}" sh -c '/xr create "/" -s localhost:8080 || echo "Root registry may already exist"'
+docker exec "${CONTAINER_ID}" /bin/sh -c '
+ REGISTRY_DIR=/workspace/registry
+ find $REGISTRY_DIR -type f -name index.json | while read file; do
+   path=${file#"$REGISTRY_DIR"/}
+   path=${path%/index.json}
+   /xr create "/$path" -d "@$file" -s localhost:8080
+   if [ $? -ne 0 ]; then
+     echo "Error processing file: $file"
+   else
+     echo "Processed file: $file"
+   fi 
+ done
+'
 
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
-docker exec "${CONTAINER_ID}" sh -c "mkdir -p /tmp/live && /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html && cd /tmp/live && tar czf $ARCHIVE_PATH ."
+docker exec "${CONTAINER_ID}" /bin/sh -c "
+  mkdir -p /tmp/live
+  /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
+  cd /tmp/live
+  tar czf $ARCHIVE_PATH .
+"
 
 # Copy the archive to the host
 echo "Copying archive to $DATA_EXPORT_DIR..."
@@ -143,6 +149,55 @@ echo "Stopping and removing xregistry server..."
 docker stop "${CONTAINER_ID}"
 docker rm "${CONTAINER_ID}"
 echo "xregistry server stopped and removed."
+
+# Create explicit /registry/index.json file
+echo "Creating explicit registry index.json..."
+cat > "$DATA_EXPORT_DIR/index.json" << 'EOF'
+{
+  "registryid": "xRegistry",
+  "specversion": "1.0-rc1",
+  "xid": "/",
+  "self": "https://mcpxreg.com/registry/",
+  "mcpprovidersurl": "https://mcpxreg.com/registry/mcpproviders",
+  "agentcardprovidersurl": "https://mcpxreg.com/registry/agentcardproviders"
+}
+EOF
+
+# Count providers and update the index.json with actual counts
+if [ -d "$DATA_EXPORT_DIR/mcpproviders" ]; then
+  MCP_COUNT=$(find "$DATA_EXPORT_DIR/mcpproviders" -name "index.json" | wc -l)
+else
+  MCP_COUNT=0
+fi
+
+if [ -d "$DATA_EXPORT_DIR/agentcardproviders" ]; then
+  AGENT_COUNT=$(find "$DATA_EXPORT_DIR/agentcardproviders" -name "index.json" | wc -l)
+else
+  AGENT_COUNT=0
+fi
+
+# Get current timestamp
+TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ")
+EPOCH=$(date +%s)
+
+# Update the index.json with actual counts and timestamps
+cat > "$DATA_EXPORT_DIR/index.json" << EOF
+{
+  "registryid": "xRegistry",
+  "specversion": "1.0-rc1", 
+  "xid": "/",
+  "createdat": "$TIMESTAMP",
+  "modifiedat": "$TIMESTAMP",
+  "epoch": $EPOCH,
+  "self": "https://mcpxreg.com/registry/",
+  "mcpproviderscount": $MCP_COUNT,
+  "mcpprovidersurl": "https://mcpxreg.com/registry/mcpproviders",
+  "agentcardproviderscount": $AGENT_COUNT,
+  "agentcardprovidersurl": "https://mcpxreg.com/registry/agentcardproviders"
+}
+EOF
+
+echo "Created registry index.json with $MCP_COUNT MCP providers and $AGENT_COUNT agent card providers"
 
 # Build the index
 echo "Building index..."
