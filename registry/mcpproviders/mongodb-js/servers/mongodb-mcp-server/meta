@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:01:11.439891965Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mongodb-js/servers/mongodb-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:01:11.439891965Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/mongodb-js/servers/mongodb-mcp-server/meta",
+  "serverid": "mongodb-mcp-server",
+  "xid": "/mcpproviders/mongodb-js/servers/mongodb-mcp-server/meta"
+}

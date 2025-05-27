@@ -1,0 +1,68 @@
+{
+  "mcp-postman": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:01:40.641929894Z",
+    "description": "MCP Server for running Postman Collections with Newman",
+    "epoch": 1,
+    "id": "503a5c73-c147-4b2c-90d3-292378268706",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/shannonlal/servers/mcp-postman/meta",
+    "modifiedat": "2025-05-27T13:01:40.641929894Z",
+    "name": "io.github.shannonlal/mcp-postman",
+    "packages": [
+      {
+        "name": "mcp-postman",
+        "registry_name": "unknown",
+        "version": "1.0.2"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "910565083",
+      "source": "github",
+      "url": "https://github.com/shannonlal/mcp-postman"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/shannonlal/servers/mcp-postman",
+    "serverid": "mcp-postman",
+    "tools": [
+      {
+        "description": "Run a Postman Collection using Newman",
+        "inputschema": {
+          "properties": {
+            "collection": {
+              "description": "Path or URL to the Postman collection",
+              "type": "string"
+            },
+            "environment": {
+              "description": "Optional path or URL to environment file",
+              "type": "string"
+            },
+            "globals": {
+              "description": "Optional path or URL to globals file",
+              "type": "string"
+            },
+            "iterationCount": {
+              "description": "Optional number of iterations to run",
+              "type": "number"
+            }
+          },
+          "required": [
+            "collection"
+          ],
+          "type": "object"
+        },
+        "name": "run-collection"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:12:40Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/shannonlal/servers/mcp-postman/versions",
+    "xid": "/mcpproviders/shannonlal/servers/mcp-postman"
+  }
+}

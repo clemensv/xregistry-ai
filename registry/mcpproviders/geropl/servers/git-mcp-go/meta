@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:31.840616167Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/geropl/servers/git-mcp-go/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:31.840616167Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/geropl/servers/git-mcp-go/meta",
+  "serverid": "git-mcp-go",
+  "xid": "/mcpproviders/geropl/servers/git-mcp-go/meta"
+}

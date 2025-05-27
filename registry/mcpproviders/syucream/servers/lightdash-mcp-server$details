@@ -1,0 +1,139 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:01:52.99313421Z",
+  "description": "A MCP(Model Context Protocol) server that accesses to Lightdash",
+  "epoch": 1,
+  "id": "17c2c7f2-20f2-424f-8466-b164ed19ddef",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/lightdash-mcp-server/meta",
+  "modifiedat": "2025-05-27T13:01:52.99313421Z",
+  "name": "io.github.syucream/lightdash-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "\u003cyour PAT\u003e",
+          "name": "LIGHTDASH_API_KEY"
+        },
+        {
+          "description": "https://\u003cyour base url\u003e",
+          "name": "LIGHTDASH_API_URL"
+        }
+      ],
+      "name": "lightdash-mcp-server",
+      "registry_name": "npm",
+      "version": "0.0.11"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "910751536",
+    "source": "github",
+    "url": "https://github.com/syucream/lightdash-mcp-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/lightdash-mcp-server",
+  "serverid": "lightdash-mcp-server",
+  "tools": [
+    {
+      "description": "List all projects in the Lightdash organization",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_list_projects"
+    },
+    {
+      "description": "Get details of a specific project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_project"
+    },
+    {
+      "description": "List all spaces in a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_list_spaces"
+    },
+    {
+      "description": "List all charts in a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_list_charts"
+    },
+    {
+      "description": "List all dashboards in a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_list_dashboards"
+    },
+    {
+      "description": "Get custom metrics for a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_custom_metrics"
+    },
+    {
+      "description": "Get catalog for a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_catalog"
+    },
+    {
+      "description": "Get metrics catalog for a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_metrics_catalog"
+    },
+    {
+      "description": "Get charts as code for a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_charts_as_code"
+    },
+    {
+      "description": "Get dashboards as code for a project",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_dashboards_as_code"
+    },
+    {
+      "description": "Get metadata for a specific table in the data catalog",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_metadata"
+    },
+    {
+      "description": "Get analytics for a specific table in the data catalog",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_analytics"
+    },
+    {
+      "description": "Get organization user attributes",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "lightdash_get_user_attributes"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:09:10Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/lightdash-mcp-server/versions",
+  "xid": "/mcpproviders/syucream/servers/lightdash-mcp-server"
+}

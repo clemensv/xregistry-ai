@@ -1,0 +1,104 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:47.410001846Z",
+  "description": "A Model Context Protocol (MCP) server facilitating secure interactions with MSSQL databases.",
+  "epoch": 1,
+  "id": "53290776-f4aa-488d-a10f-135a17645b02",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/JexinSam/servers/mssql_mcp_server/meta",
+  "modifiedat": "2025-05-27T13:00:47.410001846Z",
+  "name": "io.github.jexinsam/mssql_mcp_server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "mssql_driver",
+          "name": "MSSQL_DRIVER"
+        },
+        {
+          "description": "localhost",
+          "name": "MSSQL_HOST"
+        },
+        {
+          "description": "your_username",
+          "name": "MSSQL_USER"
+        },
+        {
+          "description": "your_password",
+          "name": "MSSQL_PASSWORD"
+        },
+        {
+          "description": "your_database",
+          "name": "MSSQL_DATABASE"
+        }
+      ],
+      "name": "mssql_mcp_server",
+      "package_arguments": [
+        {
+          "default": "--directory path/to/mssql_mcp_server",
+          "description": "Directory path for the MCP server",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory path/to/mssql_mcp_server",
+          "type": "named",
+          "value": "--directory path/to/mssql_mcp_server",
+          "value_hint": "path/to/mssql_mcp_server"
+        },
+        {
+          "default": "mssql_mcp_server",
+          "description": "MCP server module name to run",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mssql_mcp_server",
+          "value_hint": "mssql_mcp_server"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.2"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "924542723",
+    "source": "github",
+    "url": "https://github.com/JexinSam/mssql_mcp_server"
+  },
+  "resources": [
+    {
+      "description": "Data in table: {table}",
+      "mimetype": "text/plain",
+      "name": "Table",
+      "uritemplate": "mssql://{table}/data"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/JexinSam/servers/mssql_mcp_server",
+  "serverid": "mssql_mcp_server",
+  "tools": [
+    {
+      "description": "Execute an SQL query on the MSSQL server",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The SQL query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "execute_sql"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:10:15Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/JexinSam/servers/mssql_mcp_server/versions",
+  "xid": "/mcpproviders/JexinSam/servers/mssql_mcp_server"
+}

@@ -1,0 +1,129 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:14.550616327Z",
+  "description": "",
+  "epoch": 1,
+  "id": "98259539-3c6f-4462-b2b6-9a2567ff0545",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:00:14.550616327Z",
+  "name": "io.github.clickhouse/mcp-clickhouse",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "\u003cclickhouse-host\u003e",
+          "name": "CLICKHOUSE_HOST"
+        },
+        {
+          "description": "\u003cclickhouse-user\u003e",
+          "name": "CLICKHOUSE_USER"
+        },
+        {
+          "description": "\u003cclickhouse-password\u003e",
+          "name": "CLICKHOUSE_PASSWORD"
+        },
+        {
+          "description": "\u003coptional-database\u003e",
+          "name": "CLICKHOUSE_DATABASE"
+        }
+      ],
+      "name": "mcp-clickhouse",
+      "package_arguments": [
+        {
+          "default": "--with mcp-clickhouse",
+          "description": "Use the specified runtime feature",
+          "format": "string",
+          "is_required": true,
+          "name": "--with mcp-clickhouse",
+          "type": "named",
+          "value": "--with mcp-clickhouse",
+          "value_hint": "mcp-clickhouse"
+        },
+        {
+          "default": "--python 3.13",
+          "description": "Specify Python version",
+          "format": "string",
+          "is_required": true,
+          "name": "--python 3.13",
+          "type": "named",
+          "value": "--python 3.13",
+          "value_hint": "3.13"
+        },
+        {
+          "default": "mcp-clickhouse",
+          "description": "Positional argument to run (script or module)",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "mcp-clickhouse",
+          "value_hint": "mcp-clickhouse"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.7"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "908231244",
+    "source": "github",
+    "url": "https://github.com/ClickHouse/mcp-clickhouse"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/versions/1",
+  "serverid": "mcp-clickhouse",
+  "tools": [
+    {
+      "description": "Run a SELECT query in a ClickHouse database",
+      "inputschema": {
+        "properties": {
+          "query": {
+            "description": "The SELECT query to execute",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "run_select_query"
+    },
+    {
+      "description": "List available ClickHouse databases",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "list_databases"
+    },
+    {
+      "description": "List available ClickHouse tables in a database, including schema, comment, row count, and column count.",
+      "inputschema": {
+        "properties": {
+          "database": {
+            "description": "The name of the database",
+            "type": "string"
+          },
+          "like": {
+            "description": "Optional pattern to filter tables",
+            "type": "string"
+          }
+        },
+        "required": [
+          "database"
+        ],
+        "type": "object"
+      },
+      "name": "list_tables"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:58:02Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/ClickHouse/servers/mcp-clickhouse/versions/1"
+}

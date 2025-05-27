@@ -1,0 +1,34 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:40.281326534Z",
+  "description": "Allows Honeycomb Enterprise customers to use AI to query and analyze their data, alerts, dashboards, and more; and cross-reference production behavior with the codebase.",
+  "epoch": 1,
+  "id": "19aa503d-7b8e-42d8-a1e5-3bc918d36382",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/honeycombio/servers/honeycomb-mcp/meta",
+  "modifiedat": "2025-05-27T13:00:40.281326534Z",
+  "name": "io.github.honeycombio/honeycomb-mcp",
+  "packages": [
+    {
+      "name": "@honeycombio/honeycomb-mcp",
+      "registry_name": "unknown",
+      "version": "0.0.1"
+    }
+  ],
+  "repository": {
+    "id": "906807010",
+    "source": "github",
+    "url": "https://github.com/honeycombio/honeycomb-mcp"
+  },
+  "self": "https://mcpxreg.com/registry/mcpproviders/honeycombio/servers/honeycomb-mcp",
+  "serverid": "honeycomb-mcp",
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T18:59:34Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/honeycombio/servers/honeycomb-mcp/versions",
+  "xid": "/mcpproviders/honeycombio/servers/honeycomb-mcp"
+}

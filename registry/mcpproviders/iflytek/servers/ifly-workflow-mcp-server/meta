@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:42.074114311Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/iflytek/servers/ifly-workflow-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:42.074114311Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/iflytek/servers/ifly-workflow-mcp-server/meta",
+  "serverid": "ifly-workflow-mcp-server",
+  "xid": "/mcpproviders/iflytek/servers/ifly-workflow-mcp-server/meta"
+}

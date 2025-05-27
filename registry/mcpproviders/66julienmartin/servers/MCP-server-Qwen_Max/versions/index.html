@@ -1,0 +1,71 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T12:59:53.457772935Z",
+    "description": "MCP server for Qwen Max model",
+    "epoch": 1,
+    "id": "92c66a82-172a-45e6-92a4-ee6a053e95e6",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T12:59:53.457772935Z",
+    "name": "io.github.66julienmartin/mcp-server-qwen_max",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your-api-key-here",
+            "name": "DASHSCOPE_API_KEY"
+          }
+        ],
+        "name": "qwen_max",
+        "registry_name": "unknown",
+        "version": "1.0.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "927217229",
+      "source": "github",
+      "url": "https://github.com/66julienmartin/MCP-server-Qwen_Max"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/66julienmartin/servers/MCP-server-Qwen_Max/versions/1",
+    "serverid": "MCP-server-Qwen_Max",
+    "tools": [
+      {
+        "description": "Generate text using Qwen Max model",
+        "inputschema": {
+          "properties": {
+            "max_tokens": {
+              "default": 8192,
+              "description": "Maximum number of tokens to generate",
+              "type": "number"
+            },
+            "prompt": {
+              "description": "The text prompt to generate content from",
+              "type": "string"
+            },
+            "temperature": {
+              "default": 0.7,
+              "description": "Sampling temperature (0-2)",
+              "maximum": 2,
+              "minimum": 0,
+              "type": "number"
+            }
+          },
+          "required": [
+            "prompt"
+          ],
+          "type": "object"
+        },
+        "name": "qwen_max"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:13:07Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/66julienmartin/servers/MCP-server-Qwen_Max/versions/1"
+  }
+}

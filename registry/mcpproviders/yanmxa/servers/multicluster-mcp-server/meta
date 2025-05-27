@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:02:11.892165124Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/yanmxa/servers/multicluster-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:02:11.892165124Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/yanmxa/servers/multicluster-mcp-server/meta",
+  "serverid": "multicluster-mcp-server",
+  "xid": "/mcpproviders/yanmxa/servers/multicluster-mcp-server/meta"
+}

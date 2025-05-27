@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T12:59:53.457772935Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/66julienmartin/servers/MCP-server-Qwen_Max/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T12:59:53.457772935Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/66julienmartin/servers/MCP-server-Qwen_Max/meta",
+  "serverid": "MCP-server-Qwen_Max",
+  "xid": "/mcpproviders/66julienmartin/servers/MCP-server-Qwen_Max/meta"
+}

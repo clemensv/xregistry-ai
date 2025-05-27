@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:11.023154792Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/chaindead/servers/telegram-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:11.023154792Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/chaindead/servers/telegram-mcp/meta",
+  "serverid": "telegram-mcp",
+  "xid": "/mcpproviders/chaindead/servers/telegram-mcp/meta"
+}

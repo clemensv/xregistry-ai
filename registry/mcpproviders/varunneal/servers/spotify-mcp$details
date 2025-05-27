@@ -1,0 +1,166 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:02:02.874976534Z",
+  "description": "MCP to connect your LLM with Spotify.",
+  "epoch": 1,
+  "id": "20c38c50-831e-478a-9f52-064d3ad8a6ce",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/varunneal/servers/spotify-mcp/meta",
+  "modifiedat": "2025-05-27T13:02:02.874976534Z",
+  "name": "io.github.varunneal/spotify-mcp",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "YOUR_CLIENT_ID",
+          "name": "SPOTIFY_CLIENT_ID"
+        },
+        {
+          "description": "YOUR_CLIENT_SECRET",
+          "name": "SPOTIFY_CLIENT_SECRET"
+        },
+        {
+          "description": "http://127.0.0.1:8080/callback",
+          "name": "SPOTIFY_REDIRECT_URI"
+        }
+      ],
+      "name": "spotify-mcp",
+      "package_arguments": [
+        {
+          "default": "--directory /path/to/spotify_mcp",
+          "description": "Set the working directory",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory /path/to/spotify_mcp",
+          "type": "named",
+          "value": "--directory /path/to/spotify_mcp",
+          "value_hint": "/path/to/spotify_mcp"
+        },
+        {
+          "default": "spotify-mcp",
+          "description": "Program to run",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "spotify-mcp",
+          "value_hint": "spotify-mcp"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.2.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "896675928",
+    "source": "github",
+    "url": "https://github.com/varunneal/spotify-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/varunneal/servers/spotify-mcp",
+  "serverid": "spotify-mcp",
+  "tools": [
+    {
+      "description": "Manages the current playback with the following actions: - get: Get information about user's current track. - start: Starts playing new item or resumes current playback if called with no uri. - pause: Pauses current playback. - skip: Skips current track.",
+      "inputschema": {
+        "properties": {
+          "action": {
+            "description": "Action to perform: 'get', 'start', 'pause' or 'skip'.",
+            "type": "string"
+          },
+          "num_skips": {
+            "description": "Number of tracks to skip for `skip` action.",
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "spotify_uri": {
+            "description": "Spotify uri of item to play for 'start' action. If omitted, resumes current playback.",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "SpotifyPlayback"
+    },
+    {
+      "description": "Manage the playback queue - get the queue or add tracks.",
+      "inputschema": {
+        "properties": {
+          "action": {
+            "description": "Action to perform: 'add' or 'get'.",
+            "type": "string"
+          },
+          "track_id": {
+            "description": "Track ID to add to queue (required for add action)",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "SpotifyQueue"
+    },
+    {
+      "description": "Get detailed information about a Spotify item (track, album, artist, or playlist).",
+      "inputschema": {
+        "properties": {
+          "item_uri": {
+            "description": "URI of the item to get information about. If 'playlist' or 'album', returns its tracks. If 'artist', returns albums and top tracks.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "item_uri"
+        ],
+        "type": "object"
+      },
+      "name": "SpotifyGetInfo"
+    },
+    {
+      "description": "Search for tracks, albums, artists, or playlists on Spotify.",
+      "inputschema": {
+        "properties": {
+          "limit": {
+            "description": "Maximum number of items to return",
+            "type": "integer"
+          },
+          "qtype": {
+            "description": "Type of items to search for (track, album, artist, playlist, or comma-separated combination)",
+            "type": "string"
+          },
+          "query": {
+            "description": "query term",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "SpotifySearch"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:13Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/varunneal/servers/spotify-mcp/versions",
+  "xid": "/mcpproviders/varunneal/servers/spotify-mcp"
+}

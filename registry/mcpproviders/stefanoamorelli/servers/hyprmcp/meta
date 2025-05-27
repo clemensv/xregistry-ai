@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:01:48.717553029Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/hyprmcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:01:48.717553029Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/hyprmcp/meta",
+  "serverid": "hyprmcp",
+  "xid": "/mcpproviders/stefanoamorelli/servers/hyprmcp/meta"
+}

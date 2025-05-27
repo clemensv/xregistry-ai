@@ -1,0 +1,207 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:01:31.306486212Z",
+  "description": "An MCP server for Tavily's search API",
+  "epoch": 1,
+  "id": "bdeb1cca-49ce-476a-87a2-f27c30b086bd",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:01:31.306486212Z",
+  "name": "io.github.ramxx/mcp-tavily",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "your_api_key_here",
+          "name": "TAVILY_API_KEY"
+        }
+      ],
+      "name": "mcp_tavily",
+      "package_arguments": [
+        {
+          "default": "-m mcp_server_tavily",
+          "description": "Python module execution: -m mcp_server_tavily",
+          "format": "string",
+          "is_required": true,
+          "name": "-m mcp_server_tavily",
+          "type": "named",
+          "value": "-m mcp_server_tavily",
+          "value_hint": "mcp_server_tavily"
+        }
+      ],
+      "registry_name": "unknown",
+      "version": "0.1.8"
+    }
+  ],
+  "prompts": [
+    {
+      "description": "Search the web using Tavily's AI-powered search engine",
+      "name": "tavily_web_search"
+    },
+    {
+      "description": "Search the web and get an AI-generated answer with supporting evidence",
+      "name": "tavily_answer_search"
+    },
+    {
+      "description": "Search recent news articles with Tavily's news search",
+      "name": "tavily_news_search"
+    }
+  ],
+  "repository": {
+    "id": "896967375",
+    "source": "github",
+    "url": "https://github.com/RamXX/mcp-tavily"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/RamXX/servers/mcp-tavily/versions/1",
+  "serverid": "mcp-tavily",
+  "tools": [
+    {
+      "description": "Performs comprehensive web searches with AI-powered content extraction.",
+      "inputschema": {
+        "properties": {
+          "exclude_domains": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "include_domains": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "max_results": {
+            "type": "integer"
+          },
+          "query": {
+            "type": "string"
+          },
+          "search_depth": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "tavily_web_search"
+    },
+    {
+      "description": "Performs web searches and generates direct answers with supporting evidence.",
+      "inputschema": {
+        "properties": {
+          "exclude_domains": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "include_domains": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "max_results": {
+            "type": "integer"
+          },
+          "query": {
+            "type": "string"
+          },
+          "search_depth": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "tavily_answer_search"
+    },
+    {
+      "description": "Searches recent news articles with publication dates.",
+      "inputschema": {
+        "properties": {
+          "days": {
+            "type": "integer"
+          },
+          "exclude_domains": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "include_domains": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "max_results": {
+            "type": "integer"
+          },
+          "query": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "tavily_news_search"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:14:30Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/RamXX/servers/mcp-tavily/versions/1"
+}

@@ -1,0 +1,56 @@
+{
+  "mcp-compass": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:01:00.273505652Z",
+    "description": "MCP Discovery \u0026 Recommendation Service - Find the right MCP server for your needs",
+    "epoch": 1,
+    "id": "e4578522-e426-44f4-818c-68784f2a3038",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/liuyoshio/servers/mcp-compass/meta",
+    "modifiedat": "2025-05-27T13:01:00.273505652Z",
+    "name": "io.github.liuyoshio/mcp-compass",
+    "packages": [
+      {
+        "name": "@liuyoshio/mcp-compass",
+        "registry_name": "unknown",
+        "version": "1.0.7"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "908868990",
+      "source": "github",
+      "url": "https://github.com/liuyoshio/mcp-compass"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/liuyoshio/servers/mcp-compass",
+    "serverid": "mcp-compass",
+    "tools": [
+      {
+        "description": "Use this tool when there is a need to findn external MCP tools. It explores and recommends existing MCP servers from the internet, based on the description of the MCP Server needed. It returns a list of MCP servers with their IDs, descriptions, GitHub URLs, and similarity scores.",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "Description for the MCP Server needed. It should be specific and actionable, e.g.: GOOD: - 'MCP Server for AWS Lambda Python3.9 deployment' - 'MCP Server for United Airlines booking API' - 'MCP Server for Stripe refund webhook handling' BAD: - 'MCP Server for cloud' (too vague) - 'MCP Server for booking' (which booking system?) - 'MCP Server for payment' (which payment provider?) Query should explicitly specify: 1. Target platform/vendor (e.g. AWS, Stripe, MongoDB) 2. Exact operation/service (e.g. Lambda deployment, webhook handling) 3. Additional context if applicable (e.g. Python, refund events)",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "recommend-mcp-servers"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:09:43Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/liuyoshio/servers/mcp-compass/versions",
+    "xid": "/mcpproviders/liuyoshio/servers/mcp-compass"
+  }
+}

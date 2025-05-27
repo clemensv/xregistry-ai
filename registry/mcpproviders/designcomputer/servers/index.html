@@ -1,0 +1,106 @@
+{
+  "mysql_mcp_server": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:00:20.515093429Z",
+    "description": "A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases",
+    "epoch": 1,
+    "id": "56577627-939e-4f31-8c96-654586538eb5",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/designcomputer/servers/mysql_mcp_server/meta",
+    "modifiedat": "2025-05-27T13:00:20.515093429Z",
+    "name": "io.github.designcomputer/mysql_mcp_server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "localhost",
+            "name": "MYSQL_HOST"
+          },
+          {
+            "description": "3306",
+            "name": "MYSQL_PORT"
+          },
+          {
+            "description": "your_username",
+            "name": "MYSQL_USER"
+          },
+          {
+            "description": "your_password",
+            "name": "MYSQL_PASSWORD"
+          },
+          {
+            "description": "your_database",
+            "name": "MYSQL_DATABASE"
+          }
+        ],
+        "name": "mysql_mcp_server",
+        "package_arguments": [
+          {
+            "default": "--from mysql-mcp-server",
+            "description": "Specify the origin of the package",
+            "format": "string",
+            "is_required": true,
+            "name": "--from mysql-mcp-server",
+            "type": "named",
+            "value": "--from mysql-mcp-server",
+            "value_hint": "mysql-mcp-server"
+          },
+          {
+            "default": "mysql_mcp_server",
+            "description": "Name of the MCP server executable",
+            "format": "string",
+            "is_required": true,
+            "type": "positional",
+            "value": "mysql_mcp_server",
+            "value_hint": "mysql_mcp_server"
+          }
+        ],
+        "registry_name": "unknown",
+        "version": "0.2.2"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "898128804",
+      "source": "github",
+      "url": "https://github.com/designcomputer/mysql_mcp_server"
+    },
+    "resources": [
+      {
+        "description": "Data in table: {table}",
+        "mimetype": "text/plain",
+        "name": "Table",
+        "uritemplate": "mysql://{table}/data"
+      }
+    ],
+    "self": "https://mcpxreg.com/registry/mcpproviders/designcomputer/servers/mysql_mcp_server",
+    "serverid": "mysql_mcp_server",
+    "tools": [
+      {
+        "description": "Execute an SQL query on the MySQL server",
+        "inputschema": {
+          "properties": {
+            "query": {
+              "description": "The SQL query to execute",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "execute_sql"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:10:54Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/designcomputer/servers/mysql_mcp_server/versions",
+    "xid": "/mcpproviders/designcomputer/servers/mysql_mcp_server"
+  }
+}

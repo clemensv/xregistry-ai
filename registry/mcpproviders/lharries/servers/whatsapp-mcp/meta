@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:59.173415608Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/lharries/servers/whatsapp-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:59.173415608Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/lharries/servers/whatsapp-mcp/meta",
+  "serverid": "whatsapp-mcp",
+  "xid": "/mcpproviders/lharries/servers/whatsapp-mcp/meta"
+}

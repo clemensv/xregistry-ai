@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:55.21161187Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:55.21161187Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/jupiter-mcp/meta",
+  "serverid": "jupiter-mcp",
+  "xid": "/mcpproviders/kukapay/servers/jupiter-mcp/meta"
+}

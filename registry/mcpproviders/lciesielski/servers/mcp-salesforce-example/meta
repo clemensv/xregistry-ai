@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:57.845237198Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/lciesielski/servers/mcp-salesforce-example/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:57.845237198Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/lciesielski/servers/mcp-salesforce-example/meta",
+  "serverid": "mcp-salesforce-example",
+  "xid": "/mcpproviders/lciesielski/servers/mcp-salesforce-example/meta"
+}

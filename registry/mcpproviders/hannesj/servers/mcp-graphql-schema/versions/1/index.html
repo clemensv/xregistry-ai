@@ -1,0 +1,116 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:37.880089292Z",
+  "description": "GraphQL Schema Model Context Protocol Server",
+  "epoch": 1,
+  "id": "7461c9c2-108f-46c1-8f35-6206ec509267",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:00:37.880089292Z",
+  "name": "io.github.hannesj/mcp-graphql-schema",
+  "packages": [
+    {
+      "name": "mcp-graphql-schema",
+      "package_arguments": [
+        {
+          "default": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "description": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/ABSOLUTE/PATH/TO/schema.graphqls",
+          "value_hint": "/ABSOLUTE/PATH/TO/schema.graphqls"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "0.0.1"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "947826694",
+    "source": "github",
+    "url": "https://github.com/hannesj/mcp-graphql-schema"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/hannesj/servers/mcp-graphql-schema/versions/1",
+  "serverid": "mcp-graphql-schema",
+  "tools": [
+    {
+      "description": "Lists all available root-level fields for GraphQL queries",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "list-query-fields"
+    },
+    {
+      "description": "Gets detailed definition for a specific query field in SDL format",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-query-field"
+    },
+    {
+      "description": "Lists all available root-level fields for GraphQL mutations",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "list-mutation-fields"
+    },
+    {
+      "description": "Gets detailed definition for a specific mutation field in SDL format",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-mutation-field"
+    },
+    {
+      "description": "Lists all available root-level fields for GraphQL subscriptions (if present in schema)",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "list-subscription-fields"
+    },
+    {
+      "description": "Gets detailed definition for a specific subscription field (if present in schema)",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-subscription-field"
+    },
+    {
+      "description": "Lists all types defined in the GraphQL schema (excluding internal types)",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "list-types"
+    },
+    {
+      "description": "Gets detailed definition for a specific GraphQL type in SDL format",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-type"
+    },
+    {
+      "description": "Gets a simplified list of fields with their types for a specific GraphQL object type",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "get-type-fields"
+    },
+    {
+      "description": "Searches for types or fields in the schema by name pattern (case-insensitive regex)",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "search-schema"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:07:46Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/hannesj/servers/mcp-graphql-schema/versions/1"
+}

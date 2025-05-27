@@ -1,0 +1,330 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:31.292090648Z",
+  "description": "MCP server for Shopify api, usable on mcp clients such as Anthropic's Claude and Cursor IDE",
+  "epoch": 1,
+  "id": "fcde90d4-5b99-4262-8101-7a507bf05915",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/shopify-mcp/meta",
+  "modifiedat": "2025-05-27T13:00:31.292090648Z",
+  "name": "io.github.geli2001/shopify-mcp",
+  "packages": [
+    {
+      "name": "shopify-mcp",
+      "package_arguments": [
+        {
+          "default": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+          "description": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+          "format": "string",
+          "is_required": true,
+          "name": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+          "type": "named",
+          "value": "--accessToken \u003cYOUR_ACCESS_TOKEN\u003e",
+          "value_hint": "\u003cYOUR_ACCESS_TOKEN\u003e"
+        },
+        {
+          "default": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+          "description": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+          "format": "string",
+          "is_required": true,
+          "name": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+          "type": "named",
+          "value": "--domain \u003cYOUR_SHOP\u003e.myshopify.com",
+          "value_hint": "\u003cYOUR_SHOP\u003e.myshopify.com"
+        }
+      ],
+      "registry_name": "npm",
+      "version": "1.0.5"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "958329576",
+    "source": "github",
+    "url": "https://github.com/GeLi2001/shopify-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/shopify-mcp",
+  "serverid": "shopify-mcp",
+  "tools": [
+    {
+      "description": "Get all products or search by title",
+      "inputschema": {
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "searchTitle": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "limit"
+        ],
+        "type": "object"
+      },
+      "name": "get-products"
+    },
+    {
+      "description": "Get a specific product by ID",
+      "inputschema": {
+        "properties": {
+          "productId": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "productId"
+        ],
+        "type": "object"
+      },
+      "name": "get-product-by-id"
+    },
+    {
+      "description": "Get customers or search by name/email",
+      "inputschema": {
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "searchQuery": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "get-customers"
+    },
+    {
+      "description": "Advanced order querying and filtering",
+      "inputschema": {
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "status": {
+            "enum": [
+              "any",
+              "open",
+              "closed",
+              "cancelled"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "get-orders"
+    },
+    {
+      "description": "Get order by ID",
+      "inputschema": {
+        "properties": {
+          "orderId": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "orderId"
+        ],
+        "type": "object"
+      },
+      "name": "get-order-by-id"
+    },
+    {
+      "description": "Update an order",
+      "inputschema": {
+        "properties": {
+          "customAttributes": {
+            "items": {
+              "properties": {
+                "key": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "metafields": {
+            "items": {
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "key": {
+                  "type": "string"
+                },
+                "namespace": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "note": {
+            "type": "string"
+          },
+          "shippingAddress": {
+            "properties": {
+              "address1": {
+                "type": "string"
+              },
+              "address2": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              },
+              "company": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "firstName": {
+                "type": "string"
+              },
+              "lastName": {
+                "type": "string"
+              },
+              "phone": {
+                "type": "string"
+              },
+              "province": {
+                "type": "string"
+              },
+              "zip": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "tags": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "update-order"
+    },
+    {
+      "description": "Get orders for a specific customer",
+      "inputschema": {
+        "properties": {
+          "customerId": {
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "limit": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "customerId"
+        ],
+        "type": "object"
+      },
+      "name": "get-customer-orders"
+    },
+    {
+      "description": "Update a customer's information",
+      "inputschema": {
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "id": {
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "metafields": {
+            "items": {
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "key": {
+                  "type": "string"
+                },
+                "namespace": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "note": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "tags": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "taxExempt": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "update-customer"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:13:55Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/GeLi2001/servers/shopify-mcp/versions",
+  "xid": "/mcpproviders/GeLi2001/servers/shopify-mcp"
+}

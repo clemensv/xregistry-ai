@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:54.584389369Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-sentiment-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:54.584389369Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-sentiment-mcp/meta",
+  "serverid": "crypto-sentiment-mcp",
+  "xid": "/mcpproviders/kukapay/servers/crypto-sentiment-mcp/meta"
+}

@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:34.420145292Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/office-word-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:34.420145292Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/office-word-mcp-server/meta",
+  "serverid": "office-word-mcp-server",
+  "xid": "/mcpproviders/GongRzhe/servers/office-word-mcp-server/meta"
+}

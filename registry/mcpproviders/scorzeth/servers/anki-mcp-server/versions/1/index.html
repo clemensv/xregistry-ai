@@ -1,0 +1,132 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:01:38.521449947Z",
+  "description": "An MCP server for Anki",
+  "epoch": 1,
+  "id": "1cc26407-7ab5-44dd-b5a2-99efd6fcb757",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:01:38.521449947Z",
+  "name": "io.github.scorzeth/anki-mcp-server",
+  "packages": [
+    {
+      "name": "@scorzeth/anki-mcp-server",
+      "registry_name": "unknown",
+      "version": "1.0.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "901609361",
+    "source": "github",
+    "url": "https://github.com/scorzeth/anki-mcp-server"
+  },
+  "resources": [
+    {
+      "description": "Returns all cards from current deck",
+      "mimetype": "application/json",
+      "name": "Current Deck",
+      "uritemplate": "anki://search/deckcurrent"
+    },
+    {
+      "description": "Returns cards in review and learning waiting to be studied",
+      "mimetype": "application/json",
+      "name": "Due cards",
+      "uritemplate": "anki://search/isdue"
+    },
+    {
+      "description": "Returns all unseen cards",
+      "mimetype": "application/json",
+      "name": "New cards",
+      "uritemplate": "anki://search/isnew"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/scorzeth/servers/anki-mcp-server/versions/1",
+  "serverid": "anki-mcp-server",
+  "tools": [
+    {
+      "description": "After the user answers cards you've quizzed them on, use this tool to mark them answered and update their ease",
+      "inputschema": {
+        "properties": {
+          "answers": {
+            "items": {
+              "properties": {
+                "cardId": {
+                  "description": "Id of the card to answer",
+                  "type": "number"
+                },
+                "ease": {
+                  "description": "Ease of the card between 1 (Again) and 4 (Easy)",
+                  "type": "number"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "type": "object"
+      },
+      "name": "update_cards"
+    },
+    {
+      "description": "Create a new flashcard in Anki for the user. Must use HTML formatting only. IMPORTANT FORMATTING RULES:\n1. Must use HTML tags for ALL formatting - NO markdown\n2. Use \u003cbr\u003e for ALL line breaks\n3. For code blocks, use \u003cpre\u003e with inline CSS styling\n4. Example formatting:\n   - Line breaks: \u003cbr\u003e\n   - Code: \u003cpre style=\"background-color: transparent; padding: 10px; border-radius: 5px;\"\u003e\n   - Lists: \u003col\u003e and \u003cli\u003e tags\n   - Bold: \u003cstrong\u003e\n   - Italic: \u003cem\u003e",
+      "inputschema": {
+        "properties": {
+          "back": {
+            "description": "The back of the card. Must use HTML formatting only.",
+            "type": "string"
+          },
+          "front": {
+            "description": "The front of the card. Must use HTML formatting only.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "front",
+          "back"
+        ],
+        "type": "object"
+      },
+      "name": "add_card"
+    },
+    {
+      "description": "Returns a given number (num) of cards due for review.",
+      "inputschema": {
+        "properties": {
+          "num": {
+            "description": "Number of due cards to get",
+            "type": "number"
+          }
+        },
+        "required": [
+          "num"
+        ],
+        "type": "object"
+      },
+      "name": "get_due_cards"
+    },
+    {
+      "description": "Returns a given number (num) of new and unseen cards.",
+      "inputschema": {
+        "properties": {
+          "num": {
+            "description": "Number of new cards to get",
+            "type": "number"
+          }
+        },
+        "required": [
+          "num"
+        ],
+        "type": "object"
+      },
+      "name": "get_new_cards"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:02:53Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/scorzeth/servers/anki-mcp-server/versions/1"
+}

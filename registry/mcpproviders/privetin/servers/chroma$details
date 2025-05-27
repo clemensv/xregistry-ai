@@ -1,0 +1,178 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:01:24.723826536Z",
+  "description": "MCP server for Chroma",
+  "epoch": 1,
+  "id": "4b637a92-c1af-463d-afc1-e0ce65d7c057",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/chroma/meta",
+  "modifiedat": "2025-05-27T13:01:24.723826536Z",
+  "name": "io.github.privetin/chroma",
+  "packages": [
+    {
+      "name": "chroma",
+      "package_arguments": [
+        {
+          "default": "--directory C:/MCP/server/community/chroma",
+          "description": "Named argument",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory C:/MCP/server/community/chroma",
+          "type": "named",
+          "value": "--directory C:/MCP/server/community/chroma",
+          "value_hint": "C:/MCP/server/community/chroma"
+        },
+        {
+          "default": "chroma",
+          "description": "Positional argument",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "chroma",
+          "value_hint": "chroma"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "909977348",
+    "source": "github",
+    "url": "https://github.com/privetin/chroma"
+  },
+  "resources": [
+    {
+      "description": "Stores documents with content and metadata",
+      "name": "documents",
+      "uritemplate": "/documents/{document_id}"
+    }
+  ],
+  "self": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/chroma",
+  "serverid": "chroma",
+  "tools": [
+    {
+      "description": "Create a new document",
+      "inputschema": {
+        "properties": {
+          "content": {
+            "type": "string"
+          },
+          "document_id": {
+            "type": "string"
+          },
+          "metadata": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "document_id",
+          "content"
+        ],
+        "type": "object"
+      },
+      "name": "create_document"
+    },
+    {
+      "description": "Retrieve a document by ID",
+      "inputschema": {
+        "properties": {
+          "document_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "document_id"
+        ],
+        "type": "object"
+      },
+      "name": "read_document"
+    },
+    {
+      "description": "Update an existing document",
+      "inputschema": {
+        "properties": {
+          "content": {
+            "type": "string"
+          },
+          "document_id": {
+            "type": "string"
+          },
+          "metadata": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "document_id",
+          "content"
+        ],
+        "type": "object"
+      },
+      "name": "update_document"
+    },
+    {
+      "description": "Remove a document",
+      "inputschema": {
+        "properties": {
+          "document_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "document_id"
+        ],
+        "type": "object"
+      },
+      "name": "delete_document"
+    },
+    {
+      "description": "List all documents",
+      "inputschema": {
+        "properties": {
+          "limit": {
+            "type": "integer"
+          },
+          "offset": {
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "list_documents"
+    },
+    {
+      "description": "Find semantically similar documents",
+      "inputschema": {
+        "properties": {
+          "content_filter": {
+            "type": "string"
+          },
+          "metadata_filter": {
+            "type": "object"
+          },
+          "num_results": {
+            "type": "integer"
+          },
+          "query": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "name": "search_similar"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:04:24Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/chroma/versions",
+  "xid": "/mcpproviders/privetin/servers/chroma"
+}

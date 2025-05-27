@@ -1,0 +1,78 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:02:01.902178907Z",
+  "description": "Discord MCP Server for Claude Integration",
+  "epoch": 1,
+  "id": "361ed7f4-8df4-4a8e-931f-edfb380e0019",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:02:01.902178907Z",
+  "name": "io.github.v-3/discordmcp",
+  "packages": [
+    {
+      "name": "discord-mcp-server",
+      "registry_name": "unknown",
+      "version": "1.0.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "919856605",
+    "source": "github",
+    "url": "https://github.com/v-3/discordmcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/v-3/servers/discordmcp/versions/1",
+  "serverid": "discordmcp",
+  "tools": [
+    {
+      "description": "Sends a message to a specified Discord channel.",
+      "inputschema": {
+        "properties": {
+          "channel": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "server": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "channel",
+          "message"
+        ],
+        "type": "object"
+      },
+      "name": "send-message"
+    },
+    {
+      "description": "Reads recent messages from a specified Discord channel.",
+      "inputschema": {
+        "properties": {
+          "channel": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer"
+          },
+          "server": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "channel"
+        ],
+        "type": "object"
+      },
+      "name": "read-messages"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:53Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/v-3/servers/discordmcp/versions/1"
+}

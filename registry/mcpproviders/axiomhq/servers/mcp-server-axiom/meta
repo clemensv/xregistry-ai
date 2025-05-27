@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:05.058349058Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/axiomhq/servers/mcp-server-axiom/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:05.058349058Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/axiomhq/servers/mcp-server-axiom/meta",
+  "serverid": "mcp-server-axiom",
+  "xid": "/mcpproviders/axiomhq/servers/mcp-server-axiom/meta"
+}

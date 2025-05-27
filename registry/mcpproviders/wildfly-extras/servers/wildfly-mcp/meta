@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:02:08.542646941Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/wildfly-extras/servers/wildfly-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:02:08.542646941Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/wildfly-extras/servers/wildfly-mcp/meta",
+  "serverid": "wildfly-mcp",
+  "xid": "/mcpproviders/wildfly-extras/servers/wildfly-mcp/meta"
+}

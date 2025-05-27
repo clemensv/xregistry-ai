@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:01:48.540298386Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/fred-mcp-server/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:01:48.540298386Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/fred-mcp-server/meta",
+  "serverid": "fred-mcp-server",
+  "xid": "/mcpproviders/stefanoamorelli/servers/fred-mcp-server/meta"
+}

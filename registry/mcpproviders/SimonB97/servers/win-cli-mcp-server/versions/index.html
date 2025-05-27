@@ -1,0 +1,260 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:01:42.313445693Z",
+    "description": "Model Context Protocol server for secure command-line interactions on Windows systems",
+    "epoch": 1,
+    "id": "a8a08cbd-074f-49ba-8f98-3ef8583cc93b",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T13:01:42.313445693Z",
+    "name": "io.github.simonb97/win-cli-mcp-server",
+    "packages": [
+      {
+        "name": "@simonb97/server-win-cli",
+        "registry_name": "unknown",
+        "version": "0.2.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "898475770",
+      "source": "github",
+      "url": "https://github.com/SimonB97/win-cli-mcp-server"
+    },
+    "resources": [
+      {
+        "description": "SSH connection to {id} with host, port, and username",
+        "mimetype": "application/json",
+        "name": "SSH Connection",
+        "uritemplate": "ssh://{id}"
+      },
+      {
+        "description": "The current working directory of the CLI server",
+        "mimetype": "text/plain",
+        "name": "Current Working Directory",
+        "uritemplate": "cli://currentdir"
+      },
+      {
+        "description": "All SSH connection configurations",
+        "mimetype": "application/json",
+        "name": "SSH Configuration",
+        "uritemplate": "ssh://config"
+      },
+      {
+        "description": "Main CLI server configuration (excluding sensitive data)",
+        "mimetype": "application/json",
+        "name": "CLI Server Configuration",
+        "uritemplate": "cli://config"
+      }
+    ],
+    "self": "https://mcpxreg.com/registry/mcpproviders/SimonB97/servers/win-cli-mcp-server/versions/1",
+    "serverid": "win-cli-mcp-server",
+    "tools": [
+      {
+        "description": "Execute a command in the specified shell (powershell, cmd, or gitbash)\n\nExample usage (PowerShell):\n```json\n{\n  \"shell\": \"powershell\",\n  \"command\": \"Get-Process | Select-Object -First 5\",\n  \"workingDir\": \"C:\\\\Users\\\\username\"\n}\n```\n\nExample usage (CMD):\n```json\n{\n  \"shell\": \"cmd\",\n  \"command\": \"dir /b\",\n  \"workingDir\": \"C:\\\\Projects\"\n}\n```\n\nExample usage (Git Bash):\n```json\n{\n  \"shell\": \"gitbash\",\n  \"command\": \"ls -la\",\n  \"workingDir\": \"/c/Users/username\"\n}\n```",
+        "inputschema": {
+          "properties": {
+            "command": {
+              "description": "Command to execute",
+              "type": "string"
+            },
+            "shell": {
+              "description": "Shell to use for command execution",
+              "enum": [
+                "powershell",
+                "cmd",
+                "gitbash"
+              ],
+              "type": "string"
+            },
+            "workingDir": {
+              "description": "Working directory for command execution (optional)",
+              "type": "string"
+            }
+          },
+          "required": [
+            "shell",
+            "command"
+          ],
+          "type": "object"
+        },
+        "name": "execute_command"
+      },
+      {
+        "description": "Get the history of executed commands\n\nExample usage:\n```json\n{\n  \"limit\": 5\n}\n```\n\nExample response:\n```json\n[\n  {\n    \"command\": \"Get-Process\",\n    \"output\": \"...\",\n    \"timestamp\": \"2024-03-20T10:30:00Z\",\n    \"exitCode\": 0\n  }\n]\n```",
+        "inputschema": {
+          "properties": {
+            "limit": {
+              "description": "Maximum number of history entries to return (default: 10, max: 100)",
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        "name": "get_command_history"
+      },
+      {
+        "description": "Execute a command on a remote host via SSH\n\nExample usage:\n```json\n{\n  \"connectionId\": \"raspberry-pi\",\n  \"command\": \"uname -a\"\n}\n```\n\nConfiguration required in config.json:\n```json\n{\n  \"ssh\": {\n    \"enabled\": true,\n    \"connections\": {\n      \"raspberry-pi\": {\n        \"host\": \"raspberrypi.local\",\n        \"port\": 22,\n        \"username\": \"pi\",\n        \"password\": \"raspberry\"\n      }\n    }\n  }\n}\n```",
+        "inputschema": {
+          "properties": {
+            "command": {
+              "description": "Command to execute",
+              "type": "string"
+            },
+            "connectionId": {
+              "description": "ID of the SSH connection to use",
+              "enum": [],
+              "type": "string"
+            }
+          },
+          "required": [
+            "connectionId",
+            "command"
+          ],
+          "type": "object"
+        },
+        "name": "ssh_execute"
+      },
+      {
+        "description": "Disconnect from an SSH server\n\nExample usage:\n```json\n{\n  \"connectionId\": \"raspberry-pi\"\n}\n```\n\nUse this to cleanly close SSH connections when they're no longer needed.",
+        "inputschema": {
+          "properties": {
+            "connectionId": {
+              "description": "ID of the SSH connection to disconnect",
+              "enum": [],
+              "type": "string"
+            }
+          },
+          "required": [
+            "connectionId"
+          ],
+          "type": "object"
+        },
+        "name": "ssh_disconnect"
+      },
+      {
+        "description": "Create a new SSH connection",
+        "inputschema": {
+          "properties": {
+            "connectionConfig": {
+              "properties": {
+                "host": {
+                  "description": "Host of the SSH connection",
+                  "type": "string"
+                },
+                "password": {
+                  "description": "Password for the SSH connection",
+                  "type": "string"
+                },
+                "port": {
+                  "description": "Port of the SSH connection",
+                  "type": "number"
+                },
+                "privateKeyPath": {
+                  "description": "Path to the private key for the SSH connection",
+                  "type": "string"
+                },
+                "username": {
+                  "description": "Username for the SSH connection",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "connectionId": {
+              "description": "ID of the SSH connection",
+              "type": "string"
+            }
+          },
+          "required": [
+            "connectionId",
+            "connectionConfig"
+          ],
+          "type": "object"
+        },
+        "name": "create_ssh_connection"
+      },
+      {
+        "description": "Read all SSH connections",
+        "inputschema": {
+          "properties": {},
+          "type": "object"
+        },
+        "name": "read_ssh_connections"
+      },
+      {
+        "description": "Update an existing SSH connection",
+        "inputschema": {
+          "properties": {
+            "connectionConfig": {
+              "properties": {
+                "host": {
+                  "description": "Host of the SSH connection",
+                  "type": "string"
+                },
+                "password": {
+                  "description": "Password for the SSH connection",
+                  "type": "string"
+                },
+                "port": {
+                  "description": "Port of the SSH connection",
+                  "type": "number"
+                },
+                "privateKeyPath": {
+                  "description": "Path to the private key for the SSH connection",
+                  "type": "string"
+                },
+                "username": {
+                  "description": "Username for the SSH connection",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "connectionId": {
+              "description": "ID of the SSH connection to update",
+              "type": "string"
+            }
+          },
+          "required": [
+            "connectionId",
+            "connectionConfig"
+          ],
+          "type": "object"
+        },
+        "name": "update_ssh_connection"
+      },
+      {
+        "description": "Delete an existing SSH connection",
+        "inputschema": {
+          "properties": {
+            "connectionId": {
+              "description": "ID of the SSH connection to delete",
+              "type": "string"
+            }
+          },
+          "required": [
+            "connectionId"
+          ],
+          "type": "object"
+        },
+        "name": "delete_ssh_connection"
+      },
+      {
+        "description": "Get the current working directory",
+        "inputschema": {
+          "properties": {},
+          "type": "object"
+        },
+        "name": "get_current_directory"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:15:52Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/SimonB97/servers/win-cli-mcp-server/versions/1"
+  }
+}

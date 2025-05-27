@@ -1,0 +1,88 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:00:43.13698783Z",
+    "description": "Inkeep MCP Server",
+    "epoch": 1,
+    "id": "bfcde7fb-0ea1-499f-bca0-17ffcba95a0c",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T13:00:43.13698783Z",
+    "name": "io.github.inkeep/mcp-server-python",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "https://api.inkeep.com/v1",
+            "name": "INKEEP_API_BASE_URL"
+          },
+          {
+            "description": "\u003cYOUR_INKEEP_API_KEY\u003e",
+            "name": "INKEEP_API_KEY"
+          },
+          {
+            "description": "inkeep-rag",
+            "name": "INKEEP_API_MODEL"
+          },
+          {
+            "description": "search-product-content",
+            "name": "INKEEP_MCP_TOOL_NAME"
+          },
+          {
+            "description": "Retrieves product documentation about Inkeep. The query should be framed as a conversational question about Inkeep.",
+            "name": "INKEEP_MCP_TOOL_DESCRIPTION"
+          }
+        ],
+        "name": "inkeep-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--directory \u003cYOUR_INKEEP_MCP_SERVER_ABSOLUTE_PATH\u003e",
+            "description": "Directory for the inkeep-mcp-server",
+            "format": "string",
+            "is_required": true,
+            "name": "--directory \u003cYOUR_INKEEP_MCP_SERVER_ABSOLUTE_PATH\u003e",
+            "type": "named",
+            "value": "--directory \u003cYOUR_INKEEP_MCP_SERVER_ABSOLUTE_PATH\u003e",
+            "value_hint": "\u003cYOUR_INKEEP_MCP_SERVER_ABSOLUTE_PATH\u003e"
+          },
+          {
+            "default": "-m inkeep_mcp_server",
+            "description": "Run python module",
+            "format": "string",
+            "is_required": true,
+            "name": "-m inkeep_mcp_server",
+            "type": "named",
+            "value": "-m inkeep_mcp_server",
+            "value_hint": "inkeep_mcp_server"
+          }
+        ],
+        "registry_name": "pypi",
+        "version": "0.1.0"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "947631175",
+      "source": "github",
+      "url": "https://github.com/inkeep/mcp-server-python"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/inkeep/servers/mcp-server-python/versions/1",
+    "serverid": "mcp-server-python",
+    "tools": [
+      {
+        "description": "Retrieves product documentation about Inkeep. The query should be framed as a conversational question about Inkeep.",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "search-product-content"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:59:46Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/inkeep/servers/mcp-server-python/versions/1"
+  }
+}

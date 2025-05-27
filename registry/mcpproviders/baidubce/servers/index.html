@@ -1,0 +1,97 @@
+{
+  "app-builder": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:00:05.692628037Z",
+    "description": "appbuilder-sdk, 千帆AppBuilder-SDK帮助开发者灵活、快速的搭建AI原生应用",
+    "epoch": 1,
+    "id": "b7e8b7c6-548b-49a7-9001-2bf1733ca539",
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/baidubce/servers/app-builder/meta",
+    "modifiedat": "2025-05-27T13:00:05.692628037Z",
+    "name": "io.github.baidubce/app-builder",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "${input:apiKey}",
+            "name": "API_KEY"
+          }
+        ],
+        "name": "baidubce/app-builder",
+        "registry_name": "npm",
+        "version": ""
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "727502310",
+      "source": "github",
+      "url": "https://github.com/baidubce/app-builder"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/baidubce/servers/app-builder",
+    "serverid": "app-builder",
+    "tools": [
+      {
+        "description": "Retrieve a list of all available AppBuilder applications.",
+        "inputschema": {
+          "properties": {},
+          "required": [],
+          "type": "object"
+        },
+        "name": "list_apps"
+      },
+      {
+        "description": "Create a new conversation session for a specific AppBuilder application.",
+        "inputschema": {
+          "properties": {
+            "app_id": {
+              "description": "The unique identifier of the target application",
+              "type": "string"
+            }
+          },
+          "required": [
+            "app_id"
+          ],
+          "type": "object"
+        },
+        "name": "create_conversation"
+      },
+      {
+        "description": "Execute a conversation query with a specific AppBuilder application.",
+        "inputschema": {
+          "properties": {
+            "app_id": {
+              "description": "The unique identifier of the target application",
+              "type": "string"
+            },
+            "conversation_id": {
+              "description": "The conversation session identifier",
+              "type": "string"
+            },
+            "query": {
+              "description": "The input text/query to send to the application",
+              "type": "string"
+            }
+          },
+          "required": [
+            "app_id",
+            "conversation_id",
+            "query"
+          ],
+          "type": "object"
+        },
+        "name": "run"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T19:03:44Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/baidubce/servers/app-builder/versions",
+    "xid": "/mcpproviders/baidubce/servers/app-builder"
+  }
+}

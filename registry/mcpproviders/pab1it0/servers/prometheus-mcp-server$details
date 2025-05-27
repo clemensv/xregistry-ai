@@ -1,0 +1,103 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:01:21.424877782Z",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Prometheus metrics through standardized interfaces.",
+  "epoch": 1,
+  "id": "cf42caa8-50d1-489d-aa3c-3e8432efe9e2",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/pab1it0/servers/prometheus-mcp-server/meta",
+  "modifiedat": "2025-05-27T13:01:21.424877782Z",
+  "name": "io.github.pab1it0/prometheus-mcp-server",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "http://your-prometheus-server:9090",
+          "name": "PROMETHEUS_URL"
+        },
+        {
+          "description": "your_username",
+          "name": "PROMETHEUS_USERNAME"
+        },
+        {
+          "description": "your_password",
+          "name": "PROMETHEUS_PASSWORD"
+        }
+      ],
+      "name": "prometheus_mcp_server",
+      "package_arguments": [
+        {
+          "default": "--rm",
+          "description": "Automatically remove the container when it exits.",
+          "format": "string",
+          "is_required": true,
+          "name": "--rm",
+          "type": "named",
+          "value": "--rm",
+          "value_hint": "--rm"
+        },
+        {
+          "default": "-i",
+          "description": "Keep STDIN open even if not attached.",
+          "format": "string",
+          "is_required": true,
+          "name": "-i",
+          "type": "named",
+          "value": "-i",
+          "value_hint": "-i"
+        },
+        {
+          "default": "-e PROMETHEUS_URL",
+          "description": "Set environment variable PROMETHEUS_URL inside the container.",
+          "format": "string",
+          "is_required": true,
+          "name": "-e PROMETHEUS_URL",
+          "type": "named",
+          "value": "-e PROMETHEUS_URL",
+          "value_hint": "PROMETHEUS_URL"
+        },
+        {
+          "default": "-e PROMETHEUS_USERNAME",
+          "description": "Set environment variable PROMETHEUS_USERNAME inside the container.",
+          "format": "string",
+          "is_required": true,
+          "name": "-e PROMETHEUS_USERNAME",
+          "type": "named",
+          "value": "-e PROMETHEUS_USERNAME",
+          "value_hint": "PROMETHEUS_USERNAME"
+        },
+        {
+          "default": "-e PROMETHEUS_PASSWORD",
+          "description": "Set environment variable PROMETHEUS_PASSWORD inside the container.",
+          "format": "string",
+          "is_required": true,
+          "name": "-e PROMETHEUS_PASSWORD",
+          "type": "named",
+          "value": "-e PROMETHEUS_PASSWORD",
+          "value_hint": "PROMETHEUS_PASSWORD"
+        }
+      ],
+      "registry_name": "docker",
+      "version": "1.0.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "951416232",
+    "source": "github",
+    "url": "https://github.com/pab1it0/prometheus-mcp-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/pab1it0/servers/prometheus-mcp-server",
+  "serverid": "prometheus-mcp-server",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:12:49Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/pab1it0/servers/prometheus-mcp-server/versions",
+  "xid": "/mcpproviders/pab1it0/servers/prometheus-mcp-server"
+}

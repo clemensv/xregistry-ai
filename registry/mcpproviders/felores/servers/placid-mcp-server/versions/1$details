@@ -1,0 +1,49 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:27.864998374Z",
+  "description": "Generate image and video creatives using Placid.app templates in MCP compatible hosts",
+  "epoch": 1,
+  "id": "cfe44c73-8b61-48c9-9d7f-b28e98d23b5b",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:00:27.864998374Z",
+  "name": "io.github.felores/placid-mcp-server",
+  "packages": [
+    {
+      "name": "@felores/placid-mcp-server",
+      "registry_name": "unknown",
+      "version": "1.7.0"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "915853970",
+    "source": "github",
+    "url": "https://github.com/felores/placid-mcp-server"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/felores/servers/placid-mcp-server/versions/1",
+  "serverid": "placid-mcp-server",
+  "tools": [
+    {
+      "description": "Lists available Placid templates with filtering options. Each template includes its title, ID, preview image URL, available layers, and tags.",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "placid_list_templates"
+    },
+    {
+      "description": "Generate videos by combining Placid templates with dynamic content like videos, images, and text.",
+      "inputschema": {
+        "type": "object"
+      },
+      "name": "placid_generate_video"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:12:34Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/felores/servers/placid-mcp-server/versions/1"
+}

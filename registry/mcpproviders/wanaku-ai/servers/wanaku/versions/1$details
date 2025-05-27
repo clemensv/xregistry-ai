@@ -1,0 +1,40 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:02:07.82798484Z",
+  "description": "Wanaku MCP Router",
+  "epoch": 1,
+  "id": "f3285cc9-1d33-472f-aa28-0b9d7723f877",
+  "isdefault": true,
+  "modifiedat": "2025-05-27T13:02:07.82798484Z",
+  "name": "io.github.wanaku-ai/wanaku",
+  "packages": [
+    {
+      "environment_variables": [
+        {
+          "description": "${input:apiKey}",
+          "name": "API_KEY"
+        }
+      ],
+      "name": "wanaku-ai/wanaku",
+      "registry_name": "npm",
+      "version": ""
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "925674818",
+    "source": "github",
+    "url": "https://github.com/wanaku-ai/wanaku"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/wanaku-ai/servers/wanaku/versions/1",
+  "serverid": "wanaku",
+  "tools": [],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:15:38Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "xid": "/mcpproviders/wanaku-ai/servers/wanaku/versions/1"
+}

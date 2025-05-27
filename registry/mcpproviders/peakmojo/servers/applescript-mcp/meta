@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:01:22.464867248Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/peakmojo/servers/applescript-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:01:22.464867248Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/peakmojo/servers/applescript-mcp/meta",
+  "serverid": "applescript-mcp",
+  "xid": "/mcpproviders/peakmojo/servers/applescript-mcp/meta"
+}

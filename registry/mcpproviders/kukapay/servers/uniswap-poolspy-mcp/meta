@@ -1,0 +1,13 @@
+{
+  "compatibility": "none",
+  "createdat": "2025-05-27T13:00:56.016670177Z",
+  "defaultversionid": "1",
+  "defaultversionsticky": false,
+  "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-poolspy-mcp/versions/1",
+  "epoch": 1,
+  "modifiedat": "2025-05-27T13:00:56.016670177Z",
+  "readonly": false,
+  "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-poolspy-mcp/meta",
+  "serverid": "uniswap-poolspy-mcp",
+  "xid": "/mcpproviders/kukapay/servers/uniswap-poolspy-mcp/meta"
+}

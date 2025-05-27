@@ -1,0 +1,90 @@
+{
+  "1": {
+    "ancestor": "1",
+    "createdat": "2025-05-27T13:00:26.511058061Z",
+    "description": "Claude can perform Web Search | Exa with MCP (Model Context Protocol)",
+    "epoch": 1,
+    "id": "2a2aa283-57c8-474f-8a27-27954214cb6b",
+    "isdefault": true,
+    "modifiedat": "2025-05-27T13:00:26.511058061Z",
+    "name": "io.github.exa-labs/exa-mcp-server",
+    "packages": [
+      {
+        "environment_variables": [
+          {
+            "description": "your-api-key-here",
+            "name": "EXA_API_KEY"
+          }
+        ],
+        "name": "exa-mcp-server",
+        "package_arguments": [
+          {
+            "default": "--tools=web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search",
+            "description": "Comma-separated list of tools",
+            "format": "string",
+            "is_required": true,
+            "name": "--tools=web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search",
+            "type": "named",
+            "value": "--tools=web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search",
+            "value_hint": "web_search_exa,research_paper_search,company_research,crawling,competitor_finder,linkedin_search,wikipedia_search_exa,github_search"
+          }
+        ],
+        "registry_name": "npm",
+        "version": "0.3.10"
+      }
+    ],
+    "prompts": [],
+    "repository": {
+      "id": "895291604",
+      "source": "github",
+      "url": "https://github.com/exa-labs/exa-mcp-server"
+    },
+    "resources": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/exa-labs/servers/exa-mcp-server/versions/1",
+    "serverid": "exa-mcp-server",
+    "tools": [
+      {
+        "description": "Performs real-time web searches with optimized results and content extraction",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "web_search"
+      },
+      {
+        "description": "Specialized search focused on academic papers and research content",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "research_paper_search"
+      },
+      {
+        "description": "Dedicated Twitter/X.com search that finds tweets, profiles, and conversations",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "twitter_search"
+      },
+      {
+        "description": "Comprehensive company research tool that crawls company websites to gather detailed information about businesses",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "company_research"
+      },
+      {
+        "description": "Extracts content from specific URLs, useful for reading articles, PDFs, or any web page when you have the exact URL",
+        "inputschema": {
+          "type": "object"
+        },
+        "name": "crawling"
+      }
+    ],
+    "version_detail": {
+      "is_latest": true,
+      "release_date": "2025-05-16T18:58:43Z",
+      "version": "0.0.1-seed"
+    },
+    "versionid": "1",
+    "xid": "/mcpproviders/exa-labs/servers/exa-mcp-server/versions/1"
+  }
+}

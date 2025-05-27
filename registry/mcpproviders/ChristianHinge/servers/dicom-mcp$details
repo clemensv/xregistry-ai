@@ -1,0 +1,344 @@
+{
+  "ancestor": "1",
+  "createdat": "2025-05-27T13:00:11.989869199Z",
+  "description": "Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)",
+  "epoch": 1,
+  "id": "c83f2ca0-ca97-43cf-8288-5ff4a0771e29",
+  "isdefault": true,
+  "metaurl": "https://mcpxreg.com/registry/mcpproviders/ChristianHinge/servers/dicom-mcp/meta",
+  "modifiedat": "2025-05-27T13:00:11.989869199Z",
+  "name": "io.github.christianhinge/dicom-mcp",
+  "packages": [
+    {
+      "name": "dicom-mcp",
+      "package_arguments": [
+        {
+          "default": "--directory path/to/cloned/dicom-mcp",
+          "description": "Specify the directory to operate in",
+          "format": "string",
+          "is_required": true,
+          "name": "--directory path/to/cloned/dicom-mcp",
+          "type": "named",
+          "value": "--directory path/to/cloned/dicom-mcp",
+          "value_hint": "path/to/cloned/dicom-mcp"
+        },
+        {
+          "default": "dicom-mcp",
+          "description": "Script or module to execute",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "dicom-mcp",
+          "value_hint": "dicom-mcp"
+        },
+        {
+          "default": "/path/to/your_config.yaml",
+          "description": "Path to the configuration YAML file",
+          "format": "string",
+          "is_required": true,
+          "type": "positional",
+          "value": "/path/to/your_config.yaml",
+          "value_hint": "/path/to/your_config.yaml"
+        }
+      ],
+      "registry_name": "pypi",
+      "version": "0.1.1"
+    }
+  ],
+  "prompts": [],
+  "repository": {
+    "id": "946779028",
+    "source": "github",
+    "url": "https://github.com/ChristianHinge/dicom-mcp"
+  },
+  "resources": [],
+  "self": "https://mcpxreg.com/registry/mcpproviders/ChristianHinge/servers/dicom-mcp",
+  "serverid": "dicom-mcp",
+  "tools": [
+    {
+      "description": "Lists all configured DICOM nodes and calling AE titles",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "list_dicom_nodes"
+    },
+    {
+      "description": "Switches to a different configured DICOM node",
+      "inputschema": {
+        "properties": {
+          "node_name": {
+            "description": "Name of the node to switch to",
+            "type": "string"
+          }
+        },
+        "required": [
+          "node_name"
+        ],
+        "type": "object"
+      },
+      "name": "switch_dicom_node"
+    },
+    {
+      "description": "Switches to a different configured calling AE title",
+      "inputschema": {
+        "properties": {
+          "aet_name": {
+            "description": "Name of the calling AE title to switch to",
+            "type": "string"
+          }
+        },
+        "required": [
+          "aet_name"
+        ],
+        "type": "object"
+      },
+      "name": "switch_calling_aet"
+    },
+    {
+      "description": "Tests connectivity to the configured DICOM node using C-ECHO",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "verify_connection"
+    },
+    {
+      "description": "Search for patients matching specified criteria",
+      "inputschema": {
+        "properties": {
+          "additional_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "attribute_preset": {
+            "type": "string"
+          },
+          "birth_date": {
+            "type": "string"
+          },
+          "exclude_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "name_pattern": {
+            "description": "Patient name pattern (can include wildcards)",
+            "type": "string"
+          },
+          "patient_id": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "name": "query_patients"
+    },
+    {
+      "description": "Search for studies matching specified criteria",
+      "inputschema": {
+        "properties": {
+          "accession_number": {
+            "type": "string"
+          },
+          "additional_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "attribute_preset": {
+            "type": "string"
+          },
+          "exclude_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "modality_in_study": {
+            "type": "string"
+          },
+          "patient_id": {
+            "type": "string"
+          },
+          "study_date": {
+            "type": "string"
+          },
+          "study_description": {
+            "type": "string"
+          },
+          "study_instance_uid": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "name": "query_studies"
+    },
+    {
+      "description": "Search for series within a study",
+      "inputschema": {
+        "properties": {
+          "additional_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "attribute_preset": {
+            "type": "string"
+          },
+          "exclude_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "modality": {
+            "type": "string"
+          },
+          "series_description": {
+            "type": "string"
+          },
+          "series_instance_uid": {
+            "type": "string"
+          },
+          "series_number": {
+            "type": "string"
+          },
+          "study_instance_uid": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "study_instance_uid"
+        ],
+        "type": "object"
+      },
+      "name": "query_series"
+    },
+    {
+      "description": "Search for instances within a series",
+      "inputschema": {
+        "properties": {
+          "additional_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "attribute_preset": {
+            "type": "string"
+          },
+          "exclude_attributes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "instance_number": {
+            "type": "string"
+          },
+          "series_instance_uid": {
+            "type": "string"
+          },
+          "sop_instance_uid": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "series_instance_uid"
+        ],
+        "type": "object"
+      },
+      "name": "query_instances"
+    },
+    {
+      "description": "Move a DICOM series to another DICOM node",
+      "inputschema": {
+        "properties": {
+          "destination_node": {
+            "type": "string"
+          },
+          "series_instance_uid": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "destination_node",
+          "series_instance_uid"
+        ],
+        "type": "object"
+      },
+      "name": "move_series"
+    },
+    {
+      "description": "Move a DICOM study to another DICOM node",
+      "inputschema": {
+        "properties": {
+          "destination_node": {
+            "type": "string"
+          },
+          "study_instance_uid": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "destination_node",
+          "study_instance_uid"
+        ],
+        "type": "object"
+      },
+      "name": "move_study"
+    },
+    {
+      "description": "Get all available attribute presets for DICOM queries",
+      "inputschema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "get_attribute_presets"
+    },
+    {
+      "description": "Retrieve a DICOM instance with encapsulated PDF and extract its text content",
+      "inputschema": {
+        "properties": {
+          "series_instance_uid": {
+            "type": "string"
+          },
+          "sop_instance_uid": {
+            "type": "string"
+          },
+          "study_instance_uid": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "study_instance_uid",
+          "series_instance_uid",
+          "sop_instance_uid"
+        ],
+        "type": "object"
+      },
+      "name": "extract_pdf_text_from_dicom"
+    }
+  ],
+  "version_detail": {
+    "is_latest": true,
+    "release_date": "2025-05-16T19:05:48Z",
+    "version": "0.0.1-seed"
+  },
+  "versionid": "1",
+  "versionscount": 1,
+  "versionsurl": "https://mcpxreg.com/registry/mcpproviders/ChristianHinge/servers/dicom-mcp/versions",
+  "xid": "/mcpproviders/ChristianHinge/servers/dicom-mcp"
+}

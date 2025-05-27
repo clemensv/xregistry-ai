@@ -1,0 +1,11 @@
+{
+  "agentcardid": "final-test-agentcard",
+  "ancestor": "1",
+  "createdat": "2025-05-27T12:59:52.472412271Z",
+  "epoch": 1,
+  "isdefault": true,
+  "modifiedat": "2025-05-27T12:59:52.472412271Z",
+  "self": "https://mcpxreg.com/registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1",
+  "versionid": "1",
+  "xid": "/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1"
+}
