@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:22.57976978Z",
+  "createdat": "2025-05-27T10:29:02.31283287Z",
   "description": "Unity Catalog AI Model Context Protocol Server",
   "epoch": 1,
   "id": "51d74701-2a57-476f-a5ed-75a93be58f42",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog/meta",
-  "modifiedat": "2025-05-27T10:03:22.57976978Z",
+  "modifiedat": "2025-05-27T10:29:02.31283287Z",
   "name": "io.github.ognis1205/mcp-server-unitycatalog",
   "packages": [
     {

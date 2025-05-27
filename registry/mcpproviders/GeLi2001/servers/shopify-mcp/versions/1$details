@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:37.595199602Z",
+  "createdat": "2025-05-27T10:28:13.331037073Z",
   "description": "MCP server for Shopify api, usable on mcp clients such as Anthropic's Claude and Cursor IDE",
   "epoch": 1,
   "id": "fcde90d4-5b99-4262-8101-7a507bf05915",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:37.595199602Z",
+  "modifiedat": "2025-05-27T10:28:13.331037073Z",
   "name": "io.github.geli2001/shopify-mcp",
   "packages": [
     {

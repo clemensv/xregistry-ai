@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:28.142710586Z",
+  "createdat": "2025-05-27T10:29:10.0405043Z",
   "description": "A Model Context Protocol Server connector for Perplexity API, to enable web search without leaving the MCP ecosystem.",
   "epoch": 1,
   "id": "9eab3795-a96d-4fad-8521-921599e85240",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:28.142710586Z",
+  "modifiedat": "2025-05-27T10:29:10.0405043Z",
   "name": "io.github.ppl-ai/modelcontextprotocol",
   "packages": [
     {

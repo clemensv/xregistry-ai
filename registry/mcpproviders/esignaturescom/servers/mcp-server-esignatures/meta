@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:32.386146584Z",
+  "createdat": "2025-05-27T10:28:07.585813102Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/esignaturescom/servers/mcp-server-esignatures/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:32.386146584Z",
+  "modifiedat": "2025-05-27T10:28:07.585813102Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/esignaturescom/servers/mcp-server-esignatures/meta",
   "serverid": "mcp-server-esignatures",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:06.08514826Z",
+  "createdat": "2025-05-27T10:29:50.012582397Z",
   "description": "A MCP server for Vertex AI Search",
   "epoch": 1,
   "id": "07ccf835-680a-42b4-bf0b-db28367519ee",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ubie-oss/servers/mcp-vertexai-search/meta",
-  "modifiedat": "2025-05-27T10:04:06.08514826Z",
+  "modifiedat": "2025-05-27T10:29:50.012582397Z",
   "name": "io.github.ubie-oss/mcp-vertexai-search",
   "packages": [
     {

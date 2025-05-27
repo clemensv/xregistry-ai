@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:24.394905229Z",
+  "createdat": "2025-05-27T10:29:04.92457718Z",
   "description": "Model Context Protocol (MCP) server for OpsLevel",
   "epoch": 1,
   "id": "27560049-5f82-4445-8969-d527da4d8936",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:24.394905229Z",
+  "modifiedat": "2025-05-27T10:29:04.92457718Z",
   "name": "io.github.opslevel/opslevel-mcp",
   "packages": [
     {

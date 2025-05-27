@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:33.827084885Z",
+  "createdat": "2025-05-27T10:29:17.442397989Z",
   "description": "Ragie Model Context Protocol Server",
   "epoch": 1,
   "id": "324d6879-eb6f-4565-bdeb-6c4b00d91384",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ragieai/servers/ragie-mcp-server/meta",
-  "modifiedat": "2025-05-27T10:03:33.827084885Z",
+  "modifiedat": "2025-05-27T10:29:17.442397989Z",
   "name": "io.github.ragieai/ragie-mcp-server",
   "packages": [
     {

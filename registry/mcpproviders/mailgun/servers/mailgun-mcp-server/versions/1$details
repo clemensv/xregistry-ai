@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:09.675531972Z",
+  "createdat": "2025-05-27T10:28:45.79993578Z",
   "description": "Implementation of Model Context Protocol server for Mailgun APIs",
   "epoch": 1,
   "id": "c0151c41-3d77-43a9-b887-dd9fd035b9aa",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:09.675531972Z",
+  "modifiedat": "2025-05-27T10:28:45.79993578Z",
   "name": "io.github.mailgun/mailgun-mcp-server",
   "packages": [
     {

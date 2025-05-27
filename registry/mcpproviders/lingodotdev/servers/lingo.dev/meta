@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:06.647084894Z",
+  "createdat": "2025-05-27T10:28:42.9345771Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/lingodotdev/servers/lingo.dev/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:06.647084894Z",
+  "modifiedat": "2025-05-27T10:28:42.9345771Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/lingodotdev/servers/lingo.dev/meta",
   "serverid": "lingo.dev",

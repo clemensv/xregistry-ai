@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:04.969279644Z",
+  "createdat": "2025-05-27T10:29:48.825205486Z",
   "description": "Memory for AI Agents in 5 lines of code",
   "epoch": 1,
   "id": "ae9ce022-800d-4a10-a452-5bc396d25430",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/topoteretes/servers/cognee/meta",
-  "modifiedat": "2025-05-27T10:04:04.969279644Z",
+  "modifiedat": "2025-05-27T10:29:48.825205486Z",
   "name": "io.github.topoteretes/cognee",
   "packages": [
     {

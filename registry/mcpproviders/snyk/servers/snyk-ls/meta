@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:49.953057768Z",
+  "createdat": "2025-05-27T10:29:34.105585647Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/snyk/servers/snyk-ls/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:49.953057768Z",
+  "modifiedat": "2025-05-27T10:29:34.105585647Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/snyk/servers/snyk-ls/meta",
   "serverid": "snyk-ls",

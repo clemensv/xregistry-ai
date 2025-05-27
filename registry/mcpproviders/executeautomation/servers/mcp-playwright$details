@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:33.135663871Z",
+  "createdat": "2025-05-27T10:28:08.529648217Z",
   "description": "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌",
   "epoch": 1,
   "id": "328e3069-005e-4179-add1-c13b18db4102",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/executeautomation/servers/mcp-playwright/meta",
-  "modifiedat": "2025-05-27T10:02:33.135663871Z",
+  "modifiedat": "2025-05-27T10:28:08.529648217Z",
   "name": "io.github.executeautomation/mcp-playwright",
   "packages": [
     {

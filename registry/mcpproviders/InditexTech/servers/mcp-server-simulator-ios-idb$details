@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:49.547722195Z",
+  "createdat": "2025-05-27T10:28:24.750176398Z",
   "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators through natural language commands.",
   "epoch": 1,
   "id": "b9fa6e10-c6f4-424d-b289-469d49decaaf",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/InditexTech/servers/mcp-server-simulator-ios-idb/meta",
-  "modifiedat": "2025-05-27T10:02:49.547722195Z",
+  "modifiedat": "2025-05-27T10:28:24.750176398Z",
   "name": "io.github.inditextech/mcp-server-simulator-ios-idb",
   "packages": [
     {

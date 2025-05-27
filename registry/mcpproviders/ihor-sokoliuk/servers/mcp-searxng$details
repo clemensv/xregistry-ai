@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:49.123053414Z",
+  "createdat": "2025-05-27T10:28:24.339863963Z",
   "description": "MCP Server for SearXNG",
   "epoch": 1,
   "id": "02cdb980-1dcd-4345-a8d1-d3f3f522d04b",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ihor-sokoliuk/servers/mcp-searxng/meta",
-  "modifiedat": "2025-05-27T10:02:49.123053414Z",
+  "modifiedat": "2025-05-27T10:28:24.339863963Z",
   "name": "io.github.ihor-sokoliuk/mcp-searxng",
   "packages": [
     {

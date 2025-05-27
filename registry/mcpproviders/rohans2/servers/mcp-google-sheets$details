@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:39.472840449Z",
+  "createdat": "2025-05-27T10:29:24.250735686Z",
   "description": "",
   "epoch": 1,
   "id": "b1051584-3b09-49af-a97f-a92b47861ed1",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/rohans2/servers/mcp-google-sheets/meta",
-  "modifiedat": "2025-05-27T10:03:39.472840449Z",
+  "modifiedat": "2025-05-27T10:29:24.250735686Z",
   "name": "io.github.rohans2/mcp-google-sheets",
   "packages": [
     {

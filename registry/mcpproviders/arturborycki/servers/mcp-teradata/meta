@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:12.150149053Z",
+  "createdat": "2025-05-27T10:27:41.580464192Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/arturborycki/servers/mcp-teradata/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:12.150149053Z",
+  "modifiedat": "2025-05-27T10:27:41.580464192Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/arturborycki/servers/mcp-teradata/meta",
   "serverid": "mcp-teradata",

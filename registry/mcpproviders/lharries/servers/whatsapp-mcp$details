@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:06.376757191Z",
+  "createdat": "2025-05-27T10:28:42.653906522Z",
   "description": "WhatsApp MCP server",
   "epoch": 1,
   "id": "0d2cbcc1-4b34-4b2b-af66-595d8fb5e78a",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/lharries/servers/whatsapp-mcp/meta",
-  "modifiedat": "2025-05-27T10:03:06.376757191Z",
+  "modifiedat": "2025-05-27T10:28:42.653906522Z",
   "name": "io.github.lharries/whatsapp-mcp",
   "packages": [
     {

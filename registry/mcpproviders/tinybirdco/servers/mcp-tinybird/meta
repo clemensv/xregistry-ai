@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:04:04.251201262Z",
+  "createdat": "2025-05-27T10:29:48.03362332Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/tinybirdco/servers/mcp-tinybird/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:04:04.251201262Z",
+  "modifiedat": "2025-05-27T10:29:48.03362332Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/tinybirdco/servers/mcp-tinybird/meta",
   "serverid": "mcp-tinybird",

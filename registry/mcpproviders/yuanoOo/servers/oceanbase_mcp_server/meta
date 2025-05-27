@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:04:18.191324Z",
+  "createdat": "2025-05-27T10:30:03.709243856Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/yuanoOo/servers/oceanbase_mcp_server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:04:18.191324Z",
+  "modifiedat": "2025-05-27T10:30:03.709243856Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/yuanoOo/servers/oceanbase_mcp_server/meta",
   "serverid": "oceanbase_mcp_server",

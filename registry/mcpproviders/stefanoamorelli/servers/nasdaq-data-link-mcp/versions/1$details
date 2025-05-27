@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:54.271798758Z",
+  "createdat": "2025-05-27T10:29:38.506489579Z",
   "description": "A Nasdaq Data Link MCP (Model Context Protocol) Server",
   "epoch": 1,
   "id": "9326c18e-b2fb-4012-a170-cdd5753f0b1e",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:54.271798758Z",
+  "modifiedat": "2025-05-27T10:29:38.506489579Z",
   "name": "io.github.stefanoamorelli/nasdaq-data-link-mcp",
   "packages": [
     {

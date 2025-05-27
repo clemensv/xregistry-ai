@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:52.622714475Z",
+  "createdat": "2025-05-27T10:28:27.580146831Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/jamsocket/servers/forevervm/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:52.622714475Z",
+  "modifiedat": "2025-05-27T10:28:27.580146831Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/jamsocket/servers/forevervm/meta",
   "serverid": "forevervm",

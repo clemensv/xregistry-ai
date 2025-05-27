@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:07.703012542Z",
+  "createdat": "2025-05-27T10:27:36.35404808Z",
   "description": "OpenSource MCP Marketplace and Html Plugin to Integrate with your AI Application",
   "epoch": 1,
   "id": "de52e791-0131-40d1-be41-ba7b14f3c134",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:07.703012542Z",
+  "modifiedat": "2025-05-27T10:27:36.35404808Z",
   "name": "io.github.ai-agent-hub/mcp-marketplace",
   "packages": [
     {

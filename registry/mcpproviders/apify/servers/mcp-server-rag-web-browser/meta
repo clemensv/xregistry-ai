@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:11.328002081Z",
+  "createdat": "2025-05-27T10:27:40.58488183Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/apify/servers/mcp-server-rag-web-browser/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:11.328002081Z",
+  "modifiedat": "2025-05-27T10:27:40.58488183Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/apify/servers/mcp-server-rag-web-browser/meta",
   "serverid": "mcp-server-rag-web-browser",

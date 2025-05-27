@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:11.749789828Z",
+  "createdat": "2025-05-27T10:28:48.311729555Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mcp-router/servers/mcp-router/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:11.749789828Z",
+  "modifiedat": "2025-05-27T10:28:48.311729555Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/mcp-router/servers/mcp-router/meta",
   "serverid": "mcp-router",

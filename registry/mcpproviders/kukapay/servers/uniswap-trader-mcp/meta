@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:03.478322775Z",
+  "createdat": "2025-05-27T10:28:39.439552786Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:03.478322775Z",
+  "modifiedat": "2025-05-27T10:28:39.439552786Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/uniswap-trader-mcp/meta",
   "serverid": "uniswap-trader-mcp",

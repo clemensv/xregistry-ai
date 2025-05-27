@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:58.630803432Z",
+  "createdat": "2025-05-27T10:29:42.395053374Z",
   "description": "A MCP server that accesses to Holaspirit",
   "epoch": 1,
   "id": "fffcda50-ddc1-4357-a9bf-b7022f86c582",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/syucream/servers/holaspirit-mcp-server/meta",
-  "modifiedat": "2025-05-27T10:03:58.630803432Z",
+  "modifiedat": "2025-05-27T10:29:42.395053374Z",
   "name": "io.github.syucream/holaspirit-mcp-server",
   "packages": [
     {

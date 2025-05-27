@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:53.466038601Z",
+  "createdat": "2025-05-27T10:28:28.285927767Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/jeamee/servers/mcphub-desktop/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:53.466038601Z",
+  "modifiedat": "2025-05-27T10:28:28.285927767Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/jeamee/servers/mcphub-desktop/meta",
   "serverid": "mcphub-desktop",

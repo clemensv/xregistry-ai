@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:24.947081187Z",
+  "createdat": "2025-05-27T10:29:05.66990325Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/osomai/servers/servicenow-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:24.947081187Z",
+  "modifiedat": "2025-05-27T10:29:05.66990325Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/osomai/servers/servicenow-mcp/meta",
   "serverid": "servicenow-mcp",

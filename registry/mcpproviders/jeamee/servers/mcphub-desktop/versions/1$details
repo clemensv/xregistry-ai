@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:53.466038601Z",
+  "createdat": "2025-05-27T10:28:28.285927767Z",
   "description": "Desktop APP for Discover and Install MCP Servers",
   "epoch": 1,
   "id": "9f38c975-9a2a-484f-8173-562153f515e4",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:53.466038601Z",
+  "modifiedat": "2025-05-27T10:28:28.285927767Z",
   "name": "io.github.jeamee/mcphub-desktop",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:10.390975488Z",
+  "createdat": "2025-05-27T10:27:39.521163589Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:10.390975488Z",
+  "modifiedat": "2025-05-27T10:27:39.521163589Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/apache/servers/iotdb-mcp-server/meta",
   "serverid": "iotdb-mcp-server",

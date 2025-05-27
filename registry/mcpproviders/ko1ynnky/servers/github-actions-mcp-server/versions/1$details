@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:59.376932512Z",
+  "createdat": "2025-05-27T10:28:35.161122498Z",
   "description": "GitHub Actions Model Context Protocol Server",
   "epoch": 1,
   "id": "fa6d267b-a797-42b7-9510-5abc3c518f3e",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:59.376932512Z",
+  "modifiedat": "2025-05-27T10:28:35.161122498Z",
   "name": "io.github.ko1ynnky/github-actions-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:10.08567875Z",
+  "createdat": "2025-05-27T10:27:39.160272497Z",
   "description": "An implementation of the Model Context Protocol for the World Bank open data API",
   "epoch": 1,
   "id": "4e6fc5a4-eecb-46e4-a3ce-4310cbb8c3f4",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:10.08567875Z",
+  "modifiedat": "2025-05-27T10:27:39.160272497Z",
   "name": "io.github.anshumax/world_bank_mcp_server",
   "packages": [
     {

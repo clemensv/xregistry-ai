@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:12.652440859Z",
+  "createdat": "2025-05-27T10:28:49.394598279Z",
   "description": "Template to quickly set up your own MCP server ",
   "epoch": 1,
   "id": "816a9400-2e2b-4697-8fbb-2a22fd81de74",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/mcpdotdirect/servers/template-mcp-server/meta",
-  "modifiedat": "2025-05-27T10:03:12.652440859Z",
+  "modifiedat": "2025-05-27T10:28:49.394598279Z",
   "name": "io.github.mcpdotdirect/template-mcp-server",
   "packages": [
     {

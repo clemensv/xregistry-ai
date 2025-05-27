@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:57.682653129Z",
+  "createdat": "2025-05-27T10:28:33.036992509Z",
   "description": "MCP server for interacting with RabbitMQ",
   "epoch": 1,
   "id": "edf43b88-36a4-4f07-9d46-cab08bd418aa",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:57.682653129Z",
+  "modifiedat": "2025-05-27T10:28:33.036992509Z",
   "name": "io.github.kenliao94/mcp-server-rabbitmq",
   "packages": [
     {

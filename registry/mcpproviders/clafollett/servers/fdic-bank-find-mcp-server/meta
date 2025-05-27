@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:21.337910595Z",
+  "createdat": "2025-05-27T10:27:52.885750852Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/clafollett/servers/fdic-bank-find-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:21.337910595Z",
+  "modifiedat": "2025-05-27T10:27:52.885750852Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/clafollett/servers/fdic-bank-find-mcp-server/meta",
   "serverid": "fdic-bank-find-mcp-server",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:48.102659681Z",
+  "createdat": "2025-05-27T10:29:32.444725422Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/skydeckai/servers/mcp-server-rememberizer/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:48.102659681Z",
+  "modifiedat": "2025-05-27T10:29:32.444725422Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/skydeckai/servers/mcp-server-rememberizer/meta",
   "serverid": "mcp-server-rememberizer",

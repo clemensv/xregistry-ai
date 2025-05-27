@@ -4,10 +4,10 @@ content-location:https://mcpxreg.com/registry/agentcardproviders/contoso.com/age
 content-type:text/plain; charset=utf-8
 xregistry-agentcardid:reimbursement
 xregistry-ancestor:1
-xregistry-createdat:2025-05-27T10:02:04.492686229Z
+xregistry-createdat:2025-05-27T10:27:32.306312222Z
 xregistry-epoch:1
 xregistry-isdefault:true
-xregistry-modifiedat:2025-05-27T10:02:04.492686229Z
+xregistry-modifiedat:2025-05-27T10:27:32.306312222Z
 xregistry-self:https://mcpxreg.com/registry/agentcardproviders/contoso.com/agentcards/reimbursement/versions/1
 xregistry-versionid:1
 xregistry-xid:/agentcardproviders/contoso.com/agentcards/reimbursement/versions/1

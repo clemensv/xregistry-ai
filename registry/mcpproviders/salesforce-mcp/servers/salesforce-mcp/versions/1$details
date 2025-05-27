@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:41.321781821Z",
+  "createdat": "2025-05-27T10:29:26.156183301Z",
   "description": "Salesforce MCP",
   "epoch": 1,
   "id": "938ee893-25dd-424a-88b4-7ebce53bcb22",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:41.321781821Z",
+  "modifiedat": "2025-05-27T10:29:26.156183301Z",
   "name": "io.github.salesforce-mcp/salesforce-mcp",
   "packages": [
     {

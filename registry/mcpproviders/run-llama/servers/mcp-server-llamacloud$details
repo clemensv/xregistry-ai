@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:40.105855286Z",
+  "createdat": "2025-05-27T10:29:24.948729552Z",
   "description": "A MCP server connecting to managed indexes on LlamaCloud",
   "epoch": 1,
   "id": "6cfb4c39-82bb-4b43-94a5-1f50ebd10c71",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/run-llama/servers/mcp-server-llamacloud/meta",
-  "modifiedat": "2025-05-27T10:03:40.105855286Z",
+  "modifiedat": "2025-05-27T10:29:24.948729552Z",
   "name": "io.github.run-llama/mcp-server-llamacloud",
   "packages": [
     {

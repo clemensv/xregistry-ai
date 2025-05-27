@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:03.885536751Z",
+  "createdat": "2025-05-27T10:29:47.678317887Z",
   "description": "",
   "epoch": 1,
   "id": "f5349be9-5e04-4e93-bf2f-2dae8db4a9e9",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:04:03.885536751Z",
+  "modifiedat": "2025-05-27T10:29:47.678317887Z",
   "name": "io.github.thirdweb-dev/ai",
   "packages": [
     {

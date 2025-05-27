@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:20.403804221Z",
+  "createdat": "2025-05-27T10:28:59.262815672Z",
   "description": "MCP server for interacting with Neon Management API and databases",
   "epoch": 1,
   "id": "9a6bd437-fe20-4f40-b776-5507f2871441",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:20.403804221Z",
+  "modifiedat": "2025-05-27T10:28:59.262815672Z",
   "name": "io.github.neondatabase/mcp-server-neon",
   "packages": [
     {

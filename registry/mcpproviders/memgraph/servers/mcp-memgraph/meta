@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:14.559976258Z",
+  "createdat": "2025-05-27T10:28:51.863927906Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/memgraph/servers/mcp-memgraph/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:14.559976258Z",
+  "modifiedat": "2025-05-27T10:28:51.863927906Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/memgraph/servers/mcp-memgraph/meta",
   "serverid": "mcp-memgraph",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:22.326803086Z",
+  "createdat": "2025-05-27T10:27:54.269099282Z",
   "description": "Verify that any MCP server is running the intended and untampered code via hardware attestation.",
   "epoch": 1,
   "id": "05ca6ccc-d6e1-47ab-ab8d-25949db9ada7",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/co-browser/servers/attestable-mcp-server/meta",
-  "modifiedat": "2025-05-27T10:02:22.326803086Z",
+  "modifiedat": "2025-05-27T10:27:54.269099282Z",
   "name": "io.github.co-browser/attestable-mcp-server",
   "packages": [
     {

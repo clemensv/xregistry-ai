@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:34.930208095Z",
+  "createdat": "2025-05-27T10:28:10.544343353Z",
   "description": "",
   "epoch": 1,
   "id": "78c126ff-906a-4596-9bf4-db2cf61796b8",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:34.930208095Z",
+  "modifiedat": "2025-05-27T10:28:10.544343353Z",
   "name": "io.github.fibery-inc/fibery-mcp-server",
   "packages": [
     {

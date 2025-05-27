@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:06.647084894Z",
+  "createdat": "2025-05-27T10:28:42.9345771Z",
   "description": "⚡️ Open-source AI-powered CLI for web \u0026 mobile localization. Bring your own LLM or use Lingo.dev-managed localization engine.",
   "epoch": 1,
   "id": "1e2d718a-95b0-460b-8e57-86feec5356ce",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:06.647084894Z",
+  "modifiedat": "2025-05-27T10:28:42.9345771Z",
   "name": "io.github.lingodotdev/lingo.dev",
   "packages": [
     {

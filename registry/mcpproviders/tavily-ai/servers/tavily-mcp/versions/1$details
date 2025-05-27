@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:01.135342904Z",
+  "createdat": "2025-05-27T10:29:44.919064905Z",
   "description": "",
   "epoch": 1,
   "id": "ba8028f7-73e6-4d3d-9974-790d438a1446",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:04:01.135342904Z",
+  "modifiedat": "2025-05-27T10:29:44.919064905Z",
   "name": "io.github.tavily-ai/tavily-mcp",
   "packages": [
     {

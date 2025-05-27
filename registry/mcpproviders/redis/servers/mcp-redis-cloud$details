@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:37.244488962Z",
+  "createdat": "2025-05-27T10:29:21.741932857Z",
   "description": "",
   "epoch": 1,
   "id": "b8c0e12b-0c04-486d-95a7-caa33b9eefeb",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/redis/servers/mcp-redis-cloud/meta",
-  "modifiedat": "2025-05-27T10:03:37.244488962Z",
+  "modifiedat": "2025-05-27T10:29:21.741932857Z",
   "name": "io.github.redis/mcp-redis-cloud",
   "packages": [
     {

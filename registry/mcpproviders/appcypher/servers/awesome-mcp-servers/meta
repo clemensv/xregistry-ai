@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:11.643341517Z",
+  "createdat": "2025-05-27T10:27:40.971346589Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/appcypher/servers/awesome-mcp-servers/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:11.643341517Z",
+  "modifiedat": "2025-05-27T10:27:40.971346589Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/appcypher/servers/awesome-mcp-servers/meta",
   "serverid": "awesome-mcp-servers",

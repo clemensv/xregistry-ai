@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:07.926016906Z",
+  "createdat": "2025-05-27T10:28:44.247411052Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/longmans/servers/coin_api_mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:07.926016906Z",
+  "modifiedat": "2025-05-27T10:28:44.247411052Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/longmans/servers/coin_api_mcp/meta",
   "serverid": "coin_api_mcp",

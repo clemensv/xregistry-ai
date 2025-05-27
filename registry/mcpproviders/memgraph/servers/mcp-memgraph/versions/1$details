@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:14.559976258Z",
+  "createdat": "2025-05-27T10:28:51.863927906Z",
   "description": "Memgraph MCP Server",
   "epoch": 1,
   "id": "dd730dba-107c-40f0-b172-85500a22b5c2",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:14.559976258Z",
+  "modifiedat": "2025-05-27T10:28:51.863927906Z",
   "name": "io.github.memgraph/mcp-memgraph",
   "packages": [
     {

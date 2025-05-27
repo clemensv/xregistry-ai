@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:03.117408426Z",
+  "createdat": "2025-05-27T10:28:39.094422938Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-revoke-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:03.117408426Z",
+  "modifiedat": "2025-05-27T10:28:39.094422938Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/token-revoke-mcp/meta",
   "serverid": "token-revoke-mcp",

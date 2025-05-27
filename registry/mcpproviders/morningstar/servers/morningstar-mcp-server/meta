@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:03:18.396509972Z",
+  "createdat": "2025-05-27T10:28:56.543995503Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/morningstar/servers/morningstar-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:03:18.396509972Z",
+  "modifiedat": "2025-05-27T10:28:56.543995503Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/morningstar/servers/morningstar-mcp-server/meta",
   "serverid": "morningstar-mcp-server",

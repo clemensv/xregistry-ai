@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:54.425556848Z",
+  "createdat": "2025-05-27T10:28:29.290713545Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/JetBrains/servers/mcp-jetbrains/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:54.425556848Z",
+  "modifiedat": "2025-05-27T10:28:29.290713545Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/JetBrains/servers/mcp-jetbrains/meta",
   "serverid": "mcp-jetbrains",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:07.070448931Z",
+  "createdat": "2025-05-27T10:27:35.589773636Z",
   "description": "BICScan MCP Server",
   "epoch": 1,
   "id": "36e14e79-6228-442f-b3c7-c7080b6282f0",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:07.070448931Z",
+  "modifiedat": "2025-05-27T10:27:35.589773636Z",
   "name": "io.github.ahnlabio/bicscan-mcp",
   "packages": [
     {

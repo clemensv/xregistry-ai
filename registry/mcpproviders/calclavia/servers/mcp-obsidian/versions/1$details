@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:18.342709451Z",
+  "createdat": "2025-05-27T10:27:49.220653542Z",
   "description": "A connector for Claude Desktop to read and search an Obsidian vault.",
   "epoch": 1,
   "id": "ab58cca1-94ad-42d8-be13-980556ac552b",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:18.342709451Z",
+  "modifiedat": "2025-05-27T10:27:49.220653542Z",
   "name": "io.github.calclavia/mcp-obsidian",
   "packages": [
     {

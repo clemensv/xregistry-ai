@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:50.85285952Z",
+  "createdat": "2025-05-27T10:28:25.939698758Z",
   "description": "",
   "epoch": 1,
   "id": "61942e80-99c9-4856-90c8-5a11ac76ade5",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:50.85285952Z",
+  "modifiedat": "2025-05-27T10:28:25.939698758Z",
   "name": "io.github.isaacwasserman/mcp-snowflake-server",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:45.15328864Z",
+  "createdat": "2025-05-27T10:29:29.707354777Z",
   "description": "MCP tool for building Xcode iOS workspace/project and feeding back error to LLMs.",
   "epoch": 1,
   "id": "bce1c06f-6325-418a-91e2-0ff2f6cf8ffc",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ShenghaiWang/servers/xcodebuild/meta",
-  "modifiedat": "2025-05-27T10:03:45.15328864Z",
+  "modifiedat": "2025-05-27T10:29:29.707354777Z",
   "name": "io.github.shenghaiwang/xcodebuild",
   "packages": [
     {

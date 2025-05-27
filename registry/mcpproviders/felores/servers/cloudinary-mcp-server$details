@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:34.110776166Z",
+  "createdat": "2025-05-27T10:28:09.590635314Z",
   "description": "MCP (Model Context Protocol) server for uploading media to Cloudinary using Claude Desktop",
   "epoch": 1,
   "id": "7baddfbe-3618-41d8-befe-40fc2aabcd8e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/felores/servers/cloudinary-mcp-server/meta",
-  "modifiedat": "2025-05-27T10:02:34.110776166Z",
+  "modifiedat": "2025-05-27T10:28:09.590635314Z",
   "name": "io.github.felores/cloudinary-mcp-server",
   "packages": [
     {

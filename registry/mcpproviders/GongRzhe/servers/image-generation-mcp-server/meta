@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:39.954228147Z",
+  "createdat": "2025-05-27T10:28:15.914242469Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:39.954228147Z",
+  "modifiedat": "2025-05-27T10:28:15.914242469Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/image-generation-mcp-server/meta",
   "serverid": "image-generation-mcp-server",

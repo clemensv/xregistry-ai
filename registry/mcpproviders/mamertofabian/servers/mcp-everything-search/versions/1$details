@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:10.201494819Z",
+  "createdat": "2025-05-27T10:28:46.364667093Z",
   "description": "",
   "epoch": 1,
   "id": "c6f8403f-30d0-45d2-b7c3-95a6cb61c4b4",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:10.201494819Z",
+  "modifiedat": "2025-05-27T10:28:46.364667093Z",
   "name": "io.github.mamertofabian/mcp-everything-search",
   "packages": [
     {

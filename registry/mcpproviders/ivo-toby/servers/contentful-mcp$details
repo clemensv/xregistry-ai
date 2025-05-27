@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:52.221661548Z",
+  "createdat": "2025-05-27T10:28:27.227910968Z",
   "description": "MCP (Model Context Protocol) server for the Contentful Management API",
   "epoch": 1,
   "id": "347d6881-c509-4dca-9ece-95e25098436b",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ivo-toby/servers/contentful-mcp/meta",
-  "modifiedat": "2025-05-27T10:02:52.221661548Z",
+  "modifiedat": "2025-05-27T10:28:27.227910968Z",
   "name": "io.github.ivo-toby/contentful-mcp",
   "packages": [
     {

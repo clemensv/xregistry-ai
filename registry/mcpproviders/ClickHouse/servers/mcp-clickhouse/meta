@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:21.72364519Z",
+  "createdat": "2025-05-27T10:27:53.490155826Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:21.72364519Z",
+  "modifiedat": "2025-05-27T10:27:53.490155826Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ClickHouse/servers/mcp-clickhouse/meta",
   "serverid": "mcp-clickhouse",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:09.140742097Z",
+  "createdat": "2025-05-27T10:29:52.873965405Z",
   "description": "A simple MCP application that delivers curated positive and uplifting news stories.",
   "epoch": 1,
   "id": "91c0fc60-7dc9-4095-a05a-9f816738df67",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/VectorInstitute/servers/mcp-goodnews/meta",
-  "modifiedat": "2025-05-27T10:04:09.140742097Z",
+  "modifiedat": "2025-05-27T10:29:52.873965405Z",
   "name": "io.github.vectorinstitute/mcp-goodnews",
   "packages": [
     {

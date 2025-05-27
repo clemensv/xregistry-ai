@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:06.908755214Z",
+  "createdat": "2025-05-27T10:28:43.220555221Z",
   "description": "MCP server to run AWS Athena queries",
   "epoch": 1,
   "id": "d3139564-f4c3-44f9-902a-8d172038af01",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/lishenxydlgzs/servers/aws-athena-mcp/meta",
-  "modifiedat": "2025-05-27T10:03:06.908755214Z",
+  "modifiedat": "2025-05-27T10:28:43.220555221Z",
   "name": "io.github.lishenxydlgzs/aws-athena-mcp",
   "packages": [
     {

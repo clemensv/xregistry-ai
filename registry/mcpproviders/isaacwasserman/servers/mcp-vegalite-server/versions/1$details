@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:51.08395386Z",
+  "createdat": "2025-05-27T10:28:26.173690995Z",
   "description": "",
   "epoch": 1,
   "id": "aa301cee-889b-4606-b66b-fd9dc1e77817",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:51.08395386Z",
+  "modifiedat": "2025-05-27T10:28:26.173690995Z",
   "name": "io.github.isaacwasserman/mcp-vegalite-server",
   "packages": [
     {

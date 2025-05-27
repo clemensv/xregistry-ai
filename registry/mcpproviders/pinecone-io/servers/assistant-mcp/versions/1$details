@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:27.66545544Z",
+  "createdat": "2025-05-27T10:29:09.3165529Z",
   "description": "Pinecone Assistant MCP server",
   "epoch": 1,
   "id": "08668c6a-c2f6-47b0-a4e0-75a8ee9bcf10",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:03:27.66545544Z",
+  "modifiedat": "2025-05-27T10:29:09.3165529Z",
   "name": "io.github.pinecone-io/assistant-mcp",
   "packages": [
     {

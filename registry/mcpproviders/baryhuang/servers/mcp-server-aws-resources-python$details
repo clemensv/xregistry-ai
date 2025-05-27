@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:15.689139522Z",
+  "createdat": "2025-05-27T10:27:46.033988503Z",
   "description": "A Python-based MCP server that lets Claude run boto3 code to query and manage AWS resources. Execute powerful AWS operations directly through Claude with proper sandboxing and containerization. No need for complex setups - just pass your AWS credentials and start interacting with all AWS services.",
   "epoch": 1,
   "id": "6dd26dd7-d5c3-4aa8-bb9a-3aba328790ad",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/baryhuang/servers/mcp-server-aws-resources-python/meta",
-  "modifiedat": "2025-05-27T10:02:15.689139522Z",
+  "modifiedat": "2025-05-27T10:27:46.033988503Z",
   "name": "io.github.baryhuang/mcp-server-aws-resources-python",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:02:53.12895975Z",
+  "createdat": "2025-05-27T10:28:28.007661039Z",
   "description": "A curated, opinionated list of high-quality remote Model Context Protocol (MCP) servers. ",
   "epoch": 1,
   "id": "2a679bdd-d106-4510-99ea-b4802070d30f",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:02:53.12895975Z",
+  "modifiedat": "2025-05-27T10:28:28.007661039Z",
   "name": "io.github.jaw9c/awesome-remote-mcp-servers",
   "packages": [
     {

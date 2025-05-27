@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T10:02:54.055298864Z",
+  "createdat": "2025-05-27T10:28:28.919153281Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/jerhadf/servers/linear-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T10:02:54.055298864Z",
+  "modifiedat": "2025-05-27T10:28:28.919153281Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/jerhadf/servers/linear-mcp-server/meta",
   "serverid": "linear-mcp-server",

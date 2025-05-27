@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:09.896136909Z",
+  "createdat": "2025-05-27T10:29:53.752244328Z",
   "description": "Verodat MCP Server Implementation",
   "epoch": 1,
   "id": "c0c30db1-cc08-426e-886f-0bdbcd31d101",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/Verodat/servers/verodat-mcp-server/meta",
-  "modifiedat": "2025-05-27T10:04:09.896136909Z",
+  "modifiedat": "2025-05-27T10:29:53.752244328Z",
   "name": "io.github.verodat/verodat-mcp-server",
   "packages": [
     {

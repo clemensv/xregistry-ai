@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:03:52.698017904Z",
+  "createdat": "2025-05-27T10:29:36.77280883Z",
   "description": "",
   "epoch": 1,
   "id": "68966508-9094-4eb5-9588-ff7456d6c1ce",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/sssjiang/servers/pubchem_mcp_server/meta",
-  "modifiedat": "2025-05-27T10:03:52.698017904Z",
+  "modifiedat": "2025-05-27T10:29:36.77280883Z",
   "name": "io.github.sssjiang/pubchem_mcp_server",
   "packages": [
     {

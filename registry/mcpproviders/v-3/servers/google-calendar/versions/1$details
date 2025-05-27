@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T10:04:07.798082074Z",
+  "createdat": "2025-05-27T10:29:51.686000499Z",
   "description": "",
   "epoch": 1,
   "id": "165ef95f-bfb3-4b08-b523-d17748fdfe31",
   "isdefault": true,
-  "modifiedat": "2025-05-27T10:04:07.798082074Z",
+  "modifiedat": "2025-05-27T10:29:51.686000499Z",
   "name": "io.github.v-3/google-calendar",
   "packages": [
     {
