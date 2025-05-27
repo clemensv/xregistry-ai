@@ -182,9 +182,13 @@ echo "Building index..."
 python "$REPO_ROOT/index/build_index.py"
 
 # Copy additional files
-echo "Copying flex.json files to $REPO_ROOT/site/public/registry/..."
+echo "Copying flex.json files to $DATA_EXPORT_DIR..."
 cp $REPO_ROOT/index/flex/*.flex.json $DATA_EXPORT_DIR
+
+# Copy Azure Static Web Apps configuration files
+echo "Copying Azure Static Web Apps configuration files..."
 cp $REPO_ROOT/xreg/registry-staticwebapp.config.json $DATA_EXPORT_DIR/staticwebapp.config.json
+echo "Copied registry config to: $DATA_EXPORT_DIR/staticwebapp.config.json"
 
 # Generate unified schemas
 echo "Generating unified schemas..."
@@ -205,6 +209,12 @@ BUILD_OUTPUT="public/registry"
 
 # Create a simple root index.html that redirects to the registry
 mkdir -p "$SITE_DIR/public"
+
+# Copy root Azure Static Web Apps configuration
+echo "Copying root Azure Static Web Apps configuration..."
+cp $REPO_ROOT/xreg/root-staticwebapp.config.json $SITE_DIR/public/staticwebapp.config.json
+echo "Copied root config to: $SITE_DIR/public/staticwebapp.config.json"
+
 cat > "$SITE_DIR/public/index.html" << 'EOF'
 <!DOCTYPE html>
 <html lang="en">
