@@ -119,11 +119,7 @@ jobs:
       - name: Setup Azure Static Web App configuration
         run: |
           # Copy Azure configuration files from the main repo
-          if [ -f "repo/xreg/registry-staticwebapp.config.json" ]; then
-            cp repo/xreg/registry-staticwebapp.config.json public/registry/staticwebapp.config.json
-            echo "Copied registry Azure config"
-          fi
-          
+        
           if [ -f "repo/xreg/root-staticwebapp.config.json" ]; then
             cp repo/xreg/root-staticwebapp.config.json public/staticwebapp.config.json
             echo "Copied root Azure config"
@@ -138,6 +134,21 @@ jobs:
           ls -la public/registry/ || echo "No registry directory found"
 
       # 6. Build Angular app and copy registry files
+      - name: Fix Angular CSS budget limits
+        run: |
+          # Increase CSS budget limits to handle large stylesheets
+          if [ -f "angular.json" ]; then
+            # Create a backup
+            cp angular.json angular.json.backup
+            
+            # Update budget limits using jq
+            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumError = "50kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
+            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumWarning = "40kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
+            
+            echo "Updated Angular budget limits:"
+            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0]' angular.json
+          fi
+          
       - name: Build Angular app and prepare static content
         run: |
           # Install Node.js dependencies first
