@@ -133,7 +133,7 @@ jobs:
           echo "Registry content in public/registry:"
           ls -la public/registry/ || echo "No registry directory found"
 
-      # 6. Build Angular app and copy registry files
+      # 6. Fix Angular CSS budget limits before building
       - name: Fix Angular CSS budget limits
         run: |
           # Increase CSS budget limits to handle large stylesheets
@@ -148,7 +148,8 @@ jobs:
             echo "Updated Angular budget limits:"
             jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0]' angular.json
           fi
-          
+
+      # 7. Build Angular app and copy registry files
       - name: Build Angular app and prepare static content
         run: |
           # Install Node.js dependencies first
@@ -193,7 +194,7 @@ jobs:
             echo "❌ Source registry directory not found at public/registry"
           fi
 
-      # 7. Deploy to Azure Static Web Apps
+      # 8. Deploy to Azure Static Web Apps
       - name: Build and Deploy to Azure
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
