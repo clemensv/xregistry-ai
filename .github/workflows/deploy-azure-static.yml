@@ -133,29 +133,22 @@ jobs:
           echo "Registry content in public/registry:"
           ls -la public/registry/ || echo "No registry directory found"
 
-      # 6. Fix Angular CSS budget limits before building
-      - name: Fix Angular CSS budget limits
-        run: |
-          # Increase CSS budget limits to handle large stylesheets
-          if [ -f "angular.json" ]; then
-            # Create a backup
-            cp angular.json angular.json.backup
-            
-            # Update budget limits using jq
-            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumError = "50kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
-            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumWarning = "40kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
-            
-            echo "Updated Angular budget limits:"
-            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0]' angular.json
-          fi
-
-      # 7. Build Angular app and copy registry files
+      # 6. Build Angular app and copy registry files
       - name: Build Angular app and prepare static content
         run: |
           # Install Node.js dependencies first
           npm install
           
-          # Build the Angular application
+          # Fix Angular budget limits before building
+          if [ -f "angular.json" ]; then
+            echo "Updating Angular budget limits..."
+            # Update budget limits using jq
+            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumError = "50kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
+            jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumWarning = "40kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
+            echo "Updated Angular budget limits"
+          fi
+          
+          # Build the Angular application with increased budget limits
           npm run build-prod
           
           # Copy registry files to the output directory
