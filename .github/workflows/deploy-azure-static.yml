@@ -140,7 +140,7 @@ jobs:
           npm install
           
           # Build the Angular application (ignore budget errors)
-          npx nx build xregistry-viewer --configuration=production --skip-nx-cache
+          npx nx build xregistry-viewer --skip-nx-cache
           
           # Copy registry files to the output directory
           if [ -d "public/registry" ]; then
