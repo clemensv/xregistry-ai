@@ -139,6 +139,13 @@ jobs:
           # Install Node.js dependencies first
           npm install
           
+          # Debug: Check what files are available
+          echo "Current directory: $(pwd)"
+          echo "Files in current directory:"
+          ls -la
+          echo "Looking for angular.json..."
+          find . -name "angular.json" -type f
+          
           # Fix Angular budget limits before building
           if [ -f "angular.json" ]; then
             echo "Updating Angular budget limits..."
@@ -146,6 +153,8 @@ jobs:
             jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumError = "50kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
             jq '.projects."xregistry-viewer".architect.build.configurations.production.budgets[0].maximumWarning = "40kb"' angular.json > angular.json.tmp && mv angular.json.tmp angular.json
             echo "Updated Angular budget limits"
+          else
+            echo "angular.json not found in current directory"
           fi
           
           # Build the Angular application with increased budget limits
