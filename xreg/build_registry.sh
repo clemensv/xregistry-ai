@@ -161,9 +161,11 @@ if [ -n "$XRSERVER_COMMIT" ] && [ "$XRSERVER_COMMIT" != "HEAD" ]; then
   make xr xrserver
   
   # Create the .spec directory if using custom spec files
-  mkdir -p .spec
-  # If you have XR_SPEC set, copy spec files
-  cp -r "$XR_SPEC/"* .spec/ 2>/dev/null || true
+  if [ -n "$XR_SPEC" ]; then
+    mkdir -p .spec
+    # If you have XR_SPEC set, copy spec files
+    cp -r "$XR_SPEC/"* .spec/ 2>/dev/null || true
+  fi
   
   # Build the Docker image
   echo "Building custom xrserver-all Docker image..."
