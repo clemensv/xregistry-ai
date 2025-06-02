@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:47.177026786Z",
+  "createdat": "2025-06-02T20:46:19.039441256Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/spgoodman/servers/createveai-nexus-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:47.177026786Z",
+  "modifiedat": "2025-06-02T20:46:19.039441256Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/spgoodman/servers/createveai-nexus-server/meta",
   "serverid": "createveai-nexus-server",

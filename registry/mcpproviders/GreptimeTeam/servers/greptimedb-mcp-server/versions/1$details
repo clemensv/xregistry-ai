@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:37.616317262Z",
+  "createdat": "2025-06-02T20:45:39.411746536Z",
   "description": "A Model Context Protocol (MCP) server implementation for GreptimeDB",
   "epoch": 1,
   "id": "7974b19d-8030-428b-a016-168c65058b41",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:37.616317262Z",
+  "modifiedat": "2025-06-02T20:45:39.411746536Z",
   "name": "io.github.greptimeteam/greptimedb-mcp-server",
   "packages": [
     {

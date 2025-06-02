@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:23.233233827Z",
+  "createdat": "2025-06-02T20:46:10.859430286Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/pinecone-io/servers/assistant-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:23.233233827Z",
+  "modifiedat": "2025-06-02T20:46:10.859430286Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/pinecone-io/servers/assistant-mcp/meta",
   "serverid": "assistant-mcp",

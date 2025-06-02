@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:44.146972654Z",
+  "createdat": "2025-06-02T20:46:18.007351373Z",
   "description": "MCP Salesforce connector",
   "epoch": 1,
   "id": "0e45cb5a-5b45-47f3-8b5e-12bdf88d176a",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/smn2gnt/servers/MCP-Salesforce/meta",
-  "modifiedat": "2025-05-27T13:01:44.146972654Z",
+  "modifiedat": "2025-06-02T20:46:18.007351373Z",
   "name": "io.github.smn2gnt/mcp-salesforce",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:41.207597725Z",
+  "createdat": "2025-06-02T20:45:56.657454807Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/hyperbrowserai/servers/mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:41.207597725Z",
+  "modifiedat": "2025-06-02T20:45:56.657454807Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/hyperbrowserai/servers/mcp/meta",
   "serverid": "mcp",

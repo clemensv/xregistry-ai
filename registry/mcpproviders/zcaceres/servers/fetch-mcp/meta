@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:02:14.41813479Z",
+  "createdat": "2025-06-02T20:46:28.081139043Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/fetch-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:02:14.41813479Z",
+  "modifiedat": "2025-06-02T20:46:28.081139043Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/fetch-mcp/meta",
   "serverid": "fetch-mcp",

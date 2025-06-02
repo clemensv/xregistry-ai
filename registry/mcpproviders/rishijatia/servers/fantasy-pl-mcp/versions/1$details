@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:34.557269115Z",
+  "createdat": "2025-06-02T20:46:14.997618043Z",
   "description": "Fantasy Premier League MCP Server",
   "epoch": 1,
   "id": "f1da402e-a006-4364-a100-5131eb05b579",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:34.557269115Z",
+  "modifiedat": "2025-06-02T20:46:14.997618043Z",
   "name": "io.github.rishijatia/fantasy-pl-mcp",
   "packages": [
     {

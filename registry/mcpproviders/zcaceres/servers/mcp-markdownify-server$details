@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:15.016638996Z",
+  "createdat": "2025-06-02T20:46:28.425596806Z",
   "description": "A Model Context Protocol server for converting almost anything to Markdown",
   "epoch": 1,
   "id": "4365781f-28ff-4865-aa7d-909678f6dbb4",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/mcp-markdownify-server/meta",
-  "modifiedat": "2025-05-27T13:02:15.016638996Z",
+  "modifiedat": "2025-06-02T20:46:28.425596806Z",
   "name": "io.github.zcaceres/mcp-markdownify-server",
   "packages": [
     {

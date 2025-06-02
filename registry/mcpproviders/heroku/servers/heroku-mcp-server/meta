@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:38.92710426Z",
+  "createdat": "2025-06-02T20:45:55.768900619Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/heroku/servers/heroku-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:38.92710426Z",
+  "modifiedat": "2025-06-02T20:45:55.768900619Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/heroku/servers/heroku-mcp-server/meta",
   "serverid": "heroku-mcp-server",

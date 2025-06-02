@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:01.00089343Z",
+  "createdat": "2025-06-02T20:45:44.92732358Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/apeyroux/servers/mcp-xmind/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:01.00089343Z",
+  "modifiedat": "2025-06-02T20:45:44.92732358Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/apeyroux/servers/mcp-xmind/meta",
   "serverid": "mcp-xmind",

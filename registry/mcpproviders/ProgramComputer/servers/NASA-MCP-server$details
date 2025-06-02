@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:25.373394118Z",
+  "createdat": "2025-06-02T20:45:41.066315541Z",
   "description": "A Model Context Protocol (MCP) server for NASA APIs, providing a standardized interface for AI models to interact with NASA's vast array of data sources.",
   "epoch": 1,
   "id": "6a44b030-46c7-4390-adf2-2a75652dee27",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ProgramComputer/servers/NASA-MCP-server/meta",
-  "modifiedat": "2025-05-27T13:01:25.373394118Z",
+  "modifiedat": "2025-06-02T20:45:41.066315541Z",
   "name": "io.github.programcomputer/nasa-mcp-server",
   "packages": [
     {

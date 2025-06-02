@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:32.520518311Z",
+  "createdat": "2025-06-02T20:46:14.121170318Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/razvanmacovei/servers/k8s-multicluster-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:32.520518311Z",
+  "modifiedat": "2025-06-02T20:46:14.121170318Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/razvanmacovei/servers/k8s-multicluster-mcp/meta",
   "serverid": "k8s-multicluster-mcp",

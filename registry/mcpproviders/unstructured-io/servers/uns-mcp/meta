@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:02:01.509022594Z",
+  "createdat": "2025-06-02T20:46:24.325847738Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/unstructured-io/servers/uns-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:02:01.509022594Z",
+  "modifiedat": "2025-06-02T20:46:24.325847738Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/unstructured-io/servers/uns-mcp/meta",
   "serverid": "uns-mcp",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:38.354905759Z",
+  "createdat": "2025-06-02T20:45:55.571381702Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/hao-cyber/servers/phone-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:38.354905759Z",
+  "modifiedat": "2025-06-02T20:45:55.571381702Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/hao-cyber/servers/phone-mcp/meta",
   "serverid": "phone-mcp",

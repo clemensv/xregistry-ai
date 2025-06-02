@@ -1,0 +1,13 @@
+content-disposition:test-agentcard
+content-length:899
+content-location:https://mcpxreg.com/registry/agentcardproviders/test-provider/agentcards/test-agentcard/versions/1
+content-type:text/plain; charset=utf-8
+xregistry-agentcardid:test-agentcard
+xregistry-ancestor:1
+xregistry-createdat:2025-06-02T20:45:35.896008984Z
+xregistry-epoch:1
+xregistry-isdefault:true
+xregistry-modifiedat:2025-06-02T20:45:35.896008984Z
+xregistry-self:https://mcpxreg.com/registry/agentcardproviders/test-provider/agentcards/test-agentcard/versions/1
+xregistry-versionid:1
+xregistry-xid:/agentcardproviders/test-provider/agentcards/test-agentcard/versions/1

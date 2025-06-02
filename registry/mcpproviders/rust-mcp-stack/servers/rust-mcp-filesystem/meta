@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:36.781766646Z",
+  "createdat": "2025-06-02T20:46:15.853899832Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/rust-mcp-stack/servers/rust-mcp-filesystem/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:36.781766646Z",
+  "modifiedat": "2025-06-02T20:46:15.853899832Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/rust-mcp-stack/servers/rust-mcp-filesystem/meta",
   "serverid": "rust-mcp-filesystem",

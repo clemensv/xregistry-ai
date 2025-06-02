@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:31.107904637Z",
+  "createdat": "2025-06-02T20:45:38.433643255Z",
   "description": "MCP server interacts with the official Datadog API",
   "epoch": 1,
   "id": "24f2d280-583d-4511-af0c-47910fc52c4d",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:31.107904637Z",
+  "modifiedat": "2025-06-02T20:45:38.433643255Z",
   "name": "io.github.geli2001/datadog-mcp-server",
   "packages": [
     {

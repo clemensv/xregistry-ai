@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:07.48662652Z",
+  "createdat": "2025-06-02T20:45:46.764835925Z",
   "description": "The MCP Code Executor is an MCP server that allows LLMs to execute Python code within a specified Conda environment.",
   "epoch": 1,
   "id": "0cdfed38-6495-42a3-a837-3788f35aadd3",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:07.48662652Z",
+  "modifiedat": "2025-06-02T20:45:46.764835925Z",
   "name": "io.github.bazinga012/mcp_code_executor",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T12:59:52.787345274Z",
+  "createdat": "2025-06-02T20:45:35.937279335Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/13rac1/servers/videocapture-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T12:59:52.787345274Z",
+  "modifiedat": "2025-06-02T20:45:35.937279335Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/13rac1/servers/videocapture-mcp/meta",
   "serverid": "videocapture-mcp",

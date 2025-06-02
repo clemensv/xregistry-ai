@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:20.895307192Z",
+  "createdat": "2025-06-02T20:46:10.005269152Z",
   "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Azure Data Explorer databases through standardized interfaces.",
   "epoch": 1,
   "id": "bb734a22-a274-48ee-9740-d4a6a9a0a367",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:20.895307192Z",
+  "modifiedat": "2025-06-02T20:46:10.005269152Z",
   "name": "io.github.pab1it0/adx-mcp-server",
   "packages": [
     {

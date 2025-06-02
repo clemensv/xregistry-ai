@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:49.567109499Z",
+  "createdat": "2025-06-02T20:45:41.986385496Z",
   "description": "A simple MCP server for Obsidian",
   "epoch": 1,
   "id": "752ef535-2865-4d95-bcc5-647a7be83f74",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:49.567109499Z",
+  "modifiedat": "2025-06-02T20:45:41.986385496Z",
   "name": "io.github.stevenstavrakis/obsidian-mcp",
   "packages": [
     {

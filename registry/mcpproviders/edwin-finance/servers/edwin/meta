@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:24.540355367Z",
+  "createdat": "2025-06-02T20:45:51.691836654Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/edwin-finance/servers/edwin/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:24.540355367Z",
+  "modifiedat": "2025-06-02T20:45:51.691836654Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/edwin-finance/servers/edwin/meta",
   "serverid": "edwin",

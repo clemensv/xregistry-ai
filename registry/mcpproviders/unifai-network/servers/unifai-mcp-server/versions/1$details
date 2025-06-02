@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:01.173275467Z",
+  "createdat": "2025-06-02T20:46:24.199741115Z",
   "description": "",
   "epoch": 1,
   "id": "9941c18c-f247-4b88-a6ff-7b001f806acf",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:02:01.173275467Z",
+  "modifiedat": "2025-06-02T20:46:24.199741115Z",
   "name": "io.github.unifai-network/unifai-mcp-server",
   "packages": [
     {

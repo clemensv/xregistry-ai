@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:46.807830907Z",
+  "createdat": "2025-06-02T20:45:58.702097858Z",
   "description": "A server that integrates Linear's project management system with the Model Context Protocol (MCP) to allow LLMs to interact with Linear.",
   "epoch": 1,
   "id": "a0e6ce8a-15eb-4776-b9de-a4bb3c7e4730",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:46.807830907Z",
+  "modifiedat": "2025-06-02T20:45:58.702097858Z",
   "name": "io.github.jerhadf/linear-mcp-server",
   "packages": [
     {

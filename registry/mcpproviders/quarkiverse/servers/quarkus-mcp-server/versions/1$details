@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:28.128784066Z",
+  "createdat": "2025-06-02T20:46:12.432773963Z",
   "description": "This extension enables developers to implement the MCP server features easily.",
   "epoch": 1,
   "id": "b846b02f-1f0e-4c62-a3e9-e62cf3ccbf1a",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:28.128784066Z",
+  "modifiedat": "2025-06-02T20:46:12.432773963Z",
   "name": "io.github.quarkiverse/quarkus-mcp-server",
   "packages": [
     {

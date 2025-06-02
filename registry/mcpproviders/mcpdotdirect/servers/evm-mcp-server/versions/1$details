@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:04.973180028Z",
+  "createdat": "2025-06-02T20:46:05.305416408Z",
   "description": "MCP server that provides LLM with tools for interacting with EVM networks",
   "epoch": 1,
   "id": "e944c7a9-9eb0-495a-8bee-d8da751240e7",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:04.973180028Z",
+  "modifiedat": "2025-06-02T20:46:05.305416408Z",
   "name": "io.github.mcpdotdirect/evm-mcp-server",
   "packages": [
     {

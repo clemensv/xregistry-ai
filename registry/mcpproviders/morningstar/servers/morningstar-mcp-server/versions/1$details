@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:11.82958978Z",
+  "createdat": "2025-06-02T20:46:07.480543044Z",
   "description": "",
   "epoch": 1,
   "id": "3f0811e0-35b7-4e9b-a610-d8aa0b71400d",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:11.82958978Z",
+  "modifiedat": "2025-06-02T20:46:07.480543044Z",
   "name": "io.github.morningstar/morningstar-mcp-server",
   "packages": [
     {

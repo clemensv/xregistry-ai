@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:05.721121807Z",
+  "createdat": "2025-06-02T20:46:25.754691673Z",
   "description": "MCP Lucene Server",
   "epoch": 1,
   "id": "5446ebef-4e06-494b-a50f-3b02ff493274",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:02:05.721121807Z",
+  "modifiedat": "2025-06-02T20:46:25.754691673Z",
   "name": "io.github.vivekkumarneu/mcp-lucene-server",
   "packages": [
     {

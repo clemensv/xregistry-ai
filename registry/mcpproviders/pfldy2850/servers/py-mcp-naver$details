@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:22.85085878Z",
+  "createdat": "2025-06-02T20:46:10.701731297Z",
   "description": "python MCP NAVER",
   "epoch": 1,
   "id": "f10c234b-cf64-4dc2-9e38-5f57e53aeecb",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/pfldy2850/servers/py-mcp-naver/meta",
-  "modifiedat": "2025-05-27T13:01:22.85085878Z",
+  "modifiedat": "2025-06-02T20:46:10.701731297Z",
   "name": "io.github.pfldy2850/py-mcp-naver",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:21.424877782Z",
+  "createdat": "2025-06-02T20:46:10.306935814Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/pab1it0/servers/prometheus-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:21.424877782Z",
+  "modifiedat": "2025-06-02T20:46:10.306935814Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/pab1it0/servers/prometheus-mcp-server/meta",
   "serverid": "prometheus-mcp-server",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:03.551567431Z",
+  "createdat": "2025-06-02T20:45:45.649643553Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/atharvagupta2003/servers/mcp-stripe/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:03.551567431Z",
+  "modifiedat": "2025-06-02T20:45:45.649643553Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/atharvagupta2003/servers/mcp-stripe/meta",
   "serverid": "mcp-stripe",

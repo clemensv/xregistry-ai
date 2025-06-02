@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:30.083244223Z",
+  "createdat": "2025-06-02T20:45:53.393328279Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/furey/servers/mongodb-lens/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:30.083244223Z",
+  "modifiedat": "2025-06-02T20:45:53.393328279Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/furey/servers/mongodb-lens/meta",
   "serverid": "mongodb-lens",

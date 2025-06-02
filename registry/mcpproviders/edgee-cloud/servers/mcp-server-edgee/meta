@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:24.021361575Z",
+  "createdat": "2025-06-02T20:45:51.612230566Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/edgee-cloud/servers/mcp-server-edgee/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:24.021361575Z",
+  "modifiedat": "2025-06-02T20:45:51.612230566Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/edgee-cloud/servers/mcp-server-edgee/meta",
   "serverid": "mcp-server-edgee",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:58.291758033Z",
+  "createdat": "2025-06-02T20:46:23.195883151Z",
   "description": "",
   "epoch": 1,
   "id": "adb9a058-774f-4505-aa80-1afa9bab8cb9",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/tinybirdco/servers/mcp-tinybird/meta",
-  "modifiedat": "2025-05-27T13:01:58.291758033Z",
+  "modifiedat": "2025-06-02T20:46:23.195883151Z",
   "name": "io.github.tinybirdco/mcp-tinybird",
   "packages": [
     {

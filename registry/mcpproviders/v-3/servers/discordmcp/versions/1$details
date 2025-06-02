@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:01.902178907Z",
+  "createdat": "2025-06-02T20:46:24.460578517Z",
   "description": "Discord MCP Server for Claude Integration",
   "epoch": 1,
   "id": "361ed7f4-8df4-4a8e-931f-edfb380e0019",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:02:01.902178907Z",
+  "modifiedat": "2025-06-02T20:46:24.460578517Z",
   "name": "io.github.v-3/discordmcp",
   "packages": [
     {

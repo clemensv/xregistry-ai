@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:06.580456886Z",
+  "createdat": "2025-06-02T20:45:46.398870065Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/baryhuang/servers/mcp-remote-macos-use/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:06.580456886Z",
+  "modifiedat": "2025-06-02T20:45:46.398870065Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/baryhuang/servers/mcp-remote-macos-use/meta",
   "serverid": "mcp-remote-macos-use",

@@ -1,0 +1,62 @@
+{
+  "test-server": {
+    "ancestor": "1",
+    "createdat": "2025-06-02T20:46:22.694365443Z",
+    "description": "A test MCP server for validating the xregistry-ai issue workflow",
+    "epoch": 1,
+    "isdefault": true,
+    "metaurl": "https://mcpxreg.com/registry/mcpproviders/test-provider/servers/test-server/meta",
+    "modifiedat": "2025-06-02T20:46:22.694365443Z",
+    "name": "io.github.clemensv/xregistry-ai/test-mcp-server",
+    "registries": [
+      {
+        "command_arguments": {
+          "environment_variables": [
+            {
+              "description": "API key for test service",
+              "name": "TEST_API_KEY",
+              "required": true
+            }
+          ],
+          "sub_commands": [
+            {
+              "description": "Start the test MCP server",
+              "name": "start"
+            }
+          ]
+        },
+        "license": "MIT",
+        "name": "npm",
+        "package_name": "test-mcp-server"
+      }
+    ],
+    "remotes": [],
+    "self": "https://mcpxreg.com/registry/mcpproviders/test-provider/servers/test-server",
+    "serverid": "test-server",
+    "tools": [
+      {
+        "description": "Echo back a test message",
+        "inputschema": {
+          "properties": {
+            "message": {
+              "description": "Message to echo back",
+              "type": "string"
+            }
+          },
+          "required": [
+            "message"
+          ],
+          "type": "object"
+        },
+        "name": "test_echo"
+      }
+    ],
+    "version_detail": {
+      "version": "1.0.0"
+    },
+    "versionid": "1",
+    "versionscount": 1,
+    "versionsurl": "https://mcpxreg.com/registry/mcpproviders/test-provider/servers/test-server/versions",
+    "xid": "/mcpproviders/test-provider/servers/test-server"
+  }
+}

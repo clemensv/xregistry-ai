@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:02.820059118Z",
+  "createdat": "2025-06-02T20:45:36.485435111Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/AshDevFr/servers/discourse-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:02.820059118Z",
+  "modifiedat": "2025-06-02T20:45:36.485435111Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/AshDevFr/servers/discourse-mcp-server/meta",
   "serverid": "discourse-mcp-server",

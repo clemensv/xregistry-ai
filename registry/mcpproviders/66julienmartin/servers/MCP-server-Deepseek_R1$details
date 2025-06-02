@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T12:59:53.275075221Z",
+  "createdat": "2025-06-02T20:45:36.051792418Z",
   "description": "A Model Context Protocol (MCP) server implementation connecting Claude Desktop with DeepSeek's language models (R1/V3)",
   "epoch": 1,
   "id": "a2015046-780d-421a-999f-c52c808236fa",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/66julienmartin/servers/MCP-server-Deepseek_R1/meta",
-  "modifiedat": "2025-05-27T12:59:53.275075221Z",
+  "modifiedat": "2025-06-02T20:45:36.051792418Z",
   "name": "io.github.66julienmartin/mcp-server-deepseek_r1",
   "packages": [
     {

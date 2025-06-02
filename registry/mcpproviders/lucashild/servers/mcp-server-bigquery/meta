@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:01.699276327Z",
+  "createdat": "2025-06-02T20:46:04.072815691Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/lucashild/servers/mcp-server-bigquery/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:01.699276327Z",
+  "modifiedat": "2025-06-02T20:46:04.072815691Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/lucashild/servers/mcp-server-bigquery/meta",
   "serverid": "mcp-server-bigquery",

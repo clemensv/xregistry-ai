@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T12:59:55.484045586Z",
+  "createdat": "2025-06-02T20:45:43.472664448Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/agentrpc/servers/agentrpc/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T12:59:55.484045586Z",
+  "modifiedat": "2025-06-02T20:45:43.472664448Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/agentrpc/servers/agentrpc/meta",
   "serverid": "agentrpc",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:00.993945195Z",
+  "createdat": "2025-06-02T20:46:03.787014947Z",
   "description": "A Model Context Protocol server that provides access to CoinMarketCap's cryptocurrency data. This server enables AI-powered applications to retrieve cryptocurrency listings, quotes, and detailed information about various coins.",
   "epoch": 1,
   "id": "28fc08e1-1afc-42cb-8eca-0b500e23c73e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/longmans/servers/coin_api_mcp/meta",
-  "modifiedat": "2025-05-27T13:01:00.993945195Z",
+  "modifiedat": "2025-06-02T20:46:03.787014947Z",
   "name": "io.github.longmans/coin_api_mcp",
   "packages": [
     {

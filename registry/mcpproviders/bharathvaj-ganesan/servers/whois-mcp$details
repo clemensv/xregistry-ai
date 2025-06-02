@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:07.961602484Z",
+  "createdat": "2025-06-02T20:45:46.932080539Z",
   "description": "MCP Server for whois lookups.",
   "epoch": 1,
   "id": "5f5a497c-673d-4988-b86b-c3bcaaf1a317",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/bharathvaj-ganesan/servers/whois-mcp/meta",
-  "modifiedat": "2025-05-27T13:00:07.961602484Z",
+  "modifiedat": "2025-06-02T20:45:46.932080539Z",
   "name": "io.github.bharathvaj-ganesan/whois-mcp",
   "packages": [
     {

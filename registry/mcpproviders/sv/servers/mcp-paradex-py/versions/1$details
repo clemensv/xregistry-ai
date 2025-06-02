@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:52.402299138Z",
+  "createdat": "2025-06-02T20:46:20.954291973Z",
   "description": "Connect AI agents to the Paradex trading platform. Retrieve market data, manage accounts, and execute trades seamlessly. Enhance your trading experience with automated tools and real-time insights.",
   "epoch": 1,
   "id": "038a3024-c319-4a07-bd7f-9cf699cfebf1",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:52.402299138Z",
+  "modifiedat": "2025-06-02T20:46:20.954291973Z",
   "name": "io.github.sv/mcp-paradex-py",
   "packages": [
     {

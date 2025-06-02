@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:41.481378527Z",
+  "createdat": "2025-06-02T20:45:56.766956765Z",
   "description": "Examples and tutorials for building AI applications with watsonx.ai Flows Engine",
   "epoch": 1,
   "id": "16dc9c56-47bb-4604-9f37-221dd07510ed",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ibm/servers/wxflows/meta",
-  "modifiedat": "2025-05-27T13:00:41.481378527Z",
+  "modifiedat": "2025-06-02T20:45:56.766956765Z",
   "name": "io.github.ibm/wxflows",
   "packages": [
     {

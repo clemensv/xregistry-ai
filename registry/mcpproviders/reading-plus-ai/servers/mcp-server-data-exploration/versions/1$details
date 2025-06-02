@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:32.837239812Z",
+  "createdat": "2025-06-02T20:46:14.236908326Z",
   "description": "",
   "epoch": 1,
   "id": "14074b80-f3a7-4b45-97ba-7204c92c5f6e",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:32.837239812Z",
+  "modifiedat": "2025-06-02T20:46:14.236908326Z",
   "name": "io.github.reading-plus-ai/mcp-server-data-exploration",
   "packages": [
     {

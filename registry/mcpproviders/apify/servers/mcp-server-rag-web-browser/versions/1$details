@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:01.40519723Z",
+  "createdat": "2025-06-02T20:45:45.103214977Z",
   "description": "A MCP Server for the RAG Web Browser Actor",
   "epoch": 1,
   "id": "abcd869f-0159-408c-8965-9dbcc8c2d001",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:01.40519723Z",
+  "modifiedat": "2025-06-02T20:45:45.103214977Z",
   "name": "io.github.apify/mcp-server-rag-web-browser",
   "packages": [
     {

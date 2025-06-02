@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:13.673720717Z",
+  "createdat": "2025-06-02T20:45:42.925243521Z",
   "description": "council of models for decision",
   "epoch": 1,
   "id": "abcce212-b3e1-4741-a8b3-86c95c276fb1",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:02:13.673720717Z",
+  "modifiedat": "2025-06-02T20:45:42.925243521Z",
   "name": "io.github.yuchenssr/multi-ai-advisor-mcp",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:30.083244223Z",
+  "createdat": "2025-06-02T20:45:53.393328279Z",
   "description": "🍃🔎 MongoDB Lens: Full Featured MCP Server for MongoDB Databases",
   "epoch": 1,
   "id": "b4970e5b-1259-4ff9-a40a-c570f27d0930",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:30.083244223Z",
+  "modifiedat": "2025-06-02T20:45:53.393328279Z",
   "name": "io.github.furey/mongodb-lens",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:05.881361331Z",
+  "createdat": "2025-06-02T20:46:05.725119618Z",
   "description": "Query and Summarize your chat messages.",
   "epoch": 1,
   "id": "196a8cbd-8234-4336-a4d7-f6dda870bcfb",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/mcpso/servers/mcp-server-chatsum/meta",
-  "modifiedat": "2025-05-27T13:01:05.881361331Z",
+  "modifiedat": "2025-06-02T20:46:05.725119618Z",
   "name": "io.github.mcpso/mcp-server-chatsum",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:46.522596279Z",
+  "createdat": "2025-06-02T20:45:58.581063991Z",
   "description": "MCP server for Mikrotik",
   "epoch": 1,
   "id": "5ebda83c-f2b3-4b14-ba72-13d940fa940a",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:46.522596279Z",
+  "modifiedat": "2025-06-02T20:45:58.581063991Z",
   "name": "io.github.jeff-nasseri/mikrotik-mcp",
   "packages": [
     {

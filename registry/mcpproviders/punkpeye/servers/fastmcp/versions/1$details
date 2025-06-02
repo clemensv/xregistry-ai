@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:26.41158103Z",
+  "createdat": "2025-06-02T20:46:11.856010559Z",
   "description": "A TypeScript framework for building MCP servers.",
   "epoch": 1,
   "id": "c978017d-b94a-4d0c-a46e-5395cb94a67e",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:01:26.41158103Z",
+  "modifiedat": "2025-06-02T20:46:11.856010559Z",
   "name": "io.github.punkpeye/fastmcp",
   "packages": [
     {

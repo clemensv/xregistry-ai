@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:09.457995656Z",
+  "createdat": "2025-06-02T20:46:26.915322856Z",
   "description": "A CLI inspector for the Model Context Protocol",
   "epoch": 1,
   "id": "29cf2977-4a42-44f0-8e62-f92ca8391412",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:02:09.457995656Z",
+  "modifiedat": "2025-06-02T20:46:26.915322856Z",
   "name": "io.github.wong2/mcp-cli",
   "packages": [
     {

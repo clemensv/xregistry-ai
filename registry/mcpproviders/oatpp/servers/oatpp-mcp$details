@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:16.276100901Z",
+  "createdat": "2025-06-02T20:46:08.794623919Z",
   "description": "Anthropic’s Model Context Protocol implementation for Oat++",
   "epoch": 1,
   "id": "9fdf29e9-6059-4a99-a5ae-4c0eda7627eb",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/oatpp/servers/oatpp-mcp/meta",
-  "modifiedat": "2025-05-27T13:01:16.276100901Z",
+  "modifiedat": "2025-06-02T20:46:08.794623919Z",
   "name": "io.github.oatpp/oatpp-mcp",
   "packages": [
     {

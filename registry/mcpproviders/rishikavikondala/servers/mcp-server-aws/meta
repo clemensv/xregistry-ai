@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:01:35.031832155Z",
+  "createdat": "2025-06-02T20:46:15.180014661Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/rishikavikondala/servers/mcp-server-aws/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:01:35.031832155Z",
+  "modifiedat": "2025-06-02T20:46:15.180014661Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/rishikavikondala/servers/mcp-server-aws/meta",
   "serverid": "mcp-server-aws",

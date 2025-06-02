@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:55.539845722Z",
+  "createdat": "2025-06-02T20:46:01.812686975Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/thegraph-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:55.539845722Z",
+  "modifiedat": "2025-06-02T20:46:01.812686975Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/thegraph-mcp/meta",
   "serverid": "thegraph-mcp",

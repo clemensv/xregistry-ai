@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:52.312952653Z",
+  "createdat": "2025-06-02T20:46:00.358860373Z",
   "description": "GitHub Actions Model Context Protocol Server",
   "epoch": 1,
   "id": "fa6d267b-a797-42b7-9510-5abc3c518f3e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/ko1ynnky/servers/github-actions-mcp-server/meta",
-  "modifiedat": "2025-05-27T13:00:52.312952653Z",
+  "modifiedat": "2025-06-02T20:46:00.358860373Z",
   "name": "io.github.ko1ynnky/github-actions-mcp-server",
   "packages": [
     {

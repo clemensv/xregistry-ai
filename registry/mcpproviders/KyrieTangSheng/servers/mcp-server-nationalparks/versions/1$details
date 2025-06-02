@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:56.603373887Z",
+  "createdat": "2025-06-02T20:45:40.179498059Z",
   "description": "",
   "epoch": 1,
   "id": "010904ec-6e39-4bdc-878a-75a6e79d0500",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:56.603373887Z",
+  "modifiedat": "2025-06-02T20:45:40.179498059Z",
   "name": "io.github.kyrietangsheng/mcp-server-nationalparks",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T12:59:57.970562175Z",
+  "createdat": "2025-06-02T20:45:44.053328086Z",
   "description": "AlibabaCloud CloudOps MCP Server",
   "epoch": 1,
   "id": "24303d73-1ee0-4119-b2f1-3a57c17de967",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/meta",
-  "modifiedat": "2025-05-27T12:59:57.970562175Z",
+  "modifiedat": "2025-06-02T20:45:44.053328086Z",
   "name": "io.github.aliyun/alibaba-cloud-ops-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:58.413704372Z",
+  "createdat": "2025-06-02T20:46:02.91505473Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/lenwood/servers/cfbd-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:58.413704372Z",
+  "modifiedat": "2025-06-02T20:46:02.91505473Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/lenwood/servers/cfbd-mcp-server/meta",
   "serverid": "cfbd-mcp-server",

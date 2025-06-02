@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:36.781766646Z",
+  "createdat": "2025-06-02T20:46:15.853899832Z",
   "description": "Blazing-fast, asynchronous MCP server for seamless filesystem operations.",
   "epoch": 1,
   "id": "583f254e-410c-4dd4-a96c-8f362475436e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/rust-mcp-stack/servers/rust-mcp-filesystem/meta",
-  "modifiedat": "2025-05-27T13:01:36.781766646Z",
+  "modifiedat": "2025-06-02T20:46:15.853899832Z",
   "name": "io.github.rust-mcp-stack/rust-mcp-filesystem",
   "packages": [
     {

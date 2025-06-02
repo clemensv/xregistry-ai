@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:08.761623301Z",
+  "createdat": "2025-06-02T20:45:47.224043573Z",
   "description": "Local MCP server implementation for Starwind UI that you can use with Cursor, Windsurf, and other AI tools",
   "epoch": 1,
   "id": "8a0bb0a3-74c3-41c1-9b9f-2974dd1576fe",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/boston343/servers/starwind-ui-mcp/meta",
-  "modifiedat": "2025-05-27T13:00:08.761623301Z",
+  "modifiedat": "2025-06-02T20:45:47.224043573Z",
   "name": "io.github.boston343/starwind-ui-mcp",
   "packages": [
     {

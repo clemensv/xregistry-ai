@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:43.969009457Z",
+  "createdat": "2025-06-02T20:45:57.516803921Z",
   "description": "",
   "epoch": 1,
   "id": "61942e80-99c9-4856-90c8-5a11ac76ade5",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/isaacwasserman/servers/mcp-snowflake-server/meta",
-  "modifiedat": "2025-05-27T13:00:43.969009457Z",
+  "modifiedat": "2025-06-02T20:45:57.516803921Z",
   "name": "io.github.isaacwasserman/mcp-snowflake-server",
   "packages": [
     {

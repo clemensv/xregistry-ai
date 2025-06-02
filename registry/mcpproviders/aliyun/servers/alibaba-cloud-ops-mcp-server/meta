@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T12:59:57.970562175Z",
+  "createdat": "2025-06-02T20:45:44.053328086Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T12:59:57.970562175Z",
+  "modifiedat": "2025-06-02T20:45:44.053328086Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibaba-cloud-ops-mcp-server/meta",
   "serverid": "alibaba-cloud-ops-mcp-server",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:02:09.262318988Z",
+  "createdat": "2025-06-02T20:46:26.786839399Z",
   "description": "A curated list of Model Context Protocol (MCP) servers",
   "epoch": 1,
   "id": "9926bddd-9633-4a76-a5b6-bb3be30b2ed4",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/wong2/servers/awesome-mcp-servers/meta",
-  "modifiedat": "2025-05-27T13:02:09.262318988Z",
+  "modifiedat": "2025-06-02T20:46:26.786839399Z",
   "name": "io.github.wong2/awesome-mcp-servers",
   "packages": [
     {

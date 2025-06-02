@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:54.897079797Z",
+  "createdat": "2025-06-02T20:46:01.409223582Z",
   "description": "A mcp server that bridges Dune Analytics data to AI agents.",
   "epoch": 1,
   "id": "2d851046-40f2-4088-95df-d6c0f93c2f0a",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/meta",
-  "modifiedat": "2025-05-27T13:00:54.897079797Z",
+  "modifiedat": "2025-06-02T20:46:01.409223582Z",
   "name": "io.github.kukapay/dune-analytics-mcp",
   "packages": [
     {

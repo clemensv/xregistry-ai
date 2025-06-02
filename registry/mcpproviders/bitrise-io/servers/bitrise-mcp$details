@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:08.528875724Z",
+  "createdat": "2025-06-02T20:45:47.138844987Z",
   "description": "MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.",
   "epoch": 1,
   "id": "9e07df79-22e2-464d-a842-06f08b875196",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/bitrise-io/servers/bitrise-mcp/meta",
-  "modifiedat": "2025-05-27T13:00:08.528875724Z",
+  "modifiedat": "2025-06-02T20:45:47.138844987Z",
   "name": "io.github.bitrise-io/bitrise-mcp",
   "packages": [
     {

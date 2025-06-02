@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:10.248667003Z",
+  "createdat": "2025-06-02T20:45:47.724395547Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/calclavia/servers/mcp-obsidian/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:10.248667003Z",
+  "modifiedat": "2025-06-02T20:45:47.724395547Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/calclavia/servers/mcp-obsidian/meta",
   "serverid": "mcp-obsidian",

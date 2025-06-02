@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:27.422426915Z",
+  "createdat": "2025-06-02T20:45:52.721326439Z",
   "description": "Search, create and update Airtable bases, tables, fields, and records using Claude Desktop and MCP (Model Context Protocol) clients",
   "epoch": 1,
   "id": "04216a87-0760-4f25-b809-42ffbfbb8962",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/felores/servers/airtable-mcp/meta",
-  "modifiedat": "2025-05-27T13:00:27.422426915Z",
+  "modifiedat": "2025-06-02T20:45:52.721326439Z",
   "name": "io.github.felores/airtable-mcp",
   "packages": [
     {

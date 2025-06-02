@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-05-27T13:00:27.20119524Z",
+  "createdat": "2025-06-02T20:45:52.632800066Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/fatwang2/servers/search1api-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-05-27T13:00:27.20119524Z",
+  "modifiedat": "2025-06-02T20:45:52.632800066Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/fatwang2/servers/search1api-mcp/meta",
   "serverid": "search1api-mcp",

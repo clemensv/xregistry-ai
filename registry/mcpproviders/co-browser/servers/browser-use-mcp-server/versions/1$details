@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:00:15.436180576Z",
+  "createdat": "2025-06-02T20:45:48.95196003Z",
   "description": "Browse the web, directly from Cursor etc.",
   "epoch": 1,
   "id": "27b05d20-fd9c-437d-a86c-923629491ff5",
   "isdefault": true,
-  "modifiedat": "2025-05-27T13:00:15.436180576Z",
+  "modifiedat": "2025-06-02T20:45:48.95196003Z",
   "name": "io.github.co-browser/browser-use-mcp-server",
   "packages": [
     {

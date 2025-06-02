@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-05-27T13:01:02.847458899Z",
+  "createdat": "2025-06-02T20:46:04.492393199Z",
   "description": "",
   "epoch": 1,
   "id": "1d89482a-a7de-4d3b-a7cb-1b7be49939ec",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/mamertofabian/servers/elevenlabs-mcp-server/meta",
-  "modifiedat": "2025-05-27T13:01:02.847458899Z",
+  "modifiedat": "2025-06-02T20:46:04.492393199Z",
   "name": "io.github.mamertofabian/elevenlabs-mcp-server",
   "packages": [
     {
