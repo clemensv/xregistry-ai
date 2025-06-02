@@ -245,8 +245,7 @@ done
 
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
-echo "First, let's verify the xr server has entries:"
-docker exec "${CONTAINER_ID}" /xr list -s localhost:8080 || echo "xr list failed"
+
 
 echo "Now downloading registry data..."
 docker exec "${CONTAINER_ID}" /bin/sh -c "
