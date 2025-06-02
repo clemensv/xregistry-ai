@@ -2,7 +2,8 @@
 # run on Linux and Windows with Git Bash
 
 # Configuration
-XRSERVER_COMMIT="be2be66"
+#XRSERVER_COMMIT="be2be66"
+XRSERVER_COMMIT="5e84f31"
 CONTAINER_NAME="xregistry-server"
 ARCHIVE_PATH="/tmp/xr_live_data.tar.gz"
 
@@ -246,7 +247,6 @@ done
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
 
-
 echo "Now downloading registry data..."
 docker exec "${CONTAINER_ID}" /bin/sh -c "
   mkdir -p /tmp/live
@@ -254,6 +254,15 @@ docker exec "${CONTAINER_ID}" /bin/sh -c "
   /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
   echo 'Download completed. Directory contents:'
   ls -la /tmp/live/
+  echo 'Checking for index.html specifically:'
+  if [ -f /tmp/live/index.html ]; then
+    echo 'index.html found'
+    head -5 /tmp/live/index.html
+  else
+    echo 'index.html NOT found'
+    echo 'Available files:'
+    find /tmp/live -type f -name '*.html' -o -name '*.json' | head -10
+  fi
   echo 'Creating tarball...'
   cd /tmp/live
   tar czf $ARCHIVE_PATH .
