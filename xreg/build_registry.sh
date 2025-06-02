@@ -2,7 +2,7 @@
 # run on Linux and Windows with Git Bash
 
 # Configuration
-XRSERVER_COMMIT="abbec09"
+XRSERVER_COMMIT="be2be66"
 CONTAINER_NAME="xregistry-server"
 ARCHIVE_PATH="/tmp/xr_live_data.tar.gz"
 
@@ -167,15 +167,18 @@ if [ -n "$XRSERVER_COMMIT" ] && [ "$XRSERVER_COMMIT" != "HEAD" ]; then
     cp -r "$XR_SPEC/"* .spec/ 2>/dev/null || true
   fi
   
-  # Build the Docker image
-  echo "Building custom xrserver-all Docker image..."
+  # Use commit hash for unique image tagging
+  CUSTOM_IMAGE_TAG="xrserver-all:$XRSERVER_COMMIT"
+  
+  # Build the Docker image with unique tag
+  echo "Building custom xrserver-all Docker image with tag: $CUSTOM_IMAGE_TAG"
   docker build -f misc/Dockerfile-all \
     --build-arg GIT_COMMIT=$(git rev-list -1 HEAD) \
-    -t xrserver-all \
+    -t "$CUSTOM_IMAGE_TAG" \
     --no-cache .
   
-  # Use the custom built image
-  XRSERVER_IMAGE="xrserver-all"
+  # Use the custom built image with unique tag
+  XRSERVER_IMAGE="$CUSTOM_IMAGE_TAG"
   
   # Return to original directory
   cd "$REPO_ROOT"
@@ -208,51 +211,47 @@ done
 
 # Update the model
 echo "Updating model..."
-docker_exec "${CONTAINER_ID}" "ls -l /workspace"
-docker_exec "${CONTAINER_ID}" "/xr model update /workspace/xreg/model.json -s localhost:8080"
+docker exec "${CONTAINER_ID}" /bin/bash ls -l /workspace
+docker exec "${CONTAINER_ID}" /xr model update /workspace/xreg/model.json -s localhost:8080
 
 # Create entries for each registry index.json
 echo "Creating registry entries..."
 echo "First, let's see what registry files exist:"
-docker_exec "${CONTAINER_ID}" "find /workspace/registry -name \"index.json\"" | head -5
+docker exec "${CONTAINER_ID}" find /workspace/registry -name "index.json" | head -5
 
 echo "Now creating entries..."
-REGISTRY_SCRIPT='
-REGISTRY_DIR=/workspace/registry
-find $REGISTRY_DIR -type f -name index.json | while read file; do
-  path=${file#"$REGISTRY_DIR"/}
-  path=${path%/index.json}
-  echo "Creating entry for path: /$path from file: $file"
-  /xr create "/$path" -d "@$file" -s localhost:8080
-  if [ $? -ne 0 ]; then
-    echo "Error processing file: $file"
-  else
-    echo "Successfully processed file: $file"
-  fi 
-done
+docker exec "${CONTAINER_ID}" /bin/sh -c '
+ REGISTRY_DIR=/workspace/registry
+ find $REGISTRY_DIR -type f -name index.json | while read file; do
+   path=${file#"$REGISTRY_DIR"/}
+   path=${path%/index.json}
+   echo "Creating entry for path: /$path from file: $file"
+   /xr create "/$path" -d "@$file" -s localhost:8080
+   if [ $? -ne 0 ]; then
+     echo "Error processing file: $file"
+   else
+     echo "Successfully processed file: $file"
+   fi 
+ done
 '
-
-docker_exec_script "${CONTAINER_ID}" "$REGISTRY_SCRIPT"
 
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
 echo "First, let's verify the xr server has entries:"
-docker_exec "${CONTAINER_ID}" "/xr list -s localhost:8080" || echo "xr list failed"
+docker exec "${CONTAINER_ID}" /xr list -s localhost:8080 || echo "xr list failed"
 
 echo "Now downloading registry data..."
-DOWNLOAD_SCRIPT="
-mkdir -p /tmp/live
-echo 'Running xr download...'
-/xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
-echo 'Download completed. Directory contents:'
-ls -la /tmp/live/
-echo 'Creating tarball...'
-cd /tmp/live
-tar czf $ARCHIVE_PATH .
-echo 'Tarball created.'
+docker exec "${CONTAINER_ID}" /bin/sh -c "
+  mkdir -p /tmp/live
+  echo 'Running xr download...'
+  /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
+  echo 'Download completed. Directory contents:'
+  ls -la /tmp/live/
+  echo 'Creating tarball...'
+  cd /tmp/live
+  tar czf $ARCHIVE_PATH .
+  echo 'Tarball created.'
 "
-
-docker_exec_script "${CONTAINER_ID}" "$DOWNLOAD_SCRIPT"
 
 # Copy the archive to the host
 echo "Copying archive to $DATA_EXPORT_DIR..."
