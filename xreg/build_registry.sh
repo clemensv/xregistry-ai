@@ -1,8 +1,19 @@
 #!/bin/bash
-# run on Linux
+# run on Linux and Windows with Git Bash
 
+# Configuration
+XRSERVER_COMMIT="abbec09"
 CONTAINER_NAME="xregistry-server"
 ARCHIVE_PATH="/tmp/xr_live_data.tar.gz"
+
+# Detect platform
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || -n "$WINDIR" ]]; then
+  IS_WINDOWS=true
+  echo "Windows platform detected"
+else
+  IS_WINDOWS=false
+  echo "Unix/Linux platform detected"
+fi
 
 # Determine repository root directory
 SCRIPT_DIR=$(dirname "$(readlink -f "$PWD/$0")")
@@ -19,6 +30,44 @@ echo "Repository root directory: $REPO_ROOT"
 echo "Data export directory: $DATA_EXPORT_DIR"
 echo "Container name: $CONTAINER_NAME"
 echo "Archive path: $ARCHIVE_PATH"
+echo "xrserver commit: $XRSERVER_COMMIT"
+
+# Function to execute Docker commands based on platform
+docker_exec() {
+  local container_id="$1"
+  shift
+  local command="$*"
+  
+  if [ "$IS_WINDOWS" = true ]; then
+    # Use PowerShell for Windows to avoid path translation issues
+    powershell.exe -Command "docker exec $container_id $command"
+  else
+    # Direct docker exec for Unix/Linux
+    docker exec "$container_id" $command
+  fi
+}
+
+# Function to execute complex Docker shell scripts
+docker_exec_script() {
+  local container_id="$1"
+  local script_content="$2"
+  
+  if [ "$IS_WINDOWS" = true ]; then
+    # Create temporary PowerShell script for Windows
+    local temp_ps1="/tmp/docker_exec_$$.ps1"
+    cat > "$temp_ps1" << EOF
+param(\$ContainerId)
+docker exec \$ContainerId sh -c @"
+$script_content
+"@
+EOF
+    powershell.exe -ExecutionPolicy Bypass -File "$temp_ps1" -ContainerId "$container_id"
+    rm -f "$temp_ps1"
+  else
+    # Direct execution for Unix/Linux
+    docker exec "$container_id" /bin/sh -c "$script_content"
+  fi
+}
 
 # Construct the GitHub Pages URL for this repo (if running on GH Actions)
 if [ -n "$GITHUB_ACTIONS" ]; then
@@ -89,6 +138,54 @@ else
   echo "Environment file not found: $ENV_FILE"
 fi
 
+# Build custom xrserver image if needed
+XRSERVER_IMAGE="ghcr.io/xregistry/xrserver-all"
+
+if [ -n "$XRSERVER_COMMIT" ] && [ "$XRSERVER_COMMIT" != "HEAD" ]; then
+  echo "Building custom xrserver image with commit: $XRSERVER_COMMIT"
+  
+  # Create temporary directory for xrserver build
+  XRSERVER_TEMP_DIR=$(mktemp -d)
+  echo "Cloning xrserver repository to: $XRSERVER_TEMP_DIR"
+  
+  # Clone the xrserver repository
+  git clone https://github.com/xregistry/server "$XRSERVER_TEMP_DIR"
+  cd "$XRSERVER_TEMP_DIR"
+  
+  # Checkout the specified commit
+  echo "Checking out commit: $XRSERVER_COMMIT"
+  git checkout "$XRSERVER_COMMIT"
+  
+  # Build the xr and xrserver binaries
+  echo "Building xr and xrserver binaries..."
+  make xr xrserver
+  
+  # Create the .spec directory if using custom spec files
+  mkdir -p .spec
+  # If you have XR_SPEC set, copy spec files
+  cp -r "$XR_SPEC/"* .spec/ 2>/dev/null || true
+  
+  # Build the Docker image
+  echo "Building custom xrserver-all Docker image..."
+  docker build -f misc/Dockerfile-all \
+    --build-arg GIT_COMMIT=$(git rev-list -1 HEAD) \
+    -t xrserver-all \
+    --no-cache .
+  
+  # Use the custom built image
+  XRSERVER_IMAGE="xrserver-all"
+  
+  # Return to original directory
+  cd "$REPO_ROOT"
+  
+  # Clean up temporary directory
+  rm -rf "$XRSERVER_TEMP_DIR"
+  
+  echo "Custom xrserver image built successfully: $XRSERVER_IMAGE"
+else
+  echo "Using default xrserver image: $XRSERVER_IMAGE"
+fi
+
 # Start or reuse the xregistry server container
 if [ "$(docker ps -q -f name="${CONTAINER_NAME}")" ]; then
   echo "Container ${CONTAINER_NAME} is already running."
@@ -98,7 +195,7 @@ else
   if [ "$(docker ps -aq -f name="${CONTAINER_NAME}")" ]; then
     docker rm "${CONTAINER_NAME}" > /dev/null 2>&1
   fi
-  CONTAINER_ID=$(docker run -d --name "${CONTAINER_NAME}" -v $REPO_ROOT:/workspace -p 8080:8080 ghcr.io/xregistry/xrserver-all --recreatedb)
+  CONTAINER_ID=$(docker run -d --name "${CONTAINER_NAME}" -v $REPO_ROOT:/workspace -p 8080:8080 $XRSERVER_IMAGE --recreatedb)
 fi
 
 # Wait for the server to be ready
@@ -109,47 +206,51 @@ done
 
 # Update the model
 echo "Updating model..."
-docker exec "${CONTAINER_ID}" /bin/bash ls -l /workspace
-docker exec "${CONTAINER_ID}" /xr model update /workspace/xreg/model.json -s localhost:8080
+docker_exec "${CONTAINER_ID}" "ls -l /workspace"
+docker_exec "${CONTAINER_ID}" "/xr model update /workspace/xreg/model.json -s localhost:8080"
 
 # Create entries for each registry index.json
 echo "Creating registry entries..."
 echo "First, let's see what registry files exist:"
-docker exec "${CONTAINER_ID}" find /workspace/registry -name "index.json" | head -5
+docker_exec "${CONTAINER_ID}" "find /workspace/registry -name \"index.json\"" | head -5
 
 echo "Now creating entries..."
-docker exec "${CONTAINER_ID}" /bin/sh -c '
- REGISTRY_DIR=/workspace/registry
- find $REGISTRY_DIR -type f -name index.json | while read file; do
-   path=${file#"$REGISTRY_DIR"/}
-   path=${path%/index.json}
-   echo "Creating entry for path: /$path from file: $file"
-   /xr create "/$path" -d "@$file" -s localhost:8080
-   if [ $? -ne 0 ]; then
-     echo "Error processing file: $file"
-   else
-     echo "Successfully processed file: $file"
-   fi 
- done
+REGISTRY_SCRIPT='
+REGISTRY_DIR=/workspace/registry
+find $REGISTRY_DIR -type f -name index.json | while read file; do
+  path=${file#"$REGISTRY_DIR"/}
+  path=${path%/index.json}
+  echo "Creating entry for path: /$path from file: $file"
+  /xr create "/$path" -d "@$file" -s localhost:8080
+  if [ $? -ne 0 ]; then
+    echo "Error processing file: $file"
+  else
+    echo "Successfully processed file: $file"
+  fi 
+done
 '
+
+docker_exec_script "${CONTAINER_ID}" "$REGISTRY_SCRIPT"
 
 # Export the live data as a tarball
 echo "Exporting live data to $ARCHIVE_PATH..."
 echo "First, let's verify the xr server has entries:"
-docker exec "${CONTAINER_ID}" /xr list -s localhost:8080 || echo "xr list failed"
+docker_exec "${CONTAINER_ID}" "/xr list -s localhost:8080" || echo "xr list failed"
 
 echo "Now downloading registry data..."
-docker exec "${CONTAINER_ID}" /bin/sh -c "
-  mkdir -p /tmp/live
-  echo 'Running xr download...'
-  /xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
-  echo 'Download completed. Directory contents:'
-  ls -la /tmp/live/
-  echo 'Creating tarball...'
-  cd /tmp/live
-  tar czf $ARCHIVE_PATH .
-  echo 'Tarball created.'
+DOWNLOAD_SCRIPT="
+mkdir -p /tmp/live
+echo 'Running xr download...'
+/xr download -s localhost:8080 /tmp/live -u https://mcpxreg.com/registry --index index.html
+echo 'Download completed. Directory contents:'
+ls -la /tmp/live/
+echo 'Creating tarball...'
+cd /tmp/live
+tar czf $ARCHIVE_PATH .
+echo 'Tarball created.'
 "
+
+docker_exec_script "${CONTAINER_ID}" "$DOWNLOAD_SCRIPT"
 
 # Copy the archive to the host
 echo "Copying archive to $DATA_EXPORT_DIR..."
@@ -184,11 +285,6 @@ python "$REPO_ROOT/index/build_index.py"
 # Copy additional files
 echo "Copying flex.json files to $DATA_EXPORT_DIR..."
 cp $REPO_ROOT/index/flex/*.flex.json $DATA_EXPORT_DIR
-
-# Copy Azure Static Web Apps configuration files
-echo "Copying Azure Static Web Apps configuration files..."
-cp $REPO_ROOT/xreg/registry-staticwebapp.config.json $DATA_EXPORT_DIR/staticwebapp.config.json
-echo "Copied registry config to: $DATA_EXPORT_DIR/staticwebapp.config.json"
 
 # Generate unified schemas
 echo "Generating unified schemas..."
