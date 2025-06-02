@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:56.041716686Z",
+  "createdat": "2025-06-02T22:10:01.048597563Z",
   "description": "",
   "epoch": 1,
   "id": "97174daf-db12-40ac-bab2-1c4255ce1741",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:56.041716686Z",
+  "modifiedat": "2025-06-02T22:10:01.048597563Z",
   "name": "io.github.heurist-network/heurist-mesh-mcp-server",
   "packages": [
     {

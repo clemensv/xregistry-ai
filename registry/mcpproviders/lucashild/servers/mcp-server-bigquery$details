@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:04.072815691Z",
+  "createdat": "2025-06-02T22:10:09.018871219Z",
   "description": "A Model Context Protocol server that provides access to BigQuery",
   "epoch": 1,
   "id": "0e517488-6e73-41c3-a297-7602f5937079",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/lucashild/servers/mcp-server-bigquery/meta",
-  "modifiedat": "2025-06-02T20:46:04.072815691Z",
+  "modifiedat": "2025-06-02T22:10:09.018871219Z",
   "name": "io.github.lucashild/mcp-server-bigquery",
   "packages": [
     {

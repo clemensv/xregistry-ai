@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:48.95196003Z",
+  "createdat": "2025-06-02T22:09:53.966699388Z",
   "description": "Browse the web, directly from Cursor etc.",
   "epoch": 1,
   "id": "27b05d20-fd9c-437d-a86c-923629491ff5",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/co-browser/servers/browser-use-mcp-server/meta",
-  "modifiedat": "2025-06-02T20:45:48.95196003Z",
+  "modifiedat": "2025-06-02T22:09:53.966699388Z",
   "name": "io.github.co-browser/browser-use-mcp-server",
   "packages": [
     {

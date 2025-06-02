@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:44.382245587Z",
+  "createdat": "2025-06-02T22:09:49.395300738Z",
   "description": "python mcp LINE",
   "epoch": 1,
   "id": "3791bb07-364f-431c-acf4-331007c52571",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/amornpan/servers/py-mcp-line/meta",
-  "modifiedat": "2025-06-02T20:45:44.382245587Z",
+  "modifiedat": "2025-06-02T22:09:49.395300738Z",
   "name": "io.github.amornpan/py-mcp-line",
   "packages": [
     {

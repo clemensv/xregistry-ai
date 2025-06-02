@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:39.062915461Z",
+  "createdat": "2025-06-02T22:09:44.212086575Z",
   "description": "",
   "epoch": 1,
   "id": "7d8aa739-c9c6-4afd-991b-cf425be475db",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:39.062915461Z",
+  "modifiedat": "2025-06-02T22:09:44.212086575Z",
   "name": "io.github.gongrzhe/travel-planner-mcp-server",
   "packages": [
     {

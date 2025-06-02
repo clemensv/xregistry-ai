@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:16.361625789Z",
+  "createdat": "2025-06-02T22:10:21.357639029Z",
   "description": "An MCP server for Anki",
   "epoch": 1,
   "id": "1cc26407-7ab5-44dd-b5a2-99efd6fcb757",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/scorzeth/servers/anki-mcp-server/meta",
-  "modifiedat": "2025-06-02T20:46:16.361625789Z",
+  "modifiedat": "2025-06-02T22:10:21.357639029Z",
   "name": "io.github.scorzeth/anki-mcp-server",
   "packages": [
     {

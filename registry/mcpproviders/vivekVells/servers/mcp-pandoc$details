@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:25.601101218Z",
+  "createdat": "2025-06-02T22:10:30.611737251Z",
   "description": "MCP server for document format conversion using pandoc.",
   "epoch": 1,
   "id": "a0f6fd01-5eb2-4aca-b4a6-c67eb6e0c5da",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/vivekVells/servers/mcp-pandoc/meta",
-  "modifiedat": "2025-06-02T20:46:25.601101218Z",
+  "modifiedat": "2025-06-02T22:10:30.611737251Z",
   "name": "io.github.vivekvells/mcp-pandoc",
   "packages": [
     {

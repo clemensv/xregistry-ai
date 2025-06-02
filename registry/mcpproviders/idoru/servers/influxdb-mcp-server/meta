@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:56.85649381Z",
+  "createdat": "2025-06-02T22:10:01.872374637Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/idoru/servers/influxdb-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:56.85649381Z",
+  "modifiedat": "2025-06-02T22:10:01.872374637Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/idoru/servers/influxdb-mcp-server/meta",
   "serverid": "influxdb-mcp-server",

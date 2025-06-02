@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:44.859143743Z",
+  "createdat": "2025-06-02T22:09:49.869903387Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/apappascs/servers/mcp-servers-hub/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:44.859143743Z",
+  "modifiedat": "2025-06-02T22:09:49.869903387Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/apappascs/servers/mcp-servers-hub/meta",
   "serverid": "mcp-servers-hub",

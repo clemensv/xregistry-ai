@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:26.376205706Z",
+  "createdat": "2025-06-02T22:10:31.389907071Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/whataboutyou-ai/servers/eunomia-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:26.376205706Z",
+  "modifiedat": "2025-06-02T22:10:31.389907071Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/whataboutyou-ai/servers/eunomia-mcp-server/meta",
   "serverid": "eunomia-mcp-server",

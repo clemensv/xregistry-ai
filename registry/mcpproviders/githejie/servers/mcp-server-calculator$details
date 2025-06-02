@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:54.122405897Z",
+  "createdat": "2025-06-02T22:09:59.242192926Z",
   "description": "A Model Context Protocol server for calculating.",
   "epoch": 1,
   "id": "87cf029b-441f-439a-aae9-9ef27ddd4322",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/githejie/servers/mcp-server-calculator/meta",
-  "modifiedat": "2025-06-02T20:45:54.122405897Z",
+  "modifiedat": "2025-06-02T22:09:59.242192926Z",
   "name": "io.github.githejie/mcp-server-calculator",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:21.629334214Z",
+  "createdat": "2025-06-02T22:10:26.649203711Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/taazkareem/servers/clickup-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:21.629334214Z",
+  "modifiedat": "2025-06-02T22:10:26.649203711Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/taazkareem/servers/clickup-mcp-server/meta",
   "serverid": "clickup-mcp-server",

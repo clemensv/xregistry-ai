@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:13.244154682Z",
+  "createdat": "2025-06-02T22:10:18.251604523Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/r-huijts/servers/strava-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:13.244154682Z",
+  "modifiedat": "2025-06-02T22:10:18.251604523Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/r-huijts/servers/strava-mcp/meta",
   "serverid": "strava-mcp",

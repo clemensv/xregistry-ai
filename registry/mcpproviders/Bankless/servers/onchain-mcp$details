@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:36.792941879Z",
+  "createdat": "2025-06-02T22:09:42.003061957Z",
   "description": "Bringing the bankless onchain API to MCP",
   "epoch": 1,
   "id": "2535daf3-637b-40d1-a4c2-41ef60a726b8",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/Bankless/servers/onchain-mcp/meta",
-  "modifiedat": "2025-06-02T20:45:36.792941879Z",
+  "modifiedat": "2025-06-02T22:09:42.003061957Z",
   "name": "io.github.bankless/onchain-mcp",
   "packages": [
     {

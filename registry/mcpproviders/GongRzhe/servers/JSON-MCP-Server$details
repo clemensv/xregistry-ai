@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:38.773149138Z",
+  "createdat": "2025-06-02T22:09:43.937841203Z",
   "description": "JSON handling and processing mcp server",
   "epoch": 1,
   "id": "7e73a81a-e914-4cf7-aff2-482d0047e8dd",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/JSON-MCP-Server/meta",
-  "modifiedat": "2025-06-02T20:45:38.773149138Z",
+  "modifiedat": "2025-06-02T22:09:43.937841203Z",
   "name": "io.github.gongrzhe/json-mcp-server",
   "packages": [
     {

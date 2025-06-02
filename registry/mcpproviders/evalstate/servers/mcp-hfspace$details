@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:52.235790471Z",
+  "createdat": "2025-06-02T22:09:57.271784984Z",
   "description": "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode. ",
   "epoch": 1,
   "id": "532d7690-7a65-470f-81da-2ba3042bee05",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/evalstate/servers/mcp-hfspace/meta",
-  "modifiedat": "2025-06-02T20:45:52.235790471Z",
+  "modifiedat": "2025-06-02T22:09:57.271784984Z",
   "name": "io.github.evalstate/mcp-hfspace",
   "packages": [
     {

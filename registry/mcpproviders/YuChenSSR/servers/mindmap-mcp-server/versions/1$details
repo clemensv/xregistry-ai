@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:42.837023943Z",
+  "createdat": "2025-06-02T22:09:47.888886053Z",
   "description": "mindmap, mcp server, artifact",
   "epoch": 1,
   "id": "7f9416dd-34cf-4f0d-bcfb-c87cbee3abf6",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:42.837023943Z",
+  "modifiedat": "2025-06-02T22:09:47.888886053Z",
   "name": "io.github.yuchenssr/mindmap-mcp-server",
   "packages": [
     {

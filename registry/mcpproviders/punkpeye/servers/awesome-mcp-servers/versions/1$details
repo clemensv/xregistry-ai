@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:11.744855212Z",
+  "createdat": "2025-06-02T22:10:16.778810688Z",
   "description": "A collection of MCP servers.",
   "epoch": 1,
   "id": "fedddd78-b4fc-4bf9-96a2-021779348acf",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:11.744855212Z",
+  "modifiedat": "2025-06-02T22:10:16.778810688Z",
   "name": "io.github.punkpeye/awesome-mcp-servers",
   "packages": [
     {

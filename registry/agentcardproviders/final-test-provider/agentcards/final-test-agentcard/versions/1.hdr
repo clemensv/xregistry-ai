@@ -4,10 +4,10 @@ content-location:https://mcpxreg.com/registry/agentcardproviders/final-test-prov
 content-type:text/plain; charset=utf-8
 xregistry-agentcardid:final-test-agentcard
 xregistry-ancestor:1
-xregistry-createdat:2025-06-02T20:45:35.854982818Z
+xregistry-createdat:2025-06-02T22:09:41.065760745Z
 xregistry-epoch:1
 xregistry-isdefault:true
-xregistry-modifiedat:2025-06-02T20:45:35.854982818Z
+xregistry-modifiedat:2025-06-02T22:09:41.065760745Z
 xregistry-self:https://mcpxreg.com/registry/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1
 xregistry-versionid:1
 xregistry-xid:/agentcardproviders/final-test-provider/agentcards/final-test-agentcard/versions/1

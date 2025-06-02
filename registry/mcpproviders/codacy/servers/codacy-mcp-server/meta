@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:49.047274482Z",
+  "createdat": "2025-06-02T22:09:54.064747831Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/codacy/servers/codacy-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:49.047274482Z",
+  "modifiedat": "2025-06-02T22:09:54.064747831Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/codacy/servers/codacy-mcp-server/meta",
   "serverid": "codacy-mcp-server",

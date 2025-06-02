@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:40.583796019Z",
+  "createdat": "2025-06-02T22:09:45.680883813Z",
   "description": "",
   "epoch": 1,
   "id": "f6ee7600-c27a-4210-9a94-29a35c41c274",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/MindscapeHQ/servers/mcp-server-raygun/meta",
-  "modifiedat": "2025-06-02T20:45:40.583796019Z",
+  "modifiedat": "2025-06-02T22:09:45.680883813Z",
   "name": "io.github.mindscapehq/mcp-server-raygun",
   "packages": [
     {

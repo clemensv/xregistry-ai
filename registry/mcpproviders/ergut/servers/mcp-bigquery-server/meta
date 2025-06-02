@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:52.041513349Z",
+  "createdat": "2025-06-02T22:09:57.077469309Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ergut/servers/mcp-bigquery-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:52.041513349Z",
+  "modifiedat": "2025-06-02T22:09:57.077469309Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ergut/servers/mcp-bigquery-server/meta",
   "serverid": "mcp-bigquery-server",

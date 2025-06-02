@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:06.243441961Z",
+  "createdat": "2025-06-02T22:10:11.229239608Z",
   "description": "",
   "epoch": 1,
   "id": "4f189cdd-04a5-47f6-b87b-7d38cc82e625",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/mem0ai/servers/mem0-mcp/meta",
-  "modifiedat": "2025-06-02T20:46:06.243441961Z",
+  "modifiedat": "2025-06-02T22:10:11.229239608Z",
   "name": "io.github.mem0ai/mem0-mcp",
   "packages": [
     {

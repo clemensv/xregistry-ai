@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:42.61328681Z",
+  "createdat": "2025-06-02T22:09:47.679154749Z",
   "description": "A Model Context Protocol (MCP) server that enables natural language queries to databases",
   "epoch": 1,
   "id": "a33de229-5e89-468d-aa2a-570b0f6e3dfa",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/XGenerationLab/servers/xiyan_mcp_server/meta",
-  "modifiedat": "2025-06-02T20:45:42.61328681Z",
+  "modifiedat": "2025-06-02T22:09:47.679154749Z",
   "name": "io.github.xgenerationlab/xiyan_mcp_server",
   "packages": [
     {

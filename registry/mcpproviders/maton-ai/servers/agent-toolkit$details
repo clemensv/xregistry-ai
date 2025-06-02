@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:05.099050681Z",
+  "createdat": "2025-06-02T22:10:10.058799452Z",
   "description": "",
   "epoch": 1,
   "id": "a7cfde04-fae7-4b2c-bcef-c752525a057e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/maton-ai/servers/agent-toolkit/meta",
-  "modifiedat": "2025-06-02T20:46:05.099050681Z",
+  "modifiedat": "2025-06-02T22:10:10.058799452Z",
   "name": "io.github.maton-ai/agent-toolkit",
   "packages": [
     {

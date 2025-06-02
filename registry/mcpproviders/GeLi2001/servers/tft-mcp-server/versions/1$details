@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:38.639919698Z",
+  "createdat": "2025-06-02T22:09:43.804501622Z",
   "description": "",
   "epoch": 1,
   "id": "1aa1e801-80d9-4ea1-80c2-e7d037ce98e3",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:38.639919698Z",
+  "modifiedat": "2025-06-02T22:09:43.804501622Z",
   "name": "io.github.geli2001/tft-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:11.989218389Z",
+  "createdat": "2025-06-02T22:10:17.022160848Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/pydantic/servers/logfire-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:11.989218389Z",
+  "modifiedat": "2025-06-02T22:10:17.022160848Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/pydantic/servers/logfire-mcp/meta",
   "serverid": "logfire-mcp",

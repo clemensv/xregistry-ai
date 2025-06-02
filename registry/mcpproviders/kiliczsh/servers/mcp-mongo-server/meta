@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:00.003833773Z",
+  "createdat": "2025-06-02T22:10:04.948153821Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kiliczsh/servers/mcp-mongo-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:00.003833773Z",
+  "modifiedat": "2025-06-02T22:10:04.948153821Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kiliczsh/servers/mcp-mongo-server/meta",
   "serverid": "mcp-mongo-server",

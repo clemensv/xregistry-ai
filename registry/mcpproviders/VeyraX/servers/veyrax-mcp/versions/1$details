@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:42.402143054Z",
+  "createdat": "2025-06-02T22:09:47.477993219Z",
   "description": "",
   "epoch": 1,
   "id": "2cc83e0a-3ca5-4e21-b346-83254cc72e1f",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:42.402143054Z",
+  "modifiedat": "2025-06-02T22:09:47.477993219Z",
   "name": "io.github.veyrax/veyrax-mcp",
   "packages": [
     {

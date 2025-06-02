@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:50.515445709Z",
+  "createdat": "2025-06-02T22:09:55.564336058Z",
   "description": "DevHub CMS LLM integration through the Model Context Protocol",
   "epoch": 1,
   "id": "1743c861-7e1a-42b2-a300-6059fcd82cb9",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/devhub/servers/devhub-cms-mcp/meta",
-  "modifiedat": "2025-06-02T20:45:50.515445709Z",
+  "modifiedat": "2025-06-02T22:09:55.564336058Z",
   "name": "io.github.devhub/devhub-cms-mcp",
   "packages": [
     {

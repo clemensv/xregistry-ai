@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:06.461997791Z",
+  "createdat": "2025-06-02T22:10:11.449458328Z",
   "description": "Official Firecrawl MCP Server - Adds powerful web scraping to Cursor, Claude and any other LLM clients.",
   "epoch": 1,
   "id": "13b91785-9041-468d-a136-e6c9e9dd7be9",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:06.461997791Z",
+  "modifiedat": "2025-06-02T22:10:11.449458328Z",
   "name": "io.github.mendableai/firecrawl-mcp-server",
   "packages": [
     {

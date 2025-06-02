@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:50.807212244Z",
+  "createdat": "2025-06-02T22:09:55.846766398Z",
   "description": "",
   "epoch": 1,
   "id": "7997496a-c366-4949-9ca7-6741bcfdf2a0",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:50.807212244Z",
+  "modifiedat": "2025-06-02T22:09:55.846766398Z",
   "name": "io.github.djannot/puppeteer-vision-mcp",
   "packages": [
     {

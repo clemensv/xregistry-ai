@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:51.770517535Z",
+  "createdat": "2025-06-02T22:09:56.802629026Z",
   "description": "",
   "epoch": 1,
   "id": "1b8a16d9-0648-4790-b853-d919a6be16e9",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/elastic/servers/mcp-server-elasticsearch/meta",
-  "modifiedat": "2025-06-02T20:45:51.770517535Z",
+  "modifiedat": "2025-06-02T22:09:56.802629026Z",
   "name": "io.github.elastic/mcp-server-elasticsearch",
   "packages": [
     {

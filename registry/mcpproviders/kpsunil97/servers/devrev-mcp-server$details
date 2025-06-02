@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:00.891057571Z",
+  "createdat": "2025-06-02T22:10:05.841554919Z",
   "description": "",
   "epoch": 1,
   "id": "8b17658e-2a1b-4ca7-a1ae-583e7b190bce",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kpsunil97/servers/devrev-mcp-server/meta",
-  "modifiedat": "2025-06-02T20:46:00.891057571Z",
+  "modifiedat": "2025-06-02T22:10:05.841554919Z",
   "name": "io.github.kpsunil97/devrev-mcp-server",
   "packages": [
     {

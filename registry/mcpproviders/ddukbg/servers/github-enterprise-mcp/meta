@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:50.035298539Z",
+  "createdat": "2025-06-02T22:09:55.061655142Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ddukbg/servers/github-enterprise-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:50.035298539Z",
+  "modifiedat": "2025-06-02T22:09:55.061655142Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ddukbg/servers/github-enterprise-mcp/meta",
   "serverid": "github-enterprise-mcp",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:37.855744544Z",
+  "createdat": "2025-06-02T22:09:43.048262028Z",
   "description": "A Model Context Protocol server allows to interact with Twitter, enabling posting tweets and searching Twitter.",
   "epoch": 1,
   "id": "ccb9aa0c-bbf5-46e6-a5f0-a5b4c11d519a",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:37.855744544Z",
+  "modifiedat": "2025-06-02T22:09:43.048262028Z",
   "name": "io.github.enescinr/twitter-mcp",
   "packages": [
     {

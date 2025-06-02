@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:59.850522034Z",
+  "createdat": "2025-06-02T22:10:04.795896295Z",
   "description": "MCP server for interacting with RabbitMQ",
   "epoch": 1,
   "id": "edf43b88-36a4-4f07-9d46-cab08bd418aa",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kenliao94/servers/mcp-server-rabbitmq/meta",
-  "modifiedat": "2025-06-02T20:45:59.850522034Z",
+  "modifiedat": "2025-06-02T22:10:04.795896295Z",
   "name": "io.github.kenliao94/mcp-server-rabbitmq",
   "packages": [
     {

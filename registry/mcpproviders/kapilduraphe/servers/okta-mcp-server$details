@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:59.290674618Z",
+  "createdat": "2025-06-02T22:10:04.240620409Z",
   "description": "Okta MCP Server",
   "epoch": 1,
   "id": "618671cb-8783-47c7-a81c-164f5f9e2cc1",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kapilduraphe/servers/okta-mcp-server/meta",
-  "modifiedat": "2025-06-02T20:45:59.290674618Z",
+  "modifiedat": "2025-06-02T22:10:04.240620409Z",
   "name": "io.github.kapilduraphe/okta-mcp-server",
   "packages": [
     {

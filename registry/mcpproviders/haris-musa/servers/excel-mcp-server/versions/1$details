@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:55.665588619Z",
+  "createdat": "2025-06-02T22:10:00.689198418Z",
   "description": "A Model Context Protocol server for Excel file manipulation",
   "epoch": 1,
   "id": "2a5c04e4-0526-492b-aa98-49896e033b74",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:55.665588619Z",
+  "modifiedat": "2025-06-02T22:10:00.689198418Z",
   "name": "io.github.haris-musa/excel-mcp-server",
   "packages": [
     {

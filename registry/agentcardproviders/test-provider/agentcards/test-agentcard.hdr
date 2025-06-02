@@ -4,11 +4,11 @@ content-location:https://mcpxreg.com/registry/agentcardproviders/test-provider/a
 content-type:text/plain; charset=utf-8
 xregistry-agentcardid:test-agentcard
 xregistry-ancestor:1
-xregistry-createdat:2025-06-02T20:45:35.896008984Z
+xregistry-createdat:2025-06-02T22:09:41.108313348Z
 xregistry-epoch:1
 xregistry-isdefault:true
 xregistry-metaurl:https://mcpxreg.com/registry/agentcardproviders/test-provider/agentcards/test-agentcard/meta
-xregistry-modifiedat:2025-06-02T20:45:35.896008984Z
+xregistry-modifiedat:2025-06-02T22:09:41.108313348Z
 xregistry-self:https://mcpxreg.com/registry/agentcardproviders/test-provider/agentcards/test-agentcard
 xregistry-versionid:1
 xregistry-versionscount:1

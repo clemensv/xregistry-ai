@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:56.310685406Z",
+  "createdat": "2025-06-02T22:10:01.321064285Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/honeycombio/servers/honeycomb-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:56.310685406Z",
+  "modifiedat": "2025-06-02T22:10:01.321064285Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/honeycombio/servers/honeycomb-mcp/meta",
   "serverid": "honeycomb-mcp",

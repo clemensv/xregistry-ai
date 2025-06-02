@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:09.885167509Z",
+  "createdat": "2025-06-02T22:10:14.938689278Z",
   "description": "Official Oxylabs MCP integration",
   "epoch": 1,
   "id": "4632fbcb-d313-4e26-ad1d-aea8f57524f7",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/oxylabs/servers/oxylabs-mcp/meta",
-  "modifiedat": "2025-06-02T20:46:09.885167509Z",
+  "modifiedat": "2025-06-02T22:10:14.938689278Z",
   "name": "io.github.oxylabs/oxylabs-mcp",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:47.801205336Z",
+  "createdat": "2025-06-02T22:09:52.814189289Z",
   "description": "A MCP server for the stock market data API, Alphavantage API.",
   "epoch": 1,
   "id": "cac9fd2a-2c08-441f-a94d-16c67821221f",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/calvernaz/servers/alphavantage/meta",
-  "modifiedat": "2025-06-02T20:45:47.801205336Z",
+  "modifiedat": "2025-06-02T22:09:52.814189289Z",
   "name": "io.github.calvernaz/alphavantage",
   "packages": [
     {

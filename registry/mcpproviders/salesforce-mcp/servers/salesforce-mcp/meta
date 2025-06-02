@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:16.11805059Z",
+  "createdat": "2025-06-02T22:10:21.109314409Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/salesforce-mcp/servers/salesforce-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:16.11805059Z",
+  "modifiedat": "2025-06-02T22:10:21.109314409Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/salesforce-mcp/servers/salesforce-mcp/meta",
   "serverid": "salesforce-mcp",

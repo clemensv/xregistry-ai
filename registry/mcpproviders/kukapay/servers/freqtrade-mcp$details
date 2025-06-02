@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:01.510933121Z",
+  "createdat": "2025-06-02T22:10:06.455619411Z",
   "description": "An MCP server that integrates with the Freqtrade cryptocurrency trading bot.",
   "epoch": 1,
   "id": "573c235f-93d7-45a3-9f23-b1166a660c97",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/freqtrade-mcp/meta",
-  "modifiedat": "2025-06-02T20:46:01.510933121Z",
+  "modifiedat": "2025-06-02T22:10:06.455619411Z",
   "name": "io.github.kukapay/freqtrade-mcp",
   "packages": [
     {

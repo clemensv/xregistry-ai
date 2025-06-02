@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:48.116944618Z",
+  "createdat": "2025-06-02T22:09:53.125796626Z",
   "description": "directory for Awesome MCP Servers",
   "epoch": 1,
   "id": "53bef572-b137-447a-bb2f-9fdd37926619",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:48.116944618Z",
+  "modifiedat": "2025-06-02T22:09:53.125796626Z",
   "name": "io.github.chatmcp/mcp-directory",
   "packages": [
     {

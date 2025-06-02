@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:03.324891805Z",
+  "createdat": "2025-06-02T22:10:08.282717117Z",
   "description": "⚡️ Open-source AI-powered CLI for web \u0026 mobile localization. Bring your own LLM or use Lingo.dev-managed localization engine.",
   "epoch": 1,
   "id": "1e2d718a-95b0-460b-8e57-86feec5356ce",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/lingodotdev/servers/lingo.dev/meta",
-  "modifiedat": "2025-06-02T20:46:03.324891805Z",
+  "modifiedat": "2025-06-02T22:10:08.282717117Z",
   "name": "io.github.lingodotdev/lingo.dev",
   "packages": [
     {

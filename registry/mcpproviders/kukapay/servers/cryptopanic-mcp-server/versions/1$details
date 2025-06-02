@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:01.307773006Z",
+  "createdat": "2025-06-02T22:10:06.252903791Z",
   "description": "Provide latest cryptocurrency news to AI agents.",
   "epoch": 1,
   "id": "91f75500-0051-4d05-a5b2-9a87aa52ec3a",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:01.307773006Z",
+  "modifiedat": "2025-06-02T22:10:06.252903791Z",
   "name": "io.github.kukapay/cryptopanic-mcp-server",
   "packages": [
     {

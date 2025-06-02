@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:11.628835889Z",
+  "createdat": "2025-06-02T22:10:16.665824043Z",
   "description": "MCP server for Hugging Face dataset viewer",
   "epoch": 1,
   "id": "200d7310-6d18-4b22-98b3-68ae63ea985a",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:11.628835889Z",
+  "modifiedat": "2025-06-02T22:10:16.665824043Z",
   "name": "io.github.privetin/dataset-viewer",
   "packages": [
     {

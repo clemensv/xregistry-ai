@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:48.870219437Z",
+  "createdat": "2025-06-02T22:09:53.888645764Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/co-browser/servers/attestable-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:48.870219437Z",
+  "modifiedat": "2025-06-02T22:09:53.888645764Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/co-browser/servers/attestable-mcp-server/meta",
   "serverid": "attestable-mcp-server",

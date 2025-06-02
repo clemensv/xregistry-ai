@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:54.612958736Z",
+  "createdat": "2025-06-02T22:09:59.704278697Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/goplausible/servers/algorand-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:54.612958736Z",
+  "modifiedat": "2025-06-02T22:09:59.704278697Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/goplausible/servers/algorand-mcp/meta",
   "serverid": "algorand-mcp",

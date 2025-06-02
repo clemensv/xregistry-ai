@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:21.385070401Z",
+  "createdat": "2025-06-02T22:10:26.405498937Z",
   "description": "A Model Context Protocol (MCP) server that provides access to the DBLP computer science bibliography database for Large Language Models.",
   "epoch": 1,
   "id": "5a9955bc-6c28-4ebd-974e-73226eb3e58f",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/szeider/servers/mcp-dblp/meta",
-  "modifiedat": "2025-06-02T20:46:21.385070401Z",
+  "modifiedat": "2025-06-02T22:10:26.405498937Z",
   "name": "io.github.szeider/mcp-dblp",
   "packages": [
     {

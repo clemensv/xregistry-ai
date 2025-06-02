@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:50.693098354Z",
+  "createdat": "2025-06-02T22:09:55.73971127Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/dinghuazhou/servers/sample-mcp-server-tos/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:50.693098354Z",
+  "modifiedat": "2025-06-02T22:09:55.73971127Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/dinghuazhou/servers/sample-mcp-server-tos/meta",
   "serverid": "sample-mcp-server-tos",

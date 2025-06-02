@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:52.549202191Z",
+  "createdat": "2025-06-02T22:09:57.580558089Z",
   "description": "",
   "epoch": 1,
   "id": "3d7c6822-88bd-4569-a099-1e58b9b365b0",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/fastnai/servers/mcp-fastn/meta",
-  "modifiedat": "2025-06-02T20:45:52.549202191Z",
+  "modifiedat": "2025-06-02T22:09:57.580558089Z",
   "name": "io.github.fastnai/mcp-fastn",
   "packages": [
     {

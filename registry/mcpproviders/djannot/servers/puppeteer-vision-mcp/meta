@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:50.807212244Z",
+  "createdat": "2025-06-02T22:09:55.846766398Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/djannot/servers/puppeteer-vision-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:50.807212244Z",
+  "modifiedat": "2025-06-02T22:09:55.846766398Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/djannot/servers/puppeteer-vision-mcp/meta",
   "serverid": "puppeteer-vision-mcp",

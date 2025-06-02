@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:27.330946459Z",
+  "createdat": "2025-06-02T22:10:32.337744091Z",
   "description": "",
   "epoch": 1,
   "id": "ae6d4cd8-c930-4737-9aba-93609f53cde1",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/yangkyeongmo/servers/mcp-server-apache-airflow/meta",
-  "modifiedat": "2025-06-02T20:46:27.330946459Z",
+  "modifiedat": "2025-06-02T22:10:32.337744091Z",
   "name": "io.github.yangkyeongmo/mcp-server-apache-airflow",
   "packages": [
     {

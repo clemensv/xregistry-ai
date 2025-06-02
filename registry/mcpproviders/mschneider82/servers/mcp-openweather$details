@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:07.715520025Z",
+  "createdat": "2025-06-02T22:10:12.727416102Z",
   "description": "mcp server for openweather free api",
   "epoch": 1,
   "id": "54a7e4fa-a7d1-476f-bd25-2f417766c3b5",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/mschneider82/servers/mcp-openweather/meta",
-  "modifiedat": "2025-06-02T20:46:07.715520025Z",
+  "modifiedat": "2025-06-02T22:10:12.727416102Z",
   "name": "io.github.mschneider82/mcp-openweather",
   "packages": [
     {

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:54.397514101Z",
+  "createdat": "2025-06-02T22:09:59.504271931Z",
   "description": "The leading agentic finance toolkit for AI agents",
   "epoch": 1,
   "id": "6e61849a-2312-4c76-a9d0-0a4b84a7795e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/goat-sdk/servers/goat/meta",
-  "modifiedat": "2025-06-02T20:45:54.397514101Z",
+  "modifiedat": "2025-06-02T22:09:59.504271931Z",
   "name": "io.github.goat-sdk/goat",
   "packages": [
     {

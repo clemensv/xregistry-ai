@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:28.557383674Z",
+  "createdat": "2025-06-02T22:10:33.559413421Z",
   "description": "MCP server to connect an MCP client (Cursor, Claude Desktop etc) with your ZenML MLOps and LLMOps pipelines",
   "epoch": 1,
   "id": "64fdea5a-9fe3-4492-b9fb-6260e6c3dc34",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:28.557383674Z",
+  "modifiedat": "2025-06-02T22:10:33.559413421Z",
   "name": "io.github.zenml-io/mcp-zenml",
   "packages": [
     {

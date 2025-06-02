@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:24.05018004Z",
+  "createdat": "2025-06-02T22:10:29.061545424Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/unibaseio/servers/membase-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:24.05018004Z",
+  "modifiedat": "2025-06-02T22:10:29.061545424Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/unibaseio/servers/membase-mcp/meta",
   "serverid": "membase-mcp",

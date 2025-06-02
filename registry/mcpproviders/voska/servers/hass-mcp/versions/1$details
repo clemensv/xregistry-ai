@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:25.888700683Z",
+  "createdat": "2025-06-02T22:10:30.893733313Z",
   "description": "Home Assistant MCP Server",
   "epoch": 1,
   "id": "67c71178-8632-4d67-abad-c28f6e58c87f",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:25.888700683Z",
+  "modifiedat": "2025-06-02T22:10:30.893733313Z",
   "name": "io.github.voska/hass-mcp",
   "packages": [
     {

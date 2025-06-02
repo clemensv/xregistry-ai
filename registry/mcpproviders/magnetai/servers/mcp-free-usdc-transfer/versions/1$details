@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:04.280754427Z",
+  "createdat": "2025-06-02T22:10:09.224799558Z",
   "description": "MCP (Model Context Protocol) server - free usdc transfer powered by Coinbase CDP",
   "epoch": 1,
   "id": "c3123664-33b3-4f29-bc08-40b88300f57c",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:04.280754427Z",
+  "modifiedat": "2025-06-02T22:10:09.224799558Z",
   "name": "io.github.magnetai/mcp-free-usdc-transfer",
   "packages": [
     {

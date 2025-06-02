@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:51.612230566Z",
+  "createdat": "2025-06-02T22:09:56.642312813Z",
   "description": "",
   "epoch": 1,
   "id": "7c870985-c457-4221-8088-977680764f70",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/edgee-cloud/servers/mcp-server-edgee/meta",
-  "modifiedat": "2025-06-02T20:45:51.612230566Z",
+  "modifiedat": "2025-06-02T22:09:56.642312813Z",
   "name": "io.github.edgee-cloud/mcp-server-edgee",
   "packages": [
     {

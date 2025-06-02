@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:38.907329451Z",
+  "createdat": "2025-06-02T22:09:44.059977541Z",
   "description": "A Model Context Protocol server for generating charts using QuickChart.io  . It allows you to create various types of charts through MCP tools.",
   "epoch": 1,
   "id": "904d15ba-e312-4dec-88b6-f52c1077bc96",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:38.907329451Z",
+  "modifiedat": "2025-06-02T22:09:44.059977541Z",
   "name": "io.github.gongrzhe/quickchart-mcp-server",
   "packages": [
     {

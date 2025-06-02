@@ -1,11 +1,11 @@
 {
   "agentcardid": "reimbursement",
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:35.812470195Z",
+  "createdat": "2025-06-02T22:09:41.022086824Z",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/agentcardproviders/contoso.com/agentcards/reimbursement/meta",
-  "modifiedat": "2025-06-02T20:45:35.812470195Z",
+  "modifiedat": "2025-06-02T22:09:41.022086824Z",
   "self": "https://mcpxreg.com/registry/agentcardproviders/contoso.com/agentcards/reimbursement",
   "versionid": "1",
   "versionscount": 1,

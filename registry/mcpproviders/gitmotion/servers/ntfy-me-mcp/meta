@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:54.21284964Z",
+  "createdat": "2025-06-02T22:09:59.330503513Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/gitmotion/servers/ntfy-me-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:54.21284964Z",
+  "modifiedat": "2025-06-02T22:09:59.330503513Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/gitmotion/servers/ntfy-me-mcp/meta",
   "serverid": "ntfy-me-mcp",

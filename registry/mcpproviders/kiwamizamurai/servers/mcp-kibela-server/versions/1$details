@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:00.194115808Z",
+  "createdat": "2025-06-02T22:10:05.145322092Z",
   "description": "MCP server implementation for Kibela API integration",
   "epoch": 1,
   "id": "984ee65a-dec0-4a75-b21b-2efbcd9600bd",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:00.194115808Z",
+  "modifiedat": "2025-06-02T22:10:05.145322092Z",
   "name": "io.github.kiwamizamurai/mcp-kibela-server",
   "packages": [
     {

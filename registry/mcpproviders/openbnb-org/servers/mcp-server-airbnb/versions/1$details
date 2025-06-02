@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:09.280958851Z",
+  "createdat": "2025-06-02T22:10:14.32605418Z",
   "description": "",
   "epoch": 1,
   "id": "1101c394-e912-42b6-85be-d2479b72d27f",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:09.280958851Z",
+  "modifiedat": "2025-06-02T22:10:14.32605418Z",
   "name": "io.github.openbnb-org/mcp-server-airbnb",
   "packages": [
     {

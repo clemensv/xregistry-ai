@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:10.701731297Z",
+  "createdat": "2025-06-02T22:10:15.740834655Z",
   "description": "python MCP NAVER",
   "epoch": 1,
   "id": "f10c234b-cf64-4dc2-9e38-5f57e53aeecb",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:10.701731297Z",
+  "modifiedat": "2025-06-02T22:10:15.740834655Z",
   "name": "io.github.pfldy2850/py-mcp-naver",
   "packages": [
     {

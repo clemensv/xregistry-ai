@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:14.370810941Z",
+  "createdat": "2025-06-02T22:10:19.366898755Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/reading-plus-ai/servers/mcp-server-deep-research/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:14.370810941Z",
+  "modifiedat": "2025-06-02T22:10:19.366898755Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/reading-plus-ai/servers/mcp-server-deep-research/meta",
   "serverid": "mcp-server-deep-research",

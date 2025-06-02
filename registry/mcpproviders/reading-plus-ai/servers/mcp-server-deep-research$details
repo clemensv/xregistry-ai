@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:14.370810941Z",
+  "createdat": "2025-06-02T22:10:19.366898755Z",
   "description": "",
   "epoch": 1,
   "id": "79f72036-83ee-4420-9767-980e27590e6f",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/reading-plus-ai/servers/mcp-server-deep-research/meta",
-  "modifiedat": "2025-06-02T20:46:14.370810941Z",
+  "modifiedat": "2025-06-02T22:10:19.366898755Z",
   "name": "io.github.reading-plus-ai/mcp-server-deep-research",
   "packages": [
     {

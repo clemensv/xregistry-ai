@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:21.758676813Z",
+  "createdat": "2025-06-02T22:10:26.779703049Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/tacticlaunch/servers/mcp-linear/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:21.758676813Z",
+  "modifiedat": "2025-06-02T22:10:26.779703049Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/tacticlaunch/servers/mcp-linear/meta",
   "serverid": "mcp-linear",

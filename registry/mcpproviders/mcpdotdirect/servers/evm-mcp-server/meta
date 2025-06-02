@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:05.305416408Z",
+  "createdat": "2025-06-02T22:10:10.275300268Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mcpdotdirect/servers/evm-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:05.305416408Z",
+  "modifiedat": "2025-06-02T22:10:10.275300268Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/mcpdotdirect/servers/evm-mcp-server/meta",
   "serverid": "evm-mcp-server",

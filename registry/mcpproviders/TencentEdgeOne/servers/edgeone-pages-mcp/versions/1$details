@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:42.080961677Z",
+  "createdat": "2025-06-02T22:09:47.167778112Z",
   "description": "An MCP service designed for deploying HTML content to EdgeOne Pages and obtaining an accessible public URL.",
   "epoch": 1,
   "id": "f97607ba-eb50-4258-b46c-ce9fc6587fa9",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:45:42.080961677Z",
+  "modifiedat": "2025-06-02T22:09:47.167778112Z",
   "name": "io.github.tencentedgeone/edgeone-pages-mcp",
   "packages": [
     {

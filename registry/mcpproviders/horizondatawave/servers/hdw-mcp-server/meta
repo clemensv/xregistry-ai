@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:45:56.397492081Z",
+  "createdat": "2025-06-02T22:10:01.408481218Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/horizondatawave/servers/hdw-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:45:56.397492081Z",
+  "modifiedat": "2025-06-02T22:10:01.408481218Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/horizondatawave/servers/hdw-mcp-server/meta",
   "serverid": "hdw-mcp-server",

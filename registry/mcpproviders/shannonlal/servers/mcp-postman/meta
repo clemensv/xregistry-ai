@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:17.138718839Z",
+  "createdat": "2025-06-02T22:10:22.129976737Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/shannonlal/servers/mcp-postman/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:17.138718839Z",
+  "modifiedat": "2025-06-02T22:10:22.129976737Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/shannonlal/servers/mcp-postman/meta",
   "serverid": "mcp-postman",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T20:46:24.199741115Z",
+  "createdat": "2025-06-02T22:10:29.214777026Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/unifai-network/servers/unifai-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T20:46:24.199741115Z",
+  "modifiedat": "2025-06-02T22:10:29.214777026Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/unifai-network/servers/unifai-mcp-server/meta",
   "serverid": "unifai-mcp-server",

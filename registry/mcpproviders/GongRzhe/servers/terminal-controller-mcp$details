@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:45:39.338427537Z",
+  "createdat": "2025-06-02T22:09:44.493078257Z",
   "description": "A Model Context Protocol (MCP) server that enables secure terminal command execution, directory navigation, and file system operations through a standardized interface.",
   "epoch": 1,
   "id": "6275eefc-3f97-4a30-85ca-9678de62bdcf",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/GongRzhe/servers/terminal-controller-mcp/meta",
-  "modifiedat": "2025-06-02T20:45:39.338427537Z",
+  "modifiedat": "2025-06-02T22:09:44.493078257Z",
   "name": "io.github.gongrzhe/terminal-controller-mcp",
   "packages": [
     {

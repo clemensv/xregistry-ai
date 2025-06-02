@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:07.066610459Z",
+  "createdat": "2025-06-02T22:10:12.065532867Z",
   "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Physical Devices)",
   "epoch": 1,
   "id": "6fefc93f-3f03-47b0-9f42-21d5a5841490",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:07.066610459Z",
+  "modifiedat": "2025-06-02T22:10:12.065532867Z",
   "name": "io.github.mobile-next/mobile-mcp",
   "packages": [
     {

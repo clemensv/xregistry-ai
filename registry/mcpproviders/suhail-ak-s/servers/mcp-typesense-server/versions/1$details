@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T20:46:20.651826486Z",
+  "createdat": "2025-06-02T22:10:25.682167495Z",
   "description": "",
   "epoch": 1,
   "id": "a038d159-c51e-49ef-aa02-c794e8a5cb94",
   "isdefault": true,
-  "modifiedat": "2025-06-02T20:46:20.651826486Z",
+  "modifiedat": "2025-06-02T22:10:25.682167495Z",
   "name": "io.github.suhail-ak-s/mcp-typesense-server",
   "packages": [
     {
