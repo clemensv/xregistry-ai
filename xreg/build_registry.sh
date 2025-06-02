@@ -221,18 +221,26 @@ docker exec "${CONTAINER_ID}" find /workspace/registry -name "index.json" | head
 
 echo "Now creating entries..."
 docker exec "${CONTAINER_ID}" /bin/sh -c '
- REGISTRY_DIR=/workspace/registry
- find $REGISTRY_DIR -type f -name index.json | while read file; do
-   path=${file#"$REGISTRY_DIR"/}
-   path=${path%/index.json}
-   echo "Creating entry for path: /$path from file: $file"
-   /xr create "/$path" -d "@$file" -s localhost:8080
-   if [ $? -ne 0 ]; then
-     echo "Error processing file: $file"
-   else
-     echo "Successfully processed file: $file"
-   fi 
- done
+REGISTRY_DIR=/workspace/registry
+
+# Find all index.json files, sort them, and process by depth (group level first, then resource level)
+find $REGISTRY_DIR -type f -name index.json | \
+sed "s|^$REGISTRY_DIR/||" | \
+sort | \
+awk -F/ "{print NF-1, \$0}" | \
+sort -n -k1,1 | \
+cut -d" " -f2- | \
+while read relative_path; do
+  file="$REGISTRY_DIR/$relative_path"
+  path=${relative_path%/index.json}
+  echo "Creating entry for path: /$path from file: $file"
+  /xr create "/$path" -d "@$file" -s localhost:8080
+  if [ $? -ne 0 ]; then
+    echo "Error processing file: $file"
+  else
+    echo "Successfully processed file: $file"
+  fi 
+done
 '
 
 # Export the live data as a tarball
