@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:49.245831083Z",
+  "createdat": "2026-06-10T07:40:40.900255565Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/zueai/servers/mcp-manager/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:49.245831083Z",
+  "modifiedat": "2026-06-10T07:40:40.900255565Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/zueai/servers/mcp-manager/meta",
   "serverid": "mcp-manager",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:42.994133686Z",
+  "createdat": "2026-06-10T07:40:34.66187526Z",
   "description": "",
   "epoch": 1,
   "id": "9c7c309a-fb3c-4099-b461-0ca725c9083b",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:42.994133686Z",
+  "modifiedat": "2026-06-10T07:40:34.66187526Z",
   "name": "io.github.taidgh-robinson/nba-mcp-server",
   "packages": [
     {

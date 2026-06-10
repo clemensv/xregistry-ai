@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:07.154963424Z",
+  "createdat": "2026-06-10T07:39:58.243923453Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/TermiX-official/servers/bsc-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:07.154963424Z",
+  "modifiedat": "2026-06-10T07:39:58.243923453Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/TermiX-official/servers/bsc-mcp/meta",
   "serverid": "bsc-mcp",

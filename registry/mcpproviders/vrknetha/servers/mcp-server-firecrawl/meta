@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:46.692537227Z",
+  "createdat": "2026-06-10T07:40:38.352063415Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/vrknetha/servers/mcp-server-firecrawl/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:46.692537227Z",
+  "modifiedat": "2026-06-10T07:40:38.352063415Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/vrknetha/servers/mcp-server-firecrawl/meta",
   "serverid": "mcp-server-firecrawl",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:11.291654601Z",
+  "createdat": "2026-06-10T07:40:02.488848149Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/bazinga012/servers/mcp_code_executor/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:11.291654601Z",
+  "modifiedat": "2026-06-10T07:40:02.488848149Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/bazinga012/servers/mcp_code_executor/meta",
   "serverid": "mcp_code_executor",

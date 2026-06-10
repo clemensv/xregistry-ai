@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:47.283236666Z",
+  "createdat": "2026-06-10T07:40:38.943403005Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/wong2/servers/awesome-mcp-servers/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:47.283236666Z",
+  "modifiedat": "2026-06-10T07:40:38.943403005Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/wong2/servers/awesome-mcp-servers/meta",
   "serverid": "awesome-mcp-servers",

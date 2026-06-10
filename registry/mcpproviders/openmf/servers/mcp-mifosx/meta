@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:31.780822846Z",
+  "createdat": "2026-06-10T07:40:23.348838363Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/openmf/servers/mcp-mifosx/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:31.780822846Z",
+  "modifiedat": "2026-06-10T07:40:23.348838363Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/openmf/servers/mcp-mifosx/meta",
   "serverid": "mcp-mifosx",

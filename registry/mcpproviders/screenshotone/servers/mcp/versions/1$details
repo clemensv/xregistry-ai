@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:38.082698327Z",
+  "createdat": "2026-06-10T07:40:29.726315228Z",
   "description": "A simple implementation of an MCP server for the ScreenshotOne API",
   "epoch": 1,
   "id": "87c7dec1-1b0c-414b-9f7b-7a113e67989d",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:38.082698327Z",
+  "modifiedat": "2026-06-10T07:40:29.726315228Z",
   "name": "io.github.screenshotone/mcp",
   "packages": [
     {

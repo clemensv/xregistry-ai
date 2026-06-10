@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:41.929455705Z",
+  "createdat": "2026-06-10T07:40:33.602964102Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/sunsetcoder/servers/flightradar24-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:41.929455705Z",
+  "modifiedat": "2026-06-10T07:40:33.602964102Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/sunsetcoder/servers/flightradar24-mcp-server/meta",
   "serverid": "flightradar24-mcp-server",

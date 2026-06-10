@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:15.832789578Z",
+  "createdat": "2026-06-10T07:40:07.142336746Z",
   "description": "",
   "epoch": 1,
   "id": "1b8a16d9-0648-4790-b853-d919a6be16e9",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:15.832789578Z",
+  "modifiedat": "2026-06-10T07:40:07.142336746Z",
   "name": "io.github.elastic/mcp-server-elasticsearch",
   "packages": [
     {

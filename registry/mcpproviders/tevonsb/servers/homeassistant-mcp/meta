@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:43.713059473Z",
+  "createdat": "2026-06-10T07:40:35.387520131Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/tevonsb/servers/homeassistant-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:43.713059473Z",
+  "modifiedat": "2026-06-10T07:40:35.387520131Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/tevonsb/servers/homeassistant-mcp/meta",
   "serverid": "homeassistant-mcp",

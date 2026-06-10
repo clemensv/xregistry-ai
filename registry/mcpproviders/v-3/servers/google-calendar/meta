@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:45.303196427Z",
+  "createdat": "2026-06-10T07:40:36.984636373Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/v-3/servers/google-calendar/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:45.303196427Z",
+  "modifiedat": "2026-06-10T07:40:36.984636373Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/v-3/servers/google-calendar/meta",
   "serverid": "google-calendar",

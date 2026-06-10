@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:41.320556452Z",
+  "createdat": "2026-06-10T07:40:32.996821269Z",
   "description": "Python and TypeScript library for integrating the Stripe API into agentic workflows",
   "epoch": 1,
   "id": "5200c733-db46-48ba-a870-c1de02cf3e07",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:41.320556452Z",
+  "modifiedat": "2026-06-10T07:40:32.996821269Z",
   "name": "io.github.stripe/agent-toolkit",
   "packages": [
     {

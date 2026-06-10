@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:15.538071568Z",
+  "createdat": "2026-06-10T07:40:06.847789632Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/dynatrace-oss/servers/dynatrace-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:15.538071568Z",
+  "modifiedat": "2026-06-10T07:40:06.847789632Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/dynatrace-oss/servers/dynatrace-mcp/meta",
   "serverid": "dynatrace-mcp",

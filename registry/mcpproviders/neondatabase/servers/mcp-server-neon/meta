@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:30.794793999Z",
+  "createdat": "2026-06-10T07:40:22.343900704Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/neondatabase/servers/mcp-server-neon/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:30.794793999Z",
+  "modifiedat": "2026-06-10T07:40:22.343900704Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/neondatabase/servers/mcp-server-neon/meta",
   "serverid": "mcp-server-neon",

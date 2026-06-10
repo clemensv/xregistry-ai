@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:20.283650103Z",
+  "createdat": "2026-06-10T07:40:11.642542742Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ibm/servers/wxflows/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:20.283650103Z",
+  "modifiedat": "2026-06-10T07:40:11.642542742Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ibm/servers/wxflows/meta",
   "serverid": "wxflows",

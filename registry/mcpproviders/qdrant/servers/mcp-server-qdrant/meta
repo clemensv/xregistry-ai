@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:34.294856326Z",
+  "createdat": "2026-06-10T07:40:25.910671057Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/qdrant/servers/mcp-server-qdrant/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:34.294856326Z",
+  "modifiedat": "2026-06-10T07:40:25.910671057Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/qdrant/servers/mcp-server-qdrant/meta",
   "serverid": "mcp-server-qdrant",

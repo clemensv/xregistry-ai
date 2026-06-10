@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:10.185902171Z",
+  "createdat": "2026-06-10T07:40:01.348519104Z",
   "description": "",
   "epoch": 1,
   "id": "a81b1d9e-c1a5-4848-a3f5-350ea2872ae3",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/asusevski/servers/opendota-mcp-server/meta",
-  "modifiedat": "2026-06-10T06:40:10.185902171Z",
+  "modifiedat": "2026-06-10T07:40:01.348519104Z",
   "name": "io.github.asusevski/opendota-mcp-server",
   "packages": [
     {

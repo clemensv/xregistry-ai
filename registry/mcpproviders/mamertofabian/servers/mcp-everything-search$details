@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:27.396892814Z",
+  "createdat": "2026-06-10T07:40:18.803046919Z",
   "description": "",
   "epoch": 1,
   "id": "c6f8403f-30d0-45d2-b7c3-95a6cb61c4b4",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/mamertofabian/servers/mcp-everything-search/meta",
-  "modifiedat": "2026-06-10T06:40:27.396892814Z",
+  "modifiedat": "2026-06-10T07:40:18.803046919Z",
   "name": "io.github.mamertofabian/mcp-everything-search",
   "packages": [
     {

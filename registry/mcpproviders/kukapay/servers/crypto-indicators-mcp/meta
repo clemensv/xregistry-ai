@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:24.166498979Z",
+  "createdat": "2026-06-10T07:40:15.561201408Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:24.166498979Z",
+  "modifiedat": "2026-06-10T07:40:15.561201408Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/crypto-indicators-mcp/meta",
   "serverid": "crypto-indicators-mcp",

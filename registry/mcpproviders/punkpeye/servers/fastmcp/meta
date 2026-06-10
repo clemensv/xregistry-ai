@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:33.92644683Z",
+  "createdat": "2026-06-10T07:40:25.532131083Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/punkpeye/servers/fastmcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:33.92644683Z",
+  "modifiedat": "2026-06-10T07:40:25.532131083Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/punkpeye/servers/fastmcp/meta",
   "serverid": "fastmcp",

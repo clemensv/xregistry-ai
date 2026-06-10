@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:31.314766198Z",
+  "createdat": "2026-06-10T07:40:22.875066651Z",
   "description": "MCP Server for OceanBase database and its tools",
   "epoch": 1,
   "id": "afe07206-691c-4bfb-bf17-8a39014cf4a7",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/oceanbase/servers/mcp-oceanbase/meta",
-  "modifiedat": "2026-06-10T06:40:31.314766198Z",
+  "modifiedat": "2026-06-10T07:40:22.875066651Z",
   "name": "io.github.oceanbase/mcp-oceanbase",
   "packages": [
     {

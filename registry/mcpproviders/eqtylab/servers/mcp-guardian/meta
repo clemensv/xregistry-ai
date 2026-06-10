@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:15.999555188Z",
+  "createdat": "2026-06-10T07:40:07.311485909Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/eqtylab/servers/mcp-guardian/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:15.999555188Z",
+  "modifiedat": "2026-06-10T07:40:07.311485909Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/eqtylab/servers/mcp-guardian/meta",
   "serverid": "mcp-guardian",

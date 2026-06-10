@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:43.601158186Z",
+  "createdat": "2026-06-10T07:40:35.272928102Z",
   "description": "A test MCP server for validating the xregistry-ai issue workflow",
   "epoch": 1,
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/test-provider/servers/test-server/meta",
-  "modifiedat": "2026-06-10T06:40:43.601158186Z",
+  "modifiedat": "2026-06-10T07:40:35.272928102Z",
   "name": "io.github.clemensv/xregistry-ai/test-mcp-server",
   "registries": [
     {

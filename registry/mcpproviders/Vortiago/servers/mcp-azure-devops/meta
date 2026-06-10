@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:07.441254935Z",
+  "createdat": "2026-06-10T07:39:58.535275136Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/Vortiago/servers/mcp-azure-devops/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:07.441254935Z",
+  "modifiedat": "2026-06-10T07:39:58.535275136Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/Vortiago/servers/mcp-azure-devops/meta",
   "serverid": "mcp-azure-devops",

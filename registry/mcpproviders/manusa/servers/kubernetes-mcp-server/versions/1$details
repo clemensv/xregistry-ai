@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:27.514800858Z",
+  "createdat": "2026-06-10T07:40:18.919999203Z",
   "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
   "epoch": 1,
   "id": "4a097d31-ea39-43aa-9af5-6f19a7676901",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:27.514800858Z",
+  "modifiedat": "2026-06-10T07:40:18.919999203Z",
   "name": "io.github.manusa/kubernetes-mcp-server",
   "packages": [
     {

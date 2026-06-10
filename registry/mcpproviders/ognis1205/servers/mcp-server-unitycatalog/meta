@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:31.414629257Z",
+  "createdat": "2026-06-10T07:40:22.981162435Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:31.414629257Z",
+  "modifiedat": "2026-06-10T07:40:22.981162435Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ognis1205/servers/mcp-server-unitycatalog/meta",
   "serverid": "mcp-server-unitycatalog",

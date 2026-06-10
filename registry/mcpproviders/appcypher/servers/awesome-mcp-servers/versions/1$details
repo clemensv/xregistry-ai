@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:09.92099521Z",
+  "createdat": "2026-06-10T07:40:01.085674481Z",
   "description": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
   "epoch": 1,
   "id": "0007544a-3948-4934-866b-b4a96fe53b55",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:09.92099521Z",
+  "modifiedat": "2026-06-10T07:40:01.085674481Z",
   "name": "io.github.appcypher/awesome-mcp-servers",
   "packages": [
     {

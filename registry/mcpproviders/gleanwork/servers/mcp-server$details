@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:18.130356776Z",
+  "createdat": "2026-06-10T07:40:09.464676787Z",
   "description": "MCP server for Glean API integration",
   "epoch": 1,
   "id": "3e50df21-8223-440d-bad9-dfc9ce117af4",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/gleanwork/servers/mcp-server/meta",
-  "modifiedat": "2026-06-10T06:40:18.130356776Z",
+  "modifiedat": "2026-06-10T07:40:09.464676787Z",
   "name": "io.github.gleanwork/mcp-server",
   "packages": [
     {

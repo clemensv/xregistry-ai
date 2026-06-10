@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:14.098715225Z",
+  "createdat": "2026-06-10T07:40:05.345182743Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/datastax/servers/astra-db-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:14.098715225Z",
+  "modifiedat": "2026-06-10T07:40:05.345182743Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/datastax/servers/astra-db-mcp/meta",
   "serverid": "astra-db-mcp",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:15.12095076Z",
+  "createdat": "2026-06-10T07:40:06.409014368Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/dogukanakkaya/servers/pulumi-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:15.12095076Z",
+  "modifiedat": "2026-06-10T07:40:06.409014368Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/dogukanakkaya/servers/pulumi-mcp-server/meta",
   "serverid": "pulumi-mcp-server",

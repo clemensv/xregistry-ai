@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:09.703229626Z",
+  "createdat": "2026-06-10T07:40:00.86829108Z",
   "description": "Model Context Protocol (MCP) Server for Apify's Actors",
   "epoch": 1,
   "id": "195dfdbd-bb15-4752-80b6-abc9212cd80f",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:09.703229626Z",
+  "modifiedat": "2026-06-10T07:40:00.86829108Z",
   "name": "io.github.apify/actors-mcp-server",
   "packages": [
     {

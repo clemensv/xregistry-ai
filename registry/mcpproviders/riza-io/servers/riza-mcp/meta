@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:37.037560523Z",
+  "createdat": "2026-06-10T07:40:28.675996676Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/riza-io/servers/riza-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:37.037560523Z",
+  "modifiedat": "2026-06-10T07:40:28.675996676Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/riza-io/servers/riza-mcp/meta",
   "serverid": "riza-mcp",

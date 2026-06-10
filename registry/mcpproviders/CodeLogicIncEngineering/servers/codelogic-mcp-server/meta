@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:02.74034702Z",
+  "createdat": "2026-06-10T07:39:53.690284534Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/CodeLogicIncEngineering/servers/codelogic-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:02.74034702Z",
+  "modifiedat": "2026-06-10T07:39:53.690284534Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/CodeLogicIncEngineering/servers/codelogic-mcp-server/meta",
   "serverid": "codelogic-mcp-server",

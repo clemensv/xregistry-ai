@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:43.357071738Z",
+  "createdat": "2026-06-10T07:40:35.02825215Z",
   "description": "",
   "epoch": 1,
   "id": "dd3f5299-5869-43ec-89a8-77e25e6a157e",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:43.357071738Z",
+  "modifiedat": "2026-06-10T07:40:35.02825215Z",
   "name": "io.github.teddyzxcv/ntfy-mcp",
   "packages": [
     {

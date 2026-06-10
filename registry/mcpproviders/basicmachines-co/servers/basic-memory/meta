@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:11.217597387Z",
+  "createdat": "2026-06-10T07:40:02.412829985Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/basicmachines-co/servers/basic-memory/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:11.217597387Z",
+  "modifiedat": "2026-06-10T07:40:02.412829985Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/basicmachines-co/servers/basic-memory/meta",
   "serverid": "basic-memory",

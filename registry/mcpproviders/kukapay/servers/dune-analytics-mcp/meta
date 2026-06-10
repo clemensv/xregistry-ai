@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:24.436667974Z",
+  "createdat": "2026-06-10T07:40:15.832565632Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:24.436667974Z",
+  "modifiedat": "2026-06-10T07:40:15.832565632Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/dune-analytics-mcp/meta",
   "serverid": "dune-analytics-mcp",

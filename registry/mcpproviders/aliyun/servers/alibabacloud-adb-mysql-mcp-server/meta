@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:08.896452681Z",
+  "createdat": "2026-06-10T07:40:00.054547611Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:08.896452681Z",
+  "modifiedat": "2026-06-10T07:40:00.054547611Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/aliyun/servers/alibabacloud-adb-mysql-mcp-server/meta",
   "serverid": "alibabacloud-adb-mysql-mcp-server",

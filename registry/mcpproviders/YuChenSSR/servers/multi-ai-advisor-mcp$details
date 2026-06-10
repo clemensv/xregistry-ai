@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:07.825432192Z",
+  "createdat": "2026-06-10T07:39:58.943908812Z",
   "description": "council of models for decision",
   "epoch": 1,
   "id": "abcce212-b3e1-4741-a8b3-86c95c276fb1",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/YuChenSSR/servers/multi-ai-advisor-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:07.825432192Z",
+  "modifiedat": "2026-06-10T07:39:58.943908812Z",
   "name": "io.github.yuchenssr/multi-ai-advisor-mcp",
   "packages": [
     {

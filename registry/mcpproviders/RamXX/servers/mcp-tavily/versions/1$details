@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:06.469418628Z",
+  "createdat": "2026-06-10T07:39:57.547820553Z",
   "description": "An MCP server for Tavily's search API",
   "epoch": 1,
   "id": "bdeb1cca-49ce-476a-87a2-f27c30b086bd",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:06.469418628Z",
+  "modifiedat": "2026-06-10T07:39:57.547820553Z",
   "name": "io.github.ramxx/mcp-tavily",
   "packages": [
     {

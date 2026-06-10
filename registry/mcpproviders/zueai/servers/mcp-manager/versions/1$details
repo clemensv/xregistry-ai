@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:49.245831083Z",
+  "createdat": "2026-06-10T07:40:40.900255565Z",
   "description": "simple web ui to manage mcp (model context protocol) servers in the claude app",
   "epoch": 1,
   "id": "3288499d-b820-45c9-8abf-60c050c5c741",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:49.245831083Z",
+  "modifiedat": "2026-06-10T07:40:40.900255565Z",
   "name": "io.github.zueai/mcp-manager",
   "packages": [
     {

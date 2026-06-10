@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:09.852055645Z",
+  "createdat": "2026-06-10T07:40:01.016764176Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/apimatic/servers/apimatic-validator-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:09.852055645Z",
+  "modifiedat": "2026-06-10T07:40:01.016764176Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/apimatic/servers/apimatic-validator-mcp/meta",
   "serverid": "apimatic-validator-mcp",

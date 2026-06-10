@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:45.64711205Z",
+  "createdat": "2026-06-10T07:40:37.317921707Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/varunneal/servers/spotify-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:45.64711205Z",
+  "modifiedat": "2026-06-10T07:40:37.317921707Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/varunneal/servers/spotify-mcp/meta",
   "serverid": "spotify-mcp",

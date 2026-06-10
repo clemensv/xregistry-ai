@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:42.994133686Z",
+  "createdat": "2026-06-10T07:40:34.66187526Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/taidgh-robinson/servers/nba-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:42.994133686Z",
+  "modifiedat": "2026-06-10T07:40:34.66187526Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/taidgh-robinson/servers/nba-mcp-server/meta",
   "serverid": "nba-mcp-server",

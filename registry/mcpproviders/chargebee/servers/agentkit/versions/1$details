@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:12.446208818Z",
+  "createdat": "2026-06-10T07:40:03.668027038Z",
   "description": "Seamlessly integrate AI agents with Chargebee using AgentKit for smarter billing and subscription workflows.",
   "epoch": 1,
   "id": "59a97c76-20ff-48a2-8c1d-89cc66b57697",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:12.446208818Z",
+  "modifiedat": "2026-06-10T07:40:03.668027038Z",
   "name": "io.github.chargebee/agentkit",
   "packages": [
     {

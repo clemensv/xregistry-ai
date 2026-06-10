@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:16.361621311Z",
+  "createdat": "2026-06-10T07:40:07.68280257Z",
   "description": "Claude can perform Web Search | Exa with MCP (Model Context Protocol)",
   "epoch": 1,
   "id": "2a2aa283-57c8-474f-8a27-27954214cb6b",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/exa-labs/servers/exa-mcp-server/meta",
-  "modifiedat": "2026-06-10T06:40:16.361621311Z",
+  "modifiedat": "2026-06-10T07:40:07.68280257Z",
   "name": "io.github.exa-labs/exa-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:10.063262278Z",
+  "createdat": "2026-06-10T07:40:01.220088189Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/arize-ai/servers/phoenix/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:10.063262278Z",
+  "modifiedat": "2026-06-10T07:40:01.220088189Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/arize-ai/servers/phoenix/meta",
   "serverid": "phoenix",

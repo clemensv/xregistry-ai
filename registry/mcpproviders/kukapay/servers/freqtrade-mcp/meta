@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:24.528813986Z",
+  "createdat": "2026-06-10T07:40:15.926542107Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/freqtrade-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:24.528813986Z",
+  "modifiedat": "2026-06-10T07:40:15.926542107Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kukapay/servers/freqtrade-mcp/meta",
   "serverid": "freqtrade-mcp",

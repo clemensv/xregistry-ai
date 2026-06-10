@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:28.896957975Z",
+  "createdat": "2026-06-10T07:40:20.400798953Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mem0ai/servers/mem0-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:28.896957975Z",
+  "modifiedat": "2026-06-10T07:40:20.400798953Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/mem0ai/servers/mem0-mcp/meta",
   "serverid": "mem0-mcp",

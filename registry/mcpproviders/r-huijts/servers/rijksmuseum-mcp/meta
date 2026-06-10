@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:34.997857575Z",
+  "createdat": "2026-06-10T07:40:26.608648189Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:34.997857575Z",
+  "modifiedat": "2026-06-10T07:40:26.608648189Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/r-huijts/servers/rijksmuseum-mcp/meta",
   "serverid": "rijksmuseum-mcp",

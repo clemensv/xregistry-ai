@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:13.83659533Z",
+  "createdat": "2026-06-10T07:40:05.078430281Z",
   "description": "Helps AI assistants access text content from bot-protected websites. MCP server that fetches HTML/markdown from sites with anti-automation measures using Scrapling.",
   "epoch": 1,
   "id": "874336ad-3dfa-467f-8356-3de7d8b2b93d",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/cyberchitta/servers/scrapling-fetch-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:13.83659533Z",
+  "modifiedat": "2026-06-10T07:40:05.078430281Z",
   "name": "io.github.cyberchitta/scrapling-fetch-mcp",
   "packages": [
     {

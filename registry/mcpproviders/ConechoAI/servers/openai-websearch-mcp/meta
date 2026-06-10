@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:02.98932682Z",
+  "createdat": "2026-06-10T07:39:53.948373597Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ConechoAI/servers/openai-websearch-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:02.98932682Z",
+  "modifiedat": "2026-06-10T07:39:53.948373597Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ConechoAI/servers/openai-websearch-mcp/meta",
   "serverid": "openai-websearch-mcp",

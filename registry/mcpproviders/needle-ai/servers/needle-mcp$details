@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:30.544272772Z",
+  "createdat": "2026-06-10T07:40:22.088779974Z",
   "description": "Integration of Needle in modelcontextprotocol",
   "epoch": 1,
   "id": "be6eb263-3492-4073-b28f-0fd33d070982",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/needle-ai/servers/needle-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:30.544272772Z",
+  "modifiedat": "2026-06-10T07:40:22.088779974Z",
   "name": "io.github.needle-ai/needle-mcp",
   "packages": [
     {

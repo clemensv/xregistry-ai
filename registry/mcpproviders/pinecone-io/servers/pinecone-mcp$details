@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:33.168692468Z",
+  "createdat": "2026-06-10T07:40:24.759905819Z",
   "description": "Connect your Pinecone projects to Cursor, Claude, and other AI assistants",
   "epoch": 1,
   "id": "ed4c9613-5046-4570-8d15-209f7294ba75",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/pinecone-io/servers/pinecone-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:33.168692468Z",
+  "modifiedat": "2026-06-10T07:40:24.759905819Z",
   "name": "io.github.pinecone-io/pinecone-mcp",
   "packages": [
     {

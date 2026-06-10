@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:12.515331245Z",
+  "createdat": "2026-06-10T07:40:03.745823726Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/chatmcp/servers/mcp-directory/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:12.515331245Z",
+  "modifiedat": "2026-06-10T07:40:03.745823726Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/chatmcp/servers/mcp-directory/meta",
   "serverid": "mcp-directory",

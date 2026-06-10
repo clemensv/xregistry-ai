@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:06.880053519Z",
+  "createdat": "2026-06-10T07:39:57.963394832Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:06.880053519Z",
+  "modifiedat": "2026-06-10T07:39:57.963394832Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/Spathodea-Network/servers/opencti-mcp/meta",
   "serverid": "opencti-mcp",

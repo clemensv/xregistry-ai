@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:17.196953174Z",
+  "createdat": "2026-06-10T07:40:08.539406204Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/fireproof-storage/servers/mcp-database-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:17.196953174Z",
+  "modifiedat": "2026-06-10T07:40:08.539406204Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/fireproof-storage/servers/mcp-database-server/meta",
   "serverid": "mcp-database-server",

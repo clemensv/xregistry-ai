@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:39.410611692Z",
+  "createdat": "2026-06-10T07:40:31.083358914Z",
   "description": "MCP Salesforce connector",
   "epoch": 1,
   "id": "0e45cb5a-5b45-47f3-8b5e-12bdf88d176a",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:39.410611692Z",
+  "modifiedat": "2026-06-10T07:40:31.083358914Z",
   "name": "io.github.smn2gnt/mcp-salesforce",
   "packages": [
     {

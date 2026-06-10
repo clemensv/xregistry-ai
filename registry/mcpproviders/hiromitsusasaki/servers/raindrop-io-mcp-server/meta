@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:19.78237896Z",
+  "createdat": "2026-06-10T07:40:11.142427224Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/hiromitsusasaki/servers/raindrop-io-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:19.78237896Z",
+  "modifiedat": "2026-06-10T07:40:11.142427224Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/hiromitsusasaki/servers/raindrop-io-mcp-server/meta",
   "serverid": "raindrop-io-mcp-server",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:14.800190955Z",
+  "createdat": "2026-06-10T07:40:06.077006562Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/diegobit/servers/aranet4-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:14.800190955Z",
+  "modifiedat": "2026-06-10T07:40:06.077006562Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/diegobit/servers/aranet4-mcp-server/meta",
   "serverid": "aranet4-mcp-server",

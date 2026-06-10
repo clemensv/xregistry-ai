@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:16.247306972Z",
+  "createdat": "2026-06-10T07:40:07.567756474Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/evalstate/servers/mcp-hfspace/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:16.247306972Z",
+  "modifiedat": "2026-06-10T07:40:07.567756474Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/evalstate/servers/mcp-hfspace/meta",
   "serverid": "mcp-hfspace",

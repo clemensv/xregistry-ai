@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:21.250189272Z",
+  "createdat": "2026-06-10T07:40:12.61595747Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/its-dart/servers/dart-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:21.250189272Z",
+  "modifiedat": "2026-06-10T07:40:12.61595747Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/its-dart/servers/dart-mcp-server/meta",
   "serverid": "dart-mcp-server",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:49.359443655Z",
+  "createdat": "2026-06-10T07:40:41.015006703Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/zzaebok/servers/mcp-wikidata/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:49.359443655Z",
+  "modifiedat": "2026-06-10T07:40:41.015006703Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/zzaebok/servers/mcp-wikidata/meta",
   "serverid": "mcp-wikidata",

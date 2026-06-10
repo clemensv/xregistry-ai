@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:19.123210063Z",
+  "createdat": "2026-06-10T07:40:10.474686244Z",
   "description": "OpenAPI Schema Model Context Protocol Server",
   "epoch": 1,
   "id": "7d68a487-bc40-4783-a2eb-1c9107fc26a4",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:19.123210063Z",
+  "modifiedat": "2026-06-10T07:40:10.474686244Z",
   "name": "io.github.hannesj/mcp-openapi-schema",
   "packages": [
     {

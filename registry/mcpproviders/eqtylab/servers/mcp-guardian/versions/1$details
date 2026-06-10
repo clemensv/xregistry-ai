@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:15.999555188Z",
+  "createdat": "2026-06-10T07:40:07.311485909Z",
   "description": "Manage / Proxy / Secure your MCP Servers",
   "epoch": 1,
   "id": "04b4489b-db48-4aaa-98f6-036bcf5fd483",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:15.999555188Z",
+  "modifiedat": "2026-06-10T07:40:07.311485909Z",
   "name": "io.github.eqtylab/mcp-guardian",
   "packages": [
     {

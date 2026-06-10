@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:32.689633624Z",
+  "createdat": "2026-06-10T07:40:24.268495377Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/pathintegral-institute/servers/mcpm.sh/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:32.689633624Z",
+  "modifiedat": "2026-06-10T07:40:24.268495377Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/pathintegral-institute/servers/mcpm.sh/meta",
   "serverid": "mcpm.sh",

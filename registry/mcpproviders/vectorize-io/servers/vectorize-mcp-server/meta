@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:45.797138841Z",
+  "createdat": "2026-06-10T07:40:37.459478035Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/vectorize-io/servers/vectorize-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:45.797138841Z",
+  "modifiedat": "2026-06-10T07:40:37.459478035Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/vectorize-io/servers/vectorize-mcp-server/meta",
   "serverid": "vectorize-mcp-server",

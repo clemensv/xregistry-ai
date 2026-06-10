@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:37.375542449Z",
+  "createdat": "2026-06-10T07:40:29.016330338Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/run-llama/servers/mcp-server-llamacloud/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:37.375542449Z",
+  "modifiedat": "2026-06-10T07:40:29.016330338Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/run-llama/servers/mcp-server-llamacloud/meta",
   "serverid": "mcp-server-llamacloud",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:18.05105447Z",
+  "createdat": "2026-06-10T07:40:09.387318087Z",
   "description": "An ntfy MCP server for sending/fetching ntfy notifications to any/self-hosted ntfy.sh server from AI Agents 📤 (supports secure token auth \u0026 more - use with npx or docker!)",
   "epoch": 1,
   "id": "ba368d1c-d64d-4ecd-9bde-72304d69c4d1",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/gitmotion/servers/ntfy-me-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:18.05105447Z",
+  "modifiedat": "2026-06-10T07:40:09.387318087Z",
   "name": "io.github.gitmotion/ntfy-me-mcp",
   "packages": [
     {

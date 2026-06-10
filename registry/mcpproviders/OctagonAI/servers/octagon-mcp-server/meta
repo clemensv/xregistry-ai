@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:05.88348488Z",
+  "createdat": "2026-06-10T07:39:56.945337875Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/OctagonAI/servers/octagon-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:05.88348488Z",
+  "modifiedat": "2026-06-10T07:39:56.945337875Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/OctagonAI/servers/octagon-mcp-server/meta",
   "serverid": "octagon-mcp-server",

@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:09.266150721Z",
+  "createdat": "2026-06-10T07:40:00.434208092Z",
   "description": "An MCP server that installs other MCP servers for you",
   "epoch": 1,
   "id": "9f5885d3-fe18-483d-b7b2-f507b2f37ccb",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/anaisbetts/servers/mcp-installer/meta",
-  "modifiedat": "2026-06-10T06:40:09.266150721Z",
+  "modifiedat": "2026-06-10T07:40:00.434208092Z",
   "name": "io.github.anaisbetts/mcp-installer",
   "packages": [
     {

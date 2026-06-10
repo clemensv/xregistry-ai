@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:11.76627062Z",
+  "createdat": "2026-06-10T07:40:02.979836229Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/box-community/servers/mcp-server-box/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:11.76627062Z",
+  "modifiedat": "2026-06-10T07:40:02.979836229Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/box-community/servers/mcp-server-box/meta",
   "serverid": "mcp-server-box",

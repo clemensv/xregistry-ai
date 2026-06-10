@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:23.881112624Z",
+  "createdat": "2026-06-10T07:40:15.270806745Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/korotovsky/servers/slack-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:23.881112624Z",
+  "modifiedat": "2026-06-10T07:40:15.270806745Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/korotovsky/servers/slack-mcp-server/meta",
   "serverid": "slack-mcp-server",

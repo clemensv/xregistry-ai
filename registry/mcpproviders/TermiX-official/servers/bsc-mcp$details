@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:07.154963424Z",
+  "createdat": "2026-06-10T07:39:58.243923453Z",
   "description": "",
   "epoch": 1,
   "id": "36156772-6775-4b79-b560-b72ccaaca085",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/TermiX-official/servers/bsc-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:07.154963424Z",
+  "modifiedat": "2026-06-10T07:39:58.243923453Z",
   "name": "io.github.termix-official/bsc-mcp",
   "packages": [
     {

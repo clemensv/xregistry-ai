@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:47.5110679Z",
+  "createdat": "2026-06-10T07:40:39.170963946Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/xing5/servers/mcp-google-sheets/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:47.5110679Z",
+  "modifiedat": "2026-06-10T07:40:39.170963946Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/xing5/servers/mcp-google-sheets/meta",
   "serverid": "mcp-google-sheets",

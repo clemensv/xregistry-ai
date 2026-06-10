@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:02.150169412Z",
+  "createdat": "2026-06-10T07:39:53.077355376Z",
   "description": "Audiense Insights MCP Server is a server based on the Model Context Protocol (MCP) that allows Claude and other MCP-compatible clients to interact with your Audiense Insights account",
   "epoch": 1,
   "id": "d85fa87b-48e1-4b81-8408-9d0c446f7de3",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:02.150169412Z",
+  "modifiedat": "2026-06-10T07:39:53.077355376Z",
   "name": "io.github.audienseco/mcp-audiense-insights",
   "packages": [
     {

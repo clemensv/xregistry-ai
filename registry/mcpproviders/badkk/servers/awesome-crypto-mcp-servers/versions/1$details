@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:10.709319904Z",
+  "createdat": "2026-06-10T07:40:01.891844263Z",
   "description": "A collection of crypto MCP servers.",
   "epoch": 1,
   "id": "a9d37e55-2034-40aa-8956-4c05c52b40c7",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:10.709319904Z",
+  "modifiedat": "2026-06-10T07:40:01.891844263Z",
   "name": "io.github.badkk/awesome-crypto-mcp-servers",
   "packages": [
     {

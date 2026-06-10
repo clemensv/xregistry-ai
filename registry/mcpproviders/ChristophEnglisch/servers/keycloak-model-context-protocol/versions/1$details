@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:02.535679479Z",
+  "createdat": "2026-06-10T07:39:53.462226968Z",
   "description": "MCP server implementation for Keycloak user management. Enables AI-powered administration of Keycloak users and realms through the Model Context Protocol (MCP). Seamlessly integrates with Claude Desktop and other MCP clients for automated user operations.",
   "epoch": 1,
   "id": "ac8e4d2b-da97-4a40-934b-1c516b4250fe",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:02.535679479Z",
+  "modifiedat": "2026-06-10T07:39:53.462226968Z",
   "name": "io.github.christophenglisch/keycloak-model-context-protocol",
   "packages": [
     {

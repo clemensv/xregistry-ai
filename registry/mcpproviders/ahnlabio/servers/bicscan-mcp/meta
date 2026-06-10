@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:08.438657457Z",
+  "createdat": "2026-06-10T07:39:59.582019116Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/ahnlabio/servers/bicscan-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:08.438657457Z",
+  "modifiedat": "2026-06-10T07:39:59.582019116Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/ahnlabio/servers/bicscan-mcp/meta",
   "serverid": "bicscan-mcp",

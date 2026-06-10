@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:23.608733261Z",
+  "createdat": "2026-06-10T07:40:14.992521104Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kocierik/servers/consul-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:23.608733261Z",
+  "modifiedat": "2026-06-10T07:40:14.992521104Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kocierik/servers/consul-mcp-server/meta",
   "serverid": "consul-mcp-server",

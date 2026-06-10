@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:41.929455705Z",
+  "createdat": "2026-06-10T07:40:33.602964102Z",
   "description": "Model Context Protocol server for Flight Tracking",
   "epoch": 1,
   "id": "50b7ab52-c3d0-40bc-b342-38fa93da54ff",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:41.929455705Z",
+  "modifiedat": "2026-06-10T07:40:33.602964102Z",
   "name": "io.github.sunsetcoder/flightradar24-mcp-server",
   "packages": [
     {

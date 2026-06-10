@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:04.798098048Z",
+  "createdat": "2026-06-10T07:39:55.832655344Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/InditexTech/servers/mcp-server-simulator-ios-idb/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:04.798098048Z",
+  "modifiedat": "2026-06-10T07:39:55.832655344Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/InditexTech/servers/mcp-server-simulator-ios-idb/meta",
   "serverid": "mcp-server-simulator-ios-idb",

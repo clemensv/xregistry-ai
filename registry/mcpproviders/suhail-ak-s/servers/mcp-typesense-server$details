@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:41.785590734Z",
+  "createdat": "2026-06-10T07:40:33.458130527Z",
   "description": "",
   "epoch": 1,
   "id": "a038d159-c51e-49ef-aa02-c794e8a5cb94",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/suhail-ak-s/servers/mcp-typesense-server/meta",
-  "modifiedat": "2026-06-10T06:40:41.785590734Z",
+  "modifiedat": "2026-06-10T07:40:33.458130527Z",
   "name": "io.github.suhail-ak-s/mcp-typesense-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:27.514800858Z",
+  "createdat": "2026-06-10T07:40:18.919999203Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/manusa/servers/kubernetes-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:27.514800858Z",
+  "modifiedat": "2026-06-10T07:40:18.919999203Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/manusa/servers/kubernetes-mcp-server/meta",
   "serverid": "kubernetes-mcp-server",

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:28.776173765Z",
+  "createdat": "2026-06-10T07:40:20.289082712Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mektigboy/servers/server-hyperliquid/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:28.776173765Z",
+  "modifiedat": "2026-06-10T07:40:20.289082712Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/mektigboy/servers/server-hyperliquid/meta",
   "serverid": "server-hyperliquid",

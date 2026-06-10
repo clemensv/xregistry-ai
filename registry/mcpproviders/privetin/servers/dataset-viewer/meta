@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:33.727957861Z",
+  "createdat": "2026-06-10T07:40:25.328410807Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/dataset-viewer/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:33.727957861Z",
+  "modifiedat": "2026-06-10T07:40:25.328410807Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/privetin/servers/dataset-viewer/meta",
   "serverid": "dataset-viewer",

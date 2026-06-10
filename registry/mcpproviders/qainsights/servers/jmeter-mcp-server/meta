@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:34.19296716Z",
+  "createdat": "2026-06-10T07:40:25.808642961Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/qainsights/servers/jmeter-mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:34.19296716Z",
+  "modifiedat": "2026-06-10T07:40:25.808642961Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/qainsights/servers/jmeter-mcp-server/meta",
   "serverid": "jmeter-mcp-server",

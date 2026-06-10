@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:40.895187928Z",
+  "createdat": "2026-06-10T07:40:32.594468484Z",
   "description": "A Nasdaq Data Link MCP (Model Context Protocol) Server",
   "epoch": 1,
   "id": "9326c18e-b2fb-4012-a170-cdd5753f0b1e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/stefanoamorelli/servers/nasdaq-data-link-mcp/meta",
-  "modifiedat": "2026-06-10T06:40:40.895187928Z",
+  "modifiedat": "2026-06-10T07:40:32.594468484Z",
   "name": "io.github.stefanoamorelli/nasdaq-data-link-mcp",
   "packages": [
     {

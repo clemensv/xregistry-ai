@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:23.02941534Z",
+  "createdat": "2026-06-10T07:40:14.407065053Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/kenliao94/servers/mcp-server-rabbitmq/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:23.02941534Z",
+  "modifiedat": "2026-06-10T07:40:14.407065053Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/kenliao94/servers/mcp-server-rabbitmq/meta",
   "serverid": "mcp-server-rabbitmq",

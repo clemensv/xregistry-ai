@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:15.607350784Z",
+  "createdat": "2026-06-10T07:40:06.920635873Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/e2b-dev/servers/mcp-server/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:15.607350784Z",
+  "modifiedat": "2026-06-10T07:40:06.920635873Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/e2b-dev/servers/mcp-server/meta",
   "serverid": "mcp-server",

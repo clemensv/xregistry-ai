@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:42.774408085Z",
+  "createdat": "2026-06-10T07:40:34.442048398Z",
   "description": "MCP server that enables AI assistants to interact with Linear project management system through natural language, allowing users to retrieve, create, and update issues, projects, and teams.",
   "epoch": 1,
   "id": "a4a1013a-5789-4020-9a16-eda6c453aba7",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:42.774408085Z",
+  "modifiedat": "2026-06-10T07:40:34.442048398Z",
   "name": "io.github.tacticlaunch/mcp-linear",
   "packages": [
     {

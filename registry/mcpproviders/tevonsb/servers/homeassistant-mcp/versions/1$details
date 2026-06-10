@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:43.713059473Z",
+  "createdat": "2026-06-10T07:40:35.387520131Z",
   "description": "A MCP server for Home Assistant",
   "epoch": 1,
   "id": "b87405fe-1aae-4a7a-a4d7-cd0b5f267ad8",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:43.713059473Z",
+  "modifiedat": "2026-06-10T07:40:35.387520131Z",
   "name": "io.github.tevonsb/homeassistant-mcp",
   "packages": [
     {

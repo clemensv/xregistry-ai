@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:24.80597822Z",
+  "createdat": "2026-06-10T07:40:16.20414196Z",
   "description": "An MCP server that powers AI agents with indexed blockchain data from The Graph.",
   "epoch": 1,
   "id": "ea41dc54-96fd-41db-90ec-92a1a45e7151",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:24.80597822Z",
+  "modifiedat": "2026-06-10T07:40:16.20414196Z",
   "name": "io.github.kukapay/thegraph-mcp",
   "packages": [
     {

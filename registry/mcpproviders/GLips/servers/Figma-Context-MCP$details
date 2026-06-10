@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:03.737708013Z",
+  "createdat": "2026-06-10T07:39:54.732627172Z",
   "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
   "epoch": 1,
   "id": "e61c643c-ec01-483c-a586-20f87ab6280e",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/GLips/servers/Figma-Context-MCP/meta",
-  "modifiedat": "2026-06-10T06:40:03.737708013Z",
+  "modifiedat": "2026-06-10T07:39:54.732627172Z",
   "name": "io.github.glips/figma-context-mcp",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:41.18877677Z",
+  "createdat": "2026-06-10T07:40:32.879934121Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/stippi/servers/code-assistant/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:41.18877677Z",
+  "modifiedat": "2026-06-10T07:40:32.879934121Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/stippi/servers/code-assistant/meta",
   "serverid": "code-assistant",

@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2026-06-10T06:40:18.707687088Z",
+  "createdat": "2026-06-10T07:40:10.064391741Z",
   "description": "Model Context Protocol (MCP) Server for Graphlit Platform",
   "epoch": 1,
   "id": "e44b5cad-3801-4403-b8ee-67f3ea1cd909",
   "isdefault": true,
-  "modifiedat": "2026-06-10T06:40:18.707687088Z",
+  "modifiedat": "2026-06-10T07:40:10.064391741Z",
   "name": "io.github.graphlit/graphlit-mcp-server",
   "packages": [
     {

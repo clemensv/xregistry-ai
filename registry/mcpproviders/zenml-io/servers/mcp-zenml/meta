@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2026-06-10T06:40:48.86163976Z",
+  "createdat": "2026-06-10T07:40:40.518538764Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/zenml-io/servers/mcp-zenml/versions/1",
   "epoch": 1,
-  "modifiedat": "2026-06-10T06:40:48.86163976Z",
+  "modifiedat": "2026-06-10T07:40:40.518538764Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/zenml-io/servers/mcp-zenml/meta",
   "serverid": "mcp-zenml",
