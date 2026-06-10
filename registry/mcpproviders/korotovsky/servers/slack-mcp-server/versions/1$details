@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:10:05.736392512Z",
+  "createdat": "2026-06-10T06:40:23.881112624Z",
   "description": "The most powerful MCP Slack Server with Stdio and SSE transports, Proxy support and no permission requirements on Slack Workspace! ",
   "epoch": 1,
   "id": "1e8b16b3-9182-43a9-b4c5-07fdf8032c89",
   "isdefault": true,
-  "modifiedat": "2025-06-02T22:10:05.736392512Z",
+  "modifiedat": "2026-06-10T06:40:23.881112624Z",
   "name": "io.github.korotovsky/slack-mcp-server",
   "packages": [
     {

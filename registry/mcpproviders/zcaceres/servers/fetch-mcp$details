@@ -1,12 +1,12 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:10:33.086148425Z",
+  "createdat": "2026-06-10T06:40:48.439349288Z",
   "description": "A flexible HTTP fetching Model Context Protocol server.",
   "epoch": 1,
   "id": "c2f4ab61-b279-4cb9-932d-5f60bcd1534a",
   "isdefault": true,
   "metaurl": "https://mcpxreg.com/registry/mcpproviders/zcaceres/servers/fetch-mcp/meta",
-  "modifiedat": "2025-06-02T22:10:33.086148425Z",
+  "modifiedat": "2026-06-10T06:40:48.439349288Z",
   "name": "io.github.zcaceres/fetch-mcp",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T22:09:54.478756579Z",
+  "createdat": "2026-06-10T06:40:13.762644391Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/cyberchitta/servers/llm-context.py/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T22:09:54.478756579Z",
+  "modifiedat": "2026-06-10T06:40:13.762644391Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/cyberchitta/servers/llm-context.py/meta",
   "serverid": "llm-context.py",

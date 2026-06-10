@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:10:24.463681136Z",
+  "createdat": "2026-06-10T06:40:40.664142952Z",
   "description": "Open-source MCP Server for the Federal Reserve Economic Data",
   "epoch": 1,
   "id": "2382172a-b26a-40fc-adee-f82132b56edc",
   "isdefault": true,
-  "modifiedat": "2025-06-02T22:10:24.463681136Z",
+  "modifiedat": "2026-06-10T06:40:40.664142952Z",
   "name": "io.github.stefanoamorelli/fred-mcp-server",
   "packages": [
     {

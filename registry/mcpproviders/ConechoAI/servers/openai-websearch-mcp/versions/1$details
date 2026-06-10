@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:09:42.726624618Z",
+  "createdat": "2026-06-10T06:40:02.98932682Z",
   "description": "openai websearch tool as mcp server",
   "epoch": 1,
   "id": "531956a8-df6a-4edd-bb72-36c284c1d7c8",
   "isdefault": true,
-  "modifiedat": "2025-06-02T22:09:42.726624618Z",
+  "modifiedat": "2026-06-10T06:40:02.98932682Z",
   "name": "io.github.conechoai/openai-websearch-mcp",
   "packages": [
     {

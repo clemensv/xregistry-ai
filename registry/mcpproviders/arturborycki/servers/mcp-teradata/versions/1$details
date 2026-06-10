@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:09:50.488401077Z",
+  "createdat": "2026-06-10T06:40:10.12498397Z",
   "description": "MCP Server for Teradata database",
   "epoch": 1,
   "id": "cb9e2dc2-e335-4271-8e8d-5aff43cd389b",
   "isdefault": true,
-  "modifiedat": "2025-06-02T22:09:50.488401077Z",
+  "modifiedat": "2026-06-10T06:40:10.12498397Z",
   "name": "io.github.arturborycki/mcp-teradata",
   "packages": [
     {

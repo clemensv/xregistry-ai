@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:10:01.786035323Z",
+  "createdat": "2026-06-10T06:40:20.283650103Z",
   "description": "Examples and tutorials for building AI applications with watsonx.ai Flows Engine",
   "epoch": 1,
   "id": "16dc9c56-47bb-4604-9f37-221dd07510ed",
   "isdefault": true,
-  "modifiedat": "2025-06-02T22:10:01.786035323Z",
+  "modifiedat": "2026-06-10T06:40:20.283650103Z",
   "name": "io.github.ibm/wxflows",
   "packages": [
     {

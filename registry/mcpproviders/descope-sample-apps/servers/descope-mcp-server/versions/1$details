@@ -1,11 +1,11 @@
 {
   "ancestor": "1",
-  "createdat": "2025-06-02T22:09:55.366309254Z",
+  "createdat": "2026-06-10T06:40:14.556772917Z",
   "description": "",
   "epoch": 1,
   "id": "bac14e5d-08c4-4b69-8e40-b845632d26ed",
   "isdefault": true,
-  "modifiedat": "2025-06-02T22:09:55.366309254Z",
+  "modifiedat": "2026-06-10T06:40:14.556772917Z",
   "name": "io.github.descope-sample-apps/descope-mcp-server",
   "packages": [
     {

@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T22:10:14.580340027Z",
+  "createdat": "2026-06-10T06:40:31.874966268Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/opslevel/servers/opslevel-mcp/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T22:10:14.580340027Z",
+  "modifiedat": "2026-06-10T06:40:31.874966268Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/opslevel/servers/opslevel-mcp/meta",
   "serverid": "opslevel-mcp",

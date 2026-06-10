@@ -1,11 +1,11 @@
 {
   "compatibility": "none",
-  "createdat": "2025-06-02T22:10:12.727416102Z",
+  "createdat": "2026-06-10T06:40:30.244550131Z",
   "defaultversionid": "1",
   "defaultversionsticky": false,
   "defaultversionurl": "https://mcpxreg.com/registry/mcpproviders/mschneider82/servers/mcp-openweather/versions/1",
   "epoch": 1,
-  "modifiedat": "2025-06-02T22:10:12.727416102Z",
+  "modifiedat": "2026-06-10T06:40:30.244550131Z",
   "readonly": false,
   "self": "https://mcpxreg.com/registry/mcpproviders/mschneider82/servers/mcp-openweather/meta",
   "serverid": "mcp-openweather",
